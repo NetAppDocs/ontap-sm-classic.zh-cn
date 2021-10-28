@@ -1,0 +1,25 @@
+---
+permalink: fc-config-rhel/task_creating_aggregate.html 
+sidebar: sidebar 
+keywords: exist, aggregate, create, physical, storage, volume, create an aggregate 
+summary: 如果不想使用现有聚合，可以创建一个新聚合，以便为要配置的卷提供物理存储。 
+---
+= 创建聚合
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果不想使用现有聚合，可以创建一个新聚合，以便为要配置的卷提供物理存储。
+
+.步骤
+. 在 Web 浏览器中输入 URL ` +https://IP-address-of-cluster-management-LIF+` ，然后使用集群管理员凭据登录到 System Manager 。
+. 导航到 * 聚合 * 窗口。
+. 单击 * 创建。 *
+. 按照屏幕上的说明使用默认 RAID-DP 配置创建聚合，然后单击 * 创建 * 。
++
+image::../media/aggregate_creation_fc_rhel.gif[在 System Manager 中创建聚合屏幕]
+
+
+
+此时将使用指定的配置创建聚合，并将其添加到聚合窗口的聚合列表中。

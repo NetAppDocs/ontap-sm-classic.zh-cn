@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/concept_ldap.html 
+sidebar: sidebar 
+keywords: ldap, system, manager, configure, server, online, help, user, information 
+summary: 您可以使用 System Manager 配置集中维护用户信息的 LDAP 服务器。 
+---
+= LDAP
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 配置集中维护用户信息的 LDAP 服务器。
+
+* 相关信息 *
+
+xref:task_adding_ldap_client_configuration.adoc[添加 LDAP 客户端配置]
+
+xref:task_deleting_ldap_client_configuration.adoc[删除 LDAP 客户端配置]
+
+xref:task_editing_ldap_client_configuration.adoc[编辑 LDAP 客户端配置]

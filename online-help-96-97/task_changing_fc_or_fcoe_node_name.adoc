@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_changing_fc_or_fcoe_node_name.html 
+sidebar: sidebar 
+keywords: online, help, change, fc, fcoe, node, name, fibre, channel, san 
+summary: 如果您更换了存储系统机箱并在同一个光纤通道 SAN 中重复使用它，则在某些情况下，更换的存储系统的节点名称可能会重复。您可以使用 System Manager 更改存储系统的节点名称。 
+---
+= 更改 FC 或 FCoE 节点名称
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您更换了存储系统机箱并在同一个光纤通道 SAN 中重复使用它，则在某些情况下，更换的存储系统的节点名称可能会重复。您可以使用 System Manager 更改存储系统的节点名称。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 协议 * 窗格中，单击 * FC/FCoE* 。
+. 单击 * 编辑 * 。
+. 键入新名称，然后单击 * 确定 * 。
+
+
+* 相关信息 *
+
+xref:reference_configurationprotocolsfcp.adoc[FC/FCoE 窗口]

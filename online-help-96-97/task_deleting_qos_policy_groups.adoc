@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_deleting_qos_policy_groups.html 
+sidebar: sidebar 
+keywords: online, help, delete, qos, policy, groups, system, manager 
+summary: 您可以使用 System Manager 删除不再需要的存储服务质量（ QoS ）策略组。 
+---
+= 正在删除 QoS 策略组
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 删除不再需要的存储服务质量（ QoS ）策略组。
+
+您必须已取消分配分配分配给策略组的所有存储对象。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 策略 * 窗格中，单击 * QoS 策略组 * 。
+. 在 * QoS 策略组 * 窗口中，选择要删除的策略组，然后单击 * 删除 * 。
+. 在确认对话框中，单击 * 删除 * 。
+

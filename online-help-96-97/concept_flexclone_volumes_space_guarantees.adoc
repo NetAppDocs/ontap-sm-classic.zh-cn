@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/concept_flexclone_volumes_space_guarantees.html 
+sidebar: sidebar 
+keywords: flexcone, volume, space, guarantee, parent, initial, online, help 
+summary: FlexClone 卷从其父卷继承其初始空间保证。例如，如果从空间保证为 volume 的父卷创建 FlexClone 卷，则 FlexClone 卷的初始空间保证也为 volume 。您可以更改 FlexClone 卷的空间保证。 
+---
+= FlexClone 卷和空间保证
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FlexClone 卷从其父卷继承其初始空间保证。例如，如果从空间保证为 `volume` 的父卷创建 FlexClone 卷，则 FlexClone 卷的初始空间保证也将为 `volume` 。您可以更改 FlexClone 卷的空间保证。
+
+例如，假设您有一个 100 MB 的 FlexVol 卷，空间保证为 `volume` ，已用空间为 70 MB ，可用空间为 30 MB ，并且您将该 FlexVol 卷用作新 FlexClone 卷的父卷。新 FlexClone 卷的初始空间保证为 `volume` ，但它不需要聚合中的完整 100 MB 空间，就像复制卷一样。相反，聚合只需为克隆分配 30 MB （ 100 MB 减去 70 MB ）的可用空间。
+
+如果多个克隆具有相同的父卷，并且空间保证为 `volume` ，则它们会彼此共享相同的共享父空间，从而节省更多空间。
+
+[NOTE]
+====
+共享空间取决于是否存在共享 Snapshot 副本（用于创建 FlexClone 卷的基本 Snapshot 副本）。如果删除此共享 Snapshot 副本，则会失去 FlexClone 卷提供的空间节省。
+
+====

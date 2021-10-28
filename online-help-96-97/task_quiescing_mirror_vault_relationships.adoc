@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_quiescing_mirror_vault_relationships.html 
+sidebar: sidebar 
+keywords: quiescing, mirror, vault, relationship, system, manager, snapshot, online, help 
+summary: 在创建 Snapshot 副本之前，您可以使用 System Manager 暂停目标卷以使目标保持稳定。暂停操作可以完成镜像和存储关系的活动数据传输，并禁用以后的传输。 
+---
+= 暂停镜像和存储关系
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在创建 Snapshot 副本之前，您可以使用 System Manager 暂停目标卷以使目标保持稳定。暂停操作可以完成镜像和存储关系的活动数据传输，并禁用以后的传输。
+
+镜像和存储关系必须处于 Snapmirrored 状态。
+
+.步骤
+. 单击 * 保护 * > * 卷关系 * 。
+. 选择要暂停的镜像和存储关系，然后单击 * 操作 * > * 暂停 * 。
+. 选中确认复选框，然后单击 * 暂停 * 。
+
+
+如果没有正在进行的传输，则传输状态将显示为已暂停。如果正在进行传输，则传输不会受到影响，传输状态将显示为正在暂停，直到传输完成为止。

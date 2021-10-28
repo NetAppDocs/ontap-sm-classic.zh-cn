@@ -1,0 +1,59 @@
+---
+permalink: online-help-96-97/reference_icons_used_application_interface.html 
+sidebar: sidebar 
+keywords: icon, application, interface, dashboard, window, online, help, icon 
+summary: 您可以查看界面中的图标以快速获取有关系统和操作的信息。 
+---
+= 应用程序界面中使用的图标
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以查看界面中的图标以快速获取有关系统和操作的信息。
+
+
+
+== 信息板窗口图标
+
+查看存储系统的信息板时，您可能会看到以下图标：
+
+|===
+| 图标。 | Name | Description 
+
+
+ a| 
+image:../media/statuswarning.gif["System Manager 信息板中的警告图像"]
+ a| 
+警告
+ a| 
+存在一些小问题，但没有需要立即关注的问题。
+
+
+
+ a| 
+image:../media/statuserror.gif["System Manager 信息板中的错误图"]
+ a| 
+error
+ a| 
+可能最终导致停机从而需要关注的问题。
+
+
+
+ a| 
+image:../media/statuscritical.gif["System Manager 信息板中的严重图像"]
+ a| 
+严重
+ a| 
+存储系统未提供数据或无法联系。需要立即关注。
+
+
+
+ a| 
+image:../media/arrowright.gif["System Manager 信息板中的导航图"]
+ a| 
+链接箭头
+ a| 
+如果此信息显示在信息板窗格中的行项目旁边，则单击它会链接到另一个页面，您可以从中获取有关行项目的详细信息或对行项目进行更改。
+
+|===

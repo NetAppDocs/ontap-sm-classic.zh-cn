@@ -1,0 +1,34 @@
+---
+permalink: online-help-96-97/task_assigning_array_luns.html 
+sidebar: sidebar 
+keywords: online, help, assign, array, lun, system, manager 
+summary: 您可以使用 System Manager 将未分配的阵列 LUN 分配给现有聚合，以增加聚合的大小。 
+---
+= 正在分配阵列 LUN
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 将未分配的阵列 LUN 分配给现有聚合，以增加聚合的大小。
+
+.关于此任务
+* 如果满足以下条件，则可以分配阵列 LUN ：
++
+** 选定阵列 LUN 的容器类型必须为 "`unassigned` " 。
+** 磁盘必须连接到 HA 对中的节点。
+** 这些磁盘必须对节点可见。
+
+
+* 对于 MetroCluster 配置，不能使用 System Manager 将阵列 LUN 分配为备用磁盘。
++
+您必须改用命令行界面。
+
+
+
+.步骤
+. 单击 * 存储 * > * 聚合和磁盘 * > * 阵列 LUN* 。
+. 选择阵列 LUN ，然后单击 * 分配 * 。
+. 在 * 分配阵列 LUN* 对话框中，选择要将阵列 LUN 分配到的节点。
+. 单击 * 分配 * 。
+

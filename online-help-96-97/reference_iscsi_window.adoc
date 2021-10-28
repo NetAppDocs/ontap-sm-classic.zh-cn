@@ -1,0 +1,73 @@
+---
+permalink: online-help-96-97/reference_iscsi_window.html 
+sidebar: sidebar 
+keywords: iscsi, window, tab, command, button, storage, system, initiator, online, help 
+summary: 您可以使用 iSCSI 窗口启动或停止 iSCSI 服务，更改存储系统 iSCSI 节点名称以及创建或更改存储系统的 iSCSI 别名。您还可以为连接到存储系统的 iSCSI 启动程序添加或更改启动程序安全设置。 
+---
+= iSCSI 窗口
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 iSCSI 窗口启动或停止 iSCSI 服务，更改存储系统 iSCSI 节点名称以及创建或更改存储系统的 iSCSI 别名。您还可以为连接到存储系统的 iSCSI 启动程序添加或更改启动程序安全设置。
+
+
+
+== 选项卡
+
+* * 服务 *
++
+您可以使用 * 服务 * 选项卡启动或停止 iSCSI 服务，更改存储系统 iSCSI 节点名称以及创建或更改存储系统的 iSCSI 别名。
+
+* * 启动程序安全性 *
++
+您可以使用 * 启动程序安全性 * 选项卡为连接到存储系统的 iSCSI 启动程序添加或更改启动程序安全性设置。
+
+
+
+
+
+== 命令按钮
+
+* * 编辑 * 。
++
+打开编辑 iSCSI 服务配置对话框，在此可以更改存储系统的 iSCSI 节点名称和 iSCSI 别名。
+
+* * 启动 *
++
+启动 iSCSI 服务。
+
+* * 停止 *
++
+停止 iSCSI 服务。
+
+* * 刷新 *
++
+更新窗口中的信息。
+
+
+
+
+
+== 详细信息区域
+
+详细信息区域显示有关 iSCSI 服务状态， iSCSI 目标节点名称和 iSCSI 目标别名的信息。您可以使用此区域在网络接口上启用或禁用 iSCSI 服务。
+
+* 相关信息 *
+
+xref:task_creating_iscsi_aliases.adoc[正在创建 iSCSI 别名]
+
+xref:task_enabling_or_disabling_iscsi_service_on_storage_system_interfaces.adoc[在存储系统接口上启用或禁用 iSCSI 服务]
+
+xref:task_adding_security_method_for_iscsi_initiators.adoc[为 iSCSI 启动程序添加安全方法]
+
+xref:task_editing_default_security_settings.adoc[编辑默认安全设置]
+
+xref:task_editing_initiator_security.adoc[编辑启动程序安全性]
+
+xref:task_changing_default_initiator_authentication_method.adoc[更改默认 iSCSI 启动程序身份验证方法]
+
+xref:task_setting_default_security_for_initiators.adoc[设置 iSCSI 启动程序的默认安全性]
+
+xref:task_starting_or_stopping_iscsi_service.adoc[启动或停止 iSCSI 服务]

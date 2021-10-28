@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_editing_snapshot_policies.html 
+sidebar: sidebar 
+keywords: edit, snapshot, policies, online, help, snapmirror, copies, system, manager 
+summary: 您可以使用 System Manager 中的编辑 Snapshot 策略对话框修改现有 Snapshot 策略的详细信息，例如计划名称， SnapMirror 标签或创建的最大 Snapshot 副本数。 
+---
+= 编辑 Snapshot 策略
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 中的编辑 Snapshot 策略对话框修改现有 Snapshot 策略的详细信息，例如计划名称， SnapMirror 标签或创建的最大 Snapshot 副本数。
+
+.步骤
+. 单击 * 保护 * > * 快照策略 * 。
+. 在 * 快照策略 * 窗口中，选择要修改的 Snapshot 策略，然后单击 * 编辑 * 。
+. 在 * 编辑 Snapshot 策略 * 对话框中，选择要修改的计划，然后单击 * 编辑 * 。
+. 单击 * 确定 * 。
+. 在 * 编辑 Snapshot 策略 * 对话框中验证对选定 Snapshot 策略所做的更改，然后单击 * 保存 * 。
+

@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_editing_roles.html 
+sidebar: sidebar 
+keywords: system, manager, edit, role, access, control 
+summary: 您可以使用 System Manager 修改访问控制角色对命令或命令目录的访问权限，并将用户的访问权限限制为只能访问一组指定的命令。您还可以删除角色对默认命令目录的访问权限。 
+---
+= 编辑角色
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 修改访问控制角色对命令或命令目录的访问权限，并将用户的访问权限限制为只能访问一组指定的命令。您还可以删除角色对默认命令目录的访问权限。
+
+.步骤
+. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
+. 在 * 管理 * 窗格中，单击 * 角色 * 。
+. 在 * 角色 * 窗口中，选择要修改的角色，然后单击 * 编辑 * 。
+. 在 * 编辑角色 * 对话框中，修改角色属性，然后单击 * 修改 * 。
+. 验证您在 * 角色 * 窗口中所做的更改。
+

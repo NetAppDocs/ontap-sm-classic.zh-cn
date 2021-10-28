@@ -1,0 +1,73 @@
+---
+permalink: online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html 
+sidebar: sidebar 
+keywords: system, manager, worm, provision, storage, create, snaplock, aggregate, online, help 
+summary: '您可以使用 System Manager 手动创建 SnapLock 合规性聚合或 SnapLock 企业聚合。您可以在这些聚合上创建 SnapLock 卷，从而提供 " 一次写入，多次读取 " （ WORM ）功能。' 
+---
+= 通过手动创建 SnapLock 聚合配置存储
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 手动创建 SnapLock 合规性聚合或 SnapLock 企业聚合。您可以在这些聚合上创建 SnapLock 卷，从而提供 "`一次写入，多次读取` " （ WORM ）功能。
+
+必须已添加 SnapLock 许可证。
+
+.关于此任务
+* 在 MetroCluster 配置中，您只能创建 SnapLock 企业聚合。
+* 对于阵列 LUN ，仅支持 SnapLock 企业聚合。
+* 从 ONTAP 9.0 开始，您可以创建磁盘大小等于或大于 10 TB 的聚合。
+* 如果聚合磁盘的磁盘类型为 FSAS 或 MSATA ，并且磁盘大小等于或大于 10 TB ，则 RAID-TEC 是唯一可用于 RAID 类型的选项。
+* 从 ONTAP 9.1 开始，您可以在 AFF 平台上创建 SnapLock 聚合。
+
+
+.步骤
+. 使用以下方法之一创建 SnapLock 聚合：
++
+** 单击 * 应用程序和层 * > * 存储层 * > * 添加聚合 * 。
+** 单击 * 存储 * > * 聚合和磁盘 * > * 聚合 * > * 创建 * 。
+
+
+. 启用 * 手动创建聚合 * 选项以创建聚合。
+. 创建 SnapLock 聚合：
++
+.. 指定聚合的名称，磁盘类型以及要包含在聚合中的磁盘或分区数。
++
+创建 SnapLock Compliance 聚合后，您无法更改该聚合的名称。
+
++
+最小热备用规则将应用于磁盘大小最大的磁盘组。
+
+.. 修改聚合的 RAID 配置：
++
+... 单击 * 更改 * 。
+... 在更改 RAID 配置对话框中，指定 RAID 类型和 RAID 组大小。
++
+共享磁盘支持两种 RAID 类型： RAID-DP 和 RAID-TEC 。
+
+... 单击 * 保存 * 。
+
+
+.. 指定 SnapLock 类型。
+.. 如果尚未初始化系统 ComplianceClock ，请选中 * 初始化 ComplianceClock* 复选框。
++
+如果已在节点上初始化 ComplianceClock ，则不会显示此选项。
+
++
+[NOTE]
+====
+您必须确保当前系统时间正确。ComplianceClock 根据系统时钟进行设置。设置 ComplianceClock 后，您将无法修改或停止 ComplianceClock 。
+
+====
+.. 如果要镜像聚合，请选中 * 镜像此聚合 * 复选框。
++
+对于 MetroCluster 配置，创建未镜像聚合会受到限制。因此，默认情况下， MetroCluster 配置会启用镜像选项。
+
++
+默认情况下，对于 SnapLock Compliance 聚合，镜像选项处于禁用状态。
+
+
+
+. 单击 * 创建 * 。
+

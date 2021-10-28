@@ -1,0 +1,38 @@
+---
+permalink: expansion/task_adding_node_locked_licenses.html 
+sidebar: sidebar 
+keywords: cluster, feature, node-locked, license, entitle, functionality, add, add node-locked licenses 
+summary: 如果集群具有使用节点锁定许可证的功能，则必须确保为新节点安装节点锁定许可证。 
+---
+= 添加节点锁定许可证
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果集群中的功能使用节点锁定许可证（仅允许特定节点使用许可功能），则必须确保为新节点安装节点锁定许可证。您应在节点加入集群之前添加许可证。
+
+.步骤
+. 使用 `ssystem license add` 命令添加每个许可证密钥。
++
+[listing]
+----
+cluster1::> system license add -license-code AAAAAAAAAAAAAA
+----
+. 使用 `ssystem license show` 命令查看现有许可证。
++
+[listing]
+----
+cluster1::> system license show
+
+Serial Number: 9-99-999999
+Owner: cluster1
+Package           Type    Description           Expiration
+----------------- ------- --------------------- --------------------
+Base              site    Cluster Base License  -
+NFS               license NFS License           -
+CIFS              license CIFS License          -
+...
+----
+. 查看输出以确保为所有序列号显示节点锁定许可证，包括现有节点和新节点的序列号。
+

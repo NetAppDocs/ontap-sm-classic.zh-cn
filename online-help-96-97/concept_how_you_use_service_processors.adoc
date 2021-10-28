@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/concept_how_you_use_service_processors.html 
+sidebar: sidebar 
+keywords: understanding, service, processor, storage, system, monitor, temperature, voltage, current, fan, speed, online, help 
+summary: 服务处理器是存储系统中独立于系统的资源，可帮助您监控和管理存储系统参数，例如温度，电压，电流和风扇速度。 
+---
+= 了解服务处理器
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+服务处理器是存储系统中独立于系统的资源，可帮助您监控和管理存储系统参数，例如温度，电压，电流和风扇速度。
+
+当服务处理器检测到任何存储系统参数存在异常情况时，服务处理器将记录事件，向 ONTAP 通知问题描述，并通过电子邮件或 SNMP 陷阱生成 AutoSupport 消息。
+
+服务处理器通过 watchdog 机制监控 ONTAP ，并有助于快速故障转移到配对节点。服务处理器还会跟踪大量系统事件并将这些事件保存在日志文件中。这些事件包括启动进度，现场可更换单元（ FRU ）更改， ONTAP 生成的事件以及用户事务历史记录。
+
+服务处理器可以远程登录和管理存储系统，并且可以诊断，关闭，重新加电或重新启动系统，而不管存储系统的状态如何。此外，服务处理器还提供远程诊断功能。
+
+通过结合使用服务处理器的监控和管理功能，您可以在发生问题描述时评估存储系统，然后立即执行有效的服务操作。

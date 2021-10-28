@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_editing_ethernet_port_properties.html 
+sidebar: sidebar 
+keywords: edit, ethernet, port, settings, duplex, mode, speed, system, manager, online, help 
+summary: 您可以使用 System Manager 编辑以太网端口设置，例如双工模式和速度设置。 
+---
+= 编辑以太网端口设置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 编辑以太网端口设置，例如双工模式和速度设置。
+
+.步骤
+. 单击 * 网络 * > * 以太网端口 * 。
+. 选择物理端口，然后单击 * 编辑 * 。
+. 在 * 编辑以太网端口 * 对话框中，将双工模式和速度设置修改为 `manual` 或 `automatic` 。
+. 单击 * 编辑 * 。
+

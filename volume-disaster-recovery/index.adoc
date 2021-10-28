@@ -1,0 +1,34 @@
+---
+permalink: volume-disaster-recovery/index.html 
+sidebar: sidebar 
+keywords: content, destination, activate, volume, disaster, reactivate, source, ontap, volume disaster recovery overview 
+summary: 此内容介绍如何在发生灾难后快速激活目标卷，然后在 ONTAP 中重新激活源卷。 
+---
+= 卷灾难恢复概述
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此内容介绍如何在发生灾难后快速激活目标卷，然后在 ONTAP 中重新激活源卷。
+
+如果要按以下方式执行卷级灾难恢复操作步骤，应使用此内容：
+
+* 您正在使用运行 ONTAP 9 的集群。
+* 您是集群管理员。
+* 您已在下面配置 SnapMirror 关系 xref:../volume-disaster-prep/index.html[卷灾难恢复准备]
+* 源集群的集群管理员已声明，由于病毒感染等事件导致数据损坏或数据意外删除，源卷中的数据不可用。
+* 您希望使用 System Manager ，而不是 ONTAP 命令行界面或自动化脚本编写工具。
+* 您希望使用适用于 ONTAP 9.7 及更早版本的 _Classic_ System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"^]
+
+* 您希望使用最佳实践，而不是浏览每个可用选项。
+* 您不想阅读大量概念背景信息。
+
+
+如果这些假设与您的情况不符，或者您需要更多概念背景信息，您应查看以下资源：
+
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html["数据保护"^]
+* https://docs.netapp.com/us-en/ontap/volumes/index.html["逻辑存储管理"^]
+

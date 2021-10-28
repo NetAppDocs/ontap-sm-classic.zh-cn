@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_deleting_active_ldap_clients_svm.html 
+sidebar: sidebar 
+keywords: delete, active, ldap, client, online, help, system, manager, svm 
+summary: 如果您不希望 Storage Virtual Machine （ SVM ）与某个活动 LDAP 客户端关联，则可以使用 System Manager 删除该客户端。 
+---
+= 正在删除活动 LDAP 客户端
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您不希望 Storage Virtual Machine （ SVM ）与某个活动 LDAP 客户端关联，则可以使用 System Manager 删除该客户端。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 单击 * SVM 设置 * 选项卡。
+. 在 * 服务 * 窗格中，单击 * LDAP 配置 * 。
+. 单击 * 删除 * 。
+. 选中确认复选框，然后单击 * 删除 * 。
+

@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_quiescing_mirror_relationships.html 
+sidebar: sidebar 
+keywords: quiesce, mirror, relationship, system, manager, online, help 
+summary: 您可以使用 System Manager 暂停镜像目标以使其保持稳定，然后再创建 Snapshot 副本。暂停操作可以完成镜像关系的活动镜像传输，并禁用以后的传输。 
+---
+= 暂停镜像关系
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 暂停镜像目标以使其保持稳定，然后再创建 Snapshot 副本。暂停操作可以完成镜像关系的活动镜像传输，并禁用以后的传输。
+
+您只能暂停处于 Snapmirrored 状态的镜像关系。
+
+.步骤
+. 单击 * 保护 * > * 卷关系 * 。
+. 选择要暂停的镜像关系。
+. 单击 * 操作 * > * 暂停 * 。
+. 选中确认复选框，然后单击 * 暂停 * 。
+
+
+* 相关信息 *
+
+xref:reference_protection_window.adoc[保护窗口]

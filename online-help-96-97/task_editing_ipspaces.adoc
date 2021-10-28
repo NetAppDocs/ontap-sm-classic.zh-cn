@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_editing_ipspaces.html 
+sidebar: sidebar 
+keywords: system, manager, rename, edit, ipspace 
+summary: 您可以使用 System Manager 重命名现有 IP 空间。 
+---
+= 编辑 IP 空间
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 重命名现有 IP 空间。
+
+.关于此任务
+* 集群中的所有 IP 空间名称都必须是唯一的，并且不能包含系统保留的名称，例如本地或本地主机。
+* 无法修改系统定义的 " `Default` " IP 空间和 "`Cluster` " IP 空间。
+
+
+.步骤
+. 单击 * 网络 * > * IP 空间 * 。
+. 选择要修改的 IP 空间，然后单击 * 编辑 * 。
+. 在 * 编辑 IP 空间 * 对话框中，指定 IP 空间的新名称。
+. 单击 * 重命名 * 。
+

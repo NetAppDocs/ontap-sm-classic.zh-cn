@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_assigning_export_policies_to_qtrees.html 
+sidebar: sidebar 
+keywords: assign, export, policies, qtrees, online, help, system, manager 
+summary: 您可以导出卷上的特定 qtree ，使其可供客户端直接访问，而不是导出整个卷。您可以使用 System Manager 通过为 qtree 分配导出策略来导出 qtree 。您可以从 qtree 窗口为一个或多个 qtree 分配导出策略。 
+---
+= 为 qtree 分配导出策略
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以导出卷上的特定 qtree ，使其可供客户端直接访问，而不是导出整个卷。您可以使用 System Manager 通过为 qtree 分配导出策略来导出 qtree 。您可以从 qtree 窗口为一个或多个 qtree 分配导出策略。
+
+.步骤
+. 单击 * 存储 * > * qtree* 。
+. 从 SVM 字段的下拉菜单中选择要导出的 qtree 所在的 Storage Virtual Machine （ SVM ）。
+. 选择要为其分配导出策略的一个或多个 qtree ，然后单击 * 更改导出策略 * 。
+. 在 * 导出策略 * 对话框中，创建导出策略或选择现有导出策略。
++
+link:task_creating_export_policy.md#["创建导出策略"]
+
+. 单击 * 保存 * 。
+. 验证分配给 qtree 的导出策略及其相关导出规则是否显示在相应 qtree 的 * 详细信息 * 选项卡中。
+

@@ -1,0 +1,77 @@
+---
+permalink: online-help-96-97/reference_snmp_window.html 
+sidebar: sidebar 
+keywords: snmp, window, command, button, protocol, trap, hosts, settings, online, help 
+summary: 通过 SNMP 窗口，您可以查看系统的当前 SNMP 设置。您还可以更改系统的 SNMP 设置，启用 SNMP 协议以及添加陷阱主机。 
+---
+= SNMP 窗口
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过 SNMP 窗口，您可以查看系统的当前 SNMP 设置。您还可以更改系统的 SNMP 设置，启用 SNMP 协议以及添加陷阱主机。
+
+
+
+== 命令按钮
+
+* * 启用 / 禁用 *
++
+启用或禁用 SNMP 。
+
+* * 编辑 * 。
++
+打开编辑 SNMP 设置对话框，在此可以为存储系统指定 SNMP 社区并启用或禁用陷阱。
+
+* * 测试陷阱主机 *
++
+向所有已配置的主机发送测试陷阱，以检查此测试陷阱是否到达所有主机，以及是否已正确设置 SNMP 配置。
+
+* * 刷新 *
++
+更新窗口中的信息。
+
+
+
+
+
+== 详细信息
+
+详细信息区域显示有关存储系统的 SNMP 服务器和主机陷阱的以下信息：
+
+* * SNMP *
++
+显示 SNMP 是否已启用。
+
+* * 陷阱 *
++
+显示 SNMP 陷阱是否已启用。
+
+* * 位置 *
++
+显示 SNMP 服务器的地址。
+
+* * 联系人 *
++
+显示 SNMP 服务器的联系详细信息。
+
+* * 陷阱主机 IP 地址 *
++
+显示陷阱主机的 IP 地址。
+
+* * 社区名称 *
++
+显示 SNMP 服务器的社区名称。
+
+* * 安全名称 *
++
+显示 SNMP 服务器的安全模式。
+
+
+
+* 相关信息 *
+
+xref:task_setting_snmp_information.adoc[编辑 SNMP 信息]
+
+xref:task_enabling_or_disabling_snmp_traps.adoc[启用或禁用 SNMP 陷阱]

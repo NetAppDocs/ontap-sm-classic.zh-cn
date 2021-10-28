@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_setting_up_cluster.html 
+sidebar: sidebar 
+keywords: online, help, cluster, configuration, information, ha, pair, node, management, license, time 
+summary: 设置集群涉及收集配置信息，创建集群管理和节点管理接口，添加许可证，设置集群时间以及监控 HA 对。 
+---
+= 设置集群
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+设置集群涉及收集配置信息，创建集群管理和节点管理接口，添加许可证，设置集群时间以及监控 HA 对。

@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_kerberos_authentication_for_cifs.html 
+sidebar: sidebar 
+keywords: kerberos, authentication, cifs, server, security, level, client, online, help, microsoft, ntlm, ntlm v2 
+summary: 通过 Kerberos 身份验证，在连接到 CIFS 服务器时，客户端将协商可能的最高安全级别。但是，如果客户端无法使用 Kerberos 身份验证，则会使用 Microsoft NTLM 或 NTLM V2 向 CIFS 服务器进行身份验证。 
+---
+= CIFS 的 Kerberos 身份验证
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过 Kerberos 身份验证，在连接到 CIFS 服务器时，客户端将协商可能的最高安全级别。但是，如果客户端无法使用 Kerberos 身份验证，则会使用 Microsoft NTLM 或 NTLM V2 向 CIFS 服务器进行身份验证。

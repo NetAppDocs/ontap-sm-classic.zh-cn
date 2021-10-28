@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/concept_metrocluster_switchover_switchback.html 
+sidebar: sidebar 
+keywords: system, manafer, switchover, switchback, metrocluster, cluster, site, online, help 
+summary: 从 System Manager 9.6 开始，您可以使用 MetroCluster 切换和切回操作来允许一个集群站点接管另一个集群站点的任务。通过此功能，您可以方便地进行维护或从灾难中恢复。 
+---
+= MetroCluster 切换和切回
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+从 System Manager 9.6 开始，您可以使用 MetroCluster 切换和切回操作来允许一个集群站点接管另一个集群站点的任务。通过此功能，您可以方便地进行维护或从灾难中恢复。
+
+切换操作允许一个集群（站点 A ）接管另一个集群（站点 B ）通常执行的任务。切换后，可以关闭已接管的集群（站点 B ）以进行维护和修复。维护完成后，站点 B 将启动并完成修复任务，然后您可以启动切回操作，使修复后的集群（站点 B ）能够恢复其通常执行的任务。
+
+System Manager 支持两种切换操作，具体取决于远程集群站点的状态：
+
+* 协商（计划内）切换：当需要对集群执行计划内维护或测试灾难恢复过程时，您可以启动此操作。
+* 计划外切换：如果集群（站点 B ）发生灾难，而您希望其他站点或集群（站点 A ）在执行修复和维护期间接管受灾难影响的集群（站点 B ）的任务，则可以启动此操作。
+
+
+您可以在 System Manager 中对两个切换操作执行相同的步骤。启动切换时， System Manager 会确定此操作是否可行并相应地对齐工作负载。

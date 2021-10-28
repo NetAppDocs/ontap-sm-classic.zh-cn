@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_snapshot_configuration.html 
+sidebar: sidebar 
+keywords: online, help, snapshot, configuration, copy, policy, flexvol 
+summary: 您可以通过为现有 Snapshot 策略设置计划来配置 Snapshot 副本。从 ONTAP 9.4 开始， FlexVol 卷的 Snapshot 副本数可以少于 1024 个。 
+---
+= Snapshot 配置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以通过为现有 Snapshot 策略设置计划来配置 Snapshot 副本。从 ONTAP 9.4 开始， FlexVol 卷的 Snapshot 副本数可以少于 1024 个。

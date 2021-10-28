@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/task_monitoring_status_using_dashboard.html 
+sidebar: sidebar 
+keywords: monitor, cluster, dashboard, system, manager, online, help 
+summary: 您可以通过 System Manager 中的信息板监控集群的运行状况和性能。您还可以使用信息板确定硬件问题和存储配置问题。 
+---
+= 使用信息板监控集群
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以通过 System Manager 中的信息板监控集群的运行状况和性能。您还可以使用信息板确定硬件问题和存储配置问题。
+
+.步骤
+. 单击 * 信息板 * 选项卡以查看运行状况和性能信息板面板。
+

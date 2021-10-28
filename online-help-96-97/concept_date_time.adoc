@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_date_time.html 
+sidebar: sidebar 
+keywords: date, time, settings, cluster, system, manager, online, help 
+summary: 您可以使用 System Manager 管理集群的日期和时间设置。 
+---
+= 集群的日期和时间设置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 管理集群的日期和时间设置。
+
+* 相关信息 *
+
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["系统管理"]

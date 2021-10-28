@@ -1,0 +1,63 @@
+---
+permalink: online-help-96-97/reference_namespace.html 
+sidebar: sidebar 
+keywords: junction, path, window, command, buttons, online, help, list 
+summary: 您可以使用接合路径菜单管理 Storage Virtual Machine （ SVM ）的 NAS 命名空间。 
+---
+= 接合路径窗口
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用接合路径菜单管理 Storage Virtual Machine （ SVM ）的 NAS 命名空间。
+
+
+
+== 命令按钮
+
+* * 挂载 *
++
+打开挂载卷对话框，在此可以将卷挂载到 SVM 命名空间中的接合位置。
+
+* * 卸载 *
++
+打开卸载卷对话框，在此可以从父卷卸载卷。
+
+* * 更改导出策略 *
++
+打开更改导出策略对话框，在此可以更改与卷关联的现有导出策略。
+
+* * 刷新 *
++
+更新窗口中的信息。
+
+
+
+
+
+== 接合路径列表
+
+* * 路径 *
++
+指定已挂载卷的接合路径。您可以单击接合路径以查看相关卷和 qtree 。
+
+* * 存储对象 *
++
+指定挂载在接合路径上的卷的名称。您还可以查看卷包含的 qtree 。
+
+* * 导出策略 *
++
+指定已挂载卷的导出策略。
+
+* * 安全模式 *
++
+指定卷的安全模式。可能的值包括 UNIX （对于 UNIX 模式位）， NTFS （对于 CIFS ACL ）和混合（对于混合 NFS 和 CIFS 权限）。
+
+
+
+
+
+== 详细信息选项卡
+
+显示有关选定卷或 qtree 的常规信息，例如名称，存储对象类型，挂载对象的接合路径和导出策略。如果选定对象是 qtree ，则会显示有关空间硬限制，空间软限制和空间使用量的详细信息。

@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/concept_schedules_conceptual.html 
+sidebar: sidebar 
+keywords: online, help, configure, task, schedule, volume, snapshot, mirror, replication, cron, interval, online, help 
+summary: 您可以配置许多任务（例如，卷 Snapshot 副本和镜像复制），使其按指定计划运行。按指定计划运行的计划称为 cron 计划，因为它们与 UNIX cron 计划类似。按间隔运行的计划称为间隔计划。 
+---
+= Schedules
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以配置许多任务（例如，卷 Snapshot 副本和镜像复制），使其按指定计划运行。按指定计划运行的计划称为 _cron_ 计划，因为它们与 UNIX `cron` 计划类似。按间隔运行的计划称为 _interval_ 计划。
+
+您可以通过以下方式管理计划：
+
+* 创建 cron 计划或间隔计划
+* 显示有关所有计划的信息
+* 修改 cron 计划或间隔计划
+* 删除 cron 计划或间隔计划
++
+您不能删除正在运行的作业当前正在使用的计划。
+
+
+
+集群管理员可以执行所有计划管理任务。

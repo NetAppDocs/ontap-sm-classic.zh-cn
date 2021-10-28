@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_ldap_client_services.html 
+sidebar: sidebar 
+keywords: ldap, client, service, system, manager, add, edit, delete, client, configuration, online, help 
+summary: 您可以使用 System Manager 添加，编辑和删除 LDAP 客户端配置。 
+---
+= LDAP 客户端服务
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 添加，编辑和删除 LDAP 客户端配置。

@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_viewing_qtree_information.html 
+sidebar: sidebar 
+keywords: qtree, system, manager, security, style, information, view, online, help 
+summary: 您可以使用 System Manager 中的 qtree 窗口查看包含 qtree 的卷， qtree 的名称，安全模式和状态以及机会锁状态。 
+---
+= 查看 qtree 信息
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 中的 qtree 窗口查看包含 qtree 的卷， qtree 的名称，安全模式和状态以及机会锁状态。
+
+.步骤
+. 单击 * 存储 * > * qtree* 。
+. 从 * SVM* 字段的下拉菜单中，选择要查看其信息的 qtree 所在的 Storage Virtual Machine （ SVM ）。
+. 从显示的 qtree 列表中选择 qtree 。
+. 在 * qtree* 窗口中查看 qtree 详细信息。
+

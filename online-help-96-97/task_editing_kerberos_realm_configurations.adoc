@@ -1,0 +1,30 @@
+---
+permalink: online-help-96-97/task_editing_kerberos_realm_configurations.html 
+sidebar: sidebar 
+keywords: edit, kerboros, realm, configuration, system, manager, online, help 
+summary: 您可以使用 System Manager 在 Storage Virtual Machine （ SVM ）级别编辑 Kerberos 域配置。 
+---
+= 编辑 Kerberos 域配置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 在 Storage Virtual Machine （ SVM ）级别编辑 Kerberos 域配置。
+
+您可以使用 Kerberos 域编辑向导修改以下属性：
+
+* KDC IP 地址和端口号
+* 如果 KDC 供应商不是 Microsoft ，则为管理服务器的 IP 地址
+* 密码服务器的 IP 地址
+* 如果 KDC 供应商是 Microsoft ，则为 Active Directory 服务器名称和 IP 地址
+
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 服务 * 窗格中，单击 * Kerberos 域 * 。
+. 在 * Kerberos 域 * 窗口中，选择要修改的 Kerberos 域配置，然后单击 * 编辑 * 。
+. 根据向导的提示键入或选择信息。
+. 确认详细信息，然后单击 * 完成 * 完成向导。
+

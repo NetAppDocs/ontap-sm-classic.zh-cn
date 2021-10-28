@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_deleting_export_policies.html 
+sidebar: sidebar 
+keywords: delete, export, policies, system, manager, online, help 
+summary: 您可以使用 System Manager 删除不再需要的导出策略。 
+---
+= 正在删除导出策略
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 删除不再需要的导出策略。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 策略 * 窗格中，单击 * 导出策略 * 。
+. 选择要删除的导出策略，然后单击 * 删除策略 * 。
+. 选中确认复选框，然后单击 * 删除 * 。
+

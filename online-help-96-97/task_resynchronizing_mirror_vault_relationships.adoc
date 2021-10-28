@@ -1,0 +1,33 @@
+---
+permalink: online-help-96-97/task_resynchronizing_mirror_vault_relationships.html 
+sidebar: sidebar 
+keywords: resynchronize, mirror, vault, relationships, system, manager, online, help 
+summary: 您可以使用 System Manager 重新建立先前已断开的镜像和存储关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。 
+---
+= 重新同步镜像和存储关系
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 重新建立先前已断开的镜像和存储关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。
+
+源和目标集群以及源和目标 Storage Virtual Machine （ SVM ）必须处于对等关系。
+
+在执行重新同步操作之前，应注意以下事项：
+
+* 执行重新同步操作时，目标卷上的内容将被源卷上的内容覆盖。
++
+[NOTE]
+====
+重新同步操作可能发生原因会在创建基本 Snapshot 副本后丢失写入目标卷的较新数据。
+
+====
+* 如果保护窗口中的上次传输错误字段建议执行重新同步操作，则必须先中断此关系，然后再执行重新同步操作。
+
+
+.步骤
+. 单击 * 保护 * > * 卷关系 * 。
+. 选择要重新同步的镜像和存储关系，然后单击 * 操作 * > * 重新同步 * 。
+. 选中确认复选框，然后单击 * 重新同步 * 。
+

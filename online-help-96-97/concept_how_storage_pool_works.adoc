@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/concept_how_storage_pool_works.html 
+sidebar: sidebar 
+keywords: storage, pool, collection, ssd, share, flash, aggregate, online, free 
+summary: 存储池是 SSD 的集合。您可以组合 SSD 以创建存储池，从而使您能够在多个 Flash Pool 聚合之间同时共享 SSD 和 SSD 备用磁盘。 
+---
+= 存储池的工作原理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+_storage pool_ 是 SSD 的集合。您可以组合 SSD 以创建存储池，从而使您能够在多个 Flash Pool 聚合之间同时共享 SSD 和 SSD 备用磁盘。
+
+存储池由分配单元组成，您可以使用这些分配单元为聚合提供 SSD 和 SSD 备用磁盘或增加现有 SSD 大小。
+
+将 SSD 添加到存储池后，您不能再将 SSD 用作单个磁盘。您必须使用存储池分配或分配 SSD 提供的存储。
+
+* 相关信息 *
+
+xref:task_provisioning_storage_by_creating_flash_pool_aggregate_manually.adoc[通过手动创建 Flash Pool 聚合来配置存储]
+
+xref:task_provisioning_cache_by_adding_disks.adoc[通过添加 SSD 来配置缓存]

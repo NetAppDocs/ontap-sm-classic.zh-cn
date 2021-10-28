@@ -1,0 +1,15 @@
+---
+permalink: volume-backup-snapvault/concept_snapvault_configuration_workflow.html 
+sidebar: sidebar 
+keywords: configuring, configure, snapvault, backup, relationship, verify, cluster, peer, relationship, snapvault, source, destination, volume, monitor, snapvault backup configuration workflow 
+summary: 配置 SnapVault 备份关系包括验证集群对等关系，在源卷和目标卷之间创建 SnapVault 关系以及监控 SnapVault 关系。 
+---
+= SnapVault 备份配置工作流
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+配置 SnapVault 备份关系包括验证集群对等关系，在源卷和目标卷之间创建 SnapVault 关系以及监控 SnapVault 关系。
+
+image::../media/snapvault_workflow.gif[此图是 SnapVault 备份配置工作流的流程图。工作流中的步骤与此内容中的主题匹配。]

@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_adding_home_directory_paths.html 
+sidebar: sidebar 
+keywords: cifs, system, manager, online, help, storage 
+summary: 您可以使用 System Manager 指定存储系统可用于解析用户 CIFS 主目录位置的一个或多个路径。 
+---
+= 添加主目录路径
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 指定存储系统可用于解析用户 CIFS 主目录位置的一个或多个路径。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 配置 * 选项卡的 * 主目录 * 区域中，单击 * 管理 * 。
+. 在 * 管理主目录 * 对话框中，指定存储系统用来搜索用户 CIFS 主目录的路径。
+. 单击 * 添加 * ，然后单击 * 保存并关闭 * 。
+
+
+* 相关信息 *
+
+xref:reference_cifs_window.adoc[CIFS 窗口]

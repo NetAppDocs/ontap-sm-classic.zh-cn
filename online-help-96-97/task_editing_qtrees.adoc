@@ -1,0 +1,31 @@
+---
+permalink: online-help-96-97/task_editing_qtrees.html 
+sidebar: sidebar 
+keywords: edit, qtree, system, manager, security, enable, disable, online, help 
+summary: 您可以使用 System Manager 修改 qtree 的属性，例如安全模式，启用或禁用机会锁（ oplock ）以及分配新的或现有的导出策略。 
+---
+= 编辑 qtree
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 修改 qtree 的属性，例如安全模式，启用或禁用机会锁（ oplock ）以及分配新的或现有的导出策略。
+
+.步骤
+. 单击 * 存储 * > * qtree* 。
+. 选择要编辑的 qtree ，然后单击 * 编辑 * 。
+. 在 * 编辑 qtree* 对话框中，根据需要编辑以下属性：
++
+** 机会锁
+** 安全风格
+** 导出策略
+
+
+. 单击 * 保存 * 。
+. 在 * qtree* 窗口中验证对选定 qtree 所做的更改。
+
+
+* 相关信息 *
+
+xref:reference_qtrees_window.adoc[qtree 窗口]

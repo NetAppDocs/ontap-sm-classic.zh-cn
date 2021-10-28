@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_managing_network.html 
+sidebar: sidebar 
+keywords: system, manager, storage, create, manage, ipspace, broadcast, domain, subnet, network, interface, ethernet, port, fc, fcoe, adapter, online, help 
+summary: 您可以使用 System Manager 通过创建和管理 IP 空间，广播域，子网，网络接口，以太网端口， 和 FC/FCoE 适配器。 
+---
+= 管理网络
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 通过创建和管理 IP 空间，广播域，子网，网络接口，以太网端口， 和 FC/FCoE 适配器。

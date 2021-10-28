@@ -1,0 +1,275 @@
+---
+permalink: iscsi-config-rhel/reference_completing_iscsi_configuration_worksheet.html 
+sidebar: sidebar 
+keywords: iscsi, identifier, network, address, storage, configuration, information, configuration, task, complete, complete the iscsi configuration worksheet 
+summary: 要执行 iSCSI 配置任务，您需要 iSCSI 标识符，网络地址和存储配置信息。 
+---
+= 填写 iSCSI 配置工作表
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要执行 iSCSI 配置任务，您需要 iSCSI 标识符，网络地址和存储配置信息。
+
+
+
+== iSCSI 标识符
+
+|===
+| 启动程序（主机） iSCSI 节点名称（ IQN ） 
+
+
+ a| 
+
+
+
+ a| 
+目标别名（可选）
+
+
+
+ a| 
+
+|===
+
+
+== 目标网络地址
+
+Storage Virtual Machine （ SVM ）是 iSCSI 目标。
+
+您需要一个子网，其中包含两个 IP 地址，用于集群中每个节点的 iSCSI 数据 LIF 。为了实现高可用性，应使用两个单独的网络。在创建 SVM 过程中创建 LIF 时， ONTAP 会分配特定的 IP 地址。
+
+如果可能，请将不同物理网络或 VLAN 上的 iSCSI 流量分开。
+
+image::../media/network_fc_or_iscsi_express_iscsi_rhel.gif[此图显示了四个节点,two switches,and a host. Each node has two LIFs]
+
+LIF 的子网： * ？ _* ？？？？
+
+|===
+| 端口连接到交换机的节点或 LIF | IP 地址 | 网络掩码 | 网关 | VLAN ID | 主端口 
+
+
+ a| 
+节点 1/LIF 连接到交换机 1
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+节点 2/LIF 连接到交换机 1
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+节点 3/LIF 连接到交换机 1
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+节点 4/LIF 连接到交换机 1
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+节点 1/LIF 连接到交换机 2
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+节点 2/LIF 连接到交换机 2
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+节点 3/LIF 连接到交换机 2
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+
+
+ a| 
+节点 4/LIF 连接到交换机 2
+ a| 
+ a| 
+ a| 
+ a| 
+ a| 
+
+|===
+
+
+== 存储配置
+
+如果已创建聚合和 SVM ，请在此处记录其名称；否则，您可以根据需要创建它们：
+
+|===
+| 节点以拥有 LUN 
+
+
+ a| 
+
+
+
+ a| 
+Aggregate name
+
+
+
+ a| 
+
+
+
+ a| 
+SVM name
+
+
+
+ a| 
+
+|===
+
+
+== LUN 信息
+
+|===
+| LUN 大小 
+
+
+ a| 
+
+
+
+ a| 
+LUN 名称（可选）
+
+
+
+ a| 
+
+
+
+ a| 
+LUN 问题描述（可选）
+
+
+
+ a| 
+
+|===
+
+
+== SVM 信息
+
+如果您不使用现有 SVM ，则创建新 SVM 需要以下信息：
+
+|===
+| SVM name 
+
+
+ a| 
+
+
+
+ a| 
+SVM IP 空间
+
+
+
+ a| 
+
+
+
+ a| 
+SVM 根卷的聚合
+
+
+
+ a| 
+
+
+
+ a| 
+SVM 用户名（可选）
+
+
+
+ a| 
+
+
+
+ a| 
+SVM 密码（可选）
+
+
+
+ a| 
+
+
+
+ a| 
+SVM 管理 LIF （可选）
+
+
+
+ a| 
+Subnet
+
+
+
+ a| 
+IP 地址
+
+
+
+ a| 
+网络掩码
+
+
+
+ a| 
+网关
+
+
+
+ a| 
+Home node
+
+
+
+ a| 
+主端口
+
+|===

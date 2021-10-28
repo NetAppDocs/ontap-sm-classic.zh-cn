@@ -1,0 +1,31 @@
+---
+permalink: online-help-96-97/task_creating_vlan_interfaces.html 
+sidebar: sidebar 
+keywords: create, vlan, interfaces, system, manager, broadcast, domain, online, help 
+summary: 您可以使用 System Manager 创建 VLAN ，以便在同一网络域中维护单独的广播域。 
+---
+= 创建 VLAN 接口
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建 VLAN ，以便在同一网络域中维护单独的广播域。
+
+.步骤
+. 单击 * 网络 * > * 以太网端口 * 。
+. 单击 * 创建 VLAN* 。
+. 在 * 创建 VLAN* 对话框中，选择节点，物理接口和广播域（如果需要）。
++
+物理接口列表仅包含以太网端口和接口组。此列表不会显示位于其他接口组或现有 VLAN 中的接口。
+
+. 键入 VLAN 标记，然后单击 * 添加 * 。
++
+您必须添加唯一的 VLAN 标记。
+
+. 单击 * 创建 * 。
+
+
+* 相关信息 *
+
+xref:reference_network_window.adoc[网络窗口]

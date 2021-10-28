@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_snapshot_policies.html 
+sidebar: sidebar 
+keywords: snapshot, manager, system, create, manage, policy, storage, online, help 
+summary: 您可以使用 System Manager 在存储系统中创建和管理 Snapshot 策略。 
+---
+= Snapshot 策略
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 在存储系统中创建和管理 Snapshot 策略。

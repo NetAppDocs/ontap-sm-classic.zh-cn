@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/task_creating_export_policy.html 
+sidebar: sidebar 
+keywords: create, export, policy, system, manager, volume, online, help 
+summary: 您可以使用 System Manager 创建导出策略，以便客户端可以访问特定卷。 
+---
+= 创建导出策略
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建导出策略，以便客户端可以访问特定卷。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 策略 * 窗格中，单击 * 导出策略 * 。
+. 单击 * 创建 * 。
+. 在 * 创建导出策略 * 对话框中，指定导出策略的名称。
+. 如果要通过从现有导出策略复制规则来创建导出策略，请选中 * 从 * 复制规则复选框，然后选择 Storage Virtual Machine （ SVM ）和导出策略。
++
+您不应从下拉菜单中选择用于灾难恢复的目标 SVM 来创建导出策略。
+
+. 在 "** 导出规则 "* 区域中，单击 * 添加 * 向导出策略添加规则。
+. 单击 * 创建 * 。
+. 验证创建的导出策略是否显示在 * 导出策略 * 窗口中。
+

@@ -1,0 +1,35 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_ddns.html 
+sidebar: sidebar 
+keywords: enable, disable, ddns, storage, system, manager, online, help 
+summary: 您可以使用 System Manager 在存储系统上启用或禁用 DDNS 。 
+---
+= 启用或禁用 DDNS
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 在存储系统上启用或禁用 DDNS 。
+
+.关于此任务
+* 默认情况下， DNS 处于启用状态。
+* 默认情况下， DDNS 处于禁用状态。
+* System Manager 不会对 DNS 和 DDNS 设置执行任何验证检查。
+
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 服务 * 窗格中，单击 * DNS/DDNS * 。
+. 在 * DNS/DDNS 服务 * 窗口中，单击 * 编辑 * 。
+. 在 * 编辑 DNS/DDNS 设置 * 对话框中，选中 * DDNS 服务 * 复选框以启用 DDNS 。
++
+您可以通过清除 * DDNS 服务 * 复选框来禁用 DDNS 。
+
+. 单击 * 确定 * 。
+
+
+* 相关信息 *
+
+xref:reference_dns_ddns_window.adoc[DNS/DDNS 服务窗口]

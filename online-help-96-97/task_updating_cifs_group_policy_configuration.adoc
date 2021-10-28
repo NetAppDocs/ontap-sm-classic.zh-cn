@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_updating_cifs_group_policy_configuration.html 
+sidebar: sidebar 
+keywords: update, cifs, group, policy, configuration, online, help 
+summary: 通过命令行界面（ CLI ）更改策略配置后，您必须更新组策略。您可以使用 System Manager 中的 CIFS 窗口更新组策略。 
+---
+= 更新 CIFS 组策略配置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过命令行界面（ CLI ）更改策略配置后，您必须更新组策略。您可以使用 System Manager 中的 CIFS 窗口更新组策略。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 单击 * 域 * 选项卡。
+. 在 * 组策略 * 区域中，选择要更新的组策略配置，然后单击 * 更新 * 。
+

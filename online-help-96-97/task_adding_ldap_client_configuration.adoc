@@ -1,0 +1,36 @@
+---
+permalink: online-help-96-97/task_adding_ldap_client_configuration.html 
+sidebar: sidebar 
+keywords: online, help, system, manager, ldap, online, help, cluster, level, storage, virtual, machine, client, configuration 
+summary: 如果要使用 LDAP 服务，您可以使用 System Manager 在集群级别或 Storage Virtual Machine （ SVM ）级别添加 LDAP 客户端配置。要使用 LDAP 服务，必须先设置 LDAP 客户端。 
+---
+= 添加 LDAP 客户端配置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果要使用 LDAP 服务，您可以使用 System Manager 在集群级别或 Storage Virtual Machine （ SVM ）级别添加 LDAP 客户端配置。要使用 LDAP 服务，必须先设置 LDAP 客户端。
+
+在 SVM 级别，您只能为选定 SVM 添加 LDAP 客户端。
+
+.步骤
+. 使用以下方法之一添加 LDAP 客户端配置：
++
+** 集群级别：单击 *image:../media/advanced_options.gif[""]* > * LDAP * 。
+** SVM 级别：单击 * SVM* > * SVM 设置 * > * LDAP 客户端 * 。
+
+
+. 单击 * 添加 * 。
+. 键入 LDAP 客户端的名称。
+. 添加 Active Directory 域或 LDAP 服务器。
+. 单击 image:../media/advanced_options.gif[""] （高级选项），选择 * 架构 * ，然后单击 * 应用 * 。
+. 指定 * 基本 DN* 和 * TCP 端口 * 。
+. 单击 * 绑定 * ，然后指定身份验证详细信息。
+. 单击 * 保存并关闭 * 。
+. 验证是否显示您添加的 LDAP 客户端。
+
+
+* 相关信息 *
+
+xref:concept_ldap.adoc[LDAP]

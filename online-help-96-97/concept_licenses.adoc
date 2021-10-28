@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_licenses.html 
+sidebar: sidebar 
+keywords: system, manager, view, manage, delete, software, licenses, cluster, node 
+summary: 您可以使用 System Manager 查看，管理或删除集群或节点上安装的任何软件许可证。 
+---
+= licenses
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 查看，管理或删除集群或节点上安装的任何软件许可证。
+
+* 相关信息 *
+
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["系统管理"]

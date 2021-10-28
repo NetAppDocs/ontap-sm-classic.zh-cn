@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/concept_network_interfaces.html 
+sidebar: sidebar 
+keywords: system, manager, network, interface, create, manage, online, help 
+summary: 您可以使用 System Manager 创建和管理网络接口。 
+---
+= 网络接口
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建和管理网络接口。
+
+* 相关信息 *
+
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 概念"]
+
+https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"]

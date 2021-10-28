@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_deleting_snapshot_policies.html 
+sidebar: sidebar 
+keywords: delete, snapshot, policy, online, help, system, manager 
+summary: 您可以使用 System Manager 删除 Snapshot 策略。如果删除一个或多个卷正在使用的 Snapshot 策略，则不会再根据已删除的策略创建卷的 Snapshot 副本。 
+---
+= 正在删除 Snapshot 策略
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 删除 Snapshot 策略。如果删除一个或多个卷正在使用的 Snapshot 策略，则不会再根据已删除的策略创建卷的 Snapshot 副本。
+
+您必须已将 Snapshot 策略与使用该策略的每个卷解除关联。
+
+.步骤
+. 单击 * 保护 * > * 快照策略 * 。
+. 选择 Snapshot 策略并单击 * 删除 * 。
+. 选中确认复选框，然后单击 * 删除 * 。
+

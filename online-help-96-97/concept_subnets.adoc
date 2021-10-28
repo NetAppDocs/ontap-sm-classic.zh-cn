@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_subnets.html 
+sidebar: sidebar 
+keywords: system, manager, manage, subnet, online, help 
+summary: 您可以使用 System Manager 管理子网。 
+---
+= Subnets
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 管理子网。

@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/concept_how_you_use_ssd_storage_pools.html 
+sidebar: sidebar 
+keywords: ssd, stprage, pool, flash, aggregate, assign, allocate, online, help 
+summary: 要使 SSD 能够由多个 Flash Pool 聚合共享，您可以将 SSD 添加到存储池中。将 SSD 添加到存储池后，您将无法再将 SSD 作为独立实体进行管理。您必须使用存储池分配或分配 SSD 提供的存储。 
+---
+= 使用 SSD 存储池
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要使多个 Flash Pool 聚合能够共享 SSD ，您可以将 SSD 添加到 _storage pool_ 。将 SSD 添加到存储池后，您将无法再将 SSD 作为独立实体进行管理。您必须使用存储池分配或分配 SSD 提供的存储。
+
+您可以为特定高可用性（ HA ）对创建存储池。然后，您可以将该存储池中的分配单元添加到同一 HA 对所拥有的一个或多个 Flash Pool 聚合中。就像磁盘必须由拥有聚合的同一节点拥有，然后才能将磁盘分配给聚合一样，存储池只能为拥有该存储池的某个节点所拥有的 Flash Pool 聚合提供存储。
+
+如果您必须增加系统上的 Flash Pool 缓存量，则可以向存储池添加更多 SSD ，但最多不超过使用此存储池的 Flash Pool 缓存的 RAID 类型的最大 RAID 组大小。将 SSD 添加到现有存储池时，您可以增加存储池的分配单元的大小，包括已分配给 Flash Pool 聚合的任何分配单元。
+
+一个存储池只能使用一个备用 SSD ，以便在该存储池中的 SSD 不可用时， ONTAP 可以使用备用 SSD 重建故障 SSD 的分区。您无需预留任何分配单元作为备用容量； ONTAP 只能使用未分区的完整 SSD 作为存储池中 SSD 的备用 SSD 。
+
+将 SSD 添加到存储池后，您将无法删除此 SSD ，就像无法从聚合中删除磁盘一样。如果要再次使用存储池中的 SSD 作为离散驱动器，则必须销毁已将存储池的分配单元分配到的所有 Flash Pool 聚合，然后销毁存储池。

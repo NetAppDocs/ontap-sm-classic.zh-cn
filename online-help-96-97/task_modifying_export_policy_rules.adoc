@@ -1,0 +1,33 @@
+---
+permalink: online-help-96-97/task_modifying_export_policy_rules.html 
+sidebar: sidebar 
+keywords: system, manager, modify, client, modify, export, policy, rule, online, help 
+summary: 您可以使用 System Manager 修改导出策略规则的指定客户端，访问协议和访问权限。 
+---
+= 修改导出策略规则
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 修改导出策略规则的指定客户端，访问协议和访问权限。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 策略 * 窗格中，单击 * 导出策略 * 。
+. 在 * 导出策略 * 窗口中，选择要编辑导出规则的导出策略，然后在 * 导出规则 * 选项卡中，选择要编辑的规则，然后单击 * 编辑 * 。
+. 根据需要修改以下参数：
++
+** 客户端规范
+** 访问协议
+** 访问详细信息
+
+
+. 单击 * 确定 * 。
+. 验证导出规则的更新更改是否显示在 * 导出规则 * 选项卡中。
+
+
+* 相关信息 *
+
+xref:task_setting_up_cifs.adoc[设置 CIFS]

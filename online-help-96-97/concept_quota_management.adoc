@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/concept_quota_management.html 
+sidebar: sidebar 
+keywords: quota, management, system, manager, create, edit, delete, online help, user, group, tree 
+summary: System Manager 包含多项功能，可帮助您创建，编辑或删除配额。您可以创建用户，组或树配额，并可以在磁盘和文件级别指定配额限制。所有配额均按卷建立。 
+---
+= 配额管理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager 包含多项功能，可帮助您创建，编辑或删除配额。您可以创建用户，组或树配额，并可以在磁盘和文件级别指定配额限制。所有配额均按卷建立。
+
+创建配额后，您可以执行以下任务：
+
+* 启用和禁用配额
+* 调整配额大小
+

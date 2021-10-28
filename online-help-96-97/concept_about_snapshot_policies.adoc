@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/concept_about_snapshot_policies.html 
+sidebar: sidebar 
+keywords: snapshot, policy, volume, schedule, copy, create, online, help, classic 
+summary: 应用于卷时， Snapshot 策略会指定一个或多个计划，根据该计划创建 Snapshot 副本，并指定每个计划可以创建的最大 Snapshot 副本数。一个 Snapshot 策略最多可包含五个计划。 
+---
+= 关于 Snapshot 策略
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+应用于卷时， Snapshot 策略会指定一个或多个计划，根据该计划创建 Snapshot 副本，并指定每个计划可以创建的最大 Snapshot 副本数。一个 Snapshot 策略最多可包含五个计划。
+
+对于存储关系， SnapMirror 标签属性用于选择源卷上的 Snapshot 副本。在备份存储操作中，只会复制在存储策略规则中配置了标签的 Snapshot 副本。分配给源卷的 Snapshot 策略必须包含 SnapMirror 标签属性。

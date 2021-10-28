@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_deleting_kerberos_realm_configurations.html 
+sidebar: sidebar 
+keywords: system, manager, delete, kerberos, realm, configuration, online, help 
+summary: 您可以使用 System Manager 删除 Kerberos 域配置。 
+---
+= 删除 Kerberos 域配置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 删除 Kerberos 域配置。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 服务 * 窗格中，单击 * Kerberos 域 * 。
+. 在 * Kerberos 域 * 窗口中，选择要删除的一个或多个 Kerberos 域配置，然后单击 * 删除 * 。
+. 选中确认复选框，然后单击 * 删除 * 。
+

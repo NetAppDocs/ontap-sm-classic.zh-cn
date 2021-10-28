@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_setting_up_cluster_manually.html 
+sidebar: sidebar 
+keywords: online, help, system, manager, cluster, node, management, event, notification 
+summary: 您可以使用 System Manager 通过创建集群，设置节点管理和集群管理网络以及设置事件通知来手动设置集群。 
+---
+= 手动设置集群
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 通过创建集群，设置节点管理和集群管理网络以及设置事件通知来手动设置集群。

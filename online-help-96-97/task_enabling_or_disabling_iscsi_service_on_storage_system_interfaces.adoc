@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_iscsi_service_on_storage_system_interfaces.html 
+sidebar: sidebar 
+keywords: enable, disable, iscsi, service, storage, system, interfaces, online, help 
+summary: 您可以使用 System Manager 通过启用或禁用接口来控制用于 iSCSI 通信的网络接口。启用 iSCSI 服务后， iSCSI 连接和请求将通过为 iSCSI 启用的网络接口接受，但不会通过已禁用的接口接受。 
+---
+= 在存储系统接口上启用或禁用 iSCSI 服务
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 通过启用或禁用接口来控制用于 iSCSI 通信的网络接口。启用 iSCSI 服务后， iSCSI 连接和请求将通过为 iSCSI 启用的网络接口接受，但不会通过已禁用的接口接受。
+
+您必须已终止当前正在使用此接口的所有未完成的 iSCSI 连接和会话。默认情况下，启用 iSCSI 许可证后，所有以太网接口上都会启用 iSCSI 服务。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 协议 * 窗格中，单击 * iSCSI * 。
+. 在 * iSCSI 接口 * 区域中，选择要启用或禁用 iSCSI 服务的接口。
+. 根据需要单击 * 启用 * 或 * 禁用 * 。
+
+
+* 相关信息 *
+
+xref:reference_iscsi_window.adoc[iSCSI 窗口]
+
+xref:task_configuring_iscsi_protocol_on_svms.adoc[在 SVM 上配置 iSCSI 协议]

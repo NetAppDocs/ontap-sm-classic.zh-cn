@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_editing_preferred_domain_controllers.html 
+sidebar: sidebar 
+keywords: edit, preferred, domain, controller, system, manager, online, help, ip, address 
+summary: 您可以使用 System Manager 修改为特定域配置的首选域控制器的 IP 地址。 
+---
+= 编辑首选域控制器
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 修改为特定域配置的首选域控制器的 IP 地址。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 域 * 选项卡的 * 首选域控制器 * 区域中，双击要编辑的域控制器。
+. 修改域控制器的 IP 地址，然后单击 * 保存 * 。
+

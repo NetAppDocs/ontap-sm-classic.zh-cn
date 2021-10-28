@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_deleting_local_windows_user_account.html 
+sidebar: sidebar 
+keywords: delte, local, windows, user, account, system, manager, online, help, cifs, svm 
+summary: 如果不再需要使用某个本地 Windows 用户帐户对 SVM 的 CIFS 服务器进行本地 CIFS 身份验证或确定对 SVM 中数据的访问权限，则可以使用 System Manager 从 Storage Virtual Machine （ SVM ）中删除此用户帐户。 
+---
+= 删除本地 Windows 用户帐户
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果不再需要使用某个本地 Windows 用户帐户对 SVM 的 CIFS 服务器进行本地 CIFS 身份验证或确定对 SVM 中数据的访问权限，则可以使用 System Manager 从 Storage Virtual Machine （ SVM ）中删除此用户帐户。
+
+.关于此任务
+* 无法删除标准用户，例如管理员。
+* ONTAP 会从本地组数据库，本地用户成员资格和用户权限数据库中删除对已删除本地用户的引用。
+
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 主机用户和组 * 窗格中，单击 * Windows * 。
+. 在 * 用户 * 选项卡中，选择要删除的用户帐户，然后单击 * 删除 * 。
+. 单击 * 删除 * 。
+
+
+此时将删除本地用户帐户及其组成员资格条目。
+
+* 相关信息 *
+
+xref:reference_windows_window.adoc[Windows 窗口]

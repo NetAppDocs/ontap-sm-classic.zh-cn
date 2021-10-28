@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_testing_autosupport.html 
+sidebar: sidebar 
+keywords: test, autosupport, setting, online, help, system, manager 
+summary: 您可以使用 System Manager 中的 AutoSupport 测试对话框测试是否已正确配置 AutoSupport 设置。 
+---
+= 正在测试 AutoSupport 设置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 中的 AutoSupport 测试对话框测试是否已正确配置 AutoSupport 设置。
+
+.步骤
+. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* > * AutoSupport * 。
+. 选择节点，然后单击 * 测试 * 。
+. 在 * AutoSupport Test* 对话框中，输入 AutoSupport 主题文本 "`Test AutoSupport` " 或任何通知收件人您正在测试 AutoSupport 设置的文本。
+. 单击 * 测试 * 。
++
+主题为 "`Test AutoSupport` " 的电子邮件或您在 * AutoSupport Subjection* 字段中键入的文本将发送给指定的收件人。
+
+

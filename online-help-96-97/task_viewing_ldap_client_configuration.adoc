@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_viewing_ldap_client_configuration.html 
+sidebar: sidebar 
+keywords: svm, storage, virtual, machine, ldap, client, configuration, system, manager, online, help 
+summary: 您可以使用 System Manager 查看为集群中的 Storage Virtual Machine （ SVM ）配置的 LDAP 客户端。 
+---
+= 查看 LDAP 客户端配置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 查看为集群中的 Storage Virtual Machine （ SVM ）配置的 LDAP 客户端。
+
+.步骤
+. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
+. 在 * 设置 * 窗格中，单击 * LDAP * 。
++
+LDAP 客户端列表将显示在 LDAP 窗口中。
+
+

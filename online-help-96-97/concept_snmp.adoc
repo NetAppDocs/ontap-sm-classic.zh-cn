@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_snmp.html 
+sidebar: sidebar 
+keywords: system, manager, configure, snmp, svm, cluster, online, help 
+summary: 您可以使用 System Manager 配置 SNMP 以监控集群中的 SVM 。 
+---
+= SNMP
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 配置 SNMP 以监控集群中的 SVM 。
+
+* 相关信息 *
+
+https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"]

@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_editing_quota_limits.html 
+sidebar: sidebar 
+keywords: online, help, edit, quota, limits, system, limits, disk, space 
+summary: 您可以使用 System Manager 编辑磁盘空间阈值，配额目标可以使用的磁盘空间量硬限制和软限制，以及配额目标可以拥有的文件数量硬限制和软限制。 
+---
+= 编辑配额限制
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 编辑磁盘空间阈值，配额目标可以使用的磁盘空间量硬限制和软限制，以及配额目标可以拥有的文件数量硬限制和软限制。
+
+.步骤
+. 单击 * 存储 * > * 配额 * 。
+. 从 * SVM* 字段的下拉菜单中，选择要编辑的配额所在的 Storage Virtual Machine （ SVM ）。
+. 选择要编辑的配额，然后单击 * 编辑限制 * 。
+. 在 * 编辑限制 * 对话框中，根据需要编辑配额设置。
++
+可以为配额可以拥有的文件数的硬限制和软限制指定的最小值为 100 。如果要指定低于 100 的值，应使用命令行界面（ CLI ）。
+
+. 单击 * 保存并关闭 * 。
+. 在 * 用户定义的配额 * 选项卡中验证对选定配额所做的更改。
+
+
+* 相关信息 *
+
+xref:reference_quotas_window.adoc[配额窗口]

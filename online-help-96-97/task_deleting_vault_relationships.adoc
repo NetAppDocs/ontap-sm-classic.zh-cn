@@ -1,0 +1,31 @@
+---
+permalink: online-help-96-97/task_deleting_vault_relationships.html 
+sidebar: sidebar 
+keywords: delete, vault, relationship, system, manager, online, help, snapshot, copy 
+summary: 您可以使用 System Manager 结束源卷与目标卷之间的存储关系，并从源释放 Snapshot 副本。 
+---
+= 正在删除存储关系
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 结束源卷与目标卷之间的存储关系，并从源释放 Snapshot 副本。
+
+释放此关系将永久删除源卷上存储关系使用的基本 Snapshot 副本。要重新创建存储关系，必须使用命令行界面（ CLI ）从源卷运行重新同步操作。
+
+.步骤
+. 单击 * 保护 * > * 卷关系 * 。
+. 选择要删除存储关系的卷，然后单击 * 删除 * 。
+. 选中确认复选框，然后单击 * 删除 * 。
++
+您还可以选中释放基本 Snapshot 副本复选框以删除源卷上存储关系使用的基本 Snapshot 副本。
+
++
+如果关系未释放，则必须使用命令行界面在源集群上运行释放操作，以便从源卷中删除为存储关系创建的基本 Snapshot 副本。
+
+
+
+* 相关信息 *
+
+xref:reference_protection_window.adoc[保护窗口]

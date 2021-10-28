@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_initializing_complianceclock.html 
+sidebar: sidebar 
+keywords: complianceclock, initialize, system, manager, online, help, snaplock, time 
+summary: 您可以使用 System Manager 将 ComplianceClock 时间初始化为当前集群时间。要创建 SnapLock 聚合，必须初始化 ComplianceClock 时间。 
+---
+= 正在初始化 ComplianceClock 时间
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 将 ComplianceClock 时间初始化为当前集群时间。要创建 SnapLock 聚合，必须初始化 ComplianceClock 时间。
+
+必须安装 SnapLock 许可证。
+
+初始化 ComplianceClock 时间后，您无法修改或停止它。
+
+.步骤
+. 单击 * 存储 * > * 节点 * 。
+. 选择节点，然后单击 * 初始化 ComplianceClock* 。
+. 在 * 初始化 ComplianceClock* 对话框中，单击 * 是 * 将 ComplianceClock 时间初始化为当前集群时间。
+

@@ -1,0 +1,33 @@
+---
+permalink: online-help-96-97/task_provisioning_storage_through_aggregates.html 
+sidebar: sidebar 
+keywords: provision, storage, aggregates, snaplock, fabricpool, online, help, flash, pool 
+summary: 您可以根据存储建议创建聚合，也可以根据需要手动创建聚合。您可以使用 System Manager 创建 Flash Pool 聚合， SnapLock 聚合和启用了 FabricPool 的聚合，以便为一个或多个卷提供存储。 
+---
+= 通过聚合配置存储
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以根据存储建议创建聚合，也可以根据需要手动创建聚合。您可以使用 System Manager 创建 Flash Pool 聚合， SnapLock 聚合和启用了 FabricPool 的聚合，以便为一个或多个卷提供存储。
+
+您必须有足够的备用磁盘来创建聚合。
+
+您不能使用 System Manager 执行以下操作：
+
+* 将不同大小的磁盘组合在一起，即使有足够的不同大小的备用磁盘也是如此。
++
+您可以先使用大小相同的磁盘创建聚合，然后再添加大小不同的磁盘。
+
+* 将校验和类型不同的磁盘组合在一起。
++
+您可以先创建具有单个校验和类型的聚合，然后再添加其他校验和类型的存储。
+
+
+
+* 相关信息 *
+
+xref:reference_aggregates_window.adoc[聚合窗口]
+
+xref:reference_storage_tiers_window.adoc[存储层窗口]

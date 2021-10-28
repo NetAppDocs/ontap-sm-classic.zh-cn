@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_unix.html 
+sidebar: sidebar 
+keywords: system, manager, unix, svm, online, help 
+summary: 您可以使用 System Manager 维护每个 Storage Virtual Machine （ SVM ）的本地 UNIX 用户和组列表。 
+---
+= "unix"
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 维护每个 Storage Virtual Machine （ SVM ）的本地 UNIX 用户和组列表。

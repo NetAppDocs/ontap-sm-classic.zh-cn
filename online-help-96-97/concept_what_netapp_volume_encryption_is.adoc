@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/concept_what_netapp_volume_encryption_is.html 
+sidebar: sidebar 
+keywords: netApp, volume, encryption, online, help 
+summary: NetApp 卷加密是指在将数据存储到磁盘之前对其进行加密以保护用户数据（包括元数据）的过程。只有在提供了正确的身份验证后，才会对数据进行解密并提供给用户。 
+---
+= 什么是 NetApp 卷加密
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp 卷加密是指在将数据存储到磁盘之前对其进行加密以保护用户数据（包括元数据）的过程。只有在提供了正确的身份验证后，才会对数据进行解密并提供给用户。
+
+要对数据进行加密，需要加密密钥。每个卷都分配有一个加密密钥，用于对其数据进行加密 / 解密操作。
+
+在聚合上启用 NetApp 聚合加密后，新卷会默认加密。卷加密可以覆盖默认加密。
+
+[NOTE]
+====
+对选定聚合进行加密后，卷加密会影响跨卷存储效率。
+
+====

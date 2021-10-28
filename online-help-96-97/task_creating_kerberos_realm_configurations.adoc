@@ -1,0 +1,54 @@
+---
+permalink: online-help-96-97/task_creating_kerberos_realm_configurations.html 
+sidebar: sidebar 
+keywords: create, kerberos, realm, configuration, storage, virtual, machine, svm, online, help 
+summary: 如果要使用 Kerberos 身份验证进行客户端访问，则必须将 Storage Virtual Machine （ SVM ）配置为使用现有 Kerberos 域。您可以使用 System Manager 创建 Kerberos 域配置，从而使 SVM 能够对 NFS 使用 Kerberos 安全服务。 
+---
+= 创建 Kerberos 域配置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果要使用 Kerberos 身份验证进行客户端访问，则必须将 Storage Virtual Machine （ SVM ）配置为使用现有 Kerberos 域。您可以使用 System Manager 创建 Kerberos 域配置，从而使 SVM 能够对 NFS 使用 Kerberos 安全服务。
+
+.开始之前
+* 如果使用 CIFS 共享，则必须安装 CIFS 许可证；如果使用 LDAP 服务器，则必须安装 NFS 许可证。
+* 必须具有 DES MD5 加密功能的 Active Directory （ Windows 2003 或 Windows 2008 ）。
+* 您必须已通过配置 NTP 在集群中设置时区并同步时间。
++
+这样可以防止身份验证错误，并确保日志文件中的时间戳在整个集群中保持一致。
+
+
+
+创建 Kerberos 域时，必须在创建 Kerberos 域向导中设置以下属性：
+
+* Kerberos 域
+* KDC IP 地址和端口号
++
+默认端口号为 88. 。
+
+* Kerberos 密钥分发中心（ KDC ）供应商
+* 如果 KDC 供应商不是 Microsoft ，则为管理服务器 IP 地址
+* 密码服务器 IP 地址
+* 如果 KDC 供应商是 Microsoft ，则为 Active Directory 服务器名称和 IP 地址
+
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 服务 * 窗格中，单击 * Kerberos 域 * 。
+. 在 * Kerberos 域 * 窗口中，单击 * 创建 * 。
+. 根据向导的提示键入或选择信息。
+. 确认详细信息，然后单击 * 完成 * 完成向导。
+
+
+* 相关信息 *
+
+xref:task_setting_time_zone_for_cluster.adoc[设置集群的时区]
+
+link:https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf["NetApp 技术报告 4067 ：《 NetApp ONTAP 中的 NFS 》"^]
+
+link:https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf["NetApp 技术报告 4616 ：《采用 Microsoft Active Directory 的 ONTAP 中的 NFS Kerberos 》"^]
+
+link:https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf["NetApp 技术报告 4835 ：《如何在 ONTAP 中配置 LDAP 》"^]

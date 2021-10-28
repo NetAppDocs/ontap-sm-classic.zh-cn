@@ -1,0 +1,31 @@
+---
+permalink: expansion/reference_where_to_find_additional_information.html 
+sidebar: sidebar 
+keywords: expand, cluster, storing, store, data, node, volume, exist, guide, achieve, goal, information, data protection, where to find additional information 
+summary: 扩展集群后，您可以通过在新节点上创建新卷或将现有数据移动到新节点来开始在新节点上存储数据。 
+---
+= 从何处查找追加信息
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+扩展集群后，您可以通过在新节点上创建新卷或将现有数据移动到新节点来开始在新节点上存储数据。
+
+如果要在集群中使用 SnapMirror 或 SnapVault 关系来保护数据，请参见 xref:../peering/index.html[集群和 SVM 对等配置] 为新节点设置适当集群间 LIF 的指南。
+
+如果要将数据移动到新添加的节点，可以使用以下内容：
+
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
++
+介绍如何为集群模式 SAN 环境配置和管理 iSCSI ， FCoE 和 FC 协议，包括配置 LUN ， igroup 和目标。
+
+* https://docs.netapp.com/us-en/ontap/volumes/index.html["逻辑存储管理"^]
++
+介绍如何管理集群中的逻辑存储资源，包括 FlexVol 卷， FlexClone 卷，文件和 LUN 以及 FlexCache 卷， 使用重复数据删除，数据压缩， qtree 和配额。
+
+* https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 概念"^]
++
+介绍有关集群中逻辑存储资源的概念信息，包括 FlexVol 卷， FlexClone 卷，文件和 LUN 以及 FlexCache 卷， 使用重复数据删除，数据压缩， qtree 和配额。
+
+

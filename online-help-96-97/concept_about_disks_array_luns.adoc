@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_about_disks_array_luns.html 
+sidebar: sidebar 
+keywords: disks, array, lun, storage, online, help, classic 
+summary: 磁盘是使用 ONTAP 软件访问原生磁盘架的存储系统的基本存储单元。阵列 LUN 是第三方存储阵列提供给运行 ONTAP 软件的存储系统的基本存储单元。 
+---
+= 关于磁盘和阵列 LUN
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+磁盘是使用 ONTAP 软件访问原生磁盘架的存储系统的基本存储单元。阵列 LUN 是第三方存储阵列提供给运行 ONTAP 软件的存储系统的基本存储单元。
+
+通过 ONTAP 软件，您可以为磁盘和阵列 LUN 分配所有权，并将其添加到聚合中。ONTAP 软件还提供了多种管理磁盘的方法，包括删除磁盘，更换磁盘以及对磁盘进行清理。由于阵列 LUN 由第三方存储阵列提供，因此您可以使用第三方存储阵列执行阵列 LUN 的所有其他管理任务。
+
+您可以使用磁盘或阵列 LUN 创建聚合。创建聚合后，无论聚合是从磁盘还是阵列 LUN 创建的，都可以使用 ONTAP 软件以完全相同的方式对其进行管理。

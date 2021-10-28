@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_deleting_qtrees.html 
+sidebar: sidebar 
+keywords: delete, qtrees, online, help, system, manager 
+summary: 您可以使用 System Manager 删除 qtree 并回收 qtree 在卷中使用的磁盘空间。删除 qtree 后， ONTAP 将不再应用适用于该 qtree 的所有配额。 
+---
+= 正在删除 qtree
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 删除 qtree 并回收 qtree 在卷中使用的磁盘空间。删除 qtree 后， ONTAP 将不再应用适用于该 qtree 的所有配额。
+
+.开始之前
+* qtree 状态必须为正常。
+* qtree 不能包含任何 LUN 。
+
+
+.步骤
+. 单击 * 存储 * > * qtree* 。
+. 在 * qtree* 窗口中，选择要删除的一个或多个 qtree ，然后单击 * 删除 * 。
+. 选中确认复选框，然后单击 * 删除 * 。
+. 确认删除的 qtree 不再包含在 * qtree* 窗口的 qtree 列表中。
+
+
+* 相关信息 *
+
+xref:reference_qtrees_window.adoc[qtree 窗口]

@@ -1,0 +1,45 @@
+---
+permalink: online-help-96-97/concept_types_quotas.html 
+sidebar: sidebar 
+keywords: quotas, online, help, targets, qtree, group, user, default 
+summary: 配额可以根据应用到的目标进行分类。 
+---
+= 配额类型
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+配额可以根据应用到的目标进行分类。
+
+以下是根据应用配额的目标确定的配额类型：
+
+* * 用户配额 *
++
+目标为用户。
+
++
+用户可以通过 UNIX 用户名， UNIX UID ， Windows SID ， UID 与用户匹配的文件或目录，采用 Windows 2000 之前格式的 Windows 用户名以及由用户 SID 拥有 ACL 的文件或目录来表示。您可以将其应用于卷或 qtree 。
+
+* * 组配额 *
++
+目标是一个组。
+
++
+该组由 UNIX 组名称， GID 或 GID 与该组匹配的文件或目录表示。ONTAP 不会根据 Windows ID 应用组配额。您可以将配额应用于卷或 qtree 。
+
+* * qtree 配额 *
++
+目标为 qtree ，由 qtree 的路径名称指定。
+
++
+您可以确定目标 qtree 的大小。
+
+* * 默认配额 *
++
+自动将配额限制应用于一组大型配额目标，而无需为每个目标创建单独的配额。
+
++
+默认配额可以应用于所有三种类型的配额目标（用户，组和 qtree ）。配额类型由类型字段的值决定。
+
+

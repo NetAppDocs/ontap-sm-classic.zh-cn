@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_editing_mtu_size_vlan.html 
+sidebar: sidebar 
+keywords: modify, mtu, size, vlan, system, manager, online, help 
+summary: 如果要修改不属于广播域的 VLAN 接口的 MTU 大小，可以使用 System Manager 更改大小。 
+---
+= 修改 VLAN 的 MTU 大小
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果要修改不属于广播域的 VLAN 接口的 MTU 大小，可以使用 System Manager 更改大小。
+
+您不能修改管理端口 e0M 的 MTU 大小。
+
+.步骤
+. 单击 * 网络 * > * 以太网端口 * 。
+. 选择要修改的 VLAN ，然后单击 * 编辑 * 。
+. 在 * 编辑 VLAN* 对话框中，根据需要修改 MTU 大小，然后单击 * 保存 * 。
+

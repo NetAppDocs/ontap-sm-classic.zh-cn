@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_viewing_autosupport_summary.html 
+sidebar: sidebar 
+keywords: view, autosupport, summary, system, manager, online, help 
+summary: 您可以使用 System Manager 查看所有先前 AutoSupport 数据的状态和详细信息，以便查看已发送给技术支持的数据。您还可以查看这些信息，了解存储系统的运行状况和性能。 
+---
+= 查看 AutoSupport 摘要
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 查看所有先前 AutoSupport 数据的状态和详细信息，以便查看已发送给技术支持的数据。您还可以查看这些信息，了解存储系统的运行状况和性能。
+
+.步骤
+. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* > * AutoSupport * 。
+. 选择节点，然后单击 * AutoSupport request* > * 查看先前摘要 * 。
++
+此时将显示所有节点的 AutoSupport 数据。
+
+. 单击 * 确定 * 。
+

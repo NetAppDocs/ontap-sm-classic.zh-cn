@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/task_creating_protection_policies_cluster_scope.html 
+sidebar: sidebar 
+keywords: create, protection, policy, system, manager, online, help, cluster 
+summary: 您可以使用 System Manager 创建集群级别异步镜像策略，存储策略或镜像和存储策略，并将这些策略应用于集群级别的数据保护关系。 
+---
+= 创建保护策略
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建集群级别异步镜像策略，存储策略或镜像和存储策略，并将这些策略应用于集群级别的数据保护关系。
+
+.步骤
+. 单击 * 保护 * > * 保护策略 * 。
+. 单击 * 创建 * 。
+. 在 * 创建策略 * 对话框中，选择要创建的策略类型。
+. 指定策略名称和传输优先级。
++
+low 表示传输的优先级最低。低优先级传输通常计划在正常优先级传输之后进行。默认情况下，传输优先级设置为正常。
+
+. 选中 * 启用网络压缩 * 复选框以压缩数据传输期间传输的数据。
+. 对于异步镜像策略，选中 * 传输所有源 Snapshot 副本 * 复选框，以便在镜像策略中包含 "`all_source_snapshots` " 规则，该策略将从源卷备份所有 Snapshot 副本。
+. 单击 * 添加注释 * 为策略添加其他注释。
+. 对于存储策略或镜像存储策略，请指定 SnapMirror 标签和目标保留计数。
+. 单击 * 创建 * 。
+

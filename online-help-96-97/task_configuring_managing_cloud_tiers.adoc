@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_configuring_managing_cloud_tiers.html 
+sidebar: sidebar 
+keywords: configure, manage, cloud, tier, online, help, fabricpool, aggregate, storage, system 
+summary: 将数据存储在层中可以提高存储系统的效率。您可以使用启用了 FabricPool 的聚合来管理存储层。云层会根据数据是否经常访问将数据存储在层中。 
+---
+= 配置和管理云层
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+将数据存储在层中可以提高存储系统的效率。您可以使用启用了 FabricPool 的聚合来管理存储层。云层会根据数据是否经常访问将数据存储在层中。
+
+.开始之前
+* 您必须运行 ONTAP 9.2 或更高版本。
+* 您必须具有全闪存（全 SSD ）聚合
+
+
+image::../media/fabricpool_workflow.gif[FabricPool 工作流]

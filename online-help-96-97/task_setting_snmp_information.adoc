@@ -1,0 +1,40 @@
+---
+permalink: online-help-96-97/task_setting_snmp_information.html 
+sidebar: sidebar 
+keywords: edit, snmp, information, edit, settings, system, manager, online, help 
+summary: 您可以使用 System Manager 中的编辑 SNMP 设置对话框更新有关存储系统位置和联系人的信息，并指定系统的 SNMP 社区。 
+---
+= 编辑 SNMP 信息
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 中的编辑 SNMP 设置对话框更新有关存储系统位置和联系人的信息，并指定系统的 SNMP 社区。
+
+System Manager 使用 SNMP 协议 SNMPv1 和 SNMPv2c 以及 SNMP 社区来发现存储系统。
+
+.步骤
+. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
+. 在 * 设置 * 窗格中，单击 * SNMP * 。
+. 单击 * 编辑 * 。
+. 在 * 常规 * 选项卡中，指定存储系统和 SNMP 社区的联系人信息和位置信息。
++
+社区名称可以包含 32 个字符，并且不能包含以下特殊字符：， / ： " " 我们的 " 。
+
+. 在 "* SNMPv3 ？ " 选项卡中，执行以下操作：
++
+.. 单击 * 添加 * 以添加 SNMPv3 用户。
+.. 指定用户名并根据需要修改引擎 ID 。
+.. 选择 * 身份验证协议 * 并输入您的凭据。
+.. 选择 * 隐私协议 * 并输入您的凭据。
+.. 单击 * 确定 * 以保存更改。
+
+
+. 单击 * 确定 * 。
+. 在 * SNMP * 窗口中验证对 SNMP 设置所做的更改。
+
+
+* 相关信息 *
+
+xref:reference_snmp_window.adoc[SNMP 窗口]

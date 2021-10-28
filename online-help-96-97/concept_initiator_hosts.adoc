@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_initiator_hosts.html 
+sidebar: sidebar 
+keywords: initiator, host, lun, map, storage, system, igroup, group, access, member, online, help 
+summary: 启动程序主机可以访问映射到它们的 LUN 。将存储系统上的 LUN 映射到 igroup 时，您会授予该组中的所有启动程序对该 LUN 的访问权限。如果某个主机不是映射到 LUN 的 igroup 的成员，则该主机将无法访问此 LUN 。 
+---
+= 启动程序主机
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+启动程序主机可以访问映射到它们的 LUN 。将存储系统上的 LUN 映射到 igroup 时，您会授予该组中的所有启动程序对该 LUN 的访问权限。如果某个主机不是映射到 LUN 的 igroup 的成员，则该主机将无法访问此 LUN 。

@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/task_setting_up_saml_authentication.html 
+sidebar: sidebar 
+keywords: set, up, saml, authentification, security, assertion, markup, idp, online, help 
+summary: 您可以设置安全断言标记语言（ SAML ）身份验证，以便远程用户在登录到 System Manager 之前通过安全身份提供程序（ IdP ）进行身份验证。 
+---
+= 设置 SAML 身份验证
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以设置安全断言标记语言（ SAML ）身份验证，以便远程用户在登录到 System Manager 之前通过安全身份提供程序（ IdP ）进行身份验证。
+
+image::../media/mfa_workflow.gif[MFA 工作流]

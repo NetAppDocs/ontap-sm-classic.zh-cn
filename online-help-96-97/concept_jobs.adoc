@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_jobs.html 
+sidebar: sidebar 
+keywords: jobs, system, manager, job, task, display, information, progress, online, help 
+summary: 您可以使用 System Manager 管理作业任务，例如显示作业信息和监控作业进度。 
+---
+= 作业
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 管理作业任务，例如显示作业信息和监控作业进度。

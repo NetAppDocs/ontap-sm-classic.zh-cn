@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/task_editing_active_ldap_clients_svm.html 
+sidebar: sidebar 
+keywords: edit, active, ldap, clients, online, help, system, manager 
+summary: 您可以使用 System Manager 将活动 LDAP 客户端与 Storage Virtual Machine （ SVM ）相关联，从而可以将 LDAP 用作名称服务或用于名称映射。 
+---
+= 编辑活动 LDAP 客户端
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 将活动 LDAP 客户端与 Storage Virtual Machine （ SVM ）相关联，从而可以将 LDAP 用作名称服务或用于名称映射。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 服务 * 窗格中，单击 * LDAP 配置 * 。
+. 在 * LDAP 配置 * 窗口中，单击 * 编辑 * 。
+. 在 * 活动 LDAP 客户端 * 对话框中，选择要编辑的 LDAP 客户端，然后执行以下操作：
++
+** 修改 Active Directory 域服务器。
+** 修改首选 Active Directory 服务器。
+
+
+. 单击 * 确定 * 。
+. 验证您所做的更改是否已在 * LDAP 配置 * 窗口中更新。
+

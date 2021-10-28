@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_spare_requirements_for_multi_disk_carrier_disk_shelves.html 
+sidebar: sidebar 
+keywords: online, help, spare, requirements, multi, disk, carrier, storage, redundancy 
+summary: 要优化存储冗余并最大程度地减少 ONTAP 为实现最佳磁盘布局而必须花费的复制磁盘时间，必须为多磁盘托架中的磁盘保留适当数量的备用磁盘。 
+---
+= 多磁盘托架磁盘的备用要求
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要优化存储冗余并最大程度地减少 ONTAP 为实现最佳磁盘布局而必须花费的复制磁盘时间，必须为多磁盘托架中的磁盘保留适当数量的备用磁盘。
+
+您必须始终为多磁盘托架磁盘至少保留两个热备用磁盘。为了支持使用维护中心并避免因多个并发磁盘故障引起的问题，您应至少保留四个热备用磁盘以实现稳定运行，并及时更换故障磁盘。
+
+如果两个磁盘同时发生故障，并且只有两个热备用磁盘可用，则 ONTAP 可能无法将故障磁盘及其托架配对磁盘的内容交换到备用磁盘。此场景称为 _stalid_ 。如果发生这种情况，系统将通过 EMS 消息和 AutoSupport 消息通知您。更换托架可用后，您必须按照 EMS 消息提供的说明进行操作，或者必须联系技术支持以从停滞状态中恢复。

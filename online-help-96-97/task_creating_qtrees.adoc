@@ -1,0 +1,48 @@
+---
+permalink: online-help-96-97/task_creating_qtrees.html 
+sidebar: sidebar 
+keywords: qtrees, create, system, manager, manage, partition, online, help 
+summary: qtree 可用于管理卷中的数据并对其进行分区。您可以使用 System Manager 中的创建 qtree 对话框向存储系统上的卷添加新的 qtree 。 
+---
+= 创建 qtree
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+qtree 可用于管理卷中的数据并对其进行分区。您可以使用 System Manager 中的创建 qtree 对话框向存储系统上的卷添加新的 qtree 。
+
+.步骤
+. 单击 * 存储 * > * qtree* 。
+. 从 * SVM* 字段的下拉菜单中，选择要创建 qtree 的 Storage Virtual Machine （ SVM ）。
+. 单击 * 创建 * 。
+. 在 * 创建 qtree* 对话框的 * 详细信息 * 选项卡中，键入 qtree 的名称。
+. 选择要将 qtree 添加到的卷。
++
+卷浏览列表仅包含处于联机状态的卷。
+
+. 如果要为 qtree 禁用机会锁（ oplock ），请清除 * 为此 qtree* 中的文件和目录启用机会锁复选框。
++
+默认情况下，每个 qtree 都启用机会锁。
+
+. 如果要更改继承的默认安全模式，请选择一种新的安全模式。
++
+qtree 的默认安全模式是包含 qtree 的卷的安全模式。
+
+. 如果要更改默认继承的导出策略，请选择现有导出策略或创建导出策略。
++
+qtree 的默认导出策略是分配给包含 qtree 的卷的导出策略。
+
+. 如果要限制磁盘空间使用量，请单击 * 配额 * 选项卡。
++
+.. 如果要对 qtree 应用配额，请单击 * qtree quot* ，然后指定磁盘空间限制。
+.. 如果要为 qtree 上的所有用户应用配额，请单击 * 用户配额 * ，然后指定磁盘空间限制。
+
+
+. 单击 * 创建 * 。
+. 验证您创建的 qtree 是否包含在 * qtree* 窗口的 qtree 列表中。
+
+
+* 相关信息 *
+
+xref:reference_qtrees_window.adoc[qtree 窗口]

@@ -1,0 +1,45 @@
+---
+permalink: online-help-96-97/task_changing_raid_group_when_adding_capacity_disks.html 
+sidebar: sidebar 
+keywords: change, raid, group, add, capacity, disk, online, help, hdd 
+summary: 向聚合添加容量磁盘（ HDD ）时，您可以使用 System Manager 更改要添加磁盘的 RAID 组。 
+---
+= 添加容量磁盘时更改 RAID 组
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+向聚合添加容量磁盘（ HDD ）时，您可以使用 System Manager 更改要添加磁盘的 RAID 组。
+
+.关于此任务
+* 如果 RAID 类型为 RAID-DP ，而您要添加大小等于或大于 10 TB 的 FSAS 或 MSATA 磁盘，则只能将其添加到 `S特定 RAID 组` ，而不能添加到 `新 RAID 组` 或 `所有 RAID 组` 。
++
+在将磁盘大小缩减为现有聚合大小后，系统会添加这些磁盘。
+
+* 如果 RAID 组为 RAID-TEC ，而您要添加大小等于或大于 10 TB 的 FSAS 或 MSATA 磁盘，则可以将其添加到 `所有 RAID 组` ， `新 RAID 组` 和 `S特定 RAID 组` 。
++
+在将磁盘大小缩减为现有聚合大小后，系统会添加这些磁盘。
+
+
+
+.步骤
+. 选择以下方法之一：
++
+** 单击 * 应用程序和层 * > * 存储层 * 。
+** 单击 * 存储 * > * 聚合和磁盘 * > * 聚合 * 。
+
+
+. 在 * 存储层 * 窗口中，选择要添加容量磁盘的聚合，然后单击菜单：更多操作 [ 添加容量 ] 。
+. 在 * 添加容量 * 对话框中，执行以下步骤：
++
+.. 单击 * 更改 * 。
+.. 在 * 更改 RAID 配置 * 对话框中，指定要添加容量磁盘的 RAID 组。
++
+您可以将默认值 `所有 RAID 组` 更改为 `S特定 RAID 组` 或 `新 RAID 组` 。
+
+.. 单击 * 保存 * 。
+
+
+

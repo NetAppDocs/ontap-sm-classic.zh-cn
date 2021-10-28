@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_fcoe_protocol.html 
+sidebar: sidebar 
+keywords: fcoe, protocol, fibre, channel, ethernet, host, storage, system, management, online, help 
+summary: 以太网光纤通道（ FCoE ）是一种用于将主机连接到存储系统的新模式。与传统 FC 协议一样， FCoE 也会保留现有的 FC 管理和控制，但它会使用万兆以太网作为硬件传输。 
+---
+= FCoE 协议
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+以太网光纤通道（ FCoE ）是一种用于将主机连接到存储系统的新模式。与传统 FC 协议一样， FCoE 也会保留现有的 FC 管理和控制，但它会使用万兆以太网作为硬件传输。
+
+设置 FCoE 连接需要主机中一个或多个受支持的融合网络适配器（ Converged Network Adapter ， CNA ），并将其连接到受支持的数据中心桥接（ Data Center Bridging ， DCB ）以太网交换机。CNA 是一个整合点，可有效地充当 HBA 和以太网适配器。
+
+通常，您可以像使用传统 FC 连接一样配置和使用 FCoE 连接。

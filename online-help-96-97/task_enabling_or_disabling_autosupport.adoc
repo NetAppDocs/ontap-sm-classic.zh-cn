@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_autosupport.html 
+sidebar: sidebar 
+keywords: enable, disable, autosupport, settings, online, help 
+summary: 您可以使用 System Manager 在存储系统上启用或禁用 AutoSupport 设置。您可以通过 AutoSupport 消息监控存储系统运行状况或向技术支持和内部支持组织发送通知。 
+---
+= 启用或禁用 AutoSupport 设置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 在存储系统上启用或禁用 AutoSupport 设置。您可以通过 AutoSupport 消息监控存储系统运行状况或向技术支持和内部支持组织发送通知。
+
+默认情况下， AutoSupport 选项处于启用状态。
+
+.步骤
+. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* > * AutoSupport * 。
+. 选择节点，然后单击 * 启用 * 或 * 禁用 * 。
+. 单击 * 确定 * 。
+. 验证 AutoSupport 状态是否正确显示您所做的更改。
+

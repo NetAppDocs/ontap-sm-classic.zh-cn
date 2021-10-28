@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_storage_pools.html 
+sidebar: sidebar 
+keywords: system, manager, storage, pools, ssd, flash, pool, aggregates, online, help 
+summary: 您可以使用 System Manager 创建存储池，以使多个 Flash Pool 聚合能够共享 SSD 。 
+---
+= 存储池
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建存储池，以使多个 Flash Pool 聚合能够共享 SSD 。
+
+* 相关信息 *
+
+https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["磁盘和聚合管理"]

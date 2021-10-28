@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_reverse_resynchronizing_mirror_vault_relationships.html 
+sidebar: sidebar 
+keywords: reverse, resynchronize, mirror, vault, relationship, system, manager, online, help 
+summary: 您可以使用 System Manager 重新建立先前已断开的镜像和存储关系。在反向重新同步操作中，源卷和目标卷的功能将发生反转。在修复或替换源卷，更新源卷以及重新建立系统的原始配置时，您可以使用目标卷提供数据。 
+---
+= 反向重新同步镜像和存储关系
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 重新建立先前已断开的镜像和存储关系。在反向重新同步操作中，源卷和目标卷的功能将发生反转。在修复或替换源卷，更新源卷以及重新建立系统的原始配置时，您可以使用目标卷提供数据。
+
+源卷必须处于联机状态。
+
+.关于此任务
+* 执行反向重新同步时，源卷上的内容将被目标卷上的内容覆盖。
++
+[NOTE]
+====
+反向重新同步操作可能会使源卷上的数据丢失发生原因。
+
+====
+* 执行反向重新同步时，此关系的策略将设置为 MirrorAndVault ，而计划将设置为无。
+
+
+.步骤
+. 单击 * 保护 * > * 卷关系 * 。
+. 选择要反转的镜像和存储关系，然后单击 * 操作 * > * 反向重新同步 * 。
+. 选中确认复选框，然后单击 * 反向重新同步 * 。
+

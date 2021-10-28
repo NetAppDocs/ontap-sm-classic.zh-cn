@@ -1,0 +1,79 @@
+---
+permalink: online-help-96-97/reference_system_health_window.html 
+sidebar: sidebar 
+keywords: system, alerts, command, buttons, window, online, help 
+summary: 您可以使用系统警报窗口了解有关系统运行状况警报的更多信息。您还可以从窗口确认，删除和禁止警报。 
+---
+= 系统警报窗口
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用系统警报窗口了解有关系统运行状况警报的更多信息。您还可以从窗口确认，删除和禁止警报。
+
+
+
+== 命令按钮
+
+* * 确认 *
++
+用于确认选定警报以指示问题已得到解决，并将单击按钮的人员标识为 "`确认者。` "
+
+* * 禁止 *
++
+用于禁止选定警报，以防止系统再次就同一警报通知您，并将您标识为 " `S阻止程序 " 。`
+
+* * 删除 *
++
+删除选定警报。
+
+* * 刷新 *
++
+更新窗口中的信息。
+
+
+
+
+
+== 警报列表
+
+* * 子系统（编号警报数） *
++
+显示为其生成警报的子系统的名称，例如 SAS 连接，交换机运行状况， CIFS NDO 或 MetroCluster 。
+
+* * 警报 ID*
++
+显示警报 ID 。
+
+* * 节点 *
++
+显示为其生成警报的节点的名称。
+
+* * 严重性 *
++
+将警报的严重性显示为未知，其他，信息，已降级，次要， 主要，严重或致命。
+
+* * 资源 *
++
+显示生成警报的资源，例如特定磁盘架或磁盘。
+
+* * 时间 *
++
+显示生成警报的时间。
+
+
+
+
+
+== 详细信息区域
+
+详细信息区域显示有关警报的详细信息，例如生成警报的时间以及警报是否已确认。此区域还包括有关警报生成的条件的可能发生原因和可能影响的信息，以及更正警报报告的问题的建议操作。
+
+* 相关信息 *
+
+xref:task_acknowledging_system_health_alerts.adoc[确认系统运行状况警报]
+
+xref:task_suppressing_system_health_alerts.adoc[禁止系统运行状况警报]
+
+xref:task_deleting_system_health_alerts.adoc[删除系统运行状况警报]

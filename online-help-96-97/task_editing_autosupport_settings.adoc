@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_editing_autosupport_settings.html 
+sidebar: sidebar 
+keywords: edit, autosupport, settings, system, manager, online, help, email, address 
+summary: 您可以使用 System Manager 修改 AutoSupport 设置，以指定发送电子邮件通知的电子邮件地址，并添加多个电子邮件主机名。 
+---
+= 编辑 AutoSupport 设置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 修改 AutoSupport 设置，以指定发送电子邮件通知的电子邮件地址，并添加多个电子邮件主机名。
+
+.步骤
+. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* > * AutoSupport * 。
+. 选择要修改 AutoSupport 设置的节点，然后单击 * 编辑 * 。
+. 在 * 电子邮件收件人 * 选项卡中，键入发送电子邮件通知的电子邮件地址，指定电子邮件收件人和每个电子邮件收件人的邮件内容，然后添加邮件主机。
++
+每个主机最多可以添加五个电子邮件地址。
+
+. 在 * 其他 * 选项卡中，选择用于传送电子邮件的传输协议，然后指定 HTTP 或 HTTPS 代理服务器详细信息。
+. 单击 * 确定 * 。
+

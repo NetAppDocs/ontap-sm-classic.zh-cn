@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_activating_or_deactivating_quotas.html 
+sidebar: sidebar 
+keywords: activate, deactivate, quotas, online, help, system, manager 
+summary: 您可以使用 System Manager 在存储系统上选择的一个或多个卷上激活或停用配额。当用户及其存储要求和限制发生变化时，您可以激活或停用配额。 
+---
+= 激活或停用配额
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 在存储系统上选择的一个或多个卷上激活或停用配额。当用户及其存储要求和限制发生变化时，您可以激活或停用配额。
+
+.步骤
+. 单击 * 存储 * > * 配额 * 。
+. 从 SVM 字段的下拉菜单中选择要激活或停用的配额所在的 Storage Virtual Machine （ SVM ）。
+. 在 * 卷上的配额状态 * 选项卡中，选择要激活或停用配额的一个或多个卷。
+. 根据需要单击 * 激活 * 或 * 停用 * 。
+. 如果要停用配额，请选中确认复选框，然后单击 * 确定 * 。
+. 在 * 状态 * 列中验证卷的配额状态。
+
+
+* 相关信息 *
+
+xref:reference_quotas_window.adoc[配额窗口]

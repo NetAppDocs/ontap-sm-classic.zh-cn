@@ -1,0 +1,48 @@
+---
+permalink: online-help-96-97/task_adding_user_accounts_to_windows_local_group.html 
+sidebar: sidebar 
+keywords: add, user, accounts, windows, local, group, active, directory, online, help 
+summary: 您可以使用 System Manager 将本地用户， Active Directory 用户或 Active Directory 组（如果您希望用户拥有与该组关联的权限）添加到 Windows 本地组。 
+---
+= 将用户帐户添加到 Windows 本地组
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 将本地用户， Active Directory 用户或 Active Directory 组（如果您希望用户拥有与该组关联的权限）添加到 Windows 本地组。
+
+.开始之前
+* 该组必须存在，您才能向该组添加用户。
+* 用户必须存在，您才能将其添加到组。
+
+
+向本地 Windows 组添加成员时，必须牢记以下几点：
+
+* 您不能将用户添加到特殊的 _Everyone 组。
+* 您不能将本地 Windows 组添加到其他本地 Windows 组。
+* 您不能使用 System Manager 添加用户名中包含空格的用户帐户。
++
+您可以使用命令行界面（ CLI ）重命名用户帐户或添加用户帐户。
+
+
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 主机用户和组 * 窗格中，单击 * Windows * 。
+. 在 * 组 * 选项卡中，选择要添加用户的组，然后单击 * 添加成员 * 。
+. 在 * 添加成员 * 窗口中，执行以下操作之一：
++
+** 指定要添加到特定本地组的 Active Directory 用户或 Active Directory 组。
+** 从 Storage Virtual Machine （ SVM ）中的可用本地用户列表中选择用户。
+
+
+. 单击 * 确定 * 。
+
+
+您添加的用户将列在 * 组 * 选项卡的用户表中。
+
+* 相关信息 *
+
+xref:reference_windows_window.adoc[Windows 窗口]

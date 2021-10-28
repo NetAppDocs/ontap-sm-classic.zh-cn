@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_testing_trap_host.html 
+sidebar: sidebar 
+keywords: system, manager, test, trap, host, configuration, online, help 
+summary: 您可以使用 System Manager 测试是否已正确配置陷阱主机设置。 
+---
+= 测试陷阱主机配置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 测试是否已正确配置陷阱主机设置。
+
+.步骤
+. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
+. 在 * 设置 * 窗格中，单击 * SNMP * 。
+. 在 * SNMP * 窗口中，单击 * 测试陷阱主机 * 。
+. 单击 * 确定 * 。
+

@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_nvme_protocol.html 
+sidebar: sidebar 
+keywords: system, manager, configure, nvme, protocol, transport, controller, namespace, storage, medium, online, help 
+summary: 您可以使用 System Manager 配置 NVMe 协议。NVMe 是一种传输协议，可用于高速访问基于闪存的网络存储。使用 NVMe 协议的系统具有一个子系统，其中包含特定 NVMe 控制器，命名空间，非易失性存储介质，主机，端口以及控制器和存储介质之间的接口。 
+---
+= NVMe 协议
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 配置 NVMe 协议。NVMe 是一种传输协议，可用于高速访问基于闪存的网络存储。使用 NVMe 协议的系统具有一个子系统，其中包含特定 NVMe 控制器，命名空间，非易失性存储介质，主机，端口以及控制器和存储介质之间的接口。

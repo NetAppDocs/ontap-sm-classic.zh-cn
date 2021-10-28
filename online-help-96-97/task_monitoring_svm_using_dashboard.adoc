@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_monitoring_svm_using_dashboard.html 
+sidebar: sidebar 
+keywords: system, manager, health, performance, monitor, svms, online, help 
+summary: 您可以通过 System Manager 中的信息板监控 Storage Virtual Machine （ SVM ）的运行状况和性能。 
+---
+= 监控 SVM
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以通过 System Manager 中的信息板监控 Storage Virtual Machine （ SVM ）的运行状况和性能。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择要监控的 SVM 的名称。
+. 在信息板面板中查看详细信息。
+

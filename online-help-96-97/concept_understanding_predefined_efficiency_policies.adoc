@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/concept_understanding_predefined_efficiency_policies.html 
+sidebar: sidebar 
+keywords: understand, default, inline, volume, predefined, efficiency, policy, online, help 
+summary: 您可以为卷配置效率策略，以节省更多空间。您可以将卷配置为运行实时压缩，而无需在卷上配置计划的或手动启动的后台效率操作。 
+---
+= 了解预定义的效率策略
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以为卷配置效率策略，以节省更多空间。您可以将卷配置为运行实时压缩，而无需在卷上配置计划的或手动启动的后台效率操作。
+
+创建 SVM 时，系统会自动创建以下效率策略，并且无法删除这些策略：
+
+* Default
++
+您可以使用效率策略配置卷，以便在卷上运行计划的重复数据删除操作。
+
+* 仅实时
++
+您可以为卷配置仅实时效率策略并启用实时压缩，以便在卷上运行实时压缩，而无需执行任何计划的或手动启动的后台效率操作。
+
+
+
+有关仅实时和默认效率策略的详细信息，请参见手册页。

@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_ipspaces.html 
+sidebar: sidebar 
+keywords: ipspace, system, manager, manage, online, help 
+summary: 您可以使用 System Manager 创建和管理 IP 空间。 
+---
+= IP 空间
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建和管理 IP 空间。
+
+* 相关信息 *
+
+https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"]

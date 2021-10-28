@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_iscsi_protocol.html 
+sidebar: sidebar 
+keywords: iscsi, protocol, system, manager, configure, block, data, host, tcp, ip, online, help 
+summary: 您可以使用 System Manager 配置 iSCSI 协议，以便使用基于 TCP/IP 的 SCSI 协议将块数据传输到主机。 
+---
+= iSCSI 协议
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 配置 iSCSI 协议，以便使用基于 TCP/IP 的 SCSI 协议将块数据传输到主机。
+
+* 相关信息 *
+
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]

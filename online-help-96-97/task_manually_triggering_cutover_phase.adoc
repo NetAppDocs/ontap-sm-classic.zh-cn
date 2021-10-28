@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_manually_triggering_cutover_phase.html 
+sidebar: sidebar 
+keywords: manually, trigger, cutover, volume, move, system, manager, online, help 
+summary: 对于卷移动操作，您可以使用 System Manager 在卷进入转换延迟阶段时手动触发转换。您可以设置转换的持续时间，以及在该持续时间内操作失败时系统要执行的转换操作。 
+---
+= 手动触发卷移动转换
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+对于卷移动操作，您可以使用 System Manager 在卷进入转换延迟阶段时手动触发转换。您可以设置转换的持续时间，以及在该持续时间内操作失败时系统要执行的转换操作。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 单击 * 卷 * 选项卡
+. 展开已启动卷移动操作的卷。
+. 单击 * 显示更多详细信息 * 链接可查看有关卷的更多信息。
+. 在 * 概述 * 选项卡中，单击 * 转换 * 。
+. 在 * 转换 * 对话框中，单击 * 高级选项 * 。
+. 指定转换操作和转换窗口期间。
+. 单击 * 确定 * 。
+

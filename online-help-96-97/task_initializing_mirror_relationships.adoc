@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/task_initializing_mirror_relationships.html 
+sidebar: sidebar 
+keywords: initialize, mirror, relationship, baseline, transfer, online, help 
+summary: 启动镜像关系时，必须初始化该关系。初始化关系包括从源卷到目标卷的完整基线数据传输。如果在创建镜像关系时尚未初始化此关系，则可以使用 System Manager 对其进行初始化。 
+---
+= 正在初始化镜像关系
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+启动镜像关系时，必须初始化该关系。初始化关系包括从源卷到目标卷的完整基线数据传输。如果在创建镜像关系时尚未初始化此关系，则可以使用 System Manager 对其进行初始化。
+
+.步骤
+. 单击 * 保护 * > * 卷关系 * 。
+. 选择要初始化的镜像关系。
+. 单击 * 操作 * > * 初始化 * 。
+. 选中确认复选框，然后单击 * 初始化 * 。
+. 在 * 保护 * 窗口中验证镜像关系的状态。
+
+
+此时将创建一个 Snapshot 副本并将其传输到目标。此 Snapshot 副本用作后续增量 Snapshot 副本的基线。
+
+* 相关信息 *
+
+xref:reference_protection_window.adoc[保护窗口]

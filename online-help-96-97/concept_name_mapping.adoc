@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_name_mapping.html 
+sidebar: sidebar 
+keywords: name, mapping, system, manager, specify, user, platform, online, help 
+summary: 您可以使用 System Manager 指定名称映射条目以映射不同平台的用户。 
+---
+= 名称映射
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 指定名称映射条目以映射不同平台的用户。
+
+* 相关信息 *
+
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 管理"]

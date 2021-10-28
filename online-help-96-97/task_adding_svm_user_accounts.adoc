@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_adding_svm_user_accounts.html 
+sidebar: sidebar 
+keywords: system, manager, svm, user, accounts, ass, online, help 
+summary: 您可以使用 System Manager 添加 Storage Virtual Machine （ SVM ）用户帐户，并指定用于访问存储系统的用户登录方法。 
+---
+= 添加 SVM 用户帐户
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 添加 Storage Virtual Machine （ SVM ）用户帐户，并指定用于访问存储系统的用户登录方法。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * SVM 用户详细信息 * 窗格中，单击 * 用户 * 。
+. 单击 * 添加 * 。
+. 指定用于连接到存储系统的用户名和密码，然后确认该密码。
+. 添加一种或多种用户登录方法，然后单击 * 添加 * 。
++
+系统会自动为新 vsadmin 帐户提供一种登录方法，该方法使用 HTTP 作为应用程序，并使用证书进行身份验证。
+
+

@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/task_editing_cloud_tier.html 
+sidebar: sidebar 
+keywords: online, help, edit, cloud, tier, system, manager, fqdn 
+summary: 您可以使用 System Manager 修改云层的配置信息。您可以编辑的配置详细信息包括名称，完全限定域名（ FQDN ），端口，访问密钥 ID ，机密密钥和对象存储证书。 
+---
+= 编辑云层
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 修改云层的配置信息。您可以编辑的配置详细信息包括名称，完全限定域名（ FQDN ），端口，访问密钥 ID ，机密密钥和对象存储证书。
+
+.步骤
+. 单击 * 存储 * > * 聚合和磁盘 * > * 云层 * 。
+. 选择要编辑的云层，然后单击 * 编辑 * 。
+. 在 * 编辑云层 * 窗口中，修改云层名称， FQDN ，端口，访问密钥 ID ，机密密钥， 和对象存储证书。
++
+如果您已选择 AWS Commercial Cloud Service （ C2S ）云层，则可以修改服务器 CA 证书和客户端证书。
+
+. 单击 * 保存 * 。
+
+
+* 相关信息 *
+
+xref:reference_storage_tiers_window.adoc[存储层窗口]

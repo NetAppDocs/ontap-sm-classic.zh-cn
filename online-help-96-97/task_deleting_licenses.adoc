@@ -1,0 +1,49 @@
+---
+permalink: online-help-96-97/task_deleting_licenses.html 
+sidebar: sidebar 
+keywords: delete, license, window, system, manager, online, help, software, node 
+summary: 您可以使用 System Manager 中的许可证窗口删除集群或节点上安装的任何软件许可证。 
+---
+= 正在删除许可证
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 中的许可证窗口删除集群或节点上安装的任何软件许可证。
+
+要删除的软件许可证不能由任何服务或功能使用。
+
+.步骤
+. 单击 * 配置 * > * 集群 * > * 许可证 * 。
+. 在 * 许可证 * 窗口中，执行相应的操作：
++
+|===
+| 如果您要 ... | 执行此操作 ... 
+
+
+ a| 
+删除节点上的特定许可证包或主许可证
+ a| 
+单击 * 详细信息 * 选项卡。
+
+
+
+ a| 
+删除集群中所有节点上的特定许可证包
+ a| 
+单击 * 软件包 * 选项卡。
+
+|===
+. 选择要删除的软件许可证包，然后单击 * 删除 * 。
++
+一次只能删除一个许可证包。
+
+. 选中确认复选框，然后单击 * 删除 * 。
+
+
+软件许可证将从存储系统中删除。删除的许可证也会从许可证窗口的许可证列表中删除。
+
+* 相关信息 *
+
+xref:reference_licenses_window.adoc[许可证窗口]

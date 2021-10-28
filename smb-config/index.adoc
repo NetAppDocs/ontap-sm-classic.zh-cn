@@ -1,0 +1,36 @@
+---
+permalink: smb-config/index.html 
+sidebar: sidebar 
+keywords: content, describe, smb, cifs, access, volume, exist, storage, virtual, machine, svm 
+summary: 此内容介绍如何在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问。 
+---
+= SMB/CIFS 配置概述
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此内容介绍如何在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问。
+
+如果要按以下方式配置对卷的访问，应使用此内容：
+
+* 您希望使用最佳实践，而不是浏览每个可用选项。
+* 您不想阅读大量概念背景信息。
+* 您希望使用适用于 ONTAP 9.7 及更早版本的 _Classic_ System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"^]
+
+* 您的数据网络使用默认 IP 空间，默认广播域和默认故障转移组。
++
+如果您的数据网络正常运行，则使用这些默认对象可确保在链路出现故障时 LIF 能够正确地进行故障转移。如果您不使用默认对象，则应参考 https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"] 有关如何配置 LIF 路径故障转移的信息。
+
+* NTFS 文件权限将用于保护新卷的安全。
+
+
+如果此内容不适合您的情况，您应查看以下文档：
+
+* https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 管理"^]
+* https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"^]
+* https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf["NetApp 技术报告 4616 ：《采用 Microsoft Active Directory 的 ONTAP 中的 NFS Kerberos 》"^]
+* https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf["NetApp 技术报告 4835 ：《如何在 ONTAP 中配置 LDAP 》"^]
+

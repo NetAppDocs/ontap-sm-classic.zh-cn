@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_provisioning_cache_by_adding_disks.html 
+sidebar: sidebar 
+keywords: ssd, system, manager, storage, pool, root, aggregate, provision, cache, online, help 
+summary: 您可以使用 System Manager 将 SSD 添加为存储池或专用 SSD 以配置缓存。通过添加 SSD ，您可以将非根聚合或不包含分区磁盘的根聚合转换为 Flash Pool 聚合，或者增加现有 Flash Pool 聚合的缓存大小。 
+---
+= 通过添加 SSD 来配置缓存
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 将 SSD 添加为存储池或专用 SSD 以配置缓存。通过添加 SSD ，您可以将非根聚合或不包含分区磁盘的根聚合转换为 Flash Pool 聚合，或者增加现有 Flash Pool 聚合的缓存大小。
+
+.关于此任务
+* 添加的 SSD 缓存不会增加到聚合的大小，您可以将 SSD RAID 组添加到聚合中，即使该组达到最大大小也是如此。
+* 使用 System Manager 添加缓存时，无法使用已分区的 SSD 。
+
+
+* 相关信息 *
+
+xref:concept_how_storage_pool_works.adoc[存储池的工作原理]

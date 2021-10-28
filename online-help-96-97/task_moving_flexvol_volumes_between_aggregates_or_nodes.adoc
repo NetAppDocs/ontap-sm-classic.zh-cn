@@ -1,0 +1,42 @@
+---
+permalink: online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html 
+sidebar: sidebar 
+keywords: move, flexcol, volume, aggregate, node, online, help, system, manager 
+summary: 您可以使用 System Manager 无中断地将 FlexVol 卷移动到其他聚合或节点，以提高容量利用率并提高性能。 
+---
+= 在聚合或节点之间移动 FlexVol 卷
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 无中断地将 FlexVol 卷移动到其他聚合或节点，以提高容量利用率并提高性能。
+
+如果要移动数据保护（ DP ）卷，则必须先初始化数据保护镜像关系，然后再移动该卷。
+
+您不能在聚合和节点之间移动 SnapLock 卷。
+
+.步骤
+. 单击 * 存储 * > * 卷 * 。
+. 从 * SVM* 字段的下拉菜单中选择 * 所有 SVM* 。
+. 选择要移动的卷。
+. 单击 * 更多操作 * > * 移动 * 。
+. 在 * 移动卷 * 对话框中，选择卷的目标聚合或节点，然后更改分层策略。
++
+[NOTE]
+====
+** 您不能更改根卷的分层策略。
+** 您不能将根卷移动到 FabricPool 。
+** 对于读 / 写卷，您可以在卷移动期间将分层策略设置为 " 备份 " 。
++
+移动后，分层策略将更改为 " 仅快照 " 。
+
+** 在源聚合和目标聚合的 " 移动后使用 " 中显示的容量层值均为估计值。
++
+要获取确切值，您必须导航到聚合窗口并查看特定聚合的详细信息。
+
+
+
+====
+. 单击 * 移动 * 。
+

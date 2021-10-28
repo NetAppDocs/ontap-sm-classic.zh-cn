@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_kerberos_realm_services.html 
+sidebar: sidebar 
+keywords: online, help, kerberos, realm, service, system, manager 
+summary: 您可以使用 System Manager 创建和管理 Kerberos 域服务。 
+---
+= Kerberos 域服务
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建和管理 Kerberos 域服务。
+
+* 相关信息 *
+
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS 管理"^]

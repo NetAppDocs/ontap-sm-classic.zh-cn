@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/concept_understanding_lun_clones.html 
+sidebar: sidebar 
+keywords: understand, lun, clone, parent, create, online, help 
+summary: LUN 克隆是父 LUN 的可写，节省空间的克隆。创建 LUN 克隆可节省大量空间和时间，因为克隆操作不涉及以物理方式复制任何数据。克隆有助于提高物理聚合空间的空间存储利用率。 
+---
+= 了解 LUN 克隆
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+LUN 克隆是父 LUN 的可写，节省空间的克隆。创建 LUN 克隆可节省大量空间和时间，因为克隆操作不涉及以物理方式复制任何数据。克隆有助于提高物理聚合空间的空间存储利用率。
+
+您可以在 SAN 环境中克隆完整的 LUN ，而无需备份 Snapshot 副本。克隆操作是瞬时的，访问父 LUN 的客户端不会发生任何中断或中断。客户端可以对父实体和克隆实体执行所有正常的 LUN 操作。客户端可以立即对父 LUN 和克隆的 LUN 进行读 / 写访问。
+
+克隆与其父 LUN 共享数据块，并占用极小的存储空间，直到客户端将新数据写入父 LUN 或克隆为止。默认情况下， LUN 克隆会继承父 LUN 的空间预留属性。例如，如果在父 LUN 上禁用了空间预留，则也会在 LUN 克隆上禁用空间预留。
+
+[NOTE]
+====
+克隆 LUN 时，必须确保卷具有足够的空间来容纳 LUN 克隆。
+
+====

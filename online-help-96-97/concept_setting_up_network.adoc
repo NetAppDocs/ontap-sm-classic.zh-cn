@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_setting_up_network.html 
+sidebar: sidebar 
+keywords: online, help, set, up, network, ipspace, broadcast, domain, subnet 
+summary: 设置网络包括创建 IP 空间，广播域和子网。 
+---
+= 设置网络
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+设置网络包括创建 IP 空间，广播域和子网。

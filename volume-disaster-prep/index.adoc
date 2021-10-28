@@ -1,0 +1,45 @@
+---
+permalink: volume-disaster-prep/index.html 
+sidebar: sidebar 
+keywords: content, protect, source, volume, peer, ontap, cluster, perparation, disaster, recovery, configure, monitor, snapmirror, relationship, background, task, volume disaster recovery preparation overview 
+summary: 此内容介绍如何快速保护对等 ONTAP 集群上的源卷，以便为灾难恢复做好准备。如果您要配置和监控对等集群之间的 SnapMirror 关系以实现卷灾难恢复，并且这些任务不需要大量概念背景，则应使用此内容。 
+---
+= 卷灾难恢复准备概述
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此内容介绍如何快速保护对等 ONTAP 集群上的源卷，以便为灾难恢复做好准备。如果您要配置和监控对等集群之间的 SnapMirror 关系以实现卷灾难恢复，并且这些任务不需要大量概念背景，则应使用此内容。
+
+SnapMirror 可按计划提供异步块级数据保护。SnapMirror 可复制 Snapshot 副本，并可复制运行重复数据删除，数据压缩或这两者的 NAS 或 SAN 卷，包括包含 qtree 和 LUN 的卷。SnapMirror 配置信息存储在一个数据库中， ONTAP 会将该数据库复制到集群中的所有节点。
+
+如果要按以下方式为卷级灾难恢复创建 SnapMirror 关系，应使用此内容：
+
+* 您正在使用运行 ONTAP 9 的集群。
+* 您是集群管理员。
+* 您已配置集群对等关系和 SVM 对等关系。
++
+xref:../peering/index.html[集群和 SVM 对等配置]
+
+* 您已在源集群和目标集群上启用 SnapMirror 许可证。
+* 您希望使用默认策略和计划，而不是创建自定义策略。
+* 您希望使用最佳实践，而不是浏览每个可用选项。
+* 您不想阅读大量概念背景信息。
+* 您希望使用 System Manager ，而不是 ONTAP 命令行界面或自动化脚本编写工具。
+* 您希望使用适用于 ONTAP 9.7 及更早版本的 _Classic_ System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"]
+
+
+
+如果这些假设与您的情况不符，或者您需要更多概念背景信息，您应查看以下资源：
+
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html["数据保护"^]
+* http://www.netapp.com/us/media/tr-4015.pdf["NetApp 技术报告 4015 ：《 ONTAP 9.1 和 9.2 的 SnapMirror 配置和最佳实践》"^]
+* https://docs.netapp.com/us-en/ontap/volumes/index.html["逻辑存储管理"^]
+* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-cmpr/GUID-5CB10C70-AC11-41C0-8C16-B4D0DF916E9B.html["ONTAP 9 命令"^]
++
+提供一组用于配置和管理 SnapMirror 关系的命令。您可能希望使用 snapmirror 命令编写一个脚本来创建多个 SnapMirror 关系。
+
+

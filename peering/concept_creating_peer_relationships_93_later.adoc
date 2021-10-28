@@ -1,0 +1,13 @@
+---
+permalink: peering/concept_creating_peer_relationships_93_later.html 
+sidebar: sidebar 
+keywords: peer, relationship, define, network, connection, enable, cluster, svm, exchange, data, secure, ontap, configure, configure peer relationships, starting with ontap 9.3 
+summary: 对等关系用于定义网络连接，以使集群和 SVM 能够安全地交换数据。ONTAP 9.3 简化了在集群之间和 SVM 之间配置对等关系的方式。 
+---
+= 配置对等关系（从 ONTAP 9.3 开始）
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+对等关系用于定义网络连接，以使集群和 SVM 能够安全地交换数据。ONTAP 9.3 简化了在集群之间和 SVM 之间配置对等关系的方式。

@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/concept_what_fabricpool_is.html 
+sidebar: sidebar 
+keywords: fabricpool, ssd, storage, hybrid, online, help 
+summary: FabricPool 是一种混合存储解决方案，使用全闪存（全 SSD ）聚合作为性能层，使用对象存储作为云层。FabricPool 中的数据会根据是否经常访问而存储在层中。使用 FabricPool 可以帮助您降低存储成本，而不会影响性能，效率或保护。 
+---
+= 什么是 FabricPool
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FabricPool 是一种混合存储解决方案，使用全闪存（全 SSD ）聚合作为性能层，使用对象存储作为云层。FabricPool 中的数据会根据是否经常访问而存储在层中。使用 FabricPool 可以帮助您降低存储成本，而不会影响性能，效率或保护。
+
+* 相关信息 *
+
+xref:task_adding_cloud_tier.adoc[正在添加云层]
+
+xref:task_attaching_aggregate_to_cloud_tier.adoc[将聚合附加到云层]

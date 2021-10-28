@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_editing_dns_configurations.html 
+sidebar: sidebar 
+keywords: edit, dns, configurations, online, help, system, manager 
+summary: 您可以使用 System Manager 添加主机信息以集中管理 DNS 配置。如果要更改域名或 IP 地址，您可以修改 DNS 详细信息。 
+---
+= 编辑 DNS 配置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 添加主机信息以集中管理 DNS 配置。如果要更改域名或 IP 地址，您可以修改 DNS 详细信息。
+
+.步骤
+. 单击 * 配置 * > * 集群 * > * 配置更新 * 。
+. 在 * 集群详细信息 * 窗格中，单击 * 编辑 DNS 配置 * 。
+. 在 * DNS 域 * 区域中，添加或修改 DNS 域名。
+. 在 * 名称服务器 * 区域中，添加或修改 IP 地址。
+. 单击 * 确定 * 。
+

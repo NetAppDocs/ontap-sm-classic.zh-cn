@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_creating_initiator_groups.html 
+sidebar: sidebar 
+keywords: create, initiator, group, system, manager, lun, online, help 
+summary: 您可以使用 System Manager 创建启动程序组。使用启动程序组可以控制主机对特定 LUN 的访问。您可以使用端口集限制启动程序可以访问的 LIF 。 
+---
+= 创建启动程序组
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建启动程序组。使用启动程序组可以控制主机对特定 LUN 的访问。您可以使用端口集限制启动程序可以访问的 LIF 。
+
+.步骤
+. 单击 * 存储 * > * LUNs * 。
+. 在 * 启动程序组 * 选项卡中，单击 * 创建 * 。
+. 在 * 创建启动程序组 * 对话框的 * 常规 * 选项卡中，指定启动程序组名称，操作系统，主机别名，端口集以及该组支持的协议。
+. 单击 * 创建 * 。
+
+
+* 相关信息 *
+
+xref:reference_luns_window.adoc[LUN 窗口]

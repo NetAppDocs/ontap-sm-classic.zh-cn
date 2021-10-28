@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_viewing_initiator_security_information.html 
+sidebar: sidebar 
+keywords: view, initiator, security, information, system, manager, online, help 
+summary: 您可以使用 System Manager 查看默认身份验证信息以及所有特定于启动程序的身份验证信息。 
+---
+= 查看启动程序安全信息
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 查看默认身份验证信息以及所有特定于启动程序的身份验证信息。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 协议 * 窗格中，单击 * iSCSI * 。
+. 在 * iSCSI* 窗口的 * 启动程序安全性 * 选项卡中，查看详细信息。
+

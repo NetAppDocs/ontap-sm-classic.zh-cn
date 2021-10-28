@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_changing_default_initiator_authentication_method.html 
+sidebar: sidebar 
+keywords: change, default, iscsi, initiator, authentication, method, online, help 
+summary: 您可以使用 System Manager 更改默认 iSCSI 身份验证方法，此身份验证方法适用于未配置特定身份验证方法的任何启动程序。 
+---
+= 更改默认 iSCSI 启动程序身份验证方法
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 更改默认 iSCSI 身份验证方法，此身份验证方法适用于未配置特定身份验证方法的任何启动程序。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 协议 * 窗格中，单击 * iSCSI * 。
+. 在 * 启动程序安全性 * 选项卡中，单击 * 默认安全性 * 区域中的 * 编辑 * 。
+. 更改安全类型。
++
+对于 CHAP 身份验证，您必须提供用户名和密码，然后确认入站设置的密码。对于出站设置，此登录信息是可选的。
+
+. 单击 * 确定 * 。
+
+
+* 相关信息 *
+
+xref:reference_iscsi_window.adoc[iSCSI 窗口]

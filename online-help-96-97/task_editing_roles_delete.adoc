@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_editing_roles_delete.html 
+sidebar: sidebar 
+keywords: edit, role, system, manager, roleto, command, user, access, online, help 
+summary: 您可以使用 System Manager 修改访问控制角色对命令或命令目录的访问权限，并将用户的访问权限限制为仅能访问一组指定的命令。 
+---
+= 编辑角色
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 修改访问控制角色对命令或命令目录的访问权限，并将用户的访问权限限制为仅能访问一组指定的命令。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * SVM 用户详细信息 * 窗格中，单击 * 角色 * 。
+. 选择要修改的角色，然后单击 * 编辑 * 。
+. 修改角色属性，然后单击 * 修改 * 。
+

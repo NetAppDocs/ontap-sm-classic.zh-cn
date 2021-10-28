@@ -1,0 +1,63 @@
+---
+permalink: online-help-96-97/task_enabling_saml_authentication.html 
+sidebar: sidebar 
+keywords: system, manager, enable, saml, authentication, idp, security, markup, language, secure, identity, provide, online, help 
+summary: 您可以使用 System Manager 配置安全断言标记语言（ Security Assertion Markup Language ， SAML ）身份验证，以便远程用户可以使用安全身份提供程序（ IdP ）登录。 
+---
+= 启用 SAML 身份验证
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 配置安全断言标记语言（ Security Assertion Markup Language ， SAML ）身份验证，以便远程用户可以使用安全身份提供程序（ IdP ）登录。
+
+.开始之前
+* 必须配置计划用于远程身份验证的 IdP 。
++
+[NOTE]
+====
+请参见您配置的 IdP 提供的文档。
+
+====
+* 您必须具有 IdP 的 URI 。
+
+
+已通过 System Manager 验证的 IdP 为 Shibboleth 和 Active Directory 联合身份验证服务。
+
+[NOTE]
+====
+启用 SAML 身份验证后，只有远程用户才能访问 System Manager 图形用户界面。启用 SAML 身份验证后，本地用户无法访问 System Manager 图形用户界面。
+
+====
+.步骤
+. 单击 * 配置 * > * 集群 * > * 身份验证 * 。
+. 选中 * 启用 SAML 身份验证 * 复选框。
+. 将 System Manager 配置为使用 SAML 身份验证：
++
+.. 输入 IdP 的 URI 。
+.. 输入主机系统的 IP 地址。
+.. 如果需要，请更改主机系统证书。
+
+
+. 单击 * 检索主机元数据 * 以检索主机 URI 和主机元数据信息。
+. 复制主机 URI 或主机元数据详细信息，访问 IdP ，然后在 IdP 窗口中指定主机 URI 或主机元数据详细信息以及信任规则。
++
+[NOTE]
+====
+请参见您配置的 IdP 提供的文档。
+
+====
+. 单击 * 保存 * 。
++
+此时将显示 IdP 登录窗口。
+
+. 使用 IdP 登录窗口登录到 System Manager 。
++
+配置 IdP 后，如果用户尝试使用完全限定域名（ FQDN ）， IPv6 或集群管理 LIF 进行登录，则系统会自动将 IP 地址更改为在 IdP 配置期间指定的主机系统的 IP 地址。
+
+
+
+* 相关信息 *
+
+xref:task_accessing_cluster_by_using_system_manager_brower_based_gui.adoc[使用 ONTAP System Manager 基于浏览器的图形界面访问集群]

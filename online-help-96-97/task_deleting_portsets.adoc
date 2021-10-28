@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_deleting_portsets.html 
+sidebar: sidebar 
+keywords: delete, port, sets, system, manager, online, help 
+summary: 您可以使用 System Manager 删除不再需要的端口集。 
+---
+= 正在删除端口集
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 删除不再需要的端口集。
+
+.步骤
+. 单击 * 存储 * > * LUNs * 。
+. 在 * 端口集 * 选项卡中，选择一个或多个端口集，然后单击 * 删除 * 。
+. 单击 * 删除 * 确认删除。
+

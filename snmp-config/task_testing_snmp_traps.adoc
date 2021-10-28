@@ -1,0 +1,22 @@
+---
+permalink: snmp-config/task_testing_snmp_traps.html 
+sidebar: sidebar 
+keywords: communication, traphost, automatic, validate, add, snmp, traphost, correct, trap, test, test snmp traps 
+summary: 由于添加陷阱主机时不会自动验证与该主机的通信，因此您应验证 SNMP 陷阱主机是否可以正确接收陷阱。 
+---
+= 测试 SNMP 陷阱
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+由于添加陷阱主机时不会自动验证与该主机的通信，因此您应验证 SNMP 陷阱主机是否可以正确接收陷阱。
+
+.步骤
+. 导航到 * SNMP * 屏幕。
+. 单击 * 测试陷阱主机 * 可从添加陷阱主机的集群生成陷阱。
+. 从陷阱主机位置验证是否已收到陷阱。
++
+使用您通常使用的任何软件管理 SNMP 陷阱主机。
+
+

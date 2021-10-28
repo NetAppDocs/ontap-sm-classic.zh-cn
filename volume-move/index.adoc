@@ -1,0 +1,69 @@
+---
+permalink: volume-move/index.html 
+sidebar: sidebar 
+keywords: nondisruptive, data, volume, node, storage, virtual, machine, svm, ontap, cluster, volume move overview, move, overview 
+summary: 您可以使用此内容无中断地将数据卷从一个节点移动到 ONTAP 9 集群中同一 Storage Virtual Machine （ SVM ）中的另一个节点。 
+---
+= 卷移动概述
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用此内容无中断地将数据卷从一个节点移动到 ONTAP 9 集群中同一 Storage Virtual Machine （ SVM ）中的另一个节点。
+
+
+
+== 使用此内容的要求
+
+在使用此内容之前，请确保满足以下条件：
+
+* 此集群正在运行 ONTAP 9 。
+* 您拥有集群管理员权限。
+* 您希望使用最佳实践，而不是浏览每个可用选项。
+* 您不想阅读大量概念背景信息。
+* 要使用 System Manager 。
++
+对于某些任务，您必须使用 ONTAP 命令行界面（ CLI ）。
+
+* 您希望使用适用于 ONTAP 9.7 及更早版本的 _Classic_ System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"^]
+
+* 您知道要移动的卷。
++
+为了帮助您确定要移动的卷，您可以使用 Active IQ Unified Manager （以前称为 OnCommand 统一管理器）。
+
+* 要移动的卷是数据卷。
+* 任何新硬件或重新利用的硬件均已完全安装，并且已具有聚合。
+* 如果集群包含 LUN ，则所有节点的每个 LUN 都有两个路径。
+* 未在集群网络端口上启用流量控制。
+* 对于包含命名空间的卷，集群运行的是 ONTAP 9.6 或更高版本。
++
+运行 ONTAP 9.5 的 NVMe 配置不支持卷移动。
+
+
+
+如果此内容不适合您的情况，您应查看以下文档：
+
+* https://docs.netapp.com/us-en/ontap/volumes/index.html["逻辑存储管理"^]
++
+介绍如何使用命令行界面移动卷。
+
+
+
+
+
+== 卷移动的替代方案
+
+在移动卷之前，您应评估以下方法是否更适合您的情况：
+
+* 如果您要无中断地原位升级控制器，可以考虑使用聚合重新定位（ Aggregate Relocation ， ARL ），这不需要物理数据移动。
++
+https://docs.netapp.com/us-en/ontap/high-availability/index.html["高可用性"^]
+
+* 如果要仅移动 LUN 而不移动其包含的卷，则可以使用 LUN 移动机制。
++
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
+
+

@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_updating_cluster_name.html 
+sidebar: sidebar 
+keywords: system, manager, update, cluster, name, online, help 
+summary: 您可以根据需要使用 System Manager 修改集群的名称。 
+---
+= 正在更新集群名称
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以根据需要使用 System Manager 修改集群的名称。
+
+.步骤
+. 单击 * 配置 * > * 集群 * > * 配置更新 * 。
+. 在 * 集群详细信息 * 窗格中，单击 * 更新集群名称 * 。
+. 在 * 更新集群名称 * 对话框中，指定集群的新名称，然后单击 * 提交 * 。
+

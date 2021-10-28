@@ -1,0 +1,51 @@
+---
+permalink: online-help-96-97/reference_ldap_configuration_window.html 
+sidebar: sidebar 
+keywords: ldap, configuration, window, command, button, area, online, help 
+summary: 您可以使用 LDAP 配置窗口在 Storage Virtual Machine （ SVM ）级别编辑或删除活动 LDAP 客户端。 
+---
+= LDAP 配置窗口
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 LDAP 配置窗口在 Storage Virtual Machine （ SVM ）级别编辑或删除活动 LDAP 客户端。
+
+
+
+== 命令按钮
+
+* * 编辑 * 。
++
+打开 Active LDAP 客户端对话框，在此可以编辑活动 LDAP 客户端的属性，例如 Active Directory 域服务器和首选 Active Directory 服务器。
+
+* * 删除 *
++
+打开删除活动 LDAP 客户端对话框，在此可以删除活动 LDAP 客户端。
+
+* * 刷新 *
++
+更新窗口中的信息。
+
+
+
+
+
+== LDAP 配置区域
+
+显示有关活动 LDAP 客户端的详细信息。
+
+* * LDAP 客户端名称 *
++
+显示活动 LDAP 客户端的名称。
+
+* * Active Directory 域服务器 *
++
+显示活动 LDAP 客户端的 Active Directory 域。
+
+* * 首选 Active Directory 服务器 *
++
+显示活动 LDAP 客户端的首选 Active Directory 服务器。
+
+

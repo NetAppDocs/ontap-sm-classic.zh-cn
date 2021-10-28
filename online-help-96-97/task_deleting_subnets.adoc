@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/task_deleting_subnets.html 
+sidebar: sidebar 
+keywords: delete, subnet, system, manager, online, help, ip, addresses 
+summary: 如果您不再需要子网，并且希望重新分配分配分配给该子网的 IP 地址，则可以使用 System Manager 删除该子网。 
+---
+= 正在删除子网
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您不再需要子网，并且希望重新分配分配分配给该子网的 IP 地址，则可以使用 System Manager 删除该子网。
+
+要删除的子网不能包含使用子网中 IP 地址的任何 LIF 。
+
+您不能使用 System Manager 删除集群 IP 空间中的子网。您必须改用命令行界面（ CLI ）。
+
+.步骤
+. 单击 * 网络 * > * 子网 * 。
+. 选择要删除的子网，然后单击 * 删除 * 。
+. 选中确认复选框，然后单击 * 删除 * 。
+
+
+* 相关信息 *
+
+xref:reference_network_window.adoc[网络窗口]

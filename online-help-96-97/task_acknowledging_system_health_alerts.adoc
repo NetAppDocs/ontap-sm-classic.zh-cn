@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_acknowledging_system_health_alerts.html 
+sidebar: sidebar 
+keywords: system, manger, health, alerts, online, help 
+summary: 您可以使用 System Manager 确认子系统的系统运行状况警报并对其做出响应。您可以使用显示的信息采取建议的操作并更正警报报告的问题。 
+---
+= 确认系统运行状况警报
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 确认子系统的系统运行状况警报并对其做出响应。您可以使用显示的信息采取建议的操作并更正警报报告的问题。
+
+.步骤
+. 单击 * 事件和作业 * > * 系统警报 * 。
+. 在 * 系统警报 * 窗口中，单击子系统名称旁边的箭头图标。
+. 选择要确认的警报，然后单击 * 确认 * 。
+. 键入您的姓名，然后单击 * 确认 * 。
+
+
+* 相关信息 *
+
+xref:reference_system_health_window.adoc[系统警报窗口]

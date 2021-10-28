@@ -1,0 +1,49 @@
+---
+permalink: online-help-96-97/task_increasing_cache_for_flash_pool_aggregates_by_adding_ssds.html 
+sidebar: sidebar 
+keywords: increase, cache, flash, pool, aggregates, ssd, online, help, storage 
+summary: 您可以使用 System Manager 将 SSD 添加为存储池或专用 SSD ，以增加 Flash Pool 聚合的大小。 
+---
+= 通过添加 SSD 来增加 Flash Pool 聚合的缓存
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 将 SSD 添加为存储池或专用 SSD ，以增加 Flash Pool 聚合的大小。
+
+.开始之前
+* Flash Pool 聚合必须处于联机状态。
+* 存储池中必须有足够的备用 SSD 或分配单元可分配为缓存磁盘。
+
+
+.步骤
+. 单击 * 存储 * > * 聚合和磁盘 * > * 聚合 * 。
+. 在 * 聚合 * 窗口中，选择 Flash Pool 聚合，然后单击 * 添加缓存 * 。
+. 在 * 添加缓存 * 对话框中，执行相应的操作：
++
+|===
+| 缓存源选择为 ... | 执行此操作 ... 
+
+
+ a| 
+存储池
+ a| 
+选择可从中获取缓存的存储池，并指定缓存大小。
+
+
+
+ a| 
+专用 SSD
+ a| 
+选择 SSD 大小和要包含的 SSD 数量。
+
+|===
+. 单击 * 添加 * 。
++
+对于镜像聚合，将显示添加缓存对话框，其中包含将添加两倍选定磁盘数量的信息。
+
+. 在 * 添加缓存 * 对话框中，单击 * 是 * 。
+
+
+缓存磁盘将添加到选定 Flash Pool 聚合。

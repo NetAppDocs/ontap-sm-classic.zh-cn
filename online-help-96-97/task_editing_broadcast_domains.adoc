@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_editing_broadcast_domains.html 
+sidebar: sidebar 
+keywords: system, manager, edit, broadcast, domain, settings, online, help, port 
+summary: 您可以使用 System Manager 修改广播域的属性，例如名称， MTU 大小以及与广播域关联的端口。 
+---
+= 编辑广播域设置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 修改广播域的属性，例如名称， MTU 大小以及与广播域关联的端口。
+
+.关于此任务
+* 您不能修改将管理端口 e0M 分配到的广播域的 MTU 大小。
+* 您不能使用 System Manager 编辑集群 IP 空间中的广播域。
++
+您必须改用命令行界面（ CLI ）。
+
+
+
+.步骤
+. 单击 * 网络 * > * 广播域 * 。
+. 选择要修改的广播域，然后单击 * 编辑 * 。
+. 在 * 编辑广播域 * 对话框中，根据需要修改广播域属性。
+. 单击 * 保存并关闭 * 。
+
+
+* 相关信息 *
+
+xref:reference_network_window.adoc[网络窗口]

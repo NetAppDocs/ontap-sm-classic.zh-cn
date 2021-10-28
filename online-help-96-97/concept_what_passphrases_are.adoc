@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/concept_what_passphrases_are.html 
+sidebar: sidebar 
+keywords: passphrase, online, help, peer, request 
+summary: 您可以使用密码短语来授权对等请求。您可以使用自定义密码短语或系统生成的密码短语建立集群对等关系。 
+---
+= 什么是密码短语
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用密码短语来授权对等请求。您可以使用自定义密码短语或系统生成的密码短语建立集群对等关系。
+
+* 您可以在远程集群上生成密码短语。
+* 密码短语的最小长度为 8 个字符。
+* 密码短语是根据 IP 空间生成的。
+* 如果您使用系统生成的密码短语进行集群对等，则在启动程序集群中输入密码短语后，对等将自动获得授权。
+* 如果您使用自定义密码短语建立集群对等关系，则必须导航到远程集群以完成对等过程。
+

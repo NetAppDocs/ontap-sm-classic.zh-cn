@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_nodes.html 
+sidebar: sidebar 
+keywords: node, system, manager, view, detail, cluster, online, help 
+summary: 您可以使用 System Manager 查看集群中节点的详细信息。 
+---
+= 节点
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 查看集群中节点的详细信息。

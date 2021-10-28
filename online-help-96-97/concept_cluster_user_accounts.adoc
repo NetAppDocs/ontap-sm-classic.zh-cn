@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_cluster_user_accounts.html 
+sidebar: sidebar 
+keywords: user, system, manager, add, edit, manage, account, login, online, help 
+summary: 您可以使用 System Manager 添加，编辑和管理集群用户帐户，并指定用于访问存储系统的登录用户方法。 
+---
+= 用户
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 添加，编辑和管理集群用户帐户，并指定用于访问存储系统的登录用户方法。

@@ -1,0 +1,37 @@
+---
+permalink: smb-config/task_deciding_where_to_provision_new_volume.html 
+sidebar: sidebar 
+keywords: create, cifs, volume, place, exist, storage, virtual, machine, svm, configuration, require, decision, workflow, decide where to provision the new volume 
+summary: 在创建新的 CIFS 卷之前，您必须确定是否将其放置在现有 Storage Virtual Machine （ SVM ）中，如果是，还必须确定 SVM 所需的配置。此决定将决定您的工作流。 
+---
+= 确定在何处配置新卷
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在创建新的 CIFS 卷之前，您必须确定是否将其放置在现有 Storage Virtual Machine （ SVM ）中，如果是，还必须确定 SVM 所需的配置。此决定将决定您的工作流。
+
+
+
+== 操作步骤
+
+* 如果要在新的 SVM 上配置卷，请创建一个启用了 CIFS 的新 SVM 。
++
+xref:task_creating_protocol_enabled_svm.adoc[创建启用了 CIFS 的新 SVM]
+
++
+如果现有 SVM 未启用 CIFS ，则必须选择此选项。
+
+* 如果要在已启用但未配置 CIFS 的现有 SVM 上配置卷，请在现有 SVM 上配置 CIFS/SMB 访问。
++
+xref:task_configuring_access_to_existing_svm.adoc[在现有 SVM 上配置 CIFS/SMB 访问]
+
++
+如果您在此内容中使用操作步骤创建了用于 SAN 访问的 SVM ，则应选择此选项。
+
+* 如果要在已完全配置为可进行 CIFS 访问的现有 SVM 上配置卷，请将 CIFS 卷添加到已启用 CIFS 的 SVM 中。
++
+xref:concept_adding_protocol_volume_to_protocol_enabled_svm.adoc[将 CIFS 卷添加到启用了 CIFS 的 SVM]
+
+

@@ -1,0 +1,31 @@
+---
+permalink: online-help-96-97/task_modifying_branchcache_settings.html 
+sidebar: sidebar 
+keywords: modify, branchcache, settings, cifs, system, manager, storage, virtual, machine, svm, online, help 
+summary: 您可以使用 System Manager 中的 CIFS 窗口修改为启用了 CIFS 的 Storage Virtual Machine （ SVM ）配置的 BranchCache 设置。您可以更改哈希存储路径，哈希存储大小，操作模式以及支持的 BranchCache 版本。 
+---
+= 修改 BranchCache 设置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 中的 CIFS 窗口修改为启用了 CIFS 的 Storage Virtual Machine （ SVM ）配置的 BranchCache 设置。您可以更改哈希存储路径，哈希存储大小，操作模式以及支持的 BranchCache 版本。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * BranchCache* 选项卡中，单击 * 编辑 * 。
+. 在 * 修改 BranchCache 设置 * 对话框中，修改所需信息：
++
+** 哈希存储路径
++
+如果修改哈希存储路径，则可以选择保留上一个哈希存储中缓存的哈希数据。
+
+** 哈希存储大小
+** 操作模式
+** BranchCache 版本
+
+
+. 单击 * 修改 * 。
+

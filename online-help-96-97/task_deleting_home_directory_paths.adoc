@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_deleting_home_directory_paths.html 
+sidebar: sidebar 
+keywords: delete, home, directory, path, system, manager, online, help 
+summary: 如果您不希望存储系统使用主目录路径来解析用户的 CIFS 主目录位置，则可以使用 System Manager 删除此路径。 
+---
+= 正在删除主目录路径
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您不希望存储系统使用主目录路径来解析用户的 CIFS 主目录位置，则可以使用 System Manager 删除此路径。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 配置 * 选项卡的 * 主目录 * 区域中，单击 * 管理 * 。
+. 在 * 管理主目录 * 对话框中，选择要删除的主目录路径，然后单击 * 删除 * 。
+. 单击 * 保存并关闭 * 。
+
+
+* 相关信息 *
+
+xref:reference_cifs_window.adoc[CIFS 窗口]

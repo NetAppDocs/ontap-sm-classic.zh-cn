@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_deleting_preferred_domain_controllers.html 
+sidebar: sidebar 
+keywords: delete, preferred, domain, controller, system, manager, svm, online, help 
+summary: 您可以使用 System Manager 删除与 Storage Virtual Machine （ SVM ）计算机帐户关联的首选域控制器。如果您不再需要使用特定域控制器，则可以执行此操作。 
+---
+= 删除首选域控制器
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 删除与 Storage Virtual Machine （ SVM ）计算机帐户关联的首选域控制器。如果您不再需要使用特定域控制器，则可以执行此操作。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 域 * 选项卡中，从 * 首选域控制器 * 区域中选择要删除的域，然后单击 * 删除 * 。
+. 选中确认复选框，然后单击 * 删除 * 。
+

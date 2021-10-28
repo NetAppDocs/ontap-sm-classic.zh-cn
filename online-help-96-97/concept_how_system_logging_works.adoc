@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/concept_how_system_logging_works.html 
+sidebar: sidebar 
+keywords: system, logging, application, troubleshoot, problem, manager, online, help 
+summary: 系统日志记录是应用程序故障排除的重要工具。您应启用系统日志记录，以便在应用程序出现问题时可以找到问题所在。您可以在运行时启用 System Manager 日志记录，而无需修改应用程序二进制文件。 
+---
+= 系统日志记录的工作原理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+系统日志记录是应用程序故障排除的重要工具。您应启用系统日志记录，以便在应用程序出现问题时可以找到问题所在。您可以在运行时启用 System Manager 日志记录，而无需修改应用程序二进制文件。
+
+日志输出可能非常庞大，因此难以管理。通过 System Manager ，您可以选择要输出的日志语句类型来细化日志记录输出。默认情况下，系统日志记录设置为信息。您可以选择以下日志级别之一：
+
+* 关闭
+* error
+* 警告
+* 信息
+* 调试
+
+
+这些级别分层运行。如果日志级别设置为 off ，则表示不记录消息。

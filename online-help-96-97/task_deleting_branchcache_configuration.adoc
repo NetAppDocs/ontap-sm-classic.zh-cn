@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_deleting_branchcache_configuration.html 
+sidebar: sidebar 
+keywords: branchcache, delete, configuration, system, manager, online, help 
+summary: 如果您不再希望在为 BranchCache 配置的 Storage Virtual Machine （ SVM ）上提供缓存服务，则可以使用 System Manager 删除 BranchCache 配置。 
+---
+= 删除 BranchCache 配置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您不再希望在为 BranchCache 配置的 Storage Virtual Machine （ SVM ）上提供缓存服务，则可以使用 System Manager 删除 BranchCache 配置。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * BranchCache* 选项卡中，单击 * 删除 * 。
+. 选中确认复选框，然后单击 * 删除 * 。
++
+您还可以从哈希存储中删除现有哈希。
+
+

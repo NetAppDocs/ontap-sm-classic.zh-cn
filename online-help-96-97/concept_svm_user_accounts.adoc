@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_svm_user_accounts.html 
+sidebar: sidebar 
+keywords: system, manager, create, manage, online, help, storage, virtual, machine, svm, user, account 
+summary: 您可以使用 System Manager 创建和管理 Storage Virtual Machine （ SVM ）用户帐户。 
+---
+= 用户
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建和管理 Storage Virtual Machine （ SVM ）用户帐户。

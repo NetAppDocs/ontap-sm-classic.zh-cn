@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_system_alerts.html 
+sidebar: sidebar 
+keywords: system, manager, monitor, cluster 
+summary: 您可以使用 System Manager 监控集群的不同部分。 
+---
+= 系统警报
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 监控集群的不同部分。
+
+* 相关信息 *
+
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["系统管理"]

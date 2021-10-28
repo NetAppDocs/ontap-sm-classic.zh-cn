@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_setting_up_network.html 
+sidebar: sidebar 
+keywords: set, up, network, cluster, node, service, processor, dns, ntp, online, help 
+summary: 通过设置网络，您可以管理集群，节点和服务处理器。您还可以使用网络窗口设置 DNS 和 NTP 详细信息。 
+---
+= 设置网络
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过设置网络，您可以管理集群，节点和服务处理器。您还可以使用网络窗口设置 DNS 和 NTP 详细信息。
+
+您必须已设置集群。
+
+.关于此任务
+* 创建集群时，仅会列出已启动且正在运行的节点。
++
+您可以为这些节点创建 LIF 。
+
+* 您可以禁用 IP 地址范围，并为集群管理，节点管理和服务处理器管理网络输入单独的 IP 地址。
+

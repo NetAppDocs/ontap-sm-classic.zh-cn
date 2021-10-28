@@ -1,0 +1,38 @@
+---
+permalink: online-help-96-97/task_viewing_system_manager_log_files.html 
+sidebar: sidebar 
+keywords: view, ontap, system, manager, log, file, online, help 
+summary: 如果您在使用 System Manager 时遇到任何问题，可以将日志文件发送给技术支持以帮助解决问题。System Manager 日志文件与 ONTAP 日志文件位于 mlog 目录中。 
+---
+= 查看 ONTAP System Manager 日志文件
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您在使用 System Manager 时遇到任何问题，可以将日志文件发送给技术支持以帮助解决问题。System Manager 日志文件与 ONTAP 日志文件一起位于 `mlog` 目录中。
+
+.步骤
+. 确定托管集群管理 LIF 的节点。
+. 在 Web 浏览器中输入以下 URL ： ` +https://cluster-mgmt-LIF/spi+`
++
+`cluster-mgmt-LIF` 是集群管理 LIF 的 IP 地址。
+
+. 键入集群管理员凭据，然后单击 * 确定 * 。
+. 在 * Data ONTAP - 根卷文件访问 * 窗口中，单击托管集群管理 LIF 的节点的 * 日志 * 链接。
+. 导航到 `mlog` 目录以访问 System Manager 日志文件。
++
+根据您遇到的问题描述类型，您可能需要以下日志文件：
+
++
+** `sysmgr.log`
++
+此文件包含 System Manager 的最新日志。
+
+** `mgwd.log`
+** `php.log`
+** `apache_access.log`
+** `messations.log`
+
+
+

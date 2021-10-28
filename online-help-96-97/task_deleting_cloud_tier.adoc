@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_deleting_cloud_tier.html 
+sidebar: sidebar 
+keywords: online, help, system, manager, cloud, tier, online, help 
+summary: 您可以使用 System Manager 删除不再需要的云层。 
+---
+= 删除云层
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 删除不再需要的云层。
+
+您必须已删除与云层关联且已启用 FabricPool 的聚合。
+
+.步骤
+. 单击 * 存储 * > * 聚合和磁盘 * > * 云层 * 。
+. 选择要删除的云层，然后单击 * 删除 * 。
+
+
+* 相关信息 *
+
+xref:reference_storage_tiers_window.adoc[存储层窗口]

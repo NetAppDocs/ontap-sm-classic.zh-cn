@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_service_processors.html 
+sidebar: sidebar 
+keywords: service, processors, monitor, manage, storage, system, manager, temperature, voltage, current, fan, speed, online, help 
+summary: 您可以使用服务处理器通过 System Manager 监控和管理存储系统参数，例如温度，电压，电流和风扇速度。 
+---
+= 服务处理器
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用服务处理器通过 System Manager 监控和管理存储系统参数，例如温度，电压，电流和风扇速度。

@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_adding_initiators.html 
+sidebar: sidebar 
+keywords: online, help, add, initiator, system, help, group, lun, online, help 
+summary: 您可以使用 System Manager 将启动程序添加到启动程序组。当启动程序所属的启动程序组映射到某个 LUN 时，启动程序可提供对该 LUN 的访问权限。 
+---
+= 添加启动程序
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 将启动程序添加到启动程序组。当启动程序所属的启动程序组映射到某个 LUN 时，启动程序可提供对该 LUN 的访问权限。
+
+.步骤
+. 单击 * 存储 * > * LUNs * 。
+. 在 * LUN 管理 * 选项卡中，选择要添加启动程序的启动程序组，然后单击 * 编辑 * 。
+. 在 * 编辑启动程序组 * 对话框中，单击 * 启动程序 * 。
+. 单击 * 添加 * 。
+. 指定启动程序名称并单击 * 确定 * 。
+. 单击 * 保存并关闭 * 。
+
+
+* 相关信息 *
+
+xref:reference_luns_window.adoc[LUN 窗口]

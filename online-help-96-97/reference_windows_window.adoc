@@ -1,0 +1,173 @@
+---
+permalink: online-help-96-97/reference_windows_window.html 
+sidebar: sidebar 
+keywords: storage, virtual, machine, svm, cluster, online, help, user, tab, command, buttons, group 
+summary: 您可以使用 Windows 窗口为集群上的每个 Storage Virtual Machine （ SVM ）维护一份本地 Windows 用户和组列表。您可以使用本地 Windows 用户和组进行身份验证和名称映射。 
+---
+= Windows 窗口
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 Windows 窗口为集群上的每个 Storage Virtual Machine （ SVM ）维护一份本地 Windows 用户和组列表。您可以使用本地 Windows 用户和组进行身份验证和名称映射。
+
+
+
+== 用户选项卡
+
+您可以使用用户选项卡查看 SVM 的本地 Windows 用户。
+
+
+
+== 命令按钮
+
+* * 创建 * 。
++
+打开创建用户对话框，在此可以创建本地 Windows 用户帐户，该帐户可用于授权通过 SMB 连接访问 SVM 中的数据。
+
+* * 编辑 * 。
++
+打开编辑用户对话框，在此可以编辑本地 Windows 用户属性，例如组成员资格和全名。您也可以启用或禁用用户帐户。
+
+* * 删除 *
++
+打开删除用户对话框，在此可以从 SVM 中删除不再需要的本地 Windows 用户帐户。
+
+* * 添加到组 *
++
+打开添加组对话框，在此可以为用户帐户分配组成员资格，前提是您希望该用户拥有与该组关联的权限。
+
+* * 设置密码 *
++
+打开重置密码对话框，在此可以重置 Windows 本地用户的密码。例如，如果密码泄露或用户忘记了密码，您可能需要重置密码。
+
+* * 重命名 *
++
+打开重命名用户对话框，在此可以重命名本地 Windows 用户帐户，以便更轻松地进行标识。
+
+* * 刷新 *
++
+更新窗口中的信息。
+
+
+
+
+
+== 用户列表
+
+* * 名称 *
++
+显示本地用户的名称。
+
+* * 全名 *
++
+显示本地用户的全名。
+
+* * 帐户已禁用 *
++
+显示本地用户帐户是启用还是禁用。
+
+* * 问题描述 *
++
+显示此本地用户的问题描述。
+
+
+
+
+
+== 用户详细信息区域
+
+* * 组 *
++
+显示用户所属组的列表。
+
+
+
+
+
+== 组选项卡
+
+您可以使用组选项卡添加，编辑或删除 SVM 的本地 Windows 组。
+
+
+
+== 命令按钮
+
+* * 创建 * 。
++
+打开 " 创建组 " 对话框，在此可以创建本地 Windows 组，这些组可用于授权通过 SMB 连接访问 SVM 中的数据。
+
+* * 编辑 * 。
++
+打开编辑组对话框，在此可以编辑本地 Windows 组属性，例如分配给组的权限以及组的问题描述。
+
+* * 删除 *
++
+打开删除组对话框，在此可以从 SVM 中删除不再需要的本地 Windows 组。
+
+* * 添加成员 *
++
+打开添加成员对话框，在此可以将本地或 Active Directory 用户或 Active Directory 组添加到本地 Windows 组。
+
+* * 重命名 *
++
+打开重命名组对话框，在此可以重命名本地 Windows 组，以便更轻松地进行标识。
+
+* * 刷新 *
++
+更新窗口中的信息。
+
+
+
+
+
+== 组列表
+
+* * 名称 *
++
+显示本地组的名称。
+
+* * 问题描述 *
++
+显示此本地组的问题描述。
+
+
+
+
+
+== 组详细信息区域
+
+* * 权限 *
++
+显示与选定组关联的权限列表。
+
+* * 用户 *
++
+显示与选定组关联的本地用户的列表。
+
+
+
+* 相关信息 *
+
+xref:task_creating_local_user_group.adoc[创建本地 Windows 组]
+
+xref:task_editing_local_windows_group_properties.adoc[编辑本地 Windows 组属性]
+
+xref:task_adding_user_accounts_to_windows_local_group.adoc[将用户帐户添加到 Windows 本地组]
+
+xref:task_renaming_local_windows_group.adoc[重命名本地 Windows 组]
+
+xref:task_deleting_local_windows_group.adoc[删除本地 Windows 组]
+
+xref:task_creating_local_windows_user_accounts.adoc[创建本地 Windows 用户帐户]
+
+xref:task_editing_local_windows_user_properties.adoc[编辑本地 Windows 用户属性]
+
+xref:task_assigning_group_memberships_to_user_account.adoc[为用户帐户分配组成员资格]
+
+xref:task_renaming_local_windows_user.adoc[重命名本地 Windows 用户]
+
+xref:task_changing_password_for_windows_local_users.adoc[重置 Windows 本地用户的密码]
+
+xref:task_deleting_local_windows_user_account.adoc[删除本地 Windows 用户帐户]

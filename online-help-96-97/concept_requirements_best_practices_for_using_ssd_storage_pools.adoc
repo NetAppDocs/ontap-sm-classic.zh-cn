@@ -1,0 +1,41 @@
+---
+permalink: online-help-96-97/concept_requirements_best_practices_for_using_ssd_storage_pools.html 
+sidebar: sidebar 
+keywords: requirements, best, practices, ssd, storage, flash, pool, aggregate, online, help 
+summary: 某些技术无法与使用 SSD 存储池的 Flash Pool 聚合结合使用。 
+---
+= 使用 SSD 存储池的要求和最佳实践
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+某些技术无法与使用 SSD 存储池的 Flash Pool 聚合结合使用。
+
+对于使用 SSD 存储池作为缓存存储的 Flash Pool 聚合，不能使用以下技术：
+
+* MetroCluster
+* SyncMirror 功能
++
+镜像聚合可以与使用存储池的 Flash Pool 聚合共存；但是，无法镜像 Flash Pool 聚合。
+
+* 物理 SSD
++
+Flash Pool 聚合可以使用 SSD 存储池或物理 SSD ，但不能同时使用这两者。
+
+
+
+SSD 存储池必须符合以下规则：
+
+* SSD 存储池只能包含 SSD ； HDD 不能添加到 SSD 存储池。
+* SSD 存储池中的所有 SSD 必须属于同一个高可用性（ HA ）对。
+* 您不能使用已分区的 SSD 在存储池中进行根数据分区。
+
+
+如果您从一个存储池向两个具有不同 RAID 类型的缓存提供存储，并且将存储池的大小扩展到 RAID4 的最大 RAID 组大小之外，则 RAID4 分配单元中的额外分区将不会使用。因此，最佳做法是使存储池的缓存 RAID 类型保持同构。
+
+您不能更改从存储池分配的缓存 RAID 组的 RAID 类型。您可以在添加第一个分配单元之前设置缓存的 RAID 类型，并且稍后无法更改 RAID 类型。
+
+创建存储池或向现有存储池添加 SSD 时，必须使用相同大小的 SSD 。如果发生故障并且不存在大小正确的备用 SSD ，则 ONTAP 可以使用较大的 SSD 来更换发生故障的 SSD 。但是，较大的 SSD 会进行适当的大小调整，以匹配存储池中其他 SSD 的大小，从而导致 SSD 容量丢失。
+
+一个存储池只能使用一个备用 SSD 。如果存储池为 HA 对中两个节点所拥有的 Flash Pool 聚合提供了分配单元，则备用 SSD 可以归任一节点所有。但是，如果存储池仅为 HA 对中某个节点所拥有的 Flash Pool 聚合提供分配单元，则 SSD 备用磁盘必须属于同一节点。

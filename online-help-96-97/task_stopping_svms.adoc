@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_stopping_svms.html 
+sidebar: sidebar 
+keywords: stop, svm, online, help, system, manager, storage, virtual, machine 
+summary: 如果要对 SVM 中的任何问题描述进行故障排除，删除 SVM 或停止从 SVM 进行数据访问，可以使用 System Manager 停止 Storage Virtual Machine （ SVM ）。 
+---
+= 正在停止 SVM
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果要对 SVM 中的任何问题描述进行故障排除，删除 SVM 或停止从 SVM 进行数据访问，可以使用 System Manager 停止 Storage Virtual Machine （ SVM ）。
+
+必须断开连接到 SVM 的所有客户端。
+
+[NOTE]
+====
+如果在停止 SVM 时连接了任何客户端，则可能会发生数据丢失。
+
+====
+.关于此任务
+* 在存储故障转移（ SFO ）期间，无法停止 SVM 。
+* 停止 SVM 时， SVM 管理员无法登录到 SVM 。
+
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择要停止的 SVM ，然后单击 * 停止 * 。
+
+
+SVM 将停止向客户端提供数据。

@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/concept_how_storage_qos_works.html 
+sidebar: sidebar 
+keywords: storage, qos, control, workload, throttle, prioritize, client, operations, san, nas, system, operation, online, help 
+summary: 存储 QoS 通过限制客户端操作（ SAN 和 NAS 数据请求）和系统操作并确定其优先级来控制分配给策略组的工作负载。 
+---
+= 存储 QoS 的工作原理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+存储 QoS 通过限制客户端操作（ SAN 和 NAS 数据请求）和系统操作并确定其优先级来控制分配给策略组的工作负载。
+
+下图显示了使用存储 QoS 前后的示例环境。在左侧，工作负载争用集群资源来传输 I/O这些工作负载可获得 "`尽力而为` " 性能，这意味着您的性能可预测性较低（例如，工作负载的性能可能很好，会对其他工作负载产生负面影响）。右侧会将相同的工作负载分配给强制实施最大吞吐量限制的策略组。
+
+image::../media/qos_comparison.gif[本图通过周围的文字进行了说明。]
+
+` -max-throughput` 参数指定策略组不能超过的最大吞吐量限制。此参数的值以 IOPS 或 MB/ 秒为单位指定，或者以逗号分隔的 IOPS 和 MB/ 秒值的组合形式指定，并且范围为零到无限。
+
+单位为基数 10 。数字和单位之间不应存在空格。` -max-throughput `参数的默认值为` infinity ` ，该值由特殊值 INF 指定。
+
+[NOTE]
+====
+` -max-throughput` 参数没有默认单位。对于除零和无限大之外的所有值，必须指定单位。
+
+====
+关键字 "`none` " 可用于需要删除值的情况。关键字 "`INF` " 可用于需要指定最大可用值的情况。有效吞吐量规格的示例包括： "`100B/ 秒` " ， "`10KB/ 秒` " ， "`1GB/ 秒` " ， "`500MB/ 秒` " ， "`1TB/s` " ， "`100iops` " ， "`100iops ， 400 KB/ 秒` " 和 "`800 KB/ 秒， 100 iops` " 。

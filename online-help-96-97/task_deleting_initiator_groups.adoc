@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_deleting_initiator_groups.html 
+sidebar: sidebar 
+keywords: delete, initiator, groups, system, manager, online, help 
+summary: 您可以使用 System Manager 中的启动程序组选项卡删除启动程序组。 
+---
+= 删除启动程序组
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 中的启动程序组选项卡删除启动程序组。
+
+必须手动取消映射映射映射映射到启动程序组的所有 LUN 。
+
+.步骤
+. 单击 * 存储 * > * LUNs * 。
+. 在 * 启动程序组 * 选项卡中，选择要删除的一个或多个启动程序组，然后单击 * 删除 * 。
+. 单击 * 删除 * 。
+. 验证删除的启动程序组是否不再显示在 * 启动程序组 * 选项卡中。
+
+
+* 相关信息 *
+
+xref:reference_luns_window.adoc[LUN 窗口]

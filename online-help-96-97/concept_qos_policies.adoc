@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_qos_policies.html 
+sidebar: sidebar 
+keywords: qos, policy, group, system, manager, create, edit, delete, online, help 
+summary: 您可以使用 System Manager 创建，编辑和删除 QoS 策略组。 
+---
+= QoS 策略组
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建，编辑和删除 QoS 策略组。

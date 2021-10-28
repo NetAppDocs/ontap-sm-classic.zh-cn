@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_shelf_configuration_requirements_for_multi_disk_carrier_disk_shelves.html 
+sidebar: sidebar 
+keywords: shelf, configuration, requirements, multi, disk, carrier, storage, shelves, online, help 
+summary: 您可以将多磁盘托架磁盘架与单磁盘托架磁盘架（标准磁盘架）组合在同一存储系统上，并在同一堆栈中进行组合。 
+---
+= 多磁盘托架存储架的磁盘架配置要求
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以将多磁盘托架磁盘架与单磁盘托架磁盘架（标准磁盘架）组合在同一存储系统上，并在同一堆栈中进行组合。

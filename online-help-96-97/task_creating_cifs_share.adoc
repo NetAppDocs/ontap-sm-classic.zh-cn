@@ -1,0 +1,40 @@
+---
+permalink: online-help-96-97/task_creating_cifs_share.html 
+sidebar: sidebar 
+keywords: create, cifs, chare, system, manager, folder, qtree, volume, online, help 
+summary: 您可以使用 System Manager 创建 CIFS 共享，以便指定 CIFS 用户可以访问的文件夹， qtree 或卷。 
+---
+= 创建 CIFS 共享
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建 CIFS 共享，以便指定 CIFS 用户可以访问的文件夹， qtree 或卷。
+
+在设置和启动 CIFS 之前，您必须已安装 CIFS 许可证。
+
+.步骤
+. 单击 * 存储 * > * 共享 * 。
+. 从 * SVM* 字段的下拉菜单中，选择要在其中创建 CIFS 共享的 SVM 。
+. 单击 * 创建共享 * 。
+. 在 * 创建共享 * 窗口中，单击 * 浏览 * ，然后选择应共享的文件夹， qtree 或卷。
+. 指定新 CIFS 共享的名称。
+. 选中 * 为 Hyper-V 和 SQL* 启用持续可用性复选框，以允许支持 SMB 3.0 及更高版本的客户端在无中断运行期间持久打开文件。
++
+使用此选项打开的文件不会受到故障转移，交还和 LIF 迁移等中断事件的影响。
+
++
+从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。
+
+. 选中 * 访问此共享时加密数据 * 复选框以启用 SMB 3.0 加密。
+. 为共享提供问题描述或注释，然后单击 * 创建 * 。
+
+
+此时将创建 CIFS 共享，并在组中将访问权限设置为 "`Full Control for Everyone` " 。
+
+* 相关信息 *
+
+xref:task_setting_up_cifs.adoc[设置 CIFS]
+
+xref:reference_shares_window.adoc[共享窗口]

@@ -1,0 +1,34 @@
+---
+permalink: volume-restore-snapvault/index.html 
+sidebar: sidebar 
+keywords: content, restore, volume, snapvault, backup, ontap, data, loss, volume restore using snapvault overview 
+summary: 此内容介绍了在发生数据丢失时如何从 ONTAP 中的 SnapVault 备份快速还原卷。 
+---
+= 使用 SnapVault 还原卷概述
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此内容介绍了在发生数据丢失时如何从 ONTAP 中的 SnapVault 备份快速还原卷。
+
+如果要按照以下方式从 SnapVault 备份还原，应使用此内容：
+
+* 您正在使用运行 ONTAP 9 的集群。
+* 您是集群管理员。
+* 您已按照中所述的操作步骤配置 SnapVault 关系 xref:../volume-backup-snapvault/index.html[使用 SnapVault 进行卷备份]
+* 您不希望执行单个文件或 LUN 还原。
+* 您希望使用最佳实践，而不是浏览每个可用选项。
+* 您不想阅读大量概念背景信息。
+* 您希望使用适用于 ONTAP 9.7 及更早版本的 _Classic_ System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。
++
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"^]
+
+
+
+如果这些假设与您的情况不符，或者您需要更多概念背景信息，您应查看以下资源：
+
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html["数据保护"^]
+* http://www.netapp.com/us/media/tr-4015.pdf["NetApp 技术报告 4015 ：《 ONTAP 9.1 和 9.2 的 SnapMirror 配置和最佳实践》"^]
+* http://www.netapp.com/us/media/tr-4183.pdf["NetApp 技术报告 4183 ：《 SnapVault 最佳实践》"^]
+

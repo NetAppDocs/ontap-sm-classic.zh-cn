@@ -1,0 +1,54 @@
+---
+permalink: online-help-96-97/concept_what_snapvault_backup_is.html 
+sidebar: sidebar 
+keywords: baseline, transfer, defined, snapvault, snapshot, copy, online, help 
+summary: SnapVault 备份是 FlexVol 卷上的一组 Snapshot 副本，如果主数据不可用，您可以从中还原数据。Snapshot 副本是根据 Snapshot 策略创建的。SnapVault 备份会根据其计划和 SnapVault 策略规则备份 Snapshot 副本。 
+---
+= 什么是 SnapVault 备份
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapVault 备份是 FlexVol 卷上的一组 Snapshot 副本，如果主数据不可用，您可以从中还原数据。Snapshot 副本是根据 Snapshot 策略创建的。SnapVault 备份会根据其计划和 SnapVault 策略规则备份 Snapshot 副本。
+
+SnapVault 备份是一种磁盘到磁盘备份解决方案，您也可以使用它来卸载磁带备份。如果系统上发生数据丢失或损坏，可以从 SnapVault 二级卷还原备份的数据，与传统磁带备份和还原操作相比，这样停机时间和不确定性就会减少。
+
+以下术语用于描述 SnapVault 备份：
+
+* * 基线传输 *
++
+将主存储卷初始完整备份到二级系统上的相应卷。
+
+* * 二级卷 *
++
+从主卷将数据备份到的卷。此类卷可以是级联或扇出备份配置中的二级或三级（及以上）目标。SnapVault 二级系统会维护 Snapshot 副本，以便进行长期存储和可能的还原操作。
+
+* * 增量传输 *
++
+二级系统的后续备份，仅包含自上次传输操作以来对主数据所做的更改。
+
+* * SnapMirror 标签 *
++
+用于标识 Snapshot 副本以在 SnapVault 备份中进行选择和保留的属性。每个 SnapVault 策略都会配置规则，用于选择主卷上的 Snapshot 副本以及传输与给定 SnapMirror 标签匹配的 Snapshot 副本。
+
+* * Snapshot 副本 *
++
+源卷上手动创建的备份映像或由分配的策略按计划自动创建的备份映像。基线 Snapshot 副本包含要保护的整个源数据的副本；后续 Snapshot 副本包含源数据的差异副本。Snapshot 副本可以存储在源卷上，也可以存储在其他 Storage Virtual Machine （ SVM ）或集群中的其他目标卷上。
+
++
+Snapshot 副本可捕获每个源系统上卷数据的状态。对于 SnapVault 和镜像关系，此数据将传输到目标卷。
+
+* * 主卷 *
++
+包含要备份的数据的卷。在级联或扇出备份部署中，主卷是备份到 SnapVault 备份的卷，而不管 SnapVault 源位于链中的哪个位置。在级联链配置中， A 与 B 具有镜像关系， B 与 C 具有 SnapVault 关系， B 充当 SnapVault 备份的源，即使它是链中的二级目标也是如此。
+
+* * SnapVault 关系 *
++
+主卷与二级卷之间的一种备份关系，配置为 SnapVault 关系。
+
+
+
+* 相关信息 *
+
+xref:reference_protection_window.adoc[保护窗口]

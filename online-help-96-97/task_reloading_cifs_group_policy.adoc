@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_reloading_cifs_group_policy.html 
+sidebar: sidebar 
+keywords: cifs, group, policy, reload, online, help, group, policy 
+summary: 如果 CIFS 组策略的状态发生更改，则必须重新加载该策略。您可以使用 System Manager 中的 CIFS 窗口重新加载组策略。 
+---
+= 正在重新加载 CIFS 组策略
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果 CIFS 组策略的状态发生更改，则必须重新加载该策略。您可以使用 System Manager 中的 CIFS 窗口重新加载组策略。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 单击 * 域 * 选项卡。
+. 在 * 组策略 * 区域中，选择要重新加载的组策略配置，然后单击 * 重新加载 * 。
+

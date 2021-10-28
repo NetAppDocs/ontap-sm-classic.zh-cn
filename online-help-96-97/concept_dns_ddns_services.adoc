@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_dns_ddns_services.html 
+sidebar: sidebar 
+keywords: dns, ddns, service, system, manager, manage, online, help 
+summary: 您可以使用 System Manager 管理 DNS/DDNS 服务。 
+---
+= DNS/DDNS 服务
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 管理 DNS/DDNS 服务。

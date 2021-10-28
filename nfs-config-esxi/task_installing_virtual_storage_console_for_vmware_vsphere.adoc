@@ -1,0 +1,27 @@
+---
+permalink: nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html 
+sidebar: sidebar 
+keywords: configuration, provision, task, storage, esxi, host, plug-in, vcenter, server, install 
+summary: for 自动执行将存储与 ESXi 主机结合使用所需的许多配置和配置任务。是 vCenter Server 的插件。 
+---
+= 安装
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+for 自动执行将存储与 ESXi 主机结合使用所需的许多配置和配置任务。是 vCenter Server 的插件。
+
+您必须具有用于管理 ESXi 主机的 vCenter Server 的管理员凭据。
+
+.关于此任务
+* 作为虚拟设备进行安装，其中包括 Virtual Storage Console ， vStorage APIs for Storage Awareness （ VASA ） Provider 和 Storage Replication Adapter （ SRA ） for VMware vSphere 功能。
+
+
+.步骤
+. 下载您的配置支持的版本，如工具中所示。
++
+https://mysupport.netapp.com/site/global/dashboard["NetApp 支持"]
+
+. 部署虚拟设备并按照 _Deployment and Setup_ 中的步骤对其进行配置。
+

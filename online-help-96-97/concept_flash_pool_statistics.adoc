@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_flash_pool_statistics.html 
+sidebar: sidebar 
+keywords: flash, pool, statistics, system, manager, ssd, tier, read, write, workload, aggregate, online, help 
+summary: 您可以使用 System Manager 查看选定 Flash Pool 聚合的实时 SSD 层读取和写入工作负载。 
+---
+= Flash Pool 统计信息
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 查看选定 Flash Pool 聚合的实时 SSD 层读取和写入工作负载。

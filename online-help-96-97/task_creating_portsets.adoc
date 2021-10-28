@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_creating_portsets.html 
+sidebar: sidebar 
+keywords: system, manager, port, set, create, online, help, lun 
+summary: 您可以使用 System Manager 创建端口集，以限制对 LUN 的访问。 
+---
+= 创建端口集
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建端口集，以限制对 LUN 的访问。
+
+.步骤
+. 单击 * 存储 * > * LUNs * 。
+. 在 * 端口集 * 选项卡中，单击 * 创建 * 。
+. 在 * 创建端口集 * 对话框中，选择协议类型。
+. 选择要与端口集关联的网络接口。
+. 单击 * 创建 * 。
+

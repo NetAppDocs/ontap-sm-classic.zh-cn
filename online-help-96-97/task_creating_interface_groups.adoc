@@ -1,0 +1,35 @@
+---
+permalink: online-help-96-97/task_creating_interface_groups.html 
+sidebar: sidebar 
+keywords: system, manager, create, interface, group, lacp, online, help 
+summary: 您可以使用 System Manager 创建一个接口组（单模式，静态多模式或动态多模式（ LACP ）），以便通过将聚合网络端口的功能组合在一起为客户端提供一个接口。 
+---
+= 创建接口组
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 创建一个接口组—单模式，静态多模式或动态多模式（ LACP ）—通过将聚合网络端口的功能组合在一起，为客户端提供一个接口。
+
+必须具有不属于任何广播域或接口组或托管 VLAN 的可用端口。
+
+.步骤
+. 单击 * 网络 * > * 以太网端口 * 。
+. 单击 * 创建接口组 * 。
+. 在 * 创建接口组 * 对话框中，指定以下设置：
++
+** 接口组的名称
+** Node
+** 要包含在接口组中的端口
+** 端口的使用模式：单模式，静态多模式或动态多模式（ LACP ）
+** 网络负载分布：基于 IP ，基于 MAC 地址，顺序或端口
+** 接口组的广播域（如果需要）
+
+
+. 单击 * 创建 * 。
+
+
+* 相关信息 *
+
+xref:reference_network_window.adoc[网络窗口]

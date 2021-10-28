@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_snmp.html 
+sidebar: sidebar 
+keywords: enable, disable, snmp, svm, online, help 
+summary: 您可以使用 System Manager 在集群上启用或禁用 SNMP 。通过 SNMP ，您可以监控集群中的 Storage Virtual Machine （ SVM ），以便在出现问题之前避免出现问题，并防止出现问题。 
+---
+= 启用或禁用 SNMP
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 在集群上启用或禁用 SNMP 。通过 SNMP ，您可以监控集群中的 Storage Virtual Machine （ SVM ），以便在出现问题之前避免出现问题，并防止出现问题。
+
+.步骤
+. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
+. 在 * 设置 * 窗格中，单击 * SNMP * 。
+. 在 * SNMP * 窗口中，单击 * 启用 * 或 * 禁用 * 。
+

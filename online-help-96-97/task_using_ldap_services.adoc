@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/task_using_ldap_services.html 
+sidebar: sidebar 
+keywords: ldap, service, online, help, maintain, user, information, database 
+summary: 通过 LDAP 服务器，您可以集中维护用户信息。如果您将用户数据库存储在环境中的 LDAP 服务器上，则可以将 Storage Virtual Machine （ SVM ）配置为在现有 LDAP 数据库中查找用户信息。 
+---
+= 使用 LDAP 服务
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过 LDAP 服务器，您可以集中维护用户信息。如果您将用户数据库存储在环境中的 LDAP 服务器上，则可以将 Storage Virtual Machine （ SVM ）配置为在现有 LDAP 数据库中查找用户信息。
+
+ONTAP 支持使用 LDAP 在 NFS 和 CIFS 之间进行用户身份验证，文件访问授权以及用户查找和映射服务。

@@ -1,0 +1,30 @@
+---
+permalink: online-help-96-97/task_adding_security_method_for_iscsi_initiators.html 
+sidebar: sidebar 
+keywords: add, security, method, iscsi, initiator, online, help 
+summary: 您可以使用 System Manager 添加启动程序并指定用于对启动程序进行身份验证的安全方法。 
+---
+= 添加 iSCSI 启动程序的安全方法
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 添加启动程序并指定用于对启动程序进行身份验证的安全方法。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 协议 * 窗格中，单击 * iSCSI * 。
+. 在 * iSCSI * 窗口中，单击 * 启动程序安全性 * 选项卡。
+. 单击 * 启动程序安全性 * 区域中的 * 添加 * 。
+. 指定启动程序名称和用于对启动程序进行身份验证的安全方法。
++
+对于 CHAP 身份验证，您必须提供用户名和密码，然后确认入站设置的密码。对于出站设置，此登录信息是可选的。
+
+. 单击 * 确定 * 。
+
+
+* 相关信息 *
+
+xref:reference_iscsi_window.adoc[iSCSI 窗口]

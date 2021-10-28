@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/concept_how_snapmirror_relationships_work.html 
+sidebar: sidebar 
+keywords: snapmirror, relationship, data, protection, mirror, destination, cluster, online, help 
+summary: 您可以创建与集群中某个目标的数据保护镜像关系，以保护您的数据。为了提高灾难保护能力，您还可以创建与不同位置的不同集群中的目标的镜像关系。 
+---
+= SnapMirror 关系的工作原理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以创建与集群中某个目标的数据保护镜像关系，以保护您的数据。为了提高灾难保护能力，您还可以创建与不同位置的不同集群中的目标的镜像关系。
+
+数据保护镜像配置由一个源卷组成，该源卷可以复制到一个或多个目标卷。每个数据保护镜像关系都独立于其他数据保护镜像关系。
+
+[NOTE]
+====
+目标卷运行的 ONTAP 版本必须与源卷相同，或者 ONTAP 版本必须高于源卷。
+
+====
+Snapshot 副本用于更新目标卷。Snapshot 副本通过自动计划或手动方式从源卷传输到目标卷；因此，镜像副本会异步更新。
+
+您可以创建与源卷位于同一聚合上的目标以及位于同一 Storage Virtual Machine （ SVM ）或不同 SVM 上的目标之间的数据保护镜像关系。为了获得更强的保护，您可以创建与其他聚合上的目标的关系，从而可以从源卷聚合的任何故障中恢复。但是，这两种配置无法防止集群故障。
+
+为了防止集群故障，您可以创建一个数据保护镜像关系，其中，源卷位于一个集群上，而目标卷位于另一个集群上。如果源卷所在的集群发生灾难，您可以将用户客户端定向到集群对等方上的目标卷，直到源卷重新可用为止。

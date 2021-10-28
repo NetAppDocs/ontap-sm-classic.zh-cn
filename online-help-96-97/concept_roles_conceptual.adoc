@@ -1,0 +1,13 @@
+---
+permalink: online-help-96-97/concept_roles_conceptual.html 
+sidebar: sidebar 
+keywords: role, access, control, user, system, predefined, modify, delete, account, restrictions, online, help 
+summary: 您可以使用访问控制角色来控制用户对系统的访问级别。除了使用预定义角色之外，您还可以创建新的访问控制角色，修改这些角色，删除这些角色或为某个角色的用户指定帐户限制。 
+---
+= 角色
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用访问控制角色来控制用户对系统的访问级别。除了使用预定义角色之外，您还可以创建新的访问控制角色，修改这些角色，删除这些角色或为某个角色的用户指定帐户限制。

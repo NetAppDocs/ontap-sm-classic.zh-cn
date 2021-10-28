@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_locking_unlocking_cluster_user_accounts.html 
+sidebar: sidebar 
+keywords: lock, unlock, cluster, user, account, system, online, help 
+summary: 您可以使用 System Manager 锁定或解除锁定集群用户帐户。 
+---
+= 锁定或解除锁定集群用户帐户
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 锁定或解除锁定集群用户帐户。
+
+.步骤
+. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
+. 在 * 管理 * 窗格中，单击 * 用户 * 。
+. 选择要修改其状态的用户帐户，然后单击 * 锁定 * 或 * 解锁 * 。
+

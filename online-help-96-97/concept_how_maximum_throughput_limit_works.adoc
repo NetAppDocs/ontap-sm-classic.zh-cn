@@ -1,0 +1,35 @@
+---
+permalink: online-help-96-97/concept_how_maximum_throughput_limit_works.html 
+sidebar: sidebar 
+keywords: maximum, throughput, limit, works, objective, storage, qos, policy, group, iops, mbps, online, help 
+summary: 您可以为存储 QoS 策略组指定一个服务级别目标：最大吞吐量限制。最大吞吐量限制以 IOPS ， MBps 或两者为单位进行定义，用于指定策略组中的工作负载不能共同超过的吞吐量。 
+---
+= 最大吞吐量限制的工作原理
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以为存储 QoS 策略组指定一个服务级别目标：最大吞吐量限制。最大吞吐量限制以 IOPS ， MBps 或两者为单位进行定义，用于指定策略组中的工作负载不能共同超过的吞吐量。
+
+为策略组指定最大吞吐量时， Storage QoS 会控制客户端操作，以确保策略组中所有工作负载的总吞吐量不会超过指定的最大吞吐量。
+
+例如，假设您创建了策略组 "`untested_apps` " 并指定最大吞吐量为 300 MBps 。您将三个卷分配给策略组。这三个卷的总吞吐量不能超过 300 Mbps 。
+
+[NOTE]
+====
+策略组中工作负载的总吞吐量可能会超出指定限制，但最多不超过 10% 。如果工作负载的吞吐量发生快速变化（有时称为 _bursty workload_ ），则可能会出现偏差。
+
+====
+有关指定最大吞吐量，请注意以下事项：
+
+* 不得将限制设置得过低，因为可能会使集群利用率不足。
+* 您必须考虑要为没有限制的工作负载预留的最小吞吐量。
++
+例如，您可以通过限制非关键工作负载来确保关键工作负载获得所需的吞吐量。
+
+* 您可能希望为增长留出空间。
++
+例如，如果您看到平均利用率为 500 IOPS ，则可以指定 1 ， 000 IOPS 的限制。
+
+

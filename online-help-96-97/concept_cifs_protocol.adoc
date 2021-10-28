@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_cifs_protocol.html 
+sidebar: sidebar 
+keywords: cif, protocol, system, manager, enable, configure, server, client, file, cluster, online, help 
+summary: 您可以使用 System Manager 启用和配置 CIFS 服务器，以允许 CIFS 客户端访问集群上的文件。 
+---
+= CIFS 协议
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 启用和配置 CIFS 服务器，以允许 CIFS 客户端访问集群上的文件。
+
+* 相关信息 *
+
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 管理"]

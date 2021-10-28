@@ -1,0 +1,199 @@
+---
+permalink: online-help-96-97/concept_system_manager_enhancements.html 
+sidebar: sidebar 
+keywords: ontap, system, manager, enhancement, features 
+summary: 您应了解此版本的 System Manager 中添加或更改的功能。 
+---
+= ONTAP System Manager 增强功能
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您应了解此版本的 System Manager 中添加或更改的功能。
+
+
+
+== ONTAP 9.6 中新增的功能和增强功能
+
+[NOTE]
+====
+OnCommand 系统管理器现在称为 ONTAP 系统管理器。
+
+====
+* MetroCluster 切换和切回操作
++
+从 System Manager 9.6 开始，您可以使用 MetroCluster 切换和切回操作来允许一个集群站点接管另一个集群站点的任务。通过此功能，您可以方便地进行维护或从灾难中恢复。
+
+* 跟踪文件访问
++
+如果用户在使用 CIFS 或 NFS 协议访问 SVM 上的文件和共享时遇到问题，您可以使用新的跟踪文件访问窗口来诊断这些问题。
+
+* 加密 SnapMirror
++
+从 System Manager 9.6 开始，您可以为本地集群 IP 空间生成密码短语，并在创建对等关系时在远程集群中使用相同的密码短语。出于安全原因，可以修改密码短语。
+
+* FlexCache 功能
++
+现在， System Manager 可以创建，编辑，查看和删除 FlexCache 卷。
+
+* Fabric Pool 增强功能
++
+现在，您可以将阿里云和 Google Cloud 用作对象存储，以用作云层。此外， System Manager 现在还支持 "`all` " 分层策略，该策略允许您指定应将所有数据分层到云。对卷 360 页面的卷性能选项卡进行了增强，以显示卷的云延迟。
+
+* FlexGroup 增强功能
++
+从 System Manager 9.6 开始，您可以编辑现有 FlexGroup 卷的属性，例如重命名卷或调整卷大小。
+
+* SnapLock 卷增强功能
++
+创建或修改存储 QoS 策略组时，除了基于性能的全闪存优化特性之外，您还可以为 ONTAP Select 高级系统设置最小吞吐量限制。
+
+
+
+
+
+== ONTAP 9.5 中新增的功能和增强功能
+
+* 卷加密
++
+现在，您可以在编辑 FlexVol 卷或 FlexGroup 卷时启用卷加密。此外，此功能还进行了增强，以支持重新设置密钥选项来更改卷的数据加密密钥。
+
+* 集群更新
++
+从 System Manager 9.5 开始，您可以更新 MetroCluster 配置中的集群。您必须在两个集群上执行每个操作，但更新集群除外。
+
+* 卷复制策略
++
+System Manager 9.5 中新增了两个策略 StrictSync 和 Sync 。您可以使用这些策略在复制失败期间提供零 RPO 复制，无论是否存在主 IO 限制。您也可以使用保护选项卡启用卷保护。
+
+* SVM 灾难恢复
++
+Storage Virtual Machine （ SVM ）灾难恢复（ DR ）可通过恢复 SVM 成分卷中的数据以及恢复 SVM 配置，在 SVM 级别提供灾难恢复功能。您可以使用 System Manager 创建和管理 SVM 之间的镜像关系以及镜像和存储关系。
+
+* 显示 L2/L3 应用程序
++
+从 ONTAP 9.5 开始， System Manager 会在 " 应用程序 " 页面上以不同的主机名列出 L2/L3 应用程序。单击主机名可在 L2 Cockpit 界面中打开一个新窗口。对于每个应用程序， System Manager 还会列出 IOPS 和延迟测量值。
+
+* 虚拟 IP 支持
++
+从 ONTAP 9.5 开始， System Manager 将显示有关虚拟 IP （ VIP ） LIF 的信息；但是，您不能从 System Manager 创建，删除或管理 VIP LIF 。
+
+* NVMe 子系统许可要求
++
+从 ONTAP 9.5 开始， NVMe 已获得许可。System Manager 支持许可要求。
+
+* 支持 NVMeoF 子系统
++
+System Manager 支持使用基于网络结构的 NVMe （ NVMeoF ）子系统，此子系统是驻留在 FreeBSD 内核中的一个单独内核对象。NVMeoF 是 NVMe 的一个规范定义扩展，可通过 PCIe 以外的连接进行基于 NVMe 的通信。通过此接口，可以直接或通过交换机将外部存储机箱连接到服务器，同时仍使用 NVMe 作为基本通信机制。NVMeoF 子系统可与 SAN 组件， WAFL 和 RAS 组件连接。
+
+* NVMe 多路径支持
++
+从 ONTAP 9.5 开始，必须使用 NVMe 协议为 HA 对中的每个节点至少配置一个 LIF 。您还可以为一个节点定义两个 LIF 。升级到 ONTAP 9.5 时，您必须确保使用 NVMe 协议为 HA 对中的每个节点至少定义一个 LIF 。
+
+* 符合 FlexGroup 条件的聚合
++
+创建 FlexGroup 时，系统会根据最佳实践默认选择聚合。对于纯闪存优化存储系统，默认情况下会启用精简配置，而对于其他存储系统，则默认情况下会启用厚配置。您可以覆盖最佳实践默认值，并从符合条件的 FabricPool 聚合列表中选择相应项。
+
+* 公有 SSL 证书身份验证
++
+从 System Manager 9.5 开始，您可以查看与 SVM 关联的公有 SSL 证书。您可以查看证书详细信息，序列号，开始日期和到期日期。您也可以将证书复制到剪贴板，然后通过电子邮件发送证书详细信息。此外，在将 vsadmin 用户帐户添加到 SVM 时，系统会自动提供一种登录方法，此登录方法使用 HTTP 作为应用程序，并使用证书进行身份验证。
+
+* qtree 在 FlexVol 上显示为目录
++
+如果 FlexVol 同时包含 qtree 和卷，则 qtree 将显示为目录。
+
+* FlexCache 卷
++
+FlexCache 卷在 System Manager 中显示为 FlexGroup 。父卷详细信息显示在 360 页面中。
+
+
+
+
+
+== ONTAP 9.4 中新增的功能和增强功能
+
+* NVMe 协议
++
+ONTAP 现在支持 NVM 快速（ NVMe ）协议，并且可以在 System Manager 中进行配置。NVMe 是一种用于块访问的替代协议，类似于现有的 iSCSI 或 FC 协议。
+
+* 聚合建议程序
++
+您可以根据存储建议创建聚合。System Manager 可分析存储系统的配置并提供存储建议，例如要创建的聚合数，可用节点和可用备用磁盘。
+
+* 启用了 FabricPool 的聚合增强功能
++
+启用了 FabricPool 的聚合已得到增强，可支持以下特性和功能：
+
++
+** 外部容量层菜单的新 UI 导航
+** 新的 "`自动` " 缓存策略
+** 支持非活动（冷）数据
+** 支持 StorageGRID 外部容量层的对象存储证书
+** 支持 Microsoft Azure Blob 存储外部容量层
+** 有关详细信息，请参见集群信息板的容量选项卡
+** 支持 ONTAP Select
+** 支持查看使用命令行界面（ CLI ）创建的 StorageGRID ， Amazon AWS S3 和 Microsoft Azure Blob 存储以外的外部容量层。
+
+
+* FlexGroup 卷增强功能
++
+FlexGroup 卷包括以下增强功能和新功能：
+
++
+** 支持高级选项，例如卷加密，存储效率和 QoS
+** 保护卷
+** 有关详细信息，请参见集群信息板的保护选项卡
+
+
+* 支持中断更新单节点集群
++
+从 System Manager 9.4 开始，您可以更新单节点集群。更新单节点集群会造成系统中断，在更新过程中，客户端数据将不可用。
+
+* 支持配置 Snapshot 副本
++
+您可以通过为现有 Snapshot 策略设置计划来配置 Snapshot 副本。从 ONTAP 9.4 开始， FlexVol 卷的 Snapshot 副本数可以少于 1024 个。
+
+* 存储效率增强功能
++
+现在，已用逻辑空间百分比和逻辑空间报告状态将显示在 System Manager 卷窗口中。
+
+* 支持 SMB 多通道
++
+您可以启用 SMB 协议在 SMB3.0 会话和传输连接之间建立多个通道，以提高性能，容错能力和故障恢复能力。
+
+
+
+
+
+== ONTAP 9.3 中新增的功能和增强功能
+
+* 支持对 Web 服务进行 SAML 身份验证
++
+从 ONTAP 9.3 开始，您可以使用安全断言标记语言（ SAML ）身份验证为 Web 服务配置多因素身份验证（ Multifactor Authentication ， MFA ）。您可以对服务处理器基础架构（ Service Processor Infrastructure ， SPI ）， ONTAP API 和 System Manager 使用 SAML 身份验证。
+
+* 应用程序感知型数据管理
++
+应用程序感知型数据管理可简化存储设置，并可通过提供与应用程序相关的输入，在几分钟内为关键应用程序提供数据。
+
+* 已修改 GUI 和导航
++
+图形用户界面（ GUI ）已进行了改进，可为用户提供更加直观的体验。
+
+* 支持中断 ONTAP 和 SolidFire 系统之间的保护关系
++
+从 ONTAP 9.3 开始，您可以使用 System Manager 中断 ONTAP 系统与 SolidFire 存储系统之间的 SnapMirror 关系。
+
+* 支持简化的集群对等和 SVM 对等
++
+System Manager 提供了一些增强功能，可简化在集群之间和 SVM 之间配置对等关系的方式。
+
+* 支持使用预配置的模板配置 SVM
++
+从 ONTAP 9.3 开始，您可以使用预配置的模板创建和配置 SVM 。
+
+* 增强的集群信息板
++
+集群信息板已进行了改进，并可对手持设备进行响应以查看不同的信息。
+
+

@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_editing_service_processor_settings.html 
+sidebar: sidebar 
+keywords: edit, service, processor, settings, , system, manager, online, help, ip, address 
+summary: 您可以使用 System Manager 修改服务处理器属性，例如 IP 地址，网络掩码或前缀长度以及网关地址。您还可以将 IP 地址分配给未分配任何 IP 地址的服务处理器。 
+---
+= 编辑服务处理器设置
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 修改服务处理器属性，例如 IP 地址，网络掩码或前缀长度以及网关地址。您还可以将 IP 地址分配给未分配任何 IP 地址的服务处理器。
+
+.关于此任务
+* 您可以编辑手动分配 IP 地址的服务处理器的设置。
+* 您不能编辑通过 DHCP 服务器或子网分配 IP 地址的服务处理器的设置。
+
+
+.步骤
+. 单击 * 配置 * > * 集群 * > * 服务处理器 * 。
+. 在 * 服务处理器 * 窗口中，选择要修改的服务处理器，然后单击 * 编辑 * 。
+. 在 * 编辑服务处理器 * 对话框中，进行所需的更改，然后单击 * 保存并关闭 * 。
+

@@ -1,0 +1,36 @@
+---
+permalink: online-help-96-97/task_creating_quotas.html 
+sidebar: sidebar 
+keywords: create, quota, qtree, system, manager, online, help 
+summary: 通过配额，您可以限制或跟踪用户，组或 qtree 使用的磁盘空间和文件数。您可以使用 System Manager 中的添加配额向导创建配额并将配额应用于特定卷或 qtree 。 
+---
+= 创建配额
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过配额，您可以限制或跟踪用户，组或 qtree 使用的磁盘空间和文件数。您可以使用 System Manager 中的添加配额向导创建配额并将配额应用于特定卷或 qtree 。
+
+使用 System Manager ，可以为配额可以拥有的文件数的硬限制和软限制指定的最小值为 1000 。如果要指定低于 1000 的值，应使用命令行界面（ CLI ）。
+
+.步骤
+. 单击 * 存储 * > * 配额 * 。
+. 从 * SVM* 字段的下拉菜单中，选择要创建配额的 Storage Virtual Machine （ SVM ）。
+. 在 * 用户定义的配额 * 选项卡中，单击 * 创建 * 。
++
+此时将显示创建配额向导。
+
+. 根据向导的提示键入或选择信息。
+. 确认详细信息，然后单击 * 完成 * 完成向导。
+
+
+
+
+== 下一步操作
+
+您可以使用本地用户名或 RID 创建用户配额。如果使用用户名或组名称创建用户配额或组配额，则必须分别更新 `` /etc/passwd``文件和`` /etc/group``文件。
+
+* 相关信息 *
+
+xref:reference_quotas_window.adoc[配额窗口]

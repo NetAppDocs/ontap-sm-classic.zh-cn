@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/concept_cluster_expansion.html 
+sidebar: sidebar 
+keywords: cluster, expanision, system, manager, storage, size, capabilities, node, configure, network, online, help 
+summary: 您可以使用 System Manager 向集群添加兼容节点并配置节点网络详细信息，以增加存储的大小和功能。您还可以查看节点的摘要。 
+---
+= 集群扩展
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 向集群添加兼容节点并配置节点网络详细信息，以增加存储的大小和功能。您还可以查看节点的摘要。
+
+登录到 System Manager 时， System Manager 会自动检测已通过缆线连接但尚未添加到集群中的兼容节点，并提示您添加这些节点。您可以在 System Manager 检测到兼容节点时添加这些节点，也可以稍后手动添加这些节点。

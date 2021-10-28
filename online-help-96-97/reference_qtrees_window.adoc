@@ -1,0 +1,92 @@
+---
+permalink: online-help-96-97/reference_qtrees_window.html 
+sidebar: sidebar 
+keywords: qtree, online, help, window, command, button 
+summary: 您可以使用 qtree 窗口创建，显示和管理有关 qtree 的信息。 
+---
+= qtree 窗口
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 qtree 窗口创建，显示和管理有关 qtree 的信息。
+
+
+
+== 命令按钮
+
+* * 创建 * 。
++
+打开创建 qtree 对话框，在此可以创建新的 qtree 。
+
+* * 编辑 * 。
++
+打开编辑 qtree 对话框，在此可以更改安全模式，并在 qtree 上启用或禁用机会锁。
+
+* * 更改导出策略 *
++
+打开导出策略对话框，在此可以将一个或多个 qtree 分配给新的或现有的导出策略。
+
+* * 删除 *
++
+删除选定的 qtree 。
+
++
+除非选定 qtree 的状态正常，否则此按钮将被禁用。
+
+* * 刷新 *
++
+更新窗口中的信息。
+
+
+
+
+
+== qtree 列表
+
+qtree 列表显示 qtree 所在的卷以及 qtree 名称。
+
+* * 名称 *
++
+显示 qtree 的名称。
+
+* * 卷 *
++
+显示 qtree 所在卷的名称。
+
+* * 安全模式 *
++
+指定 qtree 的安全模式。
+
+* * 状态 *
++
+指定 qtree 的当前状态。
+
+* * 机会锁 *
++
+指定是为 qtree 启用还是禁用机会锁设置。
+
+* * 导出策略 *
++
+显示将 qtree 分配到的导出策略的名称。
+
+
+
+
+
+== 详细信息区域
+
+* * 详细信息选项卡 *
++
+显示有关选定 qtree 的详细信息，例如包含 qtree 的卷的挂载路径，导出策略的详细信息以及导出策略规则。
+
+
+
+* 相关信息 *
+
+xref:task_creating_qtrees.adoc[创建 qtree]
+
+xref:task_deleting_qtrees.adoc[正在删除 qtree]
+
+xref:task_editing_qtrees.adoc[编辑 qtree]

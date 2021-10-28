@@ -1,0 +1,31 @@
+---
+permalink: online-help-96-97/task_adding_efficiency_policies.html 
+sidebar: sidebar 
+keywords: add, efficiency, policy, system, manager, online, help 
+summary: 您可以使用 System Manager 添加效率策略，以便按指定计划或在卷数据更改达到指定阈值时对卷运行重复数据删除操作。 
+---
+= 添加效率策略
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 System Manager 添加效率策略，以便按指定计划或在卷数据更改达到指定阈值时对卷运行重复数据删除操作。
+
+.步骤
+. 单击 * 存储 * > * SVMs * 。
+. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 在 * 策略 * 窗格中，单击 * 效率策略 * 。
+. 单击 * 添加 * ，然后指定策略名称。
+. 指定存储效率策略的运行方式：
++
+** 选择 * 计划 * ，然后指定计划名称和计划详细信息。
++
+如果需要，您可以指定效率策略的最长运行时持续时间。
+
+** 选择 * 更改日志阈值 * ，然后指定卷数据更改的阈值（以百分比表示）。
+
+
+. 选中 * 将 QoS 策略设置为后台 * 复选框以减少对客户端操作的性能影响。
+. 单击 * 添加 * 。
+
