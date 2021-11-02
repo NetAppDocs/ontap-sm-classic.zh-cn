@@ -9365,7 +9365,6 @@
   <block id="511ad2042dec7e41acbf8c599092e880" category="list-text">如果要在已完全配置为可进行 NFS 访问的现有上配置卷，请按照您为验证现有 SVM 上的设置而执行的步骤进行操作。</block>
   <block id="40dfa5af6e5d241954dd8dffbd030a39" category="inline-xref-macro">验证现有 SVM 上的设置</block>
   <block id="482cd53130aff2ee2a18136bf4a0a22e" category="paragraph"><block ref="482cd53130aff2ee2a18136bf4a0a22e" category="inline-xref-macro-rx"></block></block>
-  <block id="8cf04a9734132302f96da8e113e80ce5" category="sidebar">主页</block>
   <block id="c209957b6a7079b7465d1bffa3f12db9" category="sidebar">配置 NAS 存储</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概述</block>
   <block id="2ef23832ea366ba8b4e1c638df8aae8f" category="sidebar">创建聚合</block>
@@ -9790,4 +9789,8 @@
   <block id="c4374218de35d2b4bc8b5b1304ff7e65" category="sidebar">删除 Snapshot 策略</block>
   <block id="cc50c331ee974cc0e4de144fdea1db6b" category="sidebar">编辑计划</block>
   <block id="f2fb0b80c2c7e171cd27b2b79806772a" category="sidebar">删除计划</block>
+  <block id="6a1430dbf84d6dc23f417c150bfc22be" category="sidebar">System Manager 经典文档</block>
+  <block id="c8db31d0d38042ea4fd10dd6bdfd347e" category="sidebar">ONTAP 文档</block>
+  <block id="97d8d54d841ea4483e8103e32ec0ac48" category="sidebar">使用 System Manager 管理适用于 ONTAP 9.7 及更高版本的下一代 ONTAP</block>
+  <block id="68a8dd3fc5b12dceef9144f06a7615c1" category="sidebar">使用命令行界面管理 ONTAP</block>
 </blocks>

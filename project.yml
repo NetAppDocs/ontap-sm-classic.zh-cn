@@ -2,7 +2,7 @@
 settings: {}
 sidebar:
   entries:
-  - title: 主页
+  - title: System Manager 经典文档
     url: "/index.html"
   - title: 配置 NAS 存储
     entries:
@@ -3299,6 +3299,8 @@ sidebar:
         url: "/online-help-96-97/concept_schedules_conceptual.html"
       - title: 计划窗口
         url: "/online-help-96-97/reference_schedules_window.html"
+  - title: ONTAP 文档
+    url: https://docs.netapp.com/us-en/ontap/
   - title: 法律声明
     url: "/reference_legal_notices.html"
 homepage:
@@ -3307,6 +3309,10 @@ homepage:
     links:
     - title: 了解 System Manager 经典版
       url: "/online-help-96-97/index.html"
+    - title: 使用 System Manager 管理适用于 ONTAP 9.7 及更高版本的下一代 ONTAP
+      url: https://docs.netapp.com/us-en/ontap/concept_administration_overview.html
+    - title: 使用命令行界面管理 ONTAP
+      url: https://docs.netapp.com/us-en/ontap/system-admin/index.html
   - title: 配置 NAS 存储
     links:
     - title: NFS 配置
