@@ -18,7 +18,7 @@ Storage Virtual Machine （ SVM ）提供 FC 目标，主机可通过该目标�
 
 .步骤
 . 导航到 * SVM* 窗口。
-. 单击 * 创建 * 。
+. 选择 * 创建 * 。
 . 在 * Storage Virtual Machine （ SVM ） Setup* 窗口中，创建 SVM ：
 +
 image::../media/svm_setup_details_page_unix_selected_fc_rhel.gif[图中显示了如何创建采用 UNIX 安全模式的 SVM]
@@ -48,14 +48,14 @@ SAN 协议仅支持 FlexVol 卷。
 +
 数据卷的聚合将在后续步骤中单独选择。
 
-.. 单击 * 提交并继续 * 。
+.. 选择 * 提交并继续 * 。
 
 
 +
 此时将创建 SVM ，但尚未配置协议。
 
-. 如果由于启用了 CIFS 或 NFS 而显示 * 配置 CIFS/NFS 协议 * 页面，请单击 * 跳过 * ，然后稍后再配置 CIFS 或 NFS 。
-. 如果由于启用了 iSCSI 而显示 * 配置 iSCSI 协议 * 页面，请单击 * 跳过 * ，然后稍后再配置 iSCSI 。
+. 如果由于启用了 CIFS 或 NFS 而显示 * 配置 CIFS/NFS 协议 * 页面，请选择 * 跳过 * ，然后稍后再配置 CIFS 或 NFS 。
+. 如果由于启用了 iSCSI 而显示 * 配置 iSCSI 协议 * 页面，请选择 * 跳过 * ，然后稍后再配置 iSCSI 。
 . 从 * 配置 FC/FCoE 协议 * 页面配置 FC 服务并创建 LIF ， LUN 及其所属卷：
 +
 .. 选中 * 为 FC* 配置数据 LIF 复选框。
@@ -64,7 +64,7 @@ SAN 协议仅支持 FlexVol 卷。
 每个节点需要两个 LIF ，以确保可用性和数据移动性。
 
 .. 在 * 为 FCP 存储配置 LUN * 区域中，输入所需的 LUN 大小，主机类型和主机启动程序的 WWPN 。
-.. 单击 * 提交并继续 * 。
+.. 选择 * 提交并继续 * 。
 
 
 +
@@ -72,9 +72,9 @@ image::../media/svm_wizard_fc_details_linux.gif[图中显示了 SVM 设置向导
 
 . 显示 * SVM 管理 * 时，请为此 SVM 配置单独的管理员：
 +
-** 单击 * 跳过 * ，然后根据需要稍后配置管理员。
-** 输入请求的信息，然后单击 * 提交并继续 * 。
+** 选择 * 跳过 * ，如果需要，稍后再配置管理员。
+** 输入请求的信息，然后选择 * 提交并继续 * 。
 
 
-. 查看 * 摘要 * 页面，记录 LIF 信息，然后单击 * 确定 * 。
+. 查看 * 摘要 * 页面，记录 LIF 信息，然后选择 * 确定 * 。
 

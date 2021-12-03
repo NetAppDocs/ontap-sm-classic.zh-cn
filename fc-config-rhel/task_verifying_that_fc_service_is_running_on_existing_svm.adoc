@@ -17,8 +17,8 @@ summary: 如果选择使用现有 Storage Virtual Machine （ SVM ），则必�
 .步骤
 . 导航到 * SVM* 窗口。
 . 选择所需的 SVM 。
-. 单击 * SVM 设置 * 选项卡。
-. 在 * 协议 * 窗格中，单击 * FC/FCoE* 。
+. 选择 * SVM 设置 * 选项卡。
+. 在 * 协议 * 窗格中，选择 * FC/FCoE* 。
 . 验证 FC 服务是否正在运行。
 +
 image::../media/vserver_service_fc_fcoe_running_fc_rhel.gif[图中显示了 System Manager 中的 FC/FCoE 窗格，其中 FC 服务正在运行，并且有四个 FC LIF 。]

@@ -1822,42 +1822,32 @@
   <block id="98aad66fb833213e8c8498241f870a46" category="list-text">您仍然必须创建并测试从主机到集群中每个节点的路径，但主机只能访问所属节点及其 HA 配对节点上的这些路径。</block>
   <block id="cbd0faffa383bca8db3ce92afef61dba" category="list-text">您应使用默认的 LUN 映射行为。</block>
   <block id="4b70eb0590d0d93d7766bd055ea21196" category="paragraph">仅将其他 HA 对中的节点添加到 LUN 映射中，以便为将 LUN 移动到其他节点做好准备。</block>
-  <block id="2292188f9428a508759f20c0c51be781" category="list-text">在 ESX 主机上，使用 `ping` 命令验证第一个 LIF 的路径。</block>
-  <block id="52a1b7c5982efdeaeaee258293dc9977" category="paragraph">可以从 ESX 服务控制台使用 `ping` 命令。</block>
   <block id="75b282b5d4dc04035c841d8821eaf7a4" category="list-text">重复执行 `ping` 命令以验证与集群中每个节点上的每个 iSCSI LIF 的连接。</block>
   <block id="cc2af41dec44d9c26013c94a4c32a3e3" category="inline-link">VMware 知识库文章 1003486 ：使用 ping 命令测试网络连接</block>
   <block id="030c45b5c121922bfd311ada56030001" category="paragraph"><block ref="030c45b5c121922bfd311ada56030001" category="inline-link-rx"></block></block>
   <block id="f736e1dbc4b9c269c65a6e69f1f89ecf" category="summary">要执行 iSCSI 配置任务，您需要网络地址和存储配置信息。</block>
   <block id="53b75ac7393124e71902edd915550469" category="doc">正在完成 iSCSI 配置工作表</block>
   <block id="5572f49b158f780c6a6d34a5ee104b8f" category="paragraph">LIF 的子网：</block>
-  <block id="d4b91174ed5ee56409963bb53f2992ff" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESX 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
   <block id="638ba88b49b184538c32c1c7808d8103" category="doc">使用 VSC 为 ESXi 配置 iSCSI 概述</block>
-  <block id="320872e1a825a95a9d0f120427fb3bcf" category="paragraph">此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESX 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
-  <block id="fd5e07a32e0671d25785f3165d1b686d" category="list-text">您正在 ESXi 5.x 上使用原生 ESX iSCSI 软件启动程序</block>
   <block id="d2604e4f6b186a2646fe3c97133ef0f6" category="list-text">您未对 iSCSI 使用 CHAP 身份验证。</block>
   <block id="829278b24fc7ce848ba59f52f780c739" category="list-text">您正在使用支持的适用于 VMware vSphere 的 Virtual Storage Console 版本为 ESX 主机配置存储设置。</block>
   <block id="d862fa8a56f5e022d3157dd0b90b2b76" category="list-text">自动从您定义的子网</block>
   <block id="77940d0bcb4281501811de1ec05e0bda" category="list-text">集群中的每个节点上至少有两个可用的高速以太网端口（至少 1 GbE ，建议使用 10 GbE ）。</block>
-  <block id="177d42a175d947a09414b6806c0166ab" category="paragraph">板载 UTA2 （也称为 "`CNA` " ）端口可配置。您可以在 ONTAP 命令行界面中配置这些端口；此内容不会介绍此过程。</block>
   <block id="4dfc85f053bbce34b061f9f9e50054bd" category="inline-link-macro">ONTAP 9 网络管理</block>
   <block id="38e4c9c0dda5f39ef2476c68b3cdf4ed" category="paragraph">您应看到 <block ref="f23edc0bb2e15286525e82e5ff7532e0" category="inline-link-macro-rx"></block> 用于使用 CLI 配置以太网端口流量控制。</block>
-  <block id="f2d733df811305cb38358e742b32b5a0" category="list-text">您正在通过 ESX 虚拟机管理程序为 VM 提供存储，而不是在 VM 中运行 iSCSI 启动程序。</block>
   <block id="d6dd3e964a45af39f1a2d0d162a9c917" category="inline-link">ONTAP 9 SAN 管理</block>
   <block id="19a784614020f03847308e98240415b6" category="list-text"><block ref="19a784614020f03847308e98240415b6" category="inline-link-rx"></block></block>
   <block id="8f123b6f4ad978f9c6803038618a9b8c" category="inline-link">ONTAP 9 SAN 配置</block>
   <block id="30c9bf2fd4921da10d1760727d7dc6cd" category="list-text"><block ref="30c9bf2fd4921da10d1760727d7dc6cd" category="inline-link-rx"></block></block>
   <block id="7b163ff65ebf3790f5b97fe18f22f72b" category="inline-link">设备管理</block>
   <block id="df4aa033bb9748033ab3ea57369d3977" category="list-text"><block ref="df4aa033bb9748033ab3ea57369d3977" category="inline-link-rx"></block></block>
-  <block id="207e5469b66b22e41b4beddd5a280567" category="list-text">适用于您的 ESX 5 版本的 _VMware vSphere Storage_ （可从获取<block ref="719cc64f2d8f0a174865652d288288f1" category="inline-link-rx"></block>）</block>
   <block id="27ebce0c0f9c269fad61d937501e68e0" category="summary">适用于 VMware vSphere 的 Virtual Storage Console 可自动执行将 NetApp iSCSI 存储与 ESXi 主机结合使用所需的许多配置和配置任务。Virtual Storage Console 是 vCenter Server 的一个插件。</block>
   <block id="fa3313a389a81d17ecc59d6a9af3cd81" category="doc">安装 Virtual Storage Console</block>
   <block id="4dbd231a9a42eafe7a6612f3a2289388" category="paragraph">您必须具有用于管理 ESXi 主机的 vCenter Server 的管理员凭据。</block>
   <block id="0ada6b8f59dbc95841297847f5342b59" category="list-text">Virtual Storage Console 作为虚拟设备安装，其中包括 Virtual Storage Console ， vStorage APIs for Storage Awareness （ VASA ） Provider 和 Storage Replication Adapter （ SRA ） for VMware vSphere 功能。</block>
   <block id="692e97722868640e61b40703f8fb0e11" category="list-text">下载您的配置支持的 Virtual Storage Console 版本，如互操作性表工具中所示。</block>
   <block id="09e26fc6fac9065f0d196ab500288418" category="list-text">部署虚拟设备并按照 _Deployment and Setup Guide_ 中的步骤进行配置。</block>
-  <block id="8f45ae668b6b044197be92eae81c6714" category="summary">使用 iSCSI 为 ESX 主机提供存储时，您可以使用适用于 VMware vSphere 的 Virtual Storage Console 在 Storage Virtual Machine 上配置卷和 LUN ，然后从主机连接到 LUN 。</block>
   <block id="baff7e863f6c2cc2ea6681a92d296bfd" category="doc">iSCSI 配置工作流</block>
-  <block id="1df052c4ba65ff1aba773910e862569c" category="paragraph">使用 iSCSI 使存储可供 ESX 主机使用时，您可以使用适用于 VMware vSphere 的 Virtual Storage Console 在 Storage Virtual Machine （ SVM ）上配置卷和 LUN ，然后从主机连接到 LUN 。</block>
   <block id="1af4dcc633e415257b1ab2b665ec8562" category="summary">以太网网络的性能差别很大。您可以通过选择特定的配置值来最大限度地提高用于 iSCSI 的网络的性能。</block>
   <block id="84ae591f19c33f1acc3845758d6ac1eb" category="doc">配置网络以获得最佳性能</block>
   <block id="29bbbcc578981b2a610c5ce728da3361" category="list-text">将主机和存储端口连接到同一网络。</block>
@@ -1888,7 +1878,6 @@
   <block id="e5e4958f31cd8e515b58dd5aa2f5fc50" category="summary">为 iSCSI 创建的端口必须与 iSCSI 软件适配器关联，才能支持多路径。</block>
   <block id="bf84e63e96357066f5b37987e9387d3a" category="doc">将 iSCSI 端口绑定到 iSCSI 软件适配器</block>
   <block id="2abe81144599874ca512a1126a339298" category="list-text">必须创建 iSCSI VMkernel 端口。</block>
-  <block id="bcdaea550fbb167c3e31dcdffecf7ec2" category="list-text">必须在 ESX 主机上启用 iSCSI 软件适配器。</block>
   <block id="16f90157f3f1e5112a9e34e4bd911d8d" category="paragraph">您可以使用 vSphere Client 绑定 iSCSI 端口。</block>
   <block id="fa8470723fe6d9815aa83463231ca435" category="paragraph">有关详细说明，请参见适用于您的 VMware ESXi 5 版本的 _VMware vSphere Storage_ 。</block>
   <block id="ad7d5e89b402eef0e39f6c2c1458dbe0" category="list-text">使用 vSphere Client 中 iSCSI 软件适配器 * 适配器详细信息 * 对话框的 * 网络端口绑定 * 选项卡将第一个 iSCSI 端口绑定到 iSCSI 软件适配器。</block>
@@ -9793,4 +9782,33 @@
   <block id="c8db31d0d38042ea4fd10dd6bdfd347e" category="sidebar">ONTAP 文档</block>
   <block id="97d8d54d841ea4483e8103e32ec0ac48" category="sidebar">使用 System Manager 管理适用于 ONTAP 9.7 及更高版本的下一代 ONTAP</block>
   <block id="68a8dd3fc5b12dceef9144f06a7615c1" category="sidebar">使用命令行界面管理 ONTAP</block>
+  <block id="1940443c5607566f58bdce4052f1c760" category="paragraph">板载 FC 和 UTA2 （也称为 `CNA` ）端口以及某些适配器均可配置。配置这些端口会在 ONTAP 命令行界面中完成，此内容不会介绍这些配置。</block>
+  <block id="f715055ae82975b9ebd5bb865b31fc18" category="list-text">在 ESXi 主机上，使用 `ping` 命令验证第一个 LIF 的路径。</block>
+  <block id="848d3b9d8a59e5daf0e6a022bd34a97c" category="paragraph">可以从 ESXi 服务控制台使用 `ping` 命令。</block>
+  <block id="8631d4aba59b3faab471d5bc71ca8173" category="list-text">必须在 ESXi 主机上启用 iSCSI 软件适配器。</block>
+  <block id="7f628be6ef73d2f8c231b453fef6dc6a" category="paragraph">iSCSI 软件适配器会在 ESXi 主机上创建 iSCSI 连接。它内置在操作系统中，但必须先启用，然后才能使用。</block>
+  <block id="f2956e37a1a240696529c2c8ff8a553f" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
+  <block id="7c3c4c58abae35d2f88e82fe840dcbb8" category="paragraph">此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
+  <block id="7809c76990aeac2c15601c7025eeb111" category="list-text">您正在 ESXi 5.x 上使用原生 ESXi iSCSI 软件启动程序</block>
+  <block id="39d787d0105280f3a84692c640027af9" category="paragraph">板载 UTA2 （也称为 `CNA` ）端口可配置。您可以在 ONTAP 命令行界面中配置这些端口；此内容不会介绍此过程。</block>
+  <block id="089a3050abf86cb7b78205b67eea1bbc" category="list-text">您正在通过 ESXi 虚拟机管理程序为 VM 提供存储，而不是在 VM 中运行 iSCSI 启动程序。</block>
+  <block id="a0ea1b5540fa3eca719f466580334567" category="list-text">适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取<block ref="719cc64f2d8f0a174865652d288288f1" category="inline-link-rx"></block>）</block>
+  <block id="de53d4ddfa00ec898bbcf9e464e90519" category="summary">使用 iSCSI 使存储可供 ESXi 主机使用时，您可以使用适用于 VMware vSphere 的 Virtual Storage Console 在 Storage Virtual Machine 上配置卷和 LUN ，然后从主机连接到 LUN 。</block>
+  <block id="91d33397a6e7116c87f840c7cbfaf06a" category="paragraph">使用 iSCSI 使存储可供 ESXi 主机使用时，您可以使用适用于 VMware vSphere 的 Virtual Storage Console 在 Storage Virtual Machine （ SVM ）上配置卷和 LUN ，然后从主机连接到 LUN 。</block>
+  <block id="28b1339a66514b27d2adc9621c0e2756" category="list-text">选择选定配置的配置名称。</block>
+  <block id="25fb02ed4b00ee82b24ac18a8379d701" category="list-text">选择 * 创建。 *</block>
+  <block id="98d8d6509178663f726bfca699da12bf" category="list-text">按照屏幕上的说明使用默认 RAID-DP 配置创建聚合，然后选择 * 创建 * 。</block>
+  <block id="bf18811faac9b8e4fcaebab51afd1113" category="list-text">选择 * 创建 * 。</block>
+  <block id="b449cd661449034d35c440f5ea835469" category="list-text">选择 * 提交并继续 * 。</block>
+  <block id="b5001b3451f7bf729d36f935be7a566e" category="list-text">如果由于启用了 CIFS 或 NFS 而显示 * 配置 CIFS/NFS 协议 * 页面，请选择 * 跳过 * ，然后稍后再配置 CIFS 或 NFS 。</block>
+  <block id="5e12fc1add55566f94ce0ef465ad1821" category="list-text">如果由于启用了 iSCSI 而显示 * 配置 iSCSI 协议 * 页面，请选择 * 跳过 * ，然后稍后再配置 iSCSI 。</block>
+  <block id="fc7e0d0bc63c774bcc407f28d8b1789b" category="list-text">选择 * 跳过 * ，如果需要，稍后再配置管理员。</block>
+  <block id="d68b2e44767d3c6234796ac072a9acd1" category="list-text">输入请求的信息，然后选择 * 提交并继续 * 。</block>
+  <block id="60501ddb734e103b5b1ba1ed8f8b204d" category="list-text">查看 * 摘要 * 页面，记录 LIF 信息，然后选择 * 确定 * 。</block>
+  <block id="eaa3d7731eafb05cdbde5e9a6ce531d4" category="list-text">选择 * SVM 设置 * 选项卡。</block>
+  <block id="f9076fca4e344056559477a14126b443" category="list-text">在 * 协议 * 窗格中，选择 * FC/FCoE* 。</block>
+  <block id="479c66be8192095d0147e12951377d64" category="list-text">选择具有灰色背景的 * FC/FCoE* 协议链接。</block>
+  <block id="aaffd3335fea3319465ed063336f7978" category="list-text">选择 * 提交并关闭 * 。</block>
+  <block id="f5bbd904f98088a0fe17b622243a4063" category="list-text">在 * 启动程序映射 * 页面上，选择 * 添加启动程序组 * ，在 * 常规 * 选项卡上输入所需信息，然后在 * 启动程序 * 选项卡上输入您记录的主机 FC 端口的所有 WWPN 。</block>
+  <block id="1ccc6cd523c646c76b079a8570e68d0e" category="list-text">确认详细信息，然后选择 * 完成 * 以完成向导。</block>
 </blocks>

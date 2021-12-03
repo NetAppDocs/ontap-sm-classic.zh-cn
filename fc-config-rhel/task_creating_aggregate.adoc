@@ -15,8 +15,8 @@ summary: 如果不想使用现有聚合，可以创建一个新聚合，以便�
 .步骤
 . 在 Web 浏览器中输入 URL ` +https://IP-address-of-cluster-management-LIF+` ，然后使用集群管理员凭据登录到 System Manager 。
 . 导航到 * 聚合 * 窗口。
-. 单击 * 创建。 *
-. 按照屏幕上的说明使用默认 RAID-DP 配置创建聚合，然后单击 * 创建 * 。
+. 选择 * 创建。 *
+. 按照屏幕上的说明使用默认 RAID-DP 配置创建聚合，然后选择 * 创建 * 。
 +
 image::../media/aggregate_creation_fc_rhel.gif[在 System Manager 中创建聚合屏幕]
 

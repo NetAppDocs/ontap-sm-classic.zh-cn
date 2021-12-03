@@ -14,7 +14,7 @@ summary: 为 iSCSI 创建的端口必须与 iSCSI 软件适配器关联，才能
 
 .开始之前
 * 必须创建 iSCSI VMkernel 端口。
-* 必须在 ESX 主机上启用 iSCSI 软件适配器。
+* 必须在 ESXi 主机上启用 iSCSI 软件适配器。
 
 
 您可以使用 vSphere Client 绑定 iSCSI 端口。

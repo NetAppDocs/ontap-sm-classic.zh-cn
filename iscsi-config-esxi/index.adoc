@@ -2,7 +2,7 @@
 permalink: iscsi-config-esxi/index.html 
 sidebar: sidebar 
 keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer 
-summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESX 主机计算机上的 iSCSI 启动程序使 LUN 可用。 
+summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。 
 ---
 = 使用 VSC 为 ESXi 配置 iSCSI 概述
 :icons: font
@@ -10,7 +10,7 @@ summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 
 
 
 [role="lead"]
-此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESX 主机计算机上的 iSCSI 启动程序使 LUN 可用。
+此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。
 
 此内容基于以下假设：
 
@@ -21,7 +21,7 @@ summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 
 +
 https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"]
 
-* 您正在 ESXi 5.x 上使用原生 ESX iSCSI 软件启动程序
+* 您正在 ESXi 5.x 上使用原生 ESXi iSCSI 软件启动程序
 * 您未对 iSCSI 使用 CHAP 身份验证。
 * 您正在使用支持的适用于 VMware vSphere 的 Virtual Storage Console 版本为 ESX 主机配置存储设置。
 * 您的网络使用 IPv4 地址。
@@ -34,13 +34,13 @@ https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"]
 
 * 集群中的每个节点上至少有两个可用的高速以太网端口（至少 1 GbE ，建议使用 10 GbE ）。
 +
-板载 UTA2 （也称为 "`CNA` " ）端口可配置。您可以在 ONTAP 命令行界面中配置这些端口；此内容不会介绍此过程。
+板载 UTA2 （也称为 `CNA` ）端口可配置。您可以在 ONTAP 命令行界面中配置这些端口；此内容不会介绍此过程。
 
 +
 您应看到 link:https://docs.netapp.com/us-en/ontap/networking/index.html["ONTAP 9 网络管理"] 用于使用 CLI 配置以太网端口流量控制。
 
 * 您未配置 iSCSI SAN 启动。
-* 您正在通过 ESX 虚拟机管理程序为 VM 提供存储，而不是在 VM 中运行 iSCSI 启动程序。
+* 您正在通过 ESXi 虚拟机管理程序为 VM 提供存储，而不是在 VM 中运行 iSCSI 启动程序。
 
 
 如果这些假设与您的情况不符，您应查看以下资源：
@@ -48,5 +48,5 @@ https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"]
 * https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理"]
 * https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 配置"]
 * https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["设备管理"]
-* 适用于您的 ESX 5 版本的 _VMware vSphere Storage_ （可从获取 http://www.vmware.com["VMware"]）
+* 适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取 http://www.vmware.com["VMware"]）
 

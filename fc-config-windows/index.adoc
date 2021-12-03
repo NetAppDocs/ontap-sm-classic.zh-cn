@@ -26,7 +26,7 @@ https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"^]
 
 * 集群中的每个节点上至少有两个可用的 FC 目标端口。
 +
-板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。配置这些端口会在 ONTAP 命令行界面中完成，此内容不会介绍这些配置。
+板载 FC 和 UTA2 （也称为 `CNA` ）端口以及某些适配器均可配置。配置这些端口会在 ONTAP 命令行界面中完成，此内容不会介绍这些配置。
 
 * 您未配置 FC SAN 启动。
 * 您未将虚拟光纤通道（ VFC ）与 Hyper-V 或 ESX 子系统结合使用。
