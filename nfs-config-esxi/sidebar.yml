@@ -1,5 +1,5 @@
 ---
-section: nfs-config-exsi
+section: nfs-config-esxi
 title: 使用 VSC 为 ESXi 配置 NFS
 entries:
 - title: 概述
