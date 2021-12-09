@@ -711,7 +711,6 @@
   <block id="5bc7ef17ab3e5af4b837a0148ebd826b" category="list-text">单击 * 提交并关闭 * ，然后单击 * 确定 * 。</block>
   <block id="43892fcaea0e340fbfd701fb89518405" category="doc">打开 SVM 根卷的导出策略（创建启用了 NFS 的新 SVM ）</block>
   <block id="e932175a0921404d06e0165f71ceeca2" category="paragraph">如果您有要用于新卷的现有聚合，则可以跳过此操作步骤。</block>
-  <block id="3cdce3f2cb5c7083b570854c00d423e9" category="summary">此内容介绍如何在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问。</block>
   <block id="2720dc36306e6c9935c0eeda20d6be83" category="doc">NFS 配置概述</block>
   <block id="011713e1e36d4155bc75d4ed07a4dfa8" category="paragraph">如果要按以下方式配置对卷的访问，应使用此内容：</block>
   <block id="973b4a4cef4d13086f8f961fd5957845" category="list-text">NFS 访问将通过 NFSv3 进行，而不是通过 NFSv4 或 NFSv4.1 进行。</block>
@@ -1921,7 +1920,6 @@
   <block id="bb3112e54507860cd12a19609ff8f1ee" category="list-text">选择 Everyone 组，然后单击 * 删除 * 。</block>
   <block id="0b95db3f00815c0be1aa8cd0e13aac8a" category="list-text">单击 * 添加 * ，然后输入在包含 SVM 的 Windows Active Directory 域中定义的管理员组的名称。</block>
   <block id="4c077ab81df7e869d35893b62a5dba50" category="list-text">选择新的管理员组，然后选择 * 完全控制 * 。</block>
-  <block id="b158d7dff0f65ec290e5ae6442f28855" category="summary">此内容介绍如何在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问。</block>
   <block id="a0f7a5807b62b0e8f3f7146631afe1cb" category="doc">SMB/CIFS 配置概述</block>
   <block id="757c8c32637c786ebe366a83368200d8" category="list-text">NTFS 文件权限将用于保护新卷的安全。</block>
   <block id="40a61122fd85dbb1ca8b58b4f44918d8" category="summary">将 CIFS 卷添加到启用了 CIFS 的 SVM 涉及创建和配置卷，创建共享并设置其权限以及从 Windows 管理主机验证访问。然后，您可以配置 CIFS 客户端访问。</block>
@@ -9354,184 +9352,21 @@
   <block id="482cd53130aff2ee2a18136bf4a0a22e" category="paragraph"><block ref="482cd53130aff2ee2a18136bf4a0a22e" category="inline-xref-macro-rx"></block></block>
   <block id="c209957b6a7079b7465d1bffa3f12db9" category="sidebar">配置 NAS 存储</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概述</block>
-  <block id="2ef23832ea366ba8b4e1c638df8aae8f" category="sidebar">创建聚合</block>
-  <block id="21561b3fc334af5de82aa4b5a9ca9f52" category="sidebar">确定在何处配置新卷</block>
-  <block id="417be1bf01947e26b12dd7b0559c0438" category="sidebar">使用 NFS 卷和导出创建新的 SVM</block>
-  <block id="ced6bc10ed1a0f0adf452c715a792e0c" category="sidebar">配置 LDAP （创建启用了 NFS 的新 SVM ）</block>
-  <block id="8b898e041770761ed706242a60c75b0c" category="sidebar">配置和验证 NFS 客户端访问（创建启用了 NFS 的新 SVM ）</block>
-  <block id="91c67f4609bfac5dfa7016115b25f58e" category="sidebar">添加对现有 SVM 的 NFS 访问</block>
-  <block id="9db22d1970be744fd2fdda84b35a6873" category="sidebar">打开 SVM 根卷的导出策略（配置对现有 SVM 的 NFS 访问）</block>
-  <block id="6cdc2aa43cdad6aaecd946d48b3414d1" category="sidebar">配置 LDAP （配置对现有 SVM 的 NFS 访问）</block>
-  <block id="2825dba5a64ea2d1fafe83d5cc781956" category="sidebar">配置和验证 NFS 客户端访问（配置对现有 SVM 的 NFS 访问）</block>
-  <block id="eeda2bd37efaac403145ba9c173ee2b7" category="sidebar">为卷创建导出策略</block>
-  <block id="09c619992dc169ee612cbb76a2c258b0" category="sidebar">配置和验证 NFS 客户端访问（将 NFS 卷添加到启用了 NFS 的 SVM ）</block>
   <block id="27dc49cb854bf08b0bbc4e74cdbe5316" category="sidebar">使用 VSC 为 ESXi 配置 NFS</block>
-  <block id="6cdbdf990d64165ec34329f5081b6d07" category="sidebar">验证配置是否受支持</block>
-  <block id="b35a4b7f47b13c25ccf0c3cbbf7bf758" category="sidebar">正在完成 NFS 客户端配置工作表</block>
-  <block id="2763f33c904a183bd0ef06f9c4fb4403" category="sidebar">安装</block>
-  <block id="2fecba9e1edcbad6bb9f2b573da7415f" category="sidebar">将存储集群或添加到的 VSC 中</block>
-  <block id="b483c90333b6b2a15a2809cbce67445a" category="sidebar">配置网络以获得最佳性能</block>
-  <block id="91e2af46c6b9acd41a06f4714ba39889" category="sidebar">配置 ESXi 主机</block>
-  <block id="2b0b44ef506a818b06d49fdc6a807bf8" category="sidebar">配置主机端口和 vSwitch</block>
-  <block id="351c9272a04466f16d6e895d3c876eae" category="sidebar">配置 ESXi 主机最佳实践设置</block>
-  <block id="2b34fba5df776e1b485da82d0e6a1c9d" category="sidebar">创建启用了 NFS 的新节点</block>
-  <block id="eeb8ea9f41169a42eeb299d30214fa1a" category="sidebar">添加对现有的 NFS 访问</block>
-  <block id="98c928bf29ea2d081f3f369823f1effc" category="sidebar">验证是否已在现有上启用 NFS</block>
-  <block id="46dc43c6132439a0a756b2705c03a003" category="sidebar">配置数据存储库并创建其包含的卷</block>
-  <block id="62134d4b205f035a31dfdb95eb6b689d" category="sidebar">验证从 ESXi 主机进行的 NFS 访问</block>
-  <block id="613b0de7061a69a3667901ba47b9c47e" category="sidebar">部署适用于 VMware VAAI 的 NFS 插件</block>
-  <block id="5cd5828bcfc6b3a663ffffc4d680194a" category="sidebar">在主机上挂载数据存储库</block>
-  <block id="71e0e2c040ccabf171d80bc7c279b441" category="sidebar">添加对现有 SVM 的 CIFS 和 NFS 访问</block>
-  <block id="027ca2eebb52b3c2125c5f9c062c03ec" category="sidebar">在 DNS 服务器上映射 SMB 服务器</block>
-  <block id="4674aa9764a99ff2dcf9d9e671061dd7" category="sidebar">映射 UNIX 和 Windows 用户名</block>
-  <block id="b943ade0d14dc05db7c32aeca80bc64d" category="sidebar">创建共享并设置其权限</block>
-  <block id="19ec46d04648b227536154b6b4c012cc" category="sidebar">验证 SMB 客户端访问</block>
-  <block id="85bb0bd13de7bef08844633464785df4" category="sidebar">配置和验证 CIFS 和 NFS 客户端访问</block>
   <block id="1cea5f7ff46fdcaad82b7016abae2ceb" category="sidebar">SMB/CIFS 配置</block>
-  <block id="c2687d322cb887e29dc9546855ede544" category="sidebar">使用 CIFS 卷和共享创建新的 SVM</block>
-  <block id="104f7649c55316cf2ad56efd05aceaa0" category="sidebar">配置和验证 CIFS 客户端访问</block>
-  <block id="2de9bd41cb836ea7ef255aaf51ba9120" category="sidebar">配置对现有 SVM 的 SMB/CIFS 访问</block>
-  <block id="8f5dde8e326d716ab2ef7cc020f6e613" category="sidebar">添加对现有 SVM 的 CIFS 访问</block>
   <block id="4906f544b7a764889e992fe4877ad659" category="sidebar">配置 SAN 存储</block>
   <block id="7764db582957448eb25528aee4db56b7" category="sidebar">使用 VSC 为 ESXi 配置 FC</block>
-  <block id="8494619622230cb7c9210b17d2fd598b" category="sidebar">验证是否支持 FC 配置</block>
-  <block id="28bf6d721ee83a001917be225cb1db60" category="sidebar">正在完成 FC 配置工作表</block>
-  <block id="2fe80c598b337976d139cc4679fdfa8a" category="sidebar">安装 Virtual Storage Console</block>
-  <block id="4def42e5b2ea82848fa57b45c411d38e" category="sidebar">将存储集群或 SVM 添加到适用于 VMware vSphere 的 VSC 中</block>
-  <block id="89e634fa45b392d5adb1c0802171fc30" category="sidebar">更新 HBA 驱动程序，固件和 BIOS</block>
-  <block id="27662320c38ab1e51bab609b676bb57a" category="sidebar">确定在何处配置卷</block>
-  <block id="b06e6bb9a4fbcc4eda721e6cb1f609de" category="sidebar">按主机和 LIF WWPN 对 FC 交换机进行分区</block>
-  <block id="35b5a034df778a6c4c6467123d075630" category="sidebar">配置数据存储库并创建其包含的 LUN 和卷</block>
-  <block id="b394c22df89ecf7dad714d9b80d29585" category="sidebar">验证主机是否可以对 LUN 进行写入和读取</block>
   <block id="7d30b55c54296bcdedf5a84c9b75594f" category="sidebar">适用于 Red Hat Enterprise Linux 的 FC 配置</block>
-  <block id="985d588e3acb2bc862cd76a2949663ac" category="sidebar">从 HBA 供应商安装 HBA 实用程序</block>
-  <block id="ef7f789d20da8cd230ff57dfea7b8718" category="sidebar">安装 Linux Unified Host Utilities 并优化 I/O 性能</block>
-  <block id="aaa4235c29e5a3c35f208cc58376edfa" category="sidebar">记录每个主机 FC 端口的 WWPN</block>
-  <block id="b52cd4c14b124d2d9ded4af1afc19aea" category="sidebar">正在配置 DM-Multipath</block>
-  <block id="b2c65f1330e2868f91e4c1d2b1079fae" category="sidebar">发现新的 SCSI 设备（ LUN ）和多路径设备</block>
-  <block id="8e32b003eb43cb8d1b5e8c3128f76cba" category="sidebar">在多路径设备上配置逻辑卷并创建文件系统</block>
-  <block id="dd2fa2a19bddbebc69a45e5ef77c5aa9" category="sidebar">验证主机是否可以对多路径设备进行写入和读取</block>
   <block id="23617d02d88796301c4d82f522e259ea" category="sidebar">适用于 Windows 的 FC 配置</block>
-  <block id="cd59c7748158f18cf0c87293b3555cf5" category="sidebar">安装 Windows Unified Host Utilities</block>
-  <block id="b6776587ffb56164cc1a7521e197df78" category="sidebar">发现新磁盘</block>
-  <block id="b7a324c2da974b055ab1dcb455a7cace" category="sidebar">初始化和格式化 LUN</block>
   <block id="50575298e52caf9a33c4f761e7f5b730" category="sidebar">使用 VSC 为 ESXi 配置 iSCSI</block>
-  <block id="3b1db866cee909651aff3b7dfe37617a" category="sidebar">验证是否支持 iSCSI 配置</block>
-  <block id="7df151f6959a1d628dae9c726b4b5825" category="sidebar">配置主机 iSCSI 端口和 vSwitch</block>
-  <block id="de7ac0f020d47fbf96bf80f88e564680" category="sidebar">启用 iSCSI 软件适配器</block>
-  <block id="15bac4a8f2c50dd1910d18d1e45326f7" category="sidebar">将 iSCSI 端口绑定到 iSCSI 软件适配器</block>
-  <block id="52125a2f7118ee2ee4b4eb493f370cdd" category="sidebar">测试从主机到存储集群的 iSCSI 路径</block>
   <block id="4c5f2c2d024136e9a723909a5c49f395" category="sidebar">适用于 Red Hat Enterprise Linux 的 iSCSI 配置</block>
-  <block id="a6ab3bc1b1a6ec6ee3e28a5a392a812b" category="sidebar">记录 iSCSI 节点名称</block>
-  <block id="0daa16783cdabc797449cc66e149dbf7" category="sidebar">设置 iSCSI 替换超时值</block>
-  <block id="0030ae58fdddaf114a0ba9eaf9969de3" category="sidebar">正在启动 iSCSI 服务</block>
-  <block id="8b327902ba6e4f67f8adb79f7bbd9821" category="sidebar">启动与目标的 iSCSI 会话</block>
   <block id="dcac34ac3a0167254a9c5e757dd7143a" category="sidebar">适用于 Windows 的 iSCSI 配置</block>
-  <block id="1be14c0b751c97a6fd6925b2d70a3b66" category="sidebar">记录 iSCSI 启动程序节点名称</block>
-  <block id="49c234ae03dc3fb4a62690afb504225f" category="sidebar">启动与目标的 iSCSI 会话</block>
   <block id="03c39d763ca15978d9ef16c2ba5fe98a" category="sidebar">数据保护和灾难恢复</block>
-  <block id="76ffcfcac9e96926dd7595c07891b3ea" category="sidebar">准备集群对等</block>
-  <block id="4de61975d040a236a5d8010cae279331" category="sidebar">配置对等关系（从 ONTAP 9.3 开始）</block>
-  <block id="7580426c8dd53f2b6ea90b0f3250f5d4" category="sidebar">创建集群间 LIF （从 ONTAP 9.3 开始）</block>
-  <block id="d4127fffca69e35ac51c1f729c0907b9" category="sidebar">正在创建 SVM 对等关系</block>
-  <block id="d3fa8199a808bcf37e617438a1613651" category="sidebar">配置对等关系（ ONTAP 9.2 及更早版本）</block>
-  <block id="c07ac44c79fc5cb7c018ed0e61985e92" category="sidebar">在所有节点上创建集群间接口（ ONTAP 9.2 或更早版本）</block>
-  <block id="2790929874ecb8c8ec240d9a212411e8" category="sidebar">创建集群对等关系（ ONTAP 9.2 或更早版本）</block>
-  <block id="e6fed82d6bd9f471d30155c9e4b6c2f6" category="sidebar">激活目标卷</block>
-  <block id="bf028e11ce29cdd9e04d1e49201327ee" category="sidebar">验证源卷的状态</block>
-  <block id="ba98b596f7efa02b0ef709dd7ac873c1" category="sidebar">正在中断 SnapMirror 关系</block>
-  <block id="7b391ffb5293547ca8dbddd712e11c52" category="sidebar">验证目标卷状态</block>
-  <block id="a9d8bbddf537ec2a06730a291d362496" category="sidebar">配置用于数据访问的目标卷</block>
-  <block id="e1b97e38b90c7dbf97d32bb74d97ec3e" category="sidebar">重新激活源卷</block>
-  <block id="fd607671c989ea5c3886628dd0b752fc" category="sidebar">重新同步源卷</block>
-  <block id="00d8440933a847ba0565e85ea3f4497d" category="sidebar">正在更新源卷</block>
-  <block id="888d7bff2fdd0c8efd09698aeab0dfdb" category="sidebar">验证集群对等关系和 SVM 对等关系</block>
-  <block id="2783fc01790c1d81f3911891af7932db" category="sidebar">创建 SnapMirror 关系（从 ONTAP 9.3 开始）</block>
-  <block id="ac4320072b56569c12d9ffc12a5f9e88" category="sidebar">设置用于数据访问的目标 SVM</block>
-  <block id="6a6bdf55d31c97beee6923ca10e9279e" category="sidebar">监控 SnapMirror 数据传输的状态</block>
-  <block id="ba02db538d84d8bbb3a821fe4748a092" category="sidebar">验证集群对等关系和 SVM 对等关系</block>
-  <block id="43c7ab77792e104ad80d33214935e4f5" category="sidebar">创建 SnapVault 关系（从 ONTAP 9.3 开始）</block>
-  <block id="9e7b6a5c18e2c26730ef75d17fa65561" category="sidebar">监控 SnapVault 关系</block>
-  <block id="b356cd8fbe40afb98ae0dee09ad08fb1" category="sidebar">确定 SnapVault 备份目标卷</block>
-  <block id="875c1a0aee71a38a0d83701397a4f07f" category="sidebar">从 SnapVault 备份还原数据</block>
-  <block id="1efec52cb892fd02718d3275e313024f" category="sidebar">验证还原操作</block>
   <block id="6c0e4fd4b7e2ef11d891ac59729c5f3e" category="sidebar">集群管理</block>
   <block id="0fe674cba26a6125717793de11bb3096" category="sidebar">集群扩展管理</block>
-  <block id="cbc1b3a69333b5c59b06b89329cea13c" category="sidebar">验证集群是否已做好扩展准备</block>
-  <block id="5dd9c71a03e8af08a34bf382b97242dd" category="sidebar">验证计划的配置</block>
-  <block id="630c400c42344e192dd5e820ea8ec1c1" category="sidebar">收集所需的网络信息</block>
-  <block id="979d02a58585371bdc5e48798e3836fa" category="sidebar">添加或更换交换机</block>
-  <block id="4daa75227dac61458a6786198a7c0cea" category="sidebar">准备集群以进行扩展</block>
-  <block id="f10cf0464d644f955a14161ca409b84b" category="sidebar">添加节点锁定许可证</block>
-  <block id="265f0c6ac4403348822f5c1cb680cb9e" category="sidebar">验证系统运行状况</block>
-  <block id="ca541e8266f64e2eaf81d8141c562dea" category="sidebar">备份集群配置</block>
-  <block id="6922017969b74695d3bde3413c90b75b" category="sidebar">生成有关开始扩展的 AutoSupport 消息</block>
-  <block id="6f204daf54a805a4536083f3a358b0be" category="sidebar">安装新节点</block>
-  <block id="c447892e12818639fd39ccb6f91482ef" category="sidebar">安装控制器</block>
-  <block id="7bcf077a2889cb6564ea0952cd97fbc4" category="sidebar">配置节点管理 LIF</block>
-  <block id="6ee83123767682779393be5219f4be05" category="sidebar">升级或降级节点</block>
-  <block id="cf93ce20db61f2d5cc1616776f7b9bbf" category="sidebar">确保已启用硬件级 HA</block>
-  <block id="4340aaee45f8c97373ef5666cb5607b4" category="sidebar">使用 System Manager 向集群添加节点</block>
-  <block id="42b90d4b91caa68e5975cc41d38c7442" category="sidebar">使用命令行界面将节点加入集群</block>
-  <block id="de6ea7e38d580db6dae4dfac2528a95c" category="sidebar">完成扩展</block>
-  <block id="1ba2a70854df02e10d2a09262409f327" category="sidebar">在 System Manager 中配置节点详细信息</block>
-  <block id="71c3f25cd228c5a1dc75bafd14be817f" category="sidebar">在新节点上配置 AutoSupport</block>
-  <block id="0ef5504e173a3cb6c5eb9eca928255a6" category="sidebar">配置服务处理器网络</block>
-  <block id="346acc0be9ea520fc948a0112c26caf1" category="sidebar">验证扩展集群的配置</block>
-  <block id="b3ee9f9bd93a29eaa1e77edeef6f7669" category="sidebar">生成有关完成扩展的 AutoSupport 消息</block>
-  <block id="9d4d741f87c103a74477eb20765e5af3" category="sidebar">更新新节点的 LUN 路径</block>
   <block id="ed7801df8a1413efb4a14b6277aeeaf5" category="sidebar">卷移动管理</block>
-  <block id="a6276a1d0abacf88056a5ad7b80c9403" category="sidebar">规划卷移动的方法和时间</block>
-  <block id="fa8d5f89137ec648a1a225e2aaaa3526" category="sidebar">使用 System Manager 移动卷</block>
-  <block id="cafa658961a96f20769596fe9eda02e7" category="sidebar">移动卷后更新 LUN 报告节点</block>
-  <block id="0b6b0143e54e754a5287e7fab425740d" category="sidebar">移动卷后更新 NDMP 备份</block>
   <block id="7cb496856511458cd9ec3d53d882941a" category="sidebar">SNMP 配置</block>
-  <block id="f4193f81f5831b407bbaa03d7380f4bf" category="sidebar">验证是否已启用 SNMP</block>
-  <block id="7522e2cb2ab1b6332710b8bdd7eac321" category="sidebar">添加 SNMP 社区</block>
-  <block id="989fbc23a489aadc6970e1bc392c1d62" category="sidebar">添加 SNMPv3 安全用户</block>
-  <block id="434ff64b9b1cd5866d98cb3372989f7f" category="sidebar">添加 SNMP 陷阱主机</block>
-  <block id="89425a0cc6ecbe8f9dddc37409f8398d" category="sidebar">测试 SNMP 陷阱</block>
-  <block id="4a26a307b31dc664f80b56d4671f07d2" category="sidebar">测试 SNMP 轮询</block>
   <block id="8cd255c7908d433af7a81a9f59fbc06b" category="sidebar">使用 System Manager 9.6 和 9.7 进行集群管理</block>
-  <block id="744688dd61443ae98ef3f7a6513fb69a" category="sidebar">了解 System Manager</block>
-  <block id="1a4d10a21920bf6a3c1f3c69cd48987a" category="sidebar">创建 SVM</block>
-  <block id="b39bb0434059f648e357b5707cd2f79b" category="sidebar">配置 System Manager 选项</block>
-  <block id="4e68bb5fda78564b96423187e5b7d40d" category="sidebar">使用 System Manager 配置集群</block>
-  <block id="1b55f02bf13c03f7ab8cade385125fbe" category="sidebar">创建集群管理逻辑接口</block>
-  <block id="6849737e9bda19ce111662a1d1697bd8" category="sidebar">创建节点管理逻辑接口</block>
-  <block id="9979ff4cf374670d24dd9e5e891c5e0a" category="sidebar">正在创建 IP 空间</block>
-  <block id="7f366059f26bd6f1b253021e4c424ee4" category="sidebar">正在创建 SVM</block>
-  <block id="fb7900ef06198f2ca997be7ee81d9d9b" category="sidebar">在 SVM 上配置 CIFS 和 NFS 协议</block>
-  <block id="50dcd36b1b07a4a1f47560e966134cc5" category="sidebar">在 SVM 上配置 NVMe 协议</block>
-  <block id="9e6e8ac0ecef629e806876f1bd6452fd" category="sidebar">创建 SnapLock 卷</block>
-  <block id="60bea445879c5fbb9f43c2a69e1b6c68" category="sidebar">创建集群间 LIF</block>
-  <block id="a2602eff5b7bc0f43d1fb5019cac868e" category="sidebar">创建集群对等关系</block>
-  <block id="1aa60a4d0a51d986245dac48113ac343" category="sidebar">创建 SVM 对等方</block>
-  <block id="e1c84d0cd779abb7381a9baca5460069" category="sidebar">将基于 SAN 的 Microsoft SQL Server 添加到 System Manager</block>
-  <block id="a91d86970c749db389dba24f3e590611" category="sidebar">配置 SVM 的管理详细信息</block>
-  <block id="5f58b5fa87edb9e961b2e4c9248f86f2" category="sidebar">将节点添加到集群</block>
-  <block id="120f378ab46259b1952ca7c404b2bb39" category="sidebar">添加集群用户帐户</block>
-  <block id="309bb3d46e5674f5b1029bdb94cce9aa" category="sidebar">添加角色</block>
-  <block id="5ee2f36a2990b461b8fcc7c33741c7c5" category="sidebar">配置和管理云层</block>
-  <block id="c0329deb24a3372cf3ca5e2f0d16a8dc" category="sidebar">添加 AutoSupport 电子邮件收件人</block>
-  <block id="c268f03db9eba97c61c299aa4ad5d766" category="sidebar">从源 SVM 创建镜像和存储关系</block>
-  <block id="9ea5772b990e16ccc68ea27605ab8702" category="sidebar">为 VMware 创建 NFS 数据存储库</block>
-  <block id="7a30a6c61b6383364f9b724bca872702" category="sidebar">创建主目录共享</block>
-  <block id="7fd5db5d4b6f4586e27551b11f20573d" category="sidebar">创建 FC SAN 优化的 LUN</block>
-  <block id="3a487ccf65a12e4bf7a1181acf403830" category="sidebar">正在创建端口集</block>
-  <block id="28062900263e6902c2205d444936acb0" category="sidebar">添加首选域控制器</block>
-  <block id="eae0e2b98e96f6b767fbb9c23f0f0ce2" category="sidebar">创建 NVMe 命名空间</block>
-  <block id="771ed02ce5f847adc1eadc4caa8d4b9b" category="sidebar">创建 NVMe 子系统</block>
-  <block id="5e5b6b71068b7e31d16f06570f330488" category="sidebar">向导出策略添加规则</block>
-  <block id="1b44263ae49d36c3bc38d07a1b42adba" category="sidebar">正在添加效率策略</block>
-  <block id="f33756ef4f729d3a893509550b0fda53" category="sidebar">创建保护策略</block>
-  <block id="cca4fbf6b0c539fdbe2e49e204d9ac1d" category="sidebar">正在创建 QoS 策略组</block>
-  <block id="2cc6101137cf83399d973e37b30306db" category="sidebar">正在添加 NIS 域</block>
-  <block id="af5ed8474d6e5f8ad0adddb6fc2534db" category="sidebar">正在添加 SVM 用户帐户</block>
-  <block id="a3baa7a5e7af98f00b15b7d9efb9454e" category="sidebar">从目标 SVM 创建镜像和存储关系</block>
-  <block id="44c5b1ab6cfc8f0956b23e6ecebd7b21" category="sidebar">创建 SVM 关系</block>
-  <block id="74caf4e4648531a1ba2443a254c09ac7" category="sidebar">正在创建 Snapshot 策略</block>
-  <block id="905dcc318a262011fdea9a6e371b01ba" category="sidebar">正在创建计划</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法律声明</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="32f77b1b6c6efdb41fe9e8f8ea88ada3" category="sidebar">了解 System Manager 经典版</block>
@@ -9812,20 +9647,21 @@
   <block id="847d5320e56070117d0ef2664e520134" category="inline-link">网络管理文档</block>
   <block id="05134b95fd2ae73eaeabe3072b9d50d0" category="paragraph">如果您的数据网络正常运行，则使用这些默认对象可确保在链路出现故障时 LIF 能够正确地进行故障转移。如果您不使用默认对象，则应参考<block ref="19c47f4afa0dffe63811146ebe241ce2" category="inline-link-rx"></block> 有关如何配置 LIF 路径故障转移的信息。</block>
   <block id="d807ba1476133422d6308692f75bb90e" category="section-title">在 ONTAP 中执行此操作的其他方法</block>
-  <block id="477311032b2b01f497b4696204a4cc07" category="paragraph">本主题介绍使用 System Manager 经典版（ ONTAP 9.7 及更早版本）进行 SMB/CIFS 存储配置。</block>
   <block id="3f102bc5adc8efd2d0231ba47cea4cb2" category="cell">要执行以下任务，请执行以下操作 ...</block>
   <block id="11f033768b399bcca70f9fde4fb0d4c4" category="cell">查看此内容 ...</block>
-  <block id="b145cd11afa6511a1d14593bec08b802" category="cell">System Manager 下一代（ ONTAP 9.7 及更高版本）</block>
   <block id="4c61ddac2ed1445cc3bd2743dea62bc6" category="inline-link-macro">使用 SMB 为 Windows 服务器配置 NAS 存储</block>
   <block id="b44ab55132cb7dfd42aa271dc087c64f" category="cell"><block ref="b44ab55132cb7dfd42aa271dc087c64f" category="inline-link-macro-rx"></block></block>
-  <block id="31581907c3d44270d8d9879f8e2de965" category="cell">命令行界面</block>
   <block id="b4b7f03d4b403f42868943c3b21d2865" category="inline-link-macro">使用命令行界面概述 SMB 配置</block>
   <block id="af691efeb0948e3a24ae2ff80c4ea2db" category="cell"><block ref="af691efeb0948e3a24ae2ff80c4ea2db" category="inline-link-macro-rx"></block></block>
   <block id="60c5e8a3bf1bbfdfd67d0416ede5bbf9" category="inline-link">网络管理文档</block>
   <block id="1f82d63d26030255db2c53aecd77714b" category="paragraph">如果您的数据网络正常运行，则使用这些默认对象可确保在链路出现故障时 LIF 能够正确地进行故障转移。如果您不使用默认对象，应参见<block ref="52c62ead0407cf253ef26d313fa969c8" category="inline-link-rx"></block> 有关如何配置 LIF 路径故障转移的信息。</block>
-  <block id="6125492f2de2edf76cf99b3d5e55dd79" category="paragraph">本主题介绍使用 System Manager 经典版（ ONTAP 9.7 及更早版本）进行 NFS 存储配置。</block>
   <block id="f84481fbfc30712bb07cee27cbb431e6" category="inline-link-macro">使用 NFS 为 Linux 服务器配置 NAS 存储</block>
   <block id="35fd6cdcbe1b7d8a89c5819ed39dd1b3" category="cell"><block ref="35fd6cdcbe1b7d8a89c5819ed39dd1b3" category="inline-link-macro-rx"></block></block>
   <block id="3e5584efdaf093a1509ba03a5649d568" category="inline-link-macro">使用命令行界面概述 NFS 配置</block>
   <block id="b224811ffef3a7841011e3ecf9fff1a2" category="cell"><block ref="b224811ffef3a7841011e3ecf9fff1a2" category="inline-link-macro-rx"></block></block>
+  <block id="f142b9220dc2e2218357fa1bf52e9dd3" category="summary">此内容介绍如何使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。</block>
+  <block id="2bea44090e5debe7677aabca977d903c" category="paragraph">如果要按以下方式配置对卷的访问，请使用此内容：</block>
+  <block id="737fec7cf6d6e935871829ca5e3c6eee" category="cell">重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本）</block>
+  <block id="574a1975b94dafcf4c59df3ad4142278" category="cell">ONTAP 命令行界面</block>
+  <block id="d7488c279f159269a37c3a1c53b0fc7b" category="summary">本内容介绍如何使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。</block>
 </blocks>
