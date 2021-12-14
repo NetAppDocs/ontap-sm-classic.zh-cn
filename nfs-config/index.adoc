@@ -2,7 +2,7 @@
 permalink: nfs-config/index.html 
 sidebar: sidebar 
 keywords: nfs, access, volume, exist, storage, virtual, machine, svm, system manager classic 
-summary: 本内容介绍如何使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。 
+summary: 您可以使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。 
 ---
 = NFS 配置概述
 :icons: font
@@ -10,7 +10,7 @@ summary: 本内容介绍如何使用 ONTAP System Manager 经典界面在新的�
 
 
 [role="lead"]
-本内容介绍如何使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。
+您可以使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。
 
 如果要按以下方式配置对卷的访问，请使用此内容：
 

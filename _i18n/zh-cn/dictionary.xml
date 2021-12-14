@@ -9659,9 +9659,10 @@
   <block id="35fd6cdcbe1b7d8a89c5819ed39dd1b3" category="cell"><block ref="35fd6cdcbe1b7d8a89c5819ed39dd1b3" category="inline-link-macro-rx"></block></block>
   <block id="3e5584efdaf093a1509ba03a5649d568" category="inline-link-macro">使用命令行界面概述 NFS 配置</block>
   <block id="b224811ffef3a7841011e3ecf9fff1a2" category="cell"><block ref="b224811ffef3a7841011e3ecf9fff1a2" category="inline-link-macro-rx"></block></block>
-  <block id="f142b9220dc2e2218357fa1bf52e9dd3" category="summary">此内容介绍如何使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。</block>
   <block id="2bea44090e5debe7677aabca977d903c" category="paragraph">如果要按以下方式配置对卷的访问，请使用此内容：</block>
   <block id="737fec7cf6d6e935871829ca5e3c6eee" category="cell">重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本）</block>
   <block id="574a1975b94dafcf4c59df3ad4142278" category="cell">ONTAP 命令行界面</block>
-  <block id="d7488c279f159269a37c3a1c53b0fc7b" category="summary">本内容介绍如何使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。</block>
+  <block id="6fee7f10b0fdf9da2e6c4a72ff309964" category="summary">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问。</block>
+  <block id="1bf2d80a0b7340e4229d26ac096116df" category="list-text">您希望使用最佳实践，而不是浏览每个可用的选项（ ONTAP 9.7 及更早版本）。</block>
+  <block id="2b837a8c24250b9e38d6fcef0dff4f98" category="summary">您可以使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。</block>
 </blocks>

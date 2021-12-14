@@ -2,7 +2,7 @@
 permalink: smb-config/index.html 
 sidebar: sidebar 
 keywords: content, describe, smb, cifs, access, volume, exist, storage, virtual, machine, svm, system manager classic 
-summary: 此内容介绍如何使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。 
+summary: 您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问。 
 ---
 = SMB/CIFS 配置概述
 :icons: font
@@ -10,11 +10,11 @@ summary: 此内容介绍如何使用 ONTAP System Manager 经典界面在新的�
 
 
 [role="lead"]
-此内容介绍如何使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。
+您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问。
 
 如果要按以下方式配置对卷的访问，请使用此内容：
 
-* 您希望使用最佳实践，而不是浏览每个可用选项。
+* 您希望使用最佳实践，而不是浏览每个可用的选项（ ONTAP 9.7 及更早版本）。
 * 您的数据网络使用默认 IP 空间，默认广播域和默认故障转移组。
 +
 如果您的数据网络正常运行，则使用这些默认对象可确保在链路出现故障时 LIF 能够正确地进行故障转移。如果您不使用默认对象，则应参考 https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理文档"^] 有关如何配置 LIF 路径故障转移的信息。
