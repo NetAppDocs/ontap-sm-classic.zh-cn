@@ -10,15 +10,9 @@ summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 
 
 
 [role="lead"]
-此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 以及使用 Red Hat Enterprise Linux 服务器上的 iSCSI 启动程序使 LUN 可用。
+您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使 LUN 在 Red Hat Enterprise Linux 服务器上可用。
 
 此内容基于以下假设：
-
-* 您希望使用最佳实践，而不是浏览每个可用选项。
-* 您不想阅读大量概念背景信息。
-* 您希望使用适用于 ONTAP 9.7 及更早版本的 _Classic_ System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。
-+
-https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"^]
 
 * 您正在运行受支持的 RHEL 系列 6.4 或更高版本的 Red Hat Enterprise Linux 主机上使用 iSCSI 软件启动程序。
 * 您的网络使用 IPv4 地址。
@@ -32,9 +26,14 @@ https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"^]
 * 您未配置 iSCSI SAN 启动。
 
 
-如果这些假设与您的情况不符，您应查看以下资源：
+[cols="2*"]
+|===
+| * 要使用 ... 完成此任务，请执行以下操作： * | * 请参见此内容 ...* 
 
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html["SAN 配置"^]
-* https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html["安装 Linux Unified Host Utilities 7.1"^]
 
+| 重新设计的 System Manager （在 9.7 及更高版本中提供） | https://docs.netapp.com/us-en/ontap/task_san_provision_linux.html["为 Linux 服务器配置 SAN 存储"] 
+
+
+| ONTAP 命令行界面（ CLI ） | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["使用 CLI 设置 LUN 的工作流"] 
+|===
+有关如何使用 ONTAP 配置特定主机的详细信息，请参见 https://docs.netapp.com/us-en/ontap-sanhost/index.html["ONTAP SAN 主机配置"]。

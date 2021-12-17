@@ -659,8 +659,6 @@
   <block id="c16fe44e324b7508eb5b8cceafeb015a" category="list-text">清除 * 只读 * 下除 * unix* 复选框以外的所有复选框。</block>
   <block id="a72cc47fad7d1846d19b085d2e77e5ba" category="list-text">单击 * 确定 * 。</block>
   <block id="b38c6bea0b182345afcadaedf8160f0f" category="paragraph">现在， NFSv3 客户端可以访问在 SVM 上创建的任何卷。</block>
-  <block id="0fdd4873a9901d194624d77ce2b6475b" category="summary">成功测试 NFS 客户端访问后，您可以执行高级 NFS 配置或添加 SAN 访问。协议访问完成后，您应保护 SVM 的根卷。我们提供了全面的内容和技术报告，可帮助您实现这些目标。</block>
-  <block id="f52e9e911b78b21898809211e5b47fa4" category="paragraph">成功测试 NFS 客户端访问后，您可以执行高级 NFS 配置或添加 SAN 访问。协议访问完成后，您应保护 SVM 的根卷。我们提供了全面的内容和技术报告，可帮助您实现这些目标。</block>
   <block id="10edbbba4e4c39fc161aeac9fbb88aef" category="section-title">NFS 配置</block>
   <block id="21ae56f6aa9d52a6117102a2043a8ab3" category="paragraph">您可以使用以下内容和技术报告进一步配置 NFS 访问：</block>
   <block id="2cc25a4f99449a7599c23ffac20f5f0a" category="inline-link">NFS 管理</block>
@@ -1904,10 +1902,6 @@
   <block id="ca605e5a9d995830885ee2f9ff478db7" category="list-text">选择 * 安全性 * 选项卡，然后根据需要调整组和用户的安全设置。</block>
   <block id="00c266a600775e3251c3744fbf49ab9a" category="summary">设置启用了 CIFS 的新 SVM 涉及使用 CIFS 卷和共享创建新 SVM ，在 DNS 服务器上添加映射以及从 Windows 管理主机验证 CIFS 访问。然后，您可以配置 CIFS 客户端访问。</block>
   <block id="3c7f211872b036fc1ac72d9b5734ba9f" category="doc">创建启用了 CIFS 的新 SVM</block>
-  <block id="6b8deb11c01abab7768c56aaacbe4d79" category="summary">成功测试 CIFS 客户端访问后，您可以执行高级 CIFS 配置或添加 SAN 访问。协议访问完成后，您应保护 SVM 的根卷。我们提供了全面的内容和技术报告，可帮助您实现这些目标。</block>
-  <block id="95a7ad013d444d975c1c1f0f91e26568" category="paragraph">成功测试 CIFS 客户端访问后，您可以执行高级 CIFS 配置或添加 SAN 访问。协议访问完成后，您应保护 SVM 的根卷。我们提供了全面的内容和技术报告，可帮助您实现这些目标。</block>
-  <block id="87ab116122451667960fbe0a8c0043d4" category="inline-link">NetApp 技术报告 4191 ：《集群模式 Data ONTAP 8.2 Windows 文件服务最佳实践》</block>
-  <block id="a6d493ce838d409ef7831497e978f276" category="list-text"><block ref="a6d493ce838d409ef7831497e978f276" category="inline-link-rx"></block></block>
   <block id="bb3747ba6e89c7a4474a531c65febf7a" category="summary">配置 SMB/CIFS 需要选择创建聚合，然后选择特定于您的目标的工作流—创建启用了 CIFS 的新 SVM ，配置对现有 SVM 的 CIFS 访问，或者只需将 CIFS 卷添加到已完全配置 CIFS 访问的现有 SVM 即可。</block>
   <block id="3b517660309d36cbc61d62b69be8a491" category="doc">SMB/CIFS 配置工作流</block>
   <block id="ae17c06f1c944b3fd6242166dfcc0431" category="paragraph">配置 SMB/CIFS 需要选择创建聚合，然后选择特定于您的目标的工作流—创建启用了 CIFS 的新 SVM ，配置对现有 SVM 的 CIFS 访问，或者只需将 CIFS 卷添加到已完全配置为可进行 CIFS 访问的现有 SVM 。</block>
@@ -9105,7 +9099,6 @@
   <block id="05a0d78aaaed80829fc637c85c8097eb" category="paragraph">替换超时值在 `iscsid.conf` 中类似于以下内容：</block>
   <block id="6420e46b6402a70a4306763813a3b7d6" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及使用 Red Hat Enterprise Linux 服务器上的 iSCSI 启动程序使 LUN 可用。</block>
   <block id="2bf508726429c82fd84bbbab3d707db0" category="doc">适用于 Red Hat Enterprise Linux 的 iSCSI 配置概述</block>
-  <block id="2686b09e5f634e127dfd969948a0b5ea" category="paragraph">此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 以及使用 Red Hat Enterprise Linux 服务器上的 iSCSI 启动程序使 LUN 可用。</block>
   <block id="f6b61538a8daed22de52194e5df3fc3d" category="list-text">您正在运行受支持的 RHEL 系列 6.4 或更高版本的 Red Hat Enterprise Linux 主机上使用 iSCSI 软件启动程序。</block>
   <block id="3eb492bfe5d69b4d147a52c2fffbd299" category="image-alt">此图通过周围的文本进行了说明。</block>
   <block id="9364bc572eae572af197a8cd4f3ba9a1" category="paragraph">+ 此 `m显示设备的 WWID ，您可以将其复制并粘贴到` ultipath.conf 文件中。</block>
@@ -9659,10 +9652,25 @@
   <block id="35fd6cdcbe1b7d8a89c5819ed39dd1b3" category="cell"><block ref="35fd6cdcbe1b7d8a89c5819ed39dd1b3" category="inline-link-macro-rx"></block></block>
   <block id="3e5584efdaf093a1509ba03a5649d568" category="inline-link-macro">使用命令行界面概述 NFS 配置</block>
   <block id="b224811ffef3a7841011e3ecf9fff1a2" category="cell"><block ref="b224811ffef3a7841011e3ecf9fff1a2" category="inline-link-macro-rx"></block></block>
-  <block id="2bea44090e5debe7677aabca977d903c" category="paragraph">如果要按以下方式配置对卷的访问，请使用此内容：</block>
   <block id="737fec7cf6d6e935871829ca5e3c6eee" category="cell">重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本）</block>
   <block id="574a1975b94dafcf4c59df3ad4142278" category="cell">ONTAP 命令行界面</block>
   <block id="6fee7f10b0fdf9da2e6c4a72ff309964" category="summary">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问。</block>
   <block id="1bf2d80a0b7340e4229d26ac096116df" category="list-text">您希望使用最佳实践，而不是浏览每个可用的选项（ ONTAP 9.7 及更早版本）。</block>
-  <block id="2b837a8c24250b9e38d6fcef0dff4f98" category="summary">您可以使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。</block>
+  <block id="da7217c415334002506ecc94776bc6f4" category="paragraph">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使 LUN 在 Red Hat Enterprise Linux 服务器上可用。</block>
+  <block id="fcdcf750ea4e083be4386f4d74633fba" category="cell">* 要使用 ... 完成此任务，请执行以下操作： *</block>
+  <block id="cac8f9855a84d59ce73590ed73607556" category="cell">* 请参见此内容 ...*</block>
+  <block id="d0f2df2bdd6b328117c96dcaacb4a936" category="cell">重新设计的 System Manager （在 9.7 及更高版本中提供）</block>
+  <block id="64f576bfce499e9d2ae488c0d3e09336" category="inline-link">为 Linux 服务器配置 SAN 存储</block>
+  <block id="e5835ff4bc2646f9c2d8533e2b6f1954" category="cell"><block ref="e5835ff4bc2646f9c2d8533e2b6f1954" category="inline-link-rx"></block></block>
+  <block id="9ad9dc11e51ff2950987cfa2ea72bc38" category="cell">ONTAP 命令行界面（ CLI ）</block>
+  <block id="eb6376dffb5514ac68fd3270be5c262d" category="inline-link">使用 CLI 设置 LUN 的工作流</block>
+  <block id="891e8c89dd363f26a29ab09128f98c1d" category="cell"><block ref="891e8c89dd363f26a29ab09128f98c1d" category="inline-link-rx"></block></block>
+  <block id="79e721357e358d77c4700c25c863fc37" category="inline-link">ONTAP SAN 主机配置</block>
+  <block id="7c171c2cc43d076d7e5b6e2279caba0b" category="paragraph">有关如何使用 ONTAP 配置特定主机的详细信息，请参见<block ref="ed5f0cb8da79fb5415ca9aff60303a86" category="inline-link-rx"></block>。</block>
+  <block id="1b5dc5059b812076f6a5388c5705d769" category="paragraph">如果要按以下方式配置对卷的访问，请使用此操作步骤：</block>
+  <block id="ce3d0439f146efae42d47e4e194850fa" category="inline-link-macro">SMB 参考概述</block>
+  <block id="6903bac6f5daece1ebfb91bdd308533b" category="paragraph">如果您需要有关 ONTAP SMB 协议功能范围的详细信息，请参见 <block ref="0b6548f2e025bfdb1002dbe838017639" category="inline-link-macro-rx"></block>。</block>
+  <block id="2224f41151ca82dd715e1fd7335dfa93" category="summary">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问。</block>
+  <block id="10be0c4aa205f1efca8cb0a22dd16968" category="inline-link-macro">NFS 参考概述</block>
+  <block id="210ff95ab6e187f985b70ec61bd4b937" category="paragraph">如果您需要有关 ONTAP NFS 协议功能范围的详细信息，请参见 <block ref="456a2a0d135ad6060bb75711de11f236" category="inline-link-macro-rx"></block>。</block>
 </blocks>

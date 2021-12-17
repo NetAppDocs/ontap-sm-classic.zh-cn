@@ -2,7 +2,7 @@
 permalink: nfs-config/index.html 
 sidebar: sidebar 
 keywords: nfs, access, volume, exist, storage, virtual, machine, svm, system manager classic 
-summary: 您可以使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。 
+summary: 您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问。 
 ---
 = NFS 配置概述
 :icons: font
@@ -10,9 +10,9 @@ summary: 您可以使用 ONTAP System Manager 经典界面在新的或现有的 
 
 
 [role="lead"]
-您可以使用 ONTAP System Manager 经典界面在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问，此界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。
+您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问。
 
-如果要按以下方式配置对卷的访问，请使用此内容：
+如果要按以下方式配置对卷的访问，请使用此操作步骤：
 
 * NFS 访问将通过 NFSv3 进行，而不是通过 NFSv4 或 NFSv4.1 进行。
 * 您希望使用最佳实践，而不是浏览每个可用选项。
@@ -23,6 +23,8 @@ summary: 您可以使用 ONTAP System Manager 经典界面在新的或现有的 
 * UNIX 文件权限将用于保护新卷的安全。
 * LDAP （如果使用）由 Active Directory 提供。
 
+
+如果您需要有关 ONTAP NFS 协议功能范围的详细信息，请参见 link:../nfs-admin/index.html["NFS 参考概述"]。
 
 
 
