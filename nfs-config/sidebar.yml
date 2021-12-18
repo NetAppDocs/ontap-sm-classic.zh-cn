@@ -48,5 +48,3 @@ entries:
     url: "/nfs-config/task_verifying_nfs_access_from_unix_administration_host.html"
   - title: 配置并验证 NFS 客户端访问（将 NFS 卷添加到启用了 NFS 的 SVM ）
     url: "/nfs-config/task_configuring_verifying_client_access_add_vol_existing_nfs_svm.html"
-- title: 从何处查找追加信息
-  url: "/nfs-config/reference_where_to_find_additional_information.html"

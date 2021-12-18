@@ -42,5 +42,3 @@ entries:
     url: "/fc-config-rhel/task_configuring_logical_volumes_on_multipath_devices_creating_file_system.html"
   - title: 验证主机是否可以对多路径设备进行写入和读取
     url: "/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html"
-- title: 从何处查找追加信息
-  url: "/fc-config-rhel/reference_where_to_find_additional_information.html"

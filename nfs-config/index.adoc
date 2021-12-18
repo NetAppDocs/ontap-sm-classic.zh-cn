@@ -24,7 +24,7 @@ summary: 您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更�
 * LDAP （如果使用）由 Active Directory 提供。
 
 
-如果您需要有关 ONTAP NFS 协议功能范围的详细信息，请参见 link:../nfs-admin/index.html["NFS 参考概述"]。
+如果您需要有关 ONTAP NFS 协议功能范围的详细信息，请参见 link:https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS 参考概述"^]。
 
 
 

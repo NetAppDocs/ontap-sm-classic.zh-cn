@@ -10,17 +10,11 @@ summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 
 
 
 [role="lead"]
-此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。
+您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN ，并使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 ESXi 主机计算机上使用 iSCSI 启动程序使 LUN 可用。
 
-此内容基于以下假设：
+在以下情况下使用这些操作步骤：
 
-* 您希望使用最佳实践，而不是浏览每个可用选项。
-* 您不想阅读大量概念背景信息。
 * 您希望使用 System Manager ，而不是 ONTAP 命令行界面或自动化脚本编写工具。
-* 您希望使用适用于 ONTAP 9.7 及更早版本的 _Classic_ System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。
-+
-https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"]
-
 * 您正在 ESXi 5.x 上使用原生 ESXi iSCSI 软件启动程序
 * 您未对 iSCSI 使用 CHAP 身份验证。
 * 您正在使用支持的适用于 VMware vSphere 的 Virtual Storage Console 版本为 ESX 主机配置存储设置。
@@ -37,16 +31,34 @@ https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"]
 板载 UTA2 （也称为 `CNA` ）端口可配置。您可以在 ONTAP 命令行界面中配置这些端口；此内容不会介绍此过程。
 
 +
-您应看到 link:https://docs.netapp.com/us-en/ontap/networking/index.html["ONTAP 9 网络管理"] 用于使用 CLI 配置以太网端口流量控制。
+请参见 link:https://docs.netapp.com/us-en/ontap/networking/index.html["ONTAP 9 网络管理"] 用于使用 CLI 配置以太网端口流量控制。
 
 * 您未配置 iSCSI SAN 启动。
 * 您正在通过 ESXi 虚拟机管理程序为 VM 提供存储，而不是在 VM 中运行 iSCSI 启动程序。
 
 
+
+
+== 在 ONTAP 中执行此操作的其他方法
+
+[cols="2"]
+|===
+| 要执行以下任务，请执行以下操作 ... | 查看此内容 ... 
+
+
+| 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本） | link:https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html["为 VMware 数据存储库配置 SAN 存储"^] 
+
+
+| ONTAP 命令行界面（ CLI ） | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["使用 CLI 设置 LUN 的工作流"^] 
+|===
+
+
+== 其他资源
+
 如果这些假设与您的情况不符，您应查看以下资源：
 
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理"]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 配置"]
-* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["设备管理"]
-* 适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取 http://www.vmware.com["VMware"]）
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理"^]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 配置"^]
+* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["设备管理"^]
+* 适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取 link:http://www.vmware.com["VMware"]）
 

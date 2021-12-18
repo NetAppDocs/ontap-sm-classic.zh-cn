@@ -22,7 +22,7 @@ summary: 您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更�
 * NTFS 文件权限将用于保护新卷的安全。
 
 
-如果您需要有关 ONTAP SMB 协议功能范围的详细信息，请参见 link:../smb-admin/index.html["SMB 参考概述"]。
+如果您需要有关 ONTAP SMB 协议功能范围的详细信息，请参见 link:https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB 参考概述"^]。
 
 
 

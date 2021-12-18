@@ -21,10 +21,9 @@ summary: 为现有 SVM 添加 NFS 访问涉及创建数据 LIF ，可选择配�
 
 * 必须正确配置任何外部防火墙，才能访问网络服务。
 * SVM 上必须允许使用 NFS 协议。
-+
-https://docs.netapp.com/us-en/ontap/networking/index.html[]
 
 
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理文档"^]。
 
 .步骤
 . 导航到可配置 SVM 协议的区域：

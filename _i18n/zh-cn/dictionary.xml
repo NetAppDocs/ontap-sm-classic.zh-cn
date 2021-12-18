@@ -690,7 +690,6 @@
   <block id="a96f80d6ee28e241c9649650e25a9bc0" category="list-text">要从中配置数据 LIF IP 地址的子网，或者您也可以选择要分配给数据 LIF 的特定 IP 地址</block>
   <block id="04afbe2e0e286c7e8ce3c7bce50a0624" category="list-text">必须正确配置任何外部防火墙，才能访问网络服务。</block>
   <block id="bba46f27df043632bd7767f3ed846b87" category="list-text">SVM 上必须允许使用 NFS 协议。</block>
-  <block id="ee0e023bd7588a3ee0c18795e8e01ae3" category="paragraph"><block ref="ee0e023bd7588a3ee0c18795e8e01ae3" category="inline-link-rx"></block></block>
   <block id="fcfbc4db9b7ca128cbbefe0c9ff969b4" category="list-text">导航到可配置 SVM 协议的区域：</block>
   <block id="13ecfb524b0f26cf207e19d63ddfd842" category="list-text">在 * 详细信息 * 窗格中，单击 * 协议 * 旁边的 * NFS * 。</block>
   <block id="77950e1aaf07d045b130d0cf63ed297a" category="list-text">在 * 配置 NFS 协议 * 对话框中，创建数据 LIF 。</block>
@@ -735,7 +734,6 @@
   <block id="efe3bf664531a5720d5145a9fb2248ac" category="list-text">在 * 挂载卷 * 对话框中，指定卷，其接合路径的名称以及要挂载卷的接合路径。</block>
   <block id="9ddbe14129f50eece243c777cfa3e81c" category="list-text">在 * 命名空间 * 窗口中验证新的接合路径。</block>
   <block id="466b235ae493bfbcb0b7f78877b576b0" category="paragraph">如果要将某些卷组织在名为 `data` 的主卷下，可以将新卷 "`vol1` " 从根卷移动到 " `data` " 卷。</block>
-  <block id="92c2902a6d06bf952809ae9658850f98" category="paragraph">+ 图像：： ./media/namespace_1_before_nfs.gif* 此图形由周围的文本进行了说明。 ]</block>
   <block id="b297782871cfdbd93f971acce0dd9b42" category="list-text">查看卷的安全模式，并根据需要进行更改：</block>
   <block id="12a77aed4bf261199b1fca49ea3d474c" category="list-text">在 * 卷 * 窗口中，选择刚刚创建的卷，然后单击 * 编辑 * 。</block>
   <block id="e18a8e9de46dcc49bd7191e6f1c9125b" category="paragraph">此时将显示编辑卷对话框，其中显示了卷的当前安全模式，此安全模式是从 SVM 根卷的安全模式继承的。</block>
@@ -910,8 +908,6 @@
   <block id="e9eb48a6c30a344fc6c43f052d60e00b" category="list-text">您必须已记录主机 FC 端口的全球通用端口名称（ WWPN ）。</block>
   <block id="9eca302d2175ce5314d9ad5c405b4834" category="list-text">在 * 常规属性 * 页面上，为 Linux 主机直接使用的 LUN 选择 LUN 类型 * Linux * 。</block>
   <block id="d314b2a826586ffeb6af878acd6f1055" category="list-text">在 * 启动程序映射 * 页面上，单击 * 添加启动程序组 * ，在 * 常规 * 选项卡上输入所需信息，然后在 * 启动程序 * 选项卡上输入您记录的主机 FC 端口的所有 WWPN 。</block>
-  <block id="2b711657cb2b58a413a8f4421997407f" category="summary">成功测试 FC 后，您可以执行高级 FC 配置或添加 SAN 或 NAS 协议。我们提供了全面的内容和技术报告，可帮助您实现这些目标。</block>
-  <block id="321e9ee6cbb594abe284195fc396c504" category="paragraph">成功测试 FC 后，您可以执行高级 FC 配置或添加 SAN 或 NAS 协议。我们提供了全面的内容和技术报告，可帮助您实现这些目标。</block>
   <block id="87adc74f7e5083adf88fa77a4e7aaa7b" category="inline-link">Linux Unified Host Utilities 7.1</block>
   <block id="7c67244faf6a480596988e13468e26e4" category="list-text"><block ref="7c67244faf6a480596988e13468e26e4" category="inline-link-rx"></block></block>
   <block id="a896120485ce9788b8f4c4734a99ac87" category="paragraph">介绍如何安装 Linux Unified Host Utilities 软件和配置 DM-Multipath 。</block>
@@ -959,10 +955,6 @@
   <block id="494728f44ab7bb09f36f7ab05711fb16" category="paragraph">端口连接到 FC 交换机 2 的节点 4 LIF</block>
   <block id="a821da32e34f1ec3f9126e04acba382e" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 FC 服务，配置 LUN 以及使用 Red Hat Enterprise Linux 服务器上的 FC 主机总线适配器使 LUN 可用。</block>
   <block id="78597c3653ff97e621f9b565645894bd" category="doc">适用于 Red Hat Enterprise Linux 的 FC 配置概述</block>
-  <block id="da483109e4c3bc5caae6cb31ed458815" category="paragraph">此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 FC 服务，配置 LUN 以及使用 Red Hat Enterprise Linux 服务器上的 FC 主机总线适配器（ HBA ）使 LUN 可用。</block>
-  <block id="8a9b85a6ff90e4352c93c12f5031fb81" category="list-text">主机运行的是受支持的 Red Hat Enterprise Linux 6.4 或更高版本。</block>
-  <block id="38e80e600c0d0ee615750e63a57b0cc5" category="list-text">您使用的是传统 FC HBA 和交换机。</block>
-  <block id="47c4735d586227d98300742e3c12cb6a" category="paragraph">此内容不包括以太网光纤通道（ FCoE ）。</block>
   <block id="da5a0664eb077c7ad2e71983c83f956c" category="list-text">集群中的每个节点上至少有两个可用的 FC 目标端口。</block>
   <block id="e4a65e5200d96ee64dac3619637932cd" category="paragraph">板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置在 ONTAP 命令行界面（ CLI ）中完成，本内容不会介绍这些配置。</block>
   <block id="c520e47a5a5f6944b35a4623f07d32ef" category="list-text">您未配置 FC SAN 启动。</block>
@@ -1090,12 +1082,10 @@
   <block id="40a140333cbebfe1cffe1ccb0c2cace8" category="summary">如果 Windows 主机中的 FC 主机总线适配器（ HBA ）运行的驱动程序，固件和 BIOS 版本不受支持，则必须对其进行更新。</block>
   <block id="e54631240250ad3c4f5138fe670ba9b2" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 FC 服务，配置 LUN 以及如何使用 Windows 主机计算机上的 FC HBA 使 LUN 可用。</block>
   <block id="137958d39870a26e1283b177e2babfab" category="doc">适用于 Windows 的 FC 配置概述</block>
-  <block id="4526541e846fa823490ce6942018f61b" category="paragraph">此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 FC 服务，配置 LUN 以及如何在 Windows 主机计算机上使用 FC HBA 使 LUN 可用。</block>
   <block id="e0232ed2f47bf84fc8ee2b287d903aaf" category="paragraph">此内容不涉及 FCoE 。</block>
   <block id="9b759f4cbbd39cfe431c005e6e1ad36f" category="paragraph">板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。配置这些端口会在 ONTAP 命令行界面中完成，此内容不会介绍这些配置。</block>
   <block id="76c0d4b92dfc6f5a20da4d0875bc8c4f" category="list-text">您未将虚拟光纤通道（ VFC ）与 Hyper-V 或 ESX 子系统结合使用。</block>
   <block id="45010da5958c7fc3d60c5414c380bb70" category="inline-link">NetApp 文档： Host Utilities</block>
-  <block id="9e8c5400a8eb221973b4a8d27a70c4e7" category="list-text"><block ref="9e8c5400a8eb221973b4a8d27a70c4e7" category="inline-link-rx"></block></block>
   <block id="a2ecc997978aedc00abb9eeb497e7eb9" category="paragraph">有关布线和配置的详细信息，请参见 NetApp 支持站点上适用于您的 ONTAP 版本的 _SAN 配置 _ 或适用于您的 E 系列存储系统的 _Hardware Cabling _ 。</block>
   <block id="fb6b8b7c86f1cdc8c9f4a1e55f91d173" category="paragraph">有关详细的安装信息，请参见 <block ref="f912c8f6f2c88a486dae2dbc098d8846" category="inline-link-macro-rx"></block>。</block>
   <block id="b8af4cb8afe116de1a12bfab26b90519" category="list-text">选择 * CIFS* 和 * NFSv3* 。</block>
@@ -1728,10 +1718,8 @@
   <block id="e01451bc5d1145df607e72e46d03d5d2" category="list-text">双击卷以查看卷详细信息，然后单击 * 保护 * 以查看卷的数据保护状态。</block>
   <block id="67dfc6258a4d7b0eef457b3eeb43e734" category="image-alt">SnapMirror 9 3.</block>
   <block id="028fafb74e3b83afc82a43a425f93cb9" category="paragraph">您必须记下源卷的设置，例如精简配置，重复数据删除，数据压缩和自动增长。中断 SnapMirror 关系时，您可以使用此信息来验证目标卷设置。</block>
-  <block id="2c285cc0e4071224cd0d0e8208e3ee6d" category="summary">此内容介绍如何快速保护对等 ONTAP 集群上的源卷，以便为灾难恢复做好准备。如果您要配置和监控对等集群之间的 SnapMirror 关系以实现卷灾难恢复，并且这些任务不需要大量概念背景，则应使用此内容。</block>
   <block id="c3ac504be8df36e9eac8ddbefb0af128" category="doc">卷灾难恢复准备概述</block>
   <block id="fab2eed20be80651a7c2f147ec027380" category="paragraph">SnapMirror 可按计划提供异步块级数据保护。SnapMirror 可复制 Snapshot 副本，并可复制运行重复数据删除，数据压缩或这两者的 NAS 或 SAN 卷，包括包含 qtree 和 LUN 的卷。SnapMirror 配置信息存储在一个数据库中， ONTAP 会将该数据库复制到集群中的所有节点。</block>
-  <block id="327e4dee0c55e27d5f7a79cd9026bc9e" category="paragraph">如果要按以下方式为卷级灾难恢复创建 SnapMirror 关系，应使用此内容：</block>
   <block id="6a24f516827d99f674302536f72d66fa" category="list-text">您已在源集群和目标集群上启用 SnapMirror 许可证。</block>
   <block id="23ee6fca3793e587122a68c14921baea" category="list-text">您希望使用默认策略和计划，而不是创建自定义策略。</block>
   <block id="419b01b6ce2521cb82d351d68353372d" category="inline-link">ONTAP 9 命令</block>
@@ -1806,9 +1794,7 @@
   <block id="cf91af212a07bdf82ec93316f80df4a1" category="list-text">用于运行 VSC 的 Windows Server 版本</block>
   <block id="70cd8bfb8fd7a4082087201414ab2fe4" category="section-title">VMware 文档</block>
   <block id="ab912994b4aa16fba6be2c16896c3115" category="paragraph">有关适用于 ESXi 服务器的 iSCSI 的文档，请直接从 VMware 获取。</block>
-  <block id="d020d2be8f20c4660d645073d0aac5b4" category="paragraph"><block ref="d020d2be8f20c4660d645073d0aac5b4" category="inline-link-rx"></block></block>
   <block id="e012bb8bfed783fdc9ae512fc954250c" category="list-text">_vSphere 存储 _</block>
-  <block id="4cc6fda3b9888a99f246ece57a67de13" category="paragraph">本 VMware 指南介绍了适用于 ESXi 5.x 的 FC 和 iSCSI 配置</block>
   <block id="1e7a821c0fffd45e16b8e9fbdf58abd9" category="list-text">_Multipathing Configuration for Software iSCSI using Port Binding_</block>
   <block id="eecf341f578c40b0088a2c825bcf9fae" category="paragraph">技术白皮书介绍了 ESXi 服务器的 MPIO 设置。</block>
   <block id="64131a01034229c3ee0a665ec27911f8" category="summary">要确保成功执行存储故障转移和数据移动，您需要确保从主机到存储集群中每个节点有两条路径。由于 iSCSI 目标公布的路径数有限，因此您需要从主机对存储集群端口执行 ping 操作。</block>
@@ -9608,17 +9594,14 @@
   <block id="c8db31d0d38042ea4fd10dd6bdfd347e" category="sidebar">ONTAP 文档</block>
   <block id="97d8d54d841ea4483e8103e32ec0ac48" category="sidebar">使用 System Manager 管理适用于 ONTAP 9.7 及更高版本的下一代 ONTAP</block>
   <block id="68a8dd3fc5b12dceef9144f06a7615c1" category="sidebar">使用命令行界面管理 ONTAP</block>
-  <block id="1940443c5607566f58bdce4052f1c760" category="paragraph">板载 FC 和 UTA2 （也称为 `CNA` ）端口以及某些适配器均可配置。配置这些端口会在 ONTAP 命令行界面中完成，此内容不会介绍这些配置。</block>
   <block id="f715055ae82975b9ebd5bb865b31fc18" category="list-text">在 ESXi 主机上，使用 `ping` 命令验证第一个 LIF 的路径。</block>
   <block id="848d3b9d8a59e5daf0e6a022bd34a97c" category="paragraph">可以从 ESXi 服务控制台使用 `ping` 命令。</block>
   <block id="8631d4aba59b3faab471d5bc71ca8173" category="list-text">必须在 ESXi 主机上启用 iSCSI 软件适配器。</block>
   <block id="7f628be6ef73d2f8c231b453fef6dc6a" category="paragraph">iSCSI 软件适配器会在 ESXi 主机上创建 iSCSI 连接。它内置在操作系统中，但必须先启用，然后才能使用。</block>
   <block id="f2956e37a1a240696529c2c8ff8a553f" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
-  <block id="7c3c4c58abae35d2f88e82fe840dcbb8" category="paragraph">此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
   <block id="7809c76990aeac2c15601c7025eeb111" category="list-text">您正在 ESXi 5.x 上使用原生 ESXi iSCSI 软件启动程序</block>
   <block id="39d787d0105280f3a84692c640027af9" category="paragraph">板载 UTA2 （也称为 `CNA` ）端口可配置。您可以在 ONTAP 命令行界面中配置这些端口；此内容不会介绍此过程。</block>
   <block id="089a3050abf86cb7b78205b67eea1bbc" category="list-text">您正在通过 ESXi 虚拟机管理程序为 VM 提供存储，而不是在 VM 中运行 iSCSI 启动程序。</block>
-  <block id="a0ea1b5540fa3eca719f466580334567" category="list-text">适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取<block ref="719cc64f2d8f0a174865652d288288f1" category="inline-link-rx"></block>）</block>
   <block id="de53d4ddfa00ec898bbcf9e464e90519" category="summary">使用 iSCSI 使存储可供 ESXi 主机使用时，您可以使用适用于 VMware vSphere 的 Virtual Storage Console 在 Storage Virtual Machine 上配置卷和 LUN ，然后从主机连接到 LUN 。</block>
   <block id="91d33397a6e7116c87f840c7cbfaf06a" category="paragraph">使用 iSCSI 使存储可供 ESXi 主机使用时，您可以使用适用于 VMware vSphere 的 Virtual Storage Console 在 Storage Virtual Machine （ SVM ）上配置卷和 LUN ，然后从主机连接到 LUN 。</block>
   <block id="28b1339a66514b27d2adc9621c0e2756" category="list-text">选择选定配置的配置名称。</block>
@@ -9669,8 +9652,40 @@
   <block id="7c171c2cc43d076d7e5b6e2279caba0b" category="paragraph">有关如何使用 ONTAP 配置特定主机的详细信息，请参见<block ref="ed5f0cb8da79fb5415ca9aff60303a86" category="inline-link-rx"></block>。</block>
   <block id="1b5dc5059b812076f6a5388c5705d769" category="paragraph">如果要按以下方式配置对卷的访问，请使用此操作步骤：</block>
   <block id="ce3d0439f146efae42d47e4e194850fa" category="inline-link-macro">SMB 参考概述</block>
-  <block id="6903bac6f5daece1ebfb91bdd308533b" category="paragraph">如果您需要有关 ONTAP SMB 协议功能范围的详细信息，请参见 <block ref="0b6548f2e025bfdb1002dbe838017639" category="inline-link-macro-rx"></block>。</block>
   <block id="2224f41151ca82dd715e1fd7335dfa93" category="summary">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 NFS 访问。</block>
   <block id="10be0c4aa205f1efca8cb0a22dd16968" category="inline-link-macro">NFS 参考概述</block>
-  <block id="210ff95ab6e187f985b70ec61bd4b937" category="paragraph">如果您需要有关 ONTAP NFS 协议功能范围的详细信息，请参见 <block ref="456a2a0d135ad6060bb75711de11f236" category="inline-link-macro-rx"></block>。</block>
+  <block id="b2763c325ff29a11475210e77550cdbf" category="summary">您可以快速保护对等 ONTAP 集群上的源卷，为灾难恢复做好准备。如果您要配置和监控对等集群之间的 SnapMirror 关系以实现卷灾难恢复，并且这些任务不需要大量概念背景，则应使用此内容。</block>
+  <block id="106bc1ba3bc172d028cde7797a530527" category="paragraph">如果要按以下方式创建用于卷级灾难恢复的 SnapMirror 关系，请使用此操作步骤：</block>
+  <block id="0e4222b86d7998dfe8825bb8a6cde95d" category="list-text">您希望使用最佳实践，而不是浏览每个可用选项（ ONTAP 9.7 及更早版本）。</block>
+  <block id="65716a8cb6a3032b7384db5b9f2e6f30" category="inline-link-macro">准备镜像和存储</block>
+  <block id="778de7f7e16dc5b7548bcce4e90f62f5" category="cell"><block ref="778de7f7e16dc5b7548bcce4e90f62f5" category="inline-link-macro-rx"></block></block>
+  <block id="753714749b40647298f8b1072ea295e3" category="inline-link-macro">使用命令行界面概述数据保护</block>
+  <block id="a38ba96a8cc4d2088b0fddf90f7c13d3" category="cell"><block ref="a38ba96a8cc4d2088b0fddf90f7c13d3" category="inline-link-macro-rx"></block></block>
+  <block id="ea1287193924e34a602b1e05277f6731" category="paragraph">如果您需要有关 ONTAP SMB 协议功能范围的详细信息，请参见 <block ref="508497ea578beb819bbaa0e137c4ede1" category="inline-link-macro-rx"></block>。</block>
+  <block id="10a45a2d4ec037857c0c7c1605b95bb2" category="inline-link-macro">LDAP 使用概述</block>
+  <block id="be783ea71cc23a3edbff3615cb4f8db0" category="paragraph">如果您使用其他类型的 LDAP ，则必须使用命令行界面（ CLI ）和其他文档来配置 LDAP 。有关详细信息，请参见 <block ref="d3b872660ddf7d41d95bc18138ecd3fb" category="inline-link-macro-rx"></block>。</block>
+  <block id="42212a5a0889842594522857c721b58d" category="paragraph">如果您需要有关 ONTAP NFS 协议功能范围的详细信息，请参见 <block ref="86f1502903f8dfcf68403b326bb7f6b6" category="inline-link-macro-rx"></block>。</block>
+  <block id="f0029f7d9c71b4d6656710bbaa9a75cb" category="paragraph">有关详细信息，请参见 <block ref="ec8cf3d50757fbbd3f210cde205edf03" category="inline-link-macro-rx"></block>。</block>
+  <block id="b38eb47eb8a7f4ec6696ee8d4e8a114e" category="paragraph">您可以在 Storage Virtual Machine （ SVM ）上设置 FC 服务，配置 LUN ，并使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 Windows 主机计算机上使用 FC HBA 使 LUN 可用。</block>
+  <block id="4f229dd6cb1ca4601186cfbd9bf21ee6" category="paragraph">如果您使用的是传统 FC HBA 和交换机，请使用此操作步骤在 SVM 上设置 FC 服务。</block>
+  <block id="4278fc790b35b56d4d6c6cd209adbd19" category="paragraph">此操作步骤不包括以下情况： * 集群中每个节点上至少有两个 FC 目标端口可用。</block>
+  <block id="f772611ce79f97cee049fb64880ce2df" category="paragraph">+ 板载 FC 和 UTA2 （也称为 `CNA` ）端口以及某些适配器均可配置。配置这些端口会在 ONTAP 命令行界面中完成，此内容不会介绍这些配置。</block>
+  <block id="2b059c82e86ff3c455cb0426715eaa43" category="inline-link-macro">为 Windows 服务器配置 SAN 存储</block>
+  <block id="0d0143f2e5a78e2ef09e5e513f10c665" category="cell"><block ref="0d0143f2e5a78e2ef09e5e513f10c665" category="inline-link-macro-rx"></block></block>
+  <block id="a68e7c01398ea86885062e8abe3e14a1" category="cell"><block ref="a68e7c01398ea86885062e8abe3e14a1" category="inline-link-macro-rx"></block></block>
+  <block id="0c43bdb6f87ef035ef0c110c0b4d6c6e" category="paragraph">* 其他资源 * *<block ref="cd3b4c8ff812596a26bae28e5b6c61ee" category="inline-link-rx"></block></block>
+  <block id="75cf39a174605501236ca8fbc522d864" category="paragraph">您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN ，并使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 ESXi 主机计算机上使用 iSCSI 启动程序使 LUN 可用。</block>
+  <block id="defe7cf01d4ad01ca19331d4c8756f17" category="paragraph">在以下情况下使用这些操作步骤：</block>
+  <block id="705580ff5e4d290b253ce9987709bc06" category="paragraph">请参见 <block ref="f23edc0bb2e15286525e82e5ff7532e0" category="inline-link-macro-rx"></block> 用于使用 CLI 配置以太网端口流量控制。</block>
+  <block id="7114f450701db0c8c6dce6070cf80a4c" category="inline-link-macro">为 VMware 数据存储库配置 SAN 存储</block>
+  <block id="fdc544df040b80e41f4cd4baa63e1554" category="cell"><block ref="fdc544df040b80e41f4cd4baa63e1554" category="inline-link-macro-rx"></block></block>
+  <block id="8cd58c89ff3d51a256ecfe3fe8bab20f" category="section-title">其他资源</block>
+  <block id="982b26a119993277a196e08d99a37e4a" category="list-text"><block ref="982b26a119993277a196e08d99a37e4a" category="inline-link-rx"></block></block>
+  <block id="a642a03a1d89a2568a28161a6dcba8c0" category="list-text"><block ref="a642a03a1d89a2568a28161a6dcba8c0" category="inline-link-rx"></block></block>
+  <block id="e466eeb1f64e47b473620aac811abf13" category="list-text"><block ref="e466eeb1f64e47b473620aac811abf13" category="inline-link-rx"></block></block>
+  <block id="136200586625d8dafefda787f79f587f" category="list-text">适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取 <block ref="0421fa2cd01f0c9937fe08195e375fca" category="inline-link-macro-rx"></block>）</block>
+  <block id="b92480144202163d36d8ff97ea5e2385" category="paragraph">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 Red Hat Enterprise Linux 服务器上使用 FC 主机总线适配器（ HBA ）在 Storage Virtual Machine （ SVM ）上快速设置 FC 服务，配置 LUN 并使 LUN 可用。</block>
+  <block id="ce042b4c0074694c421e65376db43603" category="paragraph">如果出现以下情况，请使用此操作步骤在 SVM 上设置 FC 服务： * 主机运行的是受支持的 Red Hat Enterprise Linux 6.4 或更高版本。* 您使用的是传统 FC HBA 和交换机。</block>
+  <block id="32e8635d80aa982e67e6e08ab71095e9" category="paragraph">+ 注意：此操作步骤不涵盖以太网光纤通道（ FCoE ）。</block>
+  <block id="d822c6968566763eeb55563cebc6ec6e" category="cell"><block ref="d822c6968566763eeb55563cebc6ec6e" category="inline-link-macro-rx"></block></block>
 </blocks>
