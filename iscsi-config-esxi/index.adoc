@@ -2,7 +2,7 @@
 permalink: iscsi-config-esxi/index.html 
 sidebar: sidebar 
 keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer 
-summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。 
+summary: 您可以在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。 
 ---
 = 使用 VSC 为 ESXi 配置 iSCSI 概述
 :icons: font
@@ -12,9 +12,8 @@ summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 
 [role="lead"]
 您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN ，并使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 ESXi 主机计算机上使用 iSCSI 启动程序使 LUN 可用。
 
-在以下情况下使用这些操作步骤：
+在以下情况下使用此操作步骤：
 
-* 您希望使用 System Manager ，而不是 ONTAP 命令行界面或自动化脚本编写工具。
 * 您正在 ESXi 5.x 上使用原生 ESXi iSCSI 软件启动程序
 * 您未对 iSCSI 使用 CHAP 身份验证。
 * 您正在使用支持的适用于 VMware vSphere 的 Virtual Storage Console 版本为 ESX 主机配置存储设置。

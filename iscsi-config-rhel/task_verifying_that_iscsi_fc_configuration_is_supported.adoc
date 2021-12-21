@@ -13,7 +13,7 @@ summary: 为了确保操作可靠，您必须验证是否支持整个 iSCSI 配�
 为了确保操作可靠，您必须验证是否支持整个 iSCSI 配置。
 
 .步骤
-. 转至互操作性表以验证您是否具有受支持的以下组件组合：
+. 转至 https://mysupport.netapp.com/matrix["NetApp 互操作性表工具"] 验证是否支持以下组件的组合：
 +
 ** ONTAP 软件
 ** 主机计算机 CPU 架构（适用于标准机架服务器）
@@ -44,7 +44,3 @@ summary: 为了确保操作可靠，您必须验证是否支持整个 iSCSI 配�
 
 
 
-
-* 相关信息 *
-
-https://mysupport.netapp.com/matrix["NetApp 互操作性表工具"]

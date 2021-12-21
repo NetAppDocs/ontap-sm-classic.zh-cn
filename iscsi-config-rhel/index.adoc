@@ -1,8 +1,8 @@
 ---
 permalink: iscsi-config-rhel/index.html 
 sidebar: sidebar 
-keywords: iscsi, service, storage, virtual, machine, svm, lun, initiator, red, hat, enterprise, linux, server, configuration, configuration 
-summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及使用 Red Hat Enterprise Linux 服务器上的 iSCSI 启动程序使 LUN 可用。 
+keywords: iscsi, service, storage, virtual, machine, svm, lun, initiator, red, hat, enterprise, linux, server, configuration, san, provision, provisioning 
+summary: 这些过程介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及如何使用 Red Hat Enterprise Linux 服务器上的 iSCSI 启动程序使 LUN 可用。 
 ---
 = 适用于 Red Hat Enterprise Linux 的 iSCSI 配置概述
 :icons: font
@@ -10,9 +10,9 @@ summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 
 
 
 [role="lead"]
-您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使 LUN 在 Red Hat Enterprise Linux 服务器上可用。
+使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使 LUN 在 Red Hat Enterprise Linux 服务器上可用。
 
-此内容基于以下假设：
+这些过程基于以下假设：
 
 * 您正在运行受支持的 RHEL 系列 6.4 或更高版本的 Red Hat Enterprise Linux 主机上使用 iSCSI 软件启动程序。
 * 您的网络使用 IPv4 地址。
@@ -26,6 +26,14 @@ summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 
 * 您未配置 iSCSI SAN 启动。
 
 
+有关如何使用 ONTAP 配置特定主机的详细信息，请参见 https://docs.netapp.com/us-en/ontap-sanhost/index.html["ONTAP SAN 主机配置"]。
+
+有关 SAN 管理的其他详细信息，请参见 https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理概述"]
+
+
+
+== 在 ONTAP 中执行此操作的其他方法
+
 [cols="2*"]
 |===
 | * 要使用 ... 完成此任务，请执行以下操作： * | * 请参见此内容 ...* 
@@ -36,4 +44,3 @@ summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 
 
 | ONTAP 命令行界面（ CLI ） | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["使用 CLI 设置 LUN 的工作流"] 
 |===
-有关如何使用 ONTAP 配置特定主机的详细信息，请参见 https://docs.netapp.com/us-en/ontap-sanhost/index.html["ONTAP SAN 主机配置"]。

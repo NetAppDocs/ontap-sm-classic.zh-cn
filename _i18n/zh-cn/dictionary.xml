@@ -908,14 +908,6 @@
   <block id="e9eb48a6c30a344fc6c43f052d60e00b" category="list-text">您必须已记录主机 FC 端口的全球通用端口名称（ WWPN ）。</block>
   <block id="9eca302d2175ce5314d9ad5c405b4834" category="list-text">在 * 常规属性 * 页面上，为 Linux 主机直接使用的 LUN 选择 LUN 类型 * Linux * 。</block>
   <block id="d314b2a826586ffeb6af878acd6f1055" category="list-text">在 * 启动程序映射 * 页面上，单击 * 添加启动程序组 * ，在 * 常规 * 选项卡上输入所需信息，然后在 * 启动程序 * 选项卡上输入您记录的主机 FC 端口的所有 WWPN 。</block>
-  <block id="87adc74f7e5083adf88fa77a4e7aaa7b" category="inline-link">Linux Unified Host Utilities 7.1</block>
-  <block id="7c67244faf6a480596988e13468e26e4" category="list-text"><block ref="7c67244faf6a480596988e13468e26e4" category="inline-link-rx"></block></block>
-  <block id="a896120485ce9788b8f4c4734a99ac87" category="paragraph">介绍如何安装 Linux Unified Host Utilities 软件和配置 DM-Multipath 。</block>
-  <block id="8d9fd4a3f5aaa68ba7acfded72fb78e6" category="inline-link">NetApp 技术报告 4159 ：《 Red Hat Enterprise Virtualization 3.1 和 NetApp 集群模式 Data ONTAP 存储最佳实践》</block>
-  <block id="96f60822ac89c5b93761bb30f584db2b" category="list-text"><block ref="96f60822ac89c5b93761bb30f584db2b" category="inline-link-rx"></block></block>
-  <block id="44fc28496af2f580f26f2f2c27ff88c8" category="paragraph">介绍 Red Hat 虚拟化环境的当前最佳实践。</block>
-  <block id="3c42fc35dc330b206e0fdb76072babe4" category="list-text">Red Hat Enterprise Linux 6 文档和手册页</block>
-  <block id="799d1aaa1e1b3fdfbb49a66f0e292f56" category="paragraph">提供有关管理存储设备，文件系统和 Linux 命令的说明。</block>
   <block id="216c30bfb8f3e4ab2c38ba8b5d66d784" category="summary">在使用多路径设备之前，您应验证主机是否可以将数据写入多路径设备并将其读回。</block>
   <block id="8cf1420c6fd5960ffc332e97d3cf207e" category="doc">验证主机是否可以对多路径设备进行写入和读取</block>
   <block id="eafea6a1a12e4d3a8bd09c23ccd6949c" category="paragraph">必须在 Linux 主机上为要访问的存储集群节点配置 DM-Multipath 。</block>
@@ -956,7 +948,6 @@
   <block id="a821da32e34f1ec3f9126e04acba382e" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 FC 服务，配置 LUN 以及使用 Red Hat Enterprise Linux 服务器上的 FC 主机总线适配器使 LUN 可用。</block>
   <block id="78597c3653ff97e621f9b565645894bd" category="doc">适用于 Red Hat Enterprise Linux 的 FC 配置概述</block>
   <block id="da5a0664eb077c7ad2e71983c83f956c" category="list-text">集群中的每个节点上至少有两个可用的 FC 目标端口。</block>
-  <block id="e4a65e5200d96ee64dac3619637932cd" category="paragraph">板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置在 ONTAP 命令行界面（ CLI ）中完成，本内容不会介绍这些配置。</block>
   <block id="c520e47a5a5f6944b35a4623f07d32ef" category="list-text">您未配置 FC SAN 启动。</block>
   <block id="e3c04741026ea0cd831c0108b69fe759" category="inline-link">安装 Linux Unified Host Utilities 7.1</block>
   <block id="2e9d349f5085a4d96f042e80235b0150" category="list-text"><block ref="2e9d349f5085a4d96f042e80235b0150" category="inline-link-rx"></block></block>
@@ -9076,14 +9067,11 @@
   <block id="d68a955d17dddae8d5b57c2e27e531ac" category="list-text">使用文本编辑器打开包含节点名称的 ` /etc/iscsi/initiatorname.iscsi` 文件。</block>
   <block id="68c65fd2bda39ad7a1c59d70e1d74584" category="list-text">记下节点名称或将其复制到文本文件。</block>
   <block id="ad13a8f3a3c585d42767dcffb73ac111" category="paragraph">iSCSI 启动程序节点名称如下所示：</block>
-  <block id="cbd013380280889b8c3957adf28a9a7e" category="summary">成功测试 iSCSI 后，您可以执行高级 iSCSI 配置或添加 SAN 或 NAS 协议。我们提供了全面的内容和技术报告，可帮助您实现这些目标。</block>
-  <block id="b6e8181673416f50eb7392b127bb6c42" category="paragraph">成功测试 iSCSI 后，您可以执行高级 iSCSI 配置或添加 SAN 或 NAS 协议。我们提供了全面的内容和技术报告，可帮助您实现这些目标。</block>
   <block id="eeaa381e0c1c22208e5b53b5f89170e3" category="paragraph">如果任何测试失败，请验证 iSCSI 服务是否正在运行，然后重新检查 DM-Multipath 配置以及多路径设备的 iSCSI 路径。</block>
   <block id="f03856d109d55f30badd60f1beeb7973" category="summary">要支持多路径，必须修改 iSCSI 配置文件中的替换超时值。</block>
   <block id="c0c4071b1ffdc5b77aa9978d94fe5f20" category="doc">设置 iSCSI 替换超时值</block>
   <block id="0fc6e3f01e2b147f50432554c8da60e4" category="list-text">将 ` /etc/iscsi/iscsid.conf` 文件中的替换超时值从默认值 120 更改为 5 。</block>
   <block id="05a0d78aaaed80829fc637c85c8097eb" category="paragraph">替换超时值在 `iscsid.conf` 中类似于以下内容：</block>
-  <block id="6420e46b6402a70a4306763813a3b7d6" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及使用 Red Hat Enterprise Linux 服务器上的 iSCSI 启动程序使 LUN 可用。</block>
   <block id="2bf508726429c82fd84bbbab3d707db0" category="doc">适用于 Red Hat Enterprise Linux 的 iSCSI 配置概述</block>
   <block id="f6b61538a8daed22de52194e5df3fc3d" category="list-text">您正在运行受支持的 RHEL 系列 6.4 或更高版本的 Red Hat Enterprise Linux 主机上使用 iSCSI 软件启动程序。</block>
   <block id="3eb492bfe5d69b4d147a52c2fffbd299" category="image-alt">此图通过周围的文本进行了说明。</block>
@@ -9092,7 +9080,6 @@
   <block id="e3c0e450ed23f9a24d0aad328dda6cd6" category="summary">Linux Unified Host Utilities 软件包括 sanlun 实用程序，这是一个 NetApp LUN 报告工具，可用于显示有关存储集群节点的信息。</block>
   <block id="175017a406212d92c7cb45223ba5dbf4" category="doc">安装 Linux Unified Host Utilities 并优化 I/O 性能</block>
   <block id="36274900bedd7b6237ea6c16b1b53b50" category="paragraph">Linux `sHost Utilities 软件包含` anlun 实用程序，该实用程序是一个 NetApp LUN 报告工具，可用于显示有关存储集群节点的信息。您还必须在 Linux 主机上启用正确的服务器配置文件，以优化 NetApp 存储性能。</block>
-  <block id="a5f8ef6b5d1189a231aea7325cc686e7" category="paragraph"><block ref="a5f8ef6b5d1189a231aea7325cc686e7" category="inline-link-rx"></block></block>
   <block id="b9d5eb0ccc401c9f51d655b67ec79aca" category="image-alt">为 Linux 配置 iSCSI 协议</block>
   <block id="9981eb36404dab76d25d5093708d4b4a" category="summary">编辑 iSCSI 配置文件后，您必须启动 iSCSI 服务，以便主机可以发现目标并访问 LUN 。如果 iSCSI 服务正在运行，则必须重新启动它。</block>
   <block id="fc2913bfa325246e75d2432450f7cb44" category="doc">启动 iSCSI 服务</block>
@@ -9598,7 +9585,6 @@
   <block id="848d3b9d8a59e5daf0e6a022bd34a97c" category="paragraph">可以从 ESXi 服务控制台使用 `ping` 命令。</block>
   <block id="8631d4aba59b3faab471d5bc71ca8173" category="list-text">必须在 ESXi 主机上启用 iSCSI 软件适配器。</block>
   <block id="7f628be6ef73d2f8c231b453fef6dc6a" category="paragraph">iSCSI 软件适配器会在 ESXi 主机上创建 iSCSI 连接。它内置在操作系统中，但必须先启用，然后才能使用。</block>
-  <block id="f2956e37a1a240696529c2c8ff8a553f" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及如何使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
   <block id="7809c76990aeac2c15601c7025eeb111" category="list-text">您正在 ESXi 5.x 上使用原生 ESXi iSCSI 软件启动程序</block>
   <block id="39d787d0105280f3a84692c640027af9" category="paragraph">板载 UTA2 （也称为 `CNA` ）端口可配置。您可以在 ONTAP 命令行界面中配置这些端口；此内容不会介绍此过程。</block>
   <block id="089a3050abf86cb7b78205b67eea1bbc" category="list-text">您正在通过 ESXi 虚拟机管理程序为 VM 提供存储，而不是在 VM 中运行 iSCSI 启动程序。</block>
@@ -9639,7 +9625,6 @@
   <block id="574a1975b94dafcf4c59df3ad4142278" category="cell">ONTAP 命令行界面</block>
   <block id="6fee7f10b0fdf9da2e6c4a72ff309964" category="summary">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问。</block>
   <block id="1bf2d80a0b7340e4229d26ac096116df" category="list-text">您希望使用最佳实践，而不是浏览每个可用的选项（ ONTAP 9.7 及更早版本）。</block>
-  <block id="da7217c415334002506ecc94776bc6f4" category="paragraph">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使 LUN 在 Red Hat Enterprise Linux 服务器上可用。</block>
   <block id="fcdcf750ea4e083be4386f4d74633fba" category="cell">* 要使用 ... 完成此任务，请执行以下操作： *</block>
   <block id="cac8f9855a84d59ce73590ed73607556" category="cell">* 请参见此内容 ...*</block>
   <block id="d0f2df2bdd6b328117c96dcaacb4a936" category="cell">重新设计的 System Manager （在 9.7 及更高版本中提供）</block>
@@ -9667,15 +9652,10 @@
   <block id="42212a5a0889842594522857c721b58d" category="paragraph">如果您需要有关 ONTAP NFS 协议功能范围的详细信息，请参见 <block ref="86f1502903f8dfcf68403b326bb7f6b6" category="inline-link-macro-rx"></block>。</block>
   <block id="f0029f7d9c71b4d6656710bbaa9a75cb" category="paragraph">有关详细信息，请参见 <block ref="ec8cf3d50757fbbd3f210cde205edf03" category="inline-link-macro-rx"></block>。</block>
   <block id="b38eb47eb8a7f4ec6696ee8d4e8a114e" category="paragraph">您可以在 Storage Virtual Machine （ SVM ）上设置 FC 服务，配置 LUN ，并使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 Windows 主机计算机上使用 FC HBA 使 LUN 可用。</block>
-  <block id="4f229dd6cb1ca4601186cfbd9bf21ee6" category="paragraph">如果您使用的是传统 FC HBA 和交换机，请使用此操作步骤在 SVM 上设置 FC 服务。</block>
-  <block id="4278fc790b35b56d4d6c6cd209adbd19" category="paragraph">此操作步骤不包括以下情况： * 集群中每个节点上至少有两个 FC 目标端口可用。</block>
-  <block id="f772611ce79f97cee049fb64880ce2df" category="paragraph">+ 板载 FC 和 UTA2 （也称为 `CNA` ）端口以及某些适配器均可配置。配置这些端口会在 ONTAP 命令行界面中完成，此内容不会介绍这些配置。</block>
   <block id="2b059c82e86ff3c455cb0426715eaa43" category="inline-link-macro">为 Windows 服务器配置 SAN 存储</block>
   <block id="0d0143f2e5a78e2ef09e5e513f10c665" category="cell"><block ref="0d0143f2e5a78e2ef09e5e513f10c665" category="inline-link-macro-rx"></block></block>
   <block id="a68e7c01398ea86885062e8abe3e14a1" category="cell"><block ref="a68e7c01398ea86885062e8abe3e14a1" category="inline-link-macro-rx"></block></block>
-  <block id="0c43bdb6f87ef035ef0c110c0b4d6c6e" category="paragraph">* 其他资源 * *<block ref="cd3b4c8ff812596a26bae28e5b6c61ee" category="inline-link-rx"></block></block>
   <block id="75cf39a174605501236ca8fbc522d864" category="paragraph">您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN ，并使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 ESXi 主机计算机上使用 iSCSI 启动程序使 LUN 可用。</block>
-  <block id="defe7cf01d4ad01ca19331d4c8756f17" category="paragraph">在以下情况下使用这些操作步骤：</block>
   <block id="705580ff5e4d290b253ce9987709bc06" category="paragraph">请参见 <block ref="f23edc0bb2e15286525e82e5ff7532e0" category="inline-link-macro-rx"></block> 用于使用 CLI 配置以太网端口流量控制。</block>
   <block id="7114f450701db0c8c6dce6070cf80a4c" category="inline-link-macro">为 VMware 数据存储库配置 SAN 存储</block>
   <block id="fdc544df040b80e41f4cd4baa63e1554" category="cell"><block ref="fdc544df040b80e41f4cd4baa63e1554" category="inline-link-macro-rx"></block></block>
@@ -9685,7 +9665,22 @@
   <block id="e466eeb1f64e47b473620aac811abf13" category="list-text"><block ref="e466eeb1f64e47b473620aac811abf13" category="inline-link-rx"></block></block>
   <block id="136200586625d8dafefda787f79f587f" category="list-text">适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取 <block ref="0421fa2cd01f0c9937fe08195e375fca" category="inline-link-macro-rx"></block>）</block>
   <block id="b92480144202163d36d8ff97ea5e2385" category="paragraph">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 Red Hat Enterprise Linux 服务器上使用 FC 主机总线适配器（ HBA ）在 Storage Virtual Machine （ SVM ）上快速设置 FC 服务，配置 LUN 并使 LUN 可用。</block>
-  <block id="ce042b4c0074694c421e65376db43603" category="paragraph">如果出现以下情况，请使用此操作步骤在 SVM 上设置 FC 服务： * 主机运行的是受支持的 Red Hat Enterprise Linux 6.4 或更高版本。* 您使用的是传统 FC HBA 和交换机。</block>
-  <block id="32e8635d80aa982e67e6e08ab71095e9" category="paragraph">+ 注意：此操作步骤不涵盖以太网光纤通道（ FCoE ）。</block>
   <block id="d822c6968566763eeb55563cebc6ec6e" category="cell"><block ref="d822c6968566763eeb55563cebc6ec6e" category="inline-link-macro-rx"></block></block>
+  <block id="785f21867c78d48d84db708fe6d6705a" category="list-text">转至<block ref="ae0acc7a1cf35a69eb7b42685c902841" category="inline-link-rx"></block> 验证是否支持以下组件的组合：</block>
+  <block id="e6479b8884d9a579ed1efe575688fd7a" category="summary">这些过程介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及如何使用 Red Hat Enterprise Linux 服务器上的 iSCSI 启动程序使 LUN 可用。</block>
+  <block id="7953c54a0dd3839684f7d5dc78cc9caa" category="paragraph">使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使 LUN 在 Red Hat Enterprise Linux 服务器上可用。</block>
+  <block id="350344b34beadc4fc9a2b3faf51f1624" category="paragraph">这些过程基于以下假设：</block>
+  <block id="c99ea46138c6cca1947ab45f8b85983c" category="inline-link">ONTAP 9 SAN 管理概述</block>
+  <block id="4ccd1411513c65dcb6a679ea9915e95f" category="paragraph">有关 SAN 管理的其他详细信息，请参见<block ref="8499bea34abc994e4281bc61265ea2b9" category="inline-link-rx"></block></block>
+  <block id="3729565d51de6ef0a8375595d1ae5807" category="paragraph">* 相关信息 *<block ref="a5f8ef6b5d1189a231aea7325cc686e7" category="inline-link-rx"></block></block>
+  <block id="9cf52e339950ce13b96dc210eba32043" category="paragraph">如果出现以下情况，请使用此操作步骤在 SVM 上设置 FC 服务：</block>
+  <block id="38e80e600c0d0ee615750e63a57b0cc5" category="list-text">您使用的是传统 FC HBA 和交换机。</block>
+  <block id="d72f5510625cc4d6c7088dce4938a4b0" category="paragraph">此操作步骤不包括以下情况：</block>
+  <block id="a8a43c6e4824f8a5c53b50bf6e5041dd" category="list-text">集群中的每个节点上至少有两个可用的 FC 目标端口。板载 FC 和 UTA2 （也称为 `CNA` ）端口以及某些适配器均可配置。配置这些端口会在 ONTAP 命令行界面中完成，此内容不会介绍这些配置。</block>
+  <block id="1c88671ee1b1558529268a8ad894ff88" category="paragraph">* 其他资源 * + *<block ref="cd3b4c8ff812596a26bae28e5b6c61ee" category="inline-link-rx"></block></block>
+  <block id="2543eb70e018ba889bfe7e3c3c1f1afd" category="summary">您可以在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
+  <block id="039d2d1f92ed5762bd1672bf32bb614a" category="paragraph">在以下情况下使用此操作步骤：</block>
+  <block id="8a9b85a6ff90e4352c93c12f5031fb81" category="list-text">主机运行的是受支持的 Red Hat Enterprise Linux 6.4 或更高版本。</block>
+  <block id="d90be280d58372ceba4455532ff87944" category="admonition">此操作步骤不涵盖以太网光纤通道（ FCoE ）。</block>
+  <block id="933bae8d078062a7fc5f31ee4bc64cbf" category="list-text">集群中的每个节点上至少有两个可用的 FC 目标端口。板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置在 ONTAP 命令行界面（ CLI ）中完成，本内容不会介绍这些配置。</block>
 </blocks>

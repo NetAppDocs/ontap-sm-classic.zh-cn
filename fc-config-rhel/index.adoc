@@ -5,6 +5,7 @@ keywords: fc, service, storage, virtual, machine, svm, provision, lun, fc, host,
 summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 FC 服务，配置 LUN 以及使用 Red Hat Enterprise Linux 服务器上的 FC 主机总线适配器使 LUN 可用。 
 ---
 = 适用于 Red Hat Enterprise Linux 的 FC 配置概述
+:hardbreaks:
 :icons: font
 :imagesdir: ../media/
 
@@ -12,14 +13,15 @@ summary: 此内容介绍如何在 Storage Virtual Machine 上快速设置 FC 服
 [role="lead"]
 您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 Red Hat Enterprise Linux 服务器上使用 FC 主机总线适配器（ HBA ）在 Storage Virtual Machine （ SVM ）上快速设置 FC 服务，配置 LUN 并使 LUN 可用。
 
-如果出现以下情况，请使用此操作步骤在 SVM 上设置 FC 服务： * 主机运行的是受支持的 Red Hat Enterprise Linux 6.4 或更高版本。* 您使用的是传统 FC HBA 和交换机。
+如果出现以下情况，请使用此操作步骤在 SVM 上设置 FC 服务：
 
-+ 注意：此操作步骤不涵盖以太网光纤通道（ FCoE ）。
-
-* 集群中的每个节点上至少有两个可用的 FC 目标端口。
+* 主机运行的是受支持的 Red Hat Enterprise Linux 6.4 或更高版本。
+* 您使用的是传统 FC HBA 和交换机。
 +
-板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置在 ONTAP 命令行界面（ CLI ）中完成，本内容不会介绍这些配置。
 
+NOTE: 此操作步骤不涵盖以太网光纤通道（ FCoE ）。
+
+* 集群中的每个节点上至少有两个可用的 FC 目标端口。板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置在 ONTAP 命令行界面（ CLI ）中完成，本内容不会介绍这些配置。
 * 您未配置 FC SAN 启动。
 
 
