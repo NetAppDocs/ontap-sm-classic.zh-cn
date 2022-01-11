@@ -1,7 +1,7 @@
 ---
 permalink: nas-multiprotocol-config/task_opening_export_policy_svm_root_volume.html 
 sidebar: sidebar 
-keywords: rule, export, policy, nfsv3, nfs, client, storage, virtual, machine, svm, volume, open the export policy of the svm root volume (create a new nfs-enabled svm) 
+keywords: 'rule, export, policy, nfsv3, nfs, client, storage, virtual, machine, svm, volume, open the export policy of the svm root volume (create a new nfs-enabled svm)' 
 summary: 您必须向默认导出策略添加一条规则，以允许所有客户端通过 NFSv3 进行访问。如果没有此规则，则会拒绝所有 NFS 客户端访问 Storage Virtual Machine （ SVM ）及其卷。 
 ---
 = 打开 SVM 根卷的导出策略（创建启用了 NFS 的新 SVM ）

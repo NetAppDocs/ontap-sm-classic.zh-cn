@@ -2,7 +2,7 @@
 permalink: peering/task_creating_svm_peers.html 
 sidebar: sidebar 
 keywords: storage, virtual, machine, svm, peer, enable, establish, relationship, data, protection, create, create svm peer relationship 
-summary: 通过 Storage Virtual Machine （ SVM ）对等关系，您可以在两个 SVM 之间建立对等关系以进行数据保护。 
+summary: '从 ONTAP 9.3 开始，到 ONTAP 9.7 为止，您可以使用 ONTAP 系统管理器的 " 经典 " 界面创建 SVM 对等关系。通过 Storage Virtual Machine （ SVM ）对等关系，您可以在两个 SVM 之间建立对等关系以进行数据保护。' 
 ---
 = 创建 SVM 对等关系
 :icons: font
@@ -10,7 +10,7 @@ summary: 通过 Storage Virtual Machine （ SVM ）对等关系，您可以在�
 
 
 [role="lead"]
-通过 Storage Virtual Machine （ SVM ）对等关系，您可以在两个 SVM 之间建立对等关系以进行数据保护。
+从 ONTAP 9.3 开始，直到 ONTAP 9.7 为止，您可以使用 ONTAP 系统管理器 _classic_ 界面创建 SVM 对等关系。通过 Storage Virtual Machine （ SVM ）对等关系，您可以在两个 SVM 之间建立对等关系以进行数据保护。
 
 .步骤
 . 选择启动程序 SVM 。

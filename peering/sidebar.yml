@@ -26,6 +26,4 @@ entries:
     - title: 在所有节点上创建集群间接口（ ONTAP 9.2 或更早版本）
       url: "/peering/task_creating_intercluster_interfaces_on_all_nodes.html"
     - title: 创建集群对等关系（ ONTAP 9.2 或更早版本）
-      url: "/peering/task_creating_cluster_peer_relationships_93_later.html"
-- title: 从何处查找追加信息
-  url: "/peering/reference_where_to_find_additional_information.html"
+      url: "/peering/task_creating_cluster_peer_relationships_92_earlier.html"

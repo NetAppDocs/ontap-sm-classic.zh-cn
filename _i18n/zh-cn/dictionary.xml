@@ -399,7 +399,6 @@
   <block id="da8c31c5dffe196d4b1788aa2c8fe868" category="list-text">输入请求的信息，然后单击 * 提交并继续 * 。</block>
   <block id="d72a1aca208dc41a3ce163b76a262f59" category="summary">对等关系用于定义网络连接，使集群和 SVM 能够安全地交换数据。您必须先创建集群对等关系，然后才能创建 SVM 对等关系。</block>
   <block id="142a089f1fa4bdc6ca431cb7f3dbb20d" category="doc">配置对等关系（ ONTAP 9.2 及更早版本）</block>
-  <block id="f2a898dc9474c95f8932078fa9d0a3d9" category="summary">通过 Storage Virtual Machine （ SVM ）对等关系，您可以在两个 SVM 之间建立对等关系以进行数据保护。</block>
   <block id="f56d89b4aac8faf55ca55fe5de288f85" category="doc">创建 SVM 对等关系</block>
   <block id="c484a7ef6877bd56812713f72f2c977e" category="list-text">选择启动程序 SVM 。</block>
   <block id="7b785e41605c83931cce50cb66dcac3a" category="list-text">从允许的 SVM 列表中选择目标 SVM 。</block>
@@ -410,14 +409,12 @@
   <block id="119f66f1656f0804d97d0810145ab51a" category="doc">集群和 SVM 对等工作流</block>
   <block id="ec9fcbebd42ea9494bccba627cc719af" category="image-alt">图像在周围的文本中进行了说明</block>
   <block id="448a93318b47d478faa524243efca7ab" category="paragraph">如果您运行的是 ONTAP 9.2 或更早版本，则在源卷与目标卷之间创建数据保护关系时，需要创建 SVM 对等关系。</block>
-  <block id="c4fbf7f16e46659032853f2267e41c54" category="summary">对等关系用于定义网络连接，以使集群和 SVM 能够安全地交换数据。ONTAP 9.3 简化了在集群之间和 SVM 之间配置对等关系的方式。</block>
   <block id="c9cd6915d52128767cef1eedc8f81ee4" category="doc">配置对等关系（从 ONTAP 9.3 开始）</block>
   <block id="75180ea62e7fa36539c66f0f6b476101" category="summary">您可以通过提供系统生成的密码短语以及远程集群的集群间 LIF 的 IP 地址，在两个集群之间创建集群对等关系。</block>
   <block id="acf0cde59bcb3c99d1c61d915040c3b1" category="doc">创建集群对等关系（从 ONTAP 9.3 开始）</block>
   <block id="287f683418370bc5cd4deb0117c08675" category="paragraph">从 ONTAP 9.6 开始，默认情况下，所有新创建的集群对等关系都会启用集群对等加密。升级到 ONTAP 9.6 之前创建的对等关系必须手动启用集群对等加密。集群对等加密不适用于运行 ONTAP 9.5 或更早版本的集群。因此，对等关系中的两个集群都必须运行 ONTAP 9.6 才能启用集群对等加密。</block>
   <block id="77e9d0af28e30a67428e9b6546e43f4f" category="paragraph">集群对等加密使用传输安全层（ TLS ）来保护 SnapMirror 和 FlexCache 等 ONTAP 功能的跨集群对等通信。</block>
   <block id="44b137d90711cdaa897728e8562aa157" category="list-text">在 * 目标集群集群间 LIF IP 地址 * 字段中，输入远程集群的集群间 LIF 的 IP 地址。</block>
-  <block id="0508dfbb2e9f6de28eac92265789850f" category="list-text">从远程集群生成密码短语。</block>
   <block id="1067b117ccb384868ce6015f61994d8b" category="list-text">指定远程集群的管理地址。</block>
   <block id="49119b3df2182a6f3bc238ebef603c8c" category="list-text">单击 * 管理 URL* 在远程集群上启动 ONTAP 系统管理器。</block>
   <block id="0234a818b075353cab4e70ee2ef21961" category="list-text">登录到远程集群。</block>
@@ -429,16 +426,12 @@
   <block id="137110384a36d8791ecfd822e2cec069" category="image-alt">此图通过周围的文本进行了说明。</block>
   <block id="8201ae2ffbfc7d9b7e47862782e473b3" category="list-text">单击 * 复制密码短语详细信息 * 或 * 电子邮件密码短语详细信息 * 。</block>
   <block id="e13a15252a4dbf9779c44afe477e3343" category="list-text">单击 * 完成 * 。</block>
-  <block id="9fe9431910596a18fec0d0492bea465e" category="inline-xref">#stef18C02A36D1D445CA930399D2E9AAB0a</block>
-  <block id="ef79eddf071a9a78d6567f05feb77dcd" category="list-text">在源集群中，输入在步骤中获取的生成的密码短语 <block ref="87656562c2ec7be5a5b617caea00b868" category="inline-xref-macro-rx"></block>。</block>
   <block id="456d1ff14358e86ce33c25087b8a9ce1" category="list-text">单击 * 启动集群对等 * 。</block>
   <block id="355ff1c938bcdc392426aa25414681c6" category="paragraph">已成功创建集群对等关系。</block>
   <block id="c7acf03e994fd112f3b101ac8f608f6a" category="paragraph">您应在 SVM 对等窗口中指定 SVM 详细信息，以继续执行对等过程。</block>
-  <block id="dcb0e847c0e66548f076cf75e6fbf314" category="summary">集群通过专用于集群间通信的逻辑接口（ LIF ）相互通信。您必须在要为其创建对等关系的每个集群中的每个节点上，在要用于对等关系的每个 IP 空间内创建一个集群间 LIF 。</block>
   <block id="17fc0c2ba1660115761977ccd40a12cd" category="doc">在所有节点上创建集群间接口（ ONTAP 9.2 或更早版本）</block>
   <block id="cc7cbeb3cb43bb7cadd6c4b3bb094fb2" category="paragraph">您必须已确定要用于集群间 LIF 的子网和端口，以及 IP 地址（可选）。</block>
   <block id="cb66295b5982e2f8722b0eea42df8ea4" category="paragraph">您必须在要创建对等关系的两个集群上执行此操作步骤。例如，如果您有一个四节点集群，希望通过 IP 空间 A 与集群 X 建立对等关系，并通过 IP 空间 Y 与集群 Y 建立对等关系，则总共需要八个集群间 LIF ； IP 空间 A 上四个（每个节点一个）， IP 空间 Y 上四个（每个节点一个）。</block>
-  <block id="b2b2902b5eafb047ddba8b8e59f79974" category="list-text">在源集群的一个节点上创建集群间 LIF ：</block>
   <block id="b866dc94f1833f3fd48b4af0f0b764c8" category="list-text">导航到 * 网络接口 * 窗口。</block>
   <block id="3728a8f8062ce618e019c39de9e5832b" category="paragraph">此时将显示创建网络接口对话框。</block>
   <block id="df221f7114b24d551f653b5820a6edd2" category="list-text">输入集群间 LIF 的名称。</block>
@@ -452,8 +445,6 @@
   <block id="05ba291b6172d7b87a3d83c526374f17" category="list-text">在 * 端口 * 区域中，单击要配置的节点，然后选择要用于此节点的端口。</block>
   <block id="8253487711a2ee140867a46a646bd5a3" category="list-text">如果您决定不共享端口以进行集群间数据通信，请确认选定端口在 * 托管接口计数 * 列中显示 "`0` " 。</block>
   <block id="d5921707d2872dfd1155681c4f7f7097" category="image-alt">创建网络接口对话框</block>
-  <block id="2a89dbe841e041521cb1131c24fb9b0a" category="inline-xref">#sted_E3AF9C0B3C474E49A20489FF21727472</block>
-  <block id="f9f10f7459e87b0500d108f9588e3e33" category="list-text">重复步骤 <block ref="3a1bbc525d92e2d977558d6e31ee221c" category="inline-xref-macro-rx"></block> 用于集群中的每个节点。</block>
   <block id="95252f1c434a14c27aec125c5bfc197e" category="paragraph">集群中的每个节点都有一个集群间 LIF 。</block>
   <block id="0a4c2535c0d26ff3fc6b5f70a2221b3e" category="list-text">记下集群间 LIF 的 IP 地址，以便稍后在与其他集群创建对等关系时可以使用它们：</block>
   <block id="39ac0b60479de3d8e1d1dbe601e75238" category="inline-image-macro">列筛选器图标</block>
@@ -464,11 +455,9 @@
   <block id="6be42cc8835dc7589f00c28f57ae68d7" category="paragraph">您可以单击列显示图标（<block ref="3a4c4e1ca783205e55a2c6608fd1fa7f" category="inline-image-macro-rx" type="image"></block>）以隐藏不想查看的列。</block>
   <block id="04a66dded89c32f4cad175d20dee428f" category="paragraph">每个集群中的所有节点都具有集群间 LIF ，这些 LIF 可以相互通信。</block>
   <block id="1d38d81d646985ec3458b8d11103d5e2" category="summary">成功创建集群对等关系后，即可保护数据的可用性。</block>
-  <block id="3d82d3e9d2c87687148b1a50fbe11c74" category="paragraph">您可以使用以下内容保护数据：</block>
   <block id="3552a03559c9745468390e65ff5420dd" category="paragraph">介绍如何快速配置和监控不同集群中的卷之间的 SnapMirror 关系。</block>
   <block id="f374ab402892ea91daa38f079bc00eff" category="list-text"><block ref="f374ab402892ea91daa38f079bc00eff" category="inline-xref-macro-rx"></block></block>
   <block id="4a4c3d33f3a7344913b2fc74439a7be1" category="paragraph">介绍如何快速配置集群间 SnapVault 关系。</block>
-  <block id="07510c2fd7e81506fcf09a16f43b9a98" category="paragraph">有关详细信息，请参见以下内容：</block>
   <block id="49cd84454679a27458c872c9ace042b9" category="paragraph">介绍有关配置复制的信息和最佳实践，包括集群对等。</block>
   <block id="af3105008d9137bb4ebe947f8d9d7087" category="paragraph">提供有关集群对等的概念信息。</block>
   <block id="15a0758c33949127593b5cd110c04f31" category="summary">通过创建集群间逻辑接口（ LIF ），集群网络可以与节点进行通信。您必须在要为其创建对等关系的每个集群中的每个节点上，在要用于对等关系的每个 IP 空间内创建一个集群间 LIF 。</block>
@@ -481,19 +470,11 @@
   <block id="4a489ba1d860e2a4840acc343b94e684" category="list-text">输入每个节点的 IP 地址，端口，网络掩码和网关详细信息。</block>
   <block id="22bc3c776fa928e8d90fa38612e42471" category="list-text">单击 * 提交并继续 * 。</block>
   <block id="2c803c274a0f5d2a952c8e381c478a99" category="paragraph">您应在集群对等窗口中输入集群详细信息，以继续建立集群对等关系。</block>
-  <block id="066b27d692de4f9e7533833178f88cd2" category="summary">此内容介绍了集群管理员如何在集群和 SVM 之间创建经过身份验证的对等关系，以使集群能够彼此通信，从而可以在不同集群中的卷之间复制数据。</block>
   <block id="9fecd08b776fdfca7b33426363edf913" category="doc">集群和 SVM 对等概述</block>
-  <block id="8a571b3e8932394bcd3fdfceab1b33c3" category="paragraph">ONTAP 9.3 中的 ONTAP System Manager 简化了在集群之间和 SVM 之间配置对等关系的方式。此内容介绍了所有 ONTAP 9 版本的集群对等操作步骤和 SVM 对等操作步骤。您应使用适用于您的 ONTAP 版本的操作步骤。</block>
-  <block id="f85c35093732ad7a77dab1be6d97ec18" category="paragraph">如果要按以下方式创建集群对等关系和 SVM 对等关系，应使用此内容：</block>
   <block id="5654bd835c51bd8747d9ccdbb16597bf" category="list-text">您需要经过身份验证的集群对等关系。</block>
   <block id="6dd2ffa6fbac9ea6a1bc5ba14e17aa97" category="list-text">您希望使用 System Manager ，而不是 ONTAP 命令行界面或自动化脚本编写工具。</block>
-  <block id="8ce92432b3a9f0e70f3f2194fd9e5d63" category="inline-link">集群和 SVM 对等</block>
-  <block id="1700255a07f886ad0500465db4ee48a3" category="list-text"><block ref="1700255a07f886ad0500465db4ee48a3" category="inline-link-rx"></block></block>
-  <block id="ebce7567636765b7d3933d006700f2cf" category="paragraph">介绍如何使用命令行界面设置集群对等关系和 SVM 对等关系。</block>
   <block id="3e49e5936cffd2e96856c25fa0417df2" category="inline-link">网络管理</block>
   <block id="36046ab20f3f5bf45746d859ca467d19" category="list-text"><block ref="36046ab20f3f5bf45746d859ca467d19" category="inline-link-rx"></block></block>
-  <block id="f603d0b7c83bfe34a477df434ea7ce40" category="paragraph">介绍如何使用命令行界面配置子网，集群间 LIF ，路由，防火墙策略和其他网络组件。</block>
-  <block id="f364792695ca71abbc733348b994935a" category="summary">在创建集群对等关系之前，您必须验证每个集群上的时间是否与外部网络时间协议（ NTP ）服务器同步，并确定要使用的子网，端口和密码短语。</block>
   <block id="6f93a2e19cdec650ff20784fff2d5c8c" category="doc">准备建立集群对等关系</block>
   <block id="7fdb3421a64f2b616c476a11f224147e" category="list-text">如果您运行的是 ONTAP 9.2 或更早版本，请确定要用于每个集群对等关系的密码短语。</block>
   <block id="e926f73a097b2c708233e4efad7eb684" category="paragraph">密码短语必须至少包含八个字符。</block>
@@ -502,10 +483,8 @@
   <block id="988416070af00a205b7799cefcf26027" category="paragraph">集群 A 和集群 B</block>
   <block id="11f7e8e6d7e3f510fe75a9277d109e26" category="paragraph">从 ONTAP 9.3 开始，您可以在创建集群对等关系时从远程集群生成密码短语。</block>
   <block id="c1a0324a117c163a86f00c8940068d8c" category="inline-xref-macro">创建集群对等关系（从 ONTAP 9.3 开始）</block>
-  <block id="cb704209f644659b4dd00bd7eb1c624e" category="paragraph"><block ref="cb704209f644659b4dd00bd7eb1c624e" category="inline-xref-macro-rx"></block></block>
   <block id="9b6a1c70533b3b4e2b0042eb9fd18368" category="list-text">确定要用于集群间 LIF 的子网， IP 地址和端口。</block>
   <block id="a4c4dffb188be95eb563d8d9c67f8b00" category="paragraph">默认情况下，系统会自动从子网中选择 IP 地址。如果要手动指定 IP 地址，必须确保此 IP 地址已在子网中可用或稍后可添加到子网中。有关子网的信息，请参见网络选项卡。</block>
-  <block id="7412fa9b0243a9eb87fbce0e801ccd22" category="paragraph">下表假定每个集群有四个节点。如果集群中的节点数超过四个，您可以将端口记录在另一张纸上。</block>
   <block id="7b4cd84a431b83dce623d2666925064a" category="cell">集群 A</block>
   <block id="b7973442e316e4fca4a7cced4f6b8f0d" category="cell">集群 B</block>
   <block id="69b9b58f02bd4331abb3d71482685c33" category="paragraph">子网（ ONTAP 9.2 或更早版本）</block>
@@ -550,19 +529,12 @@
   <block id="90db7210ac0f4f1ad1b4dd4cfcfac5da" category="list-text">单击 * 配置 * 选项卡。</block>
   <block id="7dec4c305fb889f69ff7468dc2c77707" category="list-text">在 * 集群设置 * 窗格中，单击 * 集群对等方 * 。</block>
   <block id="d4494a705d5860da3b83e0a56b3fac5d" category="paragraph">此时将显示创建集群对等方对话框。</block>
-  <block id="6a3c44a7012c6c9fb801a37a8f508719" category="list-text">在 * 要建立对等关系的远程集群的详细信息 * 区域中，指定两个对等方用于确保经过身份验证的集群对等关系的密码短语。</block>
   <block id="99ce80c89f7f156768c578e90560d8e4" category="list-text">输入目标集群的所有集群间 LIF 的 IP 地址（每个节点一个），以逗号分隔。</block>
   <block id="d49ab220658ddf8a0b69d99c3b8b69e3" category="image-alt">创建集群对等方对话框</block>
-  <block id="22b9378c060a07d65a725c1e70fe559b" category="paragraph">身份验证状态为 `pending` ，因为仅配置了一个集群。</block>
   <block id="e27309a98fe9603e68703f9961feb6d2" category="list-text">切换到目标集群，然后与源集群创建集群对等关系：</block>
-  <block id="9ea7135502de7b6d379d4b789c378e7c" category="inline-xref">#sted_36B845A20DD84114916BBE2844EEE1F2</block>
-  <block id="ef45e50fe62e0d57c08d2c654bc5003f" category="list-text">在 * 要建立对等关系的远程集群的详细信息 * 区域中，指定您在步骤中指定的同一密码短语 <block ref="62f08d00d0ef71f648ca4e326cc4da50" category="inline-xref-macro-rx"></block> 以及源集群的集群间 LIF 的 IP 地址，然后单击 * 创建 * 。</block>
-  <block id="0b651b139cfabb401a5db9f9334c534b" category="list-text">从目标集群的 * 集群对等方 * 窗口中，确认源集群为 `可用` 且身份验证状态为 `正常` 。</block>
   <block id="4c17ec28e0309634915b79f394e1d8cd" category="paragraph">您可能需要单击 * 刷新 * 才能查看更新后的信息。</block>
   <block id="8e1024d07be703ec5e1a6d57f111ecd7" category="paragraph">这两个集群处于对等关系。</block>
-  <block id="f26efe8adc65fcc8634a1fc4bdb4190b" category="list-text">切换到源集群，然后确认目标集群为 `Available` 且身份验证状态为 `ok` 。</block>
   <block id="8462b812c2eb4ecde63c6ab2efe5eabb" category="paragraph">在源和目标 SVM 之间创建 SVM 对等关系，同时在源卷和目标卷之间创建数据保护关系。</block>
-  <block id="d94e580b7da18a0a157018717a6e4814" category="paragraph"><block ref="d94e580b7da18a0a157018717a6e4814" category="inline-xref-macro-rx"></block></block>
   <block id="ee93149a5dacaa8ce54277b834e7c1bb" category="summary">准备好后，您可以通过在 UNIX 管理主机上设置 UNIX 文件权限并在 System Manager 中添加导出规则来为选定客户端授予对共享的访问权限。然后，您应测试受影响的用户或组是否可以访问此卷。</block>
   <block id="00647fbe5d84d8b84aa064290e5b825e" category="doc">配置并验证 NFS 客户端访问（将 NFS 卷添加到启用了 NFS 的 SVM ）</block>
   <block id="cca03ce47d08b7fce80a416df137d6e9" category="list-text">确定要为哪些客户端和用户或组授予对共享的访问权限。</block>
@@ -670,8 +642,6 @@
   <block id="e2d406f34dca3665308ea0fe5df39308" category="inline-link">NetApp 技术报告 4668 ：《名称服务最佳实践》</block>
   <block id="66e72a73ea31081d558c3961ceb4caf0" category="list-text"><block ref="66e72a73ea31081d558c3961ceb4caf0" category="inline-link-rx"></block></block>
   <block id="2670471c3693debcd84cafb18698692f" category="paragraph">提供了一个全面的最佳实践，限制，建议和注意事项列表，用于配置 LDAP ， NIS ， DNS 以及本地用户和组文件以进行身份验证。</block>
-  <block id="06b3f765796cf4ade0680b66fa1ace28" category="inline-link">NetApp 技术报告 3580 ：《 NFSv4 增强功能和最佳实践 Data ONTAP 实施》</block>
-  <block id="dc45845a9e36f9761a4f31c0361b6d4e" category="list-text"><block ref="dc45845a9e36f9761a4f31c0361b6d4e" category="inline-link-rx"></block></block>
   <block id="e134f6887670f332c2b86db886021c0e" category="paragraph">介绍在连接到运行 ONTAP 的系统的 AIX ， Linux 或 Solaris 客户端上实施 NFSv4 组件时应遵循的最佳实践。</block>
   <block id="faae9782a49940846862f2a32231e07f" category="section-title">根卷保护</block>
   <block id="51e02859c0b7c44b7441c12e6b68d54b" category="paragraph">在 SVM 上配置协议后，您应确保其根卷受到保护：</block>
@@ -709,7 +679,6 @@
   <block id="43892fcaea0e340fbfd701fb89518405" category="doc">打开 SVM 根卷的导出策略（创建启用了 NFS 的新 SVM ）</block>
   <block id="e932175a0921404d06e0165f71ceeca2" category="paragraph">如果您有要用于新卷的现有聚合，则可以跳过此操作步骤。</block>
   <block id="2720dc36306e6c9935c0eeda20d6be83" category="doc">NFS 配置概述</block>
-  <block id="011713e1e36d4155bc75d4ed07a4dfa8" category="paragraph">如果要按以下方式配置对卷的访问，应使用此内容：</block>
   <block id="973b4a4cef4d13086f8f961fd5957845" category="list-text">NFS 访问将通过 NFSv3 进行，而不是通过 NFSv4 或 NFSv4.1 进行。</block>
   <block id="c4a39a65d14bf40f86b46f1dc432ac0c" category="list-text">您的数据网络使用默认 IP 空间，默认广播域和默认故障转移组。</block>
   <block id="9dc1904e0c3ace141704b477cd9b345d" category="inline-link">网络管理</block>
@@ -1161,8 +1130,6 @@
   <block id="5286406ca0e54cd09b7eb9a5995c75a8" category="list-text">选择 * 激活 Storage Virtual Machine* 的域，然后单击 * 创建 * 。</block>
   <block id="032ef0877579ec260ec109f60ffa3d94" category="paragraph">现在，您必须打开 SVM 根卷的导出策略。</block>
   <block id="2fd9c396448a15e9c35084529f59235a" category="summary">此内容介绍如何在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 和 NFS 访问。</block>
-  <block id="92794ddd65e371c49e19aa93a3319516" category="doc">SMB/CIFS 和 NFS 多协议配置概述</block>
-  <block id="7dba005cb826076c777309c4dcb7ace3" category="paragraph">如果您的数据网络正常运行，则使用这些默认对象可确保在链路出现故障时 LIF 能够正确地进行故障转移。如果您不使用默认对象，应参见 <block ref="6e6bc04a30d840626fc6379d4c5aa5b4" category="inline-link-macro-rx"></block> 有关如何配置 LIF 路径故障转移的信息。</block>
   <block id="78834fa388e1f1624970cb4f542e13c7" category="inline-link">SMB/CIFS 管理</block>
   <block id="31ad18e057e064169b320830c088418d" category="list-text"><block ref="31ad18e057e064169b320830c088418d" category="inline-link-rx"></block></block>
   <block id="272c393bd39b1fb00984241f27a1c43f" category="summary">您应通过访问共享并向共享写入数据来验证是否已正确配置 SMB 。您应使用 SMB 服务器名称和任何 NetBIOS 别名来测试访问。</block>
@@ -9280,8 +9247,6 @@
   <block id="bfec53b3b18c5f06c598bc65465e28dc" category="list-text">选择可用的最高速度端口。</block>
   <block id="aadd34d87f20996d2086e12b866e4e42" category="paragraph">最好使用 10 GbE 或更快的端口。至少需要 1 个 GbE 端口。</block>
   <block id="0c04ef27a6f022a986ca5a101118bab1" category="list-text">如果需要并受网络支持，请启用巨型帧。</block>
-  <block id="8dc556d7befb5b49a96420539daa2a12" category="paragraph">对于 ESXi 主机和存储系统，巨型帧的 MTU 应为 9000 ，而对于大多数交换机，巨型帧的 MTU 应为 9216 。</block>
-  <block id="63875b5ad3b1b3e802d9322a5a48559b" category="paragraph">数据路径中的所有设备，包括 ESXi NIC ，存储 NIC 和交换机，都必须支持巨型帧。</block>
   <block id="56f23000e56461d7cda56cf9a680ea28" category="summary">配置 ESXi 主机涉及配置端口和 vSwitch 以及使用 ESXi 主机最佳实践设置。验证这些设置是否正确后，您可以创建聚合并确定在何处配置新卷。</block>
   <block id="c381116d8a752fc5d207bc6584a6d2ea" category="doc">配置 ESXi 主机</block>
   <block id="881b0a2ef802a1004b956954773e6574" category="summary">数据存储库包含 ESXi 主机上的虚拟机及其 VMDK 。ESXi 主机上的数据存储库是在存储集群上的卷上配置的。</block>
@@ -9623,8 +9588,6 @@
   <block id="b224811ffef3a7841011e3ecf9fff1a2" category="cell"><block ref="b224811ffef3a7841011e3ecf9fff1a2" category="inline-link-macro-rx"></block></block>
   <block id="737fec7cf6d6e935871829ca5e3c6eee" category="cell">重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本）</block>
   <block id="574a1975b94dafcf4c59df3ad4142278" category="cell">ONTAP 命令行界面</block>
-  <block id="6fee7f10b0fdf9da2e6c4a72ff309964" category="summary">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问。</block>
-  <block id="1bf2d80a0b7340e4229d26ac096116df" category="list-text">您希望使用最佳实践，而不是浏览每个可用的选项（ ONTAP 9.7 及更早版本）。</block>
   <block id="fcdcf750ea4e083be4386f4d74633fba" category="cell">* 要使用 ... 完成此任务，请执行以下操作： *</block>
   <block id="cac8f9855a84d59ce73590ed73607556" category="cell">* 请参见此内容 ...*</block>
   <block id="d0f2df2bdd6b328117c96dcaacb4a936" category="cell">重新设计的 System Manager （在 9.7 及更高版本中提供）</block>
@@ -9683,4 +9646,79 @@
   <block id="8a9b85a6ff90e4352c93c12f5031fb81" category="list-text">主机运行的是受支持的 Red Hat Enterprise Linux 6.4 或更高版本。</block>
   <block id="d90be280d58372ceba4455532ff87944" category="admonition">此操作步骤不涵盖以太网光纤通道（ FCoE ）。</block>
   <block id="933bae8d078062a7fc5f31ee4bc64cbf" category="list-text">集群中的每个节点上至少有两个可用的 FC 目标端口。板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置在 ONTAP 命令行界面（ CLI ）中完成，本内容不会介绍这些配置。</block>
+  <block id="db89e6efdcfb747c88a0ae133a47a4fa" category="summary">使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问</block>
+  <block id="ce2bf9c1f096bfdc5c6ddbf814fb1f49" category="paragraph">使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问。</block>
+  <block id="567b23fc1de26704e583127ac6f47f43" category="doc">SMB 和 NFS 多协议配置概述</block>
+  <block id="8ae85e179f094ef5db01f02fc327f432" category="paragraph">使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB 和 NFS 访问。</block>
+  <block id="41e93d292f2e6130506dc203a5c30371" category="paragraph">如果您的数据网络正常运行，则使用这些默认对象可确保在链路出现故障时 LIF 能够正确地进行故障转移。如果您不使用默认对象，应参见 <block ref="63a409c949a0a7faca8865ea4633f264" category="inline-link-macro-rx"></block> 有关如何配置 LIF 路径故障转移的信息。</block>
+  <block id="90a373b24807d6473ef7a68af565b4a2" category="paragraph">如果您需要有关 ONTAP NFS 和 SMB 协议功能范围的详细信息，请参见以下文档：</block>
+  <block id="64577708199f94e32ed7c6831b82e686" category="inline-link">SMB 管理</block>
+  <block id="b8e42fd752c0b176b04060ad1d24c1e9" category="list-text"><block ref="b8e42fd752c0b176b04060ad1d24c1e9" category="inline-link-rx"></block></block>
+  <block id="dbd165c3e6a62290bd276fe0df6f8eae" category="inline-link-macro">安全模式及其影响是什么</block>
+  <block id="1d2d6b88860611d2880522d4c6450b47" category="inline-link-macro">在多协议环境中，文件和目录名称区分大小写</block>
+  <block id="59742fa5d067eef859f7c8b075efde97" category="cell"><block ref="af691efeb0948e3a24ae2ff80c4ea2db" category="inline-link-macro-rx"></block>
+
+<block ref="b224811ffef3a7841011e3ecf9fff1a2" category="inline-link-macro-rx"></block>
+
+<block ref="74216a0b75808cc5b9ea280e5da3b2ee" category="inline-link-macro-rx"></block>
+
+<block ref="e8c191ccfc6229eab89e3d1a487a3051" category="inline-link-macro-rx"></block></block>
+  <block id="22abbe0f643126aaa00c8217f625f7d0" category="paragraph">有关详细信息，请参见。</block>
+  <block id="7b346581f69360cf7a5a3d68d6071d87" category="paragraph">对于 ESXi 主机和存储系统，巨型帧的 MTU 应为 9000 ，而对于大多数交换机，巨型帧的 MTU 应为 9216 。数据路径中的所有网络设备（包括 ESXi NIC ，存储 NIC 和交换机）都必须支持巨型帧，并且应针对其最大 MTU 值进行配置。</block>
+  <block id="500a7615a552bfd7b3e98a4da85a4dab" category="inline-link-macro">检查数据交换机上的网络设置</block>
+  <block id="48a0b712015f6610dc2a9e603d8b0ab9" category="paragraph">有关详细信息，请参见 <block ref="f2d4b655efaaf4fcabdaa8bdd3143f17" category="inline-link-macro-rx"></block> 以及交换机供应商文档。</block>
+  <block id="aac65619493beaf4bf8f0baf8bdd158b" category="summary">在 ONTAP 9.2 或更低版本的 ONTAP 9 中使用 ONTAP 系统管理器的 " 经典 " 界面，您可以创建用于对等的集群间 LIF 。</block>
+  <block id="6ec8e30719ed35186c1b372eec5b8725" category="paragraph">在 ONTAP 9.2 或更早版本的 ONTAP 9 中使用 ONTAP System Manager _classic_ 界面，您可以创建用于对等的集群间 LIF 。</block>
+  <block id="5753e1ae1d26377f5c1b2071b9edfc9e" category="paragraph">集群通过专用于集群间通信的逻辑接口（ LIF ）相互通信。您必须在要用于对等关系的每个 IP 空间中创建一个集群间 LIF 。必须在要创建对等关系的每个集群中的每个节点上创建 LIF 。</block>
+  <block id="8288a468dec9b46bd5cb1bf83f293a71" category="list-text">【第 1 步 - 集群间 LIF 】在源集群的一个节点上创建集群间 LIF ：</block>
+  <block id="6f4a225b29c0975663d0e4b9e1f4547f" category="inline-xref">第 1 步</block>
+  <block id="73b835e530fe75da38f21156861f5ab4" category="list-text">重复 <block ref="e115dbec78044169a605d605cea0bef0" category="inline-xref-macro-rx"></block> 用于集群中的每个节点。</block>
+  <block id="73c8bc64b7795f2b261641eacf99fdbe" category="summary">从 ONTAP 9.3 开始，直到 ONTAP 9.7 为止，您可以使用 ONTAP 系统管理器的 " 经典 " 界面创建集群间逻辑接口（ LIF ），从而使集群网络能够与节点进行通信。您必须在要为其创建对等关系的每个集群中的每个节点上，在要用于对等关系的每个 IP 空间内创建一个集群间 LIF 。</block>
+  <block id="7b537fac043ca609e34b5263706a786d" category="doc">创建集群间 LIF （从 ONTAP 9.3 开始）</block>
+  <block id="037471075f1cb1cf0a5c960b996e65f5" category="paragraph">从 ONTAP 9.3 开始，直到 ONTAP 9.7 为止，您可以使用 ONTAP System Manager _classic_ 界面创建集群间逻辑接口（ LIF ），从而使集群网络能够与节点进行通信。您必须在要为其创建对等关系的每个集群中的每个节点上，在要用于对等关系的每个 IP 空间内创建一个集群间 LIF 。</block>
+  <block id="492d58a0ec076b47e40741f5c582d996" category="summary">对等关系用于定义网络连接，以使集群和 SVM 能够安全地交换数据。从 ONTAP 9.3 开始，到 ONTAP 9.7 为止，您可以使用 ONTAP 系统管理器的 " 经典 " 界面执行简化的方法来配置集群之间和 SVM 之间的对等关系。</block>
+  <block id="0cb0f237319ab2a1e594263de7c1cc8d" category="paragraph">对等关系用于定义网络连接，以使集群和 SVM 能够安全地交换数据。从 ONTAP 9.3 开始，直到 ONTAP 9.7 为止，您可以使用 ONTAP System Manager _classic_ 界面执行一种简化的方法来配置集群之间和 SVM 之间的对等关系。</block>
+  <block id="b1b98bf9bee323fe8907ea8b63705ff3" category="paragraph">在 ONTAP 9.2 或更早版本的 ONTAP 9 中使用 ONTAP System Manager _classic_ 界面，您可以通过输入预先确定的密码短语和远程集群的集群间 LIF 的 IP 地址在两个集群之间创建集群对等关系。 然后验证是否已成功创建此关系。</block>
+  <block id="605ffcd2cfb67f38e75316a14365bbc6" category="paragraph">此时将显示 * 创建集群对等 * 对话框。</block>
+  <block id="627d8764a5bc8ed607379972d7863507" category="list-text">在 * 要建立对等关系的远程集群的详细信息 * 区域中，指定两个对等方用于确保经过身份验证的集群对等关系的密码短语。</block>
+  <block id="d567b673bc108133890be5116b645389" category="paragraph">身份验证状态为 "`pending` " ，因为仅配置了一个集群。</block>
+  <block id="9243359afb1422f6338170176f28173c" category="inline-xref">第 1 步</block>
+  <block id="5418bda8c52c606a25265160a826d1e1" category="list-text">在 * 要建立对等关系的远程集群的详细信息 * 区域中，指定您在中指定的同一密码短语 <block ref="bf182b6f74d1b2ae46966fb13e007b14" category="inline-xref-macro-rx"></block> 以及源集群的集群间 LIF 的 IP 地址，然后单击 * 创建 * 。</block>
+  <block id="e6e18f5439ea57605087c0da5d69269d" category="list-text">从目标集群的 * 集群对等方 * 窗口中，确认源集群为 "`Available` " 且身份验证状态为 "`OK` " 。</block>
+  <block id="a2c528edcfc7bba39a3e5198a40a554f" category="list-text">切换到源集群，然后确认目标集群为 "`Available` " 且身份验证状态为 "`OK` " 。</block>
+  <block id="e4e4b8d7284f422b91a278e75cd1ab6b" category="paragraph"><block ref="e4e4b8d7284f422b91a278e75cd1ab6b" category="inline-link-macro-rx"></block></block>
+  <block id="98c73dd2ec04d252854381d0a9a4cd69" category="paragraph"><block ref="98c73dd2ec04d252854381d0a9a4cd69" category="inline-link-macro-rx"></block></block>
+  <block id="9060083dc618b40aecae89bf3e9adf34" category="summary">集群管理员可以在集群和 SVM 之间创建经过身份验证的对等关系，使集群能够彼此通信，以便在不同集群中的卷之间复制数据。</block>
+  <block id="280635e7eec31e45c39a31cf77ab5f40" category="paragraph">集群管理员可以在集群和 SVM 之间创建经过身份验证的对等关系，使集群能够彼此通信，以便在不同集群中的卷之间复制数据。您可以使用 ONTAP 系统管理器 _classic_ 界面执行这些过程，该界面随 ONTAP 9.7 及更早版本的 ONTAP 9 一起提供。</block>
+  <block id="cda4f41be99d23e7a1b509b9d20a15b8" category="paragraph">如果符合以下条件，请使用 ONTAP System Manager _classic_ 界面创建集群对等关系和 SVM 对等关系：</block>
+  <block id="6f2feca5a2e9ba03bd59d9f092c87b21" category="list-text">您正在使用运行 ONTAP 9.7 或更早版本的 ONTAP 9 的集群。</block>
+  <block id="d83dbb891eeb5197351706f9c065b589" category="list-text">您希望使用 System Manager ，而不是 ONTAP 命令行界面（ CLI ）或自动脚本编写工具。</block>
+  <block id="484bea9499e5c6f437a3383d83a88225" category="paragraph">ONTAP 9.3 中的 ONTAP System Manager 简化了在集群之间和 SVM 之间配置对等关系的方式。所有 ONTAP 9 版本均可使用集群对等操作步骤和 SVM 对等操作步骤。您应使用适用于您的 ONTAP 版本的操作步骤。</block>
+  <block id="438bcca628b8c2931bf12b926e34e7b3" category="cell">请参见 ...</block>
+  <block id="53b500e941f815e0da37832bbbb3f265" category="inline-link">使用 System Manager 进行集群管理</block>
+  <block id="89472c847513493d009f5618c6ea713e" category="list-text"><block ref="89472c847513493d009f5618c6ea713e" category="inline-link-rx"></block></block>
+  <block id="b4d2d6b094d7f0c002c00b2b3a2b046c" category="paragraph">ONTAP 命令行界面（ CLI ）</block>
+  <block id="07e058523b940c42c2d4b65e94ee214d" category="inline-link">使用命令行界面概述集群和 SVM 对等关系</block>
+  <block id="9a41e1d22b5d42ee7ceafe12fe6fc5aa" category="list-text"><block ref="9a41e1d22b5d42ee7ceafe12fe6fc5aa" category="inline-link-rx"></block></block>
+  <block id="14d1bd81ebc369ba6674c932a9ac36e1" category="paragraph">使用命令行界面设置集群对等关系和 SVM 对等关系。</block>
+  <block id="ee8cc707864c87b60e0cc385e0ccdd1e" category="paragraph">使用命令行界面配置子网，集群间 LIF ，路由，防火墙策略和其他网络组件</block>
+  <block id="d23afe6eb860f6cbb2030098cc865207" category="paragraph">从 ONTAP 9.3 开始，直到 ONTAP 9.7 为止，您可以使用 ONTAP System Manager _classic_ 界面在两个集群之间创建集群对等关系，方法是提供系统生成的密码短语以及远程集群的集群间 LIF 的 IP 地址。</block>
+  <block id="2a22387646aaacd459b5f9c466c6eb7b" category="list-text">【第 2 步 - 密码短语】从远程集群生成密码短语。</block>
+  <block id="e31ad1284b7618a9c10777ed99b12e64" category="inline-xref">第 2 步</block>
+  <block id="f23a1cd3708083d067fb2b0fa52b0e8a" category="list-text">在源集群中，输入在中获取的生成密码短语 <block ref="4f6576aa0c468727ebd2cd43ce87e692" category="inline-xref-macro-rx"></block>。</block>
+  <block id="b143e6d1cf76c61979c25eff69459b6a" category="summary">在使用 ONTAP System Manager" 经典 " 界面和 ONTAP 9.7 或更早版本创建集群对等关系之前，您必须验证每个集群上的时间是否与外部网络时间协议（ NTP ）服务器同步，并确定要使用的子网，端口和密码短语。</block>
+  <block id="69104db85081215ee42dcce86665e7d0" category="paragraph">在使用 ONTAP System Manager _classic_ 界面和 ONTAP 9.7 或更早版本创建集群对等关系之前，您必须验证每个集群上的时间是否与外部网络时间协议（ NTP ）服务器同步，并确定要使用的子网，端口和密码短语。</block>
+  <block id="c062e9752b31388b1b66a98e38471ed3" category="paragraph"><block ref="c062e9752b31388b1b66a98e38471ed3" category="inline-link-macro-rx"></block></block>
+  <block id="1671fcdc552b9ee609cd32731c4f52b5" category="paragraph">创建一个类似于下表的表，以记录有关集群的信息。下表假定每个集群有四个节点。如果集群具有四个以上的节点，请为追加信息添加行。</block>
+  <block id="ba406d20b59511a789bd10fb1be98278" category="summary">从 ONTAP 9.3 开始，到 ONTAP 9.7 为止，您可以使用 ONTAP 系统管理器的 " 经典 " 界面创建 SVM 对等关系。通过 Storage Virtual Machine （ SVM ）对等关系，您可以在两个 SVM 之间建立对等关系以进行数据保护。</block>
+  <block id="961651a3152e7876bc4ad1526fe7e4d3" category="doc">创建 SVM 对等关系</block>
+  <block id="8ffc06d28e87576dd9ff2da3caa069e3" category="paragraph">从 ONTAP 9.3 开始，直到 ONTAP 9.7 为止，您可以使用 ONTAP 系统管理器 _classic_ 界面创建 SVM 对等关系。通过 Storage Virtual Machine （ SVM ）对等关系，您可以在两个 SVM 之间建立对等关系以进行数据保护。</block>
+  <block id="16514528850809da669879bf9c0def51" category="paragraph">成功创建集群对等关系后，即可保护数据的可用性。您可以使用以下信息保护数据：</block>
+  <block id="a97f5cda69815f1e77668550fdaeedca" category="list-text"><block ref="a97f5cda69815f1e77668550fdaeedca" category="inline-link-macro-rx"></block></block>
+  <block id="02cf3800215c23ec21668bd5841a318c" category="paragraph">有关更多信息，请参见：</block>
+  <block id="54bc6840f75a7dff97f8a16136b3b7e5" category="summary">在 ONTAP 9.2 或更低版本的 ONTAP 9 中使用 ONTAP System Manager" 经典 " 界面，您可以创建 SVM 对等关系。</block>
+  <block id="e1ced2b6231b913b253064627788590a" category="paragraph">在 ONTAP 9.2 或更早版本的 ONTAP 9 中使用 ONTAP System Manager _classic_ 界面，您可以创建 SVM 对等关系。</block>
+  <block id="a756c2d321e2ec9c76be4a07f67145d8" category="summary">在使用 ONTAP System Manager" 经典 " 界面和 ONTAP 9.7 或更早版本设置集群对等之前，您应确认连接，端口， IP 地址，子网，防火墙， 并满足集群命名要求。</block>
+  <block id="97789c4bc834710f44e1a80833f161ae" category="paragraph">在使用 ONTAP System Manager _classic_ 界面和 ONTAP 9.7 或更早版本设置集群对等之前，您应确认连接，端口， IP 地址，子网，防火墙， 并满足集群命名要求。</block>
+  <block id="32517c827bda6df6c1f17c26de37e248" category="paragraph">您可以使用 ONTAP 系统管理器和 ONTAP 9.7 或更早版本来设置对等关系。设置对等关系包括为每个集群准备对等关系，在每个集群的每个节点上创建集群间逻辑接口（ LIF ），设置集群对等关系，然后设置 SVM 对等关系。</block>
 </blocks>

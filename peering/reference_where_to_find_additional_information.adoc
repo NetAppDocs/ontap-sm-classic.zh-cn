@@ -10,21 +10,19 @@ summary: 成功创建集群对等关系后，即可保护数据的可用性。
 
 
 [role="lead"]
-成功创建集群对等关系后，即可保护数据的可用性。
+成功创建集群对等关系后，即可保护数据的可用性。您可以使用以下信息保护数据：
 
-您可以使用以下内容保护数据：
-
-* xref:../volume-disaster-prep/index.html[卷灾难恢复准备]
+* link:../volume-disaster-prep/index.html["卷灾难恢复准备"]
 +
 介绍如何快速配置和监控不同集群中的卷之间的 SnapMirror 关系。
 
-* xref:../volume-backup-snapvault/index.html[使用 SnapVault 进行卷备份]
+* link:../volume-backup-snapvault/index.html["使用 SnapVault 进行卷备份"]
 +
 介绍如何快速配置集群间 SnapVault 关系。
 
 
 
-有关详细信息，请参见以下内容：
+有关更多信息，请参见：
 
 * https://docs.netapp.com/us-en/ontap/data-protection/index.html["数据保护"^]
 +

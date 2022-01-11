@@ -1,7 +1,7 @@
 ---
 permalink: nas-multiprotocol-config/task_configuring_ldap_new_svm.html 
 sidebar: sidebar 
-keywords: storage, virtual, machine, svm, information, active, directory-based, lightweight, directory, access, protocol, ldap, client, sourve, configure, configure ldap (create a new nfs-enabled svm) 
+keywords: 'storage, virtual, machine, svm, information, active, directory-based, lightweight, directory, access, protocol, ldap, client, sourve, configure, configure ldap (create a new nfs-enabled svm)' 
 summary: 如果您希望 Storage Virtual Machine （ SVM ）从基于 Active Directory 的轻型目录访问协议（ LDAP ）中获取用户信息，则必须创建 LDAP 客户端，为 SVM 启用此客户端，并使 LDAP 优先于其他用户信息源。 
 ---
 = 配置 LDAP （创建启用了 NFS 的新 SVM ）
