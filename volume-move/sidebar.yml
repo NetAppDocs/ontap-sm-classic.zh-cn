@@ -17,5 +17,3 @@ entries:
     url: "/volume-move/task_updating_lun_reporting_nodes_after_moving_volume.html"
   - title: 移动卷后更新 NDMP 备份
     url: "/volume-move/task_updating_ndmp_backup_after_moving_volume.html"
-- title: 从何处查找追加信息
-  url: "/volume-move/reference_where_to_find_additional_information.html"

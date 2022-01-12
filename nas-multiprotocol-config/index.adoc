@@ -38,7 +38,7 @@ summary: 此内容介绍如何在新的或现有的 Storage Virtual Machine （ 
 | 要执行以下任务，请执行以下操作 ... | 查看此内容 ... 
 
 
-| 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本） | link:https://docs.netapp.com/us-en/ontap/task_nas_provision_windows_smb.html["使用 SMB 为 Windows 服务器配置 NAS 存储"^] 
+| 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本） | link:https://docs.netapp.com/us-en/ontap/task_nas_provision_nfs_and_smb.html["使用 NFS 和 SMB 为 Windows 和 Linux 配置 NAS 存储"^] 
 
 
 | ONTAP 命令行界面 | link:https://docs.netapp.com/us-en/ontap/smb-config/index.html["使用命令行界面概述 SMB 配置"^]

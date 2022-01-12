@@ -303,10 +303,7 @@
   <block id="5ec8528b5f18fb515d2fb3dcc239d4a5" category="list-text">按照屏幕上的说明使用默认 RAID-DP 配置创建聚合，然后单击 * 创建 * 。</block>
   <block id="259e1d050d4b27c46420cdffc2fa901e" category="image-alt">在 System Manager 中创建聚合屏幕</block>
   <block id="ae39fb36f0eb605a371ff7e3b69692cd" category="paragraph">此时将使用指定的配置创建聚合，并将其添加到聚合窗口的聚合列表中。</block>
-  <block id="572fdd7fdd2df84d693ac2826f3f84e6" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及如何使用 Windows 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
   <block id="4700e8711c616b2ccf31aba71086f1e0" category="doc">适用于 Windows 的 iSCSI 配置概述</block>
-  <block id="05199f54d2aa7ec337eae75a0de081b8" category="paragraph">此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 以及在 Windows 主机计算机上使用 iSCSI 启动程序使 LUN 可用。</block>
-  <block id="a866dd55529ec0ec04efbcb437ef92d7" category="paragraph">此内容基于以下假设：</block>
   <block id="415c621875b8ef455aa89617809bc819" category="list-text">您正在 Windows Server 2008 或 Windows Server 2012 上使用 Microsoft iSCSI 软件启动程序。</block>
   <block id="83451cb466fdd182e0bdaa0b0004572b" category="list-text">您的网络使用 IPv4 地址。</block>
   <block id="17abbe3d960857acca97a58598230088" category="list-text">您希望使用以下任一方法为逻辑接口分配地址：</block>
@@ -315,8 +312,6 @@
   <block id="d5b3f47971a610f937490a86541c6c16" category="list-text">手动，使用要添加到现有子网的地址</block>
   <block id="3d990756fbb75cb192ec5b99a9bb3936" category="list-text">您未配置 iSCSI SAN 启动。</block>
   <block id="cbf3ee863097550e335315de3607629e" category="paragraph">如果这些假设与您的情况不符，您应查看以下资源：</block>
-  <block id="e683b28420e1e87e2aac3f60c35415ee" category="inline-link">Windows Unified Host Utilities 7.1</block>
-  <block id="66206e1046dd9a3a85a57171aeb47164" category="list-text"><block ref="66206e1046dd9a3a85a57171aeb47164" category="inline-link-rx"></block></block>
   <block id="eebf2f78847d6dccc7df88487c29e572" category="summary">您可以在现有 Storage Virtual Machine （ SVM ）上配置 iSCSI ，并使用一个向导创建 LUN 及其所在的卷。iSCSI 协议必须已在 SVM 上启用，但尚未配置。此信息适用于要为其配置多个协议但尚未配置 iSCSI 的 SVM 。</block>
   <block id="aabaa240b84fa666c6f255273cc23ead" category="doc">在现有 SVM 上配置 iSCSI</block>
   <block id="59b299caab3a1b53e4e5896d1b092f0b" category="paragraph">您可以在现有 Storage Virtual Machine （ SVM ）上配置 iSCSI ，并使用一个向导创建 LUN 及其所在的卷。iSCSI 协议必须已在 SVM 上启用，但尚未配置。此信息适用于要为其配置多个协议但尚未配置 iSCSI 的 SVM 。</block>
@@ -1042,8 +1037,6 @@
   <block id="40a140333cbebfe1cffe1ccb0c2cace8" category="summary">如果 Windows 主机中的 FC 主机总线适配器（ HBA ）运行的驱动程序，固件和 BIOS 版本不受支持，则必须对其进行更新。</block>
   <block id="e54631240250ad3c4f5138fe670ba9b2" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 FC 服务，配置 LUN 以及如何使用 Windows 主机计算机上的 FC HBA 使 LUN 可用。</block>
   <block id="137958d39870a26e1283b177e2babfab" category="doc">适用于 Windows 的 FC 配置概述</block>
-  <block id="e0232ed2f47bf84fc8ee2b287d903aaf" category="paragraph">此内容不涉及 FCoE 。</block>
-  <block id="9b759f4cbbd39cfe431c005e6e1ad36f" category="paragraph">板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。配置这些端口会在 ONTAP 命令行界面中完成，此内容不会介绍这些配置。</block>
   <block id="76c0d4b92dfc6f5a20da4d0875bc8c4f" category="list-text">您未将虚拟光纤通道（ VFC ）与 Hyper-V 或 ESX 子系统结合使用。</block>
   <block id="45010da5958c7fc3d60c5414c380bb70" category="inline-link">NetApp 文档： Host Utilities</block>
   <block id="a2ecc997978aedc00abb9eeb497e7eb9" category="paragraph">有关布线和配置的详细信息，请参见 NetApp 支持站点上适用于您的 ONTAP 版本的 _SAN 配置 _ 或适用于您的 E 系列存储系统的 _Hardware Cabling _ 。</block>
@@ -1780,7 +1773,6 @@
   <block id="8f123b6f4ad978f9c6803038618a9b8c" category="inline-link">ONTAP 9 SAN 配置</block>
   <block id="30c9bf2fd4921da10d1760727d7dc6cd" category="list-text"><block ref="30c9bf2fd4921da10d1760727d7dc6cd" category="inline-link-rx"></block></block>
   <block id="7b163ff65ebf3790f5b97fe18f22f72b" category="inline-link">设备管理</block>
-  <block id="df4aa033bb9748033ab3ea57369d3977" category="list-text"><block ref="df4aa033bb9748033ab3ea57369d3977" category="inline-link-rx"></block></block>
   <block id="27ebce0c0f9c269fad61d937501e68e0" category="summary">适用于 VMware vSphere 的 Virtual Storage Console 可自动执行将 NetApp iSCSI 存储与 ESXi 主机结合使用所需的许多配置和配置任务。Virtual Storage Console 是 vCenter Server 的一个插件。</block>
   <block id="fa3313a389a81d17ecc59d6a9af3cd81" category="doc">安装 Virtual Storage Console</block>
   <block id="4dbd231a9a42eafe7a6612f3a2289388" category="paragraph">您必须具有用于管理 ESXi 主机的 vCenter Server 的管理员凭据。</block>
@@ -1892,14 +1884,10 @@
   <block id="c095667b485ebff52a4a4f5838e727cb" category="summary">您必须确保主机多路径和最佳实践设置正确，以便 ESXi 主机能够正确管理 FC 路径丢失或存储故障转移事件。</block>
   <block id="b7b71e4ffa1bcfc6ef48c886ae82c581" category="list-text">如果要在已配置 FC 的 SVM 上配置卷，则必须验证 FC 服务是否正在运行。</block>
   <block id="ac486e8c7eaa144720f9743326a1eb94" category="paragraph">此 VMware 内容介绍了 ESXi 5.x 的 FC 和 iSCSI 配置</block>
-  <block id="15e7a5d32326da64e302cc774081160f" category="summary">此内容介绍如何在 Storage Virtual Machine 上快速设置 FC 服务，配置 LUN 以及如何使用 ESX 主机计算机上的 FC HBA 将 LUN 用作数据存储库。</block>
   <block id="caeab82c4f9b5aa8223e7cf94f44d99d" category="doc">使用 VSC 为 ESXi 配置 FC 概述</block>
-  <block id="d7b7f21fbc1005ea05dfcc0e395d7d26" category="paragraph">此内容介绍如何在 Storage Virtual Machine （ SVM ）上快速设置 FC 服务，配置 LUN 以及如何使用 ESX 主机计算机上的 FC HBA 将 LUN 用作数据存储库。</block>
   <block id="5a904ed7630aa080098419a943137232" category="list-text">您正在使用支持的适用于 VMware vSphere 的 Virtual Storage Console 版本为 ESX 主机配置存储设置并配置数据存储库。</block>
   <block id="1fe0867d1be2bcaa05e5f8f160018fac" category="list-text">您正在 ESXi 5.x 和传统 FC 交换机上使用传统 FC HBA 。</block>
   <block id="dfccb684b063bbb06e8ec445a12648fa" category="list-text">您正在主机上创建数据存储库。</block>
-  <block id="c20bb95a0ed4fa82dbcc7f708c61c22c" category="paragraph">此内容不包括原始设备映射（ RDM ）磁盘或使用 N 端口 ID 虚拟化（ NPIV ）直接为 VM 提供 FC 。</block>
-  <block id="227ba1889655b9003fba907d5ad61e9f" category="list-text">适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从 VMware 获得）。</block>
   <block id="27045e1024ed1f1f4ea149b9fcfc4e8f" category="summary">适用于 VMware vSphere 的 Virtual Storage Console 可自动执行将 NetApp FC 存储与 ESXi 主机结合使用所需的许多配置和配置任务。Virtual Storage Console 是 vCenter Server 的一个插件。</block>
   <block id="2157ff4fa230c3478676d1a9841d6742" category="summary">如果您选择使用现有 Storage Virtual Machine ，则必须使用 ONTAP 系统管理器验证此 SVM 上是否正在运行 FC 服务。此外，还必须验证是否已创建 FC 逻辑接口。</block>
   <block id="d6a67fe91354d179ec88399da8625656" category="summary">您可以在现有 Storage Virtual Machine 上配置 FC 。必须已在 SVM 上启用 FC 协议，但尚未配置该协议。此信息适用于要为其配置多个协议但尚未配置 FC 的 SVM 。</block>
@@ -8926,7 +8914,6 @@
   <block id="61b57d9564461a9838d453f1ef6ce433" category="paragraph">有关重新扫描主机的具体步骤，请参见主机文档。</block>
   <block id="400fdfaadcfb07b2537e17b327b2652e" category="summary">在移动卷之前，您应选择卷移动操作的方法并计划此操作的时间。您可以使用 System Manager 移动卷。移动后，您可能需要更新 NDMP 备份配置。</block>
   <block id="bc1a27d4644c1382fc708734f367f016" category="doc">卷移动工作流</block>
-  <block id="5b7f7c76d2d030f31c1748ab5658f00d" category="summary">您可以在 System Manager 中移动卷，方法是选择卷和目标聚合，启动卷移动操作，并可选择监控卷移动作业。使用 System Manager 时，卷移动操作会自动完成。</block>
   <block id="8cc361d28306cbcdcf5e91a139f896f7" category="doc">使用 System Manager 移动卷</block>
   <block id="458ddd6be3659f6ff7556ab9af971d04" category="paragraph">在执行卷移动操作之前以及执行卷移动操作之后，您应已查看源聚合和目标聚合上的可用空间。</block>
   <block id="b50b7f9e35820349cfa1b09de732b981" category="paragraph">只有在同一集群中才支持卷移动操作。此外，您还应注意，要将卷移动到的聚合和要从中移动卷的聚合必须位于同一个 Storage Virtual Machine （ SVM ）中。卷移动不会中断客户端访问。</block>
@@ -8936,7 +8923,6 @@
   <block id="5adc4bd2b702e68d30034cecee03c3c5" category="paragraph">您应查看聚合的可用空间，总空间， RAID 类型和存储类型。例如，如果目标是更改卷的性能特征，则可以重点关注具有所需存储类型的聚合。</block>
   <block id="f6851d82f07b61330eb30ab01d6432f0" category="list-text">单击 * 移动 * ，然后再次单击 * 移动 * 以确认您要继续执行卷移动操作。</block>
   <block id="a27c061e64c0306d2fa2c0d104ae827e" category="paragraph">显示移动卷对话框时，如果要监控卷移动作业，请保持此对话框处于打开状态。</block>
-  <block id="d5e9fa2e3049ebf95d1d5c4d9c8dc02d" category="list-text">监控卷移动作业：</block>
   <block id="6cbcf1aeb813124fdb785ffab3f247f0" category="list-text">在 * 移动卷 * 对话框中，单击指向卷移动作业的 * 作业 ID* 的链接。</block>
   <block id="04a4565c69c92bc9fbe7629314797444" category="list-text">找到卷移动作业，然后查看 * 状态 * 列中的信息。</block>
   <block id="f548e6c535c8fd10fdcffe6be9d53c09" category="paragraph">作业可以处于多个阶段中的任一阶段，例如传输初始数据基线或启动转换尝试。</block>
@@ -8949,30 +8935,21 @@
   <block id="46c90ca7ff865e0a6cb43b7e198ed26c" category="cell">执行以下步骤 ...</block>
   <block id="549e5c03adc8342851bed045ad372ef6" category="paragraph">ONTAP 9.3 或更高版本</block>
   <block id="a12e556f93189e1e5d4fdac760567e5e" category="list-text">展开卷并单击 * 显示更多详细信息 * 链接可查看有关该卷的更多信息。</block>
-  <block id="77a658168edf7eb1da6276e73e63db08" category="list-text">在概述选项卡中，单击 * 转换 * 。</block>
   <block id="738bba8542673e6691a22bf24b28ef3f" category="paragraph">ONTAP 9.2 或更早版本</block>
   <block id="893fc3b71929e9998d7d9930a5d00c46" category="paragraph">在 * 卷移动详细信息 * 选项卡中，单击 * 转换 * 。</block>
   <block id="f9ade2615eabd10ce97ad8767b9f6f54" category="list-text">在 * 转换 * 对话框中，单击 * 高级选项 * 。</block>
   <block id="c7310cc07e4b6ea3b84dd61df69db718" category="list-text">指定转换操作和转换持续时间。</block>
   <block id="7882a4b556b6996eaf604413a9e602d9" category="inline-xref">第 4 步</block>
-  <block id="9f74577c8faafb1c17dd58c960b0adae" category="list-text">重复 <block ref="7c929aff15c14fe89133b3c6e15f29af" category="inline-xref-macro-rx"></block>。</block>
   <block id="1d02285ce9e16fdfb19638fd54388aae" category="summary">如果您希望了解有关管理 ONTAP 的详细信息，请参见 ONTAP 9 产品库。</block>
-  <block id="293b43e07ad5a9dea61ad78a3c4044d2" category="summary">如果要移动的卷包含 LUN ，而目标聚合位于另一个高可用性（ HA ）对上，则 ONTAP 会自动将 HA 对添加到选择性 LUN 映射报告节点列表中。添加 LUN 报告节点有助于保持优化的 LUN 路径。</block>
   <block id="062aed2f77814765934aa4369c3c4e2a" category="doc">移动卷后验证 LUN 报告节点</block>
-  <block id="f36489169fa56167daf27b5d3881f842" category="paragraph">必须配置两个 LIF ，一个 LIF 位于目标节点上，另一个 LIF 位于目标节点的 HA 配对节点上。</block>
   <block id="6232714e0676479b33561379bad6def7" category="paragraph">只有在将卷从一个 HA 对移动到另一个 HA 对时，才需要此操作步骤。如果将卷移动到同一 HA 对的其他节点，例如，具有双节点集群或 MetroCluster 配置，则可以跳过此操作步骤。</block>
-  <block id="33db0056da454c8dbd51b89c0c476cb3" category="list-text">验证目标节点及其配对节点是否位于卷的报告节点列表中。如果节点不在 reporting-nodes 列表中，请将目标节点及其配对节点添加到卷的 reporting-nodes 列表中： `lun mapping add-reporting-nodes`</block>
   <block id="3ce0bb375ae7d33aa4a029564d1fd1bf" category="list-text">从主机重新扫描以发现新添加的路径。</block>
   <block id="98dc4ac3695fdb0b990b7b0f31ebeca3" category="list-text">将新路径添加到 MPIO 配置。</block>
-  <block id="c261835b5dca66f049ad27a9fff8b5fd" category="list-text">从报告节点列表中删除先前的 LUN 所有者及其配对节点：``lun mapping remove-reporting-nodes-remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name``</block>
   <block id="f2d074c5a39bd379f209f91612839fd7" category="list-text">重新扫描主机以验证是否删除了旧路径。</block>
-  <block id="60bc5f066904f66a2c81ec1c8e1bde07" category="summary">您可以使用此内容无中断地将数据卷从一个节点移动到 ONTAP 9 集群中同一 Storage Virtual Machine （ SVM ）中的另一个节点。</block>
   <block id="031cb7023542cd8e93be7689fdd95edd" category="doc">卷移动概述</block>
   <block id="a64f315149cf8da551df1e7cf3003f0d" category="section-title">使用此内容的要求</block>
-  <block id="a31c071054958a480aead78e77e704fc" category="paragraph">在使用此内容之前，请确保满足以下条件：</block>
   <block id="66a8b7d7749504ecbb5d242f4755ab4d" category="list-text">此集群正在运行 ONTAP 9 。</block>
   <block id="43807459ecf40534d3acb5ec0f1921df" category="list-text">您拥有集群管理员权限。</block>
-  <block id="0a39aee867f31a4111bc12ed0f577066" category="list-text">要使用 System Manager 。</block>
   <block id="3ed5c217630754fee69d1a68dcb2f0bd" category="paragraph">对于某些任务，您必须使用 ONTAP 命令行界面（ CLI ）。</block>
   <block id="1d6f7e7c428f73c0d4372a0ff88fda31" category="list-text">您知道要移动的卷。</block>
   <block id="8dfc11ac621fe4dca1f8d0f5e929259e" category="paragraph">为了帮助您确定要移动的卷，您可以使用 Active IQ Unified Manager （以前称为 OnCommand 统一管理器）。</block>
@@ -8982,14 +8959,11 @@
   <block id="a09b2e8a691c5da9af0fa7a12a19a7b0" category="list-text">未在集群网络端口上启用流量控制。</block>
   <block id="61e717a83e8c90797da1f75fda13738a" category="list-text">对于包含命名空间的卷，集群运行的是 ONTAP 9.6 或更高版本。</block>
   <block id="173ad3bcfff4d1f1507ba84a317428e5" category="paragraph">运行 ONTAP 9.5 的 NVMe 配置不支持卷移动。</block>
-  <block id="b6ba7f3abba39ec4b8d6e585c9a59523" category="paragraph">介绍如何使用命令行界面移动卷。</block>
   <block id="9bf1ef5cb6d4e917499eb1ba207fb7a1" category="section-title">卷移动的替代方案</block>
   <block id="3616a31cc80ad2711b4059822089f3bd" category="paragraph">在移动卷之前，您应评估以下方法是否更适合您的情况：</block>
   <block id="4362cf8cfdded7907ff58326f0e2253e" category="list-text">如果您要无中断地原位升级控制器，可以考虑使用聚合重新定位（ Aggregate Relocation ， ARL ），这不需要物理数据移动。</block>
   <block id="520b661a272c9e6f55f469cc9c24193d" category="inline-link">高可用性</block>
   <block id="7e1caee432e45df33253240aef926690" category="paragraph"><block ref="7e1caee432e45df33253240aef926690" category="inline-link-rx"></block></block>
-  <block id="8823cc9c73f1f426257fff05c3776f77" category="list-text">如果要仅移动 LUN 而不移动其包含的卷，则可以使用 LUN 移动机制。</block>
-  <block id="a08f9952542204bed0ffcffc2b8c6fef" category="summary">您可以使用 System Manager 移动卷并确定是否需要手动转换。如果需要更新 LUN 报告节点，则必须遵循命令行界面（ CLI ）中的高级操作步骤。您也可以选择规划卷移动的时间。</block>
   <block id="cc5aa5550dbc90a9b87ec6d64eebb910" category="doc">规划卷移动的方法和时间</block>
   <block id="2f6399049d795ab52a90f605cad67b9f" category="paragraph">可以在镜像卷时移动 SnapMirror 或 SnapVault 关系的源卷。在卷移动作业的转换阶段， SnapMirror 服务会短暂暂停。</block>
   <block id="e239caf6087b1de2a8f8c0c9580560e4" category="paragraph">也可以移动目标卷。在迭代阶段， SnapMirror 或 SnapVault 更新和卷移动操作会同时运行。在评估转换阶段是否可以进行转换时，转换与 SnapMirror 或 SnapVault 更新之间的优先级将根据先到先得的原则来确定。在第一个操作完成之前，其他操作将被阻止。</block>
@@ -9013,7 +8987,6 @@
   <block id="2768079e50eeb25d1fdc084b773fe18b" category="list-text">如果正在对属于已切换站点的卷执行卷移动操作，则会阻止 MetroCluster 切回。如果正在对运行正常的站点的本地卷执行卷移动操作，则不会阻止切回。</block>
   <block id="fd2a51ac70c4cffc620dd4b2e7d564cb" category="list-text">在执行卷移动操作时，可能会发生强制 MetroCluster 切换。</block>
   <block id="abfbfe63d1a47c6db816839bde38c2a3" category="inline-xref-macro">移动卷后验证 LUN 报告节点</block>
-  <block id="b7261671a5af7c9f0e13b4cb5f195702" category="paragraph"><block ref="b7261671a5af7c9f0e13b4cb5f195702" category="inline-xref-macro-rx"></block></block>
   <block id="1e996f26351a0638249b3824089ec245" category="summary">如果移动的卷之前已在特定配置中使用 NDMP 备份到磁带，则在移动此卷后，您可以执行以下操作之一以确保此卷继续成功备份： 创建基线或将备份 LIF 迁移到包含所移动卷的节点。</block>
   <block id="d7b682d0d08519e4f5af39452cfcadb1" category="doc">移动卷后更新 NDMP 备份</block>
   <block id="11426251ed10c2575d083e72541d2de2" category="list-text">只有当备份应用程序不支持集群感知型备份（操作步骤）扩展且备份过程使用节点范围的 NDMP 时，才需要此 NDMP 。</block>
@@ -9592,7 +9565,6 @@
   <block id="cac8f9855a84d59ce73590ed73607556" category="cell">* 请参见此内容 ...*</block>
   <block id="d0f2df2bdd6b328117c96dcaacb4a936" category="cell">重新设计的 System Manager （在 9.7 及更高版本中提供）</block>
   <block id="64f576bfce499e9d2ae488c0d3e09336" category="inline-link">为 Linux 服务器配置 SAN 存储</block>
-  <block id="e5835ff4bc2646f9c2d8533e2b6f1954" category="cell"><block ref="e5835ff4bc2646f9c2d8533e2b6f1954" category="inline-link-rx"></block></block>
   <block id="9ad9dc11e51ff2950987cfa2ea72bc38" category="cell">ONTAP 命令行界面（ CLI ）</block>
   <block id="eb6376dffb5514ac68fd3270be5c262d" category="inline-link">使用 CLI 设置 LUN 的工作流</block>
   <block id="891e8c89dd363f26a29ab09128f98c1d" category="cell"><block ref="891e8c89dd363f26a29ab09128f98c1d" category="inline-link-rx"></block></block>
@@ -9626,7 +9598,6 @@
   <block id="982b26a119993277a196e08d99a37e4a" category="list-text"><block ref="982b26a119993277a196e08d99a37e4a" category="inline-link-rx"></block></block>
   <block id="a642a03a1d89a2568a28161a6dcba8c0" category="list-text"><block ref="a642a03a1d89a2568a28161a6dcba8c0" category="inline-link-rx"></block></block>
   <block id="e466eeb1f64e47b473620aac811abf13" category="list-text"><block ref="e466eeb1f64e47b473620aac811abf13" category="inline-link-rx"></block></block>
-  <block id="136200586625d8dafefda787f79f587f" category="list-text">适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取 <block ref="0421fa2cd01f0c9937fe08195e375fca" category="inline-link-macro-rx"></block>）</block>
   <block id="b92480144202163d36d8ff97ea5e2385" category="paragraph">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 Red Hat Enterprise Linux 服务器上使用 FC 主机总线适配器（ HBA ）在 Storage Virtual Machine （ SVM ）上快速设置 FC 服务，配置 LUN 并使 LUN 可用。</block>
   <block id="d822c6968566763eeb55563cebc6ec6e" category="cell"><block ref="d822c6968566763eeb55563cebc6ec6e" category="inline-link-macro-rx"></block></block>
   <block id="785f21867c78d48d84db708fe6d6705a" category="list-text">转至<block ref="ae0acc7a1cf35a69eb7b42685c902841" category="inline-link-rx"></block> 验证是否支持以下组件的组合：</block>
@@ -9721,4 +9692,44 @@
   <block id="a756c2d321e2ec9c76be4a07f67145d8" category="summary">在使用 ONTAP System Manager" 经典 " 界面和 ONTAP 9.7 或更早版本设置集群对等之前，您应确认连接，端口， IP 地址，子网，防火墙， 并满足集群命名要求。</block>
   <block id="97789c4bc834710f44e1a80833f161ae" category="paragraph">在使用 ONTAP System Manager _classic_ 界面和 ONTAP 9.7 或更早版本设置集群对等之前，您应确认连接，端口， IP 地址，子网，防火墙， 并满足集群命名要求。</block>
   <block id="32517c827bda6df6c1f17c26de37e248" category="paragraph">您可以使用 ONTAP 系统管理器和 ONTAP 9.7 或更早版本来设置对等关系。设置对等关系包括为每个集群准备对等关系，在每个集群的每个节点上创建集群间逻辑接口（ LIF ），设置集群对等关系，然后设置 SVM 对等关系。</block>
+  <block id="7c6e4274de02882bc86c248e616125ab" category="summary">在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面，您可以通过选择卷和目标聚合，启动卷移动操作以及监控卷移动作业来移动卷。使用 System Manager 时，卷移动操作会自动完成。</block>
+  <block id="c23945ad1d09891b1018f7d6420b5614" category="paragraph">在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面，您可以通过选择卷和目标聚合，启动卷移动操作以及监控卷移动作业来移动卷。使用 System Manager 时，卷移动操作会自动完成。</block>
+  <block id="8c6f3a8f6143dcec911e35cf031fd7e1" category="list-text">【第 4 步 - 监控】监控卷移动作业：</block>
+  <block id="4077a398426e6e6d8aa9ea33feedaa45" category="list-text">重复 <block ref="0f90b952a1c7c3d8225b70285217c20b" category="inline-xref-macro-rx"></block>。</block>
+  <block id="bf1e5a0ccb5779f93165d1b3ca83650d" category="summary">您可以添加 LUN 报告节点，以帮助维护优化的 LUN 路径。</block>
+  <block id="83b2edcf6a3639d61126561d31217291" category="paragraph">如果要移动的卷包含 LUN ，而目标聚合位于另一个高可用性（ HA ）对上，则 ONTAP 会自动将 HA 对添加到选择性 LUN 映射报告节点列表中</block>
+  <block id="decad5241e5d2628a342257991c9866f" category="paragraph">必须配置两个 LIF ：一个 LIF 位于目标节点上，另一个 LIF 位于目标节点的 HA 配对节点上。</block>
+  <block id="9310ee1dd45d21e65c46aeb6ba0f9482" category="list-text">验证目标节点及其配对节点是否位于卷的报告节点列表中。如果节点不在 reporting-nodes 列表中，请将目标节点及其配对节点添加到卷的 reporting-nodes 列表中：</block>
+  <block id="a86058b8867bcbe5998ef971bf67ed3e" category="paragraph">`LUN 映射 add-reporting-nodes`</block>
+  <block id="43ee995f485e80d5a5277609e963e025" category="list-text">从报告节点列表中删除先前的 LUN 所有者及其配对节点：</block>
+  <block id="a8e0ec82d23eef4ff77e89906b9a0adb" category="paragraph">`lun mapping remove-reporting-nodes-remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name`</block>
+  <block id="264600d8c4bfddb483a5b1cff7dbe8e1" category="summary">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面移动卷并确定是否需要手动转换。如果需要更新 LUN 报告节点，则必须遵循命令行界面（ CLI ）中的高级操作步骤。您也可以选择规划卷移动的时间。</block>
+  <block id="bb4e0664dce82d4f272a2c414f718ed6" category="paragraph">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面移动卷并确定是否要手动转换。如果需要更新 LUN 报告节点，则必须遵循命令行界面（ CLI ）中的高级操作步骤。您也可以选择规划卷移动的时间。</block>
+  <block id="1726756354b3c567d2e6c0985de0b2b9" category="paragraph"><block ref="1726756354b3c567d2e6c0985de0b2b9" category="inline-link-macro-rx"></block></block>
+  <block id="c0032a85487cfb4d4fd077378f54a0af" category="paragraph">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面移动卷。</block>
+  <block id="2705df4920af66d1e4e15bf489d1162e" category="paragraph">在移动卷之前，您应选择卷移动操作的方法并计划此操作的时间。移动后，您可能需要更新 NDMP 备份配置。</block>
+  <block id="f6ee4ca2c212f41f1af0e96ac0f0b1e6" category="cell">要完成此工作流，请使用 ...</block>
+  <block id="e2439a8512b353f75391ba9c346bc84d" category="inline-link">管理卷</block>
+  <block id="66926fa0712b0fb36021de81aca75703" category="paragraph"><block ref="66926fa0712b0fb36021de81aca75703" category="inline-link-rx"></block></block>
+  <block id="293b90a9704dbfb86b53c5d5c660b304" category="paragraph">ONTAP 命令行界面</block>
+  <block id="6c61c05b1d8e0ce824dd01e7039f9406" category="summary">使用 ONTAP System Manager 经典界面和 ONTAP 9.7 或更早版本，您可以无中断地将数据卷从 ONTAP 9 集群中同一 Storage Virtual Machine （ SVM ）中的一个节点移动到另一个节点。</block>
+  <block id="74fc6416343947ecb03b99f6d1525ef3" category="paragraph">在使用之前，请执行以下步骤，确保满足以下条件：</block>
+  <block id="79118e59ff8ba91fa097d70306cbb593" category="cell">要完成此任务，请使用 ...</block>
+  <block id="c0f22c1d55c3730577ec308ebbb2717b" category="list-text">如果要仅移动 LUN 而不移动其包含的卷，则可以使用 LUN 移动过程。</block>
+  <block id="2043d9c76a0ce0aead2a3d90c7edea3d" category="cell"><block ref="2043d9c76a0ce0aead2a3d90c7edea3d" category="inline-link-rx"></block></block>
+  <block id="21da5bdcfd1b855ee9de397cb8a78a1d" category="cell"><block ref="21da5bdcfd1b855ee9de397cb8a78a1d" category="inline-link-rx"></block></block>
+  <block id="edac2410e6e0abc8a44fc79a7cd44017" category="inline-link-macro">使用 NFS 和 SMB 为 Windows 和 Linux 配置 NAS 存储</block>
+  <block id="4487b7ad6b82e7128f715f08580539cd" category="cell"><block ref="4487b7ad6b82e7128f715f08580539cd" category="inline-link-macro-rx"></block></block>
+  <block id="ebbe07a31c658dafaec9daee447e2031" category="summary">使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并在 Windows 主机计算机上使用 iSCSI 启动程序使 LUN 可用。</block>
+  <block id="4295687df21a9194dfb32bf7cc8d8879" category="paragraph">有关 SAN 管理的其他详细信息，请参见<block ref="8499bea34abc994e4281bc61265ea2b9" category="inline-link-rx"></block></block>
+  <block id="e820db4b0c1f039b5347006a9a6f6954" category="cell"><block ref="e820db4b0c1f039b5347006a9a6f6954" category="inline-link-rx"></block></block>
+  <block id="71f3a57d3c80b26e640b84b27c2b8e4e" category="summary">使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在 Storage Virtual Machine （ SVM ）上快速设置 FC 服务，配置 LUN ，并使用 ESX 主机计算机上的 FC HBA 将 LUN 用作数据存储库。</block>
+  <block id="d432d4f68190c54b5adf35251379f3fb" category="paragraph">此操作步骤不包括 FCoE 。</block>
+  <block id="58b58b7e31b6b40393ea4d6eaaa65f6a" category="paragraph">板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置会在 ONTAP 命令行界面中完成，此操作步骤不会对此进行介绍。</block>
+  <block id="269d64d46c556a3a7403703cf1ed2dcf" category="paragraph">此操作步骤不包括原始设备映射（ RDM ）磁盘或使用 N 端口 ID 虚拟化（ NPIV ）直接为 VM 提供 FC 。</block>
+  <block id="d2494eaa8817110c3f33b9db26112081" category="inline-link">ONTAP 9 SAN 管理</block>
+  <block id="b4db604f7f46fce8467c2f28a2c5e83e" category="list-text"><block ref="b4db604f7f46fce8467c2f28a2c5e83e" category="inline-link-rx"></block></block>
+  <block id="83cb195869ecf30cf2bf909696d90958" category="inline-link">ONTAP 9 SAN 配置</block>
+  <block id="429f603a3b811bb2b6b580119340e5c8" category="list-text"><block ref="429f603a3b811bb2b6b580119340e5c8" category="inline-link-rx"></block></block>
+  <block id="9924ee2c6c9746d6e6c56a2812bbf674" category="list-text">适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取 <block ref="44f9482eaaa326b6591ec57007a0f626" category="inline-link-macro-rx"></block>）</block>
 </blocks>

@@ -2,7 +2,7 @@
 permalink: volume-move/task_planning_method_timing_volume_move.html 
 sidebar: sidebar 
 keywords: system, manager, volume, manual, cutover, lun, report, node, advance, procedure, command-line, interface, cli, plan, plan the method and timing of a volume move 
-summary: 您可以使用 System Manager 移动卷并确定是否需要手动转换。如果需要更新 LUN 报告节点，则必须遵循命令行界面（ CLI ）中的高级操作步骤。您也可以选择规划卷移动的时间。 
+summary: '您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面移动卷并确定是否需要手动转换。如果需要更新 LUN 报告节点，则必须遵循命令行界面（ CLI ）中的高级操作步骤。您也可以选择规划卷移动的时间。' 
 ---
 = 规划卷移动的方法和时间
 :icons: font
@@ -10,7 +10,7 @@ summary: 您可以使用 System Manager 移动卷并确定是否需要手动转�
 
 
 [role="lead"]
-您可以使用 System Manager 移动卷并确定是否需要手动转换。如果需要更新 LUN 报告节点，则必须遵循命令行界面（ CLI ）中的高级操作步骤。您也可以选择规划卷移动的时间。
+您可以在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面移动卷并确定是否要手动转换。如果需要更新 LUN 报告节点，则必须遵循命令行界面（ CLI ）中的高级操作步骤。您也可以选择规划卷移动的时间。
 
 可以在镜像卷时移动 SnapMirror 或 SnapVault 关系的源卷。在卷移动作业的转换阶段， SnapMirror 服务会短暂暂停。
 
@@ -61,6 +61,4 @@ _Cutover_ 是指移动操作完成且 ONTAP 开始从新聚合上的卷提供数
 
 
 
-* 相关信息 *
-
-xref:task_verifying_lun_reporting_nodes_after_moving_volume.adoc[移动卷后验证 LUN 报告节点]
+link:task_verifying_lun_reporting_nodes_after_moving_volume.html["移动卷后验证 LUN 报告节点"]

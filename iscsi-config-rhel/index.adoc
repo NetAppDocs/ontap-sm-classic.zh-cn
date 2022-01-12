@@ -39,8 +39,8 @@ summary: 这些过程介绍如何在 Storage Virtual Machine 上快速设置 iSC
 | * 要使用 ... 完成此任务，请执行以下操作： * | * 请参见此内容 ...* 
 
 
-| 重新设计的 System Manager （在 9.7 及更高版本中提供） | https://docs.netapp.com/us-en/ontap/task_san_provision_linux.html["为 Linux 服务器配置 SAN 存储"] 
+| 重新设计的 System Manager （在 9.7 及更高版本中提供） | https://docs.netapp.com/us-en/ontap/task_san_provision_linux.html["为 Linux 服务器配置 SAN 存储"^] 
 
 
-| ONTAP 命令行界面（ CLI ） | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["使用 CLI 设置 LUN 的工作流"] 
+| ONTAP 命令行界面（ CLI ） | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["使用 CLI 设置 LUN 的工作流"^] 
 |===

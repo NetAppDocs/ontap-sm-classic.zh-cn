@@ -2,7 +2,7 @@
 permalink: volume-move/task_moving_volume_using_system_manager.html 
 sidebar: sidebar 
 keywords: move, volume, system, manager, destination, aggregate, operation, monitor, job, move a volume using system manager 
-summary: 您可以在 System Manager 中移动卷，方法是选择卷和目标聚合，启动卷移动操作，并可选择监控卷移动作业。使用 System Manager 时，卷移动操作会自动完成。 
+summary: '在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面，您可以通过选择卷和目标聚合，启动卷移动操作以及监控卷移动作业来移动卷。使用 System Manager 时，卷移动操作会自动完成。' 
 ---
 = 使用 System Manager 移动卷
 :icons: font
@@ -10,7 +10,7 @@ summary: 您可以在 System Manager 中移动卷，方法是选择卷和目标�
 
 
 [role="lead"]
-您可以在 System Manager 中移动卷，方法是选择卷和目标聚合，启动卷移动操作，并可选择监控卷移动作业。使用 System Manager 时，卷移动操作会自动完成。
+在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面，您可以通过选择卷和目标聚合，启动卷移动操作以及监控卷移动作业来移动卷。使用 System Manager 时，卷移动操作会自动完成。
 
 在执行卷移动操作之前以及执行卷移动操作之后，您应已查看源聚合和目标聚合上的可用空间。
 
@@ -31,7 +31,7 @@ summary: 您可以在 System Manager 中移动卷，方法是选择卷和目标�
 
 
 
-. 监控卷移动作业：
+. 【第 4 步 - 监控】监控卷移动作业：
 +
 .. 在 * 移动卷 * 对话框中，单击指向卷移动作业的 * 作业 ID* 的链接。
 .. 找到卷移动作业，然后查看 * 状态 * 列中的信息。
@@ -56,6 +56,8 @@ image::../media/volume_move_4_job_is_successful.gif[此图通过周围的文本�
 .. 为卷启动转换：
 +
 |===
+
+
 | 如果您正在运行 ... | 执行以下步骤 ... 
 
 
@@ -63,7 +65,7 @@ image::../media/volume_move_4_job_is_successful.gif[此图通过周围的文本�
 ONTAP 9.3 或更高版本
  a| 
 ... 展开卷并单击 * 显示更多详细信息 * 链接可查看有关该卷的更多信息。
-... 在概述选项卡中，单击 * 转换 * 。
+... 在 * 概述 * 选项卡中，单击 * 转换 * 。
 
 
 
@@ -82,5 +84,5 @@ image::../media/vol_move_cutover.gif[此图通过周围的文本进行了说明�
 .. 单击 * 确定 * 。
 
 
-. 重复 <<STEP_53CF9F368D034CAA9CE54A9416A0879C,第 4 步>>。
+. 重复 <<step4-monitor,第 4 步>>。
 
