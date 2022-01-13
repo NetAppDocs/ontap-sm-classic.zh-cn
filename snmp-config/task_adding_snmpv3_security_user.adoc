@@ -2,7 +2,7 @@
 permalink: snmp-config/task_adding_snmpv3_security_user.html 
 sidebar: sidebar 
 keywords: snmpv3, offer, advance, security, passphrase, encryption, system, manager, cluster, level, snmp, utilities, utility, traphost, authentication, privacy, setting, add an snmpv3 security user 
-summary: SNMPv3 通过使用密码短语和加密提供高级安全性。您可以使用 System Manager 在集群级别添加 SNMPv3 用户。SNMPv3 用户可以使用您指定的身份验证和隐私设置从陷阱主机（ SNMP 管理器）运行 SNMP 实用程序。 
+summary: '您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面在集群级别添加 SNMPv3 用户。' 
 ---
 = 添加 SNMPv3 安全用户
 :icons: font
@@ -10,7 +10,9 @@ summary: SNMPv3 通过使用密码短语和加密提供高级安全性。您可�
 
 
 [role="lead"]
-SNMPv3 通过使用密码短语和加密提供高级安全性。您可以使用 System Manager 在集群级别添加 SNMPv3 用户。SNMPv3 用户可以使用您指定的身份验证和隐私设置从陷阱主机（ SNMP 管理器）运行 SNMP 实用程序。
+您可以在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面在集群级别添加 SNMPv3 用户。
+
+SNMPv3 用户可以使用您指定的身份验证和隐私设置从陷阱主机（ SNMP 管理器）运行 SNMP 实用程序。SNMPv3 通过使用密码短语和加密提供高级安全性。
 
 在集群级别添加 SNMPv3 用户时，该用户可以通过应用了 `mGMT` 防火墙策略的所有 LIF 访问集群。
 
@@ -26,7 +28,7 @@ SNMPv3 通过使用密码短语和加密提供高级安全性。您可以使用 
 +
 ` ， / ： " '`
 
-.. 对于引擎 ID ，选择默认值 `本地引擎 ID`
+.. 对于引擎 ID ，选择默认值 `本地引擎 ID` 。
 +
 引擎 ID 用于为 SNMPv3 消息生成身份验证和加密密钥。
 

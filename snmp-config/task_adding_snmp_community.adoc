@@ -2,7 +2,7 @@
 permalink: snmp-config/task_adding_snmp_community.html 
 sidebar: sidebar 
 keywords: system, manager, add, community, administrative, storage, virtual, machine, svm, cluster, snmpv1, snmpv2c, protocol, add an anmp community 
-summary: 您可以使用 System Manager 向运行 SNMPv1 或 SNMPv2c 的集群的管理 Storage Virtual Machine （ SVM ）添加社区。System Manager 使用 SNMP 协议 SNMPv1 和 SNMPv2c 以及 SNMP 社区来发现存储系统。 
+summary: '您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面向运行 SNMPv1 或 SNMPv2c 的集群的管理 Storage Virtual Machine （ SVM ）添加社区。System Manager 使用 SNMP 协议 SNMPv1 和 SNMPv2c 以及 SNMP 社区来发现存储系统。' 
 ---
 = 添加 SNMP 社区
 :icons: font
@@ -10,11 +10,9 @@ summary: 您可以使用 System Manager 向运行 SNMPv1 或 SNMPv2c 的集群�
 
 
 [role="lead"]
-您可以使用 System Manager 向运行 SNMPv1 或 SNMPv2c 的集群的管理 Storage Virtual Machine （ SVM ）添加社区。System Manager 使用 SNMP 协议 SNMPv1 和 SNMPv2c 以及 SNMP 社区来发现存储系统。
+您可以将 ONTAP System Manager _classic_ 界面与 ONTAP 9.7 或更早版本结合使用，将社区添加到运行 SNMPv1 或 SNMPv2c 的集群的管理 Storage Virtual Machine （ SVM ）中。System Manager 使用 SNMP 协议 SNMPv1 和 SNMPv2c 以及 SNMP 社区来发现存储系统。
 
-此操作步骤用于向集群的管理 SVM 添加 SNMP 社区。用于向数据 SVM 添加 SNMP 社区的操作步骤在网络文档中进行了介绍。
-
-https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"]
+此操作步骤用于向集群的管理 SVM 添加 SNMP 社区。中介绍了用于向数据 SVM 添加 SNMP 社区的操作步骤 https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"]。
 
 在新安装的 ONTAP 中， SNMPv1 和 SNMPv2c 默认处于禁用状态。创建 SNMP 社区时， SNMPv1 和 SNMPv2c 将处于启用状态。
 

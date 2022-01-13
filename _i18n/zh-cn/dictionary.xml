@@ -9035,16 +9035,13 @@
   <block id="80b58f1091b6460f7d14ad52624a01f3" category="paragraph">SUSE Linux Enterprise Server 10 或 11 系列</block>
   <block id="b06af70a00712567754c55898364df8c" category="paragraph">` /etc/init.d/open-iscsi start`</block>
   <block id="7a2a1cb73491c3d7532e37ae54452b38" category="paragraph">Citrix 不建议使用 iscsiadm 工具。原生 XAPI 堆栈可完成启动和停止 iSCSI 服务，启动时自动登录以及其他 iSCSI 操作等任务。</block>
-  <block id="042b3bedade463e0c0107059c3d56fbe" category="summary">SNMPv3 通过使用密码短语和加密提供高级安全性。您可以使用 System Manager 在集群级别添加 SNMPv3 用户。SNMPv3 用户可以使用您指定的身份验证和隐私设置从陷阱主机（ SNMP 管理器）运行 SNMP 实用程序。</block>
   <block id="1e309c896709e68fc70cf7462d3f365c" category="doc">添加 SNMPv3 安全用户</block>
-  <block id="eed0e05c5afe8d18cddb351d094880f1" category="paragraph">在集群级别添加 SNMPv3 用户时，该用户可以通过应用了 `mGMT` 防火墙策略的所有 LIF 访问集群。</block>
   <block id="74d471fdd748c870515971afa751b39a" category="list-text">在 SNMP 窗口中，单击 * 编辑 * 以打开 * 编辑 SNMP 设置 * 对话框。</block>
   <block id="dc7284f7a6b7f61dae275e5fc1c9fd6b" category="list-text">在 * SNMPv3 * 选项卡中，单击 * 添加 * 以打开 * 添加 SNMPv3 用户 * 对话框。</block>
   <block id="a64d7615d8bd84b418d1a8925389c6ba" category="list-text">输入以下值：</block>
   <block id="e1fc300ea5c300096f8192fb184c88f8" category="list-text">输入 SNMPv3 用户名。</block>
   <block id="3e2b4772d5415531384b7efc569a874e" category="paragraph">安全用户名不能超过 31 个字符，并且不能包含以下特殊字符：</block>
   <block id="04b49630992a731c529254019965c67a" category="paragraph">` ， / ： " '`</block>
-  <block id="19e17f5fe6ceca2e8ff892231f28feae" category="list-text">对于引擎 ID ，选择默认值 `本地引擎 ID`</block>
   <block id="1a69eaded1014c5556b2eec6771639af" category="paragraph">引擎 ID 用于为 SNMPv3 消息生成身份验证和加密密钥。</block>
   <block id="de1b6573f94c776c42ae60f0d451312f" category="list-text">选择身份验证协议并输入身份验证密码。</block>
   <block id="d45674562a7d524ec04b74601621485a" category="paragraph">密码必须至少包含八个字符。</block>
@@ -9053,26 +9050,19 @@
   <block id="6468154ff84e9d61022d68ea3324f39f" category="list-text">单击 * 添加 SNMPv3 用户 * 对话框中的 * 确定 * 。</block>
   <block id="0801d7922b1ee06d94468607b8d077df" category="paragraph">您可以添加多个安全用户名，每次添加后单击 * 确定 * 。例如，如果您使用 SNMP 监控需要不同权限的不同应用程序，则可能需要为每个监控或管理功能添加一个 SNMPv3 用户。</block>
   <block id="224cd8afc78016668f2bbd0f95a0c9a1" category="list-text">添加完用户名后，单击 * 编辑 SNMP 设置 * 对话框中的 * 确定 * 。</block>
-  <block id="cb67cac629022d1150c46b6e2a3c0136" category="summary">由于添加陷阱主机时不会自动验证与该主机的通信，因此您应验证 SNMP 陷阱主机是否可以正确接收陷阱。</block>
   <block id="0bfa6a07984a60e6ea91703e326b461d" category="doc">测试 SNMP 陷阱</block>
   <block id="213a896d9424a12e580c864f9c36ec3a" category="list-text">导航到 * SNMP * 屏幕。</block>
   <block id="e7c095ad42a634d6b8047870c4f8ddba" category="list-text">单击 * 测试陷阱主机 * 可从添加陷阱主机的集群生成陷阱。</block>
   <block id="98902f4079fd642b1a4ab3802f254db7" category="list-text">从陷阱主机位置验证是否已收到陷阱。</block>
   <block id="33cd7845b04ce4c51c3132b99054e7d5" category="paragraph">使用您通常使用的任何软件管理 SNMP 陷阱主机。</block>
-  <block id="78300869c8c17b6078e326702d7e56fd" category="summary">您可以使用 System Manager 添加陷阱主机（ SNMP 管理器），以便在集群中生成陷阱时接收 SNMP 通知（ SNMP 陷阱协议数据单元）。</block>
   <block id="6ca29f45d0f915e11eef1e4ab3dc49b3" category="doc">添加 SNMP 陷阱主机：</block>
   <block id="679c545b03eb98c3be85047c5a145c89" category="paragraph">如果您配置的 SNMP 陷阱主机具有 IPv6 地址，则必须在集群上启用 IPv6 。</block>
   <block id="d70a2599dd73ef966bf210711fbc504e" category="paragraph">默认情况下， SNMP 和 SNMP 陷阱处于启用状态。有关 SNMP 支持的 NetApp 技术报告 TR-4220 列出了 SNMP 陷阱支持的所有默认事件。</block>
   <block id="b8b0d0947e2d9fd375781f448a96f62a" category="inline-link">NetApp 技术报告 4220 ： Data ONTAP 中的 SNMP 支持</block>
   <block id="96b3de0be5b9bf2c589fd62e408ecdc5" category="paragraph"><block ref="96b3de0be5b9bf2c589fd62e408ecdc5" category="inline-link-rx"></block></block>
   <block id="5aca75d6abc2d8ecd791688db1b84987" category="list-text">在 SNMP 窗口中，单击 * 编辑 * 以打开 * 编辑 SNMP 设置 * 对话框。</block>
-  <block id="38079b917f99f932e8d97eeedfed84aa" category="list-text">在 * 陷阱主机 * 选项卡中，验证是否已选中 * 启用陷阱 * 复选框，然后单击 * 添加 * 。</block>
-  <block id="8b5a519af4b20133dbf4866e94c8265d" category="list-text">输入陷阱主机 IP 地址，然后单击 * 陷阱主机 * 窗格中的 * 确定 * 。</block>
   <block id="d901f1bc93c6ad4e1d22f7fcc6f0b85f" category="paragraph">SNMP 陷阱主机的 IP 地址可以是 IPv4 或 IPv6 。</block>
   <block id="144090751f3a5c3394c7a974721e71f7" category="image-alt">此图显示了编辑 SNMP 设置对话框</block>
-  <block id="8b769a98062c469399152df014e77ddd" category="inline-xref">#sted_06A7DDCA00F1443EBE5734C252FC2EE9</block>
-  <block id="4be2f3768178cf98a5ddf05c28b08d21" category="inline-xref">#step_2E611821457E4536A4E676BE15105C9E</block>
-  <block id="c1f64dfd370fbe12b89e0d96a59e4d36" category="list-text">要添加另一个陷阱主机，请重复步骤 <block ref="2445171ea4d41cd95d1d2c7e872eb3dd" category="inline-xref-macro-rx"></block> 和 <block ref="2d766a42b82b260dd35c8aaaf68b8e6b" category="inline-xref-macro-rx"></block>。</block>
   <block id="c779362ae17750a0ee31fa179657e78c" category="list-text">添加陷阱主机后，单击 * 编辑 SNMP 设置 * 对话框中的 * 确定 * 。</block>
   <block id="e60229b23ad1d9c629bc0ade623ccd47" category="summary">配置 SNMP 包括启用 SNMP ，配置 SNMPv1 或 SNMPv2c 社区（可选），添加 SNMPv3 用户，添加 SNMP 陷阱主机以及测试 SNMP 轮询和陷阱。</block>
   <block id="5174725bae53fcf1bcc485a2dbffb6ea" category="doc">SNMP 配置工作流</block>
@@ -9081,29 +9071,20 @@
   <block id="a8831e3f82bc320e866292eb6806a431" category="paragraph">以下文档提供了更详细的信息：</block>
   <block id="abe86de66b83fa492b31773cc79291cd" category="paragraph">介绍如何配置子网，集群间 LIF ，路由，防火墙策略和其他网络组件。此外，还介绍如何在数据存储虚拟机（ SVM ）中创建 SNMP 社区或安全用户，以及如何管理 SNMP 陷阱主机。</block>
   <block id="0c3ac31aefc9a0a301afb69016107275" category="paragraph">介绍 ONTAP 中的 SNMP 支持，包括对 7- 模式和集群环境中 SNMP 支持的详细比较，以及 SNMP 陷阱支持的所有默认事件列表。</block>
-  <block id="0b8654e422330e049fac326b401af27d" category="summary">您可以使用 System Manager 向运行 SNMPv1 或 SNMPv2c 的集群的管理 Storage Virtual Machine （ SVM ）添加社区。System Manager 使用 SNMP 协议 SNMPv1 和 SNMPv2c 以及 SNMP 社区来发现存储系统。</block>
   <block id="dacafc6a0d88b96f024eabc02e48e2a8" category="doc">添加 SNMP 社区</block>
-  <block id="39ab40a5dad46bca710093dd335d518e" category="paragraph">此操作步骤用于向集群的管理 SVM 添加 SNMP 社区。用于向数据 SVM 添加 SNMP 社区的操作步骤在网络文档中进行了介绍。</block>
   <block id="8bc205165c4aa383375d20d3de3a0a2d" category="paragraph">在新安装的 ONTAP 中， SNMPv1 和 SNMPv2c 默认处于禁用状态。创建 SNMP 社区时， SNMPv1 和 SNMPv2c 将处于启用状态。</block>
   <block id="a1e327acc2a98cc12ab439f6d73c1735" category="list-text">在 * 常规 * 选项卡中，指定 ONTAP 系统的联系人和位置。</block>
   <block id="ed80a17134046199ac775ed50c14d621" category="list-text">单击 * 添加 * ，输入社区名称，然后单击 * 社区名称 * 窗格中的 * 确定 * 。</block>
   <block id="5dd2f42b1a0edd3ba37d62af8ac000cd" category="paragraph">您可以添加多个社区名称。团体名称最多可以包含 32 个字符，并且不能包含以下特殊字符： ` ， / ： " '`</block>
   <block id="4c71725a72af3de56f7b708f7f1c8b80" category="list-text">添加完社区名称后，单击 * 编辑 SNMP 设置 * 对话框中的 * 确定 * 。</block>
-  <block id="474092701712b9db07128bbe124a4cf6" category="summary">您可以使用 System Manager 验证是否已在集群上启用 SNMP 。</block>
   <block id="b354f08f71dd96eb1ba246ef69930dd5" category="doc">验证是否已启用 SNMP</block>
   <block id="31b9a7cae0914e577340768752305422" category="paragraph">在所有版本的 ONTAP 中，默认情况下会在集群级别启用 SNMPv3 ，默认情况下会禁用 SNMPv1 和 SNMPv2c 。创建 SNMP 社区时， SNMPv1 和 SNMPv2c 将处于启用状态。</block>
-  <block id="d1d01864f34b64d012eee5843cae9832" category="paragraph">默认情况下， SNMP 在数据 LIF 上处于禁用状态。有关在数据 LIF 上启用 SNMP 的信息，请参见网络文档。</block>
   <block id="449851d72d97c55d5d8dd56fa3dff3ca" category="list-text">单击切槽图标。</block>
   <block id="9a1a44708040ff06d2a790715445b2ae" category="list-text">在 * 设置 * 窗格中，导航到 * SNMP * 窗口。</block>
   <block id="1e01452bf3b8d68277cafb5479383741" category="image-alt">此图显示了 SNMP 配置屏幕中显示 SNMP 启用状态和陷阱启用状态的部分。</block>
   <block id="50c92866e2e75bed1c6c075bef66c90b" category="paragraph">您可以查看集群的当前 SNMP 状态。</block>
   <block id="a57ed62e5049069939fcdd959fbcace6" category="paragraph">如果未启用 SNMP ，请单击 * 启用 * 。</block>
-  <block id="8cb7868215363ddee37bc5c71dbc64f7" category="summary">此内容介绍如何在集群管理级别配置 SNMP ，如何添加社区，安全用户和陷阱主机以及如何测试 SNMP 通信。</block>
   <block id="e1e6982040bf2ce64d051e258c35e6ba" category="doc">SNMP 配置概述</block>
-  <block id="01d34e7431244c8b073747822f8a6281" category="paragraph">如果要按以下方式配置对集群的 SNMP 访问，应使用此内容：</block>
-  <block id="50bd2ca6307a85534acea9deaf2783d3" category="paragraph">您必须使用命令行界面执行此内容中的几个步骤。</block>
-  <block id="97d70b552c3628f1891300e3046cf131" category="paragraph">介绍如何配置子网，集群间 LIF ，路由，防火墙策略和其他网络组件。此外，还介绍了如何为数据存储虚拟机（ SVM ）创建 SNMP 社区以及如何管理 SNMP 陷阱主机。</block>
-  <block id="68a1829dd881f9757e52dc504f1c53f2" category="paragraph">介绍 ONTAP 中的 SNMP 支持，包括对 7- 模式和 ONTAP 环境中的 SNMP 支持的详细比较，以及 SNMP 陷阱支持的所有默认事件列表。</block>
   <block id="df4de6621ef2967982300a1bbf1b511c" category="summary">配置 SNMP 后，您应验证是否可以轮询集群。</block>
   <block id="f42de8e0f38b895f1f99380bbd54d65b" category="doc">测试 SNMP 轮询</block>
   <block id="4f1e814e0a8e98d59f55c3108478cec7" category="paragraph">要轮询集群，您需要使用 `snmpwalk` 等第三方命令。</block>
@@ -9732,4 +9713,32 @@
   <block id="83cb195869ecf30cf2bf909696d90958" category="inline-link">ONTAP 9 SAN 配置</block>
   <block id="429f603a3b811bb2b6b580119340e5c8" category="list-text"><block ref="429f603a3b811bb2b6b580119340e5c8" category="inline-link-rx"></block></block>
   <block id="9924ee2c6c9746d6e6c56a2812bbf674" category="list-text">适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取 <block ref="44f9482eaaa326b6591ec57007a0f626" category="inline-link-macro-rx"></block>）</block>
+  <block id="338bf9032271409bd86a2b6af23ab61f" category="summary">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面在集群级别添加 SNMPv3 用户。</block>
+  <block id="acfaae8e3177fe2b3063f00cf811af45" category="paragraph">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面在集群级别添加 SNMPv3 用户。</block>
+  <block id="e0a892dfce439218336a42f56534bd80" category="paragraph">SNMPv3 用户可以使用您指定的身份验证和隐私设置从陷阱主机（ SNMP 管理器）运行 SNMP 实用程序。SNMPv3 通过使用密码短语和加密提供高级安全性。</block>
+  <block id="ddbfc927af1c930518b887b204a829b8" category="paragraph">在集群级别添加 SNMPv3 用户时，该用户可以通过应用了 `mGMT` 防火墙策略的所有 LIF 访问集群。</block>
+  <block id="0de5ed44e79a2218dccb44b513df821b" category="list-text">对于引擎 ID ，选择默认值 `本地引擎 ID` 。</block>
+  <block id="b1a9a15b62a7d0b755276caad763ca77" category="summary">在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面，您可以在集群管理级别配置 SNMP ，添加社区，安全用户和陷阱主机以及测试 SNMP 通信。</block>
+  <block id="8455203f202aecb0df782dd879a6c7bc" category="paragraph">在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面，您可以在集群管理级别配置 SNMP ，添加社区，安全用户和陷阱主机以及测试 SNMP 通信。</block>
+  <block id="507e721699d6953386548acef51396de" category="paragraph">如果要按以下方式配置对集群的 SNMP 访问，应使用以下过程：</block>
+  <block id="590b5ea8102a06469bd3b9ccc9d204f4" category="paragraph">这些过程中有几个步骤必须使用命令行界面。</block>
+  <block id="a705f06ddb4bd2e42b94bd6cde970604" category="paragraph">您可以使用为所有 ONTAP 9 版本配置对集群的 SNMP 访问。您应使用适用于您的 ONTAP 版本的操作步骤。</block>
+  <block id="e4b09d96d06f086f0f4ad96f7bc44bdd" category="inline-link">在集群上管理 SNMP （仅限集群管理员）和 gt ；概述</block>
+  <block id="99ac98f0447b7ff97bf3f308f10204f4" category="paragraph"><block ref="011e4c4754b8203759192a5760df2b28" category="inline-link-rx"></block></block>
+  <block id="78693e6a599cbd001479a67ff9fc0c8b" category="inline-link">用于管理 SNMP 的命令</block>
+  <block id="ad6a2020137ce5e6d4da8d8ba1f1d189" category="paragraph"><block ref="ad6a2020137ce5e6d4da8d8ba1f1d189" category="inline-link-rx"></block></block>
+  <block id="05c79acee840a5a9297929e58237e1e2" category="summary">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面向运行 SNMPv1 或 SNMPv2c 的集群的管理 Storage Virtual Machine （ SVM ）添加社区。System Manager 使用 SNMP 协议 SNMPv1 和 SNMPv2c 以及 SNMP 社区来发现存储系统。</block>
+  <block id="1bb4bd250132fdfb4b0ebc598807a127" category="paragraph">您可以将 ONTAP System Manager _classic_ 界面与 ONTAP 9.7 或更早版本结合使用，将社区添加到运行 SNMPv1 或 SNMPv2c 的集群的管理 Storage Virtual Machine （ SVM ）中。System Manager 使用 SNMP 协议 SNMPv1 和 SNMPv2c 以及 SNMP 社区来发现存储系统。</block>
+  <block id="36f78cb2c5f74f25928c0219f7f55661" category="paragraph">此操作步骤用于向集群的管理 SVM 添加 SNMP 社区。中介绍了用于向数据 SVM 添加 SNMP 社区的操作步骤<block ref="3c1f6d1c98697da7f75eba93e6215af2" category="inline-link-rx"></block>。</block>
+  <block id="181ce7c186b93fe210a1978cfa64a967" category="summary">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面来测试 SNMP 陷阱。由于添加陷阱主机时不会自动验证与该主机的通信，因此您应验证 SNMP 陷阱主机是否可以正确接收陷阱。</block>
+  <block id="a941ed57a7b6c5d886ed171d0a76b3b2" category="paragraph">您可以将 ONTAP System Manager _classic_ 界面与 ONTAP 9.7 或更早版本结合使用来测试 SNMP 陷阱。由于添加陷阱主机时不会自动验证与该主机的通信，因此您应验证 SNMP 陷阱主机是否可以正确接收陷阱。</block>
+  <block id="1490b0cdf33325270394aa997d6c5e70" category="summary">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面来验证集群上是否启用了 SNMP 。</block>
+  <block id="cd84c13d00f4d443dc8bbf61a350243b" category="paragraph">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面来验证集群上是否启用了 SNMP 。</block>
+  <block id="7098585d319cf1fe0a2c07d7b127abd7" category="paragraph">默认情况下， SNMP 在数据 LIF 上处于禁用状态。有关在数据 LIF 上启用 SNMP 的信息，请参见<block ref="c43245b646e9acefb75749236b9b8ef9" category="inline-link-rx"></block>。</block>
+  <block id="499a4d9e5d74e7480604b00648e1cc0d" category="summary">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器 " 经典 " 界面添加陷阱主机（ SNMP 管理器），以便在集群中生成陷阱时接收 SNMP 通知（ SNMP 陷阱协议数据单元）。</block>
+  <block id="c2a275afb33427f1508cf4eb8649d89c" category="paragraph">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面添加陷阱主机（ SNMP 管理器），以便在集群中生成陷阱时接收 SNMP 通知（ SNMP 陷阱协议数据单元）。</block>
+  <block id="37f74544cfbe22a720d08d54131dc423" category="list-text">在 * 陷阱主机 * 选项卡中，确认已选中 * 启用陷阱 * 复选框，然后单击 * 添加 * 。</block>
+  <block id="43ecbd82c9d430a2cf38fea5fc63ecfc" category="list-text">【第 3 步 - 输入 -traphost-ip]] 输入陷阱主机 IP 地址，然后在 * 陷阱主机 * 窗格中单击 * 确定 * 。</block>
+  <block id="2d5ce426423eeeead4f35769cd8b1b27" category="inline-xref">第 3 步</block>
+  <block id="5c2875ed4750ec51d3b9e6f8639e11c2" category="list-text">要添加另一个陷阱主机，请重复 <block ref="8000247ac33c42c639b17ba5d3359976" category="inline-xref-macro-rx"></block> 和 <block ref="c1c49ad9c25f97e33816d3bc86eca4ea" category="inline-xref-macro-rx"></block>。</block>
 </blocks>

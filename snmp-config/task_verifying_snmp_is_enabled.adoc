@@ -2,7 +2,7 @@
 permalink: snmp-config/task_verifying_snmp_is_enabled.html 
 sidebar: sidebar 
 keywords: system, manager, verify, snmp, enable, cluster, verify that snmp is enabled 
-summary: 您可以使用 System Manager 验证是否已在集群上启用 SNMP 。 
+summary: '您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面来验证集群上是否启用了 SNMP 。' 
 ---
 = 验证是否已启用 SNMP
 :icons: font
@@ -10,13 +10,11 @@ summary: 您可以使用 System Manager 验证是否已在集群上启用 SNMP �
 
 
 [role="lead"]
-您可以使用 System Manager 验证是否已在集群上启用 SNMP 。
+您可以在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面来验证集群上是否启用了 SNMP 。
 
 在所有版本的 ONTAP 中，默认情况下会在集群级别启用 SNMPv3 ，默认情况下会禁用 SNMPv1 和 SNMPv2c 。创建 SNMP 社区时， SNMPv1 和 SNMPv2c 将处于启用状态。
 
-默认情况下， SNMP 在数据 LIF 上处于禁用状态。有关在数据 LIF 上启用 SNMP 的信息，请参见网络文档。
-
-https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"]
+默认情况下， SNMP 在数据 LIF 上处于禁用状态。有关在数据 LIF 上启用 SNMP 的信息，请参见 https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"^]。
 
 .步骤
 . 单击切槽图标。

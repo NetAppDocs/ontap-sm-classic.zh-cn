@@ -19,5 +19,3 @@ entries:
     url: "/snmp-config/task_testing_snmp_traps.html"
   - title: 测试 SNMP 轮询
     url: "/snmp-config/task_testing_snmp_polling.html"
-- title: 从何处查找追加信息
-  url: "/snmp-config/reference_where_to_find_additional_information.html"
