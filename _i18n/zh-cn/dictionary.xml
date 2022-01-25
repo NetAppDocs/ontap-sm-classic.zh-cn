@@ -68,22 +68,17 @@
   <block id="3146bb680f4495ea91ff6b5cdf9f403d" category="doc">卷还原工作流</block>
   <block id="1e2fcafb752b97c02abddd7988dbccb3" category="image-alt">此图是 SnapVault 卷还原工作流的流程图。工作流中的步骤与此内容中的主题匹配。 "&gt;</block>
   <block id="e9f56eb126455869bdb213c6b8827217" category="summary">版权，商标和机器翻译</block>
-  <block id="7e3416dacfda4dd0a1808fba5612f0a5" category="summary">此内容介绍了在发生数据丢失时如何从 ONTAP 中的 SnapVault 备份快速还原卷。</block>
   <block id="12fb85c35a832a45fe275b73ae8a8e62" category="doc">使用 SnapVault 还原卷概述</block>
-  <block id="6060166bfcbf615698d3f9bb3eae7979" category="paragraph">如果要按照以下方式从 SnapVault 备份还原，应使用此内容：</block>
   <block id="fb0467de459ea64cd9ddc9de281c061b" category="list-text">您正在使用运行 ONTAP 9 的集群。</block>
   <block id="f1d375acce142a998998792cf507a24c" category="list-text">您是集群管理员。</block>
   <block id="d214f5545911f544c57be16079dad84c" category="inline-xref-macro">使用 SnapVault 进行卷备份</block>
-  <block id="19a0dd72039f6281a6d8a8585de14c4a" category="list-text">您已按照中所述的操作步骤配置 SnapVault 关系 <block ref="f374ab402892ea91daa38f079bc00eff" category="inline-xref-macro-rx"></block></block>
   <block id="037316f9f31a24e629bb7bc8d53aa4db" category="list-text">您不希望执行单个文件或 LUN 还原。</block>
   <block id="41a6f75570e8276bfdd8656708159091" category="list-text">您希望使用最佳实践，而不是浏览每个可用选项。</block>
   <block id="e1f9c75e0d34511fa7945c9a9bd4a301" category="list-text">您不想阅读大量概念背景信息。</block>
   <block id="2152f76761d5c6a4279f0f404b969bc6" category="list-text">您希望使用适用于 ONTAP 9.7 及更早版本的 _Classic_ System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。</block>
   <block id="e8726682a54ea85f2123db66fd54ec79" category="inline-link">ONTAP System Manager 文档</block>
   <block id="393a51fc1ea014203ab06257b17952d6" category="paragraph"><block ref="393a51fc1ea014203ab06257b17952d6" category="inline-link-rx"></block></block>
-  <block id="e8d2781b5b2bacdd6b52924bef266d50" category="paragraph">如果这些假设与您的情况不符，或者您需要更多概念背景信息，您应查看以下资源：</block>
   <block id="d330df82772bc211de4c19b45eedcb36" category="inline-link">NetApp 技术报告 4183 ：《 SnapVault 最佳实践》</block>
-  <block id="ac6b625e9157de1d4807d5582dabd049" category="list-text"><block ref="ac6b625e9157de1d4807d5582dabd049" category="inline-link-rx"></block></block>
   <block id="6016a2b341113bf496b719905398ecd2" category="summary">版权</block>
   <block id="e10b5b38785c3a24ec75723ab75b4360" category="paragraph">版权所有 © 2021 NetApp ， Inc. 。保留所有权利。Printed in the U.S.</block>
   <block id="2275e007ee598cef266c877f9c52ee25" category="paragraph">版权所涵盖的本文档的任何部分不得以任何形式或任何方式复制，包括图像，电子或机械，包括影印，录制， 在未经版权所有者事先书面许可的情况下，在电子检索系统中粘贴或存储。</block>
@@ -799,9 +794,7 @@
   <block id="d9754d70c58cd9e08660aa07fe333726" category="paragraph">如果在此区域中未看到任何对等 SVM ，则可以在创建 SnapVault 关系时创建 SVM 对等关系。</block>
   <block id="71d1ddff7dfe7c5d5d498435abd07d64" category="inline-xref-macro">创建 SnapVault 关系（ ONTAP 9.2 或更早版本）</block>
   <block id="7aba3f692e5d868662f8bb21f2d6b326" category="paragraph"><block ref="7aba3f692e5d868662f8bb21f2d6b326" category="inline-xref-macro-rx"></block></block>
-  <block id="3ac4fd05782e1953652bcf799a4d0275" category="summary">此内容介绍如何在位于不同集群中的卷之间快速配置 SnapVault 备份关系。SnapVault 备份包含一组只读备份副本，这些副本位于一个目标卷上，您可以使用该卷在数据损坏或丢失时还原数据。</block>
   <block id="69011956b6eae7807e30a3ad838adf55" category="doc">使用 SnapVault 进行卷备份概述</block>
-  <block id="1fd1fb824fda8ddf4221750ca23af68b" category="paragraph">如果要按以下方式为卷创建 SnapVault 备份关系，应使用此内容：</block>
   <block id="a195f24ab26382d137f981d3a4b88f40" category="list-text">您已配置集群对等关系和 SVM 对等关系。</block>
   <block id="4981318c1affb5f192b38fe8f9105db7" category="inline-xref-macro">集群和 SVM 对等配置</block>
   <block id="e9b35c302b58579a90853e5349bd7152" category="paragraph"><block ref="e9b35c302b58579a90853e5349bd7152" category="inline-xref-macro-rx"></block></block>
@@ -1569,9 +1562,7 @@
   <block id="a0aac9e3d15ae2e6b75d0803be1cc8f9" category="paragraph">ONTAP 9.2 或更早版本：选择目标卷，然后单击 * Snapshot 副本 * &gt; * 配置 * 。</block>
   <block id="ac0c323d5c042d7a9c547a1b9c2c571e" category="list-text">选中 * 启用计划的 Snapshot 副本 * 复选框，然后单击 * 确定 * 。</block>
   <block id="d905542c353c1c5dcc6d3968f0970fef" category="image-alt">配置卷 Snapshot 副本</block>
-  <block id="b9659a80d06cd29a99f4b70515421154" category="summary">此内容介绍如何在发生灾难后快速激活目标卷，然后在 ONTAP 中重新激活源卷。</block>
   <block id="b976d074c34b1b6db0e9a13e82b3cfd7" category="doc">卷灾难恢复概述</block>
-  <block id="21350c3dece1be95894ec9ca603c228b" category="paragraph">如果要按以下方式执行卷级灾难恢复操作步骤，应使用此内容：</block>
   <block id="5a844a817b490d1ff98b54d7b9733d86" category="list-text">您已在下面配置 SnapMirror 关系 <block ref="50580e1f2cd43d40ef6e056bb5fc2ce7" category="inline-xref-macro-rx"></block></block>
   <block id="048e0b18c066e4f0ba53ec2635b0e4e6" category="list-text">源集群的集群管理员已声明，由于病毒感染等事件导致数据损坏或数据意外删除，源卷中的数据不可用。</block>
   <block id="090069178da9495d591fb8473b1279f0" category="summary">激活目标卷后，您必须为该卷配置数据访问。在重新激活源卷之前， NAS 客户端和 SAN 主机可以从目标卷访问数据。</block>
@@ -1673,9 +1664,6 @@
   <block id="fab2eed20be80651a7c2f147ec027380" category="paragraph">SnapMirror 可按计划提供异步块级数据保护。SnapMirror 可复制 Snapshot 副本，并可复制运行重复数据删除，数据压缩或这两者的 NAS 或 SAN 卷，包括包含 qtree 和 LUN 的卷。SnapMirror 配置信息存储在一个数据库中， ONTAP 会将该数据库复制到集群中的所有节点。</block>
   <block id="6a24f516827d99f674302536f72d66fa" category="list-text">您已在源集群和目标集群上启用 SnapMirror 许可证。</block>
   <block id="23ee6fca3793e587122a68c14921baea" category="list-text">您希望使用默认策略和计划，而不是创建自定义策略。</block>
-  <block id="419b01b6ce2521cb82d351d68353372d" category="inline-link">ONTAP 9 命令</block>
-  <block id="315f9d93ad86bbbdc68e6c0ed3bf30c7" category="list-text"><block ref="315f9d93ad86bbbdc68e6c0ed3bf30c7" category="inline-link-rx"></block></block>
-  <block id="d46795a534921733c4114ca392437a44" category="paragraph">提供一组用于配置和管理 SnapMirror 关系的命令。您可能希望使用 snapmirror 命令编写一个脚本来创建多个 SnapMirror 关系。</block>
   <block id="35cf113bfdff596c1e1f6d8983528225" category="summary">您应定期监控 SnapMirror 关系的状态，以确保 SnapMirror 数据传输按指定计划进行。</block>
   <block id="cf63bb78d13bb39199c13c80c9403e6c" category="doc">监控 SnapMirror 数据传输的状态</block>
   <block id="ffe3c5dc6640d00a06faa934392cea79" category="list-text">在源卷和目标卷之间选择 SnapMirror 关系，然后在 * 详细信息 * 底部选项卡中验证状态。</block>
@@ -9615,7 +9603,6 @@
 <block ref="74216a0b75808cc5b9ea280e5da3b2ee" category="inline-link-macro-rx"></block>
 
 <block ref="e8c191ccfc6229eab89e3d1a487a3051" category="inline-link-macro-rx"></block></block>
-  <block id="22abbe0f643126aaa00c8217f625f7d0" category="paragraph">有关详细信息，请参见。</block>
   <block id="7b346581f69360cf7a5a3d68d6071d87" category="paragraph">对于 ESXi 主机和存储系统，巨型帧的 MTU 应为 9000 ，而对于大多数交换机，巨型帧的 MTU 应为 9216 。数据路径中的所有网络设备（包括 ESXi NIC ，存储 NIC 和交换机）都必须支持巨型帧，并且应针对其最大 MTU 值进行配置。</block>
   <block id="500a7615a552bfd7b3e98a4da85a4dab" category="inline-link-macro">检查数据交换机上的网络设置</block>
   <block id="48a0b712015f6610dc2a9e603d8b0ab9" category="paragraph">有关详细信息，请参见 <block ref="f2d4b655efaaf4fcabdaa8bdd3143f17" category="inline-link-macro-rx"></block> 以及交换机供应商文档。</block>
@@ -9741,4 +9728,20 @@
   <block id="43ecbd82c9d430a2cf38fea5fc63ecfc" category="list-text">【第 3 步 - 输入 -traphost-ip]] 输入陷阱主机 IP 地址，然后在 * 陷阱主机 * 窗格中单击 * 确定 * 。</block>
   <block id="2d5ce426423eeeead4f35769cd8b1b27" category="inline-xref">第 3 步</block>
   <block id="5c2875ed4750ec51d3b9e6f8639e11c2" category="list-text">要添加另一个陷阱主机，请重复 <block ref="8000247ac33c42c639b17ba5d3359976" category="inline-xref-macro-rx"></block> 和 <block ref="c1c49ad9c25f97e33816d3bc86eca4ea" category="inline-xref-macro-rx"></block>。</block>
+  <block id="f1da5eb0d0af3b72296ff6ea293abf1d" category="summary">如果发生数据丢失，您可以从 ONTAP 中的 SnapVault 备份快速还原卷。</block>
+  <block id="a83933a5831bf519e27991cf44ceb37d" category="paragraph">如果要按照以下方式从存储备份中还原，请使用此操作步骤：</block>
+  <block id="df8bf92d5be901142de43a17a76136d6" category="list-text">您已按照中所述的操作步骤配置存储关系 <block ref="f374ab402892ea91daa38f079bc00eff" category="inline-xref-macro-rx"></block></block>
+  <block id="8a777620567a2731f9f4a5d3231adea0" category="list-text">您希望使用适用于 ONTAP 9.7 及更早版本的 System Manager 经典界面，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。</block>
+  <block id="6ebbaa287d42ffc1e685b182354fd9a3" category="paragraph">如果这些假设与您的情况不符，或者您需要更多概念背景信息，您应查看以下资源：</block>
+  <block id="ba92b176fe6a769b35bab1c70554c4c5" category="paragraph"><block ref="ba92b176fe6a769b35bab1c70554c4c5" category="inline-link-macro-rx"></block></block>
+  <block id="d13b3b3f75bd6a036c11916e3591f4a0" category="inline-link-macro">还原到新卷</block>
+  <block id="98bea63848e0280aa6726c9af37272b1" category="cell"><block ref="98bea63848e0280aa6726c9af37272b1" category="inline-link-macro-rx"></block></block>
+  <block id="10225b4a3220f4567287aaebfb262b69" category="summary">您可以在发生灾难后快速激活目标卷，然后使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 ONTAP 中重新激活源卷。</block>
+  <block id="cb275f350cc0aec728316638deb59ec9" category="paragraph">如果要按以下方式执行卷级灾难恢复，请使用此操作步骤：</block>
+  <block id="58a5797a7a7d55e1f2ecd9b9efb022e4" category="inline-link-macro">从 SnapMirror 目标提供数据</block>
+  <block id="481fa3249b4ddccae45b4e1b0815d92e" category="cell"><block ref="481fa3249b4ddccae45b4e1b0815d92e" category="inline-link-macro-rx"></block></block>
+  <block id="99000d502156eed268af7a57b38b5349" category="summary">您可以在位于不同集群中的卷之间快速配置 SnapVault 备份关系。SnapVault 备份包含一组只读备份副本，这些副本位于一个目标卷上，您可以使用该卷在数据损坏或丢失时还原数据。</block>
+  <block id="2eb25c4bc3b20639690110cbc86004ac" category="paragraph">如果要按以下方式为卷创建 SnapVault 备份关系，请使用此操作步骤：</block>
+  <block id="0ab2e738a87c45441fb3dbe779b7805c" category="inline-link-macro">配置镜像和存储</block>
+  <block id="ff17478d188b125f6ef5aab076ca6e0e" category="cell"><block ref="ff17478d188b125f6ef5aab076ca6e0e" category="inline-link-macro-rx"></block></block>
 </blocks>
