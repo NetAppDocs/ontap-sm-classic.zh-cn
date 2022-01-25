@@ -9,7 +9,7 @@
   <meta property="og:title" content="使用 SnapVault 还原卷概述" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/volume-restore-snapvault/index.html" />
-	<meta property="og:description" content="此内容介绍了在发生数据丢失时如何从 ONTAP 中的 SnapVault 备份快速还原卷。" />
+	<meta property="og:description" content="如果发生数据丢失，您可以从 ONTAP 中的 SnapVault 备份快速还原卷。" />
   <meta property="og:image" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="此内容介绍了在发生数据丢失时如何从 ONTAP 中的 SnapVault 备份快速还原卷。">
-  <meta name="keywords" content=" content, restore, volume, snapvault, backup, ontap, data, loss, volume restore using snapvault overview">
+  <meta name="description" content="如果发生数据丢失，您可以从 ONTAP 中的 SnapVault 备份快速还原卷。">
+  <meta name="keywords" content=" content, restore, volume, snapvault, vault, backup, ontap, data, loss, volume restore using snapvault overview">
   
   
 
@@ -11858,6 +11858,14 @@
   
 
 <span>提供者
+  <a target="_blank" href="https://github.com/netapp-lenida">
+    <img  class="avatar avatar-small"
+          alt="netapp-lenida"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/54081920?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/NetAppZacharyWambold">
     <img  class="avatar avatar-small"
           alt="NetAppZacharyWambold"
@@ -11872,11 +11880,13 @@
 </p>
 
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>此内容介绍了在发生数据丢失时如何从 ONTAP 中的 SnapVault 备份快速还原卷。</p>
+<p>如果发生数据丢失，您可以从 ONTAP 中的 SnapVault 备份快速还原卷。</p>
 </div>
 <div class="paragraph">
-<p>如果要按照以下方式从 SnapVault 备份还原，应使用此内容：</p>
+<p>如果要按照以下方式从存储备份中还原，请使用此操作步骤：</p>
 </div>
 <div class="ulist">
 <ul>
@@ -11887,7 +11897,7 @@
 <p>您是集群管理员。</p>
 </li>
 <li>
-<p>您已按照中所述的操作步骤配置 SnapVault 关系 <a href="../volume-backup-snapvault/index.html">使用 SnapVault 进行卷备份</a></p>
+<p>您已按照中所述的操作步骤配置存储关系 <a href="../volume-backup-snapvault/index.html">使用 SnapVault 进行卷备份</a></p>
 </li>
 <li>
 <p>您不希望执行单个文件或 LUN 还原。</p>
@@ -11899,28 +11909,44 @@
 <p>您不想阅读大量概念背景信息。</p>
 </li>
 <li>
-<p>您希望使用适用于 ONTAP 9.7 及更早版本的 <em>Classic</em> System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。</p>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/ontap/" target="_blank" rel="noopener">"ONTAP System Manager 文档"</a></p>
-</div>
+<p>您希望使用适用于 ONTAP 9.7 及更早版本的 System Manager 经典界面，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
 <p>如果这些假设与您的情况不符，或者您需要更多概念背景信息，您应查看以下资源：</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://docs.netapp.com/us-en/ontap/data-protection/index.html" target="_blank" rel="noopener">"数据保护"</a></p>
-</li>
-<li>
-<p><a href="http://www.netapp.com/us/media/tr-4015.pdf" target="_blank" rel="noopener">"NetApp 技术报告 4015 ：《 ONTAP 9.1 和 9.2 的 SnapMirror 配置和最佳实践》"</a></p>
-</li>
-<li>
+<div class="paragraph">
 <p><a href="http://www.netapp.com/us/media/tr-4183.pdf" target="_blank" rel="noopener">"NetApp 技术报告 4183 ：《 SnapVault 最佳实践》"</a></p>
-</li>
-</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="在-ontap-中执行此操作的其他方法">在 ONTAP 中执行此操作的其他方法</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">要执行以下任务，请执行以下操作 &#8230;&#8203;</th>
+<th class="tableblock halign-left valign-top">查看此内容 &#8230;&#8203;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.netapp.com/us-en/ontap/task_dp_restore_to_new_volume.html" target="_blank" rel="noopener">"还原到新卷"</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ONTAP 命令行界面</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.netapp.com/us-en/ontap/data-protection/index.html" target="_blank" rel="noopener">"使用命令行界面概述数据保护"</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
     </article>
