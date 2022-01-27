@@ -36,5 +36,5 @@ summary: 您可以在发生灾难后快速激活目标卷，然后使用 ONTAP S
 | 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本） | link:https://docs.netapp.com/us-en/ontap/task_dp_serve_data_from_destination.html["从 SnapMirror 目标提供数据"^] 
 
 
-| ONTAP 命令行界面 | link:https://docs.netapp.com/us-en/ontap/data-protection/index.html["使用命令行界面概述数据保护"^] 
+| ONTAP 命令行界面 | link:https://docs.netapp.com/us-en/ontap/data-protection/make-destination-volume-writeable-task.html["激活目标卷"^] 
 |===

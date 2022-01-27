@@ -45,5 +45,5 @@ link:http://www.netapp.com/us/media/tr-4183.pdf["NetApp 技术报告 4183 ：《
 | 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本） | link:https://docs.netapp.com/us-en/ontap/task_dp_configure_mirror.html["配置镜像和存储"^] 
 
 
-| ONTAP 命令行界面 | link:https://docs.netapp.com/us-en/ontap/data-protection/index.html["使用命令行界面概述数据保护"^] 
+| ONTAP 命令行界面 | link:https://docs.netapp.com/us-en/ontap/data-protection/create-replication-relationship-task.html["创建复制关系"^] 
 |===

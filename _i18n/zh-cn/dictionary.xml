@@ -9548,8 +9548,6 @@
   <block id="0e4222b86d7998dfe8825bb8a6cde95d" category="list-text">您希望使用最佳实践，而不是浏览每个可用选项（ ONTAP 9.7 及更早版本）。</block>
   <block id="65716a8cb6a3032b7384db5b9f2e6f30" category="inline-link-macro">准备镜像和存储</block>
   <block id="778de7f7e16dc5b7548bcce4e90f62f5" category="cell"><block ref="778de7f7e16dc5b7548bcce4e90f62f5" category="inline-link-macro-rx"></block></block>
-  <block id="753714749b40647298f8b1072ea295e3" category="inline-link-macro">使用命令行界面概述数据保护</block>
-  <block id="a38ba96a8cc4d2088b0fddf90f7c13d3" category="cell"><block ref="a38ba96a8cc4d2088b0fddf90f7c13d3" category="inline-link-macro-rx"></block></block>
   <block id="ea1287193924e34a602b1e05277f6731" category="paragraph">如果您需要有关 ONTAP SMB 协议功能范围的详细信息，请参见 <block ref="508497ea578beb819bbaa0e137c4ede1" category="inline-link-macro-rx"></block>。</block>
   <block id="10a45a2d4ec037857c0c7c1605b95bb2" category="inline-link-macro">LDAP 使用概述</block>
   <block id="be783ea71cc23a3edbff3615cb4f8db0" category="paragraph">如果您使用其他类型的 LDAP ，则必须使用命令行界面（ CLI ）和其他文档来配置 LDAP 。有关详细信息，请参见 <block ref="d3b872660ddf7d41d95bc18138ecd3fb" category="inline-link-macro-rx"></block>。</block>
@@ -9734,8 +9732,6 @@
   <block id="8a777620567a2731f9f4a5d3231adea0" category="list-text">您希望使用适用于 ONTAP 9.7 及更早版本的 System Manager 经典界面，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。</block>
   <block id="6ebbaa287d42ffc1e685b182354fd9a3" category="paragraph">如果这些假设与您的情况不符，或者您需要更多概念背景信息，您应查看以下资源：</block>
   <block id="ba92b176fe6a769b35bab1c70554c4c5" category="paragraph"><block ref="ba92b176fe6a769b35bab1c70554c4c5" category="inline-link-macro-rx"></block></block>
-  <block id="d13b3b3f75bd6a036c11916e3591f4a0" category="inline-link-macro">还原到新卷</block>
-  <block id="98bea63848e0280aa6726c9af37272b1" category="cell"><block ref="98bea63848e0280aa6726c9af37272b1" category="inline-link-macro-rx"></block></block>
   <block id="10225b4a3220f4567287aaebfb262b69" category="summary">您可以在发生灾难后快速激活目标卷，然后使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 ONTAP 中重新激活源卷。</block>
   <block id="cb275f350cc0aec728316638deb59ec9" category="paragraph">如果要按以下方式执行卷级灾难恢复，请使用此操作步骤：</block>
   <block id="58a5797a7a7d55e1f2ecd9b9efb022e4" category="inline-link-macro">从 SnapMirror 目标提供数据</block>
@@ -9744,4 +9740,13 @@
   <block id="2eb25c4bc3b20639690110cbc86004ac" category="paragraph">如果要按以下方式为卷创建 SnapVault 备份关系，请使用此操作步骤：</block>
   <block id="0ab2e738a87c45441fb3dbe779b7805c" category="inline-link-macro">配置镜像和存储</block>
   <block id="ff17478d188b125f6ef5aab076ca6e0e" category="cell"><block ref="ff17478d188b125f6ef5aab076ca6e0e" category="inline-link-macro-rx"></block></block>
+  <block id="7314111db4d1ab68bd4790d9567aef10" category="inline-link-macro">创建集群对等关系（ ONTAP 9.3 及更高版本）</block>
+  <block id="739bd97d03e1660c7b0b9090b2ce869d" category="cell"><block ref="739bd97d03e1660c7b0b9090b2ce869d" category="inline-link-macro-rx"></block></block>
+  <block id="1eb6b1379ace9f3164a4b23322349ae1" category="inline-link-macro">从早期的 Snapshot 副本还原卷</block>
+  <block id="b9f94d302c937cc4c4ba2067970f1c6e" category="cell"><block ref="b9f94d302c937cc4c4ba2067970f1c6e" category="inline-link-macro-rx"></block></block>
+  <block id="6a0d1806e5838e45b0d333fc13ccdc9f" category="inline-link-macro">从 SnapMirror 目标还原卷的内容</block>
+  <block id="a9a7d298818fd6094e22bcd348413302" category="cell"><block ref="a9a7d298818fd6094e22bcd348413302" category="inline-link-macro-rx"></block></block>
+  <block id="f205880bd75b275fcf9d29129366911d" category="cell"><block ref="f205880bd75b275fcf9d29129366911d" category="inline-link-macro-rx"></block></block>
+  <block id="ca0c3dd7dca9f636af3209d526098e1e" category="inline-link-macro">创建复制关系</block>
+  <block id="40073759c151f2edb4c6d90ee54f1d3f" category="cell"><block ref="40073759c151f2edb4c6d90ee54f1d3f" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -1,7 +1,7 @@
 ---
 permalink: volume-disaster-prep/index.html 
 sidebar: sidebar 
-keywords: content, protect, source, volume, peer, ontap, cluster, perparation, disaster, recovery, configure, monitor, snapmirror, relationship, background, task, volume disaster recovery preparation overview 
+keywords: content, protect, source, volume, peer, ontap, cluster, preparation, disaster, recovery, configure, monitor, snapmirror, relationship, background, task, volume disaster recovery preparation overview 
 summary: 您可以快速保护对等 ONTAP 集群上的源卷，为灾难恢复做好准备。如果您要配置和监控对等集群之间的 SnapMirror 关系以实现卷灾难恢复，并且这些任务不需要大量概念背景，则应使用此内容。 
 ---
 = 卷灾难恢复准备概述
@@ -39,5 +39,5 @@ xref:../peering/index.html[集群和 SVM 对等配置]
 | 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本） | link:https://docs.netapp.com/us-en/ontap/task_dp_prepare_mirror.html["准备镜像和存储"^] 
 
 
-| ONTAP 命令行界面 | link:https://docs.netapp.com/us-en/ontap/data-protection/index.html["使用命令行界面概述数据保护"^] 
+| ONTAP 命令行界面 | link:https://docs.netapp.com/us-en/ontap/peering/create-cluster-relationship-93-later-task.html["创建集群对等关系（ ONTAP 9.3 及更高版本）"^] 
 |===
