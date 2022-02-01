@@ -89,7 +89,7 @@ System Manager 支持使用基于网络结构的 NVMe （ NVMeoF ）子系统，
 
 * NVMe 多路径支持
 +
-从 ONTAP 9.5 开始，必须使用 NVMe 协议为 HA 对中的每个节点至少配置一个 LIF 。您还可以为一个节点定义两个 LIF 。升级到 ONTAP 9.5 时，您必须确保使用 NVMe 协议为 HA 对中的每个节点至少定义一个 LIF 。
+从 ONTAP 9.5 开始，必须为使用 NVMe 协议的 HA 对中的每个节点至少配置一个 LIF 。您还可以为一个节点定义两个 LIF 。升级到 ONTAP 9.5 时，您必须确保使用 NVMe 协议为 HA 对中的每个节点至少定义一个 LIF 。
 
 * 符合 FlexGroup 条件的聚合
 +

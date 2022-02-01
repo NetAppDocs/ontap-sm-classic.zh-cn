@@ -16,7 +16,7 @@ summary: 成功测试 CIFS 和 NFS 客户端访问后，您可以执行高级 CI
 
 == CIFS/SMB 配置
 
-您可以使用以下内容和技术报告进一步配置 CIFS 访问：
+您可以使用以下信息和技术报告进一步配置 CIFS 访问：
 
 * https://docs.netapp.com/us-en/ontap/smb-admin/index.html["CIFS 管理"^]
 +
@@ -36,7 +36,7 @@ summary: 成功测试 CIFS 和 NFS 客户端访问后，您可以执行高级 CI
 
 == NFS 配置
 
-您可以使用以下内容和技术报告进一步配置 NFS 访问：
+您可以使用以下信息和技术报告进一步配置 NFS 访问：
 
 * https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS 管理"^]
 +

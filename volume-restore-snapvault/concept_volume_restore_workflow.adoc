@@ -12,4 +12,4 @@ summary: 当源卷不可用或数据损坏时，您可以从 SnapVault 备份执
 [role="lead"]
 当源卷不可用或数据损坏时，您可以从 SnapVault 备份执行还原。从 SnapVault 备份还原卷涉及选择 SnapVault 目标卷，还原到新卷或现有卷以及验证还原操作。
 
-image::../media/volume_restore_workflow.gif[此图是 SnapVault 卷还原工作流的流程图。工作流中的步骤与此内容中的主题匹配。 ">]
+image::../media/volume_restore_workflow.gif[此图是 SnapVault 卷还原工作流的流程图。工作流中的步骤与主题匹配。 ">]

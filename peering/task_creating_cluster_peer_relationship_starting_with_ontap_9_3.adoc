@@ -1,7 +1,7 @@
 ---
 permalink: peering/task_creating_cluster_peer_relationship_starting_with_ontap_9_3.html 
 sidebar: sidebar 
-keywords: create, cluster, peer, relationship, cluster, system-generated, passphrase, ip, address, intercluster, lif, remote, create a cluster peer relationship, starting with ontap 9.3 
+keywords: create, cluster, peer, relationship, cluster, system-generated, passphrase, ip, address, intercluster, lif, remote, create a cluster peer relationship, Beginning with ontap 9.3 
 summary: 您可以通过提供系统生成的密码短语以及远程集群的集群间 LIF 的 IP 地址，在两个集群之间创建集群对等关系。 
 ---
 = 创建集群对等关系（从 ONTAP 9.3 开始）

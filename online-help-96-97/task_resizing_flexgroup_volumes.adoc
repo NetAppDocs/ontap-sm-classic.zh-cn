@@ -23,7 +23,7 @@ summary: 您可以使用 System Manager 通过调整现有资源的大小或添�
 . 选择要调整大小的 FlexGroup 卷，然后单击 * 更多操作 * > * 调整大小 * 。
 . 在 * 调整 FlexGroup 卷大小 * 窗口中，指定要将 FlexGroup 卷调整到的大小。
 +
-默认情况下，现有聚合用于调整 FlexGroup 卷的大小。从 System Manager 9.6 开始， " 大小 " 字段旁边会显示卷允许的最小大小。
+默认情况下，现有聚合用于调整 FlexGroup 卷的大小。从 System Manager 9.6 开始，卷允许的最小大小显示在大小字段旁边。
 
 +
 [NOTE]

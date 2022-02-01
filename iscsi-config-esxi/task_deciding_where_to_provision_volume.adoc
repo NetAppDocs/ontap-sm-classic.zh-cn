@@ -22,14 +22,14 @@ summary: 在配置卷以包含 LUN 之前，您需要确定是将卷添加到现
 
 * 如果要在已配置 iSCSI 的 SVM 上配置卷，则必须验证 iSCSI 服务是否正在运行。
 +
-xref:task_verifying_iscsi_is_running_on_existing_vserver.adoc[验证 iSCSI 服务是否正在现有 SVM 上运行]
+link:task_verifying_iscsi_is_running_on_existing_vserver.html["验证 iSCSI 服务是否正在现有 SVM 上运行"]
 
 * 如果要在已启用但未配置 iSCSI 的现有 SVM 上配置卷，请在现有 SVM 上配置 iSCSI 。
 +
-xref:task_configuring_iscsi_fc_creating_lun_on_existing_svm.adoc[在现有 SVM 上配置 iSCSI]
+link:task_configuring_iscsi_fc_creating_lun_on_existing_svm.html["在现有 SVM 上配置 iSCSI"]
 
 +
-如果在配置其他协议时未按照此内容中的操作步骤创建 SVM ，则会出现这种情况。
+如果在配置其他协议时未按照此操作步骤创建 SVM ，则会出现这种情况。
 
-* 如果要在新的 SVM 上配置卷， xref:task_creating_svm.adoc[创建新的 SVM]。
+* 如果要在新的 SVM 上配置卷， link:task_creating_svm.html["创建新的 SVM"]。
 

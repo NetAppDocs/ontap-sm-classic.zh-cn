@@ -2,7 +2,7 @@
 permalink: nas-multiprotocol-config/index.html 
 sidebar: sidebar 
 keywords: smb, cifs, nfs, access, volume, exist, storage, virtual, machine, svm 
-summary: 此内容介绍如何在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 和 NFS 访问。 
+summary: 您可以在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 和 NFS 访问。 
 ---
 = SMB 和 NFS 多协议配置概述
 :icons: font
@@ -33,9 +33,10 @@ summary: 此内容介绍如何在新的或现有的 Storage Virtual Machine （ 
 
 == 在 ONTAP 中执行此操作的其他方法
 
-[cols="2"]
 |===
-| 要执行以下任务，请执行以下操作 ... | 查看此内容 ... 
+
+
+| 要执行以下任务，请执行以下操作 ... | 请参见 ... 
 
 
 | 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本） | link:https://docs.netapp.com/us-en/ontap/task_nas_provision_nfs_and_smb.html["使用 NFS 和 SMB 为 Windows 和 Linux 配置 NAS 存储"^] 

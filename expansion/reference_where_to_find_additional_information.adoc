@@ -12,9 +12,9 @@ summary: 扩展集群后，您可以通过在新节点上创建新卷或将现�
 [role="lead"]
 扩展集群后，您可以通过在新节点上创建新卷或将现有数据移动到新节点来开始在新节点上存储数据。
 
-如果要在集群中使用 SnapMirror 或 SnapVault 关系来保护数据，请参见 xref:../peering/index.html[集群和 SVM 对等配置] 为新节点设置适当集群间 LIF 的指南。
+如果要在集群中使用 SnapMirror 或 SnapVault 关系来保护数据，请参见 link:../peering/index.html["集群和 SVM 对等配置"] 为新节点设置适当集群间 LIF 的指南。
 
-如果要将数据移动到新添加的节点，可以使用以下内容：
+如果要将数据移动到新添加的节点，可以使用以下信息：
 
 * https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
 +

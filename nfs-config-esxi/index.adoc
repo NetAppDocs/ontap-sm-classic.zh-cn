@@ -2,7 +2,7 @@
 permalink: nfs-config-esxi/index.html 
 sidebar: sidebar 
 keywords: nfs, access, esxi, host, datastores, ontap, volume, configuration, overview, vsc 
-summary: 此内容介绍如何使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。 
+summary: 您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。 
 ---
 = 使用 VSC 为 ESXi 配置 NFS 概述
 :icons: font
@@ -10,9 +10,9 @@ summary: 此内容介绍如何使用 ONTAP 卷为 ESXi 主机快速设置对数�
 
 
 [role="lead"]
-此内容介绍如何使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。
+您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。
 
-如果要按照以下方式为 ESXi 主机配置对卷的 NFS 访问，应使用此内容：
+如果要按照以下方式为 ESXi 主机配置对卷的 NFS 访问，应使用此操作步骤：
 
 * 您正在使用运行 ONTAP 9 的集群。
 * 您希望使用最佳实践，而不是浏览每个可用选项。
@@ -36,7 +36,7 @@ https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"^]
 * NFS 访问将通过 NFSv3 和 NFSv4 进行，以便与 VMware VAAI 结合使用。
 
 
-如果此内容不适合您的情况，您应查看以下文档：
+如果此操作步骤不适合您的情况，您应查看以下文档：
 
 * https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS 管理"^]
 * http://www.netapp.com/us/media/tr-4067.pdf["NetApp 技术报告 4067 ：《 NFS 最佳实践和实施》"^]

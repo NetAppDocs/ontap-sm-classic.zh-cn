@@ -12,4 +12,4 @@ summary: 配置 SNMP 包括启用 SNMP ，配置 SNMPv1 或 SNMPv2c 社区（可
 [role="lead"]
 配置 SNMP 包括启用 SNMP ，配置 SNMPv1 或 SNMPv2c 社区（可选），添加 SNMPv3 用户，添加 SNMP 陷阱主机以及测试 SNMP 轮询和陷阱。
 
-image::../media/snmp_config_workflow.gif[此图是 SNMP 配置工作流的流程图。工作流中的步骤与此内容中的主题匹配。]
+image::../media/snmp_config_workflow.gif[此图是 SNMP 配置工作流的流程图。工作流中的步骤与主题匹配。]

@@ -12,4 +12,4 @@ summary: 卷灾难恢复工作流包括激活目标卷，配置目标卷以进�
 [role="lead"]
 卷灾难恢复工作流包括激活目标卷，配置目标卷以进行数据访问以及重新激活原始源卷。
 
-image::../media/snapmirror_failover_resync_workflow_eg.gif[此图是 SnapMirror 集群间故障转移和重新同步工作流的流程图。工作流中的步骤与此内容中的主题匹配。]
+image::../media/snapmirror_failover_resync_workflow_eg.gif[此图是 SnapMirror 集群间故障转移和重新同步工作流的流程图。工作流中的步骤与主题匹配。]

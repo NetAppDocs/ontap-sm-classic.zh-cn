@@ -12,4 +12,4 @@ summary: 准备用于灾难恢复的卷包括验证集群对等关系，在驻�
 [role="lead"]
 准备用于灾难恢复的卷包括验证集群对等关系，在驻留在对等集群上的卷之间创建 SnapMirror 关系，设置用于数据访问的目标 SVM 以及定期监控 SnapMirror 关系。
 
-image::../media/snapmirror_intercluster_cfg_workflow.gif[此图是卷灾难恢复准备工作流的流程图。工作流中的步骤与此内容中的主题匹配。]
+image::../media/snapmirror_intercluster_cfg_workflow.gif[此图是卷灾难恢复准备工作流的流程图。工作流中的步骤与主题匹配。]

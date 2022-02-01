@@ -34,9 +34,10 @@ summary: 这些过程介绍如何在 Storage Virtual Machine 上快速设置 iSC
 
 == 在 ONTAP 中执行此操作的其他方法
 
-[cols="2*"]
 |===
-| * 要使用 ... 完成此任务，请执行以下操作： * | * 请参见此内容 ...* 
+
+
+| 要完成此任务，请使用 ... | 请参见 ... 
 
 
 | 重新设计的 System Manager （在 9.7 及更高版本中提供） | https://docs.netapp.com/us-en/ontap/task_san_provision_linux.html["为 Linux 服务器配置 SAN 存储"^] 

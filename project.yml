@@ -7,7 +7,7 @@ settings:
     pdf_enabled: true
   search: ontap
   harmony_enabled: true
-  langs: zh-cn,us-en,ja-jp,ko-kr
+  langs: zh-cn,us-en,ja-jp
 sidebar:
   entries:
   - title: System Manager 经典文档

@@ -18,7 +18,7 @@ summary: 您可以在位于不同集群中的卷之间快速配置 SnapVault 备
 * 您是集群管理员。
 * 您已配置集群对等关系和 SVM 对等关系。
 +
-xref:../peering/index.html[集群和 SVM 对等配置]
+link:../peering/index.html["集群和 SVM 对等配置"]
 
 * 在将集群中的所有节点升级到同一版本的 ONTAP 9 之后，您必须已启用 SnapMirror 或 SnapVault 许可证。
 * 您希望使用默认保护策略和计划，而不是创建自定义策略。

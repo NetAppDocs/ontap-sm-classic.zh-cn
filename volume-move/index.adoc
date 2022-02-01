@@ -14,7 +14,7 @@ summary: 使用 ONTAP System Manager 经典界面和 ONTAP 9.7 或更早版本�
 
 
 
-== 使用此内容的要求
+== 使用这些过程的要求
 
 在使用之前，请执行以下步骤，确保满足以下条件：
 
@@ -72,7 +72,7 @@ https://docs.netapp.com/us-en/ontap/volumes/index.html["逻辑存储管理"^]
 +
 https://docs.netapp.com/us-en/ontap/high-availability/index.html["高可用性"^]
 
-* 如果要仅移动 LUN 而不移动其包含的卷，则可以使用 LUN 移动过程。
+* 如果只想移动不包含其卷的 LUN ，则可以使用 LUN 移动过程。
 +
 https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
 

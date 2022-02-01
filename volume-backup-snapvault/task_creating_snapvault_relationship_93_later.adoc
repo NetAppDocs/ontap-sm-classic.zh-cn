@@ -1,7 +1,7 @@
 ---
 permalink: volume-backup-snapvault/task_creating_snapvault_relationship_93_later.html 
 sidebar: sidebar 
-keywords: create, snapvault, relationship, source, volume, cluster, destination, peer, backup, create a snapvault relationship, starting with ontap 9.3 
+keywords: create, snapvault, relationship, source, volume, cluster, destination, peer, backup, create a snapvault relationship, Beginning with ontap 9.3 
 summary: 您必须在一个集群上的源卷与对等集群上的目标卷之间创建 SnapVault 关系，才能创建 SnapVault 备份。 
 ---
 = 创建 SnapVault 关系（从 ONTAP 9.3 开始）
