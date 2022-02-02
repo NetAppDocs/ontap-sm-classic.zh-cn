@@ -286,8 +286,6 @@
                   <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_understanding_workloads_supported_by_strictsync_sync_policies.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/concept_understanding_workloads_supported_by_strictsync_sync_policies.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/concept_understanding_workloads_supported_by_strictsync_sync_policies.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
                 </li></ul>
             </li>
           </ul>
@@ -11866,11 +11864,19 @@
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 18:52:18 +0000">01/31/2022</time>
+    <time datetime="2022-02-02 00:13:46 +0000">02/02/2022</time>
     
   
 
 <span>提供者
+  <a target="_blank" href="https://github.com/netapp-thomi">
+    <img  class="avatar avatar-small"
+          alt="netapp-thomi"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/54111336?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-ivanad">
     <img  class="avatar avatar-small"
           alt="netapp-ivanad"
@@ -11892,7 +11898,7 @@
 <p>在 ONTAP 9.5 中，对于同步策略，在选择 NFSv3 或 NFSv4 工作负载时，需要考虑几个重要方面。不需要考虑工作负载的数据读取或写入操作量，因为 Sync 策略可以处理高读取或写入 IO 工作负载。在 ONTAP 9.5 中，文件创建，目录创建，文件权限更改或目录权限更改过多的工作负载可能不适用（这些工作负载称为高元数据工作负载）。高元数据工作负载的一个典型示例是 DevOps 工作负载，在此工作负载中，您可以创建多个测试文件，运行自动化并删除这些文件。另一个示例是并行构建工作负载，该工作负载会在编译期间生成多个临时文件。写入元数据活动率较高的影响是，它可以暂时中断镜像之间的发生原因同步，从而使客户端的读取和写入 IO 停止。</p>
 </div>
 <div class="paragraph">
-<p>从 ONTAP 9.6 开始，这些限制将被删除， SnapMirror 同步可用于包含多用户环境的企业文件服务工作负载，例如主目录和软件构建工作负载。</p>
+<p>从 ONTAP 9.6 开始，这些限制已被删除， SnapMirror 同步可用于包含多用户环境的企业级文件服务工作负载，例如主目录和软件构建工作负载。</p>
 </div>
 <div class="ulist">
 <ul>
