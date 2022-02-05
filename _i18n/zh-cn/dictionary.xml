@@ -9754,4 +9754,9 @@
   <block id="127ec903ab071b33b2b142ce19373815" category="summary">您可以在 Storage Virtual Machine 上快速设置 FC 服务，配置 LUN ，并使用 Red Hat Enterprise Linux 服务器上的 FC 主机总线适配器使 LUN 可用。</block>
   <block id="02e8657c4c4ceb640870cd696627fd96" category="list-text">集群中的每个节点上至少有两个可用的 FC 目标端口。板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置在 ONTAP 命令行界面（ CLI ）中完成，此操作步骤不会对此进行介绍。</block>
   <block id="74e0c6e96d379922627d8416a0a0f88c" category="sidebar">创建集群间 LIF （从 ONTAP 9.3 开始）</block>
+  <block id="8fad4be94e9aa7ce4db57aef3f0d7941" category="inline-link">NetApp 技术报告 4067 ：《 NFS 最佳实践和实施指南》</block>
+  <block id="6819367dcff0e5919ebb17505dc3e140" category="list-text"><block ref="6819367dcff0e5919ebb17505dc3e140" category="inline-link-rx"></block></block>
+  <block id="50400bf2b8b05b7f59759391fceb205c" category="inline-link">NetApp 技术报告 4668 ：《名称服务最佳实践指南》</block>
+  <block id="85937592f790d6e3d8b684c96c89c085" category="list-text"><block ref="85937592f790d6e3d8b684c96c89c085" category="inline-link-rx"></block></block>
+  <block id="2d5be386a089210cb63a38e03fd69890" category="list-text"><block ref="2d5be386a089210cb63a38e03fd69890" category="inline-link-rx"></block></block>
 </blocks>

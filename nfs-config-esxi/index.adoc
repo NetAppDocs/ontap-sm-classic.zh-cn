@@ -39,7 +39,7 @@ https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"^]
 如果此操作步骤不适合您的情况，您应查看以下文档：
 
 * https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS 管理"^]
-* http://www.netapp.com/us/media/tr-4067.pdf["NetApp 技术报告 4067 ：《 NFS 最佳实践和实施》"^]
-* https://www.netapp.com/pdf.html?item=/media/16328-tr-4668pdf.pdf["NetApp 技术报告 4668 ：《名称服务最佳实践》"^]
-* http://www.netapp.com/us/media/tr-4597.pdf["NetApp 技术报告 4597 ：《采用 ONTAP 的 VMware vSphere 》"^]
+* https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf["NetApp 技术报告 4067 ：《 NFS 最佳实践和实施指南》"^]
+* https://www.netapp.com/pdf.html?item=/media/16328-tr-4668.pdf["NetApp 技术报告 4668 ：《名称服务最佳实践指南》"^]
+* https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html["NetApp 技术报告 4597 ：《采用 ONTAP 的 VMware vSphere 》"^]
 
