@@ -1428,9 +1428,6 @@
   <block id="4bea5eaf5df93d0a6ba6618510b6fe67" category="list-text">使用带有 ` 字段 allowed-protocols` 参数的 `vserver show` 命令并查看输出，以确定使用 FC 或 iSCSI 协议的 SVM 。</block>
   <block id="8e9dd5146c758e43e019f2390969ab6f" category="list-text">对于使用 FC 或 iSCSI 的每个 SVM ，使用 `network interface create` 命令和 ` role data` 参数在每个新添加的节点上至少创建两个数据 LIF 。</block>
   <block id="cbaec24017c5afedc3b473ad4ae7ba06" category="list-text">对于每个 SVM ，使用带有 ` -vserver` 参数的 `network interface show` 命令验证其在集群中的所有节点上是否具有 LIF 。</block>
-  <block id="24190a0982c3bddaab4352bba9d0da95" category="list-text">更新端口集：</block>
-  <block id="833664fbe28fa891e4df455c1651d8cf" category="list-text">使用 `lun portset show` 命令确定端口集是否存在。</block>
-  <block id="d15f530428980248581ed4e1e40be88b" category="list-text">如果要使新的 LIF 对现有主机可见，请使用 `lun portset add` 命令将每个新 LIF 添加到端口集，每个 LIF 一次。</block>
   <block id="cf9ff43e36d7de88810a51cbfea2c2a3" category="list-text">如果使用 FC 或 FCoE ，请更新分区：</block>
   <block id="61e2aca06bb29c0a6405b34c51aa461d" category="list-text">验证是否已正确设置分区，以使主机上的现有启动程序端口能够连接到新节点上的新目标端口。</block>
   <block id="ba475f3c190b1b9ac92a4eb335c3ca90" category="list-text">更新交换机分区以将新节点连接到现有启动程序。</block>
@@ -3096,7 +3093,6 @@
   <block id="6364c0c6cb4fed781bce5969eca2bec1" category="list-text">验证已删除的 LDAP 客户端是否不再显示。</block>
   <block id="2363dee608bcd9f6ce7f980bfdad5789" category="inline-xref-macro">LDAP</block>
   <block id="c891a5d67c92cf5d25d3fbe82326ed56" category="paragraph"><block ref="c891a5d67c92cf5d25d3fbe82326ed56" category="inline-xref-macro-rx"></block></block>
-  <block id="526b762ba526f61e1f3918be366ad413" category="summary">您可以使用 System Manager 中的编辑启动程序组对话框更改现有启动程序组及其操作系统的名称。您可以在启动程序组中添加或删除启动程序。您还可以更改与启动程序组关联的端口集。</block>
   <block id="eb3bca02d31859fb667ae3b4c2d60a56" category="doc">编辑启动程序组</block>
   <block id="313a8a6a32fc700b93d306b9613fd7f4" category="list-text">在 * 启动程序组 * 选项卡中，选择要修改的启动程序组，然后单击 * 编辑 * 。</block>
   <block id="0cc99e2b81b313ef751e68b68eeb15b1" category="list-text">进行必要的更改。</block>
@@ -3931,24 +3927,14 @@
   <block id="03c63c1d02a71129f7d335a163ab8ba3" category="list-text">* 操作系统 * ：</block>
   <block id="2befeca643a50d06c68287c644f8f529" category="paragraph">指定启动程序组的操作系统。</block>
   <block id="d3314dbef95fde11fb19b796d20faf69" category="list-text">* 端口集 *</block>
-  <block id="fd78057ac3baadcbda05d677e87bd83a" category="paragraph">显示与启动程序组关联的端口集。</block>
   <block id="b2e79842a49babd8768929fb8ec52322" category="list-text">* 启动程序计数 *</block>
   <block id="9ef99f1abd4cfe3231347890b63eecaf" category="paragraph">显示添加到启动程序组的启动程序数量。</block>
   <block id="1235798af8587ffd76842cc03dcb3780" category="paragraph">启动程序组列表下方的区域显示有关添加到选定启动程序组的启动程序以及映射到启动程序组的 LUN 的详细信息。</block>
   <block id="ad2b46df67a85b46b5338c61a4b8a1aa" category="section-title">端口集选项卡</block>
-  <block id="5254f8ed9e0e1791df68806f8766e68b" category="paragraph">此选项卡可用于创建，删除或编辑端口集的设置。</block>
-  <block id="2b1befd8a712920bfd72c2b24f28307b" category="paragraph">打开创建端口集对话框，在此可以创建端口集以限制对 LUN 的访问。</block>
-  <block id="d3a0922f27b5d93e2d31e3c53f2ec3b0" category="paragraph">打开编辑端口集对话框，在此可以选择要与端口集关联的网络接口。</block>
-  <block id="f0ca25f982a256b07e8040ffb57099e0" category="paragraph">删除选定的端口集。</block>
   <block id="349c1ae432d86858994f4f4b30cbfe82" category="section-title">端口集列表</block>
   <block id="4acdc9c5698ae967fb86f186c4cc134f" category="list-text">* 端口集名称 *</block>
-  <block id="5eba1d798eb06440b05591042514c0c6" category="paragraph">显示端口集的名称。</block>
-  <block id="1050742507ff4197a001af2b01d98abb" category="paragraph">指定端口集支持的协议类型。支持的协议包括 iSCSI ， FC/FCoE 或混合（ iSCSI 和 FC/FCoE ）。</block>
   <block id="8e32abdbdc08941f8879974523f93062" category="list-text">* 接口计数 *</block>
-  <block id="651dac6a319fdde8ed5b7e1362a917a8" category="paragraph">显示与端口集关联的网络接口的数量。</block>
   <block id="4e2a3d8010c09eaa8ff29cb71b1cba4c" category="list-text">* 启动程序组计数 *</block>
-  <block id="33459959ce3e0e005c202e4cf46a26b0" category="paragraph">显示与端口集关联的启动程序组的数量。</block>
-  <block id="2d082bade5247cb3a4ecb0a1b23c170e" category="paragraph">端口集列表下方的区域显示了有关与选定端口集关联的网络接口和启动程序组的详细信息。</block>
   <block id="03064b31a7fddb8f7e5a6c5d2f4bb73e" category="inline-xref-macro">正在创建 LUN</block>
   <block id="9ff222546e9af236407d79890f8a66e8" category="paragraph"><block ref="9ff222546e9af236407d79890f8a66e8" category="inline-xref-macro-rx"></block></block>
   <block id="d66ad1588cfbd24c109852409c52cf52" category="inline-xref-macro">正在删除 LUN</block>
@@ -4615,10 +4601,8 @@
   <block id="4a231a9732b02d51603813983a1ea7f2" category="list-text">如果您是首次在卷上运行重复数据删除，请在 * 存储效率 * 对话框中选择 * 扫描整个卷 * 来对整个卷数据运行重复数据删除。</block>
   <block id="059bcb3d06d5b7c0c9b7f4d6d250d626" category="list-text">单击 * 开始 * 。</block>
   <block id="52b5e80b37c8e1fff3ac86ba523531bc" category="list-text">在 * 卷 * 窗口的 * 存储效率 * 选项卡中查看上次运行重复数据删除操作的详细信息。</block>
-  <block id="166dc2e84350c7224eaefed87c3098df" category="summary">您可以使用 System Manager 创建启动程序组。使用启动程序组可以控制主机对特定 LUN 的访问。您可以使用端口集限制启动程序可以访问的 LIF 。</block>
   <block id="e8fa661a5a10dd89b61025c67e0a71f8" category="doc">创建启动程序组</block>
   <block id="c434e7f4d77ffc468dbad3de658be566" category="list-text">在 * 启动程序组 * 选项卡中，单击 * 创建 * 。</block>
-  <block id="aa5f7e0f98bc1d87ca4aa4ac9935bacf" category="list-text">在 * 创建启动程序组 * 对话框的 * 常规 * 选项卡中，指定启动程序组名称，操作系统，主机别名，端口集以及该组支持的协议。</block>
   <block id="e3b7d8874abeb7ab99b1ca4931a172ad" category="summary">您可以使用 System Manager 添加启动程序并指定用于对启动程序进行身份验证的安全方法。</block>
   <block id="048cdc556ef2706b323f91705d47be15" category="doc">添加 iSCSI 启动程序的安全方法</block>
   <block id="dc5c63f011e7a7491255fb3671fa3a3c" category="list-text">在 * iSCSI * 窗口中，单击 * 启动程序安全性 * 选项卡。</block>
@@ -5480,11 +5464,8 @@
   <block id="bfb08254a46a982b3c837843e18014dd" category="paragraph">如果您已选择 AWS Commercial Cloud Service （ C2S ）云层，则可以修改服务器 CA 证书和客户端证书。</block>
   <block id="34821397c2b3a09675a92b7fae648500" category="summary">您可以使用 System Manager 管理集群的日期和时间设置。</block>
   <block id="852012103597a09c718415eb37d9a965" category="doc">集群的日期和时间设置</block>
-  <block id="19013d07715aeacbfbb8d6d4ee6afdfd" category="summary">您可以使用 System Manager 创建端口集，以限制对 LUN 的访问。</block>
-  <block id="244eefa1b07ddd11c09b5f1f666f3a95" category="doc">创建端口集</block>
   <block id="b66440280dff687ce62da251f703a0ac" category="list-text">在 * 端口集 * 选项卡中，单击 * 创建 * 。</block>
   <block id="a364a41a0503559d1b165067a0be84da" category="list-text">在 * 创建端口集 * 对话框中，选择协议类型。</block>
-  <block id="a3868a1dee32c4beb989cd7094d1faab" category="list-text">选择要与端口集关联的网络接口。</block>
   <block id="b2382f3b5e558de897e360ce648b9df6" category="summary">您可以使用 System Manager 重置 Windows 本地用户的密码。例如，如果当前密码泄露或用户忘记了密码，您可能需要重置密码。</block>
   <block id="81f65fa9473e7e581b2eac1bb39da07f" category="paragraph">您设置的密码必须满足以下条件：</block>
   <block id="1587fc2d730410811869284f09ac13eb" category="list-text">长度必须至少为六个字符</block>
@@ -5861,9 +5842,6 @@
   <block id="309c76eeff63d8465df0721ca6cf6a93" category="paragraph">如果 LUN 禁用了空间预留（非空间预留 LUN ），则在创建 LUN 时不会为该 LUN 预留任何空间。只要有足够的可用空间，就会根据需要从卷中为 LUN 分配任何写入操作所需的存储。</block>
   <block id="bd9f3fb4d4ac06acfae10c70ce3223af" category="paragraph">如果在无保证的卷中创建了空间预留 LUN ，则该 LUN 的行为与非空间预留 LUN 相同。这是因为无保证的卷没有可分配给 LUN 的空间；由于无保证，卷本身只能在写入时分配空间。因此，建议不要在无保证的卷中创建预留了空间的 LUN ；采用这种配置组合可能会提供写入保证，而这实际上是不可能的。</block>
   <block id="b015f33c456c70991a6d3a77ad1e8188" category="paragraph">当空间预留设置为 `Default` 时， ONTAP 空间预留设置将应用于 LUN 。如果创建了新卷，则 ONTAP 空间预留设置也适用于容器卷。</block>
-  <block id="40cf3ccead3d1522c56a9b43a96c3695" category="summary">您可以使用 System Manager 删除不再需要的端口集。</block>
-  <block id="6cdf085f7dc21df0a8dc46d1b215b524" category="doc">正在删除端口集</block>
-  <block id="043072944b3bc1f9e19805a129e5002e" category="list-text">在 * 端口集 * 选项卡中，选择一个或多个端口集，然后单击 * 删除 * 。</block>
   <block id="6c2694d87158e1651482546543e38a8d" category="list-text">单击 * 删除 * 确认删除。</block>
   <block id="011482505ba62f884f8bab5f44ca607f" category="summary">您可以使用 System Manager 通过暂停存储关系来禁用向目标 FlexVol 卷传输数据。</block>
   <block id="c94ad15b0e15f1b1c88026c9d3c2cb4b" category="list-text">选择要停止计划的数据传输的关系，然后单击 * 操作 * &gt; * 暂停 * 。</block>
@@ -6193,9 +6171,6 @@
   <block id="132ee5970d6f5f78fb466c409760d4d7" category="paragraph">选择 * 子网 * 。</block>
   <block id="dce096c9f5418eb3662fc6b89dc79e6d" category="paragraph">手动提供 IP 地址</block>
   <block id="251f853d558ba3373c5a9bbf840e84d4" category="paragraph">选择 * 手动分配 * 。</block>
-  <block id="7dab0070e22714f3d4e78e02b8ac92bf" category="summary">您可以使用 System Manager 中的端口集选项卡编辑与端口集相关的设置。</block>
-  <block id="1d47b14abc20e19a16cf518b8276a7bf" category="doc">编辑端口集</block>
-  <block id="13ab40290ec10df93c6eff237065281c" category="list-text">在 * 端口集 * 选项卡中，选择要编辑的端口集，然后单击 * 编辑 * 。</block>
   <block id="0a4c82e9eb33cb787b62e1a1a210a464" category="list-text">在 * 编辑端口集 * 对话框中，进行必要的更改。</block>
   <block id="d9d77fcd2353492507ef382d1d0777d4" category="summary">作业是异步任务，通常是长时间运行的卷操作，例如复制，移动或镜像数据。作业将置于作业队列中，并在资源可用时运行。集群管理员可以执行与作业管理相关的所有任务。</block>
   <block id="653ed387148d4ac78cb68ce36c1c8b8f" category="paragraph">_jobs_are 异步任务，通常是长时间运行的卷操作，例如复制，移动或镜像数据。作业将置于作业队列中，并在资源可用时运行。集群管理员可以执行与作业管理相关的所有任务。</block>
@@ -8317,7 +8292,6 @@
   <block id="47cb83bcd9773d4b2148d9e85bf17e7b" category="paragraph">您还可以选中释放基本 Snapshot 副本复选框，以删除源卷上的镜像和存储关系使用的基本 Snapshot 副本。</block>
   <block id="8d1911d0adfd8e36660e7a739f1a1d43" category="paragraph">如果关系未释放，则必须使用命令行界面在源集群上运行释放操作，以便从源卷中删除为镜像和存储关系创建的基本 Snapshot 副本。</block>
   <block id="0c7b80bd3793fa6dfe4f3f07872b2d7e" category="paragraph">此关系将被删除，并且源卷上的基本 Snapshot 副本将被永久删除。</block>
-  <block id="9e50d3d8dc65a09f28ddd6ef3d765472" category="summary">您可以在 Storage Virtual Machine （ SVM ）上为 SAN 主机配置 FC 协议和 FCoE 协议。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。根据您的要求，您可以使用 System Manager 配置 FC 协议或 FCoE 协议，也可以同时配置这两种协议。</block>
   <block id="1cb4302fc1ecfacecb8099b2e0fa94e5" category="doc">在 SVM 上配置 FC 协议和 FCoE 协议</block>
   <block id="9d27060c3a62d44d72280d0d2d41c901" category="list-text">必须在集群上启用 FCP 许可证。</block>
   <block id="dc979ee23207688dcfeafb28a197e5a5" category="list-text">每个节点必须为每个协议（ FC 和 FCoE ）至少配置两个正确配置的端口。</block>
@@ -8330,7 +8304,6 @@
   <block id="f1deb1eebd781987dc5928a29563008e" category="list-text">如果要验证或修改自动生成的 LIF 配置，请选择 * 查看或编辑接口关联 * 。</block>
   <block id="6ae5e4aff7b4baf185267f383f8e510e" category="paragraph">您只能修改 LIF 名称和主端口。您必须确保未指定重复条目。</block>
   <block id="ac208f4f587c57e7973c5ae4579a00d0" category="list-text">配置协议时，通过提供 LUN 大小， LUN 的操作系统类型以及主机启动程序详细信息来为 FC 存储或 FCoE 存储配置 LUN 。</block>
-  <block id="3fe56a7f0e04877d850a13bb1bb02736" category="paragraph">数据 LIF 和端口集是使用指定配置创建的。LIF 会相应地分布在各个端口集之间。如果至少为一个协议成功创建了所有 LIF ，则会启动 FCP 服务。</block>
   <block id="91f750dc1743f641bc63ffb38dc8456a" category="paragraph">如果 LIF 创建失败，您可以从 FC/FCoE 窗口创建 LIF 并启动 FCP 服务。</block>
   <block id="9e455ea9ccca57eb62e712c552b33b5f" category="summary">您可以使用 System Manager 删除不再需要的导出策略。</block>
   <block id="01019ff7bcef68e8d809668d2bf27ce2" category="doc">正在删除导出策略</block>
@@ -9258,12 +9231,10 @@
   <block id="ce32094cc1e3f4f6f04deda444a6d0ba" category="sidebar">删除 LUN</block>
   <block id="06132815dcce4b283f1cfae5f86d26ff" category="sidebar">删除启动程序组</block>
   <block id="264006200ac4b433693fed0334127e8b" category="sidebar">从启动程序组中删除启动程序</block>
-  <block id="6ea2516fb6fe30a2beb6d5710002d6df" category="sidebar">删除端口集</block>
   <block id="f1d205e6474eacc6c30bb75038911622" category="sidebar">编辑 LUN</block>
   <block id="8b666f58d872bf455953c6ba0b34140a" category="sidebar">使 LUN 脱机</block>
   <block id="8f4224ef786f84f8f9822c574817187e" category="sidebar">编辑启动程序组</block>
   <block id="c38ea46c63be16e77d0b54fde1408461" category="sidebar">编辑启动程序</block>
-  <block id="6ad808ad2149757fe439a5683c506ae6" category="sidebar">编辑端口集</block>
   <block id="9ddfcfa2178bbaa95f3516e283f56c6c" category="sidebar">查看 LUN 信息</block>
   <block id="cd242385237807a42c01bc56e88dd621" category="sidebar">查看启动程序组</block>
   <block id="46474bb633a6e11a4c8db2e2fd2cb25d" category="sidebar">了解 LUN 的空间预留</block>
@@ -9759,4 +9730,33 @@
   <block id="50400bf2b8b05b7f59759391fceb205c" category="inline-link">NetApp 技术报告 4668 ：《名称服务最佳实践指南》</block>
   <block id="85937592f790d6e3d8b684c96c89c085" category="list-text"><block ref="85937592f790d6e3d8b684c96c89c085" category="inline-link-rx"></block></block>
   <block id="2d5be386a089210cb63a38e03fd69890" category="list-text"><block ref="2d5be386a089210cb63a38e03fd69890" category="inline-link-rx"></block></block>
+  <block id="d6e768218203e5e5304006b8efd0112a" category="summary">您可以使用 System Manager 删除不再需要的端口集。</block>
+  <block id="037c863e9f93c12fc8ea65ce0b04bebb" category="doc">正在删除端口集</block>
+  <block id="3c5def4b4418a1419950919985135d29" category="list-text">在 * 端口集 * 选项卡中，选择一个或多个端口集，然后单击 * 删除 * 。</block>
+  <block id="63ce9611974d55c52bba91d03b2470a4" category="summary">您可以使用 System Manager 创建端口集，以限制对 LUN 的访问。</block>
+  <block id="6158f107c175e5e253737a4a6ef1c91c" category="doc">创建端口集</block>
+  <block id="bb2bf2751a5bbb740612ba8bffdc099d" category="list-text">选择要与端口集关联的网络接口。</block>
+  <block id="1ec1c4d3de6304fa2f8701345f97b93b" category="summary">您可以使用 System Manager 创建启动程序组。使用启动程序组可以控制主机对特定 LUN 的访问。您可以使用端口集限制启动程序可以访问的 LIF 。</block>
+  <block id="22da2f660e2b9269a497e5898901714c" category="list-text">在 * 创建启动程序组 * 对话框的 * 常规 * 选项卡中，指定启动程序组名称，操作系统，主机别名，端口集以及该组支持的协议。</block>
+  <block id="a6de5df70a9341b2c519603388ce9ccf" category="summary">您可以在 Storage Virtual Machine （ SVM ）上为 SAN 主机配置 FC 协议和 FCoE 协议。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。根据您的要求，您可以使用 System Manager 配置 FC 协议或 FCoE 协议，也可以同时配置这两种协议。</block>
+  <block id="ff4c77d043def3eb5719e2920310cb36" category="paragraph">数据 LIF 和端口集是使用指定配置创建的。LIF 会相应地分布在各个端口集之间。如果至少为一个协议成功创建了所有 LIF ，则会启动 FCP 服务。</block>
+  <block id="85b407d8880ba32f5b59f45fd37e607e" category="paragraph">显示与启动程序组关联的端口集。</block>
+  <block id="8c6e0931827321d8bd781fac2791044a" category="paragraph">此选项卡可用于创建，删除或编辑端口集的设置。</block>
+  <block id="ee30b5ed345b597fb1b433b2c3da689c" category="paragraph">打开创建端口集对话框，在此可以创建端口集以限制对 LUN 的访问。</block>
+  <block id="46d7b820826dbdca532df7210936733b" category="paragraph">打开编辑端口集对话框，在此可以选择要与端口集关联的网络接口。</block>
+  <block id="8dc5eee093f83b5eeadffb339f7eb547" category="paragraph">删除选定的端口集。</block>
+  <block id="d3d37da1eb13351aedd158865afd05c5" category="paragraph">显示端口集的名称。</block>
+  <block id="4495ec6e00ca0f2d3b04dbfd1433944e" category="paragraph">指定端口集支持的协议类型。支持的协议包括 iSCSI ， FC/FCoE 或混合（ iSCSI 和 FC/FCoE ）。</block>
+  <block id="64693081cded05d4ce6e0c430eca4535" category="paragraph">显示与端口集关联的网络接口的数量。</block>
+  <block id="23409b5c721134a7f5ea37565116bca8" category="paragraph">显示与端口集关联的启动程序组的数量。</block>
+  <block id="61696bbbffe81f0015841f4828a83f8f" category="paragraph">端口集列表下方的区域显示了有关与选定端口集关联的网络接口和启动程序组的详细信息。</block>
+  <block id="d9eaa6e43a91e86b923e03b379f9bbc3" category="summary">您可以使用 System Manager 中的编辑启动程序组对话框更改现有启动程序组及其操作系统的名称。您可以在启动程序组中添加或删除启动程序。您还可以更改与启动程序组关联的端口集。</block>
+  <block id="e2485f3cbd62161860676b0d2a07c9ce" category="summary">您可以使用 System Manager 中的端口集选项卡编辑与端口集相关的设置。</block>
+  <block id="1ac31f1ad654d973d0519bf199c050af" category="doc">编辑端口集</block>
+  <block id="0c0018980666258d7f22a8d9a061f1d5" category="list-text">在 * 端口集 * 选项卡中，选择要编辑的端口集，然后单击 * 编辑 * 。</block>
+  <block id="4147675dfdaf47726b2bef9cf232aa84" category="list-text">更新端口集：</block>
+  <block id="0ff4e590ab4228f68c6e92c2925a6247" category="list-text">使用 `lun portset show` 命令确定端口集是否存在。</block>
+  <block id="c98b16f1475c5ed3edd5940478bbb261" category="list-text">如果要使新的 LIF 对现有主机可见，请使用 `lun portset add` 命令将每个新 LIF 添加到端口集，每个 LIF 一次。</block>
+  <block id="ded36311d847f75d4f809a6870a2e0ed" category="sidebar">删除端口集</block>
+  <block id="f036f45cd0fb57db483a3278d8a1eb2a" category="sidebar">编辑端口集</block>
 </blocks>
