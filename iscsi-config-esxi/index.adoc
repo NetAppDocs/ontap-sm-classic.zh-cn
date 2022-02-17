@@ -2,7 +2,7 @@
 permalink: iscsi-config-esxi/index.html 
 sidebar: sidebar 
 keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer 
-summary: 您可以在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。 
+summary: 使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。 
 ---
 = 使用 VSC 为 ESXi 配置 iSCSI 概述
 :icons: font
@@ -10,13 +10,18 @@ summary: 您可以在 Storage Virtual Machine 上快速设置 iSCSI 服务，配
 
 
 [role="lead"]
-您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN ，并使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 ESXi 主机计算机上使用 iSCSI 启动程序使 LUN 可用。
+使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。
 
 在以下情况下使用此操作步骤：
 
 * 您正在 ESXi 5.x 上使用原生 ESXi iSCSI 软件启动程序
 * 您未对 iSCSI 使用 CHAP 身份验证。
-* 您正在使用支持的适用于 VMware vSphere 的 Virtual Storage Console 版本为 ESX 主机配置存储设置。
+* 您正在使用受支持版本的适用于 VMware vSphere 的 Virtual Storage Console （ VSC ）为 ESX 主机配置存储设置。
++
+** 从 VSC 7.0 开始， VSC 属于 https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["适用于 VMware vSphere 的 ONTAP 工具"^] 虚拟设备，包括适用于 VMware vSphere 的 VSC ， vStorage APIs for Storage Awareness （ VASA ） Provider 和 Storage Replication Adapter （ SRA ）功能。
+** 请务必检查 https://imt.netapp.com/matrix/["NetApp 互操作性表工具"^] 以确认当前 ONTAP 版本与 VSC 版本之间的兼容性。
+
+
 * 您的网络使用 IPv4 地址。
 * 您希望使用以下任一方法为逻辑接口分配地址：
 +
@@ -30,35 +35,10 @@ summary: 您可以在 Storage Virtual Machine 上快速设置 iSCSI 服务，配
 板载 UTA2 （也称为 `CNA` ）端口可配置。您可以在 ONTAP 命令行界面中配置这些端口；此过程不在其操作步骤中介绍。
 
 +
-请参见 link:https://docs.netapp.com/us-en/ontap/networking/index.html["ONTAP 9 网络管理"] 用于使用 CLI 配置以太网端口流量控制。
+请参见 link:https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"^] 用于使用 CLI 配置以太网端口流量控制。
 
 * 您未配置 iSCSI SAN 启动。
 * 您正在通过 ESXi 虚拟机管理程序为 VM 提供存储，而不是在 VM 中运行 iSCSI 启动程序。
 
 
-
-
-== 在 ONTAP 中执行此操作的其他方法
-
-|===
-
-
-| 要执行以下任务，请执行以下操作 ... | 请参见 ... 
-
-
-| 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本） | link:https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html["为 VMware 数据存储库配置 SAN 存储"^] 
-
-
-| ONTAP 命令行界面（ CLI ） | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["使用 CLI 设置 LUN 的工作流"^] 
-|===
-
-
-== 其他资源
-
-如果这些假设与您的情况不符，您应查看以下资源：
-
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html["ONTAP 9 SAN 管理"^]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html["ONTAP 9 SAN 配置"^]
-* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["设备管理"^]
-* 适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取 link:http://www.vmware.com["VMware"^]）
-
+有关详细信息，请参见 https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html["TR-4597 ：适用于 ONTAP 的 VMware vSphere"^] 以及适用于您的 VSC 版本的文档。

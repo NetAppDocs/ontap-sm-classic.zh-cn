@@ -74,7 +74,6 @@
   <block id="e1f9c75e0d34511fa7945c9a9bd4a301" category="list-text">您不想阅读大量概念背景信息。</block>
   <block id="2152f76761d5c6a4279f0f404b969bc6" category="list-text">您希望使用适用于 ONTAP 9.7 及更早版本的 _Classic_ System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。</block>
   <block id="e8726682a54ea85f2123db66fd54ec79" category="inline-link">ONTAP System Manager 文档</block>
-  <block id="393a51fc1ea014203ab06257b17952d6" category="paragraph"><block ref="393a51fc1ea014203ab06257b17952d6" category="inline-link-rx"></block></block>
   <block id="d330df82772bc211de4c19b45eedcb36" category="inline-link">NetApp 技术报告 4183 ：《 SnapVault 最佳实践》</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="summary">版权</block>
   <block id="e10b5b38785c3a24ec75723ab75b4360" category="paragraph">版权所有 © 2021 NetApp ， Inc. 。保留所有权利。Printed in the U.S.</block>
@@ -1704,7 +1703,6 @@
   <block id="5572f49b158f780c6a6d34a5ee104b8f" category="paragraph">LIF 的子网：</block>
   <block id="638ba88b49b184538c32c1c7808d8103" category="doc">使用 VSC 为 ESXi 配置 iSCSI 概述</block>
   <block id="d2604e4f6b186a2646fe3c97133ef0f6" category="list-text">您未对 iSCSI 使用 CHAP 身份验证。</block>
-  <block id="829278b24fc7ce848ba59f52f780c739" category="list-text">您正在使用支持的适用于 VMware vSphere 的 Virtual Storage Console 版本为 ESX 主机配置存储设置。</block>
   <block id="d862fa8a56f5e022d3157dd0b90b2b76" category="list-text">自动从您定义的子网</block>
   <block id="77940d0bcb4281501811de1ec05e0bda" category="list-text">集群中的每个节点上至少有两个可用的高速以太网端口（至少 1 GbE ，建议使用 10 GbE ）。</block>
   <block id="4dfc85f053bbce34b061f9f9e50054bd" category="inline-link-macro">ONTAP 9 网络管理</block>
@@ -1713,7 +1711,6 @@
   <block id="19a784614020f03847308e98240415b6" category="list-text"><block ref="19a784614020f03847308e98240415b6" category="inline-link-rx"></block></block>
   <block id="8f123b6f4ad978f9c6803038618a9b8c" category="inline-link">ONTAP 9 SAN 配置</block>
   <block id="30c9bf2fd4921da10d1760727d7dc6cd" category="list-text"><block ref="30c9bf2fd4921da10d1760727d7dc6cd" category="inline-link-rx"></block></block>
-  <block id="7b163ff65ebf3790f5b97fe18f22f72b" category="inline-link">设备管理</block>
   <block id="27ebce0c0f9c269fad61d937501e68e0" category="summary">适用于 VMware vSphere 的 Virtual Storage Console 可自动执行将 NetApp iSCSI 存储与 ESXi 主机结合使用所需的许多配置和配置任务。Virtual Storage Console 是 vCenter Server 的一个插件。</block>
   <block id="fa3313a389a81d17ecc59d6a9af3cd81" category="doc">安装 Virtual Storage Console</block>
   <block id="4dbd231a9a42eafe7a6612f3a2289388" category="paragraph">您必须具有用于管理 ESXi 主机的 vCenter Server 的管理员凭据。</block>
@@ -1821,7 +1818,6 @@
   <block id="b7b71e4ffa1bcfc6ef48c886ae82c581" category="list-text">如果要在已配置 FC 的 SVM 上配置卷，则必须验证 FC 服务是否正在运行。</block>
   <block id="ac486e8c7eaa144720f9743326a1eb94" category="paragraph">此 VMware 内容介绍了 ESXi 5.x 的 FC 和 iSCSI 配置</block>
   <block id="caeab82c4f9b5aa8223e7cf94f44d99d" category="doc">使用 VSC 为 ESXi 配置 FC 概述</block>
-  <block id="5a904ed7630aa080098419a943137232" category="list-text">您正在使用支持的适用于 VMware vSphere 的 Virtual Storage Console 版本为 ESX 主机配置存储设置并配置数据存储库。</block>
   <block id="1fe0867d1be2bcaa05e5f8f160018fac" category="list-text">您正在 ESXi 5.x 和传统 FC 交换机上使用传统 FC HBA 。</block>
   <block id="dfccb684b063bbb06e8ec445a12648fa" category="list-text">您正在主机上创建数据存储库。</block>
   <block id="27045e1024ed1f1f4ea149b9fcfc4e8f" category="summary">适用于 VMware vSphere 的 Virtual Storage Console 可自动执行将 NetApp FC 存储与 ESXi 主机结合使用所需的许多配置和配置任务。Virtual Storage Console 是 vCenter Server 的一个插件。</block>
@@ -9018,8 +9014,6 @@
   <block id="b6339b8db51f3442d4512cbc00301455" category="doc">适用于 ESXi 的 NFS 客户端配置工作流</block>
   <block id="1db77ab5a30737c6da5b1003cdbc8173" category="image-alt">使用适用于 ESX 的 VAAI 的 NFS 客户端配置</block>
   <block id="9fbe728d7eb2adabf531ccdcf064bc53" category="doc">使用 VSC 为 ESXi 配置 NFS 概述</block>
-  <block id="3265a02f223e2e874b1bec4518109193" category="list-text">您希望使用配置数据存储库并创建卷。</block>
-  <block id="9dfffe8114e130e42162831fc7267180" category="paragraph">如果您的数据网络正常运行，则这些默认对象会规定 LIF 在链路出现故障时可以正确地进行故障转移。如果您不使用默认对象，应参见<block ref="a103d8b90ee1bc965ab64e599e1125d6" category="inline-link-rx"></block> 有关如何配置 LIF 路径故障转移的信息。</block>
   <block id="43a71c5fe2434bc0afb8d6344fcbf4d8" category="list-text">您希望使用适用于 VMware VAAI 的插件。</block>
   <block id="feed6122f4184fcdec75b30135610d5f" category="paragraph">通过 VMware vStorage APIs for Array Integration （ VAAI ），您可以执行副本卸载和空间预留。适用于 VMware VAAI 的插件使用此功能来提高主机性能，因为操作不需要通过 ESXi 主机，因此可以利用 ONTAP 中节省空间和时间的克隆功能。</block>
   <block id="c1d14d20450e486195a2453dad82c1f5" category="paragraph">最佳做法是使用 VMware VAAI 进行数据存储库配置。</block>
@@ -9404,14 +9398,6 @@
   <block id="2b059c82e86ff3c455cb0426715eaa43" category="inline-link-macro">为 Windows 服务器配置 SAN 存储</block>
   <block id="0d0143f2e5a78e2ef09e5e513f10c665" category="cell"><block ref="0d0143f2e5a78e2ef09e5e513f10c665" category="inline-link-macro-rx"></block></block>
   <block id="a68e7c01398ea86885062e8abe3e14a1" category="cell"><block ref="a68e7c01398ea86885062e8abe3e14a1" category="inline-link-macro-rx"></block></block>
-  <block id="75cf39a174605501236ca8fbc522d864" category="paragraph">您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN ，并使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 ESXi 主机计算机上使用 iSCSI 启动程序使 LUN 可用。</block>
-  <block id="705580ff5e4d290b253ce9987709bc06" category="paragraph">请参见 <block ref="f23edc0bb2e15286525e82e5ff7532e0" category="inline-link-macro-rx"></block> 用于使用 CLI 配置以太网端口流量控制。</block>
-  <block id="7114f450701db0c8c6dce6070cf80a4c" category="inline-link-macro">为 VMware 数据存储库配置 SAN 存储</block>
-  <block id="fdc544df040b80e41f4cd4baa63e1554" category="cell"><block ref="fdc544df040b80e41f4cd4baa63e1554" category="inline-link-macro-rx"></block></block>
-  <block id="8cd58c89ff3d51a256ecfe3fe8bab20f" category="section-title">其他资源</block>
-  <block id="982b26a119993277a196e08d99a37e4a" category="list-text"><block ref="982b26a119993277a196e08d99a37e4a" category="inline-link-rx"></block></block>
-  <block id="a642a03a1d89a2568a28161a6dcba8c0" category="list-text"><block ref="a642a03a1d89a2568a28161a6dcba8c0" category="inline-link-rx"></block></block>
-  <block id="e466eeb1f64e47b473620aac811abf13" category="list-text"><block ref="e466eeb1f64e47b473620aac811abf13" category="inline-link-rx"></block></block>
   <block id="b92480144202163d36d8ff97ea5e2385" category="paragraph">您可以使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 Red Hat Enterprise Linux 服务器上使用 FC 主机总线适配器（ HBA ）在 Storage Virtual Machine （ SVM ）上快速设置 FC 服务，配置 LUN 并使 LUN 可用。</block>
   <block id="d822c6968566763eeb55563cebc6ec6e" category="cell"><block ref="d822c6968566763eeb55563cebc6ec6e" category="inline-link-macro-rx"></block></block>
   <block id="785f21867c78d48d84db708fe6d6705a" category="list-text">转至<block ref="ae0acc7a1cf35a69eb7b42685c902841" category="inline-link-rx"></block> 验证是否支持以下组件的组合：</block>
@@ -9424,7 +9410,6 @@
   <block id="9cf52e339950ce13b96dc210eba32043" category="paragraph">如果出现以下情况，请使用此操作步骤在 SVM 上设置 FC 服务：</block>
   <block id="38e80e600c0d0ee615750e63a57b0cc5" category="list-text">您使用的是传统 FC HBA 和交换机。</block>
   <block id="d72f5510625cc4d6c7088dce4938a4b0" category="paragraph">此操作步骤不包括以下情况：</block>
-  <block id="2543eb70e018ba889bfe7e3c3c1f1afd" category="summary">您可以在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
   <block id="039d2d1f92ed5762bd1672bf32bb614a" category="paragraph">在以下情况下使用此操作步骤：</block>
   <block id="8a9b85a6ff90e4352c93c12f5031fb81" category="list-text">主机运行的是受支持的 Red Hat Enterprise Linux 6.4 或更高版本。</block>
   <block id="d90be280d58372ceba4455532ff87944" category="admonition">此操作步骤不涵盖以太网光纤通道（ FCoE ）。</block>
@@ -9534,11 +9519,6 @@
   <block id="d432d4f68190c54b5adf35251379f3fb" category="paragraph">此操作步骤不包括 FCoE 。</block>
   <block id="58b58b7e31b6b40393ea4d6eaaa65f6a" category="paragraph">板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置会在 ONTAP 命令行界面中完成，此操作步骤不会对此进行介绍。</block>
   <block id="269d64d46c556a3a7403703cf1ed2dcf" category="paragraph">此操作步骤不包括原始设备映射（ RDM ）磁盘或使用 N 端口 ID 虚拟化（ NPIV ）直接为 VM 提供 FC 。</block>
-  <block id="d2494eaa8817110c3f33b9db26112081" category="inline-link">ONTAP 9 SAN 管理</block>
-  <block id="b4db604f7f46fce8467c2f28a2c5e83e" category="list-text"><block ref="b4db604f7f46fce8467c2f28a2c5e83e" category="inline-link-rx"></block></block>
-  <block id="83cb195869ecf30cf2bf909696d90958" category="inline-link">ONTAP 9 SAN 配置</block>
-  <block id="429f603a3b811bb2b6b580119340e5c8" category="list-text"><block ref="429f603a3b811bb2b6b580119340e5c8" category="inline-link-rx"></block></block>
-  <block id="9924ee2c6c9746d6e6c56a2812bbf674" category="list-text">适用于您的 ESXi 5 版本的 _VMware vSphere Storage_ （可从获取 <block ref="44f9482eaaa326b6591ec57007a0f626" category="inline-link-macro-rx"></block>）</block>
   <block id="338bf9032271409bd86a2b6af23ab61f" category="summary">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面在集群级别添加 SNMPv3 用户。</block>
   <block id="acfaae8e3177fe2b3063f00cf811af45" category="paragraph">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面在集群级别添加 SNMPv3 用户。</block>
   <block id="e0a892dfce439218336a42f56534bd80" category="paragraph">SNMPv3 用户可以使用您指定的身份验证和隐私设置从陷阱主机（ SNMP 管理器）运行 SNMP 实用程序。SNMPv3 通过使用密码短语和加密提供高级安全性。</block>
@@ -9618,9 +9598,6 @@
   <block id="19a5c41f774e4c13645c38aa3ac02bda" category="paragraph"><block ref="19a5c41f774e4c13645c38aa3ac02bda" category="inline-link-macro-rx"></block></block>
   <block id="00467c81ec3c45b5b81fa264a0272aae" category="paragraph"><block ref="00467c81ec3c45b5b81fa264a0272aae" category="inline-link-macro-rx"></block></block>
   <block id="6126e6170d0db16ae24c70eca957ee23" category="paragraph"><block ref="6126e6170d0db16ae24c70eca957ee23" category="inline-link-macro-rx"></block></block>
-  <block id="fceee62a624232866ee255365522b4c3" category="summary">您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。</block>
-  <block id="397fd9aa6321cafd4b95845cea4cb4fa" category="paragraph">如果要按照以下方式为 ESXi 主机配置对卷的 NFS 访问，应使用此操作步骤：</block>
-  <block id="63fa29e0c0942c5a4a6e2ce9b2840405" category="paragraph">如果此操作步骤不适合您的情况，您应查看以下文档：</block>
   <block id="d98f3586fef8fc3b9d546d3a41033300" category="paragraph"><block ref="d98f3586fef8fc3b9d546d3a41033300" category="inline-link-macro-rx"></block></block>
   <block id="d77e74e7965c26a6cd865e741761d5b4" category="paragraph"><block ref="d77e74e7965c26a6cd865e741761d5b4" category="inline-link-macro-rx"></block></block>
   <block id="bec75509bb3926a9139c20b08fda4dd6" category="paragraph">如果您按照此操作步骤创建 SVM ，则会出现这种情况。</block>
@@ -9725,11 +9702,6 @@
   <block id="127ec903ab071b33b2b142ce19373815" category="summary">您可以在 Storage Virtual Machine 上快速设置 FC 服务，配置 LUN ，并使用 Red Hat Enterprise Linux 服务器上的 FC 主机总线适配器使 LUN 可用。</block>
   <block id="02e8657c4c4ceb640870cd696627fd96" category="list-text">集群中的每个节点上至少有两个可用的 FC 目标端口。板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置在 ONTAP 命令行界面（ CLI ）中完成，此操作步骤不会对此进行介绍。</block>
   <block id="74e0c6e96d379922627d8416a0a0f88c" category="sidebar">创建集群间 LIF （从 ONTAP 9.3 开始）</block>
-  <block id="8fad4be94e9aa7ce4db57aef3f0d7941" category="inline-link">NetApp 技术报告 4067 ：《 NFS 最佳实践和实施指南》</block>
-  <block id="6819367dcff0e5919ebb17505dc3e140" category="list-text"><block ref="6819367dcff0e5919ebb17505dc3e140" category="inline-link-rx"></block></block>
-  <block id="50400bf2b8b05b7f59759391fceb205c" category="inline-link">NetApp 技术报告 4668 ：《名称服务最佳实践指南》</block>
-  <block id="85937592f790d6e3d8b684c96c89c085" category="list-text"><block ref="85937592f790d6e3d8b684c96c89c085" category="inline-link-rx"></block></block>
-  <block id="2d5be386a089210cb63a38e03fd69890" category="list-text"><block ref="2d5be386a089210cb63a38e03fd69890" category="inline-link-rx"></block></block>
   <block id="d6e768218203e5e5304006b8efd0112a" category="summary">您可以使用 System Manager 删除不再需要的端口集。</block>
   <block id="037c863e9f93c12fc8ea65ce0b04bebb" category="doc">正在删除端口集</block>
   <block id="3c5def4b4418a1419950919985135d29" category="list-text">在 * 端口集 * 选项卡中，选择一个或多个端口集，然后单击 * 删除 * 。</block>
@@ -9760,4 +9732,17 @@
   <block id="ded36311d847f75d4f809a6870a2e0ed" category="sidebar">删除端口集</block>
   <block id="f036f45cd0fb57db483a3278d8a1eb2a" category="sidebar">编辑端口集</block>
   <block id="8e1d7bfe28e595b4ce0deaa43921d8bf" category="sidebar">关于无中断更新</block>
+  <block id="1efe07eef4e047f77d97d7a9521fe678" category="summary">使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。</block>
+  <block id="a13b5b49c282f481bac13a3c39c4db67" category="list-text">您正在使用受支持版本的适用于 VMware vSphere 的 Virtual Storage Console （ VSC ）来配置数据存储库和创建卷。</block>
+  <block id="e37a9ce9ba1b9f128287af3bf8300997" category="inline-link">适用于 VMware vSphere 的 ONTAP 工具</block>
+  <block id="a3b4490891904699065ed222dabffcf2" category="list-text">从 VSC 7.0 开始， VSC 属于<block ref="1320bf1a9550ca79a8b71105090c43c4" category="inline-link-rx"></block> 虚拟设备，包括适用于 VMware vSphere 的 VSC ， vStorage APIs for Storage Awareness （ VASA ） Provider 和 Storage Replication Adapter （ SRA ）功能。</block>
+  <block id="b6cff3188695ffca95f89e72ba7473d7" category="list-text">请务必检查<block ref="4f77de1badf00a5d026cff12bc7e2d0a" category="inline-link-rx"></block> 以确认当前 ONTAP 版本与 VSC 版本之间的兼容性。</block>
+  <block id="2482cab231363d0aa3ec780e4e4b2767" category="paragraph">如果您的数据网络正常运行，则这些默认对象会规定 LIF 在链路出现故障时可以正确地进行故障转移。如果您不使用默认对象，应参见<block ref="eaaefb0a913b2d5b8bc1955d716eb715" category="inline-link-rx"></block> 有关如何配置 LIF 路径故障转移的信息。</block>
+  <block id="6dbf34197c62b68dc80b731d40e27266" category="list-text">适用于 VMware VAAI 的 NFS 插件可从获取<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block> 站点</block>
+  <block id="952fd691754e388c7b7ba473cf410aff" category="inline-link">TR-4597 ：适用于 ONTAP 的 VMware vSphere</block>
+  <block id="24f423c151048112b31e4205c8dde6e5" category="paragraph">有关详细信息，请参见<block ref="3d61b9ab1dcb235ff5edeb0cc5e74cd4" category="inline-link-rx"></block> 以及适用于您的 VSC 版本的文档。</block>
+  <block id="1e261b7ffab323c200f52d1d4a755980" category="list-text">您正在使用受支持版本的适用于 VMware vSphere 的 Virtual Storage Console （ VSC ）为 ESX 主机配置存储设置并配置数据存储库。</block>
+  <block id="2b4f8dfe33f9d8af15855fb018da73ca" category="summary">使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
+  <block id="b0e0e7a5cccf0bb5f480596a97d3ac79" category="list-text">您正在使用受支持版本的适用于 VMware vSphere 的 Virtual Storage Console （ VSC ）为 ESX 主机配置存储设置。</block>
+  <block id="47165a970b344156985260755fe32597" category="paragraph">请参见 <block ref="63a409c949a0a7faca8865ea4633f264" category="inline-link-macro-rx"></block> 用于使用 CLI 配置以太网端口流量控制。</block>
 </blocks>
