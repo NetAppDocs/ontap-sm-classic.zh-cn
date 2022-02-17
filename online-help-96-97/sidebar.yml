@@ -527,10 +527,10 @@ entries:
       url: "/online-help-96-97/task_obtaining_ontap_software_images.html"
     - title: 更新单节点集群
       url: "/online-help-96-97/task_updating_single_node_clusters.html"
+    - title: 关于无中断更新
+      url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
     - title: 无中断更新集群
       url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
-    - title: 无中断更新集群
-      url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
     - title: 集群更新窗口
       url: "/online-help-96-97/reference_cluster_update_window.html"
   - title: MetroCluster 切换和切回

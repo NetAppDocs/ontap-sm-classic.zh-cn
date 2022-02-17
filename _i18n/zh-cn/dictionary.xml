@@ -9759,4 +9759,5 @@
   <block id="c98b16f1475c5ed3edd5940478bbb261" category="list-text">如果要使新的 LIF 对现有主机可见，请使用 `lun portset add` 命令将每个新 LIF 添加到端口集，每个 LIF 一次。</block>
   <block id="ded36311d847f75d4f809a6870a2e0ed" category="sidebar">删除端口集</block>
   <block id="f036f45cd0fb57db483a3278d8a1eb2a" category="sidebar">编辑端口集</block>
+  <block id="8e1d7bfe28e595b4ce0deaa43921d8bf" category="sidebar">关于无中断更新</block>
 </blocks>
