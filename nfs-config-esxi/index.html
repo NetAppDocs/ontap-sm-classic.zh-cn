@@ -9,7 +9,7 @@
   <meta property="og:title" content="使用 VSC 为 ESXi 配置 NFS 概述" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/nfs-config-esxi/index.html" />
-	<meta property="og:description" content="您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。" />
+	<meta property="og:description" content="使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。" />
   <meta property="og:image" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,7 +18,7 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。">
+  <meta name="description" content="使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。">
   <meta name="keywords" content=" nfs, access, esxi, host, datastores, ontap, volume, configuration, overview, vsc">
   
   
@@ -11865,6 +11865,14 @@
   
 
 <span>提供者
+  <a target="_blank" href="https://github.com/netapp-forry">
+    <img  class="avatar avatar-small"
+          alt="netapp-forry"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/51911827?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-thomi">
     <img  class="avatar avatar-small"
           alt="netapp-thomi"
@@ -11888,44 +11896,46 @@
 
 
 <div class="paragraph lead">
-<p>您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。</p>
+<p>使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。</p>
 </div>
 <div class="paragraph">
-<p>如果要按照以下方式为 ESXi 主机配置对卷的 NFS 访问，应使用此操作步骤：</p>
+<p>在以下情况下使用此操作步骤：</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>您正在使用运行 ONTAP 9 的集群。</p>
+<p>您正在使用受支持版本的适用于 VMware vSphere 的 Virtual Storage Console （ VSC ）来配置数据存储库和创建卷。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>从 VSC 7.0 开始， VSC 属于 <a href="https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html" target="_blank" rel="noopener">"适用于 VMware vSphere 的 ONTAP 工具"</a> 虚拟设备，包括适用于 VMware vSphere 的 VSC ， vStorage APIs for Storage Awareness （ VASA ） Provider 和 Storage Replication Adapter （ SRA ）功能。</p>
 </li>
 <li>
-<p>您希望使用最佳实践，而不是浏览每个可用选项。</p>
+<p>请务必检查 <a href="https://imt.netapp.com/matrix/" target="_blank" rel="noopener">"NetApp 互操作性表工具"</a> 以确认当前 ONTAP 版本与 VSC 版本之间的兼容性。</p>
 </li>
-<li>
-<p>您不想阅读大量概念背景信息。</p>
-</li>
-<li>
-<p>您希望使用配置数据存储库并创建卷。</p>
-</li>
-<li>
-<p>您希望使用适用于 ONTAP 9.7 及更早版本的 <em>Classic</em> System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。</p>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/ontap/" target="_blank" rel="noopener">"ONTAP System Manager 文档"</a></p>
+</ul>
 </div>
 </li>
 <li>
 <p>您的数据网络使用默认 IP 空间，默认广播域和默认故障转移组。</p>
 <div class="paragraph">
-<p>如果您的数据网络正常运行，则这些默认对象会规定 LIF 在链路出现故障时可以正确地进行故障转移。如果您不使用默认对象，应参见 <a href="https://docs.netapp.com/us-en/ontap/networking/index.html">"网络管理"</a> 有关如何配置 LIF 路径故障转移的信息。</p>
+<p>如果您的数据网络正常运行，则这些默认对象会规定 LIF 在链路出现故障时可以正确地进行故障转移。如果您不使用默认对象，应参见 <a href="https://docs.netapp.com/us-en/ontap/networking/index.html" target="_blank" rel="noopener">"网络管理"</a> 有关如何配置 LIF 路径故障转移的信息。</p>
 </div>
 </li>
 <li>
 <p>您希望使用适用于 VMware VAAI 的插件。</p>
-<div class="paragraph">
+<div class="ulist">
+<ul>
+<li>
 <p>通过 VMware vStorage APIs for Array Integration （ VAAI ），您可以执行副本卸载和空间预留。适用于 VMware VAAI 的插件使用此功能来提高主机性能，因为操作不需要通过 ESXi 主机，因此可以利用 ONTAP 中节省空间和时间的克隆功能。</p>
-</div>
-<div class="paragraph">
+</li>
+<li>
 <p>最佳做法是使用 VMware VAAI 进行数据存储库配置。</p>
+</li>
+<li>
+<p>适用于 VMware VAAI 的 NFS 插件可从获取 <a href="https://mysupport.netapp.com/site/global/dashboard" target="_blank" rel="noopener">"NetApp 支持"</a> 站点</p>
+</li>
+</ul>
 </div>
 </li>
 <li>
@@ -11934,23 +11944,7 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>如果此操作步骤不适合您的情况，您应查看以下文档：</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://docs.netapp.com/us-en/ontap/nfs-admin/index.html" target="_blank" rel="noopener">"NFS 管理"</a></p>
-</li>
-<li>
-<p><a href="https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf" target="_blank" rel="noopener">"NetApp 技术报告 4067 ：《 NFS 最佳实践和实施指南》"</a></p>
-</li>
-<li>
-<p><a href="https://www.netapp.com/pdf.html?item=/media/16328-tr-4668.pdf" target="_blank" rel="noopener">"NetApp 技术报告 4668 ：《名称服务最佳实践指南》"</a></p>
-</li>
-<li>
-<p><a href="https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html" target="_blank" rel="noopener">"NetApp 技术报告 4597 ：《采用 ONTAP 的 VMware vSphere 》"</a></p>
-</li>
-</ul>
+<p>有关详细信息，请参见 <a href="https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html" target="_blank" rel="noopener">"TR-4597 ：适用于 ONTAP 的 VMware vSphere"</a> 以及适用于您的 VSC 版本的文档。</p>
 </div>
 
     </article>

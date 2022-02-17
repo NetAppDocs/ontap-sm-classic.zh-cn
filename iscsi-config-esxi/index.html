@@ -9,7 +9,7 @@
   <meta property="og:title" content="使用 VSC 为 ESXi 配置 iSCSI 概述" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/iscsi-config-esxi/index.html" />
-	<meta property="og:description" content="您可以在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。" />
+	<meta property="og:description" content="使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。" />
   <meta property="og:image" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,7 +18,7 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="您可以在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。">
+  <meta name="description" content="使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。">
   <meta name="keywords" content=" iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer">
   
   
@@ -11865,6 +11865,14 @@
   
 
 <span>提供者
+  <a target="_blank" href="https://github.com/netapp-forry">
+    <img  class="avatar avatar-small"
+          alt="netapp-forry"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/51911827?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-ahibbard">
     <img  class="avatar avatar-small"
           alt="netapp-ahibbard"
@@ -11878,14 +11886,6 @@
           alt="netapp-thomi"
           width="20" height="20"
           src="https://avatars.githubusercontent.com/u/54111336?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
-  <a target="_blank" href="https://github.com/netapp-forry">
-    <img  class="avatar avatar-small"
-          alt="netapp-forry"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/51911827?v=4"
           style="border-radius: 50%;"/>
   </a>
   
@@ -11903,10 +11903,8 @@
 </p>
 
 
-<div id="preamble">
-<div class="sectionbody">
 <div class="paragraph lead">
-<p>您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN ，并使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 ESXi 主机计算机上使用 iSCSI 启动程序使 LUN 可用。</p>
+<p>使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。</p>
 </div>
 <div class="paragraph">
 <p>在以下情况下使用此操作步骤：</p>
@@ -11920,7 +11918,17 @@
 <p>您未对 iSCSI 使用 CHAP 身份验证。</p>
 </li>
 <li>
-<p>您正在使用支持的适用于 VMware vSphere 的 Virtual Storage Console 版本为 ESX 主机配置存储设置。</p>
+<p>您正在使用受支持版本的适用于 VMware vSphere 的 Virtual Storage Console （ VSC ）为 ESX 主机配置存储设置。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>从 VSC 7.0 开始， VSC 属于 <a href="https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html" target="_blank" rel="noopener">"适用于 VMware vSphere 的 ONTAP 工具"</a> 虚拟设备，包括适用于 VMware vSphere 的 VSC ， vStorage APIs for Storage Awareness （ VASA ） Provider 和 Storage Replication Adapter （ SRA ）功能。</p>
+</li>
+<li>
+<p>请务必检查 <a href="https://imt.netapp.com/matrix/" target="_blank" rel="noopener">"NetApp 互操作性表工具"</a> 以确认当前 ONTAP 版本与 VSC 版本之间的兼容性。</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
 <p>您的网络使用 IPv4 地址。</p>
@@ -11947,7 +11955,7 @@
 <p>板载 UTA2 （也称为 <code>CNA</code> ）端口可配置。您可以在 ONTAP 命令行界面中配置这些端口；此过程不在其操作步骤中介绍。</p>
 </div>
 <div class="paragraph">
-<p>请参见 <a href="https://docs.netapp.com/us-en/ontap/networking/index.html">"ONTAP 9 网络管理"</a> 用于使用 CLI 配置以太网端口流量控制。</p>
+<p>请参见 <a href="https://docs.netapp.com/us-en/ontap/networking/index.html" target="_blank" rel="noopener">"网络管理"</a> 用于使用 CLI 配置以太网端口流量控制。</p>
 </div>
 </li>
 <li>
@@ -11958,56 +11966,8 @@
 </li>
 </ul>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="在-ontap-中执行此操作的其他方法">在 ONTAP 中执行此操作的其他方法</h2>
-<div class="sectionbody">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">要执行以下任务，请执行以下操作 &#8230;&#8203;</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">请参见 &#8230;&#8203;</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本）</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html" target="_blank" rel="noopener">"为 VMware 数据存储库配置 SAN 存储"</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">ONTAP 命令行界面（ CLI ）</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html" target="_blank" rel="noopener">"使用 CLI 设置 LUN 的工作流"</a></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="sect1">
-<h2 id="其他资源">其他资源</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>如果这些假设与您的情况不符，您应查看以下资源：</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://docs.netapp.com/us-en/ontap/san-admin/index.html" target="_blank" rel="noopener">"ONTAP 9 SAN 管理"</a></p>
-</li>
-<li>
-<p><a href="https://docs.netapp.com/us-en/ontap/san-config/index.html" target="_blank" rel="noopener">"ONTAP 9 SAN 配置"</a></p>
-</li>
-<li>
-<p><a href="https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html" target="_blank" rel="noopener">"设备管理"</a></p>
-</li>
-<li>
-<p>适用于您的 ESXi 5 版本的 <em>VMware vSphere Storage</em> （可从获取 <a href="http://www.vmware.com" target="_blank" rel="noopener">"VMware"</a>）</p>
-</li>
-</ul>
-</div>
-</div>
+<p>有关详细信息，请参见 <a href="https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html" target="_blank" rel="noopener">"TR-4597 ：适用于 ONTAP 的 VMware vSphere"</a> 以及适用于您的 VSC 版本的文档。</p>
 </div>
 
     </article>
