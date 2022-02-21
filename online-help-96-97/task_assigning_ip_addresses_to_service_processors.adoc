@@ -1,45 +1,7 @@
 ---
 permalink: online-help-96-97/task_assigning_ip_addresses_to_service_processors.html 
-sidebar: sidebar 
-keywords: system, manager, assign, ip, address, online, help, service, processors 
-summary: 您可以使用 System Manager 同时为所有服务处理器分配 IP 地址，并使用这些服务处理器监控和管理存储系统的各种系统参数。 
+redirect: ontap-sm-classic/online-help-96-97/concept_service_processors.html 
 ---
-= 为服务处理器分配 IP 地址
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 同时为所有服务处理器分配 IP 地址，并使用这些服务处理器监控和管理存储系统的各种系统参数。
-
-.步骤
-. 单击 * 配置 * > * 集群 * > * 配置更新 * 。
-. 在 * 服务处理器 * 窗口中，单击 * 全局设置 * 。
-. 在 * 全局设置 * 对话框中，选择用于分配 IP 地址的源：
-+
-|===
-| 如果您要 ... | 那么 ... 
-
-
- a| 
-自动从 DHCP 服务器分配 IP 地址
- a| 
-选择 * DHCP * 。
-
-
-
- a| 
-从子网分配 IP 地址
- a| 
-选择 * 子网 * 。
-
-
-
- a| 
-手动提供 IP 地址
- a| 
-选择 * 手动分配 * 。
-
-|===
-. 单击 * 保存 * 。
 

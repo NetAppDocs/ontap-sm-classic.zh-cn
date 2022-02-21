@@ -1,37 +1,7 @@
 ---
 permalink: online-help-96-97/task_adding_disks_to_storage_pool.html 
-sidebar: sidebar 
-keywords: system, manager, ssd, storage, pool, disk, online, help 
-summary: 您可以使用 System Manager 将 SSD 添加到现有存储池并增加其缓存大小。 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= 将磁盘添加到存储池
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 将 SSD 添加到现有存储池并增加其缓存大小。
-
-HA 对的两个节点都必须已启动且正在运行，才能通过存储池分配 SSD 和 SSD 备用磁盘。
-
-.关于此任务
-* 添加到存储池的 SSD 会按比例分布在使用存储池缓存的聚合之间，并分配到存储池的可用空间。
-* 使用 SSD 向存储池添加磁盘时， System Manager 会对 SSD RAID 组强制实施热备用规则。
-+
-例如，如果 SSD RAID 组中有 10 个 SSD ，并且选项 `raid.min_spare_count` 在节点级别设置为 `1` ，则 System Manager 会保留 1 个 SSD 作为热备用磁盘，并使用其他 9 个 SSD 执行 SSD 相关操作。
-
-* 使用 System Manager 向存储池添加磁盘时，不能使用分区 SSD 。
-
-
-.步骤
-. 单击 * 存储 * > * 聚合和磁盘 * > * 存储池 * 。
-. 在 * 存储池 * 窗口中，选择存储池，然后单击 * 添加磁盘 * 。
-. 在 * 添加磁盘 * 对话框中，指定要添加的磁盘数。
-. 单击 * 下一步 * 。
-. 在 * 摘要 * 对话框中，查看缓存如何在各种聚合之间分布以及存储池的可用空间。
-. 单击 * 添加 * 。
-
-
-* 相关信息 *
-
-xref:reference_storage_pools_window.adoc[存储池窗口]

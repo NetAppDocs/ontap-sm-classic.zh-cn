@@ -1,29 +1,7 @@
 ---
 permalink: online-help-96-97/task_generating_autosupport_data.html 
-sidebar: sidebar 
-keywords: generate, autosupport, data, online, help, system, manager 
-summary: 您可以使用 System Manager 为单个或多个节点生成 AutoSupport 数据，以监控其运行状况并向技术支持发送通知。 
+redirect: ontap-sm-classic/online-help-96-97/concept_autosupport.html 
 ---
-= 正在生成 AutoSupport 数据
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 为单个或多个节点生成 AutoSupport 数据，以监控其运行状况并向技术支持发送通知。
-
-.步骤
-. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* > * AutoSupport * 。
-. 选择节点，然后单击 * AutoSupport request* > * 生成 AutoSupport * 。
-+
-默认情况下，系统会为所有节点生成 AutoSupport 数据。
-
-. 在 * 生成 AutoSupport * 对话框中，执行以下步骤：
-+
-.. 如果要为特定节点生成 AutoSupport 数据，请清除 * 为所有节点生成 AutoSupport 数据 * 复选框，然后选择该节点。
-.. 键入案例编号。
-
-
-. 单击 * 生成 * 。
-. 在 * 确认 * 对话框中，单击 * 确定 * 。
 

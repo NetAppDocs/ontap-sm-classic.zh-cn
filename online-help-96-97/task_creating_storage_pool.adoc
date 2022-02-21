@@ -1,34 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_storage_pool.html 
-sidebar: sidebar 
-keywords: create, storage, pool, ssd, cache, disks, online, help, storage, pool 
-summary: 存储池是 SSD （缓存磁盘）的集合。您可以使用 System Manager 组合 SSD 来创建存储池，从而可以在 HA 对之间共享 SSD 和 SSD 备用磁盘，以便同时分配给两个或多个 Flash Pool 聚合。 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= 创建存储池
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-存储池是 SSD （缓存磁盘）的集合。您可以使用 System Manager 组合 SSD 来创建存储池，从而可以在 HA 对之间共享 SSD 和 SSD 备用磁盘，以便同时分配给两个或多个 Flash Pool 聚合。
-
-.开始之前
-* HA 对的两个节点都必须已启动且正在运行，才能通过存储池分配 SSD 和 SSD 备用磁盘。
-* 存储池必须至少具有 3 个 SSD 。
-* 存储池中的所有 SSD 必须属于同一个 HA 对。
-
-
-使用 SSD 向存储池添加磁盘时， System Manager 会对 SSD RAID 组强制实施热备用规则。例如，如果 SSD RAID 组中有 10 个 SSD ，并且选项 `raid.min_spare_count` 在节点级别设置为 `1` ，则 System Manager 会保留 1 个 SSD 作为热备用磁盘，并使用其他 9 个 SSD 执行 SSD 相关操作。
-
-使用 System Manager 创建存储池时，不能使用分区 SSD 。
-
-.步骤
-. 单击 * 存储 * > * 聚合和磁盘 * > * 存储池 * 。
-. 在 * 存储池 * 窗口中，单击 * 创建 * 。
-. 在 * 创建存储池 * 对话框中，指定存储池的名称，磁盘大小和磁盘数量。
-. 单击 * 创建 * 。
-
-
-* 相关信息 *
-
-xref:reference_storage_pools_window.adoc[存储池窗口]

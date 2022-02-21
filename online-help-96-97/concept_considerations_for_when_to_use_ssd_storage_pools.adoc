@@ -1,45 +1,7 @@
 ---
 permalink: online-help-96-97/concept_considerations_for_when_to_use_ssd_storage_pools.html 
-sidebar: sidebar 
-keywords: considerations, ssd, storage, pool, restrictions, online, help 
-summary: SSD 存储池具有许多优势，但也存在一些限制，您在决定是使用 SSD 存储池还是专用 SSD 时应注意这些限制。 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= 有关何时使用 SSD 存储池的注意事项
-:icons: font
-:imagesdir: ../media/
-
-
-[role="lead"]
-SSD 存储池具有许多优势，但也存在一些限制，您在决定是使用 SSD 存储池还是专用 SSD 时应注意这些限制。
-
-只有当 SSD 存储池为两个或更多 Flash Pool 聚合提供缓存时，它们才有意义。SSD 存储池具有以下优势：
-
-* 提高了 Flash Pool 聚合中使用的 SSD 的存储利用率
-+
-SSD 存储池允许您在两个或更多 Flash Pool 聚合之间共享奇偶校验 SSD ，从而降低奇偶校验所需 SSD 的总百分比。
-
-* 能够在 HA 配对节点之间共享备用磁盘
-+
-由于存储池实际上归 HA 对所有，因此，如果需要，一个 HA 配对节点所拥有的备用磁盘可以用作整个 SSD 存储池的备用磁盘。
-
-* 提高 SSD 性能的利用率
-+
-SSD 提供的高性能可支持 HA 对中的两个控制器进行访问。
-
-
-
-这些优势必须与使用 SSD 存储池的成本进行权衡，其中包括以下各项：
-
-* 减少故障隔离
-+
-丢失一个 SSD 会影响包含其一个分区的所有 RAID 组。在这种情况下，从包含受影响 SSD 的 SSD 存储池分配缓存的每个 Flash Pool 聚合都有一个或多个 RAID 组处于重建状态。
-
-* 减少了性能隔离
-+
-如果 Flash Pool 缓存的大小不正确，则共享该缓存的 Flash Pool 聚合之间可能存在争用。可以通过适当的缓存规模估算和 QoS 控制来缓解这种风险。
-
-* 管理灵活性降低
-+
-向存储池添加存储时，您可以增加包含该存储池中一个或多个分配单元的所有 Flash Pool 缓存的大小；您无法确定如何分配额外容量。
+= 
 
 

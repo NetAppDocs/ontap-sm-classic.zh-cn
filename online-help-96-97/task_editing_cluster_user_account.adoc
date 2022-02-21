@@ -1,20 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_cluster_user_account.html 
-sidebar: sidebar 
-keywords: edit, cluster, user, account, system, manager, online, help 
-summary: 您可以使用 System Manager 通过修改用于访问存储系统的用户登录方法来编辑集群用户帐户。 
+redirect: ontap-sm-classic/online-help-96-97/concept_cluster_user_accounts.html 
 ---
-= 编辑集群用户帐户
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 通过修改用于访问存储系统的用户登录方法来编辑集群用户帐户。
-
-.步骤
-. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
-. 在 * 管理 * 窗格中，单击 * 用户 * 。
-. 在 * 用户 * 窗口中，选择要修改的用户帐户，然后单击 * 编辑 * 。
-. 在 * 修改用户 * 对话框中，修改用户登录方法，然后单击 * 修改 * 。
 

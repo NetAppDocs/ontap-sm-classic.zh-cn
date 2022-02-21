@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/reference_how_flash_cache_modules_work.html 
-sidebar: sidebar 
-keywords: flash, cache, module, storage, system, online, free, hardware 
-summary: 使用 Flash Cache 模块可提高存储系统的性能。使用 Flash Cache 模块的影响将显示在硬件缓存窗口中。 
+redirect: ontap-sm-classic/online-help-96-97/concept_hardware_cache.html 
 ---
-= Flash Cache 模块的工作原理
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-使用 Flash Cache 模块可提高存储系统的性能。使用 Flash Cache 模块的影响将显示在硬件缓存窗口中。
-
-您可以根据存储系统的工作负载要求配置 Flash Cache 模块和磁盘。通过确定 Flash Cache 模块和磁盘提供的读取工作负载（读取操作数），您可以分析存储系统的性能。
-
-在存储系统启动期间或在接管事件后将控制权交还给存储系统时， Flash Cache 模块不包含任何数据。因此，磁盘将为存储系统的所有数据读取请求提供服务。
-
-在处理数据读取请求时， Flash Cache 模块会慢慢填充数据。由于 Flash Cache 模块提供的数据读取请求比磁盘提供的数据读取请求速度更快，因此存储系统的性能会提高。
-
-Flash Cache 模块提供的数据读取请求将取代磁盘提供的数据读取请求，因此，存储系统的性能提高与替换的磁盘读取直接相关。要了解 Flash Cache 模块对存储系统性能的影响，您必须在 Flash Cache 模块包含数据时在硬件缓存窗口中查看读取工作负载图形。

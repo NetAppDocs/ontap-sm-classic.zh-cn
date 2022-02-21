@@ -1,39 +1,7 @@
 ---
 permalink: online-help-96-97/task_modifying_cluster_peer_passphrase.html 
-sidebar: sidebar 
-keywords: modify, cluster, peer, passphrase, creation, online, help 
-summary: 您可以修改在创建集群对等方期间提供的密码短语。 
+redirect: ontap-sm-classic/online-help-96-97/concept_cluster_peers.html 
 ---
-= 修改集群对等密码短语
-:icons: font
-:imagesdir: ../media/
-
-
-[role="lead"]
-您可以修改在创建集群对等方期间提供的密码短语。
-
-.步骤
-. 单击 * 配置 * > * 集群对等方 * 。
-. 选择对等集群，然后单击 * 编辑 *
-+
-此时将显示下拉菜单。
-
-. 单击 * 本地集群密码短语 * 。
-+
-此时将显示编辑本地集群密码短语对话框窗口。
-
-. 在 * 输入密码短语 * 字段中，输入新密码短语，然后单击 * 应用 * 。
-+
-[NOTE]
-====
-密码短语的最小长度为 8 个字符。
-
-====
-+
-密码短语将立即修改。但是，在显示正确的身份验证状态之前，可能会有一段延迟。
-
-. 登录到远程集群并执行步骤 <<STEP_52691237935644E3A8710F51CC2E3F81,1.>> 到 <<STEP_1ABAF15926174E709CA59192E200ABE3,4.>> 修改远程集群中的密码短语。
-+
-在修改远程集群中的密码短语之前，本地集群的身份验证状态将显示为 `ok_and_offer` 。
+= 
 
 

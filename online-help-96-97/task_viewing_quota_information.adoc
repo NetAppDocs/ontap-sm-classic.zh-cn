@@ -1,41 +1,7 @@
 ---
 permalink: online-help-96-97/task_viewing_quota_information.html 
-sidebar: sidebar 
-keywords: view, quota, information, online, help, system, manager, qtree 
-summary: 您可以使用 System Manager 中的配额窗口查看配额详细信息，例如应用配额的卷和 qtree ，配额类型，应用配额的用户或组以及空间和文件使用量。 
+redirect: ontap-sm-classic/online-help-96-97/concept_quotas.html 
 ---
-= 查看配额信息
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 中的配额窗口查看配额详细信息，例如应用配额的卷和 qtree ，配额类型，应用配额的用户或组以及空间和文件使用量。
-
-.步骤
-. 单击 * 存储 * > * 配额 * 。
-. 从 * SVM* 字段的下拉菜单中，选择要查看其相关信息的配额所在的 Storage Virtual Machine （ SVM ）。
-. 执行相应的操作：
-+
-|===
-
-
-| 条件 | 那么 ... 
-
-
- a| 
-您希望查看已创建的所有配额的详细信息
- a| 
-单击 * 用户定义的配额 * 选项卡。
-
-
-
- a| 
-您希望查看当前处于活动状态的配额的详细信息
- a| 
-单击 * 配额报告 * 选项卡。
-
-|===
-. 从显示的配额列表中选择要查看相关信息的配额。
-. 查看配额详细信息。
 

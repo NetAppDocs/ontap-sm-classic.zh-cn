@@ -1,33 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_broadcast_domains.html 
-sidebar: sidebar 
-keywords: delete, broadcast, domain, system, manager, online, help 
-summary: 当您不再需要广播域时，可以使用 System Manager 删除此广播域。 
+redirect: ontap-sm-classic/online-help-96-97/concept_broadcast_domains.html 
 ---
-= 删除广播域
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-当您不再需要广播域时，可以使用 System Manager 删除此广播域。
-
-不能将任何子网与要删除的广播域相关联。
-
-.关于此任务
-* 删除广播域时，与此广播域关联的端口将分配给默认 IP 空间，并且不会更改这些端口的 MTU 设置。
-* 您不能使用 System Manager 删除集群 IP 空间中的广播域。
-+
-您必须改用命令行界面（ CLI ）。
-
-
-
-.步骤
-. 单击 * 网络 * > * 广播域 * 。
-. 选择要删除的广播域，然后单击 * 删除 * 。
-. 选中确认复选框，然后单击 * 删除 * 。
-
-
-* 相关信息 *
-
-xref:reference_network_window.adoc[网络窗口]

@@ -1,28 +1,7 @@
 ---
 permalink: online-help-96-97/task_migrating_lif.html 
-sidebar: sidebar 
-keywords: migrate, lif, system, manager, cluster, management, data, online, help 
-summary: 如果源端口出现故障或需要维护，您可以使用 System Manager 将数据 LIF 或集群管理 LIF 迁移到集群中同一节点或不同节点上的其他端口。 
+redirect: ontap-sm-classic/online-help-96-97/concept_network_interfaces.html 
 ---
-= 迁移 LIF
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-如果源端口出现故障或需要维护，您可以使用 System Manager 将数据 LIF 或集群管理 LIF 迁移到集群中同一节点或不同节点上的其他端口。
-
-目标节点和端口必须正常运行，并且必须能够访问与源端口相同的网络。
-
-.关于此任务
-* 如果要从节点中删除 NIC ，则必须将属于该 NIC 的端口上托管的 LIF 迁移到集群中的其他端口。
-* 您不能迁移 iSCSI LIF 或 FC LIF 。
-
-
-.步骤
-. 单击 * 网络 * > * 网络接口 * 。
-. 选择要迁移的接口，然后单击 * 迁移 * 。
-. 在 * 迁移接口 * 对话框中，选择要将 LIF 迁移到的目标端口。
-. 如果要将目标端口设置为 LIF 的新主端口，请选中 * 永久迁移 * 复选框。
-. 单击 * 迁移 * 。
 

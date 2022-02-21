@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_storage_pools.html 
-sidebar: sidebar 
-keywords: delete, storage, pool, online, help, flash, aggregate 
-summary: 如果存储池的缓存不是最佳缓存，或者任何聚合或 Flash Pool 聚合不再使用存储池，则您可能需要删除该存储池。您可以使用 System Manager 中的删除存储池对话框删除存储池。 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= 正在删除存储池
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-如果存储池的缓存不是最佳缓存，或者任何聚合或 Flash Pool 聚合不再使用存储池，则您可能需要删除该存储池。您可以使用 System Manager 中的删除存储池对话框删除存储池。
-
-存储池不能由任何聚合使用。
-
-.步骤
-. 单击 * 存储 * > * 聚合和磁盘 * > * 存储池 * 。
-. 在 * 存储池 * 窗口中，选择要删除的存储池，然后单击 * 删除 * 。
-. 在 * 删除存储池 * 对话框中，单击 * 删除 * 。
-
-
-* 相关信息 *
-
-xref:reference_storage_pools_window.adoc[存储池窗口]

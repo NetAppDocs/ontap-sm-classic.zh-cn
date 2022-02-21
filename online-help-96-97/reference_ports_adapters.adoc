@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/reference_ports_adapters.html 
-sidebar: sidebar 
-keywords: port, adaptor, online, help, nodes, fcp, interface 
-summary: 端口分组在节点下，节点会根据选定协议类别显示。例如，如果使用 FC 协议提供数据，则仅显示具有 FCP 适配器的节点。托管接口计数可帮助您选择负载较低的端口。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ethernet_ports.html 
 ---
-= 端口和适配器
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-端口分组在节点下，节点会根据选定协议类别显示。例如，如果使用 FC 协议提供数据，则仅显示具有 FCP 适配器的节点。托管接口计数可帮助您选择负载较低的端口。

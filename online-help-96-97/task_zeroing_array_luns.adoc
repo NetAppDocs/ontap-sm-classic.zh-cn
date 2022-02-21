@@ -1,23 +1,7 @@
 ---
 permalink: online-help-96-97/task_zeroing_array_luns.html 
-sidebar: sidebar 
-keywords: zero, spare, array, lun, system, manager, online, help 
-summary: 您可以使用 System Manager 通过向阵列 LUN 写入零来擦除所有数据并格式化备用阵列 LUN 。然后，可以在新聚合中使用这些阵列 LUN 。 
+redirect: ontap-sm-classic/online-help-96-97/concept_array_luns.html 
 ---
-= 将备用阵列 LUN 置零
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 通过向阵列 LUN 写入零来擦除所有数据并格式化备用阵列 LUN 。然后，可以在新聚合中使用这些阵列 LUN 。
-
-将备用阵列 LUN 置零后，集群中的所有备用磁盘（包括磁盘）都会置零。您可以将特定节点或整个集群的备用阵列 LUN 置零。
-
-.步骤
-. 单击 * 存储 * > * 聚合和磁盘 * > * 阵列 LUN* 。
-. 单击 * 将备件置零 * 。
-. 在 * 将备用磁盘置零 * 对话框中，选择要将阵列 LUN 置零的节点或 "`所有节点` " 。
-. 选中 * 将所有未置零备件置零 * 复选框以确认置零操作。
-. 单击 * 将备件置零 * 。
 

@@ -1,35 +1,7 @@
 ---
 permalink: online-help-96-97/task_reassigning_array_luns_to_nodes.html 
-sidebar: sidebar 
-keywords: system, manager, reassign, spare, array, lun, node, online, help 
-summary: 您可以使用 System Manager 将备用阵列 LUN 的所有权从一个节点重新分配给另一个节点，以增加聚合的容量。 
+redirect: ontap-sm-classic/online-help-96-97/concept_array_luns.html 
 ---
-= 将备用阵列 LUN 重新分配给节点
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 将备用阵列 LUN 的所有权从一个节点重新分配给另一个节点，以增加聚合的容量。
-
-.关于此任务
-* 如果满足以下条件，则可以重新分配阵列 LUN ：
-+
-** 选定阵列 LUN 的容器类型必须为 `spare` 。
-** 磁盘必须连接到 HA 对中的节点。
-** 这些磁盘必须对节点可见。
-
-
-* 对于 MetroCluster 配置，不能使用 System Manager 将阵列 LUN 重新分配为备用阵列 LUN 。
-+
-您必须改用命令行界面。
-
-
-
-.步骤
-. 单击 * 存储 * > * 聚合和磁盘 * > * 阵列 LUN* 。
-. 选择要重新分配的备用阵列 LUN ，然后单击 * 分配 * 。
-. 在 * 警告 * 对话框中，单击 * 继续 * 。
-. 在 * 分配阵列 LUN* 对话框中，选择要将备用阵列 LUN 重新分配到的节点。
-. 单击 * 分配 * 。
 

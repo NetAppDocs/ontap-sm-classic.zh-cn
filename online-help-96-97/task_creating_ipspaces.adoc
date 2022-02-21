@@ -1,22 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_ipspaces.html 
-sidebar: sidebar 
-keywords: create, ipspace, system, manager, cluster, subnet, range, online, help 
-summary: 您可以使用 System Manager 创建 IP 空间，以便配置一个 ONTAP 集群，以便从多个管理上独立的网络域进行客户端访问，即使客户端使用相同的 IP 地址子网范围也是如此。这样，您就可以隔离客户端流量，以确保隐私和安全。 
+redirect: ontap-sm-classic/online-help-96-97/concept_setting_up_network.html 
 ---
-= 创建 IP 空间
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 创建 IP 空间，以便配置一个 ONTAP 集群，以便从多个管理上独立的网络域进行客户端访问，即使客户端使用相同的 IP 地址子网范围也是如此。这样，您就可以隔离客户端流量，以确保隐私和安全。
-
-集群中的所有 IP 空间名称都必须是唯一的，并且不能包含系统保留的名称，例如 "`local` " 或 "`localhost.` "
-
-.步骤
-. 单击 * 网络 * 选项卡。
-. 在 * IP 空间 * 选项卡中，单击 * 创建 * 。
-. 在 * 创建 IP 空间 * 对话框中，为要创建的 IP 空间指定一个名称。
-. 单击 * 创建 * 。
 

@@ -1,29 +1,7 @@
 ---
 permalink: online-help-96-97/task_disabling_saml_authentication.html 
-sidebar: sidebar 
-keywords: disable, saml, authentication, security, assertion, markup, language, online, help, system, manager 
-summary: 如果要禁用对 System Manager 的远程访问或编辑 SAML 配置，则可以禁用安全断言标记语言（ SAML ）身份验证。 
+redirect: ontap-sm-classic/online-help-96-97/task_setting_up_saml_authentication.html 
 ---
-= 禁用 SAML 身份验证
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-如果要禁用对 System Manager 的远程访问或编辑 SAML 配置，则可以禁用安全断言标记语言（ SAML ）身份验证。
-
-禁用 SAML 身份验证不会删除 SAML 配置。
-
-.步骤
-. 单击 * 配置 * > * 集群 * > * 身份验证 * 。
-. 清除 * 启用 SAML 身份验证 * 复选框。
-. 单击 * 保存 * 。
-+
-System Manager 将重新启动。
-
-. 使用集群凭据登录到 System Manager 。
-
-
-* 相关信息 *
-
-xref:task_accessing_cluster_by_using_system_manager_brower_based_gui.adoc[使用 ONTAP System Manager 基于浏览器的图形界面访问集群]

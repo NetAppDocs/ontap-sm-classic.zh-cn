@@ -1,55 +1,7 @@
 ---
 permalink: online-help-96-97/reference_schedules_window.html 
-sidebar: sidebar 
-keywords: schedule, window, command, button, online, help 
-summary: 您可以使用计划窗口管理已计划的任务，例如创建，显示有关计划的信息，修改和删除计划。 
+redirect: ontap-sm-classic/online-help-96-97/concept_schedules.html 
 ---
-= 计划窗口
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用计划窗口管理已计划的任务，例如创建，显示有关计划的信息，修改和删除计划。
-
-
-
-== 命令按钮
-
-* * 创建 * 。
-+
-打开创建计划对话框，在此可以创建基于时间的计划和间隔计划。
-
-* * 编辑 * 。
-+
-打开编辑计划对话框，在此可以编辑选定计划。
-
-* * 删除 *
-+
-打开删除计划对话框，在此可以删除选定计划。
-
-* * 刷新 *
-+
-更新窗口中的信息。
-
-
-
-
-
-== 计划列表
-
-* * 名称 *
-+
-指定计划的名称。
-
-* * 类型 *
-+
-指定计划的类型—基于时间或基于间隔。
-
-
-
-
-
-== 详细信息区域
-
-详细信息区域显示有关何时运行选定计划的信息。

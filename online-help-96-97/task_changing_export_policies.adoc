@@ -1,23 +1,7 @@
 ---
 permalink: online-help-96-97/task_changing_export_policies.html 
-sidebar: sidebar 
-keywords: online, help, change, export, policy, smv, storage, virtual, machine, system, manager 
-summary: 创建卷时，该卷会自动继承 Storage Virtual Machine （ SVM ）根卷的默认导出策略。您可以使用 System Manager 更改与卷关联的默认导出策略，以重新定义客户端对数据的访问。 
+redirect: ontap-sm-classic/online-help-96-97/concept_namespace.html 
 ---
-= 更改导出策略
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-创建卷时，该卷会自动继承 Storage Virtual Machine （ SVM ）根卷的默认导出策略。您可以使用 System Manager 更改与卷关联的默认导出策略，以重新定义客户端对数据的访问。
-
-.步骤
-. 单击 * 存储 * > * 接合路径 * 。
-. 从 * SVM* 字段的下拉菜单中，选择要修改的卷所在的 SVM 。
-. 选择卷，然后单击 * 更改导出策略 * 。
-. 选择导出策略，然后单击 * 更改 * 。
-. 验证 * 接合路径 * 窗口中的 * 导出策略 * 列是否显示您应用于卷的导出策略。
-
-
-默认导出策略将替换为选定的导出策略。

@@ -1,34 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_share_settings.html 
-sidebar: sidebar 
-keywords: edit, share, settings, system, manager, online, help 
-summary: 您可以使用 System Manager 修改共享的设置，例如符号链接设置，用户或组的共享访问权限以及对共享的访问类型。您还可以启用或禁用通过 Hyper-V 持续提供共享，以及启用或禁用基于访问的枚举（ ABE ）。从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。 
+redirect: ontap-sm-classic/online-help-96-97/concept_shares.html 
 ---
-= 编辑共享设置
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 修改共享的设置，例如符号链接设置，用户或组的共享访问权限以及对共享的访问类型。您还可以启用或禁用通过 Hyper-V 持续提供共享，以及启用或禁用基于访问的枚举（ ABE ）。从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。
-
-.步骤
-. 单击 * 存储 * > * 共享 * 。
-. 从共享列表中选择要修改的共享，然后单击 * 编辑 * 。
-. 在 * 编辑共享设置 * 对话框中，根据需要修改共享设置：
-+
-.. 在 * 常规 * 选项卡中，通过 Hyper-V 启用共享的持续可用性
-+
-启用持续可用性可以使 SMB 3.0 和支持 SMB 3.0 的客户端在无中断运行期间持久打开文件。持久打开的文件不会受到故障转移，交还和 LIF 迁移等中断事件的影响。
-
-.. 在 * 权限 * 选项卡中，添加用户或组，然后分配权限以指定访问类型。
-.. 在 * 选项 * 选项卡中，选择所需选项。
-
-
-. 单击 * 保存并关闭 * 。
-. 在 * 共享 * 窗口中验证您对选定共享所做的更改。
-
-
-* 相关信息 *
-
-xref:reference_shares_window.adoc[共享窗口]

@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_resizing_quotas.html 
-sidebar: sidebar 
-keywords: resize, quota, system, manager, active, volume, online, help 
-summary: 您可以使用 System Manager 中的调整配额大小对话框调整指定卷中的活动配额，以使其反映您对配额所做的更改。 
+redirect: ontap-sm-classic/online-help-96-97/concept_quotas.html 
 ---
-= 调整配额大小
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 中的调整配额大小对话框调整指定卷中的活动配额，以使其反映您对配额所做的更改。
-
-必须为要调整配额大小的卷启用配额。
-
-.步骤
-. 单击 * 存储 * > * 配额 * 。
-. 在 * 配额 * 窗口的 * 卷上的配额状态 * 选项卡中，选择要调整配额大小的一个或多个卷。
-. 单击 * 调整大小 * 。
-
-
-* 相关信息 *
-
-xref:reference_quotas_window.adoc[配额窗口]

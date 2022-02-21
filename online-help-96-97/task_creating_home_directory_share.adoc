@@ -1,22 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_home_directory_share.html 
-sidebar: sidebar 
-keywords: create, home, directory, system, manager, online, help 
-summary: 您可以使用 System Manager 创建主目录共享并管理主目录搜索路径。 
+redirect: ontap-sm-classic/online-help-96-97/concept_shares.html 
 ---
-= 创建主目录共享
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 创建主目录共享并管理主目录搜索路径。
-
-必须设置并启动 CIFS 。
-
-.步骤
-. 单击 * 存储 * > * 共享 * 。
-. 单击 * 创建主目录 * ，然后提供用于确定用户如何映射到目录的模式信息。
-. 单击 * 创建 * 。
-. 验证您创建的主目录是否已列在 * 共享 * 窗口中。
 

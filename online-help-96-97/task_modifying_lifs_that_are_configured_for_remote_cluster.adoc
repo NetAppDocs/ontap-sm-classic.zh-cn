@@ -1,35 +1,7 @@
 ---
 permalink: online-help-96-97/task_modifying_lifs_that_are_configured_for_remote_cluster.html 
-sidebar: sidebar 
-keywords: system, manager, modify, lif, configure, remote, cluster 
-summary: 您可以使用 System Manager 修改为远程集群配置的 IP 空间和集群间逻辑接口（ LIF ）。您可以添加新的集群间 IP 地址或删除现有 IP 地址。 
+redirect: ontap-sm-classic/online-help-96-97/concept_cluster_peers.html 
 ---
-= 修改为远程集群配置的 LIF
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 修改为远程集群配置的 IP 空间和集群间逻辑接口（ LIF ）。您可以添加新的集群间 IP 地址或删除现有 IP 地址。
-
-要创建集群对等关系，必须至少具有一个集群间 IP 地址。
-
-.步骤
-. 单击 * 配置 * > * 集群 * > * 配置更新 * 。
-. 选择对等集群，然后单击 * 编辑 *
-+
-此时将显示下拉菜单。
-
-. 单击 * 对等集群网络参数 * 。
-+
-此时将显示编辑对等网络参数对话框窗口。
-
-. 如果需要，请修改以下字段：
-+
-** * IP 空间 * ：从下拉菜单中选择 IP 空间。
-** * 集群间 LIF* ：添加或删除集群间 IP 地址。您可以添加多个 IP 地址，方法是使用逗号分隔这些地址。
-
-
-. 单击 * 修改 * 。
-. 验证您在 * 集群对等方 * 窗口中所做的更改。
 

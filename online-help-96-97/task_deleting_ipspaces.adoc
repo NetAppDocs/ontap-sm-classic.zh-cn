@@ -1,23 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_ipspaces.html 
-sidebar: sidebar 
-keywords: ipspace, delete, system, manager, online, help 
-summary: 您可以使用 System Manager 删除不再需要的 IP 空间。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ipspaces.html 
 ---
-= 正在删除 IP 空间
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 删除不再需要的 IP 空间。
-
-要删除的 IP 空间不得与任何广播域，网络接口，对等关系或 Storage Virtual Machine （ SVM ）关联。
-
-无法删除系统定义的 " `Default` " IP 空间和 "`Cluster` " IP 空间。
-
-.步骤
-. 单击 * 网络 * > * IP 空间 * 。
-. 选择要删除的 IP 空间，然后单击 * 删除 * 。
-. 选中确认复选框，然后单击 * 是 * 。
 

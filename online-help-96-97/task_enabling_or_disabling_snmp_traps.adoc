@@ -1,28 +1,7 @@
 ---
 permalink: online-help-96-97/task_enabling_or_disabling_snmp_traps.html 
-sidebar: sidebar 
-keywords: enable, disable, snmp, trap, health, online, help, settings 
-summary: 通过 SNMP 陷阱，您可以监控存储系统各个组件的运行状况和状态。您可以使用 System Manager 中的编辑 SNMP 设置对话框在存储系统上启用或禁用 SNMP 陷阱。 
+redirect: ontap-sm-classic/online-help-96-97/concept_snmp.html 
 ---
-= 启用或禁用 SNMP 陷阱
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-通过 SNMP 陷阱，您可以监控存储系统各个组件的运行状况和状态。您可以使用 System Manager 中的编辑 SNMP 设置对话框在存储系统上启用或禁用 SNMP 陷阱。
-
-虽然默认情况下会启用 SNMP ，但默认情况下会禁用 SNMP 陷阱。
-
-.步骤
-. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
-. 在 * 设置 * 窗格中，单击 * SNMP * 。
-. 在 * SNMP * 窗口中，单击 * 编辑 * 。
-. 在 * 编辑 SNMP 设置 * 对话框中，选择 * 陷阱主机 * 选项卡，然后选中或清除 * 启用陷阱 * 复选框以分别启用或禁用 SNMP 陷阱。
-. 如果启用 SNMP 陷阱，请添加要将陷阱发送到的主机的主机名或 IP 地址。
-. 单击 * 确定 * 。
-
-
-* 相关信息 *
-
-xref:reference_snmp_window.adoc[SNMP 窗口]

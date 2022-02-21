@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/concept_roles_permissions.html 
-sidebar: sidebar 
-keywords: cluster, administrator, user, access, restrict, command, online, help 
-summary: 集群管理员可以通过创建受限访问控制角色并将该角色分配给用户来限制用户只能访问一组指定的命令。 
+redirect: ontap-sm-classic/online-help-96-97/concept_roles.html 
 ---
-= 角色和权限
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-集群管理员可以通过创建受限访问控制角色并将该角色分配给用户来限制用户只能访问一组指定的命令。
-
-您可以通过以下方式管理访问控制角色：
-
-* 创建访问控制角色，然后指定该角色的用户可以访问的命令或命令目录。
-* 通过控制角色对命令或命令目录的访问级别，然后指定用于对命令或命令目录执行适用场景操作的查询。
-* 通过修改访问控制角色对命令或命令目录的访问权限。
-* 显示有关访问控制角色的信息，例如角色名称，角色可以访问的命令或命令目录，访问级别和查询。
-* 删除访问控制角色。
-* 限制用户只能访问一组指定的命令。
-* 显示 ONTAP API 及其对应的命令行界面（ CLI ）命令。
 

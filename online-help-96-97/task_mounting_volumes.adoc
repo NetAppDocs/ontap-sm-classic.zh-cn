@@ -1,32 +1,7 @@
 ---
 permalink: online-help-96-97/task_mounting_volumes.html 
-sidebar: sidebar 
-keywords: mount, volume, system, manager, junction, storage, virtual, machine, svm, online, help 
-summary: 您可以使用 System Manager 将卷挂载到 Storage Virtual Machine （ SVM ）命名空间中的接合位置。 
+redirect: ontap-sm-classic/online-help-96-97/concept_namespace.html 
 ---
-= 挂载卷
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 将卷挂载到 Storage Virtual Machine （ SVM ）命名空间中的接合位置。
-
-.关于此任务
-* 如果将卷挂载到的接合路径的语言设置与该路径中直接父卷的语言设置不同，则 NFSv3 客户端将无法访问某些文件，因为某些字符可能无法正确解码。
-+
-如果直接父目录为根卷，则不会发生此问题描述。
-
-* 您只能将 SnapLock 卷挂载到 SVM 的根目录下。
-* 不能将常规卷挂载到 SnapLock 卷下。
-
-
-.步骤
-. 单击 * 存储 * > * 接合路径 * 。
-. 从 * SVM* 字段的下拉菜单中选择要挂载卷的 SVM 。
-. 单击 * 挂载 * ，然后选择要挂载的卷。
-. 如果要更改默认接合名称，请指定一个新名称。
-. 单击 * 浏览 * ，然后选择要将卷挂载到的接合路径。
-. 单击 * 确定 * ，然后单击 * 挂载 * 。
-. 在 * 详细信息 * 选项卡中验证新的接合路径。
 

@@ -2012,12 +2012,6 @@
   <block id="65646b7964ee768a36fd534ff1c800b9" category="list-text">* 时间 *</block>
   <block id="834e5f2f6c0af61216daed3965f0a5e1" category="paragraph">显示生成警报的时间。</block>
   <block id="07ad1a88c7934a7370a74fef60d26344" category="paragraph">详细信息区域显示有关警报的详细信息，例如生成警报的时间以及警报是否已确认。此区域还包括有关警报生成的条件的可能发生原因和可能影响的信息，以及更正警报报告的问题的建议操作。</block>
-  <block id="c40c3c19806419b27b523c8c9a497cac" category="inline-xref-macro">确认系统运行状况警报</block>
-  <block id="dfdbdda7f8c9c1ec415fbd171aa2974a" category="paragraph"><block ref="dfdbdda7f8c9c1ec415fbd171aa2974a" category="inline-xref-macro-rx"></block></block>
-  <block id="c668e070577a753d9b64dce001709e3b" category="inline-xref-macro">禁止系统运行状况警报</block>
-  <block id="1267c4879e89d3b0a435cafea106ef3a" category="paragraph"><block ref="1267c4879e89d3b0a435cafea106ef3a" category="inline-xref-macro-rx"></block></block>
-  <block id="cbb85bf06de65a53e5fbb6d6d6fc97c9" category="inline-xref-macro">删除系统运行状况警报</block>
-  <block id="d34576f78b87c5f38e638b1c71a740de" category="paragraph"><block ref="d34576f78b87c5f38e638b1c71a740de" category="inline-xref-macro-rx"></block></block>
   <block id="50f7c34b508eeaf1110e94442134d9bc" category="summary">使用精简配置时，在给定聚合中创建卷和 LUN 时，实际上不会事先为这些卷和 LUN 分配任何空间。将数据写入卷或 LUN 时会分配空间。</block>
   <block id="cff0da0bcc8cc16657e0dfad5d65178f" category="doc">使用 FlexVol 卷进行精简配置以提高效率</block>
   <block id="610596964122c9d70733bacfb989c95e" category="paragraph">未使用的聚合空间可供其他卷和 LUN 使用。通过允许按需配置和空间回收，精简配置可以提高存储利用率并降低存储成本。</block>
@@ -2280,7 +2274,6 @@
   <block id="e805f6c0b318debaaafca8baf2f14db7" category="doc">什么是效率策略</block>
   <block id="00e7b992e584d9263c6c1a037af84500" category="paragraph">您可以通过将操作计划为在特定时间启动或指定在超过阈值百分比时触发操作来在 FlexVol 卷上运行重复数据删除。您可以通过创建包含在效率策略中的作业计划来计划重复数据删除操作。卷效率策略仅支持 cron 类型的作业计划。或者，您也可以指定阈值百分比。如果新数据超过指定百分比，则会启动重复数据删除操作。</block>
   <block id="f9a9629147e98e70e032a84b560e9d9e" category="summary">您可以使用 System Manager 测试是否已正确配置陷阱主机设置。</block>
-  <block id="e339a76f441beebbdd886c9111390608" category="doc">测试陷阱主机配置</block>
   <block id="e42a772d22551e9450c7f3cb3fb091e7" category="list-text">单击 *<block ref="3fd4b2c218dcec4c2eb9e85f1d283321" category="inline-image-macro-rx" type="image"></block>*</block>
   <block id="f373fcf797d98fa92f12ab2c64720bee" category="list-text">在 * 设置 * 窗格中，单击 * SNMP * 。</block>
   <block id="539bcc4e07dd9eab907281e258776c49" category="list-text">在 * SNMP * 窗口中，单击 * 测试陷阱主机 * 。</block>
@@ -2387,7 +2380,6 @@
   <block id="d3108893f461699ca85ac7543985d2ad" category="paragraph">此时将显示重新激活源 SVM 对话框。</block>
   <block id="658634f26ea5ae1c1f279d458e9269e8" category="list-text">单击 * 启动重新激活 * 以启动对目标 SVM 的重新激活。</block>
   <block id="f20a8fc8bfff6c5d85db2f515fb31cf1" category="summary">您可以使用 System Manager 中的 qtree 窗口查看包含 qtree 的卷， qtree 的名称，安全模式和状态以及机会锁状态。</block>
-  <block id="ab1bdc6be8b129f0b8fdbd62753d8c3e" category="doc">查看 qtree 信息</block>
   <block id="dbd1058452fca8aeb2c44d9b22021c57" category="list-text">单击 * 存储 * &gt; * qtree* 。</block>
   <block id="645307baefcd28620c8335856ad5039c" category="list-text">从 * SVM* 字段的下拉菜单中，选择要查看其信息的 qtree 所在的 Storage Virtual Machine （ SVM ）。</block>
   <block id="47f47f41dc9b64c60586312338992c03" category="list-text">从显示的 qtree 列表中选择 qtree 。</block>
@@ -2595,13 +2587,8 @@
   <block id="5ffabb763eb69f06846832b2c6932b93" category="summary">存储系统出厂时已预安装软件。如果您要在收到存储系统后添加或删除软件许可证，可以使用许可证窗口。</block>
   <block id="44428fa3733727db6490dcda41d8744c" category="doc">许可证窗口</block>
   <block id="51c834c2c74d857f1a36598c11a6ebf9" category="paragraph">System Manager 不会监控评估许可证，并且在评估许可证即将到期时不会提供任何警告。评估版许可证是一种临时许可证，它将在一段时间后过期。</block>
-  <block id="820071752ad7dbbc12f35beeeb3c2c7e" category="list-text"><block ref="8122d8577ef50c41bf9e65ffe1e770b5" category="inline-xref-macro-rx"></block></block>
   <block id="6e5c18289fef1fd2e7f65e56814fb2aa" category="inline-xref">软件包选项卡</block>
-  <block id="f8a7c8007f5c0d03592c424033bf5194" category="list-text"><block ref="befb64dd8ec5959bf6cd751b3e6389b8" category="inline-xref-macro-rx"></block></block>
-  <block id="c6c22b9954b2a372e49c2439391659cb" category="inline-xref">#section_07FABA42440E4171AC62052C02DCF07</block>
-  <block id="00e79372171671309959781da494dac3" category="list-text"><block ref="4801b95e9dff3fae2f6aae955277e809" category="inline-xref-macro-rx"></block></block>
   <block id="f1c68462373d51214d1d9b6943c5637e" category="inline-xref">详细信息选项卡</block>
-  <block id="cb8c11e2819edde240c13767f35c8d6d" category="list-text"><block ref="aa7a394387cf733b6dbea1ae3e1cc498" category="inline-xref-macro-rx"></block></block>
   <block id="8e56f19b3b77477ca9a03c3c0c4cce31" category="paragraph">打开添加许可证窗口，在此可以添加新的软件许可证。</block>
   <block id="414535bb7b4407a5350c69a3c8a8269e" category="paragraph">删除从软件许可证列表中选择的软件许可证。</block>
   <block id="ac7879466d649815e2c29c54e5fbeea8" category="paragraph">显示有关存储系统上安装的许可证包的信息。</block>
@@ -2641,10 +2628,6 @@
   <block id="a0b587cbcc30692a654613e30665726e" category="list-text">对于 FabricPool ，显示当前用作云层存储的第三方对象存储的总存储量。</block>
   <block id="49ba858332d5b3a516233ea54699bccf" category="list-text">* 到期日期 *</block>
   <block id="5cc271efca4ed547d4ef319c3964d88d" category="paragraph">显示软件许可证包的到期日期。</block>
-  <block id="84c547804c1900e558061e024d760524" category="inline-xref-macro">正在添加许可证</block>
-  <block id="1faf29491bdddf482f34d5519fccb425" category="paragraph"><block ref="1faf29491bdddf482f34d5519fccb425" category="inline-xref-macro-rx"></block></block>
-  <block id="bd87292315b5b2f9cc679077986f8a70" category="inline-xref-macro">正在删除许可证</block>
-  <block id="22239aceb460456b3deec56f9076221b" category="paragraph"><block ref="22239aceb460456b3deec56f9076221b" category="inline-xref-macro-rx"></block></block>
   <block id="b64e2f96d46281df4a5271bb1d831855" category="inline-xref-macro">创建集群</block>
   <block id="3903c3a242b2e044c5dcb5ae9a3c4b51" category="paragraph"><block ref="3903c3a242b2e044c5dcb5ae9a3c4b51" category="inline-xref-macro-rx"></block></block>
   <block id="90b89eeaa4ccd434f5ea15d127070c35" category="summary">配置最佳 RAID 组大小需要权衡各种因素。您必须确定哪些因素对要配置的聚合最重要— RAID 重建速度，防止因驱动器故障而导致数据丢失的风险，优化 I/O 性能以及最大限度地增加数据存储空间。</block>
@@ -2735,7 +2718,6 @@
   <block id="e302250f5955d17f1e9a488b5bc5b7b1" category="paragraph">* 虚拟基础架构 *</block>
   <block id="3496cf6ca4dffdc0ba4e1a66a2b3ab56" category="list-text">虚拟服务器（使用 VMware ， Hyper-V 或 XEN ）</block>
   <block id="354cc0a71d9375efd0f92ec37aef0656" category="summary">服务处理器是存储系统中独立于系统的资源，可帮助您监控和管理存储系统参数，例如温度，电压，电流和风扇速度。</block>
-  <block id="9d5d1ca3bb47fb1daf1ee13be9dc1bdb" category="doc">了解服务处理器</block>
   <block id="82913ecd824ee1430a222d7ff09e3030" category="paragraph">当服务处理器检测到任何存储系统参数存在异常情况时，服务处理器将记录事件，向 ONTAP 通知问题描述，并通过电子邮件或 SNMP 陷阱生成 AutoSupport 消息。</block>
   <block id="23e7171631a20d27fd6e8baeed8069a8" category="paragraph">服务处理器通过 watchdog 机制监控 ONTAP ，并有助于快速故障转移到配对节点。服务处理器还会跟踪大量系统事件并将这些事件保存在日志文件中。这些事件包括启动进度，现场可更换单元（ FRU ）更改， ONTAP 生成的事件以及用户事务历史记录。</block>
   <block id="a4f997f283a122db9ee906cd2ab81671" category="paragraph">服务处理器可以远程登录和管理存储系统，并且可以诊断，关闭，重新加电或重新启动系统，而不管存储系统的状态如何。此外，服务处理器还提供远程诊断功能。</block>
@@ -3047,7 +3029,6 @@
   <block id="d3d91c41fd1a14f7eaf73a7ccf3792fa" category="paragraph">聚合来自其他运行状况监控器的信息。</block>
   <block id="6f89368372b347a8043fe41a1a184b9c" category="paragraph">系统连接（ system-connect ）</block>
   <block id="eb3f9e4eee112eda7eee57fa12e89c0b" category="summary">您可以使用 System Manager 修改为远程集群配置的 IP 空间和集群间逻辑接口（ LIF ）。您可以添加新的集群间 IP 地址或删除现有 IP 地址。</block>
-  <block id="6f9212cf501af9b8cae99eceb8f54a1c" category="doc">修改为远程集群配置的 LIF</block>
   <block id="488f411126f479b0eb8696e64100a650" category="paragraph">要创建集群对等关系，必须至少具有一个集群间 IP 地址。</block>
   <block id="2455acaedbc19a0886bd99362ba10ff2" category="list-text">选择对等集群，然后单击 * 编辑 *</block>
   <block id="53fc6a13863006ba788d7e2d9861cd6d" category="paragraph">此时将显示下拉菜单。</block>
@@ -3071,7 +3052,6 @@
   <block id="b709482866ae5a195ca8a508107c7655" category="list-text">复制软件映像。</block>
   <block id="613eabe9fa197d9af03a83dc8d9501d4" category="list-text">对于 ONTAP 9.3 或更早版本，请将软件映像（例如， `93_q_image.tgz` ）从 NetApp 支持站点复制到 HTTP 服务器或 FTP 服务器上要提供此映像的目录</block>
   <block id="0462bed319dac789c5b4be2127be97d1" category="list-text">对于 ONTAP 9.4 或更高版本，请将软件映像（例如， `97_q_image.tgz` ）从 NetApp 支持站点复制到要从中提供此映像的 HTTP 服务器或 FTP 服务器上的目录或复制到本地文件夹。</block>
-  <block id="17d217bf3f6f69ac069864df4a757398" category="summary">您可以使用 System Manager 中编辑 AutoSupport 设置对话框的电子邮件收件人选项卡添加 AutoSupport 通知收件人的电子邮件地址。</block>
   <block id="05e7844ebc444b6fad146ea35ed30693" category="doc">添加 AutoSupport 电子邮件收件人</block>
   <block id="d16928f0be7c6d00043db7f8f698713f" category="paragraph">您可以使用 System Manager 中编辑 AutoSupport 设置对话框的 * 电子邮件收件人 * 选项卡添加 AutoSupport 通知收件人的电子邮件地址。</block>
   <block id="21ec67566e077556532e2cd9d93fb85b" category="list-text">单击 *<block ref="3fd4b2c218dcec4c2eb9e85f1d283321" category="inline-image-macro-rx" type="image"></block>* &gt; * AutoSupport * 。</block>
@@ -3136,7 +3116,6 @@
   <block id="874db297b2254479eeb702a2d7fa8dab" category="list-text">单击 * 删除 * 。</block>
   <block id="30adc505038075f7ff4b7dd8c46ed581" category="paragraph">此时将删除本地组及其成员资格记录。</block>
   <block id="e074b06c6bcffc41130111700ce589f4" category="summary">您可以设置安全断言标记语言（ SAML ）身份验证，以便远程用户在登录到 System Manager 之前通过安全身份提供程序（ IdP ）进行身份验证。</block>
-  <block id="8b01333f722c411621cf896f912015d4" category="doc">设置 SAML 身份验证</block>
   <block id="a1c17e9e89d922e43d5aa0884477d0b3" category="image-alt">MFA 工作流</block>
   <block id="406ad3dd8a883492cd98d22cf3f6a879" category="summary">您可以配置许多任务（例如，卷 Snapshot 副本和镜像复制），使其按指定计划运行。按指定计划运行的计划称为 cron 计划，因为它们与 UNIX cron 计划类似。按间隔运行的计划称为间隔计划。</block>
   <block id="ccdb7bf9d93e5652b57cabcc8c41e061" category="doc">Schedules</block>
@@ -3186,7 +3165,6 @@
   <block id="0d962abe91b951adf20cb885754aa028" category="list-text">选择卷，然后单击 * 更多操作 * &gt; * 为 VMware* 配置存储。</block>
   <block id="d6e281e66bdc60d803cf025b093e4437" category="list-text">在 * 为 VMware* 创建 NFS 数据存储库向导中，根据需要键入或选择信息。</block>
   <block id="180585c2bf107777563ef87199b3a128" category="summary">您可以使用 System Manager 查看所有先前 AutoSupport 数据的状态和详细信息，以便查看已发送给技术支持的数据。您还可以查看这些信息，了解存储系统的运行状况和性能。</block>
-  <block id="5ab5fc19c38e5f7cd9c4b2912705f526" category="doc">查看 AutoSupport 摘要</block>
   <block id="40e9b033a605f4b9e70b7533dbe4cc68" category="list-text">选择节点，然后单击 * AutoSupport request* &gt; * 查看先前摘要 * 。</block>
   <block id="ec319ea6d5029219f5360564e39bce20" category="paragraph">此时将显示所有节点的 AutoSupport 数据。</block>
   <block id="af5232341cac597709156848a5aa3a5f" category="summary">您可以使用 System Manager 禁止不需要任何干预的系统运行状况警报。</block>
@@ -3194,7 +3172,6 @@
   <block id="74bb477015ac207a659c0a49cc0bd6fd" category="list-text">在 * 系统警报 * 窗口中，单击子系统名称旁边的箭头图标。</block>
   <block id="c64e8e7cedf475336581aedbb90b22a2" category="list-text">选择要禁止的警报，然后单击 * 禁止 * 。</block>
   <block id="a09e16f1abd3a9dd478689fd626cd2c1" category="list-text">键入您的名称，然后单击 * 禁止 * 。</block>
-  <block id="a5293e042ffd662fd3fab67b7ab02169" category="paragraph"><block ref="a5293e042ffd662fd3fab67b7ab02169" category="inline-xref-macro-rx"></block></block>
   <block id="2db4ca4dd6292800d94dca64482511f6" category="summary">您可以通过禁用 IP 地址范围并为集群管理，节点管理和服务提供商网络输入各个 IP 地址来设置网络。</block>
   <block id="cf3e3f05071cd74398a7d71b78ee89bf" category="doc">在禁用 IP 地址范围时设置网络</block>
   <block id="007b7d03a426d6cca62405aa81f91212" category="paragraph">在网络页面中，如果禁用了 * IP 地址范围 * ，请为集群管理，节点管理和服务处理器网络输入各个 IP 地址。</block>
@@ -3282,7 +3259,6 @@
   <block id="d254a68c48559342ea0c1a4fcc0a6be6" category="paragraph">单击 * 浏览 * ，然后选择现有计划。</block>
   <block id="ddfd8df1949052b41ddee64cb7f4d149" category="paragraph">您可以选择此选项以指定 cron 模式的计划。</block>
   <block id="1ff362c997e2ed0d37d724ea39bbcc6e" category="summary">通过 SVM 对等关系，您可以在两个 Storage Virtual Machine （ SVM ）之间建立对等关系以进行数据保护。</block>
-  <block id="5c1d9f22011bf9bfc6cdfc8f12eb1691" category="doc">创建 SVM 对等方</block>
   <block id="81406f2a1060c92f415b6d319afdad88" category="paragraph">您必须已在计划对等的 SVM 所在的集群之间创建对等关系。</block>
   <block id="32059d11a1c3303002a74cce3d95e7fc" category="list-text">在使用 * 配置 * &gt; * SVM 对等方 * 窗口创建 SVM 对等方时，系统会列出可选择作为目标集群的集群。</block>
   <block id="e8c8ddc81fdb9820d03aa24136eff9ee" category="list-text">如果目标 SVM 位于运行 ONTAP 9.2 或更早版本的系统中的集群上，则无法使用 System Manager 接受 SVM 对等。</block>
@@ -3380,7 +3356,6 @@
   <block id="d823518925883a02978856511e67c73b" category="list-text">单击指定 LUN 数量的链接以查看选定 LUN 的列表，如果要从列表中删除任何 LUN ，请单击 * 丢弃 * 。</block>
   <block id="ba2b6965f1429665ea4dd3fdb7b4c7e7" category="paragraph">只有在选择多个 LUN 时，才会显示此链接。</block>
   <block id="05bb17d18c0f9c3d367fd30e255813d5" category="doc">Snapshot 配置</block>
-  <block id="cad1cd7ed7f6e1ef1f98ffd8926bdf7d" category="summary">通过 SNMP 窗口，您可以查看系统的当前 SNMP 设置。您还可以更改系统的 SNMP 设置，启用 SNMP 协议以及添加陷阱主机。</block>
   <block id="639a1bdb6de85b0fdcef8600f153f51e" category="doc">SNMP 窗口</block>
   <block id="b4083c217a8fe8d606320f8a151c3927" category="paragraph">通过 SNMP 窗口，您可以查看系统的当前 SNMP 设置。您还可以更改系统的 SNMP 设置，启用 SNMP 协议以及添加陷阱主机。</block>
   <block id="c83ff6502a14a457dc379a0343341390" category="list-text">* 启用 / 禁用 *</block>
@@ -3404,10 +3379,6 @@
   <block id="fe975fdbc1a4ce71f4970b4f5c786235" category="paragraph">显示 SNMP 服务器的社区名称。</block>
   <block id="beb121731221cade02463599d8adca1e" category="list-text">* 安全名称 *</block>
   <block id="107bea07d2bf29e67c0aa91b72728753" category="paragraph">显示 SNMP 服务器的安全模式。</block>
-  <block id="9719bea4506f1fd9f87014b6e7abb300" category="inline-xref-macro">编辑 SNMP 信息</block>
-  <block id="035485ad81c43e07cfe1e6073e813d93" category="paragraph"><block ref="035485ad81c43e07cfe1e6073e813d93" category="inline-xref-macro-rx"></block></block>
-  <block id="9b97505c269de66f6cc8c28a26e4c10b" category="inline-xref-macro">启用或禁用 SNMP 陷阱</block>
-  <block id="91b97b61747638bee6f64ad6e1765ee1" category="paragraph"><block ref="91b97b61747638bee6f64ad6e1765ee1" category="inline-xref-macro-rx"></block></block>
   <block id="829f7ec3b282e9555c875d039422ee30" category="summary">启动程序主机可以访问映射到它们的 LUN 。将存储系统上的 LUN 映射到 igroup 时，您会授予该组中的所有启动程序对该 LUN 的访问权限。如果某个主机不是映射到 LUN 的 igroup 的成员，则该主机将无法访问此 LUN 。</block>
   <block id="f4c0fc1a228f243144f99ec4c1441785" category="doc">启动程序主机</block>
   <block id="5965aeb6244778b6539f2a5da4d3e3c9" category="summary">您可以使用 System Manager 通过启动 Storage Virtual Machine （ SVM ）来提供数据访问。</block>
@@ -3500,7 +3471,6 @@
   <block id="b653b796b474e50ddac8a491d78a415b" category="list-text">在 * 保护 * 窗口中验证镜像关系的状态。</block>
   <block id="4eaee05aa5259bb63b5e56fe16457864" category="paragraph">此时将创建一个 Snapshot 副本并将其传输到目标。此 Snapshot 副本用作后续增量 Snapshot 副本的基线。</block>
   <block id="899866a691c80f26e2daef7ca4226aa1" category="summary">您可以使用 System Manager 中的编辑 AutoSupport 设置对话框通过指定发送电子邮件通知的电子邮件地址并添加多个电子邮件主机名来设置 AutoSupport 通知。</block>
-  <block id="abc3fd3b1ce358ce68396584d7cf868a" category="doc">设置 AutoSupport 通知</block>
   <block id="687a771b0731f71db5005ea461393c80" category="list-text">在 * 电子邮件收件人 * 选项卡中，键入发送电子邮件通知的电子邮件地址，指定电子邮件收件人和每个电子邮件收件人的邮件内容，并添加邮件主机。</block>
   <block id="b3993d767356f296d9ae01951029b2e8" category="paragraph">最多可以为主机名添加五个电子邮件地址。</block>
   <block id="256162f8692cabf4b90ce635f28d203d" category="list-text">在 * 其他 * 选项卡中，从下拉列表中选择用于传送电子邮件的传输协议，并指定 HTTP 或 HTTPS 代理服务器详细信息。</block>
@@ -3617,7 +3587,6 @@
   <block id="46155bb8e220c41ce0b56e02cf97f430" category="list-text">启用或禁用加密。</block>
   <block id="bfe5f75f6fc858468e2007ad5daf140b" category="inline-link-macro">设置 FlexCache 卷的高级设置</block>
   <block id="1ac02bfdaf414a50042d47a131e43144" category="list-text">单击 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> 修改 FlexCache 卷高级设置。请参见 <block ref="4aa5b8ffba7fb44e3974191d1beac02c" category="inline-link-macro-rx"></block>。</block>
-  <block id="5738e81d775bde5181b062fdc9fe8a6d" category="doc">生成对等密码短语</block>
   <block id="00dd38a84a52b78303bb10d5409eb2d9" category="list-text">单击 * 生成对等密码短语 * 。</block>
   <block id="590c98302fe91a04312e9327e28dbf4f" category="paragraph">此时将显示生成对等密码短语对话框窗口。</block>
   <block id="986133c6a16199a611ea548ebb552827" category="list-text">填写以下字段：</block>
@@ -3706,7 +3675,6 @@
   <block id="6123b52ba42a086b8f41ccc7ae3b29cf" category="list-text">如果要为 qtree 上的所有用户应用配额，请单击 * 用户配额 * ，然后指定磁盘空间限制。</block>
   <block id="0d716abce452e1272a6a36b459fa68c1" category="list-text">验证您创建的 qtree 是否包含在 * qtree* 窗口的 qtree 列表中。</block>
   <block id="9126d101a06e7911edf2753da7ccd34e" category="inline-xref-macro">qtree 窗口</block>
-  <block id="39e687de2a1a63710fc987bc4ab2c6c3" category="paragraph"><block ref="39e687de2a1a63710fc987bc4ab2c6c3" category="inline-xref-macro-rx"></block></block>
   <block id="42e11d98979b558c259a5e3c3c21b785" category="summary">您可以使用 System Manager 管理逻辑存储，例如 Storage Virtual Machine （ SVM ），卷， qtree ，协议，策略等。</block>
   <block id="fdac0b4194ab81f1abc361b79a660485" category="doc">管理逻辑存储</block>
   <block id="15e80efd335b7c24d44f1160ff9baff7" category="summary">您可以使用 System Manager 删除已响应的系统运行状况警报。</block>
@@ -3730,7 +3698,6 @@
   <block id="68c2a1014ab2642087ee38ff93eda3ad" category="list-text">选择接口组，然后单击 * 编辑 * 。</block>
   <block id="286efbde8030ca188a939d2e7fd2ea45" category="list-text">根据需要修改接口组设置，然后单击 * 保存并关闭 * 。</block>
   <block id="3dac87b593dc154f886cb0c2d0370e8f" category="summary">您可以使用 System Manager 查看为集群中的 Storage Virtual Machine （ SVM ）配置的 LDAP 客户端。</block>
-  <block id="49f61fa95a05fa6621fae4a1148f38b8" category="doc">查看 LDAP 客户端配置</block>
   <block id="3d18a6c060bf36b73107820286a1079f" category="list-text">在 * 设置 * 窗格中，单击 * LDAP * 。</block>
   <block id="7a4ed038b12707d1a7d7a6dbfc8d2548" category="paragraph">LDAP 客户端列表将显示在 LDAP 窗口中。</block>
   <block id="41837413c9357a5cc0015088ffb458a3" category="summary">您可以使用 System Manager 将 SSD 添加为存储池或专用 SSD ，以增加 Flash Pool 聚合的大小。</block>
@@ -4053,7 +4020,6 @@
   <block id="9ea725e92b8859d97af5c8e771993c2d" category="summary">您可以使用 System Manager 查看，管理或删除集群或节点上安装的任何软件许可证。</block>
   <block id="f6aca2dcfee051b254bbcb878dc70d09" category="doc">licenses</block>
   <block id="8be4ea54d26f57ef4b2e519392ee88b6" category="summary">如果不再需要集群对等关系，您可以使用 System Manager 删除此关系。您必须从对等关系中的每个集群中删除集群对等关系。</block>
-  <block id="c96a0f0039b653406a892f901ee2313d" category="doc">正在删除集群对等关系</block>
   <block id="9586f5bcf1a1e099c8d8487104ff5430" category="list-text">选择要删除关系的集群对等方，然后单击 * 删除 * 。</block>
   <block id="eccbc87e4b5ce2fe28308fd9f2a7baf3" category="inline-xref">3.</block>
   <block id="8dc84fca2727349e0e6e9dd96ca7eff8" category="list-text">登录到远程集群并执行步骤 <block ref="65a3c2af0e31c7f4bfde741e5550228f" category="inline-xref-macro-rx"></block> 到 <block ref="1d3f8a4c0730efdb5cd181a14aa5eb56" category="inline-xref-macro-rx"></block> 删除本地集群与远程集群之间的对等关系。</block>
@@ -4107,14 +4073,12 @@
   <block id="6b7d21859f28cd17d4dc6d06b7c5f298" category="inline-xref-macro">CIFS 窗口</block>
   <block id="f372bfaa3e579da4a793cb4856aab6d4" category="paragraph"><block ref="f372bfaa3e579da4a793cb4856aab6d4" category="inline-xref-macro-rx"></block></block>
   <block id="2ebdd0b2184562916f7ee0c647a51c80" category="summary">通过 LDAP 服务器，您可以集中维护用户信息。如果您将用户数据库存储在环境中的 LDAP 服务器上，则可以将 Storage Virtual Machine （ SVM ）配置为在现有 LDAP 数据库中查找用户信息。</block>
-  <block id="df991384feb657a74229820a38a77f47" category="doc">使用 LDAP 服务</block>
   <block id="20776d1dd2b008e001dceec1b6cbedcd" category="paragraph">ONTAP 支持使用 LDAP 在 NFS 和 CIFS 之间进行用户身份验证，文件访问授权以及用户查找和映射服务。</block>
   <block id="5d23090a877148a980345bf4b953f702" category="summary">通过 SNMP 陷阱，您可以监控存储系统各个组件的运行状况和状态。您可以使用 System Manager 中的编辑 SNMP 设置对话框在存储系统上启用或禁用 SNMP 陷阱。</block>
   <block id="5b7e8090ddc6d71d5f34e59fad774482" category="paragraph">虽然默认情况下会启用 SNMP ，但默认情况下会禁用 SNMP 陷阱。</block>
   <block id="37f0bb76af7fba4b0d9a6a7cdd8cae3c" category="list-text">在 * SNMP * 窗口中，单击 * 编辑 * 。</block>
   <block id="d214a939449dd420c63eb5e03c605a79" category="list-text">在 * 编辑 SNMP 设置 * 对话框中，选择 * 陷阱主机 * 选项卡，然后选中或清除 * 启用陷阱 * 复选框以分别启用或禁用 SNMP 陷阱。</block>
   <block id="7389ea20d819b1c391f9a10eabd5aad7" category="list-text">如果启用 SNMP 陷阱，请添加要将陷阱发送到的主机的主机名或 IP 地址。</block>
-  <block id="ef1ac123ff6a2fb79b2e99715168c594" category="paragraph"><block ref="ef1ac123ff6a2fb79b2e99715168c594" category="inline-xref-macro-rx"></block></block>
   <block id="f370a4a148925079b15117f7cd76fe2d" category="summary">如果要停止数据传输，可以中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。</block>
   <block id="02ae21f4b0ddb0676206c2c495690f3d" category="doc">中止镜像和存储关系</block>
   <block id="e7413b72328d779c799ba2723d5ad558" category="list-text">选择要停止数据传输的镜像和存储关系，然后单击 * 操作 * &gt; * 中止 * 。</block>
@@ -4393,7 +4357,6 @@
   <block id="3876a46c169c8493a6228075af152922" category="paragraph">显示活动 LDAP 客户端的首选 Active Directory 服务器。</block>
   <block id="936df13c62816bb541c8c569a83692db" category="summary">您可以使用 System Manager 创建聚合，以满足用户不同的安全性，备份，性能和数据共享要求。</block>
   <block id="d5350d8759b1ec84607e47908809058e" category="doc">聚合</block>
-  <block id="6e7a9f1c95d5a7ac4e89c8f41c4cfb37" category="summary">集群管理员可以通过创建受限访问控制角色并将该角色分配给用户来限制用户只能访问一组指定的命令。</block>
   <block id="cc3fc292512275828d3e52e16ae33c1e" category="doc">角色和权限</block>
   <block id="d3d3e7b5a8a2b63375fb28546003cc61" category="paragraph">集群管理员可以通过创建受限访问控制角色并将该角色分配给用户来限制用户只能访问一组指定的命令。</block>
   <block id="90521dcf8de749df885339a83002b933" category="paragraph">您可以通过以下方式管理访问控制角色：</block>
@@ -4468,7 +4431,6 @@
   <block id="18b560242d11820a90a52fd376616aae" category="list-text">高级可创建 cron 模式的计划。</block>
   <block id="60c3569b0b7eb920ddb2787c02c7cf2c" category="list-text">单击 * 确定 * 以保存更改。</block>
   <block id="0219218a288b0f5afc36669e0adb32de" category="summary">您可以使用 System Manager 中存储窗格的接合路径选项从 Storage Virtual Machine （ SVM ）命名空间中的接合卸载 FlexVol 卷。</block>
-  <block id="a0a4009dbafbd4f1402c189d21ce520b" category="doc">卸载 FlexVol 卷</block>
   <block id="0461e31d68bb3e29d8f720060814a3ce" category="list-text">单击 * 存储 * &gt; * 接合路径 * 。</block>
   <block id="c6a951b4a8fde11c5e92eb0d92083ecc" category="list-text">从 * SVM* 字段的下拉菜单中，选择要从中卸载卷的 SVM 。</block>
   <block id="0765cf61b3618e32d2830b1385083816" category="list-text">选择必须卸载的卷，然后单击 * 卸载 * 。</block>
@@ -4476,13 +4438,11 @@
   <block id="0d1d13459bc7ae92a63cd34caa6fd85f" category="summary">设置逻辑存储包括创建 Storage Virtual Machine （ SVM ）和卷。</block>
   <block id="16df33ef9f8b504fc8624c96e2de218a" category="doc">设置逻辑存储</block>
   <block id="85f263b355ba27e15920081a6900f202" category="summary">如果存储池的缓存不是最佳缓存，或者任何聚合或 Flash Pool 聚合不再使用存储池，则您可能需要删除该存储池。您可以使用 System Manager 中的删除存储池对话框删除存储池。</block>
-  <block id="d006056d81b8e86622ebd7fd14a451f6" category="doc">正在删除存储池</block>
   <block id="0a0e81677afb04e83d0af6c92d36e30f" category="paragraph">存储池不能由任何聚合使用。</block>
   <block id="5b8007bf8edf0fd9896110e80e454779" category="list-text">单击 * 存储 * &gt; * 聚合和磁盘 * &gt; * 存储池 * 。</block>
   <block id="ba8a4e66eb975c2f373c56dca04e38c5" category="list-text">在 * 存储池 * 窗口中，选择要删除的存储池，然后单击 * 删除 * 。</block>
   <block id="ca0a8dcdea57883fa6048d57889da3f5" category="list-text">在 * 删除存储池 * 对话框中，单击 * 删除 * 。</block>
   <block id="9036069c32e5e6c2ac0b27bdb58555e6" category="inline-xref-macro">存储池窗口</block>
-  <block id="5c603ca4cfdf680bee2d0061a573ffc7" category="paragraph"><block ref="5c603ca4cfdf680bee2d0061a573ffc7" category="inline-xref-macro-rx"></block></block>
   <block id="d056d42c72475fbc375e1bfa1db3e574" category="summary">您可以使用节点窗口查看集群中节点的详细信息。</block>
   <block id="7edb8f008db458feb80fde0b7c73b416" category="doc">节点窗口</block>
   <block id="d80d48f3c701f60787ab669ea6fef3a7" category="list-text">* 初始化 ComplianceClock*</block>
@@ -4515,7 +4475,6 @@
   <block id="6fdf6c4c8352f1673b38d5c329f94b7e" category="summary">您可以使用 System Manager 创建，编辑和删除保护策略。</block>
   <block id="5d1184f76781faaf229c6b885314bcd3" category="doc">保护策略</block>
   <block id="985882a1c05b1efab591200c255c9c18" category="summary">您可以使用 System Manager 将未分配的阵列 LUN 分配给现有聚合，以增加聚合的大小。</block>
-  <block id="e99ea7737ec0899f84fc38b7f2d47e6b" category="doc">正在分配阵列 LUN</block>
   <block id="ced93cbc907159a5b58d65c837220543" category="list-text">如果满足以下条件，则可以分配阵列 LUN ：</block>
   <block id="0eb04ff9cc457d57edef6a52601c5ed1" category="list-text">选定阵列 LUN 的容器类型必须为 "`unassigned` " 。</block>
   <block id="cea0f4266bb67543304554caecb86451" category="list-text">磁盘必须连接到 HA 对中的节点。</block>
@@ -4525,7 +4484,6 @@
   <block id="c889420c5fb3b2d0a68d5278a505f6d7" category="list-text">在 * 分配阵列 LUN* 对话框中，选择要将阵列 LUN 分配到的节点。</block>
   <block id="c9b6c87c53f945419f9735fcd29de503" category="summary">您可以使用 System Manager 管理作业任务，例如显示作业信息和监控作业进度。</block>
   <block id="12ceff2290bb9039beaa8f36d5dec226" category="doc">作业</block>
-  <block id="f700bdd0a6fe604d52a54639ae56cf85" category="summary">通过 AutoSupport 窗口，您可以查看系统的当前 AutoSupport 设置。您还可以更改系统的 AutoSupport 设置。</block>
   <block id="6bcf33de034389db3d5853162953d505" category="doc">AutoSupport 窗口</block>
   <block id="1a7d77c8e798bc441a5334c9355a45d5" category="paragraph">通过 AutoSupport 窗口，您可以查看系统的当前 AutoSupport 设置。您还可以更改系统的 AutoSupport 设置。</block>
   <block id="03ff904feb33d8d1e3818a11dfe58b37" category="list-text">* 启用 *</block>
@@ -4572,13 +4530,10 @@
   <block id="846157e13041477296aa4bd573165d69" category="list-text">从 * IP 空间 * 列表中，选择用于连接到云层的 IP 空间。</block>
   <block id="54858ad892c97f264ca1c890f5029ccf" category="list-text">单击 * 保存 * 以保存云层。</block>
   <block id="c5c541bfd008ab19608ae3520ad088ea" category="list-text">单击 * 保存并附加聚合 * 以保存云层并将聚合附加到云层。</block>
-  <block id="756dc2ec2645abbea64ab64f10f9676d" category="paragraph"><block ref="756dc2ec2645abbea64ab64f10f9676d" category="inline-xref-macro-rx"></block></block>
   <block id="0d89860300e279906201fcfb05d7edd6" category="inline-xref-macro">什么是 FabricPool</block>
-  <block id="9c94bb67e9bd3a5dc829d75edf8e2205" category="paragraph"><block ref="9c94bb67e9bd3a5dc829d75edf8e2205" category="inline-xref-macro-rx"></block></block>
   <block id="726b4e59527682b2bc07ee0fa12ecc2c" category="inline-xref-macro">如果使用 StorageGRID ，则安装 CA 证书</block>
   <block id="614672e04c5f9810ff01479abf49808b" category="paragraph"><block ref="614672e04c5f9810ff01479abf49808b" category="inline-xref-macro-rx"></block></block>
   <block id="e5de0a1897243996979b84cfa5dc4f53" category="summary">您可以修改在创建集群对等方期间提供的密码短语。</block>
-  <block id="9c7ef7825f6c6398ea138b6025eb4fff" category="doc">修改集群对等密码短语</block>
   <block id="5ab5861a4f3f26b31fc293e162959fcc" category="list-text">单击 * 本地集群密码短语 * 。</block>
   <block id="726c22e65440ea2549c6181f71584599" category="paragraph">此时将显示编辑本地集群密码短语对话框窗口。</block>
   <block id="3fdf6f915a86a30829cb84275ea42a64" category="list-text">在 * 输入密码短语 * 字段中，输入新密码短语，然后单击 * 应用 * 。</block>
@@ -4710,7 +4665,6 @@
   <block id="82171339903dd3f5090ade37a53e4e7b" category="paragraph">指定超级用户访问的安全类型。</block>
   <block id="4558df8cedfb6fff1a8ae88e7f3554e4" category="section-title">已分配对象选项卡</block>
   <block id="f23d075397a5db232bfa6d287085c43b" category="paragraph">通过分配的对象选项卡，您可以查看分配给选定导出策略的卷和 qtree 。您还可以查看卷是否已加密。</block>
-  <block id="15a5aaeb64dd5663fff7114afba3e0b4" category="summary">您可以使用 System Manager 创建一个接口组（单模式，静态多模式或动态多模式（ LACP ）），以便通过将聚合网络端口的功能组合在一起为客户端提供一个接口。</block>
   <block id="9794b81508030d938e9637f4f6fae599" category="doc">创建接口组</block>
   <block id="9ac764418e4ea147c97f0cc85c784cdd" category="paragraph">您可以使用 System Manager 创建一个接口组—单模式，静态多模式或动态多模式（ LACP ）—通过将聚合网络端口的功能组合在一起，为客户端提供一个接口。</block>
   <block id="c8741c9bf1d484e6c05d5c02148af0cd" category="paragraph">必须具有不属于任何广播域或接口组或托管 VLAN 的可用端口。</block>
@@ -4737,7 +4691,6 @@
   <block id="f6ce52a49a26b1f03ba502223bb26f5d" category="paragraph"><block ref="f6ce52a49a26b1f03ba502223bb26f5d" category="inline-link-macro-rx"></block></block>
   <block id="d7ff64a7441b37002dd4c073ecb43e75" category="doc">创建集群间 LIF</block>
   <block id="0922e0489e9e04af8befa1efcdb7d56c" category="summary">您可以使用 System Manager 通过修改用于访问存储系统的用户登录方法来编辑集群用户帐户。</block>
-  <block id="a71f80198082ccb3a5cf93ae8c5483b8" category="doc">编辑集群用户帐户</block>
   <block id="9ea3b4df7f0d58acd4fb0515b06113ee" category="list-text">在 * 管理 * 窗格中，单击 * 用户 * 。</block>
   <block id="6629eea96a80a0a3f76c142da986e06d" category="list-text">在 * 用户 * 窗口中，选择要修改的用户帐户，然后单击 * 编辑 * 。</block>
   <block id="9235a2dd1c9442d33394cbcb1d128d12" category="list-text">在 * 修改用户 * 对话框中，修改用户登录方法，然后单击 * 修改 * 。</block>
@@ -4771,7 +4724,6 @@
   <block id="99d77b50ceffeb6c138fdf554ecf1013" category="list-text">选择 NIS 域，然后单击 * 编辑 * 。</block>
   <block id="cad5904ba3d040586cd36d6753e023e7" category="list-text">进行所需的更改，然后单击 * 编辑 * 。</block>
   <block id="a96fdd45ee76778387ae8a5e672799e5" category="summary">您可以使用 System Manager 中的配额窗口查看配额详细信息，例如应用配额的卷和 qtree ，配额类型，应用配额的用户或组以及空间和文件使用量。</block>
-  <block id="501a3354a15f1a5c2207fde3262e367e" category="doc">查看配额信息</block>
   <block id="73150b2b21a944e2171fc6acf6d6b14a" category="list-text">单击 * 存储 * &gt; * 配额 * 。</block>
   <block id="e87d21c485d9735547efc6f0d36a94d8" category="list-text">从 * SVM* 字段的下拉菜单中，选择要查看其相关信息的配额所在的 Storage Virtual Machine （ SVM ）。</block>
   <block id="c8ba9deadbafba0d8c6f69a0390bed51" category="list-text">执行相应的操作：</block>
@@ -4831,7 +4783,6 @@
   <block id="a8f302e6ed78532825e7d09cf54ab7af" category="paragraph">通过 ONTAP 软件，您可以为磁盘和阵列 LUN 分配所有权，并将其添加到聚合中。ONTAP 软件还提供了多种管理磁盘的方法，包括删除磁盘，更换磁盘以及对磁盘进行清理。由于阵列 LUN 由第三方存储阵列提供，因此您可以使用第三方存储阵列执行阵列 LUN 的所有其他管理任务。</block>
   <block id="bbeb93f7c8f7ce4e49cf44c2634b4174" category="paragraph">您可以使用磁盘或阵列 LUN 创建聚合。创建聚合后，无论聚合是从磁盘还是阵列 LUN 创建的，都可以使用 ONTAP 软件以完全相同的方式对其进行管理。</block>
   <block id="879dcab1329eb38cf1a9b00b027e5573" category="summary">您可以使用 System Manager 修改 qtree 的属性，例如安全模式，启用或禁用机会锁（ oplock ）以及分配新的或现有的导出策略。</block>
-  <block id="e307276b85de21cf02d18ac309ff8304" category="doc">编辑 qtree</block>
   <block id="4bca1de0e9a691c42e899ff7f19468c0" category="list-text">选择要编辑的 qtree ，然后单击 * 编辑 * 。</block>
   <block id="a657dd3ef7410a65ebed4d25af078277" category="list-text">在 * 编辑 qtree* 对话框中，根据需要编辑以下属性：</block>
   <block id="f55f6181900936e07234ac7b41933273" category="list-text">机会锁</block>
@@ -4895,7 +4846,6 @@
   <block id="d7c499e134245becf7ae6ef87a931b98" category="inline-xref-macro">重置 CIFS 域控制器</block>
   <block id="dc558b1a1526987b25387079f05ab608" category="paragraph"><block ref="dc558b1a1526987b25387079f05ab608" category="inline-xref-macro-rx"></block></block>
   <block id="aaf956216670837b87061226d66fde20" category="summary">您可以使用 System Manager 在集群上启用或禁用 SNMP 。通过 SNMP ，您可以监控集群中的 Storage Virtual Machine （ SVM ），以便在出现问题之前避免出现问题，并防止出现问题。</block>
-  <block id="c5aaef92f57ed0ffa9fd23fe0891af9a" category="doc">启用或禁用 SNMP</block>
   <block id="f940ccb74f179c7cbf4239ed9de4b33f" category="list-text">在 * SNMP * 窗口中，单击 * 启用 * 或 * 禁用 * 。</block>
   <block id="821e81e36e586b80028067efb07d86ed" category="summary">您可以使用 System Manager 从源 Storage Virtual Machine （ SVM ）创建镜像和存储关系。通过创建此关系，您可以定期将数据从源卷传输到目标卷，从而更好地保护数据。通过此关系，您还可以通过创建源卷的备份来长期保留数据。</block>
   <block id="8dfcdcd447e5af55b3542fefe557dee0" category="doc">从源 SVM 创建镜像和存储关系</block>
@@ -5109,7 +5059,6 @@
   <block id="3a0fa44de39793ef40c9e4a0ac4aa2d6" category="paragraph">默认情况下，大小字段会进行初始设置。指定的大小不能超过许可的容量大小。</block>
   <block id="a20e0590d87c57690232d18193bfb218" category="list-text">单击 * 保存 * 以创建 FlexCache 卷。</block>
   <block id="17057d395baea70c0bfd45679a72a89c" category="paragraph">您可以返回到 * 卷 * 窗口以查看卷列表中的 FlexCache 卷。</block>
-  <block id="93bf03d1b4d507218eb6f7085da4bd32" category="summary">要使 SSD 能够由多个 Flash Pool 聚合共享，您可以将 SSD 添加到存储池中。将 SSD 添加到存储池后，您将无法再将 SSD 作为独立实体进行管理。您必须使用存储池分配或分配 SSD 提供的存储。</block>
   <block id="a43a3561a36ced737e2f660ba584cd61" category="doc">使用 SSD 存储池</block>
   <block id="b0267fe87585ca235d84f0c74c4033d1" category="paragraph">要使多个 Flash Pool 聚合能够共享 SSD ，您可以将 SSD 添加到 _storage pool_ 。将 SSD 添加到存储池后，您将无法再将 SSD 作为独立实体进行管理。您必须使用存储池分配或分配 SSD 提供的存储。</block>
   <block id="745a236b5feabb6d5cb3f8d079e7f02d" category="paragraph">您可以为特定高可用性（ HA ）对创建存储池。然后，您可以将该存储池中的分配单元添加到同一 HA 对所拥有的一个或多个 Flash Pool 聚合中。就像磁盘必须由拥有聚合的同一节点拥有，然后才能将磁盘分配给聚合一样，存储池只能为拥有该存储池的某个节点所拥有的 Flash Pool 聚合提供存储。</block>
@@ -5285,16 +5234,13 @@
   <block id="d35c7ca1943c3780b79c5d93a95ddccd" category="list-text">* SnapVault 关系 *</block>
   <block id="85ae4e8aebff43a93c1f46407b4f7168" category="paragraph">主卷与二级卷之间的一种备份关系，配置为 SnapVault 关系。</block>
   <block id="ad71ea682f03644e61b034006d3c4b03" category="summary">您可以使用 System Manager 编辑磁盘空间阈值，配额目标可以使用的磁盘空间量硬限制和软限制，以及配额目标可以拥有的文件数量硬限制和软限制。</block>
-  <block id="3f0f7328482d03c6c6dfb4185ccedf98" category="doc">编辑配额限制</block>
   <block id="a857097cdddc9f51771c2352486148b2" category="list-text">从 * SVM* 字段的下拉菜单中，选择要编辑的配额所在的 Storage Virtual Machine （ SVM ）。</block>
   <block id="bca62ecc9c9119cc542e6aa3837ee712" category="list-text">选择要编辑的配额，然后单击 * 编辑限制 * 。</block>
   <block id="a23e7e7c29de904cdd1e2b1caf2249f9" category="list-text">在 * 编辑限制 * 对话框中，根据需要编辑配额设置。</block>
   <block id="fe201f76d6e47d661ab60347f3c81052" category="paragraph">可以为配额可以拥有的文件数的硬限制和软限制指定的最小值为 100 。如果要指定低于 100 的值，应使用命令行界面（ CLI ）。</block>
   <block id="deee2bff018504de1b951eb3a31648f0" category="list-text">在 * 用户定义的配额 * 选项卡中验证对选定配额所做的更改。</block>
   <block id="66012d7aa1eae9a6eb4243cba63f63be" category="inline-xref-macro">配额窗口</block>
-  <block id="715e78abde457c2f4dc246adfbba4a4f" category="paragraph"><block ref="715e78abde457c2f4dc246adfbba4a4f" category="inline-xref-macro-rx"></block></block>
   <block id="ee59ebb8e4c7f3445287dedcf2173449" category="summary">您可以使用 System Manager 将卷挂载到 Storage Virtual Machine （ SVM ）命名空间中的接合位置。</block>
-  <block id="353f693805839295caedde0842633d11" category="doc">挂载卷</block>
   <block id="c304f9da19fdc5d50d4b806e60d30960" category="list-text">如果将卷挂载到的接合路径的语言设置与该路径中直接父卷的语言设置不同，则 NFSv3 客户端将无法访问某些文件，因为某些字符可能无法正确解码。</block>
   <block id="7f2d9b4509249bb24997fa2c7a6c2810" category="paragraph">如果直接父目录为根卷，则不会发生此问题描述。</block>
   <block id="6c7ccc3a7f9a40864e599cfb0e28efb0" category="list-text">您只能将 SnapLock 卷挂载到 SVM 的根目录下。</block>
@@ -5330,7 +5276,6 @@
   <block id="656a72d11e510cd669dcd6541cb154de" category="paragraph">在此期间，系统将执行从源卷到目标卷的最终复制，交换源卷和目标卷的标识，并将目标卷更改为源卷。</block>
   <block id="6c21f8ed123ea2298963a9460b52085c" category="list-text">完成移动后，系统会将客户端流量路由到新的源卷并恢复客户端访问。</block>
   <block id="aedee66a76241f842e6e278b398df373" category="paragraph">移动不会中断客户端访问，因为客户端访问被阻止的时间在客户端发现中断和超时之前结束。默认情况下，客户端访问会被阻止 35 秒。如果卷移动操作无法在拒绝访问时完成，则系统将中止卷移动操作的最后阶段，并允许客户端访问。默认情况下，系统会尝试最后阶段三次。第三次尝试后，系统会等待一小时，然后再尝试最后阶段。系统将运行卷移动操作的最后阶段，直到卷移动完成为止。</block>
-  <block id="fc4d1b3a511144ce9068ce9afd752eef" category="summary">您可以使用存储池窗口创建，显示和管理 SSD 的专用缓存，也称为存储池。这些存储池可以与非根聚合关联以提供 SSD 缓存，也可以与 Flash Pool 聚合关联以增加其大小。</block>
   <block id="5a26ea6c20bde8846f2b48b64dfb4bdb" category="paragraph">您可以使用存储池窗口创建，显示和管理 SSD 的专用缓存，也称为 _storage pools_ 。这些存储池可以与非根聚合关联以提供 SSD 缓存，也可以与 Flash Pool 聚合关联以增加其大小。</block>
   <block id="7e650899ddc6de525db67a8fe6d37285" category="paragraph">打开创建存储池对话框，在此可以创建存储池。</block>
   <block id="ae71b4167e636a76f2731be20242b073" category="list-text">* 添加磁盘 *</block>
@@ -5353,11 +5298,6 @@
   <block id="282efa7c012ab3da114bf7fcb0eccb60" category="paragraph">显示有关选定存储池的详细信息，例如名称，运行状况，存储类型，磁盘计数，总缓存， 备用缓存，已用缓存大小（以百分比表示）和分配单元。此选项卡还会显示存储池配置的聚合的名称。</block>
   <block id="ce3a07d43af182e060215591412f0318" category="section-title">磁盘选项卡</block>
   <block id="2f0beda30988af0d5e49a7aa62c20690" category="paragraph">显示有关选定存储池中磁盘的详细信息，例如名称，磁盘类型，可用大小和总大小。</block>
-  <block id="89110b6fa0f8a0876746fc2c9842691a" category="inline-xref-macro">将磁盘添加到存储池</block>
-  <block id="ad25e00f1fae386db5057fe5bd464685" category="paragraph"><block ref="ad25e00f1fae386db5057fe5bd464685" category="inline-xref-macro-rx"></block></block>
-  <block id="65b3d7cb44cdf220eedc6970e5d8a6eb" category="inline-xref-macro">创建存储池</block>
-  <block id="f36a4630d9dbccf5f0700bb8767a654a" category="paragraph"><block ref="f36a4630d9dbccf5f0700bb8767a654a" category="inline-xref-macro-rx"></block></block>
-  <block id="2c778b8c0a2e6c8d5f9c60ace0d2e259" category="paragraph"><block ref="2c778b8c0a2e6c8d5f9c60ace0d2e259" category="inline-xref-macro-rx"></block></block>
   <block id="58bd3f8eddbd2def6918aaeddc1aeb38" category="summary">您可以使用 System Manager 管理 DNS/DDNS 服务。</block>
   <block id="35664c8a9946ebefaf08987965cb8b27" category="doc">DNS/DDNS 服务</block>
   <block id="5ce9ffdf23d9d962320d841a0b715b68" category="summary">根据您的数据保护和备份要求， ONTAP System Manager 提供了不同类型的保护关系，可用于保护数据免受意外，恶意或灾难导致的数据丢失的影响。</block>
@@ -5383,7 +5323,6 @@
   <block id="8878774b2c5b2ab8a89c87458e04670c" category="paragraph">* 同步 *</block>
   <block id="16528461f79ef0faf165d2952e5344a7" category="paragraph">如果初始化后复制失败，同步复制策略不会对源卷施加 I/O 限制。发生故障后， Sync 复制策略不会将数据传输到目标卷。您需要执行重新同步操作，以确保源卷和目标卷是最新的。</block>
   <block id="36afff17041316f3d07de8b06cc92c3a" category="summary">您可以导出卷上的特定 qtree ，使其可供客户端直接访问，而不是导出整个卷。您可以使用 System Manager 通过为 qtree 分配导出策略来导出 qtree 。您可以从 qtree 窗口为一个或多个 qtree 分配导出策略。</block>
-  <block id="1e624f6543a6e141a4034c7de7c741b5" category="doc">为 qtree 分配导出策略</block>
   <block id="2da17c44350d159bed805bcb18bcde08" category="list-text">从 SVM 字段的下拉菜单中选择要导出的 qtree 所在的 Storage Virtual Machine （ SVM ）。</block>
   <block id="0d3bdb4a1144aba73cb0ff5fb157431c" category="list-text">选择要为其分配导出策略的一个或多个 qtree ，然后单击 * 更改导出策略 * 。</block>
   <block id="966d37ae187c3d62b895f30eea0b38de" category="list-text">在 * 导出策略 * 对话框中，创建导出策略或选择现有导出策略。</block>
@@ -5432,7 +5371,6 @@
   <block id="8013400ea5ad0ae15a683efff9a1f4b4" category="paragraph">如果集群包含八个或更多节点，则会执行批量更新。在此类集群中，您可以执行批量更新或滚动更新。这是具有八个或更多节点的集群的默认更新方法。</block>
   <block id="dbeafab6add84b412ff44a1d70020962" category="paragraph"><block ref="dbeafab6add84b412ff44a1d70020962" category="inline-xref-macro-rx"></block></block>
   <block id="f1f6c91ff927f6295bfbd387373de574" category="summary">设置网络包括创建 IP 空间，广播域和子网。</block>
-  <block id="bd2fa31088e00a687a54f0b7130b3748" category="doc">设置网络</block>
   <block id="cf5272205316e623c915743b6f6c3830" category="summary">您可以使用 System Manager 修改效率策略的属性，例如策略名称，计划名称和最长运行时间。</block>
   <block id="e4cd424d0234e5a84a9cbd73aed4da5f" category="doc">编辑效率策略</block>
   <block id="d3abca15f6b22195064321922e319944" category="list-text">在 * 效率策略 * 窗口中，选择要编辑的策略，然后单击 * 编辑 * 。</block>
@@ -5583,7 +5521,6 @@
   <block id="5484c2f2cfc0a4b1206cd823811f9117" category="paragraph">从 ONTAP 9.3 开始，您可以使用预配置的模板创建和配置 SVM 。</block>
   <block id="cfc44d49ebe2357cc20e95f72e46b049" category="list-text">增强的集群信息板</block>
   <block id="56edacfbf1a62b12d158974cd65173d3" category="paragraph">集群信息板已进行了改进，并可对手持设备进行响应以查看不同的信息。</block>
-  <block id="a1e1d63940ca56361875e97f09ffbd2c" category="summary">通过 ONTAP 主目录，您可以配置一个 SMB 共享，该共享根据连接到它的用户和一组变量映射到不同的目录。您可以使用一些主目录参数配置一个共享，以定义入口点（该共享）与主目录（ SVM 上的目录）之间的用户关系，而不是为每个用户创建单独的共享。</block>
   <block id="1f06c32e4284c548639b045d1a680c1f" category="doc">ONTAP 如何启用动态主目录</block>
   <block id="ddb6804ce83c0756809d4eaa0da80de7" category="paragraph">通过 ONTAP 主目录，您可以配置一个 SMB 共享，该共享根据连接到它的用户和一组变量映射到不同的目录。您可以使用一些主目录参数配置一个共享，以定义入口点（共享）与主目录（ SVM 上的目录）之间的用户关系，而不是为每个用户创建单独的共享。</block>
   <block id="47d8b0af5d2931cb4e847ec858c73ecf" category="paragraph">以来宾用户身份登录的用户没有主目录，无法访问其他用户的主目录。可通过四个变量确定用户映射到目录的方式：</block>
@@ -5618,7 +5555,6 @@
   <block id="4a0368d08fff02c4b3d2ceeffbb4d136" category="list-text">` /vol1home/home/acme/jsmith` 不存在；继续搜索路径 3 。</block>
   <block id="47cf52fe22b54398467dba6a9a1e4a7b" category="list-text">` /vol2home/home/acme/jsmith` 不存在；主目录不存在；因此连接失败。</block>
   <block id="67c6a04470a956657820f128d93f8fd6" category="summary">您可以使用 System Manager 修改服务处理器属性，例如 IP 地址，网络掩码或前缀长度以及网关地址。您还可以将 IP 地址分配给未分配任何 IP 地址的服务处理器。</block>
-  <block id="86fff1c55cd90bb26d676e86088ccb40" category="doc">编辑服务处理器设置</block>
   <block id="709075999e7fe4f1bc5d150e3eb80da9" category="list-text">您可以编辑手动分配 IP 地址的服务处理器的设置。</block>
   <block id="3b50ca0687b0f2c3549992110cc82e33" category="list-text">您不能编辑通过 DHCP 服务器或子网分配 IP 地址的服务处理器的设置。</block>
   <block id="f8ee1107b437e6a65d74234f60d7274a" category="list-text">单击 * 配置 * &gt; * 集群 * &gt; * 服务处理器 * 。</block>
@@ -5637,7 +5573,6 @@
   <block id="d53c909e9e12453385f53cb966aa92c9" category="list-text">您必须已创建集群。</block>
   <block id="26aba940182c4d83be4fc7b0c21c7c91" category="list-text">您必须尚未配置集群。</block>
   <block id="fa9b78c8d98449ad623cf9c3061e2610" category="summary">如果源端口出现故障或需要维护，您可以使用 System Manager 将数据 LIF 或集群管理 LIF 迁移到集群中同一节点或不同节点上的其他端口。</block>
-  <block id="3dca69382eebe0e25d26be588bb3bb7c" category="doc">迁移 LIF</block>
   <block id="fdbee5f0bccba97290ea1f0c8e2da4a6" category="paragraph">目标节点和端口必须正常运行，并且必须能够访问与源端口相同的网络。</block>
   <block id="599b5262b7fbed8b328b473c124117ee" category="list-text">如果要从节点中删除 NIC ，则必须将属于该 NIC 的端口上托管的 LIF 迁移到集群中的其他端口。</block>
   <block id="db2e79d9693289d91bba2ab9ff15eb2c" category="list-text">您不能迁移 iSCSI LIF 或 FC LIF 。</block>
@@ -5773,7 +5708,6 @@
   <block id="84757f1261e396294a92d11def603c6c" category="summary">您可以使用 System Manager 查看事件日志和事件通知。</block>
   <block id="87f9f735a1d36793ceaecd4e47124b63" category="doc">事件</block>
   <block id="41b74c31923e7f706fa7399e735c3a13" category="summary">您可以使用 System Manager 将 ComplianceClock 时间初始化为当前集群时间。要创建 SnapLock 聚合，必须初始化 ComplianceClock 时间。</block>
-  <block id="d73c3a131e34358d398ed68239ec3e0f" category="doc">正在初始化 ComplianceClock 时间</block>
   <block id="94ac7c548ff60e458bd52fbf0410797c" category="paragraph">必须安装 SnapLock 许可证。</block>
   <block id="653de86224f30242eace257d77280e1a" category="paragraph">初始化 ComplianceClock 时间后，您无法修改或停止它。</block>
   <block id="f394694bd86cf4bbe7f79ca2807f3396" category="list-text">单击 * 存储 * &gt; * 节点 * 。</block>
@@ -6158,7 +6092,6 @@
   <block id="7113d722943a79c0363f52082d9e2772" category="list-text">通过指定导出名称，大小和权限为 NFS 存储配置卷。</block>
   <block id="42488800b178066ccca6c050aabe50cd" category="paragraph">CIFS 服务器和 NIS 域使用指定的配置进行配置，并创建数据 LIF 。默认情况下，数据 LIF 具有管理访问权限。您可以在摘要页面上查看配置详细信息。</block>
   <block id="20bd89787e36a792f1c55d33cdcc3261" category="summary">您可以使用 System Manager 同时为所有服务处理器分配 IP 地址，并使用这些服务处理器监控和管理存储系统的各种系统参数。</block>
-  <block id="631b76cec41c4f794984fa2c60566c42" category="doc">为服务处理器分配 IP 地址</block>
   <block id="f5a01545e7ea731a3d96b4e77eae3fbe" category="list-text">在 * 服务处理器 * 窗口中，单击 * 全局设置 * 。</block>
   <block id="b8d89af1e1f0739e7ebf63d6ece55b78" category="list-text">在 * 全局设置 * 对话框中，选择用于分配 IP 地址的源：</block>
   <block id="543f7496fbfa310918c30b815152e135" category="paragraph">自动从 DHCP 服务器分配 IP 地址</block>
@@ -6168,7 +6101,6 @@
   <block id="dce096c9f5418eb3662fc6b89dc79e6d" category="paragraph">手动提供 IP 地址</block>
   <block id="251f853d558ba3373c5a9bbf840e84d4" category="paragraph">选择 * 手动分配 * 。</block>
   <block id="0a4c82e9eb33cb787b62e1a1a210a464" category="list-text">在 * 编辑端口集 * 对话框中，进行必要的更改。</block>
-  <block id="d9d77fcd2353492507ef382d1d0777d4" category="summary">作业是异步任务，通常是长时间运行的卷操作，例如复制，移动或镜像数据。作业将置于作业队列中，并在资源可用时运行。集群管理员可以执行与作业管理相关的所有任务。</block>
   <block id="653ed387148d4ac78cb68ce36c1c8b8f" category="paragraph">_jobs_are 异步任务，通常是长时间运行的卷操作，例如复制，移动或镜像数据。作业将置于作业队列中，并在资源可用时运行。集群管理员可以执行与作业管理相关的所有任务。</block>
   <block id="a541208eb20c520df9a5712a5a1f8377" category="paragraph">作业可以是以下类别之一：</block>
   <block id="72ff817dbb10ecf7374a0950fb6d445f" category="list-text">服务器附属作业由要在特定节点中运行的管理框架置于队列中。</block>
@@ -6188,7 +6120,6 @@
   <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="doc">Volumes</block>
   <block id="dd0d7fb0d943afdd167daa971c00ef96" category="paragraph">您可以使用卷选项卡访问集群中的所有卷，也可以使用 * SVM* &gt; * 卷 * 访问特定于 SVM 的卷。</block>
   <block id="5283be92496e2188f016eeaf229d3adc" category="paragraph">只有在启用 CIFS 和 NFS 许可证后，才会显示卷选项卡。</block>
-  <block id="85e79ea697433861b770664d69635212" category="summary">您可以通过两种方式增加 SSD 缓存的大小—将 SSD 添加到现有 SSD 存储池或创建新的 SSD 存储池。最佳方法取决于您的配置和存储计划。</block>
   <block id="dcc823df11c912eae85ac0b7d29f9f70" category="doc">将 SSD 添加到现有存储池与创建新存储池的注意事项</block>
   <block id="cdf87ea7373929d9b5d060a70659667d" category="paragraph">您可以通过两种方式增加 SSD 缓存的大小—将 SSD 添加到现有 SSD 存储池或创建新的 SSD 存储池。最佳方法取决于您的配置和存储计划。</block>
   <block id="758b3969f268619a05269b5dc1c6edbb" category="paragraph">在创建新存储池与向现有存储池添加存储容量之间进行选择的方式与决定是创建新 RAID 组还是向现有 RAID 组添加存储类似：</block>
@@ -6196,7 +6127,6 @@
   <block id="9e50b4feeb5dcbbc0f5184ad9f1b4a74" category="list-text">如果只添加少量 SSD ，而增加现有 Flash Pool 缓存的 RAID 组大小不是问题描述，则向现有存储池添加 SSD 会降低备用和奇偶校验成本，并自动分配新存储。</block>
   <block id="66dc0867a1a1743b1bc00f1b4646c555" category="paragraph">如果您的存储池正在为缓存具有不同 RAID 类型的 Flash Pool 聚合提供分配单元，并且您将存储池的大小扩展到超过 RAID4 RAID 组的最大大小，则 RAID4 分配单元中新添加的分区将不会使用。</block>
   <block id="d7c288e747ce8081bd029cb8110b915a" category="summary">您可以使用 System Manager 为单个或多个节点生成 AutoSupport 数据，以监控其运行状况并向技术支持发送通知。</block>
-  <block id="264968dab6545f647991a6b605ecbb61" category="doc">正在生成 AutoSupport 数据</block>
   <block id="560b99032ab2ade2fd44293f30542881" category="list-text">选择节点，然后单击 * AutoSupport request* &gt; * 生成 AutoSupport * 。</block>
   <block id="b4c58686dbd257d5a4c2cfc900c2fffe" category="paragraph">默认情况下，系统会为所有节点生成 AutoSupport 数据。</block>
   <block id="66901fe22b1302d615fd6a33ce3ed2a1" category="list-text">在 * 生成 AutoSupport * 对话框中，执行以下步骤：</block>
@@ -6242,7 +6172,6 @@
   <block id="8394c75852e0f5fb1b5f2c2d23cb6930" category="paragraph">一个集群必须至少具有一个数据 SVM ，才能为其客户端提供数据。</block>
   <block id="dc41d2340324cdeb8b1de99544a2c7af" category="paragraph">除非另有说明，否则术语 SVM 是指数据（提供数据的） SVM 。在命令行界面中， SVM 显示为 Vserver 。</block>
   <block id="eb5882d8fa50fac5588371104e96f123" category="summary">您可以使用 System Manager 重命名现有 IP 空间。</block>
-  <block id="123e3285f716eeedf7c716be037889b9" category="doc">编辑 IP 空间</block>
   <block id="22ee49debe7ba354693efe03abe67a3e" category="list-text">集群中的所有 IP 空间名称都必须是唯一的，并且不能包含系统保留的名称，例如本地或本地主机。</block>
   <block id="fa02e3e5ff13769fcc40d1be76bfa7a1" category="list-text">无法修改系统定义的 " `Default` " IP 空间和 "`Cluster` " IP 空间。</block>
   <block id="ddf60cf18086c2a60f90f6b93050dc8c" category="list-text">单击 * 网络 * &gt; * IP 空间 * 。</block>
@@ -6255,7 +6184,6 @@
   <block id="3b54f6e2bb96740e05505dbc4481646c" category="list-text">选择要编辑的适配器，然后单击 * 编辑 * 。</block>
   <block id="f9713795f66d460910221d93b9e92b3e" category="list-text">在 * 编辑 FC/FCoE 和 NVMe 适配器设置 * 对话框中，将适配器速度设置为 * 手动 * 或 * 自动 * ，然后单击 * 保存 * 。</block>
   <block id="3a25c0fde12d8445123cfa306e363290" category="summary">创建卷时，该卷会自动继承 Storage Virtual Machine （ SVM ）根卷的默认导出策略。您可以使用 System Manager 更改与卷关联的默认导出策略，以重新定义客户端对数据的访问。</block>
-  <block id="f729a6c0c9f26ed3c3748f319a7c5855" category="doc">更改导出策略</block>
   <block id="2d1537c55ef5a0c470a5681f944f9c54" category="list-text">从 * SVM* 字段的下拉菜单中，选择要修改的卷所在的 SVM 。</block>
   <block id="c88d020ca23373191b639d1ada5a2496" category="list-text">选择卷，然后单击 * 更改导出策略 * 。</block>
   <block id="90e8f503c006b3b42a85831cbaedb226" category="list-text">选择导出策略，然后单击 * 更改 * 。</block>
@@ -6550,8 +6478,6 @@
   <block id="6bf0e64afded1cfca673aefbdd7e1927" category="list-text">对于集群间 LIF ，端口详细信息区域将显示广播域中与所需 IP 空间关联的所有端口。</block>
   <block id="320162c6b834fe049ad1a5fddc0d73fb" category="list-text">如果选择了 NVMe 协议，则端口详细信息区域将仅显示支持 NVMe 的适配器。</block>
   <block id="e08185a2d6b5b77183f6e7821c1d0e26" category="list-text">选中 * 动态 DNS （ DDNS ） * 复选框以启用 DDNS 。</block>
-  <block id="06cd2d72d6ce4629e7406a6469be070f" category="inline-xref-macro">配置节点的网络详细信息</block>
-  <block id="da97b33e496d855789b9f1b1a039416d" category="paragraph"><block ref="da97b33e496d855789b9f1b1a039416d" category="inline-xref-macro-rx"></block></block>
   <block id="02e652ccb91653e7e15334f78cf5ee36" category="summary">在 AFF 集群上创建 FC SAN 优化的 LUN 时， System Manager 支持 Oracle ， SQL 和其他应用程序类型。LUN 大小等 LUN 设置由特定于应用程序类型的规则决定。对于 SQL 和 Oracle ，系统会自动创建 LUN 设置。</block>
   <block id="3c876e3422d725f5f5d0581fe10bce38" category="doc">应用程序专用的 LUN 设置</block>
   <block id="c25eafe331908b8271d2bd1f2317962a" category="paragraph">如果集群包含两个或更多节点， System Manager 将仅使用 API 选择的前两个节点来创建 LUN 。已在这两个节点中的每个节点上创建数据聚合。创建的每个卷的大小等于聚合的可用容量。这些卷会进行精简配置，并在 LUN 上禁用空间预留。</block>
@@ -6651,7 +6577,6 @@
   <block id="332f7443ce6f845f0e4612a1953702d0" category="list-text">在 * 启动程序组 * 选项卡中，选择启动程序所属的启动程序组，然后单击 * 编辑 * 。</block>
   <block id="05fadadb4e82b593b997e532856301ab" category="list-text">选择要编辑的启动程序，然后单击 * 编辑 * 。</block>
   <block id="4ac8088e85489a5e325a71e2c9694b7b" category="list-text">更改名称并单击 * 确定 * 。</block>
-  <block id="80527351af7288fbcc94a019ab6a8223" category="summary">您可以使用 System Manager 快速配置 Storage Virtual Machine （ SVM ）的管理详细信息。您可以选择将 SVM 的管理委派给 SVM 管理员。</block>
   <block id="c8442f81c4d3560c22f5b2789ad3322b" category="doc">配置 SVM 的管理详细信息</block>
   <block id="b7741109a9b1c061304a8da08dccc9de" category="paragraph">您可以使用 System Manager 快速配置存储虚拟机（ SVM ）的管理详细信息。您可以选择将 SVM 的管理委派给 SVM 管理员。</block>
   <block id="aa672d71a085ada5e9a54f90f48abb5e" category="paragraph">作为 SVM 管理员，您不能使用 System Manager 管理委派的 SVM 。您只能使用命令行界面（ CLI ）来管理 SVMsonly 。</block>
@@ -6669,7 +6594,6 @@
   <block id="085e73e0e0eb98ee410c72022d3e47eb" category="paragraph">必须禁用网络接口的状态。</block>
   <block id="92db97c63fcdae053f7d3bec501b423c" category="list-text">选择要删除的接口，然后单击 * 删除 * 。</block>
   <block id="51aa9bb0f61c861135554f746ad6b884" category="summary">您可以使用 System Manager 中的调整配额大小对话框调整指定卷中的活动配额，以使其反映您对配额所做的更改。</block>
-  <block id="03099e5a536d45f51edb0c368b4818ca" category="doc">调整配额大小</block>
   <block id="65da92887f703832a0f1186ec6ca130e" category="paragraph">必须为要调整配额大小的卷启用配额。</block>
   <block id="537d48aafb210ebc9b17870f9dbbd18c" category="list-text">在 * 配额 * 窗口的 * 卷上的配额状态 * 选项卡中，选择要调整配额大小的一个或多个卷。</block>
   <block id="67853be8737deb58bc419817bcc60e32" category="list-text">单击 * 调整大小 * 。</block>
@@ -6708,11 +6632,6 @@
   <block id="6e95f3fa90b9bedfbcfcd2ec4bec0f8c" category="paragraph">指定是为 qtree 启用还是禁用机会锁设置。</block>
   <block id="c86216f4a04590f118b1e3a421cc1af1" category="paragraph">显示将 qtree 分配到的导出策略的名称。</block>
   <block id="c88a8f3299adb7bb6c32e196cdc527f5" category="paragraph">显示有关选定 qtree 的详细信息，例如包含 qtree 的卷的挂载路径，导出策略的详细信息以及导出策略规则。</block>
-  <block id="37ba9d8a32f8971d9d96c1a9dd912f57" category="inline-xref-macro">创建 qtree</block>
-  <block id="b7af7893e35dba4d4fd49dc12427b0a4" category="paragraph"><block ref="b7af7893e35dba4d4fd49dc12427b0a4" category="inline-xref-macro-rx"></block></block>
-  <block id="bb7f93b519d5a58c7887374bfd0baec3" category="inline-xref-macro">正在删除 qtree</block>
-  <block id="f774dd5ebdf0a7f797c3041d2baf7398" category="paragraph"><block ref="f774dd5ebdf0a7f797c3041d2baf7398" category="inline-xref-macro-rx"></block></block>
-  <block id="b85ba736dc9c62abd15616a30e89d059" category="paragraph"><block ref="b85ba736dc9c62abd15616a30e89d059" category="inline-xref-macro-rx"></block></block>
   <block id="bb6179eeaaa19115df8e1ebff0fb181b" category="summary">您可以删除不再需要的已配置应用程序。</block>
   <block id="54bb3efe7f4aa59e54ab0cb37231cc87" category="doc">删除应用程序</block>
   <block id="cf1ec3c79763ae8384e9fd61bf210cbd" category="paragraph">作为集群管理员，在配置应用程序后，您可以在不再需要应用程序时将其删除。以下示例操作步骤介绍了如何删除 * NAS 容器 * 应用程序。</block>
@@ -6721,7 +6640,6 @@
   <block id="46e6f8271554bf1305e8c82a29e522e4" category="paragraph">此时将显示一个对话框，询问您是否确实要删除此应用程序。</block>
   <block id="7bc30075da65b19764061f2bf9e5d505" category="paragraph">使用应用程序删除操作删除的任何卷都不会置于恢复队列中。此时将立即删除此卷。</block>
   <block id="32568cbbe429ec99cc04958091170933" category="summary">您可以使用 System Manager 中的 AutoSupport 测试对话框测试是否已正确配置 AutoSupport 设置。</block>
-  <block id="afa070a83d5b8891c527369831c24aa9" category="doc">正在测试 AutoSupport 设置</block>
   <block id="ecdef053776ef467659a2f7843d75970" category="list-text">选择节点，然后单击 * 测试 * 。</block>
   <block id="e8fd5a221ba9aaf9f296550b6f84c874" category="list-text">在 * AutoSupport Test* 对话框中，输入 AutoSupport 主题文本 "`Test AutoSupport` " 或任何通知收件人您正在测试 AutoSupport 设置的文本。</block>
   <block id="e5e2f833538b1021bce60cd294a0b820" category="list-text">单击 * 测试 * 。</block>
@@ -6815,7 +6733,6 @@
   <block id="2982c28f45963de48db5756343b94350" category="doc">删除首选域控制器</block>
   <block id="5d52ebcb4f7bc99855811d7cc06affef" category="list-text">在 * 域 * 选项卡中，从 * 首选域控制器 * 区域中选择要删除的域，然后单击 * 删除 * 。</block>
   <block id="08a7e0de6d8f5b9fd469c910c5fee047" category="summary">您可以使用 System Manager 将备用阵列 LUN 的所有权从一个节点重新分配给另一个节点，以增加聚合的容量。</block>
-  <block id="966e170fae56e69e14fe03d3d8adcddc" category="doc">将备用阵列 LUN 重新分配给节点</block>
   <block id="fe676516fee5ba1c0b7644949e052617" category="list-text">如果满足以下条件，则可以重新分配阵列 LUN ：</block>
   <block id="345f46c71c15911d94e8fbb531f4332e" category="list-text">选定阵列 LUN 的容器类型必须为 `spare` 。</block>
   <block id="7e7fe87542e1ba9a133ccf406db2fbdd" category="list-text">对于 MetroCluster 配置，不能使用 System Manager 将阵列 LUN 重新分配为备用阵列 LUN 。</block>
@@ -6846,7 +6763,6 @@
   <block id="960c41e42f0a124e4875058b12b67821" category="list-text">如果要更改默认名称，请为 LUN 克隆指定一个新名称。</block>
   <block id="651c105210d46e4456cd0d49d2a61cfc" category="list-text">验证您创建的 LUN 克隆是否已列在 * LUN * 窗口中。</block>
   <block id="31d253cc12f3195044a2c7d2b312b579" category="summary">当用户及其存储要求和限制发生变化时，您可以使用 System Manager 删除一个或多个配额。</block>
-  <block id="723a268c1900af6bf41549f50a66d162" category="doc">正在删除配额</block>
   <block id="33ebaf0798e7ca01ef22a5e89b3cb821" category="list-text">从 * SVM* 字段的下拉菜单中，选择要删除的配额所在的 Storage Virtual Machine （ SVM ）。</block>
   <block id="ede1cd90312d02c6f76edf683fca51e9" category="list-text">选择要删除的一个或多个配额，然后单击 * 删除 * 。</block>
   <block id="330c5bad0b924f532120259d86b27ed2" category="summary">您可以使用 System Manager 通过创建和管理 IP 空间，广播域，子网，网络接口，以太网端口， 和 FC/FCoE 适配器。</block>
@@ -7082,7 +6998,6 @@
   <block id="c1adda38099fefa345b9a2f72fcdfd8a" category="list-text">在 * 重命名用户 * 窗口中，为用户指定一个新名称。</block>
   <block id="1b9dc7e74e4abd2ce7b74adf1090dbb3" category="list-text">确认新名称，然后单击 * 重命名 * 。</block>
   <block id="f37b1610b8c54275b9873b47372db305" category="paragraph">此时将更改用户名，并且新名称将在 * 用户 * 选项卡中列出。</block>
-  <block id="6491942f7e370d21826878e8c04feef0" category="summary">您可以创建，修改，锁定，解锁或删除集群用户帐户，重置用户密码或显示有关所有用户帐户的信息。</block>
   <block id="0c366d28a8a56f7094b77c36a310288e" category="doc">用户帐户（仅限集群管理员）</block>
   <block id="50c42eb39848a0b32e227625fa62c7a3" category="paragraph">您可以创建，修改，锁定，解锁或删除集群用户帐户，重置用户密码或显示有关所有用户帐户的信息。</block>
   <block id="7aded257c2be7447a727e3426312ff11" category="paragraph">您可以通过以下方式管理集群用户帐户：</block>
@@ -7095,7 +7010,6 @@
   <block id="44cf15ef8274c5f58bf7c6fbf5ad5e88" category="list-text">锁定用户帐户以防止用户访问系统</block>
   <block id="1d0d9b2b7c4f45eaf8ba7df51f63836e" category="list-text">解锁先前锁定的用户帐户，使用户能够再次访问系统</block>
   <block id="63168463b903c53fe4c321e65c8cc191" category="summary">通过命令行界面（ CLI ）更改策略配置后，您必须更新组策略。您可以使用 System Manager 中的 CIFS 窗口更新组策略。</block>
-  <block id="43281af4485a67f1b9b9556a0cfaf709" category="doc">更新 CIFS 组策略配置</block>
   <block id="259b99741bdb9f9f0a3b3bd056365900" category="list-text">在 * 组策略 * 区域中，选择要更新的组策略配置，然后单击 * 更新 * 。</block>
   <block id="91c33ed48231910ca730e44cabd60d78" category="summary">您可以使用 System Manager 查看有关 FlexGroup 卷的信息。您可以通过图形方式查看 FlexGroup 卷的已分配空间，保护状态和性能。</block>
   <block id="ddd837e3f063056c7220951ba2b5512a" category="paragraph">此外，您还可以查看 FlexGroup 卷可用的 Snapshot 副本， FlexGroup 卷的数据保护关系，以及基于延迟， IOPS 和吞吐量的 FlexGroup 卷的平均性能指标，读取性能指标和写入性能指标。</block>
@@ -7190,7 +7104,6 @@
   <block id="bd367b1cd98f7273861a990f184182c3" category="list-text">选择要镜像的聚合，然后单击菜单：更多操作 [ 镜像 ] 。</block>
   <block id="4c61432793d0f4a5e8990638880927cc" category="paragraph">启用了 FabricPool 的聚合不支持 SyncMirror 。</block>
   <block id="60d9415b03aa24939f78560c551ce4d1" category="list-text">在 * 镜像此聚合 * 对话框中，单击 * 镜像 * 以启动镜像。</block>
-  <block id="8f4903cc6494867d598b366f2b142744" category="summary">存储池是 SSD 的集合。您可以组合 SSD 以创建存储池，从而使您能够在多个 Flash Pool 聚合之间同时共享 SSD 和 SSD 备用磁盘。</block>
   <block id="e5840c844daeb06cbbe02b473f86a8cc" category="paragraph">_storage pool_ 是 SSD 的集合。您可以组合 SSD 以创建存储池，从而使您能够在多个 Flash Pool 聚合之间同时共享 SSD 和 SSD 备用磁盘。</block>
   <block id="c395816000bfb6788057e149dd2fe4e4" category="paragraph">存储池由分配单元组成，您可以使用这些分配单元为聚合提供 SSD 和 SSD 备用磁盘或增加现有 SSD 大小。</block>
   <block id="02fbced27933a0028c1060ea6e771b56" category="paragraph">将 SSD 添加到存储池后，您不能再将 SSD 用作单个磁盘。您必须使用存储池分配或分配 SSD 提供的存储。</block>
@@ -7200,7 +7113,6 @@
   <block id="8bdd93d872adf4dc597e93c89cee145b" category="summary">您可以创建经过身份验证的集群对等关系来连接集群，以便对等关系中的集群可以安全地彼此通信。</block>
   <block id="50029246db747c82419f724776522525" category="doc">创建集群对等关系</block>
   <block id="47b265befb0498505ecc857caa4b5c8b" category="list-text">您必须已查看并完成执行此任务的要求。</block>
-  <block id="e162a5adec8acba31f5bde98f5b30432" category="paragraph"><block ref="e162a5adec8acba31f5bde98f5b30432" category="inline-link-macro-rx"></block></block>
   <block id="f11f759415590641bbb783c077322326" category="list-text">您必须已创建集群间逻辑接口（ LIF ）。</block>
   <block id="52efdc669b4bbc6c29c26b07d308432b" category="list-text">您应了解每个集群运行的 ONTAP 版本。</block>
   <block id="03ac2eb202a2455b34853d5386fa6ee5" category="list-text">如果要与运行 Data ONTAP 8.2.2 或更早版本的集群创建对等关系，必须使用命令行界面。</block>
@@ -7228,7 +7140,6 @@
   <block id="1e2b259d091c1830a8a636c3ef2a5cf7" category="summary">您可以使用 System Manager 创建和管理 Windows 组和用户帐户。</block>
   <block id="aea23489ce3aa9b6406ebb28e0cda430" category="doc">Windows</block>
   <block id="4a25ae18d6356c3e2e94389495282dca" category="summary">您可以使用 System Manager 在存储系统上启用或禁用 AutoSupport 设置。您可以通过 AutoSupport 消息监控存储系统运行状况或向技术支持和内部支持组织发送通知。</block>
-  <block id="e77b0859aaa4206d65b70df3ff2e0ad3" category="doc">启用或禁用 AutoSupport 设置</block>
   <block id="0403edc618662f219efdb5cec6ce921d" category="paragraph">默认情况下， AutoSupport 选项处于启用状态。</block>
   <block id="a178fec1a73600346ab5639de318ab04" category="list-text">选择节点，然后单击 * 启用 * 或 * 禁用 * 。</block>
   <block id="8a9933d1b53dd6f17d6ec97c4891fc28" category="list-text">验证 AutoSupport 状态是否正确显示您所做的更改。</block>
@@ -7248,7 +7159,6 @@
   <block id="3f2d272e6d922715f76b0113cd25a362" category="list-text">在 * 名称服务器 * 区域中，添加或修改 IP 地址。</block>
   <block id="85e4b8525f730ae9d7c8fb0dab43a143" category="summary">您可以使用 System Manager 创建高可用性（ HA ）对，以提供无中断运行和容错所需的硬件冗余。</block>
   <block id="05807e454c19f244770adae059b3c330" category="doc">高可用性</block>
-  <block id="2ed5a76bb2a84881c87b7cf8b9e65a1e" category="summary">AutoSupport 消息的严重性类型可帮助您了解每条消息的用途，例如，用于立即引起对紧急问题的注意，或者仅用于提供信息。</block>
   <block id="7cd2400c36efced648da662ee35c50db" category="doc">AutoSupport 严重性类型</block>
   <block id="481b198660a6150c43056f34d7e2cf2e" category="paragraph">AutoSupport 消息的严重性类型可帮助您了解每条消息的用途，例如，用于立即引起对紧急问题的注意，或者仅用于提供信息。</block>
   <block id="696cbc725f30685e5fa8ce370d6f6954" category="paragraph">消息具有以下严重性之一：</block>
@@ -7335,10 +7245,6 @@
   <block id="b9aa6e095ab5ade3b6a47afb5635c76f" category="paragraph">指定是否可以从客户端查看和还原先前的版本。</block>
   <block id="6330d7da9b567d52cb7f38d3b59cad4c" category="list-text">* 共享访问控制 *</block>
   <block id="5ecdcfa6df2b43f1cd8b09359c0e9628" category="paragraph">显示共享的域用户，域组，本地用户和本地组的访问权限。</block>
-  <block id="5aa2bbd3d61193f9f7ee977170296f60" category="inline-xref-macro">正在停止共享访问</block>
-  <block id="fae79bfaadf0b859eba3a96366f56ec4" category="paragraph"><block ref="fae79bfaadf0b859eba3a96366f56ec4" category="inline-xref-macro-rx"></block></block>
-  <block id="ede1ece08a98eadbc92dcc48850c54c4" category="inline-xref-macro">编辑共享设置</block>
-  <block id="92911a030b6d4924ed2aea475b2a26ba" category="paragraph"><block ref="92911a030b6d4924ed2aea475b2a26ba" category="inline-xref-macro-rx"></block></block>
   <block id="39a628152ddd7232f988f045f2caf13a" category="summary">您可以应用磁盘空间限制或限制每个配额类型的文件数。如果未指定配额限制，则不会应用任何限制。</block>
   <block id="e271b60520a100f5f914b1f1cdf0c769" category="doc">配额限制</block>
   <block id="d3101909586dbc2f34b0675f39f97e89" category="paragraph">配额可以是软配额，也可以是硬配额。软配额发生原因 Data ONTAP ，用于在超过指定限制时发送通知，而硬配额则会在超过指定限制时阻止写入操作成功。</block>
@@ -7387,10 +7293,8 @@
   <block id="05f7eaa2c3f4d229c4485c4628f22a2e" category="paragraph">此时将显示 SVM Relationships ：摘要窗口。</block>
   <block id="53f1e0aba7693bcbdfdad5ec51dacfe5" category="list-text">单击 * 完成 * 以完成此过程。</block>
   <block id="60adf74a942bb9a993c63af90d41e389" category="summary">您可以使用 System Manager 锁定或解除锁定集群用户帐户。</block>
-  <block id="1a92b9a6592d1e62090590b63f0aa1de" category="doc">锁定或解除锁定集群用户帐户</block>
   <block id="eecb0aa55dd91342e9a39f74b650b822" category="list-text">选择要修改其状态的用户帐户，然后单击 * 锁定 * 或 * 解锁 * 。</block>
   <block id="7650bf63680281af8af9ee372f4e6c49" category="summary">您可以使用 System Manager 编辑以太网端口设置，例如双工模式和速度设置。</block>
-  <block id="60f7266e3fcdf0eeb64322d1e01c9a84" category="doc">编辑以太网端口设置</block>
   <block id="03f263e7a5b7780da3bf736040eede45" category="list-text">选择物理端口，然后单击 * 编辑 * 。</block>
   <block id="a15fdbffab0bf26be9dae094d6774c2b" category="list-text">在 * 编辑以太网端口 * 对话框中，将双工模式和速度设置修改为 `manual` 或 `automatic` 。</block>
   <block id="ce9c5aceab9600914b4080c100f49c50" category="summary">您可以使用 System Manager 通过向备用磁盘写入零来擦除所有数据并格式化备用磁盘。然后，可以在新聚合中使用这些磁盘。</block>
@@ -7433,7 +7337,6 @@
   <block id="44ec628d221f20d3a532dfdc1a49b9cc" category="list-text">选中 * 访问此共享时加密数据 * 复选框以启用 SMB 3.0 加密。</block>
   <block id="c11f0d9c886f553934dce4b687e69569" category="list-text">为共享提供问题描述或注释，然后单击 * 创建 * 。</block>
   <block id="546e6304bd126985d219dddabcbf5774" category="paragraph">此时将创建 CIFS 共享，并在组中将访问权限设置为 "`Full Control for Everyone` " 。</block>
-  <block id="1436f0f36cb390ba3594792b757d3a8d" category="paragraph"><block ref="1436f0f36cb390ba3594792b757d3a8d" category="inline-xref-macro-rx"></block></block>
   <block id="7246a01d2a352fc6450f7f466d58dac5" category="list-text">从共享列表中选择要修改的共享，然后单击 * 编辑 * 。</block>
   <block id="28d42a3f5ce4234a5cb6b5eda7721b12" category="list-text">在 * 编辑共享设置 * 对话框中，根据需要修改共享设置：</block>
   <block id="b187cf812109744ed2a6197d64b4c287" category="list-text">在 * 常规 * 选项卡中，通过 Hyper-V 启用共享的持续可用性</block>
@@ -7511,15 +7414,7 @@
   <block id="ba36b4666d7ab76adbe8d6e2eff2ec8f" category="list-text">* 文件软限制 *</block>
   <block id="fe94a9e70430d9ef08e0740ae6cf28be" category="paragraph">指定软配额中的最大文件数。</block>
   <block id="d0af42a14c82ef311f382ed3ed91d5f2" category="paragraph">配额列表下方的区域显示配额详细信息，例如配额错误，空间使用量和限制以及文件使用量和限制。</block>
-  <block id="60e98f04c1cf57fd0713f4c16e5bedbc" category="inline-xref-macro">正在创建配额</block>
-  <block id="87fd25767c60286eeec3b350cebc8095" category="paragraph"><block ref="87fd25767c60286eeec3b350cebc8095" category="inline-xref-macro-rx"></block></block>
-  <block id="06bc50c48e44f17b7a83b8cd9a97599e" category="paragraph"><block ref="06bc50c48e44f17b7a83b8cd9a97599e" category="inline-xref-macro-rx"></block></block>
-  <block id="9341303c42246904678368fee36d99d7" category="paragraph"><block ref="9341303c42246904678368fee36d99d7" category="inline-xref-macro-rx"></block></block>
-  <block id="8079db0379a8fdf1df0ae0cbeff4ff69" category="inline-xref-macro">激活或停用配额</block>
-  <block id="74d56dcc6911928c9e486b99c5f5627e" category="paragraph"><block ref="74d56dcc6911928c9e486b99c5f5627e" category="inline-xref-macro-rx"></block></block>
-  <block id="7d3ba65cae19adb4ce52cf83227751e9" category="paragraph"><block ref="7d3ba65cae19adb4ce52cf83227751e9" category="inline-xref-macro-rx"></block></block>
   <block id="e60102115c437f3a4e64cc08eea1d8ea" category="summary">您可以使用 System Manager 删除不再需要的 IP 空间。</block>
-  <block id="ca2794dd4b4785df7a1051338c158481" category="doc">正在删除 IP 空间</block>
   <block id="fca322ff371cce9d2da8a46bb4bf7116" category="paragraph">要删除的 IP 空间不得与任何广播域，网络接口，对等关系或 Storage Virtual Machine （ SVM ）关联。</block>
   <block id="f693368156193b2331c2bb712a0a9495" category="paragraph">无法删除系统定义的 " `Default` " IP 空间和 "`Cluster` " IP 空间。</block>
   <block id="4890a00621acae02b5029dbe0c0005fb" category="list-text">选择要删除的 IP 空间，然后单击 * 删除 * 。</block>
@@ -7607,7 +7502,6 @@
   <block id="e64f3c649915f45fe738260ac4ca6e2c" category="list-text">如果要查看选定卷的列表，请单击指定卷数的链接，如果要从列表中删除任何卷，请单击 * 丢弃 * 。</block>
   <block id="d1c07200e6182da56445b8e08b0a0723" category="paragraph">只有在选择多个卷时，才会显示此链接。</block>
   <block id="6f344358255f23b64f7c702603825c6f" category="summary">您可以使用 System Manager 更改选定集群的对等加密状态。</block>
-  <block id="b05ccbd9b113190c276d64d0a1978e09" category="doc">更改对等加密状态</block>
   <block id="cd9b20ea0c84c2c34ff7e3bb8cc64b83" category="paragraph">加密状态可以是已启用或已禁用。您可以通过选择 * 更改加密 * 将状态从已启用更改为已禁用或从已禁用更改为已启用。</block>
   <block id="693aab66ea6adfb2b8d2a0c2caf032a3" category="list-text">单击 * 更改加密 * 。</block>
   <block id="89ef7d0837747ded8c21bece22cbbc33" category="paragraph">此时将显示更改加密对话框窗口。切换按钮用于指示当前加密状态。</block>
@@ -7632,7 +7526,6 @@
   <block id="001d8d91b51e87f1cb0c6cf0efd97287" category="list-text">单击 * 已有密码短语 * 。</block>
   <block id="dd21394656b786f0eead338632ab06c6" category="list-text">在 * 密码短语 * 字段中输入在远程集群中生成的同一密码短语。</block>
   <block id="b44150fa64bf9a43f094da58e71e715d" category="summary">您可以使用 System Manager 重置集群用户帐户的密码。</block>
-  <block id="bbd8857d2e52fbad88e9693a761e44ee" category="doc">更改集群用户帐户的密码</block>
   <block id="cfd96c760e1399a4a5e72d60a3292218" category="list-text">选择要修改密码的用户帐户，然后单击 * 更改密码 * 。</block>
   <block id="74870d0664c88d740f724789c5a93b74" category="list-text">在 * 更改密码 * 对话框中，键入新密码并确认新密码，然后单击 * 更改 * 。</block>
   <block id="2c8dfcc823a858dcc0c124552a13f9fd" category="summary">您可以使用 System Manager 在存储系统中创建和管理 Snapshot 策略。</block>
@@ -7867,7 +7760,6 @@
   <block id="6e441b4d7eea1fab8a977c001021c73f" category="paragraph">自动将配额限制应用于一组大型配额目标，而无需为每个目标创建单独的配额。</block>
   <block id="f462d105ed2f985ea0121a8d18860f31" category="paragraph">默认配额可以应用于所有三种类型的配额目标（用户，组和 qtree ）。配额类型由类型字段的值决定。</block>
   <block id="15013f9577302bc6a4624264f3ac4c15" category="summary">您可以使用 System Manager 为安装了 Flash Cache 模块的存储系统启用或禁用外部缓存功能。您可以根据存储系统的工作负载要求启用 Flash Cache 模块。</block>
-  <block id="08300e69ef10c5dd60502d9a65b1bf97" category="doc">启用或禁用 Flash Cache 模块</block>
   <block id="7eb994d20f17aff101034fb2aa98b4d3" category="list-text">单击 * 配置 * &gt; * 硬件缓存 *</block>
   <block id="05e8ddd7ab2958a59e0165b679fe9c17" category="list-text">如果要修改一个或多个模块，请根据需要移动滑块按钮以启用或禁用每个模块。</block>
   <block id="3f9c508148169beed5a6557b37edaed7" category="summary">您可以使用 System Manager 从集群中删除 NVMe 子系统。</block>
@@ -7918,7 +7810,6 @@
   <block id="be59e088fde4dbb6bea0ab6b94bb03e1" category="list-text">在 * 子网 * 选项卡中，单击 * 创建 * 。</block>
   <block id="4c684b755a0f356346576b384e62bc99" category="list-text">在 * 创建子网 * 对话框中，指定子网详细信息，例如名称，子网 IP 地址或子网掩码， IP 地址范围，网关地址和广播域。</block>
   <block id="48854845883e974d20c3247b4aca43d9" category="paragraph">您可以将 IP 地址指定为范围，逗号分隔的多个地址或两者的组合。</block>
-  <block id="eb582a3dee0727e745bd68f7d8c5ee3b" category="summary">您可以使用 System Manager 修改访问控制角色对命令或命令目录的访问权限，并将用户的访问权限限制为只能访问一组指定的命令。您还可以删除角色对默认命令目录的访问权限。</block>
   <block id="543f8ae0f86303cb05dd3afbfd774eab" category="doc">编辑角色</block>
   <block id="bb7d13bbb3b4fbf5250b568e80bac3f7" category="paragraph">您可以使用 System Manager 修改访问控制角色对命令或命令目录的访问权限，并将用户的访问权限限制为只能访问一组指定的命令。您还可以删除角色对默认命令目录的访问权限。</block>
   <block id="7cca22e56f8c45989e0cc1324a653478" category="list-text">在 * 角色 * 窗口中，选择要修改的角色，然后单击 * 编辑 * 。</block>
@@ -7975,7 +7866,6 @@
   <block id="759abfa0d43a2bc5b0ee869c3af5336c" category="paragraph">数据保护 SnapMirror 关系已断开。目标卷类型从只读数据保护（ DP ）更改为读 / 写（ RW ）。系统会存储数据保护镜像关系的基本 Snapshot 副本，以供日后使用。</block>
   <block id="0d7de9af299ca3d7936ae8dd39016f4c" category="summary">您可以使用 System Manager 管理子网。</block>
   <block id="74cd215a46d2bd96fc35dad7ef313283" category="doc">Subnets</block>
-  <block id="8113025e787aee6e6c724acd941cf60d" category="summary">您可以使用 System Manager 创建广播域，以便对计算机网络进行逻辑划分。在广播域中，所有关联节点均可通过数据链路层的广播进行访问。</block>
   <block id="cd002818e71e3e15ea7d845a92b82053" category="doc">创建广播域</block>
   <block id="42d08e9d02e85b19500c66639042efa3" category="list-text">在 * 广播域 * 选项卡中，单击 * 创建 * 。</block>
   <block id="09581acd3488c5ccc5b8bbaa677e2de5" category="list-text">在 * 创建广播域 * 对话框中，指定要创建的广播域的名称， MTU 大小， IP 空间和端口。</block>
@@ -8183,7 +8073,6 @@
   <block id="ada5b1798b480ac4ca8c7dc0155604e2" category="summary">您可以使用 System Manager 创建和管理网络接口。</block>
   <block id="d9cc6b84b66475f5674f1dbdb05947a9" category="doc">网络接口</block>
   <block id="9e007cde0294836d49fce82a0770d6fa" category="summary">设置对等涉及到在每个节点上创建集群间逻辑接口（ LIF ），创建集群对等以及创建 SVM 对等。</block>
-  <block id="a312b2522619ddb85db5347c993b6cc8" category="doc">设置对等</block>
   <block id="6af8acc69bcdc16b7f8e5adeec4d8b16" category="image-alt">对等工作流</block>
   <block id="3c717e6d734680ec040ada400072b4c7" category="summary">您可以使用 System Manager 中的启动程序组选项卡删除启动程序组。</block>
   <block id="5e716b5eddd97359d5c74915f382d197" category="paragraph">必须手动取消映射映射映射映射到启动程序组的所有 LUN 。</block>
@@ -8342,7 +8231,6 @@
   <block id="bc4baed0a1fd0905d44f11ae1d422afe" category="paragraph"><block ref="bc4baed0a1fd0905d44f11ae1d422afe" category="inline-xref-macro-rx"></block></block>
   <block id="a7a267cadbd2391fc7614984da6b9605" category="paragraph"><block ref="a7a267cadbd2391fc7614984da6b9605" category="inline-xref-macro-rx"></block></block>
   <block id="771bb6a52306c1141636e21e5ff890a8" category="summary">最好在专用于管理流量的子网上配置 SP/BMC 和 e0M 管理接口。通过管理网络运行数据流量可能会导致发生原因性能下降并出现路由问题。</block>
-  <block id="43aa5d5a61d70fe0378ece9669811c5d" category="doc">隔离管理网络流量</block>
   <block id="1f56edd12abfcf3bd0880e4f5d826a13" category="paragraph">大多数存储控制器上的管理以太网端口（由机箱背面的扳手图标指示）连接到内部以太网交换机。内部交换机可连接到 SP/BMC 和 e0M 管理接口，您可以使用此接口通过 Telnet ， SSH 和 SNMP 等 TCP/IP 协议访问存储系统。</block>
   <block id="605c68fd7d8b673128aa56740536cfa6" category="paragraph">如果您计划同时使用远程管理设备和 e0M ，则必须在同一 IP 子网上对其进行配置。由于这些接口是低带宽接口，因此最佳做法是在专用于管理流量的子网上配置 SP/BMC 和 e0M 。</block>
   <block id="4ef4930e08c8b2f260f62e076f67e705" category="paragraph">如果无法隔离管理流量，或者专用管理网络异常庞大，则应尽量减少网络流量。传入广播或多播流量过多可能会降低 SP/BMC 性能。</block>
@@ -8353,7 +8241,6 @@
   <block id="cae51f6279214bf35e10cae72bf8c1cd" category="doc">启用或禁用 CIFS 组策略配置</block>
   <block id="7f4f381efd20e77062813084a1c2e97c" category="list-text">在 * 组策略 * 区域中，选择要启用或禁用的组策略配置，然后根据需要单击 * 启用 * 或 * 禁用 * 。</block>
   <block id="bb9ff754e140dfb94d115d8dd47f2088" category="summary">如果要修改不属于广播域的 VLAN 接口的 MTU 大小，可以使用 System Manager 更改大小。</block>
-  <block id="c6635d7bb7e1ec427c930b4d70f9a4a3" category="doc">修改 VLAN 的 MTU 大小</block>
   <block id="6dc884fcb5d9605e7ee69f4eae2768e6" category="paragraph">您不能修改管理端口 e0M 的 MTU 大小。</block>
   <block id="8a067975286628f02857098b68b93825" category="list-text">选择要修改的 VLAN ，然后单击 * 编辑 * 。</block>
   <block id="d06e6b748faca779cce40464443864d5" category="list-text">在 * 编辑 VLAN* 对话框中，根据需要修改 MTU 大小，然后单击 * 保存 * 。</block>
@@ -9109,7 +8996,6 @@
   <block id="6f001c629b64ce94f74af79735f0c5ad" category="sidebar">创建共享并设置其权限</block>
   <block id="8cadc76a323c196244af8dd4c3ad5543" category="sidebar">将 CIFS 卷 AD 到启用了 CIFS 的 SVM</block>
   <block id="b0b5fb2ee1318a474b94dc229a9c3ae7" category="sidebar">了解 System Manager</block>
-  <block id="e08945e1dfeb51c9e394066ab3761688" category="sidebar">设置集群环境</block>
   <block id="dbbfa6ca249fe970fb024077e64d65b5" category="sidebar">使用 ONTAP 系统管理器设置集群</block>
   <block id="e574842f1499540cf5f9506775ce4982" category="sidebar">使用模板文件设置集群</block>
   <block id="2b4979e022671c78ec2a39d040234a7a" category="sidebar">手动设置集群</block>
@@ -9129,7 +9015,6 @@
   <block id="032f3999f723fe746934416a83a73a0e" category="sidebar">监控 HA 对</block>
   <block id="e653f33e12abe8e2c91f66bdb1d107f5" category="sidebar">设置网络</block>
   <block id="529423c1575cdb8a631324a3b36d9fd5" category="sidebar">设置物理存储</block>
-  <block id="09f70bc37e3a3d447c67c0acbe68dda9" category="sidebar">设置逻辑存储</block>
   <block id="867d4e8951b596329b9e88d2fa671417" category="sidebar">设置 SAML 身份验证</block>
   <block id="bec16219366d2631eb9ed04aecabc005" category="sidebar">启用 SAML 身份验证</block>
   <block id="3402829d82cf648c6f41ae5baff2b540" category="sidebar">禁用 SAML 身份验证</block>
@@ -9169,7 +9054,6 @@
   <block id="861d2d240e13f8ae476fc1efba995e22" category="sidebar">编辑接口组设置</block>
   <block id="875068fe190f938fa815b39e901da5b7" category="sidebar">删除 VLAN</block>
   <block id="6ed96c27545079af6db40bf3c4cea565" category="sidebar">编辑 FC/FCoE 和 NVMe 适配器速度设置</block>
-  <block id="73aca7d9f6758441a2cb13504d60d1ba" category="sidebar">管理物理存储</block>
   <block id="fb3cc223ffe434db4599a15fea5806fb" category="sidebar">编辑聚合</block>
   <block id="9566329a195b4cee04c477c62df99809" category="sidebar">删除聚合</block>
   <block id="e6da38d3f117a4f5c1fd8b93bbd0356e" category="sidebar">创建聚合时更改 RAID 配置</block>
@@ -9259,11 +9143,8 @@
   <block id="b7e8aba092285766d8b8196d96fa0703" category="sidebar">删除 NVMe 子系统</block>
   <block id="8b74f503597f39b830b98535b74eb294" category="sidebar">在存储系统接口上启用或禁用 iSCSI 服务</block>
   <block id="e8ca5e5ef483d92acb6f96eebb570598" category="sidebar">编辑默认安全设置</block>
-  <block id="a6cef6b4ffd8483c1831879bb1c07823" category="sidebar">编辑启动程序安全性</block>
   <block id="9668ab83468fb8786af3d298dc5d73b2" category="sidebar">更改默认 iSCSI 启动程序身份验证方法</block>
-  <block id="ff516afd358a0d572d1a95add7dae12c" category="sidebar">启动或停止 iSCSI 服务</block>
   <block id="1a2f87a649af1ff35bbd590ef2114782" category="sidebar">查看启动程序安全信息</block>
-  <block id="7c67ad0263ad71cbfa91434c22e09952" category="sidebar">启动或停止 FC 或 FCoE 服务</block>
   <block id="31c2d9f855a30bf1724db42f751f5860" category="sidebar">更改 FC 或 FCoE 节点名称</block>
   <block id="b9ba72677fe5d49fd689f09fb704ea6b" category="sidebar">重命名导出策略</block>
   <block id="ddb71229c7cace4aee69190ed1acf1a0" category="sidebar">删除导出策略</block>
@@ -9271,9 +9152,6 @@
   <block id="3164fd89a68464694ba147a73b1340d8" category="sidebar">编辑效率策略</block>
   <block id="0fa5fa5d95f6c00b74dd49b6aee60e7f" category="sidebar">删除效率策略</block>
   <block id="c3be79ad655700366cbdf66fb41f3ab5" category="sidebar">启用或禁用效率策略</block>
-  <block id="7a33a3504609fa4749631e0af1de5e7a" category="sidebar">了解预定义的效率策略</block>
-  <block id="dfaaad73e7bc3e71fd2957f163831b01" category="sidebar">删除保护策略</block>
-  <block id="dfa4b5c6b997823449e673db12ef526d" category="sidebar">编辑保护策略</block>
   <block id="e89898d375d94a34915c63abf5b83cbd" category="sidebar">删除 QoS 策略组</block>
   <block id="20c4625db1b141a11d4ed4f1addcefc3" category="sidebar">编辑 QoS 策略组</block>
   <block id="f104ae7705a6cd41d529246347e38804" category="sidebar">使用存储 QoS 管理工作负载性能</block>
@@ -9326,7 +9204,6 @@
   <block id="4fe746c4b3e8ab088fb436641f9b98c6" category="sidebar">编辑 SVM 关系</block>
   <block id="fc67dc264a61ca8ae9872acecc3f7bf8" category="sidebar">管理 SVM 关系</block>
   <block id="c948edc0c818adf4847d91a8137716a6" category="sidebar">编辑 Snapshot 策略</block>
-  <block id="c4374218de35d2b4bc8b5b1304ff7e65" category="sidebar">删除 Snapshot 策略</block>
   <block id="cc50c331ee974cc0e4de144fdea1db6b" category="sidebar">编辑计划</block>
   <block id="f2fb0b80c2c7e171cd27b2b79806772a" category="sidebar">删除计划</block>
   <block id="6a1430dbf84d6dc23f417c150bfc22be" category="sidebar">System Manager 经典文档</block>
@@ -9620,7 +9497,6 @@
   <block id="4c7783582f7e304286aea99c2573c927" category="list-text">从 System Manager 9.6 开始，支持 Fabric Pool 。</block>
   <block id="d5e5925aeb05519d0dcc6bf9f721a6f0" category="summary">从 System Manager 9.4 开始，您可以根据存储建议创建聚合。但是，您必须确定您的环境是否支持根据存储建议创建聚合。如果您的环境不支持根据存储建议创建聚合，则必须确定 RAID 策略和磁盘配置，然后手动创建聚合。</block>
   <block id="10f6b31ca4dfe3975350a50374d83d32" category="list-text">从 ONTAP 9.0 开始，您可以创建磁盘大小等于或大于 10 TB 的聚合。</block>
-  <block id="8c06ad22c7aa0b50018b774e190ac3d9" category="paragraph">从 ONTAP 9.2 开始，启用了 FabricPool 的聚合要求在第三方存储层（例如 AWS ）上使用容量许可证。FabricPool 容量许可证用于定义可存储在云层存储中的数据量。</block>
   <block id="73443c81a17542138d21e74ee8b9c0f6" category="paragraph">要配置 NVMe ，其中一个节点必须至少具有一个支持 NVMe 的适配器。此外，从 ONTAP 9.5 开始，必须为与 SVM 关联的 HA 对中的每个节点至少配置一个 NVMe LIF 。您最多可以为对中的每个节点创建两个 NVMe LIF 。</block>
   <block id="68fd6fabd23e2ade4b52410c1f22651f" category="summary">从 System Manager 9.6 开始，您可以通过调整现有资源的大小或添加新资源来调整 FlexCache 卷的大小。</block>
   <block id="2c228870bc26117c2bcc38d47fed7cbb" category="paragraph">默认情况下，现有聚合用于调整 FlexCache 卷的大小。从 System Manager 9.6 开始，卷允许的最大大小显示在大小字段旁边。</block>
@@ -9629,8 +9505,6 @@
   <block id="a46c542a09057eb703c465dbc8b77f3a" category="summary">您可以通过为现有 Snapshot 策略设置计划来配置 Snapshot 副本。从 ONTAP 9.4 开始， FlexVol 卷的 Snapshot 副本数可以少于 1024 个。</block>
   <block id="9856546af72ee8cf33e0175f3d5162de" category="summary">从 System Manager 9.6 开始，您可以使用 MetroCluster 切换和切回操作来允许一个集群站点接管另一个集群站点的任务。通过此功能，您可以方便地进行维护或从灾难中恢复。</block>
   <block id="89722798ea50f9e4e27e12781d425918" category="summary">从 System Manager 9.6 开始，您可以在发生灾难后使用 MetroCluster 切换和切回操作，因为灾难会使源集群中的所有节点无法访问并关闭电源。在灾难恢复测试或站点脱机进行维护等情况下，您还可以使用切换工作流进行协商（计划内）切换。</block>
-  <block id="4b6b277ce6f6920ed718836709ae9ecf" category="paragraph">显示是否为共享启用了持续可用性。从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。</block>
-  <block id="10e2c79b1f68760fc37b16ad43083e16" category="paragraph">指定是启用还是禁用共享以实现持续可用性。从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。</block>
   <block id="27c4af937793a36386cf10cdf2170f78" category="list-text">从 ONTAP 9.1 开始，您可以在 AFF 平台上创建 SnapLock 聚合。</block>
   <block id="6a9df42e1c42f0d26fc250037429da9f" category="summary">从 System Manager 9.6 开始，您可以对 MetroCluster 站点启动计划外切换。在发生中断事件或灾难事件后，此操作非常有用。</block>
   <block id="114168a53a6b42c89026b910fc64289f" category="summary">从 System Manager 9.6 开始，编辑 FlexCache 卷时，您可以指定要与 FlexCache 卷关联的高级选项。</block>
@@ -9648,14 +9522,12 @@
   <block id="486cf1f138672302a18fcb36029a84ac" category="paragraph">从 ONTAP 9.5 开始，支持 SnapMirror 同步关系。创建 SnapMirror 同步关系需要以下许可证：</block>
   <block id="9117a0ffde9ccce7c584e67b9bb135b6" category="paragraph">从 ONTAP 9.8 开始， SnapMirror 云许可证可将 Snapshot 副本从 ONTAP 实例异步复制到对象存储端点。可以使用内部对象存储以及 S3 和 S3 兼容的公有云对象存储服务来配置复制目标。支持从 ONTAP 系统到预先限定的对象存储目标的 SnapMirror 云关系。ONTAP 9.8 批准的对象存储目标包括 ONTAP S3 ， StorageGRID ， AWS S3 和 S3-IA ， Microsoft Azure Blob Hot 和 GCP 标准存储。</block>
   <block id="986375ef59707444cd041a144f9b1715" category="paragraph">从 ONTAP 9.1 开始， FAS8200 附带了新的 ONTAP 数据保护功能，作为称为数据保护包的解决方案的一部分。此新硬件和软件包包含一个新的 DP_Optimized （ DPO ）许可证，可为二级工作负载提供独特的 ONTAP 功能。随着 ONTAP 9.3 的推出， DPO 许可证将每个节点的卷数从 1 ， 000 个增加到 1 ， 500 个。ONTAP 9.3 还引入了基于 FAS2620 配置的数据保护包新配置。</block>
-  <block id="eed5ae605ac8ef5b8563e5fd16acd7ca" category="paragraph">从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。</block>
   <block id="51e14356cfa9b21b3c98da5c513be451" category="list-text">从 System Manager 9.6 开始，您可以在 MetroCluster 配置中创建 FlexGroup 卷。</block>
   <block id="36a1f9fd3f3fe9ba5a263e1f909dfe79" category="list-text">* 全部（从 System Manager 9.6 开始） *</block>
   <block id="5c828a238014dd495d73c878241df183" category="list-text">从 System Manager 9.6 开始，如果在 System Manager 9.5 中配置了 NVMe 协议，并且您从 System Manager 9.5 升级到 System Manager 9.6 ，则您将不再有 90 天的宽限期来在没有许可证的情况下使用 NVMe 协议。如果在从 ONTAP 9.5 升级到 9.6 时宽限期有效，则此宽限期必须替换为有效的 NVMeoF 许可证，以便您可以继续使用 NVMe 功能。</block>
   <block id="815824e3f581441ea6999750ea40b293" category="list-text">从 ONTAP 9.5 开始，必须为使用 NVMe 协议的 HA 对中的每个节点至少配置一个 NVMe LIF 。此外，您还可以为每个节点最多创建两个 NVMe LIF 。升级到 ONTAP 9.5 时，您必须确保使用 NVMe 协议为 HA 对中的每个节点至少定义一个 NVMe LIF 。</block>
   <block id="c503852b4c7e6024fbe45f861966d958" category="summary">StrictSync 和 Sync 策略支持使用 FC ， iSCSI 和 FC-NVMe 协议的所有基于 LUN 的应用程序，以及适用于数据库， VMware ，配额， CIFS 等企业级应用程序的 NFSv3 和 NFSv4 协议。从 ONTAP 9.6 开始， SnapMirror 同步可用于电子设计自动化（ Electronic Design Automation ， EDA ），主目录和软件构建工作负载等企业级文件服务。</block>
   <block id="c383179aea1ae78459dfc908631cf68f" category="paragraph">从 ONTAP 9.6 开始，这些限制已被删除， SnapMirror 同步可用于包含多用户环境的企业级文件服务工作负载，例如主目录和软件构建工作负载。</block>
-  <block id="d087a242e4810c70f2ccb072912cc056" category="paragraph">从 System Manager 9.6 开始，当您在两个集群之间建立对等关系时，对等关系默认处于加密状态</block>
   <block id="a1f98fb76066b45925b246ea195a7c62" category="summary">从 System Manager 9.6 开始，您可以编辑现有 FlexGroup 卷的属性。</block>
   <block id="7afec9c2554738ce7a7de58297d6c030" category="paragraph">从 System Manager 9.6 开始，您还可以重命名 FlexGroup DP 卷。</block>
   <block id="7c5c5dd8c983200f4658fbc653960629" category="summary">从 System Manager 9.6 开始，您可以删除不再需要的 FlexCache 卷。</block>
@@ -9671,8 +9543,6 @@
   <block id="e5d446856630ec232bccda2df661897e" category="summary">您可以使用卷窗口管理 FlexVol 卷和 FlexGroup 卷。从 System Manager 9.6 开始，您还可以管理 FlexCache 卷。</block>
   <block id="6b0cc4ddfe235d9ecb8de601ccf35861" category="paragraph">从 System Manager 9.6 开始， FlexGroup DP 卷和 FlexCache 卷支持卷加密重新设置密钥。对于从 NAE 聚合继承加密的卷，已禁用重新设置密钥。</block>
   <block id="1695535a1714b87bcc3484740ec235ba" category="paragraph">如果在对同一个卷执行重新设置密钥操作时启动卷移动操作，则重新设置密钥操作将中止。在 System Manager 9.5 及更早版本中，如果在对卷执行转换或重新设置密钥操作时尝试移动卷，则此操作将中止，而不会发出警告。从 System Manager 9.6 开始，如果您在转换或重新设置密钥操作期间尝试移动卷，则会显示一条消息，警告您如果继续操作，转换或重新设置密钥操作将中止。</block>
-  <block id="3853d8827e176169022e0fb0e1cb0181" category="summary">您可以使用 System Manager 修改共享的设置，例如符号链接设置，用户或组的共享访问权限以及对共享的访问类型。您还可以启用或禁用通过 Hyper-V 持续提供共享，以及启用或禁用基于访问的枚举（ ABE ）。从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。</block>
-  <block id="8be28ba82a6dd69c55a3f8793bd0d63c" category="summary">从 System Manager 9.6 开始，您可以为本地集群 IP 空间生成密码短语，并在创建对等关系时在远程集群中使用相同的密码短语。</block>
   <block id="4227d3e4ebcb1be60ce603efef5c55a8" category="paragraph">从 ONTAP 9.5 开始，必须为与 SVM 关联的 HA 对中的每个节点至少配置一个 NVMe LIF 。您最多可以为对中的每个节点创建两个 NVMe LIF 。</block>
   <block id="17f96a07b22aadd9d026f06836cef80e" category="list-text">从 ONTAP 9.3 开始：选择 * 按策略 * 选项。</block>
   <block id="aac75f93aae939890c94959328592cae" category="paragraph">从 ONTAP 9.3 开始：选择目标卷，然后单击 * 操作 * &gt; * 管理快照 * &gt; * 配置 * 。</block>
@@ -9731,7 +9601,6 @@
   <block id="c98b16f1475c5ed3edd5940478bbb261" category="list-text">如果要使新的 LIF 对现有主机可见，请使用 `lun portset add` 命令将每个新 LIF 添加到端口集，每个 LIF 一次。</block>
   <block id="ded36311d847f75d4f809a6870a2e0ed" category="sidebar">删除端口集</block>
   <block id="f036f45cd0fb57db483a3278d8a1eb2a" category="sidebar">编辑端口集</block>
-  <block id="8e1d7bfe28e595b4ce0deaa43921d8bf" category="sidebar">关于无中断更新</block>
   <block id="1efe07eef4e047f77d97d7a9521fe678" category="summary">使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。</block>
   <block id="a13b5b49c282f481bac13a3c39c4db67" category="list-text">您正在使用受支持版本的适用于 VMware vSphere 的 Virtual Storage Console （ VSC ）来配置数据存储库和创建卷。</block>
   <block id="e37a9ce9ba1b9f128287af3bf8300997" category="inline-link">适用于 VMware vSphere 的 ONTAP 工具</block>
@@ -9745,4 +9614,48 @@
   <block id="2b4f8dfe33f9d8af15855fb018da73ca" category="summary">使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在 Storage Virtual Machine （ SVM ）上快速设置 iSCSI 服务，配置 LUN 并使用 ESXi 主机计算机上的 iSCSI 启动程序使 LUN 可用。</block>
   <block id="b0e0e7a5cccf0bb5f480596a97d3ac79" category="list-text">您正在使用受支持版本的适用于 VMware vSphere 的 Virtual Storage Console （ VSC ）为 ESX 主机配置存储设置。</block>
   <block id="47165a970b344156985260755fe32597" category="paragraph">请参见 <block ref="63a409c949a0a7faca8865ea4633f264" category="inline-link-macro-rx"></block> 用于使用 CLI 配置以太网端口流量控制。</block>
+  <block id="6496d14daa3ce9c896eedbae288af595" category="section-title">修改导出策略规则</block>
+  <block id="e924645243abfa78dc8a7b00efb234c9" category="section-title">为 qtree 分配导出策略</block>
+  <block id="7a3cb6284c4921a43b15cf88ab8375cc" category="list-text">从 System Manager 9.6 开始，支持 Fabric Pool 。</block>
+  <block id="84418b62d7b013bf56cefe250ff477e5" category="section-title">修改 VLAN 的 MTU 大小</block>
+  <block id="eaaee30f383edd7cde31a29e3882e588" category="section-title">确认系统运行状况警报</block>
+  <block id="c6ce31257270a482aa8999924a348dd7" category="section-title">禁止系统运行状况警报</block>
+  <block id="d094dd7d0f1487d1ee91e8913b200cc9" category="section-title">重新加载 CIFS 组策略</block>
+  <block id="a65d6f5a390d69bab3cf466a3de97499" category="section-title">使用 LDAP 服务</block>
+  <block id="6d5cdfe767118cd0cf504e6db1a272ef" category="section-title">隔离管理网络流量</block>
+  <block id="ae31228a3004f50ef56f39ea591e1fba" category="section-title">将 IP 地址分配给服务处理器</block>
+  <block id="1d3222900094dbddc84cb1024da9cfad" category="section-title">测试陷阱主机配置</block>
+  <block id="dc7b0deb2f77cc84a07356028bc63ae9" category="section-title">配置 SVM 的管理详细信息</block>
+  <block id="48fafd8d0267c2c4d065de7ed42c87e5" category="section-title">配置更新窗口</block>
+  <block id="2f63b3d68f0ba01bb94b14d7a3fd6177" category="section-title">生成对等密码短语</block>
+  <block id="b8cdd43d1b26cbe709647dba8c6a5a29" category="paragraph">从 System Manager 9.6 开始，您可以为本地集群 IP 空间生成密码短语，并在创建对等关系时在远程集群中使用相同的密码短语。</block>
+  <block id="ec01c33a64ca172bc18960b7f7f2cfb4" category="section-title">修改集群对等密码短语</block>
+  <block id="d6c09719738f88117adae1f025f0bfa0" category="section-title">修改为远程集群配置的 LIF</block>
+  <block id="666f8d3c8c6cec4c3ead6d42123cf853" category="paragraph">从 System Manager 9.6 开始，当您在两个集群之间建立对等关系时，对等关系默认处于加密状态</block>
+  <block id="59141343290d3909b8aaa7db97777945" category="section-title">测试 AutoSupport 设置</block>
+  <block id="f8ac418fe34a9d032d82e1a5fe1cc538" category="section-title">生成 AutoSupport 数据</block>
+  <block id="43beb39cf92dd66431f7a29555809971" category="list-text">在 * 编辑 Snapshot 策略 * 对话框中验证对选定 Snapshot 策略所做的更改，然后单击 * 保存 * 。= 删除 Snapshot 策略</block>
+  <block id="3f1033677cd06da189e19ae000dd52d6" category="section-title">锁定或解除锁定集群用户帐户</block>
+  <block id="bd95ba3afe20a3deb3b2d766f0f25bd4" category="section-title">迁移 LIF</block>
+  <block id="89839280933498e663c409c99a7f3ad3" category="paragraph">从 ONTAP 9.2 开始，启用了 FabricPool 的聚合要求在第三方存储层（例如 AWS ）上使用容量许可证。FabricPool 容量许可证用于定义可存储在云层存储中的数据量。</block>
+  <block id="777cd006f85c96fbe9cf4d7601507f02" category="paragraph"><block ref="6b3c4521e827467bc686a8d7347f059e" category="inline-xref-macro-rx"></block></block>
+  <block id="fdc2c21f7cf7e8e9e4ca6f59ebad50e6" category="section-title">创建 SVM 对等方</block>
+  <block id="e10ade998ea8351ccce17ad4f66cb287" category="section-title">设置 iSCSI 启动程序的默认安全性</block>
+  <block id="4284eb304e1d817b998884766cf596ac" category="section-title">启动或停止 iSCSI 服务</block>
+  <block id="2c69d188e94666036bd136650b321293" category="paragraph">您可以使用 System Manager 创建广播域，以便对计算机网络进行逻辑划分。在广播域中，所有关联节点均可通过数据链路层的广播进行访问</block>
+  <block id="70eebf745ede7ba6ac8b22f7d4bee10c" category="section-title">将 Kerberos 与 NFS 结合使用可增强安全性</block>
+  <block id="174695729a46aa0db160108074800cc8" category="paragraph">从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。</block>
+  <block id="8b8233970ae93cddab3fcb0f038a19cf" category="paragraph">您可以使用 System Manager 修改共享的设置，例如符号链接设置，用户或组的共享访问权限以及对共享的访问类型。您还可以启用或禁用通过 Hyper-V 持续提供共享，以及启用或禁用基于访问的枚举（ ABE ）。从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。</block>
+  <block id="2d6ca664e165a57792b1b59ede4c3890" category="paragraph">显示是否为共享启用了持续可用性。从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。</block>
+  <block id="41aef6f60f95609aa7b5ca4777bfe44c" category="paragraph">指定是启用还是禁用共享以实现持续可用性。从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。</block>
+  <block id="65a3184d0628d233da52a61b95ebef0a" category="doc">配置和管理云层</block>
+  <block id="33f78bbdf1a758d02b55487b2ecd80c7" category="list-text">阿里云（从 System Manager 9.6 开始）</block>
+  <block id="89bd3502717f9fe37639e6b2651dcc4e" category="section-title">将聚合附加到云层</block>
+  <block id="5cbe705dc8cf70f45fa4d74042a1e60d" category="list-text">* 全部（从 System Manager 9.6 开始） *</block>
+  <block id="16fa9d5154223d6681958cb1ae5183f9" category="section-title">分配阵列 LUN</block>
+  <block id="d84058ed90711cf7950e2134c769e7a6" category="section-title">将备用阵列 LUN 重新分配给节点</block>
+  <block id="18fa37e27df452e0994d63bc6d099e81" category="section-title">管理计划</block>
+  <block id="b58f4629c05c62ab785a00da650796ac" category="section-title">启动或停止 FC 或 FCoE 服务</block>
+  <block id="f0bb3a1069bc693d784499624c92773a" category="section-title">锁定或解除锁定 SVM 用户帐户</block>
+  <block id="67f089ce62f54b39419b9b13e6c8663d" category="section-title">修改 BranchCache 设置</block>
 </blocks>

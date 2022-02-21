@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/task_adding_cluster_user_account.html 
-sidebar: sidebar 
-keywords: add, cluster, user, account, system, manager, online, help 
-summary: 您可以使用 System Manager 添加集群用户帐户，并指定用于访问存储系统的用户登录方法。 
+redirect: ontap-sm-classic/online-help-96-97/concept_cluster_user_accounts.html 
 ---
-= 添加集群用户帐户
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 添加集群用户帐户，并指定用于访问存储系统的用户登录方法。
-
-在启用了 SAML 身份验证的集群中，对于特定应用程序，您可以添加 SAML 身份验证或基于密码的身份验证，也可以同时添加这两种类型的身份验证。
-
-.步骤
-. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]*
-. 在 * 管理 * 窗格中，单击 * 用户 * 。
-. 单击 * 添加 * 。
-. 键入新用户的用户名。
-. 键入用户要连接到存储系统的密码，然后确认该密码。
-. 添加一种或多种用户登录方法，然后单击 * 添加 * 。
 

@@ -1,29 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_network_interfaces.html 
-sidebar: sidebar 
-keywords: edit, network, interface, settings, system, manager, online, help 
-summary: 您可以使用 System Manager 修改网络接口，以便为数据 LIF 启用管理访问。 
+redirect: ontap-sm-classic/online-help-96-97/concept_network_interfaces.html 
 ---
-= 编辑网络接口设置
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 修改网络接口，以便为数据 LIF 启用管理访问。
-
-.关于此任务
-* 您不能通过 System Manager 修改集群 LIF ，集群管理 LIF 或节点管理 LIF 的网络设置。
-* 您不能为集群间 LIF 启用管理访问。
-
-
-.步骤
-. 单击 * 网络 * > * 网络接口 * 。
-. 选择要修改的接口，然后单击 * 编辑 * 。
-. 在 * 编辑网络接口 * 对话框中，根据需要修改网络接口设置。
-. 单击 * 保存并关闭 * 。
-
-
-* 相关信息 *
-
-xref:reference_network_window.adoc[网络窗口]

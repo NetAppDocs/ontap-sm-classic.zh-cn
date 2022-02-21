@@ -1,51 +1,7 @@
 ---
 permalink: online-help-96-97/reference_hardware_cache_window.html 
-sidebar: sidebar 
-keywords: hardware, cache, window, module, information, online, help, flash 
-summary: 您可以使用硬件缓存窗口为安装了 Flash Cache 模块的存储系统启用或禁用 Flash Cache 模块。您还可以查看读取工作负载统计信息。 
+redirect: ontap-sm-classic/online-help-96-97/concept_hardware_cache.html 
 ---
-= 硬件缓存窗口
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用硬件缓存窗口为安装了 Flash Cache 模块的存储系统启用或禁用 Flash Cache 模块。您还可以查看读取工作负载统计信息。
-
-
-
-== 模块信息
-
-* * 存储系统名称 *
-+
-安装了 Flash Cache 模块的存储系统的名称将显示在图形下方。
-
-* * 启用 / 禁用切换按钮 *
-+
-移动切换按钮以启用或禁用此模块。
-
-* * 大小 *
-+
-模块的大小（以 GB 为单位）。如果有多个 Flash Cache 模块卡，则会显示所有卡的总缓存大小。
-
-+
-[NOTE]
-====
-显示的 Flash Cache 模块大小与实际大小不同，原因如下： - System Manager 仅报告 ONTAP 提供的可用容量。—总容量中有一部分是为存储元数据预留的。
-
-====
-* * 型号名称 *
-+
-模块的型号名称。
-
-* * 系统读取延迟 *
-+
-显示平均读取延迟（以毫秒为单位）。
-
-
-
-
-
-== 缓存读取工作负载
-
-通过显示一个图形来指示存储系统性能，该图形指定了磁盘和 Flash Cache 模块所提供的读取工作负载的速率。

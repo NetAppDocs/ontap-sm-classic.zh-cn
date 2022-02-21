@@ -1,27 +1,7 @@
 ---
 permalink: online-help-96-97/task_stopping_share_access.html 
-sidebar: sidebar 
-keywords: folder, qtree, volume, system, manager, online, help, stop, share, access 
-summary: 如果要删除对文件夹， qtree 或卷的共享网络访问权限，可以使用 System Manager 停止共享。 
+redirect: ontap-sm-classic/online-help-96-97/concept_shares.html 
 ---
-= 正在停止共享访问
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-如果要删除对文件夹， qtree 或卷的共享网络访问权限，可以使用 System Manager 停止共享。
-
-您必须已安装 CIFS 许可证。
-
-.步骤
-. 单击 * 存储 * > * 共享 * 。
-. 从 * SVM* 字段的下拉菜单中，选择要停止的 CIFS 共享所在的 SVM 。
-. 从共享列表中，选择要停止共享的共享，然后单击 * 停止共享 * 。
-. 选中确认复选框，然后单击 * 停止 * 。
-. 确认共享不再列在 * 共享 * 窗口中。
-
-
-* 相关信息 *
-
-xref:reference_shares_window.adoc[共享窗口]

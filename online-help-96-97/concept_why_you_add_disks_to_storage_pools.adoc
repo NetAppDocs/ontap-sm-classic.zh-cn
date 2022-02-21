@@ -1,17 +1,7 @@
 ---
 permalink: online-help-96-97/concept_why_you_add_disks_to_storage_pools.html 
-sidebar: sidebar 
-keywords: ssd, storage, pool, cache, size, allocation, add, disk, online, help 
-summary: 您可以将 SSD 添加到现有存储池并增加其缓存大小。将 SSD 添加到已将分配单元分配给 Flash Pool 聚合的存储池时，您可以增加其中每个聚合的缓存大小以及存储池的总缓存。 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= 为什么要向存储池添加磁盘
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以将 SSD 添加到现有存储池并增加其缓存大小。将 SSD 添加到已将分配单元分配给 Flash Pool 聚合的存储池时，您可以增加其中每个聚合的缓存大小以及存储池的总缓存。
-
-如果尚未分配存储池的分配单元，则向该存储池添加 SSD 不会影响 SSD 缓存大小。
-
-将 SSD 添加到现有存储池时， SSD 必须归存储池中现有 SSD 所属的同一 HA 对中的一个节点或另一个节点所有。您可以添加 HA 对中任一节点所拥有的 SSD 。

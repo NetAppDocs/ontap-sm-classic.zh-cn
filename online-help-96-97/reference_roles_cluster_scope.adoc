@@ -1,43 +1,7 @@
 ---
 permalink: online-help-96-97/reference_roles_cluster_scope.html 
-sidebar: sidebar 
-keywords: roles, window, command, buttons, online, help, attributes 
-summary: 您可以使用角色窗口管理与用户帐户关联的角色。 
+redirect: ontap-sm-classic/online-help-96-97/concept_roles.html 
 ---
-= 角色窗口
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用角色窗口管理与用户帐户关联的角色。
-
-
-
-== 命令按钮
-
-* * 添加 * 。
-+
-打开添加角色对话框，在此可以创建访问控制角色并指定该角色的用户可以访问的命令或命令目录。
-
-* * 编辑 * 。
-+
-打开编辑角色对话框，在此可以添加或修改角色属性。
-
-* * 刷新 *
-+
-更新窗口中的信息。
-
-
-
-
-
-== 角色列表
-
-角色列表提供了可分配给用户的角色列表。
-
-
-
-== 角色属性区域
-
-详细信息区域显示角色属性，例如选定角色可以访问的命令或命令目录，访问级别以及对命令或命令目录进行适用场景的查询。

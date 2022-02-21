@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_vlans.html 
-sidebar: sidebar 
-keywords: delete, vlan, nic, system, manager, failover, rules, group, online, help 
-summary: 您可以使用 System Manager 删除在网络端口上配置的 VLAN 。在从插槽中删除 NIC 之前，您可能需要删除 VLAN 。删除 VLAN 时，此 VLAN 将自动从使用此 VLAN 的所有故障转移规则和组中删除。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ethernet_ports.html 
 ---
-= 正在删除 VLAN
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 删除在网络端口上配置的 VLAN 。在从插槽中删除 NIC 之前，您可能需要删除 VLAN 。删除 VLAN 时，此 VLAN 将自动从使用此 VLAN 的所有故障转移规则和组中删除。
-
-不能将任何 LIF 与 VLAN 关联。
-
-.步骤
-. 单击 * 网络 * > * 以太网端口 * 。
-. 选择要删除的 VLAN ，然后单击 * 删除 * 。
-. 选中确认复选框，然后单击 * 删除 * 。
-
-
-* 相关信息 *
-
-xref:reference_network_window.adoc[网络窗口]

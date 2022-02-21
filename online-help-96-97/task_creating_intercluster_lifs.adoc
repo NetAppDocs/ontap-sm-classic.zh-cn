@@ -1,27 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_intercluster_lifs.html 
-sidebar: sidebar 
-keywords: system, manager, intercluster, logical, interfaces, lif, create, online, help, ipspace 
-summary: 通过创建集群间逻辑接口（ LIF ），集群网络可以与节点进行通信。您必须在要为其创建对等关系的每个集群中的每个节点上，在要用于对等关系的每个 IP 空间内创建一个集群间 LIF 。 
+redirect: ontap-sm-classic/online-help-96-97/task_setting_up_peering.html 
 ---
-= 创建集群间 LIF
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-通过创建集群间逻辑接口（ LIF ），集群网络可以与节点进行通信。您必须在要为其创建对等关系的每个集群中的每个节点上，在要用于对等关系的每个 IP 空间内创建一个集群间 LIF 。
-
-.步骤
-. 单击 * 配置 * > * 高级集群设置 * 。
-. 在 * 设置高级集群功能 * 窗口中，单击 * 集群对等 * 选项旁边的 * 继续 * 。
-. 从 * IP 空间 * 列表中选择一个 IP 空间。
-. 输入每个节点的 IP 地址，端口，网络掩码和网关详细信息。
-. 单击 * 提交并继续 * 。
-
-
-
-
-== 下一步操作
-
-您应在集群对等窗口中输入集群详细信息，以继续建立集群对等关系。

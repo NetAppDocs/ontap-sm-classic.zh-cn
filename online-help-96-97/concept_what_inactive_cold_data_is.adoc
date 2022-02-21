@@ -1,15 +1,7 @@
 ---
 permalink: online-help-96-97/concept_what_inactive_cold_data_is.html 
-sidebar: sidebar 
-keywords: online, help, inactive, cold, data 
-summary: 性能层中不常访问的数据称为非活动（冷）数据。默认情况下， 31 天内未访问的数据将变为非活动状态。 
+redirect: ontap-sm-classic/online-help-96-97/task_configuring_managing_cloud_tiers.html 
 ---
-= 什么是非活动（冷）数据
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-性能层中不常访问的数据称为非活动（冷）数据。默认情况下， 31 天内未访问的数据将变为非活动状态。
-
-非活动数据将在聚合级别，集群级别和卷级别显示。只有在聚合或集群上完成非活动扫描后，才会显示该聚合或集群的非活动数据。默认情况下，系统会显示启用了 FabricPool 的聚合和 SSD 聚合的非活动数据。不会显示 FlexGroup 的非活动数据。

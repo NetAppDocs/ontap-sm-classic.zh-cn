@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_broadcast_domains.html 
-sidebar: sidebar 
-keywords: online, help, create, broadcast, domain, system, manager 
-summary: 您可以使用 System Manager 创建广播域，以便对计算机网络进行逻辑划分。在广播域中，所有关联节点均可通过数据链路层的广播进行访问。 
+redirect: ontap-sm-classic/online-help-96-97/concept_setting_up_network.html 
 ---
-= 创建广播域
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 创建广播域，以便对计算机网络进行逻辑划分。在广播域中，所有关联节点均可通过数据链路层的广播进行访问。
-
-.步骤
-. 单击 * 网络 * 选项卡。
-. 在 * 广播域 * 选项卡中，单击 * 创建 * 。
-. 在 * 创建广播域 * 对话框中，指定要创建的广播域的名称， MTU 大小， IP 空间和端口。
-. 单击 * 创建 * 。
-
-
-* 相关信息 *
-
-xref:reference_network_window.adoc[网络窗口]

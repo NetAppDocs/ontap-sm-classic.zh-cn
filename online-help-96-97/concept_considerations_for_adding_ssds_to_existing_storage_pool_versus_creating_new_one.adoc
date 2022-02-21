@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/concept_considerations_for_adding_ssds_to_existing_storage_pool_versus_creating_new_one.html 
-sidebar: sidebar 
-keywords: consideration, add, ssd, existing, storage, pool, create, new, online, help 
-summary: 您可以通过两种方式增加 SSD 缓存的大小—将 SSD 添加到现有 SSD 存储池或创建新的 SSD 存储池。最佳方法取决于您的配置和存储计划。 
+redirect: ontap-sm-classic/online-help-96-97/concept_storage_pools.html 
 ---
-= 将 SSD 添加到现有存储池与创建新存储池的注意事项
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以通过两种方式增加 SSD 缓存的大小—将 SSD 添加到现有 SSD 存储池或创建新的 SSD 存储池。最佳方法取决于您的配置和存储计划。
-
-在创建新存储池与向现有存储池添加存储容量之间进行选择的方式与决定是创建新 RAID 组还是向现有 RAID 组添加存储类似：
-
-* 如果要添加大量 SSD ，则创建新存储池可提供更大的灵活性，因为新存储池的分配方式与现有存储池不同。
-* 如果只添加少量 SSD ，而增加现有 Flash Pool 缓存的 RAID 组大小不是问题描述，则向现有存储池添加 SSD 会降低备用和奇偶校验成本，并自动分配新存储。
-
-
-如果您的存储池正在为缓存具有不同 RAID 类型的 Flash Pool 聚合提供分配单元，并且您将存储池的大小扩展到超过 RAID4 RAID 组的最大大小，则 RAID4 分配单元中新添加的分区将不会使用。

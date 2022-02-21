@@ -1,33 +1,7 @@
 ---
 permalink: online-help-96-97/task_attaching_aggregate_to_cloud_tier.html 
-sidebar: sidebar 
-keywords: attach, cloud, tier, system, manager, online, help, flash, aggregate, system, manager 
-summary: 您可以使用 System Manager 将全闪存聚合附加到云层。您可以将不常用的数据存储在云层中。 
+redirect: ontap-sm-classic/online-help-96-97/task_configuring_managing_cloud_tiers.html 
 ---
-= 将聚合附加到云层
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 将全闪存聚合附加到云层。您可以将不常用的数据存储在云层中。
-
-您必须已向集群添加云层。
-
-.步骤
-. 单击 * 存储 * > * 聚合和磁盘 * > * 云层 * 。
-. 在 * 在聚合中使用 * 列中，单击 * 附加聚合 * 。
-+
-此时将显示附加聚合窗口。
-
-. 选择要附加到云层的聚合。
-. 单击 * 保存 * 。
-
-
-* 相关信息 *
-
-xref:concept_what_cloud_tiers_tiering_policies_are.adoc[什么是云层和分层策略]
-
-xref:concept_what_fabricpool_is.adoc[什么是 FabricPool]
-
-xref:reference_storage_tiers_window.adoc[存储层窗口]

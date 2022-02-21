@@ -1,34 +1,7 @@
 ---
 permalink: online-help-96-97/concept_qtree_options.html 
-sidebar: sidebar 
-keywords: qtree, option, defined, logically, file, subdirectory, root, flexvol, volume, partition, data, manage, online, help 
-summary: qtree 是一种逻辑上定义的文件系统，可以作为 FlexVol 卷中根目录的一个特殊子目录存在。qtree 用于管理卷中的数据并对其进行分区。 
+redirect: ontap-sm-classic/online-help-96-97/concept_qtrees.html 
 ---
-= qtree 选项
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-qtree 是一种逻辑上定义的文件系统，可以作为 FlexVol 卷中根目录的一个特殊子目录存在。qtree 用于管理卷中的数据并对其进行分区。
-
-如果在包含卷的 FlexVol 上创建 qtree ，则 qtree 将显示为目录。因此，在删除卷时，您需要注意不要意外删除 qtree 。
-
-您可以在创建 qtree 时指定以下选项：
-
-* qtree 的名称
-* 要使 qtree 驻留在其中的卷
-* 机会锁
-+
-默认情况下，为 qtree 启用机会锁。如果对整个存储系统禁用机会锁，则即使为每个 qtree 启用机会锁，也不会设置机会锁。
-
-* 安全风格
-+
-安全模式可以是 UNIX ， NTFS 或混合（ UNIX 和 NTFS ）。默认情况下， qtree 的安全模式与选定卷的安全模式相同。
-
-* 导出策略
-+
-您可以创建新的导出策略或选择现有策略。默认情况下， qtree 的导出策略与选定卷的导出策略相同。
-
-* qtree 和用户配额的空间使用量限制
 

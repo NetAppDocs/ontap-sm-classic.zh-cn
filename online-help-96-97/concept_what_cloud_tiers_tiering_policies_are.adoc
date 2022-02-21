@@ -1,43 +1,7 @@
 ---
 permalink: online-help-96-97/concept_what_cloud_tiers_tiering_policies_are.html 
-sidebar: sidebar 
-keywords: cloud, tier, policy, data, ssd, store, online, help 
-summary: 云层可为不常访问的数据提供存储。您可以将全闪存（全 SSD ）聚合附加到云层以存储不常用的数据。您可以使用分层策略来确定是否应将数据移动到云层。 
+redirect: ontap-sm-classic/online-help-96-97/task_configuring_managing_cloud_tiers.html 
 ---
-= 什么是云层和分层策略
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-云层可为不常访问的数据提供存储。您可以将全闪存（全 SSD ）聚合附加到云层以存储不常用的数据。您可以使用分层策略来确定是否应将数据移动到云层。
-
-您可以在卷上设置以下分层策略之一：
-
-* * 仅 Snapshot *
-+
-仅移动当前未被活动文件系统引用的卷的 Snapshot 副本。默认分层策略为仅快照策略。
-
-* * 自动 *
-+
-将非活动数据（冷数据）和 Snapshot 副本从活动文件系统移动到云层。
-
-* * 备份（适用于 System Manager 9.5 ） *
-+
-将数据保护（ DP ）卷中新传输的数据移动到云层。
-
-* * 全部（从 System Manager 9.6 开始） *
-+
-将所有数据移动到云层。
-
-* * 无 *
-+
-防止卷上的数据移动到云层。
-
-
-
-* 相关信息 *
-
-xref:task_adding_cloud_tier.adoc[正在添加云层]
-
-xref:task_attaching_aggregate_to_cloud_tier.adoc[将聚合附加到云层]

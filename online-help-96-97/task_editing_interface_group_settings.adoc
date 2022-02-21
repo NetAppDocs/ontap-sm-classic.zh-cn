@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_interface_group_settings.html 
-sidebar: sidebar 
-keywords: edit, interface, group, settings, system, manager, ports, ass, online, help 
-summary: 您可以使用 System Manager 向接口组添加端口，从接口组中删除端口以及修改接口组中端口的使用模式和负载分布模式。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ethernet_ports.html 
 ---
-= 编辑接口组设置
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 向接口组添加端口，从接口组中删除端口以及修改接口组中端口的使用模式和负载分布模式。
-
-您不能修改分配给广播域的接口组的 MTU 设置。
-
-.步骤
-. 单击 * 网络 * > * 以太网端口 * 。
-. 选择接口组，然后单击 * 编辑 * 。
-. 根据需要修改接口组设置，然后单击 * 保存并关闭 * 。
-
-
-* 相关信息 *
-
-xref:reference_network_window.adoc[网络窗口]
