@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>管理 SVM 关系</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="管理 SVM 关系" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_managing_svm_relationships.html" />
-	<meta property="og:description" content="您可以使用 System Manager 对 SVM 关系执行各种操作，例如初始化 SVM 关系，更新 SVM 关系，激活目标 SVM ，从源 SVM 重新同步数据，从目标 SVM 重新同步数据以及重新激活源 SVM 。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="您可以使用 System Manager 对 SVM 关系执行各种操作，例如初始化 SVM 关系，更新 SVM 关系，激活目标 SVM ，从源 SVM 重新同步数据，从目标 SVM 重新同步数据以及重新激活源 SVM 。">
-  <meta name="keywords" content=" system, manager, manage, svm, online, help, relationship">
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
   
   
 
@@ -148,6 +148,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_svm_relationships.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -5036,7 +5038,7 @@
           <a href="/zh-cn/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
         <li class="n-breadcrumb__list-item">
-          管理 SVM 关系
+          
         </li>
       </ul>
     </div>
@@ -5059,18 +5061,26 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">管理 SVM 关系</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-21 19:34:03 +0000">02/21/2022</time>
+    <time datetime="2022-02-22 00:25:45 +0000">02/22/2022</time>
     
   
 
 <span>提供者
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-ivanad">
     <img  class="avatar avatar-small"
           alt="netapp-ivanad"
@@ -5085,191 +5095,8 @@
 </p>
 
 
-<div class="paragraph lead">
-<p>您可以使用 System Manager 对 SVM 关系执行各种操作，例如初始化 SVM 关系，更新 SVM 关系，激活目标 SVM ，从源 SVM 重新同步数据，从目标 SVM 重新同步数据以及重新激活源 SVM 。</p>
-</div>
-<div class="ulist">
-<div class="title">开始之前</div>
-<ul>
-<li>
-<p>要初始化 SVM 关系，源集群和目标集群必须处于运行状况良好的对等关系中。</p>
-</li>
-<li>
-<p>要更新 SVM 关系，必须初始化 SVM 关系并使其处于 Snapmirrored 状态。</p>
-</li>
-<li>
-<p>要重新激活源 SVM ，必须已执行从目标 SVM 重新同步数据（反向重新同步）操作。</p>
-</li>
-<li>
-<p>如果在创建 SVM 关系时选择了复制源 SVM 配置的选项，则要激活 SVM 关系，必须停止源 SVM 。</p>
-</li>
-<li>
-<p>必须在源集群和目标集群上启用 SnapMirror 许可证。</p>
-</li>
-<li>
-<p>源集群和目标集群之间的对等关系必须运行正常。</p>
-</li>
-<li>
-<p>目标集群必须具有可用空间。</p>
-</li>
-<li>
-<p>源 SVM 必须具有 SVM 对等权限。</p>
-</li>
-<li>
-<p>您必须中断 SVM 关系才能激活目标 SVM ，从源 SVM 重新同步，从目标 SVM 重新同步（反向重新同步）以及重新激活源 SVM 。</p>
-</li>
-<li>
-<p>要重新激活源 SVM ， SVM 反向关系必须存在且处于 Snapmirrored 状态。</p>
-</li>
-</ul>
-</div>
-<div class="olist arabic">
-<div class="title">步骤</div>
-<ol class="arabic">
-<li>
-<p>单击 * 保护 * &gt; * SVM 关系 * 。</p>
-</li>
-<li>
-<p>选择 SVM 关系，然后执行相应的操作：</p>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">如果您要 &#8230;&#8203;</th>
-<th class="tableblock halign-left valign-top">执行以下操作 &#8230;&#8203;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>初始化 SVM 关系</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>单击 * 操作 * &gt; * 初始化 * 。</p>
 <div class="paragraph">
-<p>此时将显示初始化对话框。</p>
-</div>
-</li>
-<li>
-<p>单击 * 初始化 * 。</p>
-</li>
-</ol>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>更新 SVM 关系</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>单击 * 操作 * &gt; * 更新 * 。</p>
-<div class="paragraph">
-<p>此时将显示更新对话框。</p>
-</div>
-</li>
-<li>
-<p>单击 * 更新 * 。</p>
-</li>
-</ol>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>激活目标 SVM 激活目标 SVM 涉及暂停计划的 SnapMirror 传输，中止任何正在进行的 SnapMirror 传输，中断 SVM 关系以及启动目标 SVM 。</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>单击 * 操作 * &gt; * 激活目标 SVM* 。</p>
-<div class="paragraph">
-<p>此时将显示激活目标 SVM 对话框。</p>
-</div>
-</li>
-<li>
-<p>选中 * 确定以激活目标 SVM 并中断关系 * 复选框。</p>
-</li>
-<li>
-<p>单击 * 激活 * 。</p>
-</li>
-</ol>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>重新同步源 SVM 中的数据重新同步操作将对 SVM 配置执行重新基线传输。您可以从源 SVM 重新同步以重新建立两个 SVM 之间已断开的关系。重新同步完成后，目标 SVM 将包含与源 SVM 相同的信息，并计划进行进一步更新。</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>单击 * 操作 * &gt; * 从源 SVM* 重新同步。</p>
-<div class="paragraph">
-<p>此时将显示从源 SVM 重新同步对话框。</p>
-</div>
-</li>
-<li>
-<p>选中 * 确定删除目标 SVM* 中任何较新的数据复选框。</p>
-</li>
-<li>
-<p>单击 * 重新同步 * 。</p>
-</li>
-</ol>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>从目标 SVM 重新同步数据（反向重新同步）您可以从目标 SVM 重新同步，以便在两个 SVM 之间创建新关系。在此操作期间，目标 SVM 将继续提供数据，而源 SVM 将备份目标 SVM 的配置和数据。</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>单击 * 操作 * &gt; * 从目标 SVM 重新同步（反向重新同步） * 。</p>
-<div class="paragraph">
-<p>此时将显示从目标 SVM 重新同步（反向重新同步）对话框。</p>
-</div>
-</li>
-<li>
-<p>如果 SVM 有多个关系，请选中 * 此 SVM 有多个关系，确定释放到其他关系 * 复选框。</p>
-</li>
-<li>
-<p>选中 * 确定删除源 SVM* 中的新数据复选框。</p>
-</li>
-<li>
-<p>单击 * 反向重新同步 * 。</p>
-</li>
-</ol>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>重新激活源 SVM 重新激活源 SVM 涉及到保护和重新创建源和目标 SVM 之间的 SVM 关系。如果在创建 SVM 关系时选择了复制源 SVM 配置的选项，则目标 SVM 将停止处理数据。</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>单击 * 操作 * &gt; * 重新激活源 SVM* 。</p>
-<div class="paragraph">
-<p>此时将显示重新激活源 SVM 对话框。</p>
-</div>
-</li>
-<li>
-<p>单击 * 启动重新激活 * 以启动对目标 SVM 的重新激活。</p>
-</li>
-<li>
-<p>单击 * 完成 * 。</p>
-</li>
-</ol>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-</li>
-</ol>
+<p>=</p>
 </div>
 
     </article>
@@ -5281,7 +5108,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[管理 SVM 关系](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_managing_svm_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_managing_svm_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_managing_svm_relationships.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a>
     </div>

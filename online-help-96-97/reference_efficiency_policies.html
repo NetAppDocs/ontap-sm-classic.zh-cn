@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>效率策略窗口</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="效率策略窗口" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/reference_efficiency_policies.html" />
-	<meta property="og:description" content="您可以使用效率策略窗口创建，显示和管理有关效率策略的信息。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="您可以使用效率策略窗口创建，显示和管理有关效率策略的信息。">
-  <meta name="keywords" content=" efficiency, policies, window, command, buttons, online, help">
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
   
   
 
@@ -148,6 +148,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_efficiency_policies.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -5036,7 +5038,7 @@
           <a href="/zh-cn/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
         <li class="n-breadcrumb__list-item">
-          效率策略窗口
+          
         </li>
       </ul>
     </div>
@@ -5059,18 +5061,26 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">效率策略窗口</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-21 19:34:03 +0000">02/21/2022</time>
+    <time datetime="2022-02-22 00:25:45 +0000">02/22/2022</time>
     
   
 
 <span>提供者
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-ivanad">
     <img  class="avatar avatar-small"
           alt="netapp-ivanad"
@@ -5085,130 +5095,8 @@
 </p>
 
 
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph lead">
-<p>您可以使用效率策略窗口创建，显示和管理有关效率策略的信息。</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="命令按钮">命令按钮</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>* 添加 * 。</p>
 <div class="paragraph">
-<p>打开添加效率策略对话框，在此可以在指定的持续时间（基于计划）或卷数据更改达到指定阈值（基于阈值）时对卷运行重复数据删除操作。</p>
-</div>
-</li>
-<li>
-<p>* 编辑 * 。</p>
-<div class="paragraph">
-<p>打开编辑效率策略对话框，在此可以修改重复数据删除操作的计划，阈值， QoS 类型和最长运行时间。</p>
-</div>
-</li>
-<li>
-<p>* 删除 *</p>
-<div class="paragraph">
-<p>打开删除效率策略对话框，在此可以删除选定的效率策略。</p>
-</div>
-</li>
-<li>
-<p>* 状态 *</p>
-<div class="paragraph">
-<p>打开下拉菜单，其中提供了用于启用或禁用选定效率策略的选项。</p>
-</div>
-</li>
-<li>
-<p>* 刷新 *</p>
-<div class="paragraph">
-<p>更新窗口中的信息。</p>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="效率策略列表">效率策略列表</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>* 策略 *</p>
-<div class="paragraph">
-<p>指定效率策略的名称。</p>
-</div>
-</li>
-<li>
-<p>* 状态 *</p>
-<div class="paragraph">
-<p>指定效率策略的状态。状态可以是以下状态之一：</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>enabled</p>
-<div class="paragraph">
-<p>指定可以将效率策略分配给重复数据删除操作。</p>
-</div>
-</li>
-<li>
-<p>已禁用</p>
-<div class="paragraph">
-<p>指定已禁用效率策略。您可以使用状态下拉菜单启用此策略，并稍后将其分配给重复数据删除操作。</p>
-</div>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>* 运行者 *</p>
-<div class="paragraph">
-<p>指定存储效率策略是根据计划运行还是根据阈值（更改日志阈值）运行。</p>
-</div>
-</li>
-<li>
-<p>* QoS 策略 *</p>
-<div class="paragraph">
-<p>指定存储效率策略的 QoS 类型。QoS 类型可以是以下类型之一：</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>背景</p>
-<div class="paragraph">
-<p>指定 QoS 策略在后台运行，这样可以减少对客户端操作的潜在性能影响。</p>
-</div>
-</li>
-<li>
-<p>尽力而为</p>
-<div class="paragraph">
-<p>指定 QoS 策略正在尽力而为的基础上运行，这样可以最大限度地提高系统资源的利用率。</p>
-</div>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>* 最大运行时间 *</p>
-<div class="paragraph">
-<p>指定效率策略的最长运行时持续时间。如果未指定此值，则效率策略将一直运行，直到操作完成为止。</p>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="详细信息区域">详细信息区域</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>效率策略列表下方的区域显示有关选定效率策略的追加信息，包括基于计划的策略的计划名称和计划详细信息以及基于阈值的策略的阈值。</p>
-</div>
-</div>
+<p>=</p>
 </div>
 
     </article>
@@ -5220,7 +5108,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[效率策略窗口](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/reference_efficiency_policies.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/reference_efficiency_policies.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/reference_efficiency_policies.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a>
     </div>

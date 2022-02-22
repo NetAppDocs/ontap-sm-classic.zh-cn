@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>创建 SVM 关系</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="创建 SVM 关系" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_svm_relationships.html" />
-	<meta property="og:description" content="您可以使用 System Manager 创建 SVM 关系，以便将数据从源 SVM 传输到目标 SVM 。创建 SVM 关系有助于从灾难中恢复，因为源 SVM 和目标 SVM 上都有可用数据。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,8 +18,8 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="您可以使用 System Manager 创建 SVM 关系，以便将数据从源 SVM 传输到目标 SVM 。创建 SVM 关系有助于从灾难中恢复，因为源 SVM 和目标 SVM 上都有可用数据。">
-  <meta name="keywords" content=" create, svm, relationship, system, manager, transfer, data, online, help">
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
   
   
 
@@ -148,6 +148,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_svm_relationships.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -5036,7 +5038,7 @@
           <a href="/zh-cn/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
         <li class="n-breadcrumb__list-item">
-          创建 SVM 关系
+          
         </li>
       </ul>
     </div>
@@ -5059,18 +5061,26 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">创建 SVM 关系</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-21 19:34:03 +0000">02/21/2022</time>
+    <time datetime="2022-02-22 00:25:45 +0000">02/22/2022</time>
     
   
 
 <span>提供者
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-thomi">
     <img  class="avatar avatar-small"
           alt="netapp-thomi"
@@ -5101,57 +5111,8 @@
 </p>
 
 
-<div class="paragraph lead">
-<p>您可以使用 System Manager 创建 SVM 关系，以便将数据从源 SVM 传输到目标 SVM 。创建 SVM 关系有助于从灾难中恢复，因为源 SVM 和目标 SVM 上都有可用数据。</p>
-</div>
-<div class="ulist">
-<div class="title">开始之前</div>
-<ul>
-<li>
-<p>目标集群和源集群必须运行 ONTAP 9.5 或更高版本。</p>
-</li>
-<li>
-<p>目标集群不能采用 MetroCluster 配置。</p>
-</li>
-<li>
-<p>从 System Manager 9.6 开始，支持 Fabric Pool 。</p>
-</li>
-</ul>
-</div>
-<div class="olist arabic">
-<div class="title">步骤</div>
-<ol class="arabic">
-<li>
-<p>单击 * 保护 * &gt; * SVM 关系 * &gt; * 创建 * 。</p>
-</li>
-<li>
-<p>从 * SVM 关系类型 * 列表中选择 SVM 关系类型。</p>
-</li>
-<li>
-<p>从 * 源 Storage Virtual Machine* 窗格中，选择集群和 SVM 。</p>
-</li>
-<li>
-<p>要查看没有所需权限的 SVM ，请单击 * 导航到源集群 * ，然后提供所需权限。</p>
-</li>
-<li>
-<p>从 * 目标 Storage Virtual Machine* 窗格中，指定要在目标集群上创建的 SVM 的名称。</p>
-</li>
-<li>
-<p>选择相应选项以复制源 SVM 配置。</p>
-</li>
-<li>
-<p>单击 <strong><span class="image"><img src="../media/nas_bridge_202_icon_settings_olh_96_97.gif" alt=""></span></strong> ，更新保护策略和保护计划，选择聚合，然后初始化保护关系。</p>
-</li>
-<li>
-<p>单击 * 保存 * 以创建 SVM 关系。</p>
 <div class="paragraph">
-<p>此时将显示 SVM Relationships ：摘要窗口。</p>
-</div>
-</li>
-<li>
-<p>单击 * 完成 * 以完成此过程。</p>
-</li>
-</ol>
+<p>=</p>
 </div>
 
     </article>
@@ -5163,7 +5124,7 @@
   <div class="page-nav-toolbar">
     <div id="version-dropdown"></div>
     <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[创建 SVM 关系](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_svm_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_svm_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a>
       <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_creating_svm_relationships.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a>
       <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a>
     </div>
