@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/task_starting_or_stopping_iscsi_service.html 
-sidebar: sidebar 
-keywords: start, stop, system, manader, iscsi, service, storage, system, online, help 
-summary: 您可以使用 System Manager 在存储系统上启动或停止 iSCSI 服务。 
+redirect: ontap-sm-classic/online-help-96-97/concept_iscsi_protocol.html 
 ---
-= 启动或停止 iSCSI 服务
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 在存储系统上启动或停止 iSCSI 服务。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 协议 * 窗格中，单击 * iSCSI * 。
-. 根据需要单击 * 开始 * 或 * 停止 * 。
-
-
-* 相关信息 *
-
-xref:reference_iscsi_window.adoc[iSCSI 窗口]

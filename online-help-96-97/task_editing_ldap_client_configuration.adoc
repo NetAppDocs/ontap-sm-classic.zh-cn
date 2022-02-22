@@ -1,32 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_ldap_client_configuration.html 
-sidebar: sidebar 
-keywords: system, manager, edit, ldap, client, configuration, svm, online, help 
-summary: 您可以使用 System Manager 在集群级别或 Storage Virtual Machine （ SVM ）级别编辑 LDAP 客户端配置。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ldap_client_services.html 
 ---
-= 编辑 LDAP 客户端配置
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 在集群级别或 Storage Virtual Machine （ SVM ）级别编辑 LDAP 客户端配置。
-
-在 SVM 级别，您只能为选定 SVM 编辑 LDAP 客户端。
-
-.步骤
-. 要编辑 LDAP 客户端配置，请执行以下操作：
-+
-** 集群级别：单击 *image:../media/advanced_options.gif[""]* > * LDAP * 。
-** SVM 级别：单击 * SVM* > * SVM 设置 * > * LDAP 客户端 * 。
-
-
-. 选择要修改的 LDAP 客户端，然后单击 * 编辑 * 。
-. 在 * 编辑 LDAP 客户端 * 对话框中，根据需要编辑 LDAP 客户端配置。
-. 单击 * 保存并关闭 * 。
-. 验证是否已显示您对 LDAP 客户端配置所做的更改。
-
-
-* 相关信息 *
-
-xref:concept_ldap.adoc[LDAP]

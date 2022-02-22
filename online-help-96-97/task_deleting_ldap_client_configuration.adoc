@@ -1,31 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_ldap_client_configuration.html 
-sidebar: sidebar 
-keywords: delete, ldap, client, configuration, online, help, svm 
-summary: 您可以使用 System Manager 在集群级别或 Storage Virtual Machine （ SVM ）级别删除 LDAP 客户端配置。 
+redirect: ontap-sm-classic/online-help-96-97/concept_ldap_client_services.html 
 ---
-= 删除 LDAP 客户端配置
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 在集群级别或 Storage Virtual Machine （ SVM ）级别删除 LDAP 客户端配置。
-
-在 SVM 级别，只能删除选定 SVM 的 LDAP 客户端。
-
-.步骤
-. 要删除 LDAP 客户端配置，请执行以下操作：
-+
-** 集群级别：单击 *image:../media/advanced_options.gif[""]* > * LDAP * 。
-** SVM 级别：单击 * SVM* > * SVM 设置 * > * LDAP 客户端 * 。
-
-
-. 选择要删除的 LDAP 客户端，然后单击 * 删除 * 。
-. 选中确认复选框，然后单击 * 删除 * 。
-. 验证已删除的 LDAP 客户端是否不再显示。
-
-
-* 相关信息 *
-
-xref:concept_ldap.adoc[LDAP]

@@ -1,19 +1,5 @@
----
-permalink: online-help-96-97/task_deleting_schedules.html 
-sidebar: sidebar 
-keywords: delete, schedule, online, help, system, manager 
-summary: 您可以使用 System Manager 删除运行特定存储管理任务的计划。 
----
-= 正在删除计划
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 删除运行特定存储管理任务的计划。
-
-.步骤
-. 单击 * 保护 * > * 计划 * 。
-. 选择要删除的计划并单击 * 删除 * 。
-. 选中确认复选框，然后单击 * 删除 * 。
-
+'''
+Perfalink ： online -help-96-97/ task_deleting_schedules.html 工具条： ontap-sm-classic/online -help-96-97/ concept_schedules.html

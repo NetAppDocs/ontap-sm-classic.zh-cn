@@ -1,25 +1,7 @@
 ---
 permalink: online-help-96-97/task_setting_default_security_for_initiators.html 
-sidebar: sidebar 
-keywords: set, up, default, security, iscsi, initiator, online, help, system, manager, settings 
-summary: 您可以使用 System Manager 删除启动程序的身份验证设置，并使用默认安全方法对启动程序进行身份验证。 
+redirect: ontap-sm-classic/online-help-96-97/concept_iscsi_protocol.html 
 ---
-= 设置 iSCSI 启动程序的默认安全性
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 删除启动程序的身份验证设置，并使用默认安全方法对启动程序进行身份验证。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 协议 * 窗格中，单击 * iSCSI * 。
-. 在 * 启动程序安全性 * 选项卡中，选择要更改安全设置的启动程序。
-. 单击 * 启动程序安全性 * 区域中的 * 设置默认值 * ，然后单击确认对话框中的 * 设置默认值 * 。
-
-
-* 相关信息 *
-
-xref:reference_iscsi_window.adoc[iSCSI 窗口]

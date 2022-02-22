@@ -1,36 +1,7 @@
 ---
 permalink: online-help-96-97/task_deleting_nvme_subsystem.html 
-sidebar: sidebar 
-keywords: delete, nvme, subsystem, online, help, system, manager, cluster 
-summary: 您可以使用 System Manager 从集群中删除 NVMe 子系统。 
+redirect: ontap-sm-classic/online-help-96-97/concept_what_nvme_subsystem_is.html 
 ---
-= 删除 NVMe 子系统
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 从集群中删除 NVMe 子系统。
-
-删除 NVMe 子系统时会执行以下操作：
-
-* 如果 NVMe 子系统已配置主机，则映射的主机将被删除。
-* 如果 NVMe 子系统已映射命名空间，则这些命名空间将取消映射。
-
-
-.步骤
-. 在 * NVMe 子系统 * 窗口中找到要删除的 NVMe 子系统。
-. 选中要删除的子系统名称左侧的框。
-. 单击 * 删除 * 。
-+
-此时将显示警告消息。
-
-. 单击 * 删除 NVMe 子系统 * 复选框以确认删除，然后单击 * 是 * 。
-+
-此时将从集群中删除 NVMe 子系统，并显示 NVMe 子系统窗口。
-
-
-
-* 相关信息 *
-
-xref:reference_nvme_subsystems_window.adoc[NVMe 子系统窗口]

@@ -1,13 +1,5 @@
----
-permalink: online-help-96-97/concept_name_mapping_conversion_rules.html 
-sidebar: sidebar 
-keywords: name, mapping, conversion, rules, online, help, svm, pattern, replacement 
-summary: ONTAP 系统会为每个 SVM 保留一组转换规则。每个规则由两部分组成：模式和替换。转换从相应列表的开头开始，并根据第一个匹配规则执行替换。模式是 UNIX 模式的正则表达式。替换项是一个字符串，其中包含表示模式中子表达式的转义序列，如 UNIX sed 程序中所示。 
----
-= 名称映射转换规则
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-ONTAP 系统会为每个 SVM 保留一组转换规则。每个规则都包含两部分： _pattern_ 和 _replacement_ 。转换从相应列表的开头开始，并根据第一个匹配规则执行替换。模式是 UNIX 模式的正则表达式。替换项是一个字符串，其中包含表示模式中子表达式的转义序列，如 UNIX `sed` 程序中所用。
+'''
+Perfalink ： online -help-96-97/ concept_name_mapping_conversion_rules.html 工具条： ontap-sm-classic/online -help-96-97/ concept_name_mapping.html

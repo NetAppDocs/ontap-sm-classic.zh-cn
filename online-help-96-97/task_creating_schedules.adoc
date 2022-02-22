@@ -1,48 +1,5 @@
----
-permalink: online-help-96-97/task_creating_schedules.html 
-sidebar: sidebar 
-keywords: create, schedule, time, system, manager, online, help 
-summary: 您可以使用 System Manager 创建计划，以便在特定时间或定期运行作业。 
----
-= 创建计划
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 创建计划，以便在特定时间或定期运行作业。
-
-在 MetroCluster 配置中创建计划时，最好也在运行正常的站点的集群上创建等效的计划。
-
-.步骤
-. 单击 * 保护 * > * 计划 * 。
-. 单击 * 创建 * 。
-. 在 * 创建计划 * 对话框中，指定计划名称。
-. 根据您的要求创建计划：
-+
-|===
-| 要创建的内容 | 执行此操作 ... 
-
-
- a| 
-某天的每日计划或特定计划
- a| 
-选择 * 基本 * ，然后指定计划和重复设置详细信息（以小时和分钟为单位）。
-
-
-
- a| 
-按特定间隔运行的计划
- a| 
-选择 * 间隔 * ，然后指定计划和重复设置详细信息（以天，小时和分钟为单位）。
-
-
-
- a| 
-在特定时间段运行的计划
- a| 
-选择 * 高级 * ，然后指定计划和重复设置详细信息（以月，天，工作日，小时和分钟为单位）。
-
-|===
-. 单击 * 创建 * 。
-
+'''
+Perfalink ： online -help-96-97/ task_creating_schedules.html 工具条： ontap-sm-classic/online -help-96-97/ concept_schedules.html

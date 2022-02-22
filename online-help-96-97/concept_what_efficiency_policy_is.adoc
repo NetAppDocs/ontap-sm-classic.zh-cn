@@ -1,15 +1,7 @@
 ---
 permalink: online-help-96-97/concept_what_efficiency_policy_is.html 
-sidebar: sidebar 
-keywords: efficiency, policy, job, schedule, online, help, flexvol, deduplication 
-summary: 效率策略是指在 FlexVol 卷上执行重复数据删除操作的作业计划。 
+redirect: ontap-sm-classic/online-help-96-97/concept_efficiency_policies.html 
 ---
-= 什么是效率策略
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-效率策略是指在 FlexVol 卷上执行重复数据删除操作的作业计划。
-
-您可以通过将操作计划为在特定时间启动或指定在超过阈值百分比时触发操作来在 FlexVol 卷上运行重复数据删除。您可以通过创建包含在效率策略中的作业计划来计划重复数据删除操作。卷效率策略仅支持 cron 类型的作业计划。或者，您也可以指定阈值百分比。如果新数据超过指定百分比，则会启动重复数据删除操作。

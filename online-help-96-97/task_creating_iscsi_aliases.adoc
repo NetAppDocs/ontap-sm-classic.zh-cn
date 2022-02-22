@@ -1,27 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_iscsi_aliases.html 
-sidebar: sidebar 
-keywords: iscsi, alias, create, target, device, online, help 
-summary: iSCSI 别名是一种便于用户识别的标识符，您可以将此标识符分配给 iSCSI 目标设备（此处为存储系统），以便在用户界面中更容易识别目标设备。您可以使用 System Manager 创建 iSCSI 别名。 
+redirect: ontap-sm-classic/online-help-96-97/concept_iscsi_protocol.html 
 ---
-= 创建 iSCSI 别名
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-iSCSI 别名是一种便于用户识别的标识符，您可以将此标识符分配给 iSCSI 目标设备（此处为存储系统），以便在用户界面中更容易识别目标设备。您可以使用 System Manager 创建 iSCSI 别名。
-
-iSCSI 别名是一个包含 1 到 128 个可打印字符的字符串。 iSCSI 别名不能包含空格。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 协议 * 窗格中，单击 * iSCSI * 。
-. 在 * iSCSI* 窗口的 * 服务 * 选项卡中，单击 * 编辑 * 。
-. 在 * 编辑 iSCSI 服务配置 * 对话框的 * 目标别名 * 字段中输入 iSCSI 别名，然后单击 * 确定 * 。
-
-
-* 相关信息 *
-
-xref:reference_iscsi_window.adoc[iSCSI 窗口]

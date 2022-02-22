@@ -1,26 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_nfs_settings.html 
-sidebar: sidebar 
-keywords: edit, nfs, settings, online, help, system, management 
-summary: 您可以使用 System Manager 编辑 NFS 设置，例如启用或禁用 NFSv3 ， NFSv4 和 NFSv4.1 ，启用或禁用 NFSv4 客户端的读写委派以及启用 NFSv4 ACL 。您也可以编辑默认 Windows 用户。 
+redirect: ontap-sm-classic/online-help-96-97/concept_nfs_protocol.html 
 ---
-= 编辑 NFS 设置
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 编辑 NFS 设置，例如启用或禁用 NFSv3 ， NFSv4 和 NFSv4.1 ，启用或禁用 NFSv4 客户端的读写委派以及启用 NFSv4 ACL 。您也可以编辑默认 Windows 用户。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 协议 * 窗格中，单击 * NFS * 。
-. 在 * NFS * 窗口中，单击 * 编辑 * 。
-. 在 * 编辑 NFS 设置 * 对话框中，进行所需的更改。
-. 单击 * 保存并关闭 * 。
-
-
-* 相关信息 *
-
-xref:reference_nfs_window.adoc[NFS 窗口]

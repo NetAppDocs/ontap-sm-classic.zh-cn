@@ -1,30 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_initiator_security.html 
-sidebar: sidebar 
-keywords: edit, initiator, security, iscsi, connection, login, phase, online, help, system, manager 
-summary: 为启动程序配置的安全模式用于指定如何在 iSCSI 连接登录阶段对该启动程序进行身份验证。您可以使用 System Manager 通过更改身份验证方法来更改选定 iSCSI 启动程序的安全性。 
+redirect: ontap-sm-classic/online-help-96-97/concept_iscsi_protocol.html 
 ---
-= 编辑启动程序安全性
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-为启动程序配置的安全模式用于指定如何在 iSCSI 连接登录阶段对该启动程序进行身份验证。您可以使用 System Manager 通过更改身份验证方法来更改选定 iSCSI 启动程序的安全性。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 协议 * 窗格中，单击 * iSCSI * 。
-. 在 * 启动程序安全性 * 选项卡中，从启动程序列表中选择一个或多个启动程序，然后单击 * 启动程序安全性 * 区域中的 * 编辑 * 。
-. 更改安全类型。
-+
-对于 CHAP 身份验证，您必须提供用户名和密码，然后确认入站设置的密码。对于出站设置，此登录信息是可选的。
-
-. 单击 * 确定 * 。
-. 验证您在 * 启动程序安全性 * 选项卡中所做的更改。
-
-
-* 相关信息 *
-
-xref:reference_iscsi_window.adoc[iSCSI 窗口]

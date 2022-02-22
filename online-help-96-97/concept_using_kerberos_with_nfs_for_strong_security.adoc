@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_using_kerberos_with_nfs_for_strong_security.html 
-sidebar: sidebar 
-keywords: kerboros, nfs, strong, security, online, help 
-summary: 您可以使用 Kerberos 在 SVM 和 NFS 客户端之间提供强身份验证，以提供安全的 NFS 通信。使用 Kerberos 配置 NFS 可提高 NFS 客户端与存储系统通信的完整性和安全性。 
+redirect: ontap-sm-classic/online-help-96-97/concept_kerberos_realm_services.html 
 ---
-= 将 Kerberos 与 NFS 结合使用以增强安全性
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 Kerberos 在 SVM 和 NFS 客户端之间提供强身份验证，以提供安全的 NFS 通信。使用 Kerberos 配置 NFS 可提高 NFS 客户端与存储系统通信的完整性和安全性。

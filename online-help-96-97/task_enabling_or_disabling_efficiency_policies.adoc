@@ -1,22 +1,7 @@
 ---
 permalink: online-help-96-97/task_enabling_or_disabling_efficiency_policies.html 
-sidebar: sidebar 
-keywords: enable, disable, efficiency, policy, online, help system, manager 
-summary: 您可以使用 System Manager 启用或禁用效率策略。 
+redirect: ontap-sm-classic/online-help-96-97/concept_efficiency_policies.html 
 ---
-= 启用或禁用效率策略
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 启用或禁用效率策略。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 策略 * 窗格中，单击 * 效率策略 * 。
-. 选择一个或多个要启用或禁用的效率策略。
-. 根据需要单击 * 状态 * > * 启用 * 或 * 状态 * > * 禁用 * 。
-. 如果要禁用效率策略，请选中确认复选框，然后单击 * 确定 * 。
 

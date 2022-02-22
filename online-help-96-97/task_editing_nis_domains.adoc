@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_nis_domains.html 
-sidebar: sidebar 
-keywords: system, manager, modify, nis, domain, online, help, svm 
-summary: 您可以使用 System Manager 根据 Storage Virtual Machine （ SVM ）身份验证和授权的要求修改 NIS 域。 
+redirect: ontap-sm-classic/online-help-96-97/concept_nis_services.html 
 ---
-= 编辑 NIS 域
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 根据 Storage Virtual Machine （ SVM ）身份验证和授权的要求修改 NIS 域。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 服务 * 窗格中，单击 * NIS * 。
-. 选择 NIS 域，然后单击 * 编辑 * 。
-. 进行所需的更改，然后单击 * 编辑 * 。
 

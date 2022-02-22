@@ -1,29 +1,7 @@
 ---
 permalink: online-help-96-97/task_starting_or_stopping_fc_or_fcoe_service.html 
-sidebar: sidebar 
-keywords: start, stop, fc, fcor, service, online, help, adaptor 
-summary: 通过 FC 服务，您可以管理用于 LUN 的 FC 目标适配器。您可以使用 System Manager 启动 FC 服务以使适配器联机并允许访问存储系统上的 LUN 。您可以停止 FC 服务以使 FC 适配器脱机并禁用对 LUN 的访问。 
+redirect: ontap-sm-classic/online-help-96-97/concept_fc_fcoe_protocol.html 
 ---
-= 启动或停止 FC 或 FCoE 服务
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-通过 FC 服务，您可以管理用于 LUN 的 FC 目标适配器。您可以使用 System Manager 启动 FC 服务以使适配器联机并允许访问存储系统上的 LUN 。您可以停止 FC 服务以使 FC 适配器脱机并禁用对 LUN 的访问。
-
-.开始之前
-* 必须安装 FC 许可证。
-* 目标存储系统中必须存在 FC 适配器。
-
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 协议 * 窗格中，单击 * FC/FCoE* 。
-. 根据需要单击 * 开始 * 或 * 停止 * 。
-
-
-* 相关信息 *
-
-xref:reference_configurationprotocolsfcp.adoc[FC/FCoE 窗口]

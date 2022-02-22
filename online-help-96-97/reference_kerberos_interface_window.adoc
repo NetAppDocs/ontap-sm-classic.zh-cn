@@ -1,51 +1,7 @@
 ---
 permalink: online-help-96-97/reference_kerberos_interface_window.html 
-sidebar: sidebar 
-keywords: kerboros, interface, window, configuration, svm, storage, virtual, machine, command, buttons, online, help 
-summary: 您可以使用 Kerberos 接口窗口启用 Kerberos 并编辑 Storage Virtual Machine （ SVM ）的 Kerberos 配置。 
+redirect: ontap-sm-classic/online-help-96-97/concept_kerberos_interface_services.html 
 ---
-= Kerberos 接口窗口
-:icons: font
-:imagesdir: ../media/
-
-
-[role="lead"]
-您可以使用 Kerberos 接口窗口启用 Kerberos 并编辑 Storage Virtual Machine （ SVM ）的 Kerberos 配置。
-
-
-
-== 命令按钮
-
-* * 编辑 * 。
-+
-打开编辑 Kerberos 配置对话框，在此可以启用 Kerberos 并编辑与 SVM 关联的 Kerberos 配置。
-
-* * 刷新 *
-+
-更新窗口中的信息。
-
-
-
-
-
-== Kerberos 接口列表
-
-提供有关 Kerberos 配置的详细信息。
-
-* * 接口名称 *
-+
-指定与 SVM 的 Kerberos 配置关联的逻辑接口。
-
-* * 服务主体名称 *
-+
-指定与 Kerberos 配置匹配的服务主体名称（ Service Principal Name ， SPN ）。
-
-* * 域 *
-+
-指定与 Kerberos 配置关联的 Kerberos 域的名称。
-
-* * Kerberos 状态 *
-+
-指定是否启用 Kerberos 。
+= 
 
 

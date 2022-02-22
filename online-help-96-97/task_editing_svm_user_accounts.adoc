@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_svm_user_accounts.html 
-sidebar: sidebar 
-keywords: online, help, system, manager, edit, svm, user, accounts 
-summary: 您可以使用 System Manager 通过修改用于访问存储系统的用户登录方法来编辑 Storage Virtual Machine （ SVM ）用户帐户。 
+redirect: ontap-sm-classic/online-help-96-97/concept_svm_user_accounts.html 
 ---
-= 编辑 SVM 用户帐户
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 通过修改用于访问存储系统的用户登录方法来编辑 Storage Virtual Machine （ SVM ）用户帐户。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * SVM 用户详细信息 * 窗格中，单击 * 用户 * 。
-. 选择要编辑的用户帐户，然后单击 * 编辑 * 。
-. 修改一种或多种用户登录方法，然后单击 * 修改 * 。
 

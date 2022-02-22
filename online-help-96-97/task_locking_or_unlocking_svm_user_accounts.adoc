@@ -1,20 +1,7 @@
 ---
 permalink: online-help-96-97/task_locking_or_unlocking_svm_user_accounts.html 
-sidebar: sidebar 
-keywords: lock, unlock, svm, user, account, system, manager, online, help, storage, virtual, machine 
-summary: 您可以使用 System Manager 锁定或解除锁定 Storage Virtual Machine （ SVM ）用户帐户。 
+redirect: ontap-sm-classic/online-help-96-97/concept_svm_user_accounts.html 
 ---
-= 锁定或解除锁定 SVM 用户帐户
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 锁定或解除锁定 Storage Virtual Machine （ SVM ）用户帐户。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * SVM 用户详细信息 * 窗格中，单击 * 用户 * 。
-. 在 * 用户 * 窗口中，选择要修改帐户状态的用户帐户，然后根据需要单击 * 锁定 * 或 * 解锁 * 。
 

@@ -1,24 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_svm_relationships.html 
-sidebar: sidebar 
-keywords: edit, svm, relationship, system, manager, online, help 
-summary: 您可以使用 System Manager 修改 SVM 关系的属性。 
+redirect: ontap-sm-classic/online-help-96-97/concept_svm_relationships.html 
 ---
-= 编辑 SVM 关系
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 修改 SVM 关系的属性。
-
-.步骤
-. 单击 * 保护 * > * SVM 关系 * 。
-. 选择要修改的 SVM 关系，然后单击 * 编辑 * 。
-. 选择 SVM 关系类型。
-+
-如果 SVM 关系是在 ONTAP 9.3 之前创建的，则不允许将 SVM 关系类型从镜像更改为镜像和存储。
-
-. 根据需要修改保护策略，保护计划和选项以复制源 SVM 配置。
-. 单击 * 保存 * 以保存更改。
 

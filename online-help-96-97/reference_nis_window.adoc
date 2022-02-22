@@ -1,35 +1,7 @@
 ---
 permalink: online-help-96-97/reference_nis_window.html 
-sidebar: sidebar 
-keywords: nis, window, nis, settings, online, help, command, buttons 
-summary: 通过 NIS 窗口，您可以查看存储系统的当前 NIS 设置。 
+redirect: ontap-sm-classic/online-help-96-97/concept_nis_services.html 
 ---
-= NIS 窗口
-:icons: font
-:imagesdir: ../media/
-
-
-[role="lead"]
-通过 NIS 窗口，您可以查看存储系统的当前 NIS 设置。
-
-
-
-== 命令按钮
-
-* * 创建 * 。
-+
-打开创建 NIS 域对话框，在此可以创建 NIS 域。
-
-* * 编辑 * 。
-+
-打开编辑 NIS 域对话框，在此可以添加，删除或修改 NIS 服务器。
-
-* * 删除 *
-+
-删除选定的 NIS 域。
-
-* * 刷新 *
-+
-更新窗口中的信息。
+= 
 
 

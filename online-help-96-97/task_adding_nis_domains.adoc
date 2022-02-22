@@ -1,22 +1,7 @@
 ---
 permalink: online-help-96-97/task_adding_nis_domains.html 
-sidebar: sidebar 
-keywords: add, nis, domain, host, svm, online, help 
-summary: 您可以使用 NIS 集中维护主机信息。您可以使用 System Manager 添加存储系统的 NIS 域名。在任何给定时间，一个 Storage Virtual Machine （ SVM ）上只能有一个 NIS 域处于活动状态。 
+redirect: ontap-sm-classic/online-help-96-97/concept_nis_services.html 
 ---
-= 添加 NIS 域
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 NIS 集中维护主机信息。您可以使用 System Manager 添加存储系统的 NIS 域名。在任何给定时间，一个 Storage Virtual Machine （ SVM ）上只能有一个 NIS 域处于活动状态。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 服务 * 窗格中，单击 * NIS * 。
-. 单击 * 创建 * 。
-. 键入 NIS 域名，然后添加一个或多个 NIS 服务器。
-. 单击 * 创建 * 。
 

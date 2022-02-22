@@ -1,45 +1,7 @@
 ---
 permalink: online-help-96-97/task_creating_nvme_subsystems.html 
-sidebar: sidebar 
-keywords: create, nvme, subsystem, online, help, system, manager 
-summary: 您可以使用 System Manager 创建 NVMe 子系统。 
+redirect: ontap-sm-classic/online-help-96-97/concept_what_nvme_subsystem_is.html 
 ---
-= 创建 NVMe 子系统
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 创建 NVMe 子系统。
-
-.步骤
-. 单击 * NVMe 子系统 * 窗口中的 * 创建 * 。
-. 在 * NVMe 子系统： cree* 窗口中为以下字段提供条目：
-+
-** * SVM*
-+
-从下拉菜单中，选择要创建子系统的 SVM 。
-
-** * 名称 *
-+
-输入子系统的名称。此子系统名称不能已存在于 SVM 中。此名称区分大小写，并且不能超过 96 个字符。允许使用特殊字符。
-
-** * 主机 OS*
-+
-从下拉菜单中，选择子系统的主机操作系统类型。
-
-** * 主机 NQN*
-+
-输入连接到控制器的主机 NQN 。您可以输入多个主机 NQN ，方法是使用逗号分隔这些 NQN 。
-
-
-
-. 单击 * 保存 * 。
-+
-此时将创建 NVMe 子系统，并显示 NVMe 子系统窗口。
-
-
-
-* 相关信息 *
-
-xref:reference_nvme_subsystems_window.adoc[NVMe 子系统窗口]

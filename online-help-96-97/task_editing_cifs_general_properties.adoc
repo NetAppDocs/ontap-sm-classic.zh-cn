@@ -1,42 +1,7 @@
 ---
 permalink: online-help-96-97/task_editing_cifs_general_properties.html 
-sidebar: sidebar 
-keywords: online, help, edit, general, properties, cifs, system, manager 
-summary: 您可以使用 System Manager 修改 CIFS 的常规属性，例如默认 UNIX 用户和默认 Windows 用户。您还可以为 CIFS 服务器启用或禁用 SMB 签名。 
+redirect: ontap-sm-classic/online-help-96-97/concept_cifs_protocol.html 
 ---
-= 编辑 CIFS 的常规属性
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 修改 CIFS 的常规属性，例如默认 UNIX 用户和默认 Windows 用户。您还可以为 CIFS 服务器启用或禁用 SMB 签名。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 配置 * 选项卡中，单击 * 选项 * 。
-. 在 * CIFS 选项 * 对话框中，根据需要修改以下 CIFS 服务器属性：
-+
-** UNIX 用户
-** Windows 用户
-** IP 地址
-** 启用或禁用 SMB 签名
-+
-启用 SMB 签名可防止数据受到损坏。但是，尽管网络流量保持不变，但客户端和服务器上的 CPU 使用率可能会增加，从而导致性能下降。您可以在任何不需要防止重放攻击的 Windows 客户端上禁用 SMB 签名。
-
-+
-有关在 Windows 客户端上禁用 SMB 签名的信息，请参见 Microsoft Windows 文档。
-
-** 启用或禁用 SMB 3.0 加密
-+
-您应启用 SMB 多通道以在 SMB 3.0 会话和传输连接之间建立多个通道。
-
-
-
-. 单击 * 保存 * 或 * 保存并关闭 * 。
-
-
-* 相关信息 *
-
-xref:reference_cifs_window.adoc[CIFS 窗口]

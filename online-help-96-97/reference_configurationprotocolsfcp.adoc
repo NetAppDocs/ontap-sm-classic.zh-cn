@@ -1,49 +1,7 @@
 ---
 permalink: online-help-96-97/reference_configurationprotocolsfcp.html 
-sidebar: sidebar 
-keywords: fc, fcoe, window, stop, command, buttons, online, help 
-summary: 您可以使用 FC/FCoE 窗口启动或停止 FC 服务。 
+redirect: ontap-sm-classic/online-help-96-97/concept_fc_fcoe_protocol.html 
 ---
-= FC/FCoE 窗口
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 FC/FCoE 窗口启动或停止 FC 服务。
-
-
-
-== 命令按钮
-
-* * 编辑 * 。
-+
-打开编辑节点名称对话框，在此可以更改 FC 或 FCoE 节点名称。
-
-* * 启动 *
-+
-启动 FC/FCoE 服务。
-
-* * 停止 *
-+
-停止 FC/FCoE 服务。
-
-* * 刷新 *
-+
-更新窗口中的信息。
-
-
-
-
-
-== FC/FCoE 详细信息
-
-详细信息区域显示有关 FC/FCoE 服务状态，节点名称和 FC/FCoE 适配器的信息。
-
-* 相关信息 *
-
-xref:task_starting_or_stopping_fc_or_fcoe_service.adoc[启动或停止 FC 或 FCoE 服务]
-
-xref:task_changing_fc_or_fcoe_node_name.adoc[更改 FC 或 FCoE 节点名称]
-
-xref:task_configuring_fc_fcoe_protocol_on_svms.adoc[在 SVM 上配置 FC 协议和 FCoE 协议]

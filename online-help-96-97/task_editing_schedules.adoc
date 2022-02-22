@@ -1,47 +1,5 @@
----
-permalink: online-help-96-97/task_editing_schedules.html 
-sidebar: sidebar 
-keywords: edit, schedule, cron, interval, system, manager, modify, online, help 
-summary: 如果先前创建的 cron 计划或间隔计划不符合您的要求，您可以使用 System Manager 对其进行更改。您可以修改计划详细信息，例如重复天数和小时数，间隔选项和高级 cron 选项。 
----
-= 编辑计划
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-如果先前创建的 cron 计划或间隔计划不符合您的要求，您可以使用 System Manager 对其进行更改。您可以修改计划详细信息，例如重复天数和小时数，间隔选项和高级 cron 选项。
-
-在 MetroCluster 配置中编辑计划时，最好也在运行正常的站点集群上编辑等效计划。
-
-.步骤
-. 单击 * 保护 * > * 计划 * 。
-. 选择要修改的计划并单击 * 编辑 * 。
-. 在 * 编辑计划 * 对话框中，通过执行相应的操作来修改计划：
-+
-|===
-| 如果选择的计划选项为 ... | 执行此操作 ... 
-
-
- a| 
-基本
- a| 
-指定重复天数和重复计划详细信息。
-
-
-
- a| 
-interval
- a| 
-以天，小时和分钟为单位指定间隔选项。
-
-
-
- a| 
-高级
- a| 
-以月，天，工作日（如果适用），小时和分钟为单位指定高级 cron 选项。
-
-|===
-. 单击 * 确定 * 。
-
+'''
+Perfalink ： online -help-96-97/ task_editing_schedules.html 工具条： ontap-sm-classic/online -help-96-97/ concept_schedules.html

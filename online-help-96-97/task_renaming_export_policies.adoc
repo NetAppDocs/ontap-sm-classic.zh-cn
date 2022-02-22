@@ -1,22 +1,7 @@
 ---
 permalink: online-help-96-97/task_renaming_export_policies.html 
-sidebar: sidebar 
-keywords: managerto, rename, export, policies, online, help 
-summary: 您可以使用 System Managerto 重命名现有导出策略。 
+redirect: ontap-sm-classic/online-help-96-97/concept_export_policies.html 
 ---
-= 重命名导出策略
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Managerto 重命名现有导出策略。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 策略 * 窗格中，单击 * 导出策略 * 。
-. 选择要重命名的导出策略，然后单击 * 重命名策略 * 。
-. 在 * 重命名策略 * 对话框中，指定新策略名称，然后单击 * 修改 * 。
-. 验证您在 * 导出策略 * 窗口中所做的更改。
 
