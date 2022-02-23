@@ -1,5 +1,7 @@
+---
+permalink: online-help-96-97/task_deleting_snapshot_policies.html 
+redirect: online-help-96-97/concept_snapshot_policies.html 
+---
 = 
 
 
-'''
-Perfalink ： online -help-96-97/ task_deleting_snapshot_policies.html sidebar ： online help-96-97/ concept_snapshot_policies.html

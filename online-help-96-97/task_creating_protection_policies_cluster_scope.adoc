@@ -1,5 +1,7 @@
+---
+permalink: online-help-96-97/task_creating_protection_policies_cluster_scope.html 
+redirect: ontap-sm-classic/online-help-96-97/concept_protection_policies.html 
+---
 = 
 
 
-'''
-Perfalink ： online -help-96-97/ task_creating_protection_policies_cluster_scope.html 工具条： ontap-sm-classic/online -help-96-97/ concept_protection_policies.html
