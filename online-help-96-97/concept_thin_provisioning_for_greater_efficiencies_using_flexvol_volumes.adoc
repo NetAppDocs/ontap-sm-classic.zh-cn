@@ -1,21 +1,7 @@
 ---
 permalink: online-help-96-97/concept_thin_provisioning_for_greater_efficiencies_using_flexvol_volumes.html 
-sidebar: sidebar 
-keywords: thin, provisioning, greater, efficiencies, flexvol, volume, online, help, lun 
-summary: 使用精简配置时，在给定聚合中创建卷和 LUN 时，实际上不会事先为这些卷和 LUN 分配任何空间。将数据写入卷或 LUN 时会分配空间。 
+redirect: ontap/concepts/thin-provisioning-concept.html 
 ---
-= 使用 FlexVol 卷进行精简配置以提高效率
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-使用精简配置时，在给定聚合中创建卷和 LUN 时，实际上不会事先为这些卷和 LUN 分配任何空间。将数据写入卷或 LUN 时会分配空间。
-
-未使用的聚合空间可供其他卷和 LUN 使用。通过允许按需配置和空间回收，精简配置可以提高存储利用率并降低存储成本。
-
-FlexVol 卷可以与其他 FlexVol 卷共享其包含的聚合。因此，单个聚合是其包含的 FlexVol 卷所使用的所有存储的共享源。灵活卷不再受其所在磁盘的限制约束。FlexVol 卷的大小可以根据要存储的数据量进行调整，而不是根据磁盘大小进行调整。这种灵活性使您能够最大限度地提高存储系统的性能和容量利用率。由于 FlexVol 卷可以访问系统中的所有可用物理存储，因此可以提高存储利用率。
-
-一个 500 GB 的卷仅分配了 100 GB 的实际数据；分配的其余 400 GB 没有存储任何数据。此未使用的容量将分配给业务应用程序，即使该应用程序稍后可能不需要全部 400 GB 。已分配但未使用的 400 GB 多余容量暂时被浪费。
-
-使用精简配置时，存储管理员会为业务应用程序配置 500 GB 的空间，但只会使用 100 GB 的空间来存储数据。不同之处在于，使用精简配置时，未使用的 400 GB 仍可用于其他应用程序。这种方法可以使应用程序透明地增长，并且物理存储只有在应用程序需要时才会完全分配。其余存储将保留在可用池中，以便根据需要使用。

@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_managing_physical_storage.html 
-sidebar: sidebar 
-keywords: manage, physical, storage, autosupport, system, manager, aggregate, pool, disks, array, lun, node, flash, cache, events, system alerts, statistics 
-summary: 您可以使用 System Manager 管理物理存储，例如聚合，存储池，磁盘，阵列 LUN ，节点， Flash Cache ，事件，系统警报， AutoSupport 通知，作业， 和 Flash Pool 统计信息。 
+redirect: ontap/system-admin/system-manager-concept.html 
 ---
-= 管理物理存储
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 管理物理存储，例如聚合，存储池，磁盘，阵列 LUN ，节点， Flash Cache ，事件，系统警报， AutoSupport 通知，作业， 和 Flash Pool 统计信息。

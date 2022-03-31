@@ -1,28 +1,7 @@
 ---
 permalink: online-help-96-97/concept_igroup_name.html 
-sidebar: sidebar 
-keywords: igroup, name, case, sensitive, requirement, online, help 
-summary: igroup 名称区分大小写，必须满足多个要求。 
+redirect: ontap/san-admin/igroups-concept.html 
 ---
-= igroup 名称
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-igroup 名称区分大小写，必须满足多个要求。
-
-igroup 名称：
-
-* 包含 1 到 96 个字符。不允许使用空格。
-* 可以包含字母 A 到 Z ， a 到 z ，数字 0 到 9 ，连字符（ "` -` " ），下划线（ "` _` " ），冒号（ "` ：` " ）和句点（ "` 。` " ）。
-* 必须以字母或数字开头。
-
-
-分配给 igroup 的名称与主机操作系统，主机文件或域名服务（ DNS ）使用的主机的名称无关。例如，如果将 igroup aix1 命名为，则它不会映射到主机的实际 IP 主机名（ DNS 名称）。
-
-[NOTE]
-====
-您可能会发现为 igroup 提供有意义的名称很有用，这些名称描述了可以访问映射到 igroup 的 LUN 的主机。
-
-====

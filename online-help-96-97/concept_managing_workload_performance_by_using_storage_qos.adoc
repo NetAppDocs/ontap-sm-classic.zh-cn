@@ -1,26 +1,7 @@
 ---
 permalink: online-help-96-97/concept_managing_workload_performance_by_using_storage_qos.html 
-sidebar: sidebar 
-keywords: manage, workload, performance, storage, qos, quality, service, objective, online, help 
-summary: 存储服务质量（ QoS ）可以帮助您管理实现性能目标所面临的风险。您可以使用存储 QoS 限制工作负载的吞吐量并监控工作负载性能。您可以主动限制工作负载以解决性能问题，也可以主动限制工作负载以防止出现性能问题。 
+redirect: ontap/performance-admin/guarantee-throughput-qos-task.html 
 ---
-= 使用存储 QoS 管理工作负载性能
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-存储服务质量（ QoS ）可以帮助您管理实现性能目标所面临的风险。您可以使用存储 QoS 限制工作负载的吞吐量并监控工作负载性能。您可以主动限制工作负载以解决性能问题，也可以主动限制工作负载以防止出现性能问题。
-
-工作负载表示对以下类型的存储对象之一执行的输入 / 输出（ I/O ）操作：
-
-* FlexVol volumes
-* LUN
-* FlexGroup 卷
-
-
-您可以将存储对象分配给策略组，以控制和监控工作负载。您可以监控工作负载而不对其进行控制。
-
-下图显示了使用存储 QoS 前后的示例环境。左侧的工作负载争用集群资源来传输 I/O这些工作负载可获得 "`尽力而为` " 性能，这意味着您的性能可预测性较低（例如，工作负载的性能可能很好，会对其他工作负载产生负面影响）。在右侧，将相同的工作负载分配给策略组。策略组强制实施最大吞吐量限制。
-
-image::../media/qos_comparison.gif[本图通过周围的文字进行了说明。]

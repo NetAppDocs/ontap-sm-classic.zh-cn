@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_managing_data_protection.html 
-sidebar: sidebar 
-keywords: system, manager, protect, data, create, manage, mirror, vault, relationship, snapshot, policy, schedule, online, help 
-summary: 您可以使用 System Manager 通过创建和管理镜像关系，存储关系以及镜像和存储关系来保护数据。您还可以创建和管理 Snapshot 策略和计划。 
+redirect: ontap/concept_dp_overview.html 
 ---
-= 管理数据保护
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 通过创建和管理镜像关系，存储关系以及镜像和存储关系来保护数据。您还可以创建和管理 Snapshot 策略和计划。

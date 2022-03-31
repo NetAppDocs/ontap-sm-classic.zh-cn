@@ -1,17 +1,7 @@
 ---
 permalink: online-help-96-97/concept_configuring_cluster_by_using_system_manager.html 
-sidebar: sidebar 
-keywords: configure, cluster, system, manager, online, help 
-summary: 在使用 System Manager 配置集群之前，必须满足某些前提条件。 
+redirect: ontap/task_configure_ontap.html 
 ---
-= 使用 System Manager 配置集群
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-在使用 System Manager 配置集群之前，必须满足某些前提条件。
-
-* 您必须已创建集群。
-* 您必须尚未配置集群。
 

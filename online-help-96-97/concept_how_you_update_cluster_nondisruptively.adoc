@@ -1,51 +1,7 @@
 ---
 permalink: online-help-96-97/concept_how_you_update_cluster_nondisruptively.html 
-sidebar: sidebar 
-keywords: update, cluster, nondisruptively, plan, perpare, perform, system, manager, online, help 
-summary: 您可以使用 System Manager 无中断地将集群更新到特定的 ONTAP 版本。在无中断更新中，您必须选择一个 ONTAP 映像，验证集群是否已做好更新准备，然后执行更新。 
+redirect: ontap/upgrade/task_upgrade_andu_sm.html 
 ---
-= 无中断更新集群
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 无中断地将集群更新到特定的 ONTAP 版本。在无中断更新中，您必须选择一个 ONTAP 映像，验证集群是否已做好更新准备，然后执行更新。
-
-在无中断更新期间，集群将保持联机状态并继续提供数据。
-
-
-
-== 规划和准备更新
-
-在规划和准备集群更新时，您必须从 NetApp 支持站点获取要将集群更新到的 ONTAP 映像版本，选择软件映像，然后执行验证。更新前验证可验证集群是否已准备好更新到选定版本。
-
-如果验证完成后出现错误和警告，您必须执行所需的补救措施来解决这些错误和警告，然后验证集群组件是否已做好更新准备。例如，在更新前验证期间，如果显示警告，指出集群中存在脱机聚合，则必须导航到聚合页面，然后将所有脱机聚合的状态更改为联机。
-
-
-
-== 正在执行更新
-
-更新集群时，整个集群将会更新，或者高可用性（ HA ）对中的节点也会更新。在更新过程中，将再次运行更新前验证，以验证集群是否已做好更新准备。
-
-根据集群中的节点数量，系统会执行滚动更新或批量更新。
-
-* * 滚动更新 *
-+
-其中一个节点脱机并进行更新，同时配对节点接管该节点的存储。
-
-+
-如果集群包含两个或更多节点，则会执行滚动更新。对于节点数少于八个的集群，这是唯一的更新方法。
-
-* * 批量更新 *
-+
-集群分为两批，每个批包含多个 HA 对。
-
-+
-如果集群包含八个或更多节点，则会执行批量更新。在此类集群中，您可以执行批量更新或滚动更新。这是具有八个或更多节点的集群的默认更新方法。
-
-
-
-* 相关信息 *
-
-xref:task_updating_cluster_nondisruptively.adoc[无中断更新集群]

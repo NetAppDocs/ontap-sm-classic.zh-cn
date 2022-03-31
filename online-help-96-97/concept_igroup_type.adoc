@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_igroup_type.html 
-sidebar: sidebar 
-keywords: igroup, type, iscsi, fc, fcoe, online, help, mixed 
-summary: igroup 类型可以是混合类型， iSCSI 或 FC/FCoE 。 
+redirect: ontap/san-admin/igroups-concept.html 
 ---
-= igroup 类型
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-igroup 类型可以是混合类型， iSCSI 或 FC/FCoE 。

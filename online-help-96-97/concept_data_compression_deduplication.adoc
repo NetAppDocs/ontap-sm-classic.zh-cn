@@ -1,31 +1,7 @@
 ---
 permalink: online-help-96-97/concept_data_compression_deduplication.html 
-sidebar: sidebar 
-keywords: data, compression, deduplication, online, help 
-summary: 从 Data ONTAP 8.0.1 开始，重复数据删除支持数据压缩。 
+redirect: ontap/volumes/deduplication-data-compression-efficiency-concept.html 
 ---
-= 数据压缩和重复数据删除
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-从 Data ONTAP 8.0.1 开始，重复数据删除支持数据压缩。
-
-如果在 FlexVol 卷上同时启用了数据压缩和重复数据删除，则会先对数据进行压缩，然后再进行重复数据删除。因此，重复数据删除可以通过删除 FlexVol 卷中的重复块来进一步增加空间节省。
-
-虽然可以在 FlexVol 卷上启用数据压缩和重复数据删除，但节省的空间可能并不等于在数据集上单独运行每个数据压缩和重复数据删除所节省的空间之和。与单独运行重复数据删除或数据压缩相比，这些节省的总成本可以节省更多的空间。
-
-在重复数据删除之前运行数据压缩扫描程序，可以实现更好的节省。这是因为数据压缩扫描程序不能在被重复数据删除锁定的数据上运行，但重复数据删除可以在压缩的数据上运行。
-
-下图显示了如何先对数据进行压缩，然后再进行重复数据删除：
-
-image::../media/compression_deduplication.gif[数据压缩和重复数据删除的方式图]
-
-在包含未压缩数据的 FlexVol 卷上运行重复数据删除时，它会扫描 FlexVol 卷中的所有未压缩块，并为每个块创建一个数字指纹。
-
-[NOTE]
-====
-如果 FlexVol 卷包含已压缩的数据，但该卷上的数据压缩选项已禁用，则在运行 `sis undo` 命令时，可能会失去节省的空间。
-
-====

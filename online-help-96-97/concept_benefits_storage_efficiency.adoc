@@ -1,42 +1,7 @@
 ---
 permalink: online-help-96-97/concept_benefits_storage_efficiency.html 
-sidebar: sidebar 
-keywords: benefit, storage, efficiency, flexcone, flexvol, snapshot, copy, deduplication, data, compression, snapmirror, online, help, classic 
-summary: 通过存储效率，您可以以最低的成本存储最大数量的数据，并在占用较少空间的同时适应数据的快速增长。您可以使用 RAID-DP ， FlexVol ， Snapshot 副本，重复数据删除，数据压缩， SnapMirror 和 FlexClone ，以提高存储利用率并降低存储成本。如果结合使用，这些技术有助于提高性能。 
+redirect: ontap/concepts/thin-provisioning-concept.html 
 ---
-= 存储效率的优势
-:icons: font
-:imagesdir: ../media/
-
-
-[role="lead"]
-通过存储效率，您可以以最低的成本存储最大数量的数据，并在占用较少空间的同时适应数据的快速增长。您可以使用 RAID-DP ， FlexVol ， Snapshot 副本，重复数据删除，数据压缩， SnapMirror 和 FlexClone ，以提高存储利用率并降低存储成本。如果结合使用，这些技术有助于提高性能。
-
-* 高密度磁盘驱动器（例如采用 RAID-DP 技术缓解的串行高级技术连接（ Serial Advanced Technology Attachment ， SATA ）驱动器）可提高效率和读取性能。
-* RAID-DP 是一种双奇偶校验 RAID6 实施，可防止双磁盘驱动器出现故障。
-* 通过精简配置，您可以维护一个通用的未分配存储空间，此空间可根据需要随时供其他应用程序使用。
-+
-它基于 FlexVol 技术。
-
-* Snapshot 副本是数据卷的时间点只读视图，占用的存储空间极少。
-+
-按顺序创建的两个 Snapshot 副本只有在这两个副本之间的时间间隔内添加或更改的块才会有所不同。此块增量行为会限制相关的存储容量消耗。
-
-* 重复数据删除可通过消除 FlexVol 卷中的冗余数据块来节省存储空间。
-* 数据压缩可在更少的空间中存储更多数据，并减少卷 SnapMirror 传输期间复制数据所需的时间和带宽。
-+
-您必须根据存储系统的要求和配置选择压缩类型（实时或后台）。实时压缩会检查数据是否可以压缩，压缩数据，然后将数据写入卷。在将所有数据写入卷后，无论文件是否可压缩，对所有文件都运行后台压缩。
-
-* SnapMirror 技术是一种灵活的解决方案，用于通过局域网，广域网和光纤通道网络复制数据。
-+
-它可以作为实施企业数据保护策略的关键组件。您可以将数据复制到一个或多个存储系统，以便在生产站点发生故障时最大限度地减少停机成本。您还可以使用 SnapMirror 技术将数据从多个数据中心集中备份到磁盘。
-
-* FlexClone 技术将数据卷，文件和 LUN 复制为即时虚拟副本。
-+
-FlexClone 卷，文件或 LUN 是 FlexVol 卷或其他 FlexClone 卷，文件或 LUN 的可写时间点映像。通过此技术，您可以高效地使用空间，从而仅存储在父克隆和克隆之间发生更改的数据。
-
-* 统一架构集成了多协议支持，可在一个平台上同时支持基于文件和基于块的存储。
-+
-借助 FlexArray 虚拟化，您可以在一个界面下虚拟化整个存储基础架构，并将上述所有效率应用于非 NetApp 系统。
+= 
 
 

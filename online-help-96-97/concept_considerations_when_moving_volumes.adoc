@@ -1,20 +1,7 @@
 ---
 permalink: online-help-96-97/concept_considerations_when_moving_volumes.html 
-sidebar: sidebar 
-keywords: move, volume, considerations, recommendations, configuration, system 
-summary: 移动卷具有许多注意事项和建议，这些注意事项和建议会受到要移动的卷或系统配置的影响。您应了解与移动卷相关的注意事项。 
+redirect: ontap/volumes/recommendations-moving-concept.html 
 ---
-= 移动卷时的注意事项
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-移动卷具有许多注意事项和建议，这些注意事项和建议会受到要移动的卷或系统配置的影响。您应了解与移动卷相关的注意事项。
-
-* 如果将启用了实时重复数据删除的卷从具有全闪存优化特性的聚合或 Flash Pool 聚合移动到 HDD 聚合，则此卷上会禁用实时重复数据删除。
-* 如果将启用了后台重复数据删除和实时数据压缩的卷从具有全闪存优化特性的聚合移动到 HDD 聚合，则此卷会自动启用后台数据压缩，后台重复数据删除和实时数据压缩。
-* 如果将启用了后台数据压缩的卷从 HDD 聚合移动到具有全闪存优化特性的聚合，则此卷将禁用后台数据压缩。
-* 如果将卷从 Flash Pool 聚合移动到非 Flash Pool 聚合，则会禁用缓存策略和保留优先级。
-* 如果将卷从非 Flash Pool 聚合移动到 Flash Pool 聚合，则会自动为该卷分配 `default` 缓存策略和 `default` 保留优先级。
 

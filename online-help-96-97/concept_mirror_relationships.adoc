@@ -1,13 +1,7 @@
 ---
 permalink: online-help-96-97/concept_mirror_relationships.html 
-sidebar: sidebar 
-keywords: system, manager, create, manage, mirror, relationship, policy, online, help 
-summary: 您可以使用 System Manager 通过镜像策略创建和管理镜像关系。 
+redirect: ontap/concept_dp_overview.html 
 ---
-= 镜像关系
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-您可以使用 System Manager 通过镜像策略创建和管理镜像关系。

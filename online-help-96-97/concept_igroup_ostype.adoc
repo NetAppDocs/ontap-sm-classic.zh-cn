@@ -1,15 +1,7 @@
 ---
 permalink: online-help-96-97/concept_igroup_ostype.html 
-sidebar: sidebar 
-keywords: ostype, igroup, host, operating, system, initiator, solaris, windows, hpux, aix, netware, xen, hyper v, vmware, linux, online, help 
-summary: 操作系统类型表示 igroup 中所有启动程序使用的主机操作系统类型。igroup 中的所有启动程序必须具有相同的操作系统类型。启动程序的操作系统类型包括 Solaris ， Windows ， HPUX ， AIX ， NetWare ， Xen ， hyper_v ， VMware 和 Linux 。 
+redirect: ontap/san-admin/igroups-concept.html 
 ---
-= igroup 操作系统类型
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-操作系统类型表示 igroup 中所有启动程序使用的主机操作系统类型。igroup 中的所有启动程序必须具有相同的操作系统类型。启动程序的操作系统类型为 `solaris` ， `windows` ， `HPUX` ， `AIX` ， `NetWare` ， `Xen` ， `hyper_v` ， `VMware` 和 `Linux 。`
-
-您必须为 igroup 选择一个操作系统类型。
