@@ -1,35 +1,26 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>什么是 SnapVault 备份</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="什么是 SnapVault 备份" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_what_snapvault_backup_is.html" />
-	<meta property="og:description" content="SnapVault 备份是 FlexVol 卷上的一组 Snapshot 副本，如果主数据不可用，您可以从中还原数据。Snapshot 副本是根据 Snapshot 策略创建的。SnapVault 备份会根据其计划和 SnapVault 策略规则备份 Snapshot 副本。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/>
-  
-  <meta name="description" content="SnapVault 备份是 FlexVol 卷上的一组 Snapshot 副本，如果主数据不可用，您可以从中还原数据。Snapshot 副本是根据 Snapshot 策略创建的。SnapVault 备份会根据其计划和 SnapVault 策略规则备份 Snapshot 副本。">
-  <meta name="keywords" content=" baseline, transfer, defined, snapvault, snapshot, copy, online, help">
-  
-  
-
-  <!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/zh-cn/ontap-sm-classic/images/favicon.ico" type="image/x-icon">
 
-  <!-- RSS Feed -->
-  
-
-  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
 
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
@@ -59,27 +50,11 @@
   
   <link rel="stylesheet" href="/zh-cn/ontap-sm-classic/css/landing-page.css" type="text/css">
   <link rel="stylesheet" href="/zh-cn/ontap-sm-classic/css/tabbed-blocks.css" type="text/css">
-  <link rel="stylesheet" href='/zh-cn/ontap-sm-classic/css/product-family.css' type="text/css">
-  
-
-  
-  <link rel='stylesheet' href='/zh-cn/ontap-sm-classic/css/na-feature.css' type='text/css'>
-  
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel='stylesheet' href='/zh-cn/ontap-sm-classic/css/na-feature.css' type='text/css'><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-  <!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
-  
-    <script src='/zh-cn/ontap-sm-classic/js/na-search.js'></script>
-  
 
-  
-  <script src='/zh-cn/ontap-sm-classic/js/na-pagenav.js'></script>
-  
-
-  <link rel='stylesheet' href='/zh-cn/ontap-sm-classic/css/prism.css' type='text/css'>
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-cn/ontap-sm-classic/js/na-search.js'></script><script src='/zh-cn/ontap-sm-classic/js/na-pagenav.js'></script><link rel='stylesheet' href='/zh-cn/ontap-sm-classic/css/prism.css' type='text/css'>
   <link rel='stylesheet' href='/zh-cn/ontap-sm-classic/css/prism-netapp.css' type='text/css'>
 
 
@@ -97,9 +72,7 @@
   <script src='/zh-cn/ontap-sm-classic/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src='/zh-cn/ontap-sm-classic/js/toc.js'></script>
-  <script src='/zh-cn/ontap-sm-classic/js/customscripts.js'></script>
-
-  <script>
+  <script src='/zh-cn/ontap-sm-classic/js/customscripts.js'></script><script>
       $(document).ready(function() {
           
           var collapseOnInit = true;
@@ -148,6 +121,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/zh-cn/ontap/concept_dp_overview.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -158,7 +133,6 @@
   }
   </script>
   <script src='/zh-cn/ontap-sm-classic/js/version-dropdown.js'></script>
-  <script src='/zh-cn/ontap-sm-classic/js/product-family.js'></script>
   <script src='/zh-cn/ontap-sm-classic/js/FileSaver.min.js'></script>
   <script src='/zh-cn/ontap-sm-classic/js/jszip-utils.min.js'></script>
   <script src='/zh-cn/ontap-sm-classic/js/jszip.min.js'></script>
@@ -171,6 +145,25 @@
       <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
       <div class="n-off-canvas-menu__content-wrap">
         <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div id="version-dropdown"></div>
+    <div class="page-nav-contribute"  >
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_what_snapvault_backup_is.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_what_snapvault_backup_is.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">在此页面上</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
   <!-- Start top_hat -->
   <div class="n-top-hat">
     <div class="n-container">
@@ -4832,7 +4825,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/online-help-96-97/concept_what_nvme_is.html">
         什么是 NVMe
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/online-help-96-97/concept_what_nvme_subsystem_is.html">
-        什么是 NVMe 子系统
+        管理 NVMe 子系统
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/online-help-96-97/concept_nvme_namespaces.html">
         NVMe 命名空间
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/online-help-96-97/reference_nvme_namespaces_window.html">
@@ -5027,26 +5020,22 @@
   
 
   <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
-    <!-- Begin of page container -->
-    <article class="page-content">
+    <!-- Begin of page container --><article class="page-content">
       <div class="ie-utility">
   <div class="ie-menu">
     <div class="n-breadcrumb">
       <ul class="n-breadcrumb__list">
         <li class="n-breadcrumb__list-item">
-          <a href="https://www.netapp.com">主页</a>
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          <a href="https://docs.netapp.com">文档</a>
-        </li>
+        
+
         
 
         <li class="n-breadcrumb__list-item">
           <a href="/zh-cn/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          什么是 SnapVault 备份
-        </li>
+
       </ul>
     </div>
     <div style="clear: both"></div><!-- Main needs to have height -->
@@ -5068,122 +5057,29 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">什么是 SnapVault 备份</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-23 21:34:26 +0000">02/23/2022</time>
+    <time datetime="2022-03-31 17:28:54 +0000">03/31/2022</time>
     
   
-
-<span>提供者
-  <a target="_blank" href="https://github.com/netapp-ivanad">
-    <img  class="avatar avatar-small"
-          alt="netapp-ivanad"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/76115643?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
-</span>
 
 
 </p>
 
-
-<div class="paragraph lead">
-<p>SnapVault 备份是 FlexVol 卷上的一组 Snapshot 副本，如果主数据不可用，您可以从中还原数据。Snapshot 副本是根据 Snapshot 策略创建的。SnapVault 备份会根据其计划和 SnapVault 策略规则备份 Snapshot 副本。</p>
-</div>
 <div class="paragraph">
-<p>SnapVault 备份是一种磁盘到磁盘备份解决方案，您也可以使用它来卸载磁带备份。如果系统上发生数据丢失或损坏，可以从 SnapVault 二级卷还原备份的数据，与传统磁带备份和还原操作相比，这样停机时间和不确定性就会减少。</p>
-</div>
-<div class="paragraph">
-<p>以下术语用于描述 SnapVault 备份：</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>* 基线传输 *</p>
-<div class="paragraph">
-<p>将主存储卷初始完整备份到二级系统上的相应卷。</p>
-</div>
-</li>
-<li>
-<p>* 二级卷 *</p>
-<div class="paragraph">
-<p>从主卷将数据备份到的卷。此类卷可以是级联或扇出备份配置中的二级或三级（及以上）目标。SnapVault 二级系统会维护 Snapshot 副本，以便进行长期存储和可能的还原操作。</p>
-</div>
-</li>
-<li>
-<p>* 增量传输 *</p>
-<div class="paragraph">
-<p>二级系统的后续备份，仅包含自上次传输操作以来对主数据所做的更改。</p>
-</div>
-</li>
-<li>
-<p>* SnapMirror 标签 *</p>
-<div class="paragraph">
-<p>用于标识 Snapshot 副本以在 SnapVault 备份中进行选择和保留的属性。每个 SnapVault 策略都会配置规则，用于选择主卷上的 Snapshot 副本以及传输与给定 SnapMirror 标签匹配的 Snapshot 副本。</p>
-</div>
-</li>
-<li>
-<p>* Snapshot 副本 *</p>
-<div class="paragraph">
-<p>源卷上手动创建的备份映像或由分配的策略按计划自动创建的备份映像。基线 Snapshot 副本包含要保护的整个源数据的副本；后续 Snapshot 副本包含源数据的差异副本。Snapshot 副本可以存储在源卷上，也可以存储在其他 Storage Virtual Machine （ SVM ）或集群中的其他目标卷上。</p>
-</div>
-<div class="paragraph">
-<p>Snapshot 副本可捕获每个源系统上卷数据的状态。对于 SnapVault 和镜像关系，此数据将传输到目标卷。</p>
-</div>
-</li>
-<li>
-<p>* 主卷 *</p>
-<div class="paragraph">
-<p>包含要备份的数据的卷。在级联或扇出备份部署中，主卷是备份到 SnapVault 备份的卷，而不管 SnapVault 源位于链中的哪个位置。在级联链配置中， A 与 B 具有镜像关系， B 与 C 具有 SnapVault 关系， B 充当 SnapVault 备份的源，即使它是链中的二级目标也是如此。</p>
-</div>
-</li>
-<li>
-<p>* SnapVault 关系 *</p>
-<div class="paragraph">
-<p>主卷与二级卷之间的一种备份关系，配置为 SnapVault 关系。</p>
-</div>
-</li>
-<li>
-<p>相关信息 *</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p><a href="reference_protection_window.html">保护窗口</a></p>
+<p>=</p>
 </div>
 
     </article>
     <!-- Page Container -->
   </div>
 
-  
-  <!-- Start Page Toolbar -->
-  <div class="page-nav-toolbar">
-    <div id="version-dropdown"></div>
-    <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[什么是 SnapVault 备份](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_what_snapvault_backup_is.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a>
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_what_snapvault_backup_is.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a>
-      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a>
-    </div>
-    <div class="page-nav-container">
-      <nav class="page-nav-fixed">
-        <div class="page-nav-title">在此页面上</div>
-        <div class="page-nav-links">
-          <ul class="page-nav-inner" id="page-menu"></ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-  
-  <div style="clear: both"></div><!-- Main needs to have height -->
-</div>
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
 
         </main>
 
@@ -5285,9 +5181,7 @@
 </div>
 </footer>
 
-      </div>
-
-      <!-- Elasticsearch JS -->
+      </div><!-- Elasticsearch JS -->
       <script type="text/javascript" src='/zh-cn/ontap-sm-classic/js/bundle.js'></script>
 
       <!-- Syntax Highlighting -->
@@ -5302,7 +5196,4 @@
     </script>
     <script src='/zh-cn/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/zh-cn/ontap-sm-classic/js/tabbed-blocks.js'></script>
-  </body>
-
-  
-</html>
+  </body></html>

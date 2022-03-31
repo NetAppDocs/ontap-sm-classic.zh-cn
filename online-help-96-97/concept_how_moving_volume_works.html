@@ -1,35 +1,26 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>移动 FlexVol 卷的工作原理</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="移动 FlexVol 卷的工作原理" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_how_moving_volume_works.html" />
-	<meta property="og:description" content="了解 FlexVol 卷移动的工作原理有助于确定卷移动是否满足服务级别协议的要求，并了解卷移动在卷移动过程中的位置。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/>
-  
-  <meta name="description" content="了解 FlexVol 卷移动的工作原理有助于确定卷移动是否满足服务级别协议的要求，并了解卷移动在卷移动过程中的位置。">
-  <meta name="keywords" content=" flexvol, volume, move, service, level, agreement, process, online, help">
-  
-  
-
-  <!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/zh-cn/ontap-sm-classic/images/favicon.ico" type="image/x-icon">
 
-  <!-- RSS Feed -->
-  
-
-  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
 
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
@@ -59,27 +50,11 @@
   
   <link rel="stylesheet" href="/zh-cn/ontap-sm-classic/css/landing-page.css" type="text/css">
   <link rel="stylesheet" href="/zh-cn/ontap-sm-classic/css/tabbed-blocks.css" type="text/css">
-  <link rel="stylesheet" href='/zh-cn/ontap-sm-classic/css/product-family.css' type="text/css">
-  
-
-  
-  <link rel='stylesheet' href='/zh-cn/ontap-sm-classic/css/na-feature.css' type='text/css'>
-  
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel='stylesheet' href='/zh-cn/ontap-sm-classic/css/na-feature.css' type='text/css'><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-  <!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
-  
-    <script src='/zh-cn/ontap-sm-classic/js/na-search.js'></script>
-  
 
-  
-  <script src='/zh-cn/ontap-sm-classic/js/na-pagenav.js'></script>
-  
-
-  <link rel='stylesheet' href='/zh-cn/ontap-sm-classic/css/prism.css' type='text/css'>
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/zh-cn/ontap-sm-classic/js/na-search.js'></script><script src='/zh-cn/ontap-sm-classic/js/na-pagenav.js'></script><link rel='stylesheet' href='/zh-cn/ontap-sm-classic/css/prism.css' type='text/css'>
   <link rel='stylesheet' href='/zh-cn/ontap-sm-classic/css/prism-netapp.css' type='text/css'>
 
 
@@ -97,9 +72,7 @@
   <script src='/zh-cn/ontap-sm-classic/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src='/zh-cn/ontap-sm-classic/js/toc.js'></script>
-  <script src='/zh-cn/ontap-sm-classic/js/customscripts.js'></script>
-
-  <script>
+  <script src='/zh-cn/ontap-sm-classic/js/customscripts.js'></script><script>
       $(document).ready(function() {
           
           var collapseOnInit = true;
@@ -148,6 +121,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/zh-cn/ontap/volumes/move-volume-concept.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -158,7 +133,6 @@
   }
   </script>
   <script src='/zh-cn/ontap-sm-classic/js/version-dropdown.js'></script>
-  <script src='/zh-cn/ontap-sm-classic/js/product-family.js'></script>
   <script src='/zh-cn/ontap-sm-classic/js/FileSaver.min.js'></script>
   <script src='/zh-cn/ontap-sm-classic/js/jszip-utils.min.js'></script>
   <script src='/zh-cn/ontap-sm-classic/js/jszip.min.js'></script>
@@ -171,6 +145,25 @@
       <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
       <div class="n-off-canvas-menu__content-wrap">
         <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div id="version-dropdown"></div>
+    <div class="page-nav-contribute"  >
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_how_moving_volume_works.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_how_moving_volume_works.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">在此页面上</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
   <!-- Start top_hat -->
   <div class="n-top-hat">
     <div class="n-container">
@@ -4832,7 +4825,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/online-help-96-97/concept_what_nvme_is.html">
         什么是 NVMe
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/online-help-96-97/concept_what_nvme_subsystem_is.html">
-        什么是 NVMe 子系统
+        管理 NVMe 子系统
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/online-help-96-97/concept_nvme_namespaces.html">
         NVMe 命名空间
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/online-help-96-97/reference_nvme_namespaces_window.html">
@@ -5027,26 +5020,22 @@
   
 
   <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
-    <!-- Begin of page container -->
-    <article class="page-content">
+    <!-- Begin of page container --><article class="page-content">
       <div class="ie-utility">
   <div class="ie-menu">
     <div class="n-breadcrumb">
       <ul class="n-breadcrumb__list">
         <li class="n-breadcrumb__list-item">
-          <a href="https://www.netapp.com">主页</a>
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          <a href="https://docs.netapp.com">文档</a>
-        </li>
+        
+
         
 
         <li class="n-breadcrumb__list-item">
           <a href="/zh-cn/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          移动 FlexVol 卷的工作原理
-        </li>
+
       </ul>
     </div>
     <div style="clear: both"></div><!-- Main needs to have height -->
@@ -5068,92 +5057,29 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">移动 FlexVol 卷的工作原理</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-23 21:34:26 +0000">02/23/2022</time>
+    <time datetime="2022-03-31 17:28:54 +0000">03/31/2022</time>
     
   
-
-<span>提供者
-  <a target="_blank" href="https://github.com/netapp-ivanad">
-    <img  class="avatar avatar-small"
-          alt="netapp-ivanad"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/76115643?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
-</span>
 
 
 </p>
 
-
-<div class="paragraph lead">
-<p>了解 FlexVol 卷移动的工作原理有助于确定卷移动是否满足服务级别协议的要求，并了解卷移动在卷移动过程中的位置。</p>
-</div>
 <div class="paragraph">
-<p>FlexVol 卷会从一个聚合或节点移动到同一 Storage Virtual Machine （ SVM ）中的另一个聚合或节点。卷移动不会在移动期间中断客户端访问。</p>
-</div>
-<div class="paragraph">
-<p>移动卷分为多个阶段：</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>在目标聚合上创建新卷。</p>
-</li>
-<li>
-<p>原始卷中的数据将复制到新卷。</p>
-<div class="paragraph">
-<p>在此期间，原始卷完好无损，可供客户端访问。</p>
-</div>
-</li>
-<li>
-<p>移动过程结束时，客户端访问会暂时被阻止。</p>
-<div class="paragraph">
-<p>在此期间，系统将执行从源卷到目标卷的最终复制，交换源卷和目标卷的标识，并将目标卷更改为源卷。</p>
-</div>
-</li>
-<li>
-<p>完成移动后，系统会将客户端流量路由到新的源卷并恢复客户端访问。</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>移动不会中断客户端访问，因为客户端访问被阻止的时间在客户端发现中断和超时之前结束。默认情况下，客户端访问会被阻止 35 秒。如果卷移动操作无法在拒绝访问时完成，则系统将中止卷移动操作的最后阶段，并允许客户端访问。默认情况下，系统会尝试最后阶段三次。第三次尝试后，系统会等待一小时，然后再尝试最后阶段。系统将运行卷移动操作的最后阶段，直到卷移动完成为止。</p>
+<p>=</p>
 </div>
 
     </article>
     <!-- Page Container -->
   </div>
 
-  
-  <!-- Start Page Toolbar -->
-  <div class="page-nav-toolbar">
-    <div id="version-dropdown"></div>
-    <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[移动 FlexVol 卷的工作原理](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_how_moving_volume_works.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a>
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_how_moving_volume_works.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a>
-      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a>
-    </div>
-    <div class="page-nav-container">
-      <nav class="page-nav-fixed">
-        <div class="page-nav-title">在此页面上</div>
-        <div class="page-nav-links">
-          <ul class="page-nav-inner" id="page-menu"></ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-  
-  <div style="clear: both"></div><!-- Main needs to have height -->
-</div>
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
 
         </main>
 
@@ -5255,9 +5181,7 @@
 </div>
 </footer>
 
-      </div>
-
-      <!-- Elasticsearch JS -->
+      </div><!-- Elasticsearch JS -->
       <script type="text/javascript" src='/zh-cn/ontap-sm-classic/js/bundle.js'></script>
 
       <!-- Syntax Highlighting -->
@@ -5272,7 +5196,4 @@
     </script>
     <script src='/zh-cn/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/zh-cn/ontap-sm-classic/js/tabbed-blocks.js'></script>
-  </body>
-
-  
-</html>
+  </body></html>
