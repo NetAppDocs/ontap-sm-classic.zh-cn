@@ -1,52 +1,7 @@
 ---
 permalink: online-help-96-97/reference_window_layout_customization.html 
-sidebar: sidebar 
-keywords: window, layout, customization, online, help, system, manager 
-summary: 您可以使用 System Manager 自定义窗口布局。通过自定义窗口，您可以控制可查看的数据以及数据的显示方式。 
+redirect: ontap-sm-classic/online-help-96-97/index.html 
 ---
-= 窗口布局自定义
-:icons: font
-:imagesdir: ../media/
+= 
 
-
-[role="lead"]
-您可以使用 System Manager 自定义窗口布局。通过自定义窗口，您可以控制可查看的数据以及数据的显示方式。
-
-* * 排序 *
-+
-您可以单击列标题以更改列条目的排序顺序。单击列标题时，会显示排序箭头（image:../media/icon_sort_arrow_up_sm_olh_96_97.gif["向上排序箭头图标"] 和 image:../media/icon_sort_arrow_down_sm_olh_96_97.gif["向下排序箭头图标"]）。
-
-* * 筛选 *
-+
-您可以单击筛选器图标（image:../media/filtering_icon.gif[""]）以仅显示与提供的条件匹配的条目。然后，您可以使用字符筛选器（？） 或字符串筛选器（ * ）以缩小搜索范围。将鼠标指针移动到列标题上方时，将显示筛选器图标。
-
-+
-您可以对一个或多个列应用筛选器。
-
-+
-[NOTE]
-====
-在对物理大小字段或可用大小字段应用筛选器时，您在这些字段中输入的任何不带单位后缀的值均视为以字节为单位。例如，如果在物理大小字段中输入值 1000 而未指定单位，则该值将自动视为 1000 字节。
-
-====
-* * 隐藏或显示列 *
-+
-您可以单击列显示图标（ *image:../media/show_hide_colume_button.gif[""] 显示 / 隐藏 * ）以选择要显示的列。选择适当的列后，您可以使用鼠标拖动这些列来对其重新排序。
-
-* * 自定义布局 *
-+
-您可以向上或向下拖动对象列表区域的底部，以调整窗口的主要区域大小。您还可以显示或隐藏相关对象列表和视图面板列表。您可以拖动垂直分隔器以调整列或窗口其他区域的宽度。
-
-* 正在搜索 *
-+
-您可以使用搜索框搜索卷， LUN ， qtree ，网络接口， Storage Virtual Machine （ SVM ），聚合，磁盘或以太网端口或所有这些对象。您可以单击结果以导航到对象的确切位置。
-
-+
-[NOTE]
-====
-** 搜索包含一个或多个的对象时^ \>\| 字符，结果显示正确，但无法导航到页面中的正确行。
-** 不能使用问号 \ （？ \ ）字符搜索对象。
-
-
-====
 

@@ -1,19 +1,7 @@
 ---
 permalink: online-help-96-97/reference_windows_layout.html 
-sidebar: sidebar 
-keywords: system, manager, window, layout, online, help 
-summary: 了解典型的窗口布局有助于您有效地导航和使用 System Manager 。 
+redirect: ontap-sm-classic/online-help-96-97/index.html 
 ---
-= System Manager 窗口布局
-:icons: font
-:imagesdir: ../media/
+= 
 
 
-[role="lead"]
-了解典型的窗口布局有助于您有效地导航和使用 System Manager 。
-
-
-
-== System Manager 窗口的典型布局
-
-image::../media/sample_window_new_for_9_6.gif[示例窗口新增 9 6]
