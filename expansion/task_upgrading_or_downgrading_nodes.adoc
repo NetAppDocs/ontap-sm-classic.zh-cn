@@ -35,7 +35,7 @@ localhost
 . 比较集群和节点上的 ONTAP 版本，然后执行以下操作之一：
 +
 ** 如果集群和节点上的 ONTAP 版本相同，则无需升级或降级。
-** 如果集群和节点上的 ONTAP 版本不同，则可以 link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["升级 ONTAP"] 在使用早期版本的节点上，也可以  适用于安装了更高版本的节点。
+** 如果集群和节点上的 ONTAP 版本不同，则可以 link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["升级 ONTAP"] 在使用早期版本的节点上，也可以 link:https://docs.netapp.com/us-en/ontap/revert/index.html["还原 ONTAP"] 适用于安装了更高版本的节点。
 
 
 

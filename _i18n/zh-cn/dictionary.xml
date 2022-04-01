@@ -1970,24 +1970,8 @@
   <block id="9be5107b34684c6d6f07fc8f3a5e7912" category="list-text">为 SVM 的多个卷或 qtree 分配相同的导出策略，以实现相同的客户端访问控制，而无需为每个卷或 qtree 创建新的导出策略。</block>
   <block id="515cefadfd6af4f7ede12a8911a09780" category="paragraph">如果客户端发出适用导出策略不允许的访问请求，则此请求将失败，并显示权限被拒绝的消息。如果客户端与导出策略中的任何规则不匹配，则会拒绝访问。如果导出策略为空，则会隐式拒绝所有访问。</block>
   <block id="5b5a7b680e035cb0a9b7133960d430db" category="paragraph">您可以在运行 ONTAP 的系统上动态修改导出策略。</block>
-  <block id="a97d22a110939965c22ab8951485f48b" category="summary">您可以使用 System Manager 自定义窗口布局。通过自定义窗口，您可以控制可查看的数据以及数据的显示方式。</block>
   <block id="636a8855963f727473bac2df49f2eeb8" category="doc">窗口布局自定义</block>
-  <block id="9d0d1e5100cdf0ea84e0c1a69c715320" category="list-text">* 排序 *</block>
-  <block id="54573dd2277a0755a87c3dc37a4387e9" category="inline-image-macro">向上排序箭头图标</block>
-  <block id="94a07ccfcf0a1a20248d2b6768d12cb1" category="inline-image-macro">向下排序箭头图标</block>
-  <block id="bd1257853afbafebdfe5accdc5ae96e0" category="paragraph">您可以单击列标题以更改列条目的排序顺序。单击列标题时，会显示排序箭头（<block ref="36e54f6fb7b69323bd3f14b9184edac8" category="inline-image-macro-rx" type="image"></block> 和 <block ref="077d5c954e01c97b6dc6a898d94802c8" category="inline-image-macro-rx" type="image"></block>）。</block>
   <block id="a1f6bd9b69c5d7f2afea049565273a91" category="list-text">* 筛选 *</block>
-  <block id="05701b7662654f0665f0992019742f34" category="paragraph">您可以单击筛选器图标（<block ref="0d0443b2cfbedaabba8459208eb255b0" category="inline-image-macro-rx" type="image"></block>）以仅显示与提供的条件匹配的条目。然后，您可以使用字符筛选器（？） 或字符串筛选器（ * ）以缩小搜索范围。将鼠标指针移动到列标题上方时，将显示筛选器图标。</block>
-  <block id="5634249a687f6f9e8f10f33996f713e0" category="paragraph">您可以对一个或多个列应用筛选器。</block>
-  <block id="099c10bd400d264498a1a2276b969d9f" category="paragraph">在对物理大小字段或可用大小字段应用筛选器时，您在这些字段中输入的任何不带单位后缀的值均视为以字节为单位。例如，如果在物理大小字段中输入值 1000 而未指定单位，则该值将自动视为 1000 字节。</block>
-  <block id="ae673d4c2ab28945e3da9c06c5d91553" category="list-text">* 隐藏或显示列 *</block>
-  <block id="8f1127f4e11c8b028af2fec42700572a" category="paragraph">您可以单击列显示图标（ *<block ref="6fbaf45a0bdcb30f20f6cb2f70aa2e50" category="inline-image-macro-rx" type="image"></block> 显示 / 隐藏 * ）以选择要显示的列。选择适当的列后，您可以使用鼠标拖动这些列来对其重新排序。</block>
-  <block id="7de84206aeb5bf9998fcffd5e132d785" category="list-text">* 自定义布局 *</block>
-  <block id="93a36d30b9bcccd374827e178e266005" category="paragraph">您可以向上或向下拖动对象列表区域的底部，以调整窗口的主要区域大小。您还可以显示或隐藏相关对象列表和视图面板列表。您可以拖动垂直分隔器以调整列或窗口其他区域的宽度。</block>
-  <block id="184205d666e871fef297df55a2c4cc58" category="list-text">正在搜索 *</block>
-  <block id="ad59505165e7de785e587f6aef45780e" category="paragraph">您可以使用搜索框搜索卷， LUN ， qtree ，网络接口， Storage Virtual Machine （ SVM ），聚合，磁盘或以太网端口或所有这些对象。您可以单击结果以导航到对象的确切位置。</block>
-  <block id="694c3d70b13369b037a06ec22b977a84" category="list-text">搜索包含一个或多个的对象时^ \&gt;\| 字符，结果显示正确，但无法导航到页面中的正确行。</block>
-  <block id="aa85cd51e1dc17a1c77d803dd48a0161" category="list-text">不能使用问号 \ （？ \ ）字符搜索对象。</block>
   <block id="deb3f2a63d57c6bce0c958914fba9a4d" category="summary">您可以使用系统警报窗口了解有关系统运行状况警报的更多信息。您还可以从窗口确认，删除和禁止警报。</block>
   <block id="9830254c3fdd4b989ca7485ca0cff864" category="doc">系统警报窗口</block>
   <block id="80caa2ab85b3b639ab4f856b312cb09b" category="list-text">* 确认 *</block>
@@ -2627,10 +2611,7 @@
   <block id="4ad33e0d007341fed44926497c80259b" category="list-text">单击 * 网络 * 选项卡。</block>
   <block id="63b92e6d6c29f0dee5081db251b8fbdd" category="list-text">在 * IP 空间 * 选项卡中，单击 * 创建 * 。</block>
   <block id="caa833fee856462c7c2d04fa48804047" category="list-text">在 * 创建 IP 空间 * 对话框中，为要创建的 IP 空间指定一个名称。</block>
-  <block id="0c977c8bdc810ffe6e4368d55425a607" category="summary">了解典型的窗口布局有助于您有效地导航和使用 System Manager 。</block>
   <block id="f292651045c183bc7c4cf9d2df59c36f" category="doc">System Manager 窗口布局</block>
-  <block id="3baf690fb0b5e2de1652e472abe4ad02" category="section-title">System Manager 窗口的典型布局</block>
-  <block id="0be0391eece03484130f4d6e6fbd7cd2" category="image-alt">示例窗口新增 9 6</block>
   <block id="da1f9aa178114b8d7b3ae1a118b9633f" category="summary">您可以使用 System Manager 中的 LUN 管理选项卡使选定的 LUN 联机并使其可供主机使用。</block>
   <block id="ef50835fdda9b89e011ae3fd8bd8a366" category="doc">使 LUN 联机</block>
   <block id="f0f8cd1a811733b198541b3b8c399cfe" category="paragraph">您可以使用 System Manager 中的 * LUN 管理 * 选项卡使选定的 LUN 联机并使其可供主机使用。</block>
@@ -9063,4 +9044,5 @@
   <block id="67f089ce62f54b39419b9b13e6c8663d" category="section-title">修改 BranchCache 设置</block>
   <block id="b66b8b21cafa185908f6cd71627ccf41" category="doc">管理 NVMe 子系统</block>
   <block id="ab0d1f1c8eac759e4de3ff1f519e6f70" category="paragraph">指定接口所属的子网。Mx * * 角色 *</block>
+  <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">关于 MetroCluster 切换和切回</block>
 </blocks>

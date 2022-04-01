@@ -44,9 +44,9 @@ summary: 您可以在新的或现有的 Storage Virtual Machine （ SVM ）上�
 
 | ONTAP 命令行界面 | link:https://docs.netapp.com/us-en/ontap/smb-config/index.html["使用命令行界面概述 SMB 配置"^]
 
+link:https://docs.netapp.com/us-en/ontap/nfs-config/index.html["使用命令行界面概述 NFS 配置"^]
 
+link:https://docs.netapp.com/us-en/ontap/nfs-admin/security-styles-their-effects-concept.html["安全模式及其影响是什么"^]
 
-
-
- 
+link:https://docs.netapp.com/us-en/ontap/nfs-admin/case-sensitivity-file-directory-multiprotocol-concept.html["在多协议环境中，文件和目录名称区分大小写"^] 
 |===
