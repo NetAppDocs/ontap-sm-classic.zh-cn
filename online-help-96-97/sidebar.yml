@@ -13,7 +13,6 @@ entries:
 - title: ONTAP System Manager 增强功能
   url: "/online-help-96-97/concept_system_manager_enhancements.html"
 - title: 使用 ONTAP 系统管理器设置集群
-  url: "/online-help-96-97/task_setting_up_cluster_by_using_oncommand_system_manager.html"
   entries:
   - title: 使用模板文件设置集群
     url: "/online-help-96-97/task_setting_up_cluster_using_template_file.html"
@@ -41,16 +40,12 @@ entries:
   url: "/online-help-96-97/task_configuring_system_manager_options.html"
 - title: 查看 ONTAP System Manager 日志文件
   url: "/online-help-96-97/task_viewing_system_manager_log_files.html"
-  entries:
-  - title: 系统日志记录的工作原理
-    url: "/online-help-96-97/concept_how_system_logging_works.html"
 - title: 使用 System Manager 配置集群
   url: "/online-help-96-97/concept_configuring_cluster_by_using_system_manager.html"
   entries:
   - title: 使用 ONTAP System Manager 基于浏览器的图形界面访问集群
     url: "/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html"
 - title: 设置集群
-  url: "/online-help-96-97/task_updating_cluster_name.html"
   entries:
   - title: 更新集群名称
     url: "/online-help-96-97/task_updating_cluster_name.html"
@@ -75,7 +70,6 @@ entries:
 - title: 设置网络
   url: "/online-help-96-97/concept_setting_up_network.html"
 - title: 设置物理存储
-  url: "/online-help-96-97/task_assigning_disks_to_nodes.html"
   entries:
   - title: 将磁盘分配给节点
     url: "/online-help-96-97/task_assigning_disks_to_nodes.html"
@@ -133,7 +127,7 @@ entries:
     - title: 配置更新窗口
       url: "/online-help-96-97/reference_configuration_updates_window.html"
   - title: MetroCluster 切换和切回
-    url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
+    url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
     entries:
     - title: MetroCluster 切换和切回工作流
       url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
@@ -204,10 +198,16 @@ entries:
   url: "/online-help-96-97/concept_ldap.html"
 - title: 用户
   url: "/online-help-96-97/concept_cluster_user_accounts.html"
+  entries:
+  - title: 角色
+    url: "/online-help-96-97/concept_roles_conceptual.html"
 - title: 角色
   url: "/online-help-96-97/concept_roles.html"
 - title: 管理网络
   url: "/online-help-96-97/concept_managing_network.html"
+  entries:
+  - title: 网络窗口
+    url: "/online-help-96-97/reference_network_window.html"
 - title: IP 空间
   url: "/online-help-96-97/concept_ipspaces.html"
 - title: 广播域
@@ -546,7 +546,7 @@ entries:
     url: "/online-help-96-97/task_starting_or_stopping_nvme_service.html"
   - title: 什么是 NVMe
     url: "/online-help-96-97/concept_what_nvme_is.html"
-  - title: 管理 NVMe 子系统
+  - title: 什么是 NVMe 子系统
     url: "/online-help-96-97/concept_what_nvme_subsystem_is.html"
   - title: NVMe 命名空间
     url: "/online-help-96-97/concept_nvme_namespaces.html"

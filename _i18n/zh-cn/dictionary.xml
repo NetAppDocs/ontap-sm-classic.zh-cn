@@ -9045,4 +9045,5 @@
   <block id="b66b8b21cafa185908f6cd71627ccf41" category="doc">管理 NVMe 子系统</block>
   <block id="ab0d1f1c8eac759e4de3ff1f519e6f70" category="paragraph">指定接口所属的子网。Mx * * 角色 *</block>
   <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">关于 MetroCluster 切换和切回</block>
+  <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">什么是 NVMe 子系统</block>
 </blocks>
