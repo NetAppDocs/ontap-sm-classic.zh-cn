@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>MetroCluster 切换和切回工作流</title>
+  <title>关于使用 System Manager classic 进行 MetroCluster 切换和切回— ONTAP 9.7 及更早版本</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="MetroCluster 切换和切回工作流" />
+  <meta property="og:title" content="关于使用 System Manager classic 进行 MetroCluster 切换和切回— ONTAP 9.7 及更早版本" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html" />
 	<meta property="og:description" content="从 System Manager 9.6 开始，您可以在发生灾难后使用 MetroCluster 切换和切回操作，因为灾难会使源集群中的所有节点无法访问并关闭电源。在灾难恢复测试或站点脱机进行维护等情况下，您还可以使用切换工作流进行协商（计划内）切换。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[MetroCluster 切换和切回工作流](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[关于使用 System Manager classic 进行 MetroCluster 切换和切回— ONTAP 9.7 及更早版本](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此页面上</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">MetroCluster 切换和切回工作流</h1>
+  <h1 class="n-doc__component-detail-heading">关于使用 System Manager classic 进行 MetroCluster 切换和切回— ONTAP 9.7 及更早版本</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-01 20:55:25 +0000">04/01/2022</time>
+    <time datetime="2022-04-09 01:51:31 +0000">04/09/2022</time>
     
   
 
@@ -5359,8 +5359,40 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>从 System Manager 9.6 开始，您可以在发生灾难后使用 MetroCluster 切换和切回操作，因为灾难会使源集群中的所有节点无法访问并关闭电源。在灾难恢复测试或站点脱机进行维护等情况下，您还可以使用切换工作流进行协商（计划内）切换。</p>
+<p>从 ONTAP System Manager 9.6 开始，如果发生灾难，导致源集群中的所有节点均无法访问并关闭，您可以使用 MetroCluster 切换和切回操作。在灾难恢复测试或站点脱机进行维护等情况下，您还可以使用切换工作流进行协商（计划内）切换。</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="关于-metrocluster-切换和切回">关于 MetroCluster 切换和切回</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>从 System Manager 9.6 开始，您可以使用 MetroCluster 切换和切回操作来允许一个集群站点接管另一个集群站点的任务。通过此功能，您可以方便地进行维护或从灾难中恢复。</p>
+</div>
+<div class="paragraph">
+<p>切换操作允许一个集群（站点 A ）接管另一个集群（站点 B ）通常执行的任务。切换后，可以关闭已接管的集群（站点 B ）以进行维护和修复。维护完成后，站点 B 将启动并完成修复任务，然后您可以启动切回操作，使修复后的集群（站点 B ）能够恢复其通常执行的任务。</p>
+</div>
+<div class="paragraph">
+<p>System Manager 支持两种切换操作，具体取决于远程集群站点的状态：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>协商（计划内）切换：当需要对集群执行计划内维护或测试灾难恢复过程时，您可以启动此操作。</p>
+</li>
+<li>
+<p>计划外切换：如果集群（站点 B ）发生灾难，而您希望其他站点或集群（站点 A ）在执行修复和维护期间接管受灾难影响的集群（站点 B ）的任务，则可以启动此操作。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>您可以在 System Manager 中对两个切换操作执行相同的步骤。启动切换时， System Manager 会确定此操作是否可行并相应地对齐工作负载。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="metrocluster-切换和切回工作流">MetroCluster 切换和切回工作流</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>切换和切回工作流的整个过程包括以下三个阶段：</p>
 </div>
@@ -5408,33 +5440,6 @@
 <div class="content">
 <img src="../media/switchover_switchback_workflow.jpg" alt="切换切回工作流">
 </div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="关于-metrocluster-切换和切回">关于 MetroCluster 切换和切回</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>从 System Manager 9.6 开始，您可以使用 MetroCluster 切换和切回操作来允许一个集群站点接管另一个集群站点的任务。通过此功能，您可以方便地进行维护或从灾难中恢复。</p>
-</div>
-<div class="paragraph">
-<p>切换操作允许一个集群（站点 A ）接管另一个集群（站点 B ）通常执行的任务。切换后，可以关闭已接管的集群（站点 B ）以进行维护和修复。维护完成后，站点 B 将启动并完成修复任务，然后您可以启动切回操作，使修复后的集群（站点 B ）能够恢复其通常执行的任务。</p>
-</div>
-<div class="paragraph">
-<p>System Manager 支持两种切换操作，具体取决于远程集群站点的状态：</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>协商（计划内）切换：当需要对集群执行计划内维护或测试灾难恢复过程时，您可以启动此操作。</p>
-</li>
-<li>
-<p>计划外切换：如果集群（站点 B ）发生灾难，而您希望其他站点或集群（站点 A ）在执行修复和维护期间接管受灾难影响的集群（站点 B ）的任务，则可以启动此操作。</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>您可以在 System Manager 中对两个切换操作执行相同的步骤。启动切换时， System Manager 会确定此操作是否可行并相应地对齐工作负载。</p>
 </div>
 </div>
 </div>
