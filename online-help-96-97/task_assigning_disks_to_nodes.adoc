@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, assign, disk, node, online, help 
 summary: 您可以使用 System Manager 将未分配磁盘的所有权分配给特定节点，以增加聚合或存储池的容量。 
 ---
-= 将磁盘分配给节点
+= 使用 System Manager - ONTAP 9.7 及更早版本将磁盘分配给节点
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 将未分配磁盘的所有权分配给特定节点，以增加聚合或存储池的容量。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将未分配磁盘的所有权分配给特定节点，以增加聚合或存储池的容量。
 
 .关于此任务
 * 如果满足以下条件，则可以分配磁盘：

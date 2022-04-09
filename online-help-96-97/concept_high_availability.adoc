@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: high, availability, system, manager, hardware, redundancy, nondisruptive, operations, fault, tolerance 
 summary: 您可以使用 System Manager 创建高可用性（ HA ）对，以提供无中断运行和容错所需的硬件冗余。 
 ---
-= 高可用性
+= 使用 System Manager - ONTAP 9.7 及更早版本创建高可用性对
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建高可用性（ HA ）对，以提供无中断运行和容错所需的硬件冗余。
+您可以使用 ONTAP System Manager classic （ 9.7 及更早版本提供）创建高可用性（ HA ）对，以提供无中断运行和容错所需的硬件冗余。
 
 
 

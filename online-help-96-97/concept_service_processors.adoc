@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: service, processors, monitor, manage, storage, system, manager, temperature, voltage, current, fan, speed, online, help, isolate, management, network, traffic, sp, bmc, e0m, interface, subnet, performance, routing, ip, address, edit 
 summary: 您可以使用服务处理器通过 System Manager 监控和管理存储系统参数，例如温度，电压，电流和风扇速度。 
 ---
-= 服务处理器
+= 将服务处理器与 System Manager 结合使用— ONTAP 9.7 及更早版本
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用服务处理器通过 System Manager 监控和管理存储系统参数，例如温度，电压，电流和风扇速度。
+您可以使用具有 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）的服务处理器来监控和管理存储系统参数，例如温度，电压，电流和风扇速度。
 
 
 

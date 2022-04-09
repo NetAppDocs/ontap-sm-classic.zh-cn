@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, configure, snmp, svm, cluster, online, help, test, trap, host, configuration, window, command, protocol, 
 summary: 您可以使用 System Manager 配置 SNMP 以监控集群中的 SVM 。 
 ---
-= SNMP
+= 使用 System Manager 配置 SNMP - ONTAP 9.7 及更早版本
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 配置 SNMP 以监控集群中的 SVM 。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）配置 SNMP 以监控集群中的 SVM 。
 
 
 

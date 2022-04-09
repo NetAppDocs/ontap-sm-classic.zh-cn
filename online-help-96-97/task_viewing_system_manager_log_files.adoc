@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: view, ontap, system, manager, log, file, online, help 
 summary: 如果您在使用 System Manager 时遇到任何问题，可以将日志文件发送给技术支持以帮助解决问题。System Manager 日志文件与 ONTAP 日志文件位于 mlog 目录中。 
 ---
-= 查看 ONTAP System Manager 日志文件
+= 查看 System Manager 日志文件— ONTAP 9.7 及更早版本
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果您在使用 System Manager 时遇到任何问题，可以将日志文件发送给技术支持以帮助解决问题。System Manager 日志文件与 ONTAP 日志文件一起位于 `mlog` 目录中。
+如果在使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）时遇到任何问题，您可以将日志文件发送给技术支持以帮助解决问题。System Manager 日志文件与 ONTAP 日志文件一起位于 `mlog` 目录中。
 
 .步骤
 . 确定托管集群管理 LIF 的节点。
@@ -41,13 +41,15 @@ summary: 如果您在使用 System Manager 时遇到任何问题，可以将日�
 
 == 系统日志记录的工作原理
 
- System logging is an essential tool for application troubleshooting. You should enable system logging so that if there is a problem with an application, the problem can be located. You can enable System Manager logging at runtime without modifying the application binary.
- Log output can be voluminous and therefore can become difficult to manage. System Manager enables you to refine the logging output by selecting which type of log statements are output. By default, system logging is set to INFO. You can choose one of the following log levels:
+系统日志记录是应用程序故障排除的重要工具。您应启用系统日志记录，以便在应用程序出现问题时可以找到问题所在。您可以在运行时启用 System Manager 日志记录，而无需修改应用程序二进制文件。
+
+日志输出可能非常庞大，因此难以管理。通过 System Manager ，您可以选择要输出的日志语句类型来细化日志记录输出。默认情况下，系统日志记录设置为信息。您可以选择以下日志级别之一：
+
 * 关闭
 * error
 * 警告
 * 信息
 * 调试
-+
- These levels function hierarchically. A log level set to OFF indicates no logging of messages.
 
+
+这些级别分层运行。如果日志级别设置为 off ，则表示不记录消息。

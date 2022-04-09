@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: add, microsoft, sql, server, san, system, manager, online, help, enhanced, tab 
 summary: 您可以使用增强型选项卡将基于 SAN 的 Microsoft SQL Server 实例添加到 System Manager 中。 
 ---
-= 将基于 SAN 的 Microsoft SQL Server 添加到 System Manager 中
+= 将基于 SAN 的 Microsoft SQL Server 添加到 System Manager — ONTAP 9.7 及更早版本
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用增强型选项卡将基于 SAN 的 Microsoft SQL Server 实例添加到 System Manager 中。
+您可以使用增强型选项卡将基于 SAN 的 Microsoft SQL Server 实例添加到 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中。
 
 以下操作步骤介绍了如何将基于 SAN 的 * Microsoft SQL Server* 实例添加到 System Manager 中。只有当集群已获得 CIFS 的许可时，才能选择 SMB 作为导出协议， CIFS 必须在 Storage Virtual Machine （ SVM ）上配置。
 

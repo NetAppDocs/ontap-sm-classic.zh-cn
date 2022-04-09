@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: sap, hana, provisioning, basic, template, online, help, system, manager 
 summary: 您可以使用 System Manager 快速为 SAP HANA 配置基本模板。 
 ---
-= 配置基本模板
+= 使用 System Manager — ONTAP 9.7 及更早版本配置基本模板
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 快速为 SAP HANA 配置基本模板。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）快速为 SAP HANA 配置基本模板。
 
 作为集群管理员，您可以通过配置基本模板来配置应用程序。此示例介绍如何配置 * SAP HANA Server* 。
 

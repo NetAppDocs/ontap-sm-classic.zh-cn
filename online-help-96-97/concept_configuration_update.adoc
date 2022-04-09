@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: configuration, update, system, manager, administration, detail, storage, virtual, machine, svm, online, help, window, tab, node, command, button 
 summary: 您可以使用 System Manager 配置 Storage Virtual Machine （ SVM ）的管理详细信息。 
 ---
-= 配置更新
+= 使用 System Manager 更新配置— ONTAP 9.7 及更早版本
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 配置 Storage Virtual Machine （ SVM ）的管理详细信息。
+您可以使用 ONTAP System Manager classic （在 9.7 及更早版本中提供）配置 Storage Virtual Machine （ SVM ）的管理详细信息。
 
 
 

@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: ipspace, edit,rename, system, manager, manage, online, help 
 summary: 您可以使用 System Manager 创建和管理 IP 空间。 
 ---
-= IP 空间
+= 使用 System Manager - ONTAP 9.7 及更早版本管理 IP 空间
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建和管理 IP 空间。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理 IP 空间。
 
 
 

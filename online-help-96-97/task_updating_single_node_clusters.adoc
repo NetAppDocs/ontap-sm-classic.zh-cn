@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: update, singe, node, cluster, system, manager, online, help 
 summary: 您可以使用 System Manager 更新单节点集群。 
 ---
-= 更新单节点集群
+= 使用 System Manager - ONTAP 9.7 及更早版本更新单节点集群
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 更新单节点集群。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）更新单节点集群。
 
 .开始之前
 * 集群必须运行 ONTAP 9.4 或更高版本。

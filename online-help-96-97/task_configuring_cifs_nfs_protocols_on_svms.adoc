@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, configuring, cifs, nfs, protocols, svm, online, help 
 summary: 您可以使用 System Manager 在 Storage Virtual Machine （ SVM ）上配置 CIFS 和 NFS 协议，以便为 NAS 客户端提供文件级数据访问。要启用 CIFS 协议，必须创建数据 LIF 和 CIFS 服务器。要启用 NFS 协议，您可以指定 NIS 详细信息和数据 LIF 。 
 ---
-= 在 SVM 上配置 CIFS 和 NFS 协议
+= 使用 System Manager - ONTAP 9.7 及更早版本在 SVM 上配置 CIFS 和 NFS 协议
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 在 Storage Virtual Machine （ SVM ）上配置 CIFS 和 NFS 协议，以便为 NAS 客户端提供文件级数据访问。要启用 CIFS 协议，必须创建数据 LIF 和 CIFS 服务器。要启用 NFS 协议，您可以指定 NIS 详细信息和数据 LIF 。
+您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）在 Storage Virtual Machine （ SVM ）上配置 CIFS 和 NFS 协议，以便为 NAS 客户端提供文件级数据访问。要启用 CIFS 协议，必须创建数据 LIF 和 CIFS 服务器。要启用 NFS 协议，您可以指定 NIS 详细信息和数据 LIF 。
 
 .开始之前
 * 要在 SVM 上配置或启用的协议必须获得许可。

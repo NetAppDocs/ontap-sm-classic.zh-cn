@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: svm, create, storage, virtual, machine, online, help 
 summary: 您可以使用 Storage Virtual Machine （ SVM ）窗口创建完全配置的 SVM 。在这些 SVM 上创建存储对象后， SVM 将提供数据。 
 ---
-= 创建 SVM ：
+= 使用 System Manager - ONTAP 9.7 及更早版本创建 SVM
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 Storage Virtual Machine （ SVM ）窗口创建完全配置的 SVM 。在这些 SVM 上创建存储对象后， SVM 将提供数据。
+在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中，您可以使用 Storage Virtual Machine （ SVM ）窗口创建完全配置的 SVM 。在这些 SVM 上创建存储对象后， SVM 将提供数据。
 
 .开始之前
 * 您必须已创建聚合，并且聚合必须处于联机状态。

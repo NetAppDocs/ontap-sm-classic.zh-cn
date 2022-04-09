@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, iscsi, protocol, svm, online, help, lif, portset 
 summary: 您可以使用 System Manager 在 Storage Virtual Machine （ SVM\ ）上配置 iSCSI 协议，以提供块级数据访问。您可以创建 iSCSI LIF 和端口集，然后将 LIF 添加到端口集。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。 
 ---
-= 在 SVM 上配置 iSCSI 协议
+= 使用 System Manager - ONTAP 9.7 及更早版本在 SVM 上配置 iSCSI 协议
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 在 Storage Virtual Machine （ SVM ）上配置 iSCSI 协议，以提供块级数据访问。您可以创建 iSCSI LIF 和端口集，然后将 LIF 添加到端口集。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。
+您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）在 Storage Virtual Machine （ SVM ）上配置 iSCSI 协议，以提供块级数据访问。您可以创建 iSCSI LIF 和端口集，然后将 LIF 添加到端口集。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。
 
 .开始之前
 * 必须在集群上启用 iSCSI 许可证。

@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: ldap, system, manager, configure, server, online, help, user, information 
 summary: 您可以使用 System Manager 配置集中维护用户信息的 LDAP 服务器。 
 ---
-= LDAP
+= 使用 System Manager - ONTAP 9.7 及更早版本配置 LDAP 服务器
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 配置集中维护用户信息的 LDAP 服务器。
+您可以使用 ONTAP System Manager classic （ 9.7 及更早版本）配置集中维护用户信息的 LDAP 服务器。
 
 
 

@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: review, storage, recommendation, window, online, help, create, aggregate 
 summary: 使用存储窗口，您可以查看为创建聚合提供的存储建议。 
 ---
-= 查看存储建议
+= 使用 System Manager — ONTAP 9.7 及更早版本查看存储建议
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-使用存储窗口，您可以查看为创建聚合提供的存储建议。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中的存储窗口查看为创建聚合提供的存储建议。
 
 您必须已设置集群，网络和支持详细信息。
 

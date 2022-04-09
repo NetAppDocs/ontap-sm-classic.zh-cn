@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: set, up, network, cluster, node, service, processor, dns, ntp, online, help 
 summary: 通过设置网络，您可以管理集群，节点和服务处理器。您还可以使用网络窗口设置 DNS 和 NTP 详细信息。 
 ---
-= 设置网络
+= 使用 System Manager - ONTAP 9.7 及更早版本设置网络
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-通过设置网络，您可以管理集群，节点和服务处理器。您还可以使用网络窗口设置 DNS 和 NTP 详细信息。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）设置网络来管理集群，节点和服务处理器。您还可以使用网络窗口设置 DNS 和 NTP 详细信息。
 
 您必须已设置集群。
 

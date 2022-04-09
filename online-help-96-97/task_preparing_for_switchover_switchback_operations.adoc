@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: prepare, switchover, switchback, operation, system, manager, online, help 
 summary: 在使用 System Manager 9.6 执行切换操作之前，您应验证是否已在受影响的站点上执行了必要的步骤。 
 ---
-= 准备切换和切回操作
+= 使用 System Manager classic - ONTAP 9.6 及更高版本准备切换和切回操作
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-在使用 System Manager 9.6 执行切换操作之前，您应验证是否已在受影响的站点上执行了必要的步骤。
+在使用 ONTAP System Manager classic 9.6 执行切换操作之前，您应验证是否已在受影响的站点上执行了必要的步骤。
 
 .步骤
 . 如果要从站点 B 上的灾难中恢复，则必须执行以下步骤：

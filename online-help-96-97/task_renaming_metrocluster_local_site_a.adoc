@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, metrocluster, rename, local, site, cluster, online, help 
 summary: 您可以使用 System Manager 重命名集群中的 MetroCluster 本地站点（站点 A ）。 
 ---
-= 重命名 MetroCluster 本地站点（站点 A ）
+= 使用 System Manger - ONTAP 9.7 及更早版本重命名 MetroCluster 本地站点（站点 A ）
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 重命名集群中的 MetroCluster 本地站点（站点 A ）。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重命名集群中的 MetroCluster 本地站点（站点 A ）。
 
 .步骤
 . 单击 * 配置 * > * 配置更新 * 。

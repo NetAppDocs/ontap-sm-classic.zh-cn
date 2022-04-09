@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: application, predefined, template, system, manager, configuration, provision 
 summary: 您可以使用 System Manager 中的预定义应用程序模板基于现有应用程序模板创建新配置。然后，您可以在 ONTAP 中配置应用程序实例。 
 ---
-= 应用程序
+= 使用 System Manager - ONTAP 9.7 及更早版本配置应用程序
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 中的预定义应用程序模板基于现有应用程序模板创建新配置。然后，您可以在 ONTAP 中配置应用程序实例。
+您可以使用 ONTAP System Manager 经典版中的预定义应用程序模板（在 ONTAP 9.7 及更早版本中提供），根据现有应用程序模板创建新配置。然后，您可以在 ONTAP 中配置应用程序实例。
 
 您可以通过单击 * 应用程序和层 * > * 应用程序 * 来配置应用程序。
 

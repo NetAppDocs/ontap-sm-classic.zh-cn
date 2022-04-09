@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, storage, create, fabricpool, aggregate, manually, system, manager, online, help, ssd 
 summary: 您可以使用 System Manager 手动创建启用了 FabricPool 的聚合，也可以通过将云层附加到 SSD 聚合将现有 SSD 聚合转换为启用了 FabricPool 的聚合。 
 ---
-= 通过手动创建启用了 FabricPool 的聚合来配置存储
+= 使用 System Manager — ONTAP 9.7 及更早版本手动创建启用了 FabricPool 的聚合来配置存储
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 手动创建启用了 FabricPool 的聚合，也可以通过将云层附加到 SSD 聚合将现有 SSD 聚合转换为启用了 FabricPool 的聚合。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建启用了 FabricPool 的聚合，或者通过将云层附加到 SSD 聚合将现有 SSD 聚合转换为启用了 FabricPool 的聚合。
 
 .开始之前
 * 您必须已创建云层并将其附加到 SSD 聚合所在的集群。

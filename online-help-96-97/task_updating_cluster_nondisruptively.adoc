@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: nondisruptive, upgrades, NDU, cluster, system, manager, online, help 
 summary: 您可以使用 System Manager 将运行 ONTAP 8.3.1 或更高版本的集群或高可用性对中的单个节点更新为特定版本的 ONTAP 软件，而不会中断对客户端数据的访问。 
 ---
-= 无中断更新集群
+= 使用 System Manager — ONTAP 9.7 及更早版本无中断地更新集群
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 将运行 ONTAP 8.3.1 或更高版本的集群或高可用性（ HA ）对中的各个节点更新为特定版本的 ONTAP 软件，而不会中断对客户端数据的访问。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）将运行 ONTAP 8.3.1 或更高版本的高可用性（ HA ）对中的集群或单个节点更新为特定版本的 ONTAP 软件，而不会中断客户端数据访问。
 
 .开始之前
 * 所有节点都必须位于 HA 对中。

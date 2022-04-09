@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, storage, create, manage, ipspace, broadcast, domain, subnet, network, interface, ethernet, port, fc, fcoe, adapter, online, help 
 summary: 您可以使用 System Manager 通过创建和管理 IP 空间，广播域，子网，网络接口，以太网端口， 和 FC/FCoE 适配器。 
 ---
-= 管理网络
+= 使用 System Manager — ONTAP 9.7 及更早版本管理网络
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 通过创建和管理 IP 空间，广播域，子网，网络接口，以太网端口， 和 FC/FCoE 适配器。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）通过创建和管理 IP 空间，广播域，子网，网络接口，以太网端口， 和 FC/FCoE 适配器。
 
 
 

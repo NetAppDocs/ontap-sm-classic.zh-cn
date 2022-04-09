@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, create, manage, broadcast, domain, online, help, edit, settings, port, delete 
 summary: 您可以使用 System Manager 创建和管理广播域。 
 ---
-= 广播域
+= 使用 System Manager - ONTAP 9.7 及更早版本管理广播域
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建和管理广播域。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理广播域。
 
 
 

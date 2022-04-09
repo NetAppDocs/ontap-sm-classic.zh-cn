@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: storage, service, definition, online, help, performance, factor 
 summary: ONTAP 包括映射到相应最低性能因素的预定义存储服务。 
 ---
-= 存储服务定义
+= System Manager - ONTAP 9.7 及更早版本的存储服务定义
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ONTAP 包括映射到相应最低性能因素的预定义存储服务。
+ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）包括预定义的存储服务，这些服务映射到相应的最低性能因素。
 
 集群或 SVM 中可用的实际存储服务集取决于构成 SVM 中聚合的存储类型。
 

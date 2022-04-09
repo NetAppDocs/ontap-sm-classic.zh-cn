@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: set, up, cluster, template, file, system, manager, online, help, autosupport 
 summary: 您可以使用 System Manager 中提供的模板文件来设置集群，方法是创建集群，设置节点管理和集群管理网络，然后设置事件通知。（从 ONTAP System Manager 9.6 开始，不支持 AutoSupport 。） 您可以下载 .xlsx 格式或 .csv 格式的模板文件。 
 ---
-= 使用模板文件设置集群
+= 使用 System Manager - ONTAP 9.7 及更早版本中的模板文件设置集群
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 中提供的模板文件来设置集群，方法是创建集群，设置节点管理和集群管理网络，然后设置事件通知。（从 ONTAP System Manager 9.6 开始，不支持 AutoSupport 。） 您可以下载格式为 ` .xlsx` 或 ` .csv` 的模板文件。
+您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中提供的模板文件来设置集群，方法是创建集群，设置节点管理和集群管理网络，然后设置事件通知。（从 ONTAP System Manager 9.6 开始，不支持 AutoSupport 。） 您可以下载格式为 ` .xlsx` 或 ` .csv` 的模板文件。
 
 .关于此任务
 * 如果集群支持 ONTAP 9.1 或更高版本，则只能添加运行 ONTAP 9.1 或更高版本的存储系统。

@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, storage, create, aggregate, manually, online, help, hdd, ssd, system, manager 
 summary: 您可以使用 System Manager 手动创建仅包含 HDD 或 SSD 的聚合。 
 ---
-= 通过手动创建聚合配置存储
+= 使用 System Manager — ONTAP 9.7 及更早版本手动创建聚合以配置存储
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 手动创建仅包含 HDD 或 SSD 的聚合。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建仅包含 HDD 或 SSD 的聚合。
 
 所有磁盘的大小必须相同。
 

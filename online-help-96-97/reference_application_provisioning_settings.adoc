@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: application, provisioning, setting, microsoft, sql, database, applications, san, mongodb, oracle, host, access, initiator, sap, hana, smb 
 summary: 在为数据库，服务器或虚拟桌面设置基本或增强型模板时，您必须向 System Manager 提供详细信息。配置应用程序后，您可以编辑详细信息并指定调整大小（仅增加大小）。本节介绍每个模板中的字段。仅显示配置或编辑特定应用程序设置所需的字段。 
 ---
-= 应用程序配置设置
+= System Manager - ONTAP 9.7 及更早版本中的应用程序配置设置
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-在为数据库，服务器或虚拟桌面设置基本或增强型模板时，您必须向 System Manager 提供详细信息。配置应用程序后，您可以编辑详细信息并指定调整大小（仅增加大小）。本节介绍每个模板中的字段。仅显示配置或编辑特定应用程序设置所需的字段。
+在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中为数据库，服务器或虚拟桌面设置基本或增强型模板时，您必须提供详细信息。配置应用程序后，您可以编辑详细信息并指定调整大小（仅增加大小）。本节介绍每个模板中的字段。仅显示配置或编辑特定应用程序设置所需的字段。
 
 
 

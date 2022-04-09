@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, system, manager, storage, create, flash, pool, aggregate, manually, online, help, hdd 
 summary: 您可以使用 System Manager 手动创建 Flash Pool 聚合，也可以通过添加 SSD 将现有 HDD 聚合转换为 Flash Pool 聚合。创建新的 HDD 聚合时，您可以为其配置 SSD 缓存并创建 Flash Pool 聚合。 
 ---
-= 通过手动创建 Flash Pool 聚合来配置存储
+= 使用 System Manager — ONTAP 9.7 及更早版本手动配置存储并创建 Flash Pool 聚合
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 手动创建 Flash Pool 聚合，也可以通过添加 SSD 将现有 HDD 聚合转换为 Flash Pool 聚合。创建新的 HDD 聚合时，您可以为其配置 SSD 缓存并创建 Flash Pool 聚合。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建 Flash Pool 聚合，或者通过添加 SSD 将现有 HDD 聚合转换为 Flash Pool 聚合。创建新的 HDD 聚合时，您可以为其配置 SSD 缓存并创建 Flash Pool 聚合。
 
 .开始之前
 * 您必须了解有关 Flash Pool 聚合 SSD 层大小和配置的平台专用最佳实践和工作负载专用最佳实践。

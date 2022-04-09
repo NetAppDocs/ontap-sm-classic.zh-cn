@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, worm, provision, storage, create, snaplock, aggregate, online, help 
 summary: '您可以使用 System Manager 手动创建 SnapLock 合规性聚合或 SnapLock 企业聚合。您可以在这些聚合上创建 SnapLock 卷，从而提供 " 一次写入，多次读取 " （ WORM ）功能。' 
 ---
-= 通过手动创建 SnapLock 聚合配置存储
+= 使用 System Manager — ONTAP 9.7 及更早版本手动创建 SnapLock 聚合
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 手动创建 SnapLock 合规性聚合或 SnapLock 企业聚合。您可以在这些聚合上创建 SnapLock 卷，从而提供 "`一次写入，多次读取` " （ WORM ）功能。
+您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建 SnapLock 合规性聚合或 SnapLock 企业聚合。您可以在这些聚合上创建 SnapLock 卷，从而提供 "`一次写入，多次读取` " （ WORM ）功能。
 
 必须已添加 SnapLock 许可证。
 

@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, storage, create, aggregate, recommendation, system, manager, online, help 
 summary: 您可以使用 System Manager 根据存储建议创建聚合。System Manager 可分析存储系统的配置并提供存储建议，例如要创建的聚合数，可用节点和可用备用磁盘。 
 ---
-= 通过根据存储建议创建聚合来配置存储
+= 使用 System Manager - ONTAP 9.7 及更早版本根据存储建议创建聚合
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 根据存储建议创建聚合。System Manager 可分析存储系统的配置并提供存储建议，例如要创建的聚合数，可用节点和可用备用磁盘。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）根据存储建议创建聚合。System Manager 可分析存储系统的配置并提供存储建议，例如要创建的聚合数，可用节点和可用备用磁盘。
 
 .关于此任务
 * 您不能根据 Cloud Volumes ONTAP ， ONTAP Select 和 MetroCluster 配置中的存储建议创建聚合。

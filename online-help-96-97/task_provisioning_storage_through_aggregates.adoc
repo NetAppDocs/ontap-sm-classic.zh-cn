@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: provision, storage, aggregates, snaplock, fabricpool, online, help, flash, pool 
 summary: 您可以根据存储建议创建聚合，也可以根据需要手动创建聚合。您可以使用 System Manager 创建 Flash Pool 聚合， SnapLock 聚合和启用了 FabricPool 的聚合，以便为一个或多个卷提供存储。 
 ---
-= 通过聚合配置存储
+= 使用 System Manager - ONTAP 9.7 及更早版本通过聚合配置存储
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以根据存储建议创建聚合，也可以根据需要手动创建聚合。您可以使用 System Manager 创建 Flash Pool 聚合， SnapLock 聚合和启用了 FabricPool 的聚合，以便为一个或多个卷提供存储。
+您可以根据存储建议创建聚合，也可以根据需要使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建聚合。您可以使用 System Manager 创建 Flash Pool 聚合， SnapLock 聚合和启用了 FabricPool 的聚合，以便为一个或多个卷提供存储。
 
 您必须有足够的备用磁盘来创建聚合。
 

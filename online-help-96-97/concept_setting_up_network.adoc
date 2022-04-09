@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: online, help, set, up, network, ipspace, broadcast, domain, subnet, system, manager, cluster, range 
 summary: 设置网络包括创建 IP 空间，广播域和子网。 
 ---
-= 设置网络
+= 使用 System Manager - ONTAP 9.7 及更早版本设置网络
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-设置网络包括创建 IP 空间，广播域和子网。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）设置网络。设置网络包括创建 IP 空间，广播域和子网。
 
 
 

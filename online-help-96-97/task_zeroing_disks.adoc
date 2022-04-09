@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: zero, spare, disks, system, manager, erase, data, online, help 
 summary: 您可以使用 System Manager 通过向备用磁盘写入零来擦除所有数据并格式化备用磁盘。然后，可以在新聚合中使用这些磁盘。 
 ---
-= 将备用磁盘置零
+= 使用 System Manager - ONTAP 9.7 及更早版本将备用磁盘置零
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 通过向备用磁盘写入零来擦除所有数据并格式化备用磁盘。然后，可以在新聚合中使用这些磁盘。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）擦除所有数据并通过向磁盘写入零来格式化备用磁盘。然后，可以在新聚合中使用这些磁盘。
 
 将备用磁盘置零后，集群中的所有备用磁盘（包括阵列 LUN ）都会置零。您可以将特定节点或整个集群的备用磁盘置零。
 

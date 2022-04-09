@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: set, up, saml, authentication, security, assertion, markup, idp, online, help, system, manager,  language, secure, identity, provide, 
 summary: 您可以设置安全断言标记语言（ SAML ）身份验证，以便远程用户在登录到 System Manager 之前通过安全身份提供程序（ IdP ）进行身份验证。 
 ---
-= 设置 SAML 身份验证
+= 使用 System Manager — ONTAP 9.7 及更早版本设置 SAML 身份验证
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以设置安全断言标记语言（ SAML ）身份验证，以便远程用户在登录到 System Manager 之前通过安全身份提供程序（ IdP ）进行身份验证。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）设置安全断言标记语言（ SAML ）身份验证。远程用户在登录到 System Manager 之前，会通过安全身份提供程序（ IdP ）进行身份验证。
 
 image::../media/mfa_workflow.gif[MFA 工作流]
 
