@@ -1,56 +1,8 @@
 ---
 permalink: online-help-96-97/task_provisioning_storage_by_creating_aggregate_manually.html 
-sidebar: sidebar 
-keywords: provision, storage, create, aggregate, manually, online, help, hdd, ssd, system, manager 
-summary: 您可以使用 System Manager 手动创建仅包含 HDD 或 SSD 的聚合。 
+redirect: ontap-sm-classic/online-help-96-97/task_provisioning_storage_through_aggregates.html 
 ---
-= 使用 System Manager — ONTAP 9.7 及更早版本手动创建聚合以配置存储
-:icons: font
-:imagesdir: ../media/
+= 
+:allow-uri-read: 
 
 
-[role="lead"]
-您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建仅包含 HDD 或 SSD 的聚合。
-
-所有磁盘的大小必须相同。
-
-.关于此任务
-* 如果要在 ONTAP Select 中的四节点集群上创建聚合，则默认情况下会选中镜像聚合选项。
-* 从 ONTAP 9.0 开始，您可以创建磁盘大小等于或大于 10 TB 的聚合。
-* 如果聚合磁盘的磁盘类型为 FSAS 或 MSATA ，并且磁盘大小等于或大于 10 TB ，则 RAID-TEC 是唯一可用的 RAID 类型。
-
-
-.步骤
-. 使用以下方法之一创建聚合：
-+
-** 单击 * 应用程序和层 * > * 存储层 * > * 添加聚合 * 。
-** 单击 * 存储 * > * 聚合和磁盘 * > * 聚合 * > * 创建 * 。
-
-
-. 启用 * 手动创建聚合 * 选项以创建聚合。
-. 创建聚合：
-+
-.. 指定聚合的名称，磁盘类型以及要包含在聚合中的磁盘或分区数。
-+
-最小热备用规则将应用于磁盘大小最大的磁盘组。
-
-.. 修改聚合的 RAID 配置：
-+
-... 单击 * 更改 * 。
-... 在更改 RAID 配置对话框中，指定 RAID 类型和 RAID 组大小。
-+
-共享磁盘支持两种 RAID 类型： RAID DP 和 RAID-TEC 。
-
-... 单击 * 保存 * 。
-
-
-.. 如果要镜像聚合，请选中 * 镜像此聚合 * 复选框。
-+
-对于 MetroCluster 配置，创建未镜像聚合会受到限制。因此，默认情况下， MetroCluster 配置会启用镜像选项。
-
-
-
-. 单击 * 创建 * 。
-
-
-此时将使用指定的配置创建聚合，并将其添加到聚合窗口的聚合列表中。

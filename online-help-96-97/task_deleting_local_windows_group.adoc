@@ -5,6 +5,7 @@ keywords: delete, local, windows, group, systems, manager, online, help, svm, ri
 summary: 如果不再需要使用某个本地 Windows 组来确定对 SVM 中数据的访问权限或为组成员分配 SVM 用户权限，则可以使用 System Manager 从 Storage Virtual Machine （ SVM ）中删除该组。 
 ---
 = 删除本地 Windows 组
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

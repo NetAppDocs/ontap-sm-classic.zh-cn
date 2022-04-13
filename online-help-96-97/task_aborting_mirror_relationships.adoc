@@ -5,6 +5,7 @@ keywords: abort, mirror, transfer, online, help, volume, replication
 summary: 您可以在数据传输完成之前中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。 
 ---
 = 中止镜像传输
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

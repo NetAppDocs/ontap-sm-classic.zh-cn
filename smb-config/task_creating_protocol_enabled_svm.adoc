@@ -5,6 +5,7 @@ keywords: cifs-enabled, svm, involve, cifs, volume, share, add, map, dns, server
 summary: 设置启用了 CIFS 的新 SVM 涉及使用 CIFS 卷和共享创建新 SVM ，在 DNS 服务器上添加映射以及从 Windows 管理主机验证 CIFS 访问。然后，您可以配置 CIFS 客户端访问。 
 ---
 = 创建启用了 CIFS 的新 SVM
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

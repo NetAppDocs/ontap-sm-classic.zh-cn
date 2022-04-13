@@ -5,6 +5,7 @@ keywords: expand, cluster, ensure, follow, plan, configuration, support, require
 summary: 在扩展集群之前，您必须确保满足以下条件：支持规划的配置，已存在所需的许可证，站点已准备就绪，集群交换机支持扩展，现有节点正在使用相同版本的 ONTAP 9 。 
 ---
 = 验证计划的配置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

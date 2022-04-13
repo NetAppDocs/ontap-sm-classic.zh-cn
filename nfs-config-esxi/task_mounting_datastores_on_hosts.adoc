@@ -5,6 +5,7 @@ keywords: mount, datastore, host, access, storage, provision, automatic, add, vm
 summary: 挂载数据存储库可使主机能够访问存储。配置数据存储库后，这些数据存储库将自动挂载到主机或集群中。将主机添加到 VMware 环境后，您可能需要在主机上挂载数据存储库。 
 ---
 = 在主机上挂载数据存储库
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

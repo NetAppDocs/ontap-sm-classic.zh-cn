@@ -5,6 +5,7 @@ keywords: virtual, storage, console, vmware, vsc, vsphere, automate, configurati
 summary: 适用于 VMware vSphere 的 Virtual Storage Console 可自动执行将 NetApp iSCSI 存储与 ESXi 主机结合使用所需的许多配置和配置任务。Virtual Storage Console 是 vCenter Server 的一个插件。 
 ---
 = 安装 Virtual Storage Console
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

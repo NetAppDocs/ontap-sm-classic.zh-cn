@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, create, edit, delete, volume, tab, cif, nfs, online, help 
 summary: 您可以使用 System Manager 创建，编辑和删除卷。 
 ---
-= Volumes
+= 在 System Manager - ONTAP 9.7 及更早版本中管理卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建，编辑和删除卷。
+您可以使用 ONTAP System Manager classic （在 9.7 及更早版本中提供）创建，编辑和删除卷。
 
 您可以使用卷选项卡访问集群中的所有卷，也可以使用 * SVM* > * 卷 * 访问特定于 SVM 的卷。
 

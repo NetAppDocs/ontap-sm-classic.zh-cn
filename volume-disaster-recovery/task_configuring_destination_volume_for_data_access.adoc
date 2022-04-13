@@ -5,6 +5,7 @@ keywords: activating, activate, destination, volume, configure, data, access, na
 summary: 激活目标卷后，您必须为该卷配置数据访问。在重新激活源卷之前， NAS 客户端和 SAN 主机可以从目标卷访问数据。 
 ---
 = 配置用于数据访问的目标卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, reassign, disks, node, online, help, node, aggregate, storage, pool 
 summary: 您可以使用 System Manager 将备用磁盘的所有权从一个节点重新分配给另一个节点，以增加聚合或存储池的容量。 
 ---
-= 将磁盘重新分配给节点
+= 使用 System Manager - ONTAP 9.7 及更早版本将磁盘重新分配给节点
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 将备用磁盘的所有权从一个节点重新分配给另一个节点，以增加聚合或存储池的容量。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将备用磁盘的所有权从一个节点重新分配给另一个节点，以增加聚合或存储池的容量。
 
 .关于此任务
 * 如果满足以下条件，您可以重新分配磁盘：

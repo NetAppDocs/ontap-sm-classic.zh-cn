@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: view, aggregate, information, online, help, system, manager 
 summary: 您可以使用 System Manager 中的聚合窗口查看有关聚合的名称，状态和空间信息。 
 ---
-= 查看聚合信息
+= 使用 System Manager - ONTAP 9.7 及更早版本查看聚合信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 中的聚合窗口查看有关聚合的名称，状态和空间信息。
+您可以使用 ONTAP System Manager classic 中的聚合窗口（在 ONTAP 9.7 及更早版本中提供）查看有关聚合的名称，状态和空间信息。
 
 .步骤
 . 选择以下方法之一：

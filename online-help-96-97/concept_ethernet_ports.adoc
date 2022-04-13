@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, manager, ethernet, port, create, online, help, create, interface, group, lacp, vlan, settings, duplex, mode, speed, mtu, size,  port, nodes, fcp, 
 summary: 您可以使用 System Manager 创建和管理以太网端口。 
 ---
-= 以太网端口
+= 使用 System Manager - ONTAP 9.7 及更早版本管理以太网端口
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建和管理以太网端口。
+您可以使用 ONTAP 系统经典版（在 ONTAP 9.7 及更早版本中可用）创建和管理以太网端口。
 
 
 

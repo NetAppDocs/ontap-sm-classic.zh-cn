@@ -5,6 +5,7 @@ keywords: system, manager, create, mirror, vault, relationship, destination, svm
 summary: 您可以使用 System Manager 从目标 Storage Virtual Machine （ SVM ）创建镜像和存储关系。通过创建此关系，您可以定期将数据从源卷传输到目标卷，从而更好地保护数据。此外，您还可以通过创建源卷的备份来长期保留数据。 
 ---
 = 从目标 SVM 创建镜像和存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

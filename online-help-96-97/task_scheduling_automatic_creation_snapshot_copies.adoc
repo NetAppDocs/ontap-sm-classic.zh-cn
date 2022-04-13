@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: schedule, automatic, creation, snapshot, copy, online, help 
 summary: 您可以使用 System Manager 为自动创建卷的 Snapshot 副本设置计划。您可以指定创建副本的时间和频率。您还可以指定保存的 Snapshot 副本数。 
 ---
-= 计划自动创建 Snapshot 副本
+= 使用 System Manager （ ONTAP 9.7 及更早版本）计划自动创建 Snapshot 副本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 为自动创建卷的 Snapshot 副本设置计划。您可以指定创建副本的时间和频率。您还可以指定保存的 Snapshot 副本数。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）为自动创建卷的 Snapshot 副本设置计划。您可以指定创建副本的时间和频率。您还可以指定保存的 Snapshot 副本数。
 
 .步骤
 . 单击 * 存储 * > * 卷 * 。

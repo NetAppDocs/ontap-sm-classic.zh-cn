@@ -5,6 +5,7 @@ keywords: service, processors, monitor, manage, storage, system, manager, temper
 summary: 您可以使用服务处理器通过 System Manager 监控和管理存储系统参数，例如温度，电压，电流和风扇速度。 
 ---
 = 将服务处理器与 System Manager 结合使用— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

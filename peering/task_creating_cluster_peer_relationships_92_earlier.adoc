@@ -5,6 +5,7 @@ keywords: create, cluster, peer, relationship, enter, predetermined, passphrase,
 summary: 您可以在两个集群之间创建集群对等关系，方法是输入预先确定的密码短语和远程集群的集群间 LIF 的 IP 地址，然后验证是否已成功创建此关系。 
 ---
 = 创建集群对等关系（ ONTAP 9.2 或更早版本）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

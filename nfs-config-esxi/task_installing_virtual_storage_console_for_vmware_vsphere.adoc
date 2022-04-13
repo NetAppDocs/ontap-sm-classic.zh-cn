@@ -5,6 +5,7 @@ keywords: configuration, provision, task, storage, esxi, host, plug-in, vcenter,
 summary: for 自动执行将存储与 ESXi 主机结合使用所需的许多配置和配置任务。是 vCenter Server 的插件。 
 ---
 = 安装
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

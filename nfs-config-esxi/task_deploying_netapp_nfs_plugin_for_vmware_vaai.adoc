@@ -5,6 +5,7 @@ keywords: plug-in, software, library, integrate, vmware, virtual, disk, librarie
 summary: 此插件是一个软件库，它集成了 ESXi 主机上安装的 VMware 虚拟磁盘库。通过下载并安装适用于 VMware VAAI 的 NFS 插件，您可以使用副本卸载和空间预留选项来提高克隆操作的性能。 
 ---
 = 部署适用于 VMware VAAI 的 NFS 插件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

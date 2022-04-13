@@ -5,6 +5,7 @@ keywords: add, cifs, volume, cifs-enabled, svm, involves, creating, create, conf
 summary: 将 CIFS 卷添加到启用了 CIFS 的 SVM 涉及创建和配置卷，创建共享并设置其权限以及从 Windows 管理主机验证访问。然后，您可以配置 CIFS 客户端访问。 
 ---
 = 将 CIFS 卷添加到启用了 CIFS 的 SVM
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

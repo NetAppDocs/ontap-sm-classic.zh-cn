@@ -5,6 +5,7 @@ keywords: create, local, window, group, online, help, system, manager
 summary: 您可以使用 System Manager 创建本地 Windows 组，这些组可用于授权通过 SMB 连接访问 Storage Virtual Machine （ SVM ）中包含的数据。您还可以分配权限，以定义组成员在执行管理活动时所拥有的用户权限或功能。 
 ---
 = 创建本地 Windows 组
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

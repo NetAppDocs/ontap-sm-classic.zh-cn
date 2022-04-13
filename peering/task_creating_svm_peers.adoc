@@ -5,6 +5,7 @@ keywords: storage, virtual, machine, svm, peer, enable, establish, relationship,
 summary: '从 ONTAP 9.3 开始，到 ONTAP 9.7 为止，您可以使用 ONTAP 系统管理器的 " 经典 " 界面创建 SVM 对等关系。通过 Storage Virtual Machine （ SVM ）对等关系，您可以在两个 SVM 之间建立对等关系以进行数据保护。' 
 ---
 = 创建 SVM 对等关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

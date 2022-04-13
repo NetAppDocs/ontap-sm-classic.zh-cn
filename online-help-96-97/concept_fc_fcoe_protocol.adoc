@@ -5,6 +5,7 @@ keywords: system, manager, configure, fc, fcoe, protocol, online, help, change, 
 summary: 您可以使用 System Manager 配置 FC/FCoE 协议。 
 ---
 = FC/FCoE 协议
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

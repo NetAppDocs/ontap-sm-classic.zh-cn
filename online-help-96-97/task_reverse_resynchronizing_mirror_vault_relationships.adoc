@@ -5,6 +5,7 @@ keywords: reverse, resynchronize, mirror, vault, relationship, system, manager, 
 summary: 您可以使用 System Manager 重新建立先前已断开的镜像和存储关系。在反向重新同步操作中，源卷和目标卷的功能将发生反转。在修复或替换源卷，更新源卷以及重新建立系统的原始配置时，您可以使用目标卷提供数据。 
 ---
 = 反向重新同步镜像和存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

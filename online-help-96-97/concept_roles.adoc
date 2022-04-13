@@ -5,6 +5,7 @@ keywords: system, manager, role, create, user, access, control, online, help
 summary: 您可以使用 System Manager 创建受访问控制的用户角色。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本管理角色
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: system, manager, configure, system, manager, option, online, help
 summary: 您可以启用日志记录并为 System Manager 指定非活动超时值。 
 ---
 = 配置 System Manager 选项— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

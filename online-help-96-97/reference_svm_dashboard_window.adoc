@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: svm, dashboard, detail, online, help 
 summary: 信息板可提供有关 Storage Virtual Machine （ SVM ）及其性能的累积概览信息。您可以使用信息板窗口查看与 SVM 相关的重要信息，例如配置的协议，即将达到容量的卷以及性能。 
 ---
-= SVM 信息板窗口
+= System Manager 中的 SVM 信息板窗口— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-信息板可提供有关 Storage Virtual Machine （ SVM ）及其性能的累积概览信息。您可以使用信息板窗口查看与 SVM 相关的重要信息，例如配置的协议，即将达到容量的卷以及性能。
+ONTAP System Manager classic 中的信息板窗口（在 ONTAP 9.7 及更早版本中提供）可提供有关 Storage Virtual Machine （ SVM ）及其性能的累积概览信息。您可以使用信息板窗口查看与 SVM 相关的重要信息，例如配置的协议，即将达到容量的卷以及性能。
 
 
 

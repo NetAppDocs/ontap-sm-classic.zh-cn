@@ -5,6 +5,7 @@ keywords: esxi, host, network, port, iscsi, connection, storage, cluster, config
 summary: ESXi 主机需要使用网络端口才能通过 iSCSI 连接到存储集群。 
 ---
 = 配置主机 iSCSI 端口和 vSwitch
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

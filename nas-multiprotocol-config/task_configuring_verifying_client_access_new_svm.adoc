@@ -5,6 +5,7 @@ keywords: configure, client, access, unix, ntfs, file, modify, share, acl, add, 
 summary: 准备好后，您可以通过设置 UNIX 或 NTFS 文件权限，修改共享 ACL 以及添加导出规则来配置客户端访问。然后，您应测试受影响的用户或组是否可以访问此卷。 
 ---
 = 配置并验证 CIFS 和 NFS 客户端访问
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

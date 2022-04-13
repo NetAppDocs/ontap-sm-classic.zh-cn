@@ -5,6 +5,7 @@ keywords: quiesce, break, snapmirror, relationship, activate, destination, volum
 summary: 要激活目标卷，必须暂停并中断 SnapMirror 关系。暂停后，未来的 SnapMirror 数据传输将被禁用。 
 ---
 = 断开 SnapMirror 关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

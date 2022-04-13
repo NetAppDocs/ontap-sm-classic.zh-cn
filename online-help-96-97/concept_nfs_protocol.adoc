@@ -5,6 +5,7 @@ keywords: nfs, protocol, system, manager, authenticate, client, asses, data, svm
 summary: 您可以使用 System Manager 对 NFS 客户端进行身份验证，以访问 SVM 上的数据。 
 ---
 = NFS 协议
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: NVMe, protocol, online, help, svm, system, manager, namespace, host, s
 summary: 您可以使用 System Manager 为 SVM 设置 NVMe 协议。在 SVM 上启用 NVMe 协议后，您可以配置一个或多个命名空间并将其分配给主机和子系统。 
 ---
 = 设置 NVMe
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

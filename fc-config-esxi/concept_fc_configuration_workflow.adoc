@@ -5,6 +5,7 @@ keywords: storage, available, fc, provision, volume, lun, storage, virtual, mach
 summary: 使用 FC 为主机提供存储时，您需要在 Storage Virtual Machine 上配置卷和 LUN ，然后从主机连接到 LUN 。 
 ---
 = FC 配置工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: system, manager, restore, volume, vault, relationship, online, help, s
 summary: 如果源数据损坏且不再可用，您可以使用 System Manager 将 Snapshot 副本还原到源卷或其他卷。您可以将原始数据替换为目标卷中的 Snapshot 副本。 
 ---
 = 还原存储关系中的卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

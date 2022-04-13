@@ -5,6 +5,7 @@ keywords: sap, hana, provisioning, basic, template, online, help, system, manage
 summary: 您可以使用 System Manager 快速为 SAP HANA 配置基本模板。 
 ---
 = 使用 System Manager — ONTAP 9.7 及更早版本配置基本模板
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

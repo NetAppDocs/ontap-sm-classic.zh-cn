@@ -5,6 +5,7 @@ keywords: storage, esx, iscsi, provision, volume, lun, virtual, machine, svm, vm
 summary: 使用 iSCSI 使存储可供 ESXi 主机使用时，您可以使用适用于 VMware vSphere 的 Virtual Storage Console 在 Storage Virtual Machine 上配置卷和 LUN ，然后从主机连接到 LUN 。 
 ---
 = iSCSI 配置工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

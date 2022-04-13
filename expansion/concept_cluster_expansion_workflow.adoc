@@ -5,6 +5,7 @@ keywords: cluster, expansion, workflow
 summary: 集群扩展工作流 
 ---
 = 集群扩展工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

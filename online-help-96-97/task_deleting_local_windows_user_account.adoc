@@ -5,6 +5,7 @@ keywords: delte, local, windows, user, account, system, manager, online, help, c
 summary: 如果不再需要使用某个本地 Windows 用户帐户对 SVM 的 CIFS 服务器进行本地 CIFS 身份验证或确定对 SVM 中数据的访问权限，则可以使用 System Manager 从 Storage Virtual Machine （ SVM ）中删除此用户帐户。 
 ---
 = 删除本地 Windows 用户帐户
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: volume, move, tape, ndmp, configuration, moving, baseline, migrate, ba
 summary: 如果移动的卷之前已在特定配置中使用 NDMP 备份到磁带，则在移动此卷后，您可以执行以下操作之一以确保此卷继续成功备份： 创建基线或将备份 LIF 迁移到包含所移动卷的节点。 
 ---
 = 移动卷后更新 NDMP 备份
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

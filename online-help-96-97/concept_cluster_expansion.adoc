@@ -5,6 +5,7 @@ keywords: cluster, expanision, system, manager, storage, size, capabilities, add
 summary: 您可以使用 System Manager 向集群添加兼容节点并配置节点网络详细信息，以增加存储的大小和功能。您还可以查看节点的摘要。 
 ---
 = 使用 System Manager 进行集群扩展— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

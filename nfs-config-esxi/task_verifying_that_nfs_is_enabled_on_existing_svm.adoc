@@ -5,6 +5,7 @@ keywords: verify, nfs, enable, configure, access, esxi, verify that nfs is enabl
 summary: 如果选择使用现有 SVM ，则必须先验证是否已在 SVM 上启用 NFS 。然后，您可以使用 Virtual Storage Console 使用 ESXi 配置 NFS 访问并验证是否已为 ESXi 启用 NFS 。 
 ---
 = 验证是否已在现有上启用 NFS
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

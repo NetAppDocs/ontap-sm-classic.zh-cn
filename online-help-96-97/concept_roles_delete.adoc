@@ -5,6 +5,7 @@ keywords: system, manager, create, manage, role, online, help, svm, edit
 summary: 您可以使用 System Manager 创建和管理角色。 
 ---
 = 角色
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

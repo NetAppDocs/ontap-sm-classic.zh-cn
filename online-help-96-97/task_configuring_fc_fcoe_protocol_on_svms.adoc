@@ -5,6 +5,7 @@ keywords: online, help, configure, fc, protocol, fcoe, svm, online, help, system
 summary: 您可以在 Storage Virtual Machine （ SVM ）上为 SAN 主机配置 FC 协议和 FCoE 协议。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。根据您的要求，您可以使用 System Manager 配置 FC 协议或 FCoE 协议，也可以同时配置这两种协议。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本在 SVM 上配置 FC 协议和 FCoE 协议
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

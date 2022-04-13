@@ -5,6 +5,7 @@ keywords: exist, storage, virtual, machine, svm, verify, fc, service, run, ontap
 summary: 如果选择使用现有 Storage Virtual Machine （ SVM ），则必须使用 ONTAP 系统管理器验证此 SVM 上是否正在运行 FC 服务。此外，还必须验证是否已创建 FC 逻辑接口（ LIF ）。 
 ---
 = 验证 FC 服务是否正在现有 SVM 上运行
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

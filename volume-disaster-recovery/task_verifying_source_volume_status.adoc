@@ -5,6 +5,7 @@ keywords: source, volume, unavailable, verify, offline, identify, destination, v
 summary: 如果源卷不可用，您必须验证源卷是否已脱机，然后确定必须激活以提供数据访问的目标卷。 
 ---
 = 验证源卷的状态
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

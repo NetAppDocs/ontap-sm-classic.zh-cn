@@ -5,6 +5,7 @@ keywords: system, manager, increase, size, capabilities, capability, storage, no
 summary: 您可以使用 System Manager 通过向现有集群添加节点来增加存储系统的大小和功能。如果有效集群版本为 ONTAP 9.2 ，则系统管理器会自动启用此功能。 
 ---
 = 使用 System Manager 向集群添加节点
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

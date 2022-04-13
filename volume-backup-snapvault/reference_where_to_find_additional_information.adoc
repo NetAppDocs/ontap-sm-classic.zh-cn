@@ -5,6 +5,7 @@ keywords: documentation, restore, data, destination, volume, test, backed-up, so
 summary: 您可以使用其他文档从目标卷还原数据，以测试备份的数据或源卷丢失时的数据。 
 ---
 = 从何处查找追加信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

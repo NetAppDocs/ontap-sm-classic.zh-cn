@@ -5,6 +5,7 @@ keywords: edit, mirror, vault, relationship, system, manager, online, help
 summary: 您可以使用 System Manager 通过修改选定策略或计划来编辑镜像和存储关系。但是，您不能编辑现有策略或计划的参数。 
 ---
 = 编辑镜像和存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

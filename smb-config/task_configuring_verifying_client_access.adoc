@@ -5,6 +5,7 @@ keywords: client, access, share, setting, ntfs, file, permission, windows, explo
 summary: 准备好后，您可以通过在 Windows 资源管理器中设置 NTFS 文件权限并在 System Manager 中修改共享 ACL ，为选定客户端授予对共享的访问权限。然后，您应测试受影响的用户或组是否可以访问此卷。 
 ---
 = 配置并验证 CIFS 客户端访问
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

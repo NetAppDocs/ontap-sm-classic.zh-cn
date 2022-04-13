@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, nfs, datastore, vmware, online, help, system, manager 
 summary: 您可以使用 System Manager 中的为 VMware 创建 NFS 数据存储库向导为 VMware 创建 NFS 数据存储库。您可以为 NFS 数据存储库创建卷，并指定可访问 NFS 数据存储库的 ESX 服务器。 
 ---
-= 为 VMware 创建 NFS 数据存储库
+= 使用 System Manager - ONTAP 9.7 及更早版本为 VMware 创建 NFS 数据存储库
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 中的为 VMware 创建 NFS 数据存储库向导为 VMware 创建 NFS 数据存储库。您可以为 NFS 数据存储库创建卷，并指定可访问 NFS 数据存储库的 ESX 服务器。
+您可以使用 ONTAP System Manager 经典版中的 " 为 VMware 创建 NFS 数据存储库 " 向导（在 ONTAP 9.7 及更早版本中提供）为 VMware 创建 NFS 数据存储库。您可以为 NFS 数据存储库创建卷，并指定可访问 NFS 数据存储库的 ESX 服务器。
 
 NFS 服务必须获得许可。
 

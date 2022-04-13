@@ -5,6 +5,7 @@ keywords: ensure, esxi, practice, setting, correct, host, loss, nfs, connection,
 summary: 您必须确保 ESXi 主机最佳实践设置正确，以便 ESXi 主机能够正确管理 NFS 连接或存储的丢失。 
 ---
 = 配置 ESXi 主机最佳实践设置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

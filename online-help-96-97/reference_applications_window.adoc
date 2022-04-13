@@ -5,6 +5,7 @@ keywords: applications, window, svm, online, help, storage, virtual, machine, on
 summary: 您可以使用 System Manager 显示 Storage Virtual Machine （ SVM ）中的应用程序列表。此列表包含有关每个应用程序的详细信息。 
 ---
 = System Manager 中的 "Applications （应用程序） " 窗口 - ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

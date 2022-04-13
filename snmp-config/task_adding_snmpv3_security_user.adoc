@@ -5,6 +5,7 @@ keywords: snmpv3, offer, advance, security, passphrase, encryption, system, mana
 summary: '您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面在集群级别添加 SNMPv3 用户。' 
 ---
 = 添加 SNMPv3 安全用户
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

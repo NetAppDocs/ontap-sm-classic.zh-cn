@@ -5,6 +5,7 @@ keywords: esxi, host, network, port, nfs, connection, storage, cluster, configur
 summary: ESXi 主机需要使用网络端口才能通过 NFS 连接到存储集群。 
 ---
 = 配置主机端口和 vSwitch
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: resynchronize, resynchronizing, data, destination, volume, source, act
 summary: 在将数据从目标卷重新同步到源卷之后，您必须通过中断 SnapMirror 关系来激活源卷。然后，您应重新同步目标卷以保护重新激活的源卷。 
 ---
 = 重新激活源卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

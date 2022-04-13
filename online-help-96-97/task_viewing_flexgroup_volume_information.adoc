@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: flexgroup, volume, graphical, online, help, system, manager 
 summary: 您可以使用 System Manager 查看有关 FlexGroup 卷的信息。您可以通过图形方式查看 FlexGroup 卷的已分配空间，保护状态和性能。 
 ---
-= 查看 FlexGroup 卷信息
+= 使用 System Manager - ONTAP 9.7 及更早版本查看 FlexGroup 卷信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 查看有关 FlexGroup 卷的信息。您可以通过图形方式查看 FlexGroup 卷的已分配空间，保护状态和性能。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）查看有关 FlexGroup 卷的信息。您可以通过图形方式查看 FlexGroup 卷的已分配空间，保护状态和性能。
 
 此外，您还可以查看 FlexGroup 卷可用的 Snapshot 副本， FlexGroup 卷的数据保护关系，以及基于延迟， IOPS 和吞吐量的 FlexGroup 卷的平均性能指标，读取性能指标和写入性能指标。
 

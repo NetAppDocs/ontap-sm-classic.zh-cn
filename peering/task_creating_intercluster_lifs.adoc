@@ -5,6 +5,7 @@ keywords: creating, create, intercluster, logical, interface, lif, enable, netwo
 summary: '从 ONTAP 9.3 开始，直到 ONTAP 9.7 为止，您可以使用 ONTAP 系统管理器的 " 经典 " 界面创建集群间逻辑接口（ LIF ），从而使集群网络能够与节点进行通信。您必须在要为其创建对等关系的每个集群中的每个节点上，在要用于对等关系的每个 IP 空间内创建一个集群间 LIF 。' 
 ---
 = 创建集群间 LIF （从 ONTAP 9.3 开始）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: abort, snapshot, copy, transfer, online, help, system, manager
 summary: 您可以使用 System Manager 中止或停止当前正在进行的数据传输。 
 ---
 = 中止 Snapshot 副本传输
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

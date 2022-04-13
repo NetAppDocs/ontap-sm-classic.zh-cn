@@ -5,6 +5,7 @@ keywords: content, protect, source, volume, peer, ontap, cluster, preparation, d
 summary: 您可以快速保护对等 ONTAP 集群上的源卷，为灾难恢复做好准备。如果您要配置和监控对等集群之间的 SnapMirror 关系以实现卷灾难恢复，并且这些任务不需要大量概念背景，则应使用此内容。 
 ---
 = 卷灾难恢复准备概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

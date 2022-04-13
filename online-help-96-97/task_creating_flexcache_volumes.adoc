@@ -5,6 +5,7 @@ keywords: online, help, create, flexcache, volume, system, manager
 summary: 从 System Manager 9.6 开始，您可以创建 FlexCache 卷。 
 ---
 = 创建 FlexCache 卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

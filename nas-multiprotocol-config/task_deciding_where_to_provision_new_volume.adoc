@@ -5,6 +5,7 @@ keywords: create, multiprotocol, volume, volume, storage, virtual, machine, svm,
 summary: 在创建新的多协议卷之前，您必须确定是否将该卷放置在现有 Storage Virtual Machine 中，如果是，还必须确定 SVM 需要多少配置。此决定将决定您的工作流。 
 ---
 = 确定在何处配置新卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

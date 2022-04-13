@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: rule, online, help, create, aggregate, add, capacity, disk, rpm 
 summary: 创建聚合并向聚合添加容量磁盘时，您应了解显示磁盘类型和磁盘 RPM 时适用的规则。 
 ---
-= 显示磁盘类型和磁盘 RPM 的规则
+= 在 System Manager 中显示磁盘类型和磁盘 RPM 的规则— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-创建聚合并向聚合添加容量磁盘时，您应了解显示磁盘类型和磁盘 RPM 时适用的规则。
+在创建聚合并向聚合添加容量磁盘时，您应了解在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中显示磁盘类型和磁盘 RPM 时适用的规则。
 
 如果未启用磁盘类型混合和磁盘 RPM 混合选项，则会显示实际磁盘类型和实际磁盘 RPM 。
 

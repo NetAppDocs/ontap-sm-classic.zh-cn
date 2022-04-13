@@ -5,6 +5,7 @@ keywords: configure, configuring, snmp, enabling, enable, optional, snmpv1, snmp
 summary: 配置 SNMP 包括启用 SNMP ，配置 SNMPv1 或 SNMPv2c 社区（可选），添加 SNMPv3 用户，添加 SNMP 陷阱主机以及测试 SNMP 轮询和陷阱。 
 ---
 = SNMP 配置工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

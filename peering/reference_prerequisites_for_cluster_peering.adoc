@@ -5,6 +5,7 @@ keywords: cluster, peer, connectivity, port, ip, address, subnet, firewall, clus
 summary: '在使用 ONTAP System Manager" 经典 " 界面和 ONTAP 9.7 或更早版本设置集群对等之前，您应确认连接，端口， IP 地址，子网，防火墙， 并满足集群命名要求。' 
 ---
 = 集群对等的前提条件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

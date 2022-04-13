@@ -5,6 +5,7 @@ keywords: configuring, configure, snapvault, backup, relationship, verify, clust
 summary: 配置 SnapVault 备份关系包括验证集群对等关系，在源卷和目标卷之间创建 SnapVault 关系以及监控 SnapVault 关系。 
 ---
 = SnapVault 备份配置工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

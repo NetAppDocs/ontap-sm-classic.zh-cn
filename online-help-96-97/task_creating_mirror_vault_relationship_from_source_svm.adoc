@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, mirror, vault, relationship, source, svm, online, help, system, manager 
 summary: 您可以使用 System Manager 从源 Storage Virtual Machine （ SVM ）创建镜像和存储关系。通过创建此关系，您可以定期将数据从源卷传输到目标卷，从而更好地保护数据。通过此关系，您还可以通过创建源卷的备份来长期保留数据。 
 ---
-= 从源 SVM 创建镜像和存储关系
+= 使用 System Manager - ONTAP 9.7 及更早版本从源 SVM 创建镜像和存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 从源 Storage Virtual Machine （ SVM ）创建镜像和存储关系。通过创建此关系，您可以定期将数据从源卷传输到目标卷，从而更好地保护数据。通过此关系，您还可以通过创建源卷的备份来长期保留数据。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从源 Storage Virtual Machine （ SVM ）创建镜像和存储关系。通过创建此关系，您可以定期将数据从源卷传输到目标卷，从而更好地保护数据。通过此关系，您还可以通过创建源卷的备份来长期保留数据。
 
 .开始之前
 * 源集群必须运行 ONTAP 8.3.2 或更高版本。

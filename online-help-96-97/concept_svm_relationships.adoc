@@ -5,6 +5,7 @@ keywords: svm, relationship, dr, disaster, recovery, online, storage, virtual, m
 summary: Storage Virtual Machine （ SVM ）灾难恢复（ DR ）可通过恢复 SVM 成分卷中的数据以及恢复 SVM 配置，在 SVM 级别提供灾难恢复功能。 
 ---
 = SVM 关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

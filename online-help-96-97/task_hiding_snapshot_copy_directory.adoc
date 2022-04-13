@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: hide, snapshot, copy, directory, system, manager, online, help 
 summary: 您可以使用 System Manager 隐藏 Snapshot 副本目录（ .snapshot ），以便在查看卷目录时不会显示 Snapshot 副本目录。默认情况下， .snapshot 目录是可见的。 
 ---
-= 隐藏 Snapshot 副本目录
+= 使用 System Manager - ONTAP 9.7 及更早版本隐藏 Snapshot 副本目录
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 隐藏 Snapshot 副本目录（` .snapshot` ），以便在查看卷目录时不会显示 Snapshot 副本目录。默认情况下，会显示 ` 。 snapshot` 目录。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）隐藏 Snapshot 副本目录（` .snapshot` ），以便在查看卷目录时不会显示 Snapshot 副本目录。默认情况下，会显示 ` 。 snapshot` 目录。
 
 .步骤
 . 单击 * 存储 * > * 卷 * 。

@@ -5,6 +5,7 @@ keywords: edit, application, online, help, provisioned, snapshot, copy
 summary: 您可以编辑已配置的应用程序以增加存储大小或管理应用程序的 Snapshot 副本。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本编辑应用程序
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

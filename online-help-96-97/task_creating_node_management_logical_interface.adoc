@@ -5,6 +5,7 @@ keywords: system, manager, create, node, management, logical, interface, online,
 summary: 您可以使用 System Manager 创建专用节点管理逻辑接口（ LIF ）来管理集群中的特定节点。您可以使用此 LIF 管理节点的系统维护活动。 
 ---
 = 创建节点管理逻辑接口
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: metrocluster, perform, switchback, system, manager, online, help
 summary: 从 System Manager 9.6 开始，您可以执行切回操作，以便在系统成功完成切换操作后将控制权恢复到原始 MetroCluster 站点（站点 B ）。 
 ---
 = 执行切回
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: install, controller, exist, cluster, installation, setup, instruction,
 summary: 在安装要添加到现有集群的控制器时，必须按照相应安装和设置说明的前三个步骤进行操作。 
 ---
 = 安装控制器
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: windows, unix, user, acconut, map, user, access, file, permission, ntf
 summary: 如果您的站点同时具有 Windows 和 UNIX 用户帐户，则应使用名称映射来确保 Windows 用户可以访问具有 UNIX 文件权限的文件，并确保 UNIX 用户可以访问具有 NTFS 文件权限的文件。名称映射可能涉及隐式映射，转换规则和默认用户的任意组合。 
 ---
 = 映射 UNIX 和 Windows 用户名
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: periodical, monitor, status, snapmirror, relationship, ensure, data, s
 summary: 您应定期监控 SnapMirror 关系的状态，以确保 SnapMirror 数据传输按指定计划进行。 
 ---
 = 监控 SnapMirror 数据传输的状态
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

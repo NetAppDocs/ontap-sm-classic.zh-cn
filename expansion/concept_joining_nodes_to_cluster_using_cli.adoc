@@ -5,6 +5,7 @@ keywords: install, controller, module, cluster, setup, command, join nodes to th
 summary: 新安装的控制器模块准备就绪后，您可以使用 cluster setup 命令将每个控制器模块添加到集群中。 
 ---
 = 使用命令行界面将节点加入集群
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

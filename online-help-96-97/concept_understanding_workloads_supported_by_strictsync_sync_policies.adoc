@@ -3,5 +3,6 @@ permalink: online-help-96-97/concept_understanding_workloads_supported_by_strict
 redirect: ontap/data-protection/workloads-strictsync-sync-policies-concept.html 
 ---
 = 
+:allow-uri-read: 
 
 

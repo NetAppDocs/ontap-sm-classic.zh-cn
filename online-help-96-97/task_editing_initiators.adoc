@@ -5,6 +5,7 @@ keywords: edit, initiator, online, help, group, dialog, system, manager
 summary: 您可以使用 System Manager 中的编辑启动程序组对话框更改启动程序组中现有启动程序的名称。 
 ---
 = 编辑启动程序
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

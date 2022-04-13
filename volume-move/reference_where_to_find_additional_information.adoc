@@ -5,6 +5,7 @@ keywords: information, administer, ontap, product, library, where to find additi
 summary: 如果您希望了解有关管理 ONTAP 的详细信息，请参见 ONTAP 9 产品库。 
 ---
 = 从何处查找追加信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: content, describe, smb, cifs, access, volume, exist, storage, virtual,
 summary: 使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 访问 
 ---
 = SMB/CIFS 配置概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

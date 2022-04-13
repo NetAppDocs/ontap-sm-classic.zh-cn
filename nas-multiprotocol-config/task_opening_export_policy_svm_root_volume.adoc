@@ -5,6 +5,7 @@ keywords: 'rule, export, policy, nfsv3, nfs, client, storage, virtual, machine, 
 summary: 您必须向默认导出策略添加一条规则，以允许所有客户端通过 NFSv3 进行访问。如果没有此规则，则会拒绝所有 NFS 客户端访问 Storage Virtual Machine （ SVM ）及其卷。 
 ---
 = 打开 SVM 根卷的导出策略（创建启用了 NFS 的新 SVM ）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

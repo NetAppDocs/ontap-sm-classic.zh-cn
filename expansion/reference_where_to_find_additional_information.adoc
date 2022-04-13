@@ -5,6 +5,7 @@ keywords: expand, cluster, storing, store, data, node, volume, exist, guide, ach
 summary: 扩展集群后，您可以通过在新节点上创建新卷或将现有数据移动到新节点来开始在新节点上存储数据。 
 ---
 = 从何处查找追加信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

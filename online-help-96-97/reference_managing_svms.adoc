@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: storage, virtual, machine, svm, administrator, system, manager, online, help 
 summary: 根据集群管理员分配的功能， Storage Virtual Machine （ SVM ）管理员可以管理 SVM 及其资源，例如卷，协议和服务。SVM 管理员不能创建，修改或删除 SVM 。 
 ---
-= 管理 SVM
+= 使用 System Manager 管理 SVM — ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-根据集群管理员分配的功能， Storage Virtual Machine （ SVM ）管理员可以管理 SVM 及其资源，例如卷，协议和服务。SVM 管理员不能创建，修改或删除 SVM 。
+在 ONTAP System Manger classic （适用于 ONTAP 9.7 及更早版本）中， Storage Virtual Machine （ SVM ）管理员可以根据集群管理员分配的功能管理 SVM 及其资源，例如卷，协议和服务。SVM 管理员不能创建，修改或删除 SVM 。
 
 [NOTE]
 ====

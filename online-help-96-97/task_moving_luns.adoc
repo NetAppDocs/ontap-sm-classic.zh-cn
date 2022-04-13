@@ -5,6 +5,7 @@ keywords: move, lun, qtree, storage, virtual, machine, svm, online, help
 summary: 您可以使用 System Manager 将 LUN 从其所在卷移动到 Storage Virtual Machine （ SVM ）中的另一个卷或 qtree 。您可以将 LUN 移动到包含高性能磁盘的聚合上托管的卷，从而提高访问 LUN 时的性能。 
 ---
 = 正在移动 LUN
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

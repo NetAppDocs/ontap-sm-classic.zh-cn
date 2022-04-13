@@ -5,6 +5,7 @@ keywords: iscsi, software, adapter, create, connection, esx, host, operating, sy
 summary: iSCSI 软件适配器会在 ESX 主机上创建 iSCSI 连接。它内置在操作系统中，但必须先启用，然后才能使用。 
 ---
 = 启用 iSCSI 软件适配器
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

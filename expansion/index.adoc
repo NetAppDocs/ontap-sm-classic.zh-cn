@@ -5,6 +5,7 @@ keywords: nondisruptive, expand, exist, cluster, ha, pair, expansion, overview
 summary: 您可以通过添加 HA 对来快速无中断地扩展现有集群。集群越大，集群中的性能和存储容量就越大。 
 ---
 = 集群扩展概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

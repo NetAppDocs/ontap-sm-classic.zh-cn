@@ -5,6 +5,7 @@ keywords: expand, cluster, autosupport, indicate, expansion, process, complete, 
 summary: 扩展集群后，您应发送 AutoSupport 消息以指示扩展过程已完成。 
 ---
 = 生成有关完成扩展的 AutoSupport 消息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

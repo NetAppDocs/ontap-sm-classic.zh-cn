@@ -5,6 +5,7 @@ keywords: expand, cluster, verify, component, healthy, config, advisor, tool, ru
 summary: 在扩展集群之前，您必须运行 Config Advisor 工具并运行多个 ONTAP 命令行界面命令，以验证集群的所有组件是否运行正常。 
 ---
 = 验证系统的运行状况
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

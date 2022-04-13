@@ -5,6 +5,7 @@ keywords: storage, service, definition, online, help, performance, factor
 summary: ONTAP 包括映射到相应最低性能因素的预定义存储服务。 
 ---
 = System Manager - ONTAP 9.7 及更早版本的存储服务定义
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

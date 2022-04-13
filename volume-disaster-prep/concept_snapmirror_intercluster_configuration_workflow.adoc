@@ -5,6 +5,7 @@ keywords: preparing, prepare, volume, disaster, recovery, verify, cluster, peer,
 summary: 准备用于灾难恢复的卷包括验证集群对等关系，在驻留在对等集群上的卷之间创建 SnapMirror 关系，设置用于数据访问的目标 SVM 以及定期监控 SnapMirror 关系。 
 ---
 = 卷灾难恢复准备工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

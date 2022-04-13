@@ -5,6 +5,7 @@ keywords: resume, mirror, vault, relationship, online, help, system, manager
 summary: 如果您已暂停镜像和存储关系，则可以使用 System Manager 恢复此关系。恢复此关系后，系统将恢复向目标卷进行的正常数据传输，并重新启动所有保护活动。 
 ---
 = 恢复镜像和存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

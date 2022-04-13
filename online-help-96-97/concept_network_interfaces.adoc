@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, network, interface, create, manage, online, help, create, lif, intercluster, svm, migrate, data 
 summary: 您可以使用 System Manager 创建和管理网络接口。 
 ---
-= 网络接口
+= 使用 System Manager - ONTAP 9.7 及更早版本管理网络接口
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建和管理网络接口。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理网络接口。
 
 
 

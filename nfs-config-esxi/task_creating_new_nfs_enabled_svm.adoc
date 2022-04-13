@@ -5,6 +5,7 @@ keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new n
 summary: 设置新的涉及创建新的和启用 NFS 。然后，您可以使用 Virtual Storage Console 在 ESXi 主机上配置 NFS 访问，并验证是否已为 ESXi 启用 NFS 。 
 ---
 = 创建新的 NFS-enabled
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

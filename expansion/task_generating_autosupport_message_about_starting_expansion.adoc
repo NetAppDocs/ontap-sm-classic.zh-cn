@@ -5,6 +5,7 @@ keywords: generating, generate, autosupport, message, start, expansion, expand, 
 summary: 在扩展集群之前，您应立即发送 AutoSupport 消息以指示即将开始扩展过程。 
 ---
 = 生成有关开始扩展的 AutoSupport 消息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

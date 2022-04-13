@@ -5,6 +5,7 @@ keywords: storage, virutal, machine, svm, fc, target, host, access, lun, logical
 summary: Storage Virtual Machine 可提供 FC 目标，主机可通过此目标访问 LUN 。 
 ---
 = 创建新的 SVM
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: hardware, cache, system, manager, manage, online, help, flash, 
 summary: 您可以使用 System Manager 管理硬件缓存模块。 
 ---
-= 硬件缓存
+= 使用 System Manager 管理硬件缓存— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 管理硬件缓存模块。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理硬件缓存模块。
 
 [NOTE]
 ====

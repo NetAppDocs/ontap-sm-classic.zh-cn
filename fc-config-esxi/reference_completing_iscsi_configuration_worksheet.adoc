@@ -5,6 +5,7 @@ keywords: require, fc, intiator, target, wwpn, storage, configuration, informati
 summary: 要执行 FC 配置任务，您需要 FC 启动程序和目标 WWPN 以及存储配置信息。 
 ---
 = 填写 FC 配置工作表
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

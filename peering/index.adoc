@@ -5,6 +5,7 @@ keywords: cluster, administrator, create, authenticated, peer, relationship, svm
 summary: 集群管理员可以在集群和 SVM 之间创建经过身份验证的对等关系，使集群能够彼此通信，以便在不同集群中的卷之间复制数据。 
 ---
 = 集群和 SVM 对等概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: metrocluster, switchover, switchback, operations, window, command, but
 summary: 从 System Manager 9.6 开始，您可以使用 MetroCluster 切换和切回操作窗口启动从一个站点或集群（站点 B ）到另一个站点或集群（站点 A ）的协商（计划内）切换或计划外切换。在站点 B 上执行维护或修复后，您可以启动从站点 A 切回站点 B 的操作，并在此窗口中查看此操作的状态。 
 ---
 = MetroCluster 切换和切回操作窗口
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

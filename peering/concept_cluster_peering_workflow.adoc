@@ -5,6 +5,7 @@ keywords: set, relationship, cluster, peer, creating, create, intercluster, logi
 summary: 设置对等关系包括为每个集群准备对等关系，在每个集群的每个节点上创建集群间逻辑接口（ LIF ），设置集群对等关系，然后设置 SVM 对等关系。 
 ---
 = 集群和 SVM 对等工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

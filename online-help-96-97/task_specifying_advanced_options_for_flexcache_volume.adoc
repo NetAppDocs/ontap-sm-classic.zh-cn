@@ -5,6 +5,7 @@ keywords: flexcache, volume, online, help, advanced, options, specify
 summary: 从 System Manager 9.6 开始，编辑 FlexCache 卷时，您可以指定要与 FlexCache 卷关联的高级选项。 
 ---
 = 为 FlexCache 卷指定高级选项
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: delete, lun, system, manager, online, help, aggregate 
 summary: 您可以使用 System Manager 删除 LUN 并将 LUN 使用的空间返回到其所在的聚合或卷。 
 ---
-= 正在删除 LUN
+= 使用 System Manager 删除 LUN — ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 删除 LUN 并将 LUN 使用的空间返回到其所在的聚合或卷。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）删除 LUN 并将 LUN 使用的空间返回到其所在的聚合或卷。
 
 .开始之前
 * LUN 必须处于脱机状态。

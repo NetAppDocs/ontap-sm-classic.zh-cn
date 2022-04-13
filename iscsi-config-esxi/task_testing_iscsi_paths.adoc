@@ -5,6 +5,7 @@ keywords: storage, failover, data, mobility, path, host, node, cluster, advertis
 summary: 要确保成功执行存储故障转移和数据移动，您需要确保从主机到存储集群中每个节点有两条路径。由于 iSCSI 目标公布的路径数有限，因此您需要从主机对存储集群端口执行 ping 操作。 
 ---
 = 测试从主机到存储集群的 iSCSI 路径
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

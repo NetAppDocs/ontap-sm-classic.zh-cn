@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: junction, path, window, system, manager, mount, unmount, flexvol, volume, svm, namespace, online, help, policies, export 
 summary: 您可以使用 System Manager 中的接合路径窗口将 FlexVol 卷挂载或卸载到 SVM 命名空间中的接合位置。 
 ---
-= Junction path
+= System Manager 中的接合路径窗口— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 中的接合路径窗口将 FlexVol 卷挂载或卸载到 SVM 命名空间中的接合位置。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的接合路径窗口将 FlexVol 卷挂载或卸载到 SVM 命名空间中的接合位置。
 
 
 

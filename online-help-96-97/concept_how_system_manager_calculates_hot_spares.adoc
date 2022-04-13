@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, hot, spares, disk, storage, raid, online, help 
 summary: 热备用磁盘是指已分配给存储系统但未被任何 RAID 组使用的磁盘。热备用磁盘不包含任何数据，当 RAID 组中发生磁盘故障时，这些热备用磁盘会分配给 RAID 组。System Manager 使用最大的磁盘作为热备用磁盘。 
 ---
-= System Manager 如何使用热备件
+= System Manager 如何使用热备件— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-热备用磁盘是指已分配给存储系统但未被任何 RAID 组使用的磁盘。热备用磁盘不包含任何数据，当 RAID 组中发生磁盘故障时，这些热备用磁盘会分配给 RAID 组。System Manager 使用最大的磁盘作为热备用磁盘。
+热备用磁盘是指已分配给存储系统但未被任何 RAID 组使用的磁盘。热备用磁盘不包含任何数据，当 RAID 组中发生磁盘故障时，这些热备用磁盘会分配给 RAID 组。ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）使用最大的磁盘作为热备用磁盘。
 
 如果 RAID 组中的磁盘类型不同，则每个磁盘类型中大小最大的磁盘将保留为热备用磁盘。例如，如果 RAID 组中有 10 个 SATA 磁盘和 10 个 SAS 磁盘，则最大大小的 SATA 磁盘和最大大小的 SAS 磁盘将用作热备用磁盘。
 

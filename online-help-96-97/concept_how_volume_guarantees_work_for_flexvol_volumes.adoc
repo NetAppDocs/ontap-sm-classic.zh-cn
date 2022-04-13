@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: volume, guarantee, work, flexvol, volume, space, preallocated, aggregate, online, help 
 summary: 卷保证（有时称为空间保证）可确定如何从卷所在的聚合中为卷分配空间，无论是否为卷预先分配了空间。 
 ---
-= 卷保证对 FlexVol 卷的工作原理
+= 关于使用 System Manager - ONTAP 9.7 及更早版本的 FlexVol 卷的卷保证
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-卷保证（有时称为 _space guarantees_ ）用于确定如何从卷所在聚合中为卷分配空间，无论是否为卷预先分配了空间。
+您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）为 FlexVol 卷设置卷保证。卷保证（有时称为 _space guarantees_ ）用于确定如何从卷所在聚合中为卷分配空间，无论是否为卷预先分配了空间。
 
 保证是卷的一个属性。
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, fc, san, optimized, lun, system, manager, online, help 
 summary: 在 AFF 平台上首次设置集群期间，您可以使用 System Manager 创建一个或多个 FC SAN 优化的 LUN 。 
 ---
-= 创建 FC SAN 优化的 LUN
+= 使用 System Manager - ONTAP 9.7 及更早版本创建 FC SAN 优化的 LUN
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-在 AFF 平台上首次设置集群期间，您可以使用 System Manager 创建一个或多个 FC SAN 优化的 LUN 。
+在 AFF 平台上首次设置集群期间，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建一个或多个 FC SAN 优化的 LUN 。
 
 .开始之前
 * 您必须确保仅创建了一个名为 AFF_SAN_DEFAULT_SVM 的 Storage Virtual Machine （ SVM ），并且此 SVM 不包含任何 LUN 。

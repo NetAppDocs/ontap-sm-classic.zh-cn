@@ -2135,7 +2135,6 @@
   <block id="c3a278123d3b287069e73f2ccdfcdb00" category="list-text">在 * 编辑 DNS/DDNS 设置 * 对话框中，选中 * DDNS 服务 * 复选框以启用 DDNS 。</block>
   <block id="f7b5d29d3967c0e03bc5980c91dd7809" category="paragraph">您可以通过清除 * DDNS 服务 * 复选框来禁用 DDNS 。</block>
   <block id="eb542e78bdc6ea5852e480ad8e4002de" category="inline-xref-macro">DNS/DDNS 服务窗口</block>
-  <block id="99a93d93826462f137fad465fd937816" category="summary">您可以使用 System Manager 手动创建 Flash Pool 聚合，也可以通过添加 SSD 将现有 HDD 聚合转换为 Flash Pool 聚合。创建新的 HDD 聚合时，您可以为其配置 SSD 缓存并创建 Flash Pool 聚合。</block>
   <block id="95637d1c1eb22cb1979aeffae82294cd" category="doc">通过手动创建 Flash Pool 聚合来配置存储</block>
   <block id="b06cb13f1b387a05cf34a10fd25c49c6" category="list-text">您必须了解有关 Flash Pool 聚合 SSD 层大小和配置的平台专用最佳实践和工作负载专用最佳实践。</block>
   <block id="6f7017b28fd2cc703df185f2b3d20b38" category="list-text">所有 HDD 都必须处于已置零状态。</block>
@@ -2294,7 +2293,6 @@
   <block id="bfbdd213dc0c96bd5a4685c9d9e706d9" category="list-text">* 首选 Active Directory 服务器 *</block>
   <block id="605a966451580dc3de6e24ed46014a9e" category="paragraph">显示每个 LDAP 客户端配置的首选 Active Directory 服务器。</block>
   <block id="4a837bd68570795a80aec059aabab8d5" category="summary">您可以使用 System Manager 更改卷的默认分层策略，以控制在数据变为非活动状态时是否将卷的数据移动到云层。</block>
-  <block id="486b7ceacff4684ac92133f8cff97922" category="doc">更改卷的分层策略</block>
   <block id="f402a6845c9046061a89b08fdd05b4a5" category="list-text">选择要更改分层策略的卷，然后单击 * 更多操作 * &gt; * 更改分层策略 * 。</block>
   <block id="7f82cd9186cfbeeb4de6a40f2ed09242" category="list-text">从 * 分层策略 * 列表中选择所需的分层策略，然后单击 * 保存 * 。</block>
   <block id="7b43fc84a8b717582430cc69f49d403f" category="summary">如果您希望使用图形界面而不是命令行界面（ CLI ）来访问和管理集群，则可以使用 ONTAP System Manager 来实现此目的，该服务作为 Web 服务随 ONTAP 提供，默认情况下处于启用状态，并可通过浏览器进行访问。</block>
@@ -2646,7 +2644,6 @@
   <block id="3a501d3a65994d497f5cb40fb393ac8c" category="paragraph">您可以选择此选项以指定 cron 模式的计划。</block>
   <block id="85b46078a35291049ac1edfa07e75f35" category="paragraph">您不想分配计划</block>
   <block id="a26531ddd22c342a5bd9860ea919b50d" category="paragraph">选择 * 无 * 。</block>
-  <block id="a47c67997db7944e30aba3e2e51c1ee6" category="summary">您可以使用 System Manager 根据存储建议创建聚合。System Manager 可分析存储系统的配置并提供存储建议，例如要创建的聚合数，可用节点和可用备用磁盘。</block>
   <block id="b9b83c03586f346b6fdd8afa94f2839d" category="doc">通过根据存储建议创建聚合来配置存储</block>
   <block id="f527ab93e764b9b968cad6273c5a0f1c" category="list-text">您不能根据 Cloud Volumes ONTAP ， ONTAP Select 和 MetroCluster 配置中的存储建议创建聚合。</block>
   <block id="3efcf0a9999f2a8e8d0650f90fe62f04" category="list-text">如果存在任何错误，则会显示在屏幕上。</block>
@@ -2939,7 +2936,6 @@
   <block id="7a5a6f53dcdfc76ae7c96d343e78aaf6" category="inline-xref-macro">还原存储关系中的卷</block>
   <block id="6121a20dc7eb934ce44aed9290d905e6" category="paragraph"><block ref="6121a20dc7eb934ce44aed9290d905e6" category="inline-xref-macro-rx"></block></block>
   <block id="f6dd46455d557f9e0e43796aa301d505" category="summary">您可以使用 System Manager 修改数据保护（ DP ）卷的卷名称。如果源卷未启用存储效率，您可能希望仅在目标卷上启用存储效率。</block>
-  <block id="761dd49e617c96f3ef82d574fa85ed47" category="doc">编辑数据保护卷</block>
   <block id="6f8e108386883828bf4e2883d1ec9c63" category="paragraph">您不能修改镜像 DP 卷上的存储效率。</block>
   <block id="0eeb1aa23f1d51ee66065f798b055934" category="list-text">从 * SVM* 字段的下拉菜单中，选择要编辑的 DP 卷所在的 Storage Virtual Machine （ SVM ）。</block>
   <block id="76e928ab5ae3ed083003358eb3d08df2" category="list-text">选择要修改的卷，然后单击 * 编辑 * 。</block>
@@ -3185,7 +3181,6 @@
   <block id="4035a86a26405778c19a0a74f93e4a53" category="list-text">访问启动程序集群，然后单击 * 验证对等 * 。</block>
   <block id="b492ac6ca8fec67cce92c6fbc7983fcd" category="paragraph">使用 System Manager 创建对等关系时，默认情况下加密状态为 "`Enabled` " 。</block>
   <block id="920138b399cc42c578279aee26e1cee6" category="summary">向聚合添加容量磁盘（ HDD ）时，您可以使用 System Manager 更改要添加磁盘的 RAID 组。</block>
-  <block id="486db80e214969368aa95f6e3dbf401c" category="doc">添加容量磁盘时更改 RAID 组</block>
   <block id="a769aeea6af374cb782f74c884264af6" category="list-text">如果 RAID 类型为 RAID-DP ，而您要添加大小等于或大于 10 TB 的 FSAS 或 MSATA 磁盘，则只能将其添加到 `S特定 RAID 组` ，而不能添加到 `新 RAID 组` 或 `所有 RAID 组` 。</block>
   <block id="feeafe69c36bd3b86c436715b8756b42" category="paragraph">在将磁盘大小缩减为现有聚合大小后，系统会添加这些磁盘。</block>
   <block id="c0dc75dda54a85e13e66da3d0e3862bf" category="list-text">如果 RAID 组为 RAID-TEC ，而您要添加大小等于或大于 10 TB 的 FSAS 或 MSATA 磁盘，则可以将其添加到 `所有 RAID 组` ， `新 RAID 组` 和 `S特定 RAID 组` 。</block>
@@ -3285,13 +3280,11 @@
   <block id="107bea07d2bf29e67c0aa91b72728753" category="paragraph">显示 SNMP 服务器的安全模式。</block>
   <block id="f4c0fc1a228f243144f99ec4c1441785" category="doc">启动程序主机</block>
   <block id="5965aeb6244778b6539f2a5da4d3e3c9" category="summary">您可以使用 System Manager 通过启动 Storage Virtual Machine （ SVM ）来提供数据访问。</block>
-  <block id="f9943ddf5967ac3bbe9d22b664e14432" category="doc">正在启动 SVM</block>
   <block id="e236d336e04f19a5f31aaeba921e7a28" category="list-text">选择要启动的 SVM ，然后单击 * 启动 * 。</block>
   <block id="c19970592d059062d7ce4832bb7a7720" category="paragraph">SVM 将开始向客户端提供数据。</block>
   <block id="889a321e318f05b5fb89e005542f07fb" category="summary">您可以使用服务处理器通过 System Manager 监控和管理存储系统参数，例如温度，电压，电流和风扇速度。</block>
   <block id="c0521c6560bb3da41948d242d0662a6b" category="doc">服务处理器</block>
   <block id="6abaf57d8d2cb59f5b00aeb51688432d" category="summary">您可以使用 System Manager 管理集群中的 SVM 。</block>
-  <block id="500569e3cc0764260a592cb176921ca3" category="doc">Storage Virtual Machine</block>
   <block id="cfb1817554a9587603f20a10cafefb6f" category="summary">您可以使用用户窗口管理用户帐户，重置用户密码以及查看有关所有用户帐户的信息。</block>
   <block id="745b499282804290b186150f300b21d2" category="doc">用户窗口</block>
   <block id="35ffcd504fd9c4346e78cdf8a1e2ca26" category="paragraph">打开添加用户对话框，在此可以添加用户帐户。</block>
@@ -4223,7 +4216,6 @@
   <block id="69652e6bb3633aa3452c369375e43a5d" category="list-text">限制用户只能访问一组指定的命令。</block>
   <block id="5532eb5ab3c7da9f38233b13c89e0642" category="list-text">显示 ONTAP API 及其对应的命令行界面（ CLI ）命令。</block>
   <block id="e585e44dccf71e62f3ca9f6f39a8666d" category="summary">如果要对 SVM 中的任何问题描述进行故障排除，删除 SVM 或停止从 SVM 进行数据访问，可以使用 System Manager 停止 Storage Virtual Machine （ SVM ）。</block>
-  <block id="04d9728a7229fc8f080a43c27602f266" category="doc">正在停止 SVM</block>
   <block id="4eb2840288285e214da738e885c04583" category="paragraph">必须断开连接到 SVM 的所有客户端。</block>
   <block id="285f87674ead8fb752e089d8048f041b" category="paragraph">如果在停止 SVM 时连接了任何客户端，则可能会发生数据丢失。</block>
   <block id="d3d5618773817b8f5aee633041f33b6e" category="list-text">在存储故障转移（ SFO ）期间，无法停止 SVM 。</block>
@@ -4553,7 +4545,6 @@
   <block id="0c58e43ce8eb3d3e47a4152e6ef220f3" category="paragraph">您只能暂停处于 Snapmirrored 状态的镜像关系。</block>
   <block id="380aacf30b9d9d5e46d2e23835ee2c3f" category="list-text">选择要暂停的镜像关系。</block>
   <block id="3406bf4d129c489b0840176d38ffa1fb" category="list-text">选中确认复选框，然后单击 * 暂停 * 。</block>
-  <block id="1116cd5308713dce06806b71a7e197fa" category="summary">您可以使用 System Manager 重命名集群中的 MetroCluster 本地站点（站点 A ）。</block>
   <block id="83519546c0907279c9042a2ad400f3a2" category="list-text">单击 * 配置 * &gt; * 配置更新 * 。</block>
   <block id="d463cc8cd485894dda55a3f4689dc89c" category="list-text">单击 * 更新集群名称 * 。</block>
   <block id="cafdb1219cee48c72aefb4a06983873c" category="list-text">更新文本框中的名称，然后单击 * 提交 * 。</block>
@@ -4606,7 +4597,6 @@
   <block id="2fd6126fa3f88440d17a08acb69bb2fa" category="paragraph"><block ref="2fd6126fa3f88440d17a08acb69bb2fa" category="inline-link-rx"></block></block>
   <block id="ce9b88380a7479d671cbb0be2c4ca817" category="summary">您可以使用 System Manager 隐藏 Snapshot 副本目录（ .snapshot ），以便在查看卷目录时不会显示 Snapshot 副本目录。默认情况下， .snapshot 目录是可见的。</block>
   <block id="2351a6123d510e63bb4101f4b402b71d" category="doc">隐藏 Snapshot 副本目录</block>
-  <block id="27f5a0e574a9808d28498d44d0da46cc" category="paragraph">您可以使用 System Manager 隐藏 Snapshot 副本目录（` .snapshot` ），以便在查看卷目录时不会显示 Snapshot 副本目录。默认情况下，会显示 ` 。 snapshot` 目录。</block>
   <block id="8cf5dc9ae66d953d3133a8c869276df8" category="list-text">选择要隐藏 Snapshot 副本目录的卷。</block>
   <block id="53f2257ede212fca318ea5e1d7f85e39" category="list-text">确保未选中 * 使 Snapshot 目录（ .snapshot ）可见 * 选项，然后单击 * 确定 * 。</block>
   <block id="f28683e827ded257fe710b386a82152c" category="summary">您可以使用 System Manager 在定义的计划之外创建卷的 Snapshot 副本，以捕获文件系统在特定时间点的状态。</block>
@@ -4741,7 +4731,6 @@
   <block id="0ce6eb76fea207d15765d474a1aebee8" category="list-text">键入用户要连接到存储系统的密码，然后确认该密码。</block>
   <block id="3347f086676ffecffa7c1d19b9b65055" category="list-text">添加一种或多种用户登录方法，然后单击 * 添加 * 。</block>
   <block id="537075282f9f557a7b9d6b978e1b560b" category="summary">根据集群管理员分配的功能， Storage Virtual Machine （ SVM ）管理员可以管理 SVM 及其资源，例如卷，协议和服务。SVM 管理员不能创建，修改或删除 SVM 。</block>
-  <block id="fbd4e59c8af915c2fd3fc339c7391c48" category="doc">管理 SVM</block>
   <block id="d41286a049acbf37823935a946b5dc24" category="paragraph">SVM 管理员无法登录到 System Manager 。</block>
   <block id="3e40d59c66b9c1ab3255570f543ae202" category="paragraph">SVM 管理员可能具有以下全部或部分管理功能：</block>
   <block id="af79ec0df6bf28a9a3499a754c9fa5f2" category="list-text">数据访问协议配置</block>
@@ -4789,7 +4778,6 @@
   <block id="c3708408f9dc6c088c7305bb9f73b132" category="paragraph">镜像和存储关系必须处于 Snapmirrored 状态。</block>
   <block id="674715c13a8ed577fb9173a56349da63" category="list-text">选择要暂停的镜像和存储关系，然后单击 * 操作 * &gt; * 暂停 * 。</block>
   <block id="29dae394602a437c321ae57db948174e" category="paragraph">如果没有正在进行的传输，则传输状态将显示为已暂停。如果正在进行传输，则传输不会受到影响，传输状态将显示为正在暂停，直到传输完成为止。</block>
-  <block id="3913cc3a62bd1a6ecc7cab1127219820" category="summary">您可以使用 System Manager 手动创建启用了 FabricPool 的聚合，也可以通过将云层附加到 SSD 聚合将现有 SSD 聚合转换为启用了 FabricPool 的聚合。</block>
   <block id="656f14abca9be3df0c2f539b6ce643ec" category="doc">通过手动创建启用了 FabricPool 的聚合来配置存储</block>
   <block id="22ab6a49788fb366e3696241368765e1" category="list-text">您必须已创建云层并将其附加到 SSD 聚合所在的集群。</block>
   <block id="523ea82bc2d95d0ab17b71c6afa24f78" category="list-text">必须已创建内部云层。</block>
@@ -5299,7 +5287,6 @@
   <block id="cb1f53f2fe4537c68f1f786193251f4e" category="paragraph">配置 IdP 后，如果用户尝试使用完全限定域名（ FQDN ）， IPv6 或集群管理 LIF 进行登录，则系统会自动将 IP 地址更改为在 IdP 配置期间指定的主机系统的 IP 地址。</block>
   <block id="8242b7aa2af544cf2f93afd197e27cf3" category="paragraph"><block ref="8242b7aa2af544cf2f93afd197e27cf3" category="inline-xref-macro-rx"></block></block>
   <block id="caffe237e203deff7da0ba170f501be9" category="summary">您可以使用 System Manager 从卷窗口下部窗格的 Snapshot 副本选项卡中查看选定卷的所有已保存 Snapshot 副本列表。您可以使用已保存 Snapshot 副本列表重命名，还原或删除 Snapshot 副本。</block>
-  <block id="afb06f6c37afcb47dce31324a1e67ce0" category="doc">查看已保存 Snapshot 副本的列表</block>
   <block id="2a24310e6b3a5ba6e7bf061cbda5a983" category="paragraph">一次只能查看一个卷的 Snapshot 副本。</block>
   <block id="ac7f70dc67c04109b95c51b4fdfba0f2" category="list-text">单击要查看其已保存 Snapshot 副本的卷旁边的加号（ + ）。</block>
   <block id="7fdd237ea3a5f91bb2e3e75533d62fcf" category="list-text">单击 * 显示更多详细信息 * 链接可查看有关卷的更多信息。</block>
@@ -5769,7 +5756,6 @@
   <block id="b63b907f53d81d2df933f194c997dca6" category="list-text">显示有关作业管理器初始化状态的信息。</block>
   <block id="224d2019f36419ff9f94b0e265889946" category="paragraph">您可以通过检查事件日志来确定已完成作业的结果。</block>
   <block id="225462897706db04ac0f2ef21f46db48" category="summary">您可以使用 System Manager 创建，编辑和删除卷。</block>
-  <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="doc">Volumes</block>
   <block id="dd0d7fb0d943afdd167daa971c00ef96" category="paragraph">您可以使用卷选项卡访问集群中的所有卷，也可以使用 * SVM* &gt; * 卷 * 访问特定于 SVM 的卷。</block>
   <block id="5283be92496e2188f016eeaf229d3adc" category="paragraph">只有在启用 CIFS 和 NFS 许可证后，才会显示卷选项卡。</block>
   <block id="dcc823df11c912eae85ac0b7d29f9f70" category="doc">将 SSD 添加到现有存储池与创建新存储池的注意事项</block>
@@ -5792,7 +5778,6 @@
   <block id="770568aadb0164c6b59d8b2ed54504b6" category="list-text">指定最大吞吐量限制。</block>
   <block id="68cff514ab4514c3956b601fa1b78577" category="list-text">如果未指定最大吞吐量限制，则系统会自动显示 "`无限制` " 作为值。</block>
   <block id="a56e31822510cde8f8a20d6f36849aa7" category="summary">您可以使用 System Manager 管理磁盘。</block>
-  <block id="2d4aef30a49a581a6ed89ce840054235" category="doc">Disks</block>
   <block id="edda3972d1bc3950c540b7172745645c" category="paragraph"><block ref="edda3972d1bc3950c540b7172745645c" category="inline-link-rx"></block></block>
   <block id="70894d5c0a41692947485c0d0a19e60a" category="inline-link">FlexArray 虚拟化安装要求和参考</block>
   <block id="b42d776faedad51898dbe5bf906051a2" category="paragraph"><block ref="b42d776faedad51898dbe5bf906051a2" category="inline-link-rx"></block></block>
@@ -6175,7 +6160,6 @@
   <block id="0eaa462e55e1d8376cc9023fdbd18edc" category="section-title">其他应用程序类型的 LUN 设置</block>
   <block id="56ab3020d43ec572db51d38bbe462f70" category="paragraph">每个 LUN 都配置在一个卷中。空间会根据指定大小在 LUN 中配置。在所有 LUN 的节点之间执行负载平衡。</block>
   <block id="f72e3dbe9da7fc9540594b7b452b8f47" category="summary">您可以使用 System Manager 中的聚合窗口查看有关聚合的名称，状态和空间信息。</block>
-  <block id="731176f618de66279ca536edba19fda6" category="doc">查看聚合信息</block>
   <block id="58e12ddff1a5e5562a24f79cdb06e88f" category="list-text">单击聚合名称可查看选定聚合的详细信息。</block>
   <block id="9131d88a602d5260b75ab1942da4f89b" category="summary">您可以使用 System Manager 中的编辑启动程序组对话框更改启动程序组中现有启动程序的名称。</block>
   <block id="332f7443ce6f845f0e4612a1953702d0" category="list-text">在 * 启动程序组 * 选项卡中，选择启动程序所属的启动程序组，然后单击 * 编辑 * 。</block>
@@ -6359,7 +6343,6 @@
   <block id="33ebaf0798e7ca01ef22a5e89b3cb821" category="list-text">从 * SVM* 字段的下拉菜单中，选择要删除的配额所在的 Storage Virtual Machine （ SVM ）。</block>
   <block id="ede1cd90312d02c6f76edf683fca51e9" category="list-text">选择要删除的一个或多个配额，然后单击 * 删除 * 。</block>
   <block id="330c5bad0b924f532120259d86b27ed2" category="summary">您可以使用 System Manager 通过创建和管理 IP 空间，广播域，子网，网络接口，以太网端口， 和 FC/FCoE 适配器。</block>
-  <block id="7621005c14d22f767bd63bed4e2745b6" category="summary">您可以使用 System Manager 手动创建 SnapLock 合规性聚合或 SnapLock 企业聚合。您可以在这些聚合上创建 SnapLock 卷，从而提供 " 一次写入，多次读取 " （ WORM ）功能。</block>
   <block id="8018f4064283c55dfa6bfec30f453db2" category="doc">通过手动创建 SnapLock 聚合配置存储</block>
   <block id="38ef748223faace4d3330c24cb1484f8" category="paragraph">必须已添加 SnapLock 许可证。</block>
   <block id="77db25bdfb80aa1d0ccdedf1bf8c4811" category="list-text">在 MetroCluster 配置中，您只能创建 SnapLock 企业聚合。</block>
@@ -6373,7 +6356,6 @@
   <block id="758b1fa6642bb6e583d5dfe9db39496c" category="paragraph">您必须确保当前系统时间正确。ComplianceClock 根据系统时钟进行设置。设置 ComplianceClock 后，您将无法修改或停止 ComplianceClock 。</block>
   <block id="7da47c87ec001355ddc9edb16297193f" category="paragraph">默认情况下，对于 SnapLock Compliance 聚合，镜像选项处于禁用状态。</block>
   <block id="1fa8dd542d2fae039e92f70b51cc6e23" category="summary">创建聚合时，您可以使用 System Manager 修改聚合的 RAID 类型和 RAID 组大小选项的默认值。</block>
-  <block id="2718b6e0152d5c1349dd7f416082ac66" category="doc">创建聚合时更改 RAID 配置</block>
   <block id="ca3971ca02e76186c25b81c7ea125a0b" category="paragraph">如果聚合磁盘的磁盘类型为 FSAS 或 MSATA ，并且磁盘大小等于或大于 10 TB ，则 RAID-TEC 是唯一可用的 RAID 类型。</block>
   <block id="74b43bb7df75cb36f7895c84a13f4f1e" category="list-text">在 * 存储层 * 窗口中，单击 * 添加聚合 * 。</block>
   <block id="bb5c54f6a392f839afc1d64e643a0634" category="list-text">在 * 创建聚合 * 对话框中，执行以下步骤：</block>
@@ -7323,7 +7305,6 @@
   <block id="e3094dcca3c90e0404f8f6620d6d3e28" category="doc">什么是 NetApp 卷加密</block>
   <block id="8c8af40da222cbac0bff786868bc7034" category="summary">卷保证（有时称为空间保证）可确定如何从卷所在的聚合中为卷分配空间，无论是否为卷预先分配了空间。</block>
   <block id="955fe453e5261738851ba4d70d70892c" category="doc">卷保证对 FlexVol 卷的工作原理</block>
-  <block id="54b6db373e9f4ac0a0a85d80cc64601e" category="paragraph">卷保证（有时称为 _space guarantees_ ）用于确定如何从卷所在聚合中为卷分配空间，无论是否为卷预先分配了空间。</block>
   <block id="fb2eb77fed82bf83784845af476371c1" category="paragraph">保证是卷的一个属性。</block>
   <block id="afe5ba5f8fcedd120647fc4f696e58ce" category="paragraph">您可以在创建新卷时设置保证；您也可以更改现有卷的保证，但前提是存在足够的可用空间来满足新的保证。</block>
   <block id="5c8602e07e396abf44907a7d5f7220a4" category="paragraph">卷保证类型可以是 `volume` （默认类型）或 `none` 。</block>
@@ -7445,7 +7426,6 @@
   <block id="68c108e21b2dc328a04cb3dffa4fc567" category="list-text">目标存储系统中必须存在 FC 适配器。</block>
   <block id="2032e42d068de0b5c9b14cc72e4941c1" category="list-text">根据需要单击 * 开始 * 或 * 停止 * 。</block>
   <block id="e64cdcc5568074885bc2f1f62cb42498" category="summary">您可以使用 System Manager 从存储系统配置中删除不再需要的 Storage Virtual Machine （ SVM ）。</block>
-  <block id="dc6d7ae43f87c3c6d3a96f58cfe48c95" category="doc">正在删除 SVM</block>
   <block id="aa2bdf0e8ac65883b0c03f4abb816916" category="list-text">已禁用所有卷的 Snapshot 副本，数据保护（ DP ）镜像和负载共享（ LS ）镜像</block>
   <block id="5d64ab7bfa4adc7082888e551c41dfa6" category="paragraph">必须使用命令行界面（ CLI ）禁用 LS 镜像。</block>
   <block id="3c0f44d9258b69f36161ab812c2389ca" category="list-text">如果要删除 SVM ，请手动删除属于 SVM 的所有 igroup</block>
@@ -7533,7 +7513,6 @@
   <block id="4201cf9b4144790a1c7a903f60d587fc" category="list-text">展开所需的卷。</block>
   <block id="4d819dd5de8d257701277c985c8db295" category="list-text">选择要删除的 Snapshot 副本。</block>
   <block id="568315afd92645514bff29a2959e8bd7" category="summary">要使 ONTAP 能够使用 StorageGRID 作为启用了 FabricPool 的聚合的对象存储进行身份验证，您可以在集群上安装 StorageGRID CA 证书。</block>
-  <block id="6ad8a00150e0e05d28b74a9f28b35765" category="doc">如果使用 StorageGRID ，请安装 CA 证书</block>
   <block id="d2d620fd7d1fb0dbdfbd0fb2b4a54257" category="list-text">按照 StorageGRID 系统文档中的说明，使用网格管理界面复制 StorageGRID 系统的 CA 证书。</block>
   <block id="48a5f7c99378f2d27c95069bdd9674ef" category="inline-link">《 StorageGRID 11.3 管理员指南》</block>
   <block id="75201fadc49750ef9be4144eafd4f2eb" category="paragraph"><block ref="75201fadc49750ef9be4144eafd4f2eb" category="inline-link-rx"></block></block>
@@ -7829,7 +7808,6 @@
   <block id="9016d5061a6515b14774e6c2825cc3d9" category="paragraph">详细信息区域显示有关存储系统的日期，时间，时区， NTP 服务和时间服务器的信息。</block>
   <block id="fb181f669d39591bbd65ed67ac50ab2e" category="paragraph"><block ref="fb181f669d39591bbd65ed67ac50ab2e" category="inline-xref-macro-rx"></block></block>
   <block id="8f50629dd45de7407dad3db066f531f8" category="summary">您可以使用 System Manager 延长卷中 Snapshot 副本的到期日期。</block>
-  <block id="d350e75ae7a5c7ad6eef719c1e71a497" category="doc">延长 Snapshot 副本的到期日期</block>
   <block id="996fced7fe48e7529cc6f1df1cf049d5" category="paragraph">您的系统上必须安装 SnapLock 许可证。</block>
   <block id="e59b55c8820313bd52068fc83a2870ec" category="paragraph">您只能延长作为 SnapLock for SnapVault 关系目标的数据保护（ DP ）卷中 Snapshot 副本的到期日期。</block>
   <block id="091d86872e20a4e592b634c65b44fd89" category="list-text">Select a volume.</block>
@@ -7939,14 +7917,12 @@
   <block id="d129f6c98e37c0be76c2f406b61b16fe" category="doc">管理集群</block>
   <block id="70d81d76e7e6ddb8148c26b4474cd931" category="summary">您可以使用 System Manager 更改默认 iSCSI 身份验证方法，此身份验证方法适用于未配置特定身份验证方法的任何启动程序。</block>
   <block id="f3a94bcb82040980e2f12ee0d098a87a" category="list-text">在 * 启动程序安全性 * 选项卡中，单击 * 默认安全性 * 区域中的 * 编辑 * 。</block>
-  <block id="f3076d47f0a8e6e8030cc9f70a0b04c6" category="summary">您可以使用 System Manager 手动创建仅包含 HDD 或 SSD 的聚合。</block>
   <block id="44d0299d0fc31a880b954ccc657a0d6e" category="doc">通过手动创建聚合配置存储</block>
   <block id="97dba5acf15587b71ee98a554fe289f3" category="paragraph">所有磁盘的大小必须相同。</block>
   <block id="00a75fb35e6e77311b62e8e94339e5e0" category="list-text">如果要在 ONTAP Select 中的四节点集群上创建聚合，则默认情况下会选中镜像聚合选项。</block>
   <block id="00e5021250b8b5eb737448724650f488" category="list-text">创建聚合：</block>
   <block id="869b0ba50e4548099c13ba0a119077e2" category="paragraph">此时将使用指定的配置创建聚合，并将其添加到聚合窗口的聚合列表中。</block>
   <block id="c61db8023a8003d406a9d6e84bb3d46b" category="summary">您可以通过 System Manager 中的信息板监控 Storage Virtual Machine （ SVM ）的运行状况和性能。</block>
-  <block id="d771c94303decbc5643c8d035a2226a7" category="doc">监控 SVM</block>
   <block id="47c6d23fe6018f762f19575354d78a86" category="list-text">选择要监控的 SVM 的名称。</block>
   <block id="e2e9bd59ef81e97b3160bf63305a192c" category="list-text">在信息板面板中查看详细信息。</block>
   <block id="724df5a92e209fc5ea4d218769de6e3e" category="summary">您可以使用 System Manager 配置 iSCSI 协议，以便使用基于 TCP/IP 的 SCSI 协议将块数据传输到主机。</block>
@@ -8935,9 +8911,7 @@
   <block id="02e8657c4c4ceb640870cd696627fd96" category="list-text">集群中的每个节点上至少有两个可用的 FC 目标端口。板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置在 ONTAP 命令行界面（ CLI ）中完成，此操作步骤不会对此进行介绍。</block>
   <block id="74e0c6e96d379922627d8416a0a0f88c" category="sidebar">创建集群间 LIF （从 ONTAP 9.3 开始）</block>
   <block id="d6e768218203e5e5304006b8efd0112a" category="summary">您可以使用 System Manager 删除不再需要的端口集。</block>
-  <block id="037c863e9f93c12fc8ea65ce0b04bebb" category="doc">正在删除端口集</block>
   <block id="3c5def4b4418a1419950919985135d29" category="list-text">在 * 端口集 * 选项卡中，选择一个或多个端口集，然后单击 * 删除 * 。</block>
-  <block id="63ce9611974d55c52bba91d03b2470a4" category="summary">您可以使用 System Manager 创建端口集，以限制对 LUN 的访问。</block>
   <block id="6158f107c175e5e253737a4a6ef1c91c" category="doc">创建端口集</block>
   <block id="bb2bf2751a5bbb740612ba8bffdc099d" category="list-text">选择要与端口集关联的网络接口。</block>
   <block id="1ec1c4d3de6304fa2f8701345f97b93b" category="summary">您可以使用 System Manager 创建启动程序组。使用启动程序组可以控制主机对特定 LUN 的访问。您可以使用端口集限制启动程序可以访问的 LIF 。</block>
@@ -8956,7 +8930,6 @@
   <block id="61696bbbffe81f0015841f4828a83f8f" category="paragraph">端口集列表下方的区域显示了有关与选定端口集关联的网络接口和启动程序组的详细信息。</block>
   <block id="d9eaa6e43a91e86b923e03b379f9bbc3" category="summary">您可以使用 System Manager 中的编辑启动程序组对话框更改现有启动程序组及其操作系统的名称。您可以在启动程序组中添加或删除启动程序。您还可以更改与启动程序组关联的端口集。</block>
   <block id="e2485f3cbd62161860676b0d2a07c9ce" category="summary">您可以使用 System Manager 中的端口集选项卡编辑与端口集相关的设置。</block>
-  <block id="1ac31f1ad654d973d0519bf199c050af" category="doc">编辑端口集</block>
   <block id="0c0018980666258d7f22a8d9a061f1d5" category="list-text">在 * 端口集 * 选项卡中，选择要编辑的端口集，然后单击 * 编辑 * 。</block>
   <block id="4147675dfdaf47726b2bef9cf232aa84" category="list-text">更新端口集：</block>
   <block id="0ff4e590ab4228f68c6e92c2925a6247" category="list-text">使用 `lun portset show` 命令确定端口集是否存在。</block>
@@ -9010,7 +8983,6 @@
   <block id="8b8233970ae93cddab3fcb0f038a19cf" category="paragraph">您可以使用 System Manager 修改共享的设置，例如符号链接设置，用户或组的共享访问权限以及对共享的访问类型。您还可以启用或禁用通过 Hyper-V 持续提供共享，以及启用或禁用基于访问的枚举（ ABE ）。从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。</block>
   <block id="2d6ca664e165a57792b1b59ede4c3890" category="paragraph">显示是否为共享启用了持续可用性。从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。</block>
   <block id="41aef6f60f95609aa7b5ca4777bfe44c" category="paragraph">指定是启用还是禁用共享以实现持续可用性。从 System Manager 9.6 开始， FlexGroup 卷支持持续可用性。</block>
-  <block id="65a3184d0628d233da52a61b95ebef0a" category="doc">配置和管理云层</block>
   <block id="33f78bbdf1a758d02b55487b2ecd80c7" category="list-text">阿里云（从 System Manager 9.6 开始）</block>
   <block id="89bd3502717f9fe37639e6b2651dcc4e" category="section-title">将聚合附加到云层</block>
   <block id="5cbe705dc8cf70f45fa4d74042a1e60d" category="list-text">* 全部（从 System Manager 9.6 开始） *</block>
@@ -9028,9 +9000,7 @@
   <block id="decbf892ef0f721afaa78af4ecf7f62a" category="paragraph">您可以使用 ONTAP System Manager classic （ 9.7 及更早版本中提供）查看，管理或删除集群或节点上安装的任何软件许可证。</block>
   <block id="38fd3ecf8201750e55c0c5bce14fd4da" category="doc">使用 System Manager - ONTAP 9.7 及更早版本在 SVM 上配置 FC 协议和 FCoE 协议</block>
   <block id="6add29da08c990d29ef923f9f502fb2f" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）在 Storage Virtual Machine （ SVM ）上为 SAN 主机配置 FC 协议和 FCoE 协议。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。根据您的要求，您可以使用 System Manager 配置 FC 协议或 FCoE 协议，也可以同时配置这两种协议。</block>
-  <block id="1ca0759a68a2eaf6550dc49f288c51b4" category="doc">使用 System Manager — ONTAP 9.7 及更早版本手动创建启用了 FabricPool 的聚合来配置存储</block>
   <block id="93c41266584d5677e48dfa95ec4744c7" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建启用了 FabricPool 的聚合，或者通过将云层附加到 SSD 聚合将现有 SSD 聚合转换为启用了 FabricPool 的聚合。</block>
-  <block id="5dd9e9509ab5aefe612f4c31cb783c33" category="doc">使用 System Manager classic - ONTAP 9.6 及更高版本准备切换和切回操作</block>
   <block id="a25a6296a2238250ac880d0ecf5b030b" category="paragraph">在使用 ONTAP System Manager classic 9.6 执行切换操作之前，您应验证是否已在受影响的站点上执行了必要的步骤。</block>
   <block id="19ba7845e5879e0c327b97f282a2ad67" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建高可用性对</block>
   <block id="f153aa09dfee8a14f039fef3b377cbf3" category="paragraph">您可以使用 ONTAP System Manager classic （ 9.7 及更早版本提供）创建高可用性（ HA ）对，以提供无中断运行和容错所需的硬件冗余。</block>
@@ -9075,7 +9045,6 @@
   <block id="976175cc4e5d4c3ab14e16c83ffa15e8" category="paragraph">您可以使用具有 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）的服务处理器来监控和管理存储系统参数，例如温度，电压，电流和风扇速度。</block>
   <block id="c0bbe542e022a200771c2c752e0173f2" category="doc">使用 System Manager - ONTAP 9.7 及更早版本配置应用程序</block>
   <block id="a52ac8fd4d86144ca8599edcc24c0489" category="paragraph">您可以使用 ONTAP System Manager 经典版中的预定义应用程序模板（在 ONTAP 9.7 及更早版本中提供），根据现有应用程序模板创建新配置。然后，您可以在 ONTAP 中配置应用程序实例。</block>
-  <block id="9b84593697ca85e724b3024c5d49b880" category="doc">关于使用 System Manager classic 进行 MetroCluster 切换和切回— ONTAP 9.7 及更早版本</block>
   <block id="2315562608e0a40cc0e479e0bf28e956" category="paragraph">从 ONTAP System Manager 9.6 开始，如果发生灾难，导致源集群中的所有节点均无法访问并关闭，您可以使用 MetroCluster 切换和切回操作。在灾难恢复测试或站点脱机进行维护等情况下，您还可以使用切换工作流进行协商（计划内）切换。</block>
   <block id="d8f8316f7f24f5a2514269ed1e587626" category="doc">使用 System Manager 创建 SVM - ONTAP 9.7 及更早版本</block>
   <block id="c9dec5a7f72136d2dbb54a45740dfc5f" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）创建可立即提供数据的完全配置的 Storage Virtual Machine （ SVM ）。一个集群可以具有一个或多个 SVM 。</block>
@@ -9088,7 +9057,6 @@
   <block id="b9a9fce134da50ebf7545e06d22fd4db" category="doc">使用 System Manger - ONTAP 9.7 及更早版本重命名 MetroCluster 本地站点（站点 A ）</block>
   <block id="8b0ad44ba508767c489eaba84b40e7dd" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重命名集群中的 MetroCluster 本地站点（站点 A ）。</block>
   <block id="a725a02a41f5b8ff1387ed326ce28ae0" category="doc">使用 System Manager - ONTAP 9.7 及更早版本设置网络</block>
-  <block id="bddf9d6dc523b359adf8edeffa510c91" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）设置网络来管理集群，节点和服务处理器。您还可以使用网络窗口设置 DNS 和 NTP 详细信息。</block>
   <block id="7b7dfa770e15135a2305b1e8fda21d7f" category="doc">使用 System Manager - ONTAP 9.7 及更早版本设置支持页面</block>
   <block id="c8711d5f23fdbe3f98b8104eb091ef3b" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）设置支持页面。设置支持页面将完成集群设置，其中包括设置事件通知，对于单节点集群，还包括配置系统备份。</block>
   <block id="bc701f734e8403c8ec9d20c515d85272" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理集群的日期和时间设置</block>
@@ -9096,12 +9064,10 @@
   <block id="f0fe373cafde86319d4749debcc801a1" category="doc">使用 System Manager — ONTAP 9.7 及更早版本查看存储建议</block>
   <block id="52ff43f011435f293e7816a453ee9dda" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中的存储窗口查看为创建聚合提供的存储建议。</block>
   <block id="d08159a440a303f7b3b7c94dc1935c5a" category="doc">使用 System Manager - ONTAP 9.7 及更早版本通过聚合配置存储</block>
-  <block id="874b9a4c9e5f670484a41edbf145c405" category="paragraph">您可以根据存储建议创建聚合，也可以根据需要使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建聚合。您可以使用 System Manager 创建 Flash Pool 聚合， SnapLock 聚合和启用了 FabricPool 的聚合，以便为一个或多个卷提供存储。</block>
   <block id="9d802381a15c252491a9d7ee663aff69" category="doc">使用 System Manager 配置 SNMP - ONTAP 9.7 及更早版本</block>
   <block id="f31b76fac3ac0dc10498d730d31669d4" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）配置 SNMP 以监控集群中的 SVM 。</block>
   <block id="b10038089b0aa2450f7c5e88c187484f" category="doc">使用 System Manager - ONTAP 9.7 及更早版本配置 LDAP 服务器</block>
   <block id="1cbeaf1a546d95c9bc9037f69d4fcf08" category="paragraph">您可以使用 ONTAP System Manager classic （ 9.7 及更早版本）配置集中维护用户信息的 LDAP 服务器。</block>
-  <block id="05f8fe4988a6b907042484cd11d40fb5" category="doc">使用 System Manager — ONTAP 9.7 及更早版本手动配置存储并创建 Flash Pool 聚合</block>
   <block id="85867b0d35df1b329438dc7c422261f1" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建 Flash Pool 聚合，或者通过添加 SSD 将现有 HDD 聚合转换为 Flash Pool 聚合。创建新的 HDD 聚合时，您可以为其配置 SSD 缓存并创建 Flash Pool 聚合。</block>
   <block id="94179f0d8149a3ac801eea474d69ef53" category="doc">使用 System Manager - ONTAP 9.7 及更早版本设置网络</block>
   <block id="1ba705052a00b8283ec31d9278e3d149" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）设置网络。设置网络包括创建 IP 空间，广播域和子网。</block>
@@ -9139,7 +9105,6 @@
   <block id="25e40dbc1aa0db0b68b988d819462b39" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将未分配磁盘的所有权分配给特定节点，以增加聚合或存储池的容量。</block>
   <block id="29f339b530105eca42ac732c2bd2a766" category="doc">使用 System Manager — ONTAP 9.7 及更早版本管理网络</block>
   <block id="fede64b0ea01acd771df4df735e64b8d" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）通过创建和管理 IP 空间，广播域，子网，网络接口，以太网端口， 和 FC/FCoE 适配器。</block>
-  <block id="e9019df4e5838c4a22d6a9fa885721a4" category="doc">使用 System Manager — ONTAP 9.7 及更早版本手动创建聚合以配置存储</block>
   <block id="ccac8732ee856be09c1ef43f22599d7c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建仅包含 HDD 或 SSD 的聚合。</block>
   <block id="489980c7967cf6ae840737bc9670c341" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建 FlexVol 卷</block>
   <block id="b54401ea7e235c7d426b9bdeb475a430" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）中的创建卷对话框为数据创建 FlexVol 卷。您必须始终为数据创建一个单独的卷，而不是将数据存储在根卷中。</block>
@@ -9153,4 +9118,205 @@
   <block id="5cee01395e3051dd380249b88316b378" category="paragraph">ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的信息板窗口包含多个面板，可提供有关系统及其性能的累积概览信息。</block>
   <block id="a36ead175efb45759fee5f11ce0d539b" category="doc">使用 System Manager - ONTAP 9.7 及更早版本更新 MetroCluster 配置中的集群</block>
   <block id="5b53589c41b3f02720bf43be353e0006" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）更新 MetroCluster 配置中的集群。您必须在两个集群上执行每个操作，但更新集群除外。</block>
+  <block id="3110731840fac8ce0c3cd829403f4290" category="doc">如果将 StorageGRID 与 System Manager - ONTAP 9.7 及更早版本结合使用，请安装 CA 证书</block>
+  <block id="0757fb4809f44fa933d240553b7b6912" category="paragraph">要使 ONTAP 能够使用 StorageGRID 作为启用了 FabricPool 的聚合的对象存储进行身份验证，您可以使用 System Manager classic （在 ONTAP 9.7 及更早版本中提供）在集群上安装 StorageGRID CA 证书。</block>
+  <block id="dd83afac5120b65ffebb24cab48e69ca" category="doc">使用 System Manager 启动 SVM - ONTAP 9.7 及更早版本</block>
+  <block id="f5390b21564b672a29d380d58be78523" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过启动 SVM 从 Storage Virtual Machine （ SVM ）提供数据访问。</block>
+  <block id="1a14e924b725d213f7adeaa02fec40a1" category="doc">使用 System Manager - ONTAP 9.7 及更早版本将卷分配给存储服务质量</block>
+  <block id="783bb0aaffc5cf358c9dd3abebdbfeb4" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将 FlexVol 卷和 FlexGroup 卷分配给存储服务质量（ QoS ）策略组，以限制这些卷和卷的吞吐量。您可以使用 System Manager 为新卷分配存储 QoS ，也可以修改已分配给策略组的卷的存储 QoS 详细信息。</block>
+  <block id="9b858301380b70de8704b68de8476d9d" category="doc">使用 System Manager - ONTAP 9.7 及更早版本删除卷</block>
+  <block id="d87145d51d1b2884ca6f3a0458a70b6d" category="paragraph">如果您不再需要某个卷包含的数据，或者已将某个卷包含的数据复制到其他位置，则可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）删除 FlexVol 该卷。删除卷时，卷中的所有数据都将被销毁，并且您无法恢复这些数据。</block>
+  <block id="9cbd8bc357a78901e45e24781f8eb615" category="doc">准备切换和切回操作</block>
+  <block id="a75e8acf7cda75c2cae76c182cea9cc1" category="doc">使用 System Manager — ONTAP 9.7 及更早版本管理 AutoSupport 通知</block>
+  <block id="65cb7b95d3e9511248e4d454f7a1000b" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）配置 AutoSupport 通知，以帮助您监控存储系统运行状况。</block>
+  <block id="1f13cccfbc69a5a3b13b2cb14ee1c9e6" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理存储池</block>
+  <block id="ebacb42d7af485b4c9760bd64078b3c9" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建存储池，以使多个 Flash Pool 聚合能够共享 SSD 。</block>
+  <block id="98f75cb448f7e82e01fb789642587098" category="doc">使用 System Manager 管理硬件缓存— ONTAP 9.7 及更早版本</block>
+  <block id="7b9cdbb20d7b7f588086eab7aa5c2913" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理硬件缓存模块。</block>
+  <block id="abb7c046c422db37c0202c07166a8eab" category="doc">使用 System Manager - ONTAP 9.7 及更早版本调整卷大小</block>
+  <block id="20169e117853b27b34193a931dadb8dc" category="paragraph">当卷容量接近全满时，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）来增加卷的大小，删除某些 Snapshot 副本或调整 Snapshot 预留。您可以使用 System Manager 中的卷大小调整向导提供更多可用空间。</block>
+  <block id="082fcd43395a78c9af7e1c1aede841c9" category="doc">使用 System Manager 镜像聚合— ONTAP 9.7 及更早版本</block>
+  <block id="7320e70f830697cfb3f68adab3cec989" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）在一个聚合中实时镜像数据，以保护数据并提高故障恢复能力。镜像聚合可避免在连接到磁盘和阵列 LUN 时出现单点故障。</block>
+  <block id="d7a551057ba910463c17513387122618" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理磁盘</block>
+  <block id="4408c783f4f77dad27b39a90a5feb7d2" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理磁盘。</block>
+  <block id="13ed9e2c3b1a0f1c9c3cecfdcb6d4dda" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑聚合</block>
+  <block id="3b13e7cb85c51b588c07d756c83a4a87" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）根据需要更改现有聚合的聚合名称， RAID 类型和 RAID 组大小。</block>
+  <block id="3771b41752bfca2054ec5755865b482f" category="doc">使用 System Manager - ONTAP 9.7 及更早版本延长 Snapshot 副本的到期日期</block>
+  <block id="d85ed9eda73fd8e5db559e1601f30742" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）延长卷中 Snapshot 副本的到期日期。</block>
+  <block id="2f9e6facffd1709fd0c4ced278a4fba3" category="doc">使用 System Manager - ONTAP 9.7 及更早版本在聚合或节点之间移动 FlexVol 卷</block>
+  <block id="19796b89ac32544f126c40a751121b43" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）无中断地将 FlexVol 卷移动到其他聚合或其他节点，以提高容量利用率和性能。</block>
+  <block id="d17167f859ab660bcd122310b3a38a75" category="doc">System Manager 中的接合路径窗口— ONTAP 9.7 及更早版本</block>
+  <block id="886fa4451232ae283617085858a8c0d6" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的接合路径窗口将 FlexVol 卷挂载或卸载到 SVM 命名空间中的接合位置。</block>
+  <block id="db3926b0ec24b4f88e29703ea58bc16f" category="doc">使用 System Manager - ONTAP 9.7 及更早版本更改 FlexGroup 卷的状态</block>
+  <block id="fe3379c0654ba52a8a0b29adde9d8be1" category="paragraph">如果要使 FlexGroup 卷脱机，使 FlexGroup 卷重新联机或限制对 FlexGroup 卷的访问，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）更改 FlexGroup 卷的状态。</block>
+  <block id="260858e8977a52f6d47878262745f66e" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理 Storage Virtual Machine</block>
+  <block id="2caaa90e2bce16c3aba0effa58711285" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理集群中的 SVM 。</block>
+  <block id="ae158ab24ee57d6a67c8f4e3f4a7e90b" category="doc">System Manager 中的兼容备用磁盘— ONTAP 9.7 及更早版本</block>
+  <block id="f128392fa134f31a1502c8ed3637ad2d" category="paragraph">在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中，兼容备用磁盘是指与聚合中其他磁盘的属性匹配的磁盘。如果要通过添加 HDD （容量磁盘）来增加现有聚合的大小或将聚合的 RAID 类型从 RAID4 更改为 RAID-DP ，则聚合必须包含足够的兼容备用磁盘。</block>
+  <block id="18301a38fb3760d7cb97dad4b1d2599d" category="doc">使用有效的 ONTAP 磁盘类型将 HDD 与系统管理器混合使用 - ONTAP 9.7 及更早版本</block>
+  <block id="df9545bad1db11f3501d986a6f905cba" category="paragraph">从 Data ONTAP 8.1 开始，某些 ONTAP 磁盘类型在创建和添加到聚合以及管理备用磁盘时被视为等效类型。ONTAP 会为每种磁盘类型分配一个有效的磁盘类型。您可以使用 ONTAP System Manager classic （ 9.7 及更早版本中提供）混合具有相同有效磁盘类型的 HDD 。</block>
+  <block id="bf9b16e0387db17699d2c4fc1baba097" category="doc">使用 System Manager - ONTAP 9.7 及更早版本调整 FlexGroup 卷的大小</block>
+  <block id="d589fdcb9092becde1e801dfcd1b6604" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过调整现有资源的大小或添加新资源来调整 FlexGroup 卷的大小。</block>
+  <block id="2230ca0c05e882ffa2b9620b8251c500" category="doc">使用 System Manager （ ONTAP 9.7 及更早版本）管理 LUN</block>
+  <block id="6354f0e3d86ddcd54108d4692014c357" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理 LUN 。</block>
+  <block id="acd9f72a750973c775f7c74901de1aa0" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理作业</block>
+  <block id="7989a225df196b007589af79666e70d3" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理作业任务，例如显示作业信息和监控作业进度。</block>
+  <block id="1045e5c18e1edaf07510e674034a2c4b" category="doc">System Manager 如何使用热备件— ONTAP 9.7 及更早版本</block>
+  <block id="ecb29c7e1f3a774425bf27baeca43dbf" category="paragraph">热备用磁盘是指已分配给存储系统但未被任何 RAID 组使用的磁盘。热备用磁盘不包含任何数据，当 RAID 组中发生磁盘故障时，这些热备用磁盘会分配给 RAID 组。ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）使用最大的磁盘作为热备用磁盘。</block>
+  <block id="e70ed8bf17f4b1ec8524926f1784ce3c" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理子网</block>
+  <block id="73e0901fe629a1a67c0cacc2516714fc" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理子网。</block>
+  <block id="aa37cb2b059a6d509b9b2bfa658ada55" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建 FC SAN 优化的 LUN</block>
+  <block id="f12733f8853d7d5497887694a9179133" category="paragraph">在 AFF 平台上首次设置集群期间，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建一个或多个 FC SAN 优化的 LUN 。</block>
+  <block id="045188e8a2806c9af0fda73b23646157" category="doc">使用 System Manager 跟踪文件访问以诊断 SVM 上的访问错误</block>
+  <block id="161a8d482d96b458b5f0e8083816b376" category="doc">关于使用 System Manager 的 SVM — ONTAP 9.7 及更早版本</block>
+  <block id="b1db62d410edb71e46e88f8c71ab00e1" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理节点</block>
+  <block id="a677afad0374affce57fedbf72410cb1" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）查看集群中节点的详细信息。</block>
+  <block id="1a6846191e0b0078fd24ea7d76b2c05e" category="doc">System Manager 中的跟踪文件访问窗口</block>
+  <block id="d6e8676418a94beed8523624094e57c7" category="paragraph">从 ONTAP System Manager 9.6 开始，如果在使用 CIFS 或 NFS 协议访问 SVM 上的文件和共享时遇到问题，您可以使用 " 跟踪文件访问 " 窗口来诊断问题。</block>
+  <block id="cc774f8540dbfb34aa191e2c20a49885" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理事件</block>
+  <block id="b2a11b91caffbacb865048a18d41d038" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）查看事件日志和事件通知。</block>
+  <block id="e7a6e7217e446a13b382282b2b783a7d" category="doc">使用 System Manager - ONTAP 9.7 及更早版本更改卷的分层策略</block>
+  <block id="b0840da7c2d193991dbd527ac430b4c0" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）更改卷的默认分层策略，以控制在数据变为非活动状态时是否将卷的数据移动到云层。</block>
+  <block id="93f0c42c8700a499f980d8388d2cab50" category="doc">使用 System Manager - ONTAP 9.7 及更早版本删除聚合</block>
+  <block id="5254fc23a12f39bde3374b001a0c5410" category="paragraph">当您不再需要聚合中的数据时，可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）删除聚合。但是，您无法删除根聚合，因为它包含根卷，其中包含系统配置信息。</block>
+  <block id="f90b8f3b8ba120f60f456a06decf74c0" category="doc">使用 System Manager 删除 Snapshot 副本— ONTAP 9.7 及更早版本</block>
+  <block id="50200ce262d86119ff2b812c7a743175" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）删除 Snapshot 副本以节省磁盘空间或释放磁盘空间。如果不再需要 Snapshot 副本，您也可以删除该 Snapshot 副本。</block>
+  <block id="028e84497f474466e2a2081b10b23d72" category="doc">使用 System Manager 移动 FlexVol 卷— ONTAP 9.7 及更早版本</block>
+  <block id="da5bfecaebdd8c2ad3a66e2c39ce73d9" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）无中断地将 FlexVol 卷移动到其他聚合或其他节点，以提高容量利用率和性能。</block>
+  <block id="72d74e64b0929a9c7c7bc7f3554b4c9d" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建 FlexClone 卷</block>
+  <block id="c0aa985c97a56f85399e054f26e6fb91" category="paragraph">如果需要现有 FlexVol 卷的可写时间点副本，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建 FlexClone 卷。您可能希望创建卷的副本以供测试，或者在不授予其他用户对生产数据访问权限的情况下为其提供对卷的访问权限。</block>
+  <block id="296d3389cd2112082ce2545f02d9782a" category="doc">使用 System Manager — ONTAP 9.7 及更早版本运行重复数据删除操作</block>
+  <block id="c1704396b0a08ab03516a9295fa05265" category="paragraph">您可以使用 ONTAP System Manager classic （ 9.7 及更早版本中提供）在创建 FlexVol 卷后立即运行重复数据删除，或者计划在指定时间运行重复数据删除。</block>
+  <block id="15fcc128691817e5d018f6a6c28490a5" category="doc">使用 System Manager 调整卷大小的选项— ONTAP 9.7 及更早版本</block>
+  <block id="d72908bbda40336f9f8c28c9e474bf46" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的卷大小调整向导更改卷大小，调整 Snapshot 预留，删除 Snapshot 副本以及动态查看更改结果。</block>
+  <block id="8e5d707678bf42772cd958910a63a685" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑卷属性</block>
+  <block id="58e12808aee592a68ef0eba7de9b2fad" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）修改卷属性，例如卷名称，安全模式，预留百分比和空间保证。您可以修改存储效率设置（重复数据删除计划，重复数据删除策略和数据压缩）和空间回收设置。</block>
+  <block id="1ce0e12cfe117c5cdf15da3fff9c9971" category="doc">使用 System Manager 创建聚合的存储建议— ONTAP 9.7 及更早版本</block>
+  <block id="4cfa7a50c86e4712589b7525645c62d7" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理网络接口</block>
+  <block id="5c12d3be28256f2a4159aafabfc61e42" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理网络接口。</block>
+  <block id="bf71aa2b8c5f54397eaee604bf7831a5" category="doc">使用 System Manager - ONTAP 9.7 及更早版本将 FlexClone 卷从其父卷拆分</block>
+  <block id="76055aecc2a31bf17fb90bcf64dacbd8" category="paragraph">如果您希望 FlexClone 卷具有自己的磁盘空间，而不是使用其父卷的磁盘空间，则可以使用 System Manager classic （在 ONTAP 9.7 及更早版本中提供）将 FlexClone 卷从其父卷拆分。拆分后， FlexClone 卷将成为普通的 FlexVol 卷。</block>
+  <block id="695827db13701a3500b6c8651644d09e" category="doc">使用 System Manager - ONTAP 9.7 及更早版本在卷上启用存储效率</block>
+  <block id="33541cf90bfd4d58d20417a84690177a" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）来启用存储效率，并在卷上配置重复数据删除和数据压缩或仅配置重复数据删除以节省存储空间。如果在创建卷时未启用存储效率，可以稍后通过编辑卷来启用。</block>
+  <block id="5b371b102ea46126c749a29c392ca705" category="doc">关于使用 System Manager - ONTAP 9.7 及更早版本的 FlexVol 卷的卷保证</block>
+  <block id="29b15d73a4d19af69979765c099c885d" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）为 FlexVol 卷设置卷保证。卷保证（有时称为 _space guarantees_ ）用于确定如何从卷所在聚合中为卷分配空间，无论是否为卷预先分配了空间。</block>
+  <block id="460ef1a79f16380a75f477525964a4be" category="doc">使用 System Manager - ONTAP 9.7 及更早版本添加容量磁盘时更改 RAID 组</block>
+  <block id="e31888bc00e75b0a569b90a67074a027" category="paragraph">向聚合添加容量磁盘（ HDD ）时，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）更改要添加磁盘的 RAID 组。</block>
+  <block id="460c3e77c3b95862cf077b04e0ed05f9" category="doc">System Manager 中的 SVM 信息板窗口— ONTAP 9.7 及更早版本</block>
+  <block id="fbb2fea1add63830545d846f7b655c11" category="paragraph">ONTAP System Manager classic 中的信息板窗口（在 ONTAP 9.7 及更早版本中提供）可提供有关 Storage Virtual Machine （ SVM ）及其性能的累积概览信息。您可以使用信息板窗口查看与 SVM 相关的重要信息，例如配置的协议，即将达到容量的卷以及性能。</block>
+  <block id="c922fd39e8f56b38cdfc9e6adc78364a" category="doc">使用 System Manager 停止 SVM - ONTAP 9.7 及更早版本</block>
+  <block id="f26e641bb98d9f44dfd9c7506e1b457b" category="paragraph">如果要对 SVM 中的任何问题描述 进行故障排除，删除 SVM 或停止从 SVM 进行数据访问，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）停止 Storage Virtual Machine （ SVM ）。</block>
+  <block id="7c6d1dca7d79a2df349d430a5b8ce40a" category="doc">System Manager 中的存储层窗口— ONTAP 9.7 及更早版本</block>
+  <block id="53defb9df9eef38cdf0fb069a4e6c0df" category="paragraph">您可以使用 ONTAP System Manager 经典版中的存储层窗口（在 ONTAP 9.7 和 earier 中提供）查看集群范围的空间详细信息以及添加和查看聚合详细信息。</block>
+  <block id="0dd92fd6a18034a59856f359a0593b88" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理系统警报</block>
+  <block id="7b1aed01f19d6b501620e7b6e1f439a0" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）监控集群的不同部分。</block>
+  <block id="e4eae7223fd7b9e79b07c5e61638f505" category="summary">您可以使用 ONTAP System Manager classic 创建，删除和编辑端口集。</block>
+  <block id="93a63ce7da85170f60f10d702a5e8c85" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理端口集</block>
+  <block id="0d553351168d2ec2a019b1b7d719386c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建，删除和编辑端口集。</block>
+  <block id="0e5b9208e3815bdfce5fbc2df62bbbb0" category="paragraph">您可以使用 ONTAP System Manager classic 创建端口集，以限制对 LUN 的访问。</block>
+  <block id="57c0533d398adb4e7f062a380c074a16" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建 LUN</block>
+  <block id="44d085e7c22d7a56b01ae83977fb0c9b" category="paragraph">如果有可用空间，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.8 及更早版本）为现有聚合，卷或 qtree 创建 LUN 。您可以在现有卷中创建 LUN ，也可以为此 LUN 创建新的 FlexVol 卷。您还可以启用存储服务质量（ QoS ）来管理工作负载性能。</block>
+  <block id="d71ba3f941027cc222ab286f261aedf9" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理启动程序组</block>
+  <block id="910b66eacc00a33b3e1faebd757ca4d0" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理启动程序组。使用启动程序组可以控制主机对特定 LUN 的访问。您可以使用端口集限制启动程序可以访问的 LIF 。</block>
+  <block id="836f907e1a3a35e35703941bae06b845" category="doc">使用 System Manager （ ONTAP 9.7 及更早版本）计划自动创建 Snapshot 副本</block>
+  <block id="b9398918d0de6151ca1aff623f0c17c7" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）为自动创建卷的 Snapshot 副本设置计划。您可以指定创建副本的时间和频率。您还可以指定保存的 Snapshot 副本数。</block>
+  <block id="d9e6d8e6a2ca786c481dd6690be859ce" category="doc">使用 System Manager 管理 SVM — ONTAP 9.7 及更早版本</block>
+  <block id="cb87a5fa5dbaf563dbe88745b9c0a81a" category="paragraph">在 ONTAP System Manger classic （适用于 ONTAP 9.7 及更早版本）中， Storage Virtual Machine （ SVM ）管理员可以根据集群管理员分配的功能管理 SVM 及其资源，例如卷，协议和服务。SVM 管理员不能创建，修改或删除 SVM 。</block>
+  <block id="8765671729c223f5f4694a4ef71cb193" category="doc">System Manager 中的 Storage Virtual Machine 窗口— ONTAP 9.7 及更早版本</block>
+  <block id="25e3b196bc56cb5950cd2980999e170c" category="paragraph">您可以使用 ONTAP 系统管理器经典版中的 Storage Virtual Machine 窗口（在 ONTAP 9.7 及更早版本中提供）来管理 Storage Virtual Machine （ SVM ）并显示其相关信息。</block>
+  <block id="73c207a42b40373fefb0af90abd1979a" category="doc">使用 System Manager （ ONTAP 9.7 及更早版本）从 Snapshot 副本还原卷</block>
+  <block id="d4cbecd9711501cce40a217a06f17419" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将卷还原到先前创建的 Snapshot 副本中记录的状态，以检索丢失的信息。从 Snapshot 副本还原卷时，还原操作会覆盖现有卷配置。创建 Snapshot 副本后对卷中数据所做的任何更改都将丢失。</block>
+  <block id="c62b17c39d98166166c739b7d4d531eb" category="doc">在 System Manager 中显示磁盘类型和磁盘 RPM 的规则— ONTAP 9.7 及更早版本</block>
+  <block id="410f33bf36cbdc8a618b8734f70c5e9b" category="paragraph">在创建聚合并向聚合添加容量磁盘时，您应了解在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中显示磁盘类型和磁盘 RPM 时适用的规则。</block>
+  <block id="0f30c5e6c317bd8eb9fc9e68e6f0c982" category="doc">使用 System Manager 删除 SVM - ONTAP 9.7 及更早版本</block>
+  <block id="e6a7146a29f981f3a340dced716dbd0b" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从存储系统配置中删除不再需要的 Storage Virtual Machine （ SVM ）。</block>
+  <block id="758283d20b238eeae3e2986d007f26df" category="doc">使用 System Manager - ONTAP 9.7 及更早版本添加容量磁盘</block>
+  <block id="451c8f10f38f828c2a5ffd50c30f5fd0" category="paragraph">您可以通过添加容量磁盘来增加现有非根聚合或包含磁盘的根聚合的大小。您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）添加选定 ONTAP 磁盘类型的 HDD 或 SSD 并修改 RAID 组选项。</block>
+  <block id="792b6fc652efe5c12bdde6f0e2a81957" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过设置网络来管理集群，节点和服务处理器。您还可以使用网络窗口设置 DNS 和 NTP 详细信息。</block>
+  <block id="791fb6897de9ba0f6af6f3e585743f78" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建 FlexClone 文件</block>
+  <block id="0d546e0a897b8e0f0ea2077f8b428cc8" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建 FlexClone 文件，该文件是父文件的可写副本。您可以使用这些副本测试应用程序。</block>
+  <block id="f506739702d824c3af46ea35fd4ac572" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建聚合时更改 RAID 配置</block>
+  <block id="cb074bad8fd5d0e553d0bfd70c9cab9d" category="paragraph">创建聚合时，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）修改聚合的 RAID 类型和 RAID 组大小选项的默认值。</block>
+  <block id="3eb9d14d679a513a2ad3548435228392" category="doc">使用 System Manager - ONTAP 9.7 及更早版本查看磁盘信息</block>
+  <block id="cc67f4075ab5923fe75e7ef7ad848467" category="paragraph">您可以使用 ONTAP System Manager 经典版中的磁盘窗口（在 ONTAP 9.7 及更早版本中提供）查看磁盘的名称，大小和容器详细信息以及有关容量磁盘和缓存磁盘的图形信息。</block>
+  <block id="cb04500583790052d53c9e7a9de1fbe3" category="doc">使用 System Manager 删除 LUN — ONTAP 9.7 及更早版本</block>
+  <block id="7a95b46291ab7b9daf01e27e659653d6" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）删除 LUN 并将 LUN 使用的空间返回到其所在的聚合或卷。</block>
+  <block id="5ed5b84d36c171fac20f225616064bee" category="doc">ONTAP 如何在 System Manager - ONTAP 9.7 及更早版本中报告磁盘类型</block>
+  <block id="3c7ee44668a1f1b1e5a142859b005dbd" category="paragraph">ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）可将一种类型与每个磁盘相关联。ONTAP 报告的某些磁盘类型与行业标准不同；您应了解 ONTAP 磁盘类型与行业标准的对应关系，以避免混淆。</block>
+  <block id="a40a48cd8df9555b5ff7a430e651ccec" category="doc">使用 System Manager — ONTAP 9.7 及更早版本更改重复数据删除计划</block>
+  <block id="780048f038aaba104e03e259610e2a9a" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）更改重复数据删除计划，方法是选择手动，自动或按您指定的计划运行重复数据删除。</block>
+  <block id="ae31194d11d9f6f40dc1383a9c9b1149" category="doc">使用 System Manager - ONTAP 9.7 及更早版本从源 SVM 创建镜像关系</block>
+  <block id="094497dfe6a525ccce05a6611e29e110" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从源 Storage Virtual Machine （ SVM ）创建镜像关系，并为镜像关系分配镜像策略和计划。如果源卷上的数据损坏或丢失，镜像副本可以快速提供数据。</block>
+  <block id="f87363de91a44888ba803f5cb7e20111" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）根据存储建议创建聚合，也可以根据需要手动创建聚合。您可以使用 System Manager 创建 Flash Pool 聚合， SnapLock 聚合和启用了 FabricPool 的聚合，以便为一个或多个卷提供存储。</block>
+  <block id="93b06c5d026d7f6a708ab6de3cfb5a15" category="section-title">使用 System Manager — ONTAP 9.7 及更早版本手动创建聚合</block>
+  <block id="5bd7f238c43d37e955c094a904e83733" category="section-title">使用 System Manager — ONTAP 9.7 及更早版本手动创建 Flash Pool 聚合</block>
+  <block id="b27b332d5e45bf641d4fd65ed64ad8d3" category="section-title">使用 System Manager — ONTAP 9.7 及更早版本手动创建启用了 FabricPool 的聚合</block>
+  <block id="521d64edb3b9891946bd12a9d48b9ea5" category="doc">System Manager 中的卷窗口— ONTAP 9.7 及更早版本</block>
+  <block id="7b924d1c798de9911d3b4b00feb3c254" category="paragraph">您可以使用 ONTAP System Manager 经典版中的卷窗口（在 ONTAP 9.7 及更早版本中提供）来管理 FlexVol 卷和 FlexGroup 卷。从 System Manager 9.6 开始，您还可以管理 FlexCache 卷。</block>
+  <block id="5b74ba9a7ffd896fcb8e28ff4e17b348" category="doc">使用 System Manager - ONTAP 9.7 及更早版本配置和管理云层</block>
+  <block id="7d613ace3ff4e6c511496c52961bf228" category="paragraph">您可以使用 ONTAP System Manger classic （适用于 ONTAP 9.7 及更早版本）配置和管理云层。将数据存储在层中可以提高存储系统的效率。您可以使用启用了 FabricPool 的聚合来管理存储层。云层会根据数据是否经常访问将数据存储在层中。</block>
+  <block id="d8ac47900f5609e8fb7c0cf3d0cafa6c" category="doc">通过使用 System Manager - ONTAP 9.7 及更早版本添加 SSD 来配置缓存</block>
+  <block id="9360df4545304fb67b44a38c013b4f7d" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将 SSD 添加为存储池或专用 SSD 以配置缓存。通过添加 SSD ，您可以将非根聚合或不包含分区磁盘的根聚合转换为 Flash Pool 聚合，或者增加现有 Flash Pool 聚合的缓存大小。</block>
+  <block id="aab5e3cd425b154cb96d27c6f7249138" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理聚合</block>
+  <block id="9a37af394d1d31dd77ff0d7043b0269b" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建聚合，以满足用户不同的安全性，备份，性能和数据共享要求。</block>
+  <block id="9eaabf477a7dc35139f9ed298b9aebf7" category="doc">使用 System Manager - ONTAP 9.7 及更早版本隐藏 Snapshot 副本目录</block>
+  <block id="481139aa8583dcea897dcba753f87952" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）隐藏 Snapshot 副本目录（` .snapshot` ），以便在查看卷目录时不会显示 Snapshot 副本目录。默认情况下，会显示 ` 。 snapshot` 目录。</block>
+  <block id="c0014c2b6229814e063f56dde287f680" category="doc">使用 System Manager - ONTAP 9.7 及更早版本确定何时可以安全地删除多磁盘托架</block>
+  <block id="db7ebba5086857b5a8654dbcdf3c3f1d" category="paragraph">如果在不安全的情况下删除多磁盘托架，可能会导致一个或多个 RAID 组降级，甚至可能导致存储中断。通过 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本），您可以确定何时可以安全删除多磁盘托架。</block>
+  <block id="79ad24ed86d559168db1de0b426a2c01" category="doc">使用 System Manager — ONTAP 9.7 及更早版本监控 SVM</block>
+  <block id="7f569a3c39232bb00a96ba6af81c2b64" category="paragraph">ONTAP System Manager classic 中的信息板（在 ONTAP 9.7 及更早版本中提供）可用于监控 Storage Virtual Machine （ SVM ）的运行状况和性能。</block>
+  <block id="f5b7bd55239093cd9cc1e21e645b1dd4" category="doc">使用 System Manager - ONTAP 9.7 及更早版本删除 FlexGroup 卷</block>
+  <block id="b2248261263fafbd0f4108203fda4392" category="paragraph">当您不再需要 FlexGroup 卷时，可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）删除 FlexGroup 卷。</block>
+  <block id="b370847994c3d23b844ca1e55d46d7a0" category="doc">在 System Manager - ONTAP 9.7 及更早版本中管理卷</block>
+  <block id="a27a4fe05bc74404abef4983a840d677" category="paragraph">您可以使用 ONTAP System Manager classic （在 9.7 及更早版本中提供）创建，编辑和删除卷。</block>
+  <block id="1a9c869a6bfc17032518e267afda3fe5" category="doc">使用 System Manager - ONTAP 9.7 及更早版本为 VMware 创建 NFS 数据存储库</block>
+  <block id="414d44592771786254f784e9d856900c" category="paragraph">您可以使用 ONTAP System Manager 经典版中的 " 为 VMware 创建 NFS 数据存储库 " 向导（在 ONTAP 9.7 及更早版本中提供）为 VMware 创建 NFS 数据存储库。您可以为 NFS 数据存储库创建卷，并指定可访问 NFS 数据存储库的 ESX 服务器。</block>
+  <block id="5ef671179cc9a38819a2cefa50caf463" category="doc">使用 System Manager - ONTAP 9.7 及更早版本更改卷的状态</block>
+  <block id="617d0f1352346b807c2aeb129b502d38" category="paragraph">如果要使卷脱机，使卷重新联机或限制对卷的访问，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）更改 FlexVol 卷的状态。</block>
+  <block id="9dbcf0e843a9a11dcb9cc2dfbbe27734" category="doc">使用 System Manager - ONTAP 9.7 及更早版本设置 Snapshot 副本预留</block>
+  <block id="f50b407a6a008ed2a2681714c08c97bb" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）为卷中的 Snapshot 副本预留空间（以百分比为单位）。通过设置 Snapshot 副本预留，您可以为 Snapshot 副本分配足够的磁盘空间，使其不会占用活动文件系统空间。</block>
+  <block id="6eb2b573b575a1c5351324690e7d62ae" category="doc">使用 System Manager - ONTAP 9.7 及更早版本将磁盘重新分配给节点</block>
+  <block id="190f9ec4f52503d35888c252ab746728" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将备用磁盘的所有权从一个节点重新分配给另一个节点，以增加聚合或存储池的容量。</block>
+  <block id="9298dd1b53067fbddee607d176c77775" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理以太网端口</block>
+  <block id="2da457cc70f41e8d72a0321dda42ec28" category="paragraph">您可以使用 ONTAP 系统经典版（在 ONTAP 9.7 及更早版本中可用）创建和管理以太网端口。</block>
+  <block id="1f5a64b9025574c884f81e9e1098c75f" category="doc">使用 System Manager — ONTAP 9.7 及更早版本管理 FC/FCoE 和 NVMe 适配器</block>
+  <block id="a9a3133ec55e6f2440f5dad3b6c8f994" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理 FC/FCoE 和 NVMe 适配器。</block>
+  <block id="eea76ef6e75facd7fe5458d28c6aa51b" category="doc">使用 System Manager （ ONTAP 9.7 及更早版本）管理阵列 LUN</block>
+  <block id="15251827b733b2121efb7e442aa6166e" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将阵列 LUN 分配给现有聚合并管理阵列 LUN 。</block>
+  <block id="7cfd7e3c448ffc86090e645a5d92ce95" category="doc">在 System Manager - ONTAP 9.7 及更早版本中对 FlexVol 卷使用空间预留</block>
+  <block id="ec05e9ce96b047af3f9ddcda38e0e416" category="paragraph">在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中，您可以使用空间预留来配置 FlexVol 卷。精简配置提供的存储似乎比给定聚合实际可用的存储多，只要当前并未使用所有存储即可。</block>
+  <block id="5a9c388627c2a7fd685dccf436f83c83" category="doc">使用 System Manager - ONTAP 9.7 及更早版本查看 FlexGroup 卷信息</block>
+  <block id="f977f31d16f4b8a41207c6826103623d" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）查看有关 FlexGroup 卷的信息。您可以通过图形方式查看 FlexGroup 卷的已分配空间，保护状态和性能。</block>
+  <block id="af278e4cbaba5d7640f03c7d8ccd3a53" category="doc">System Manager 中的磁盘窗口— ONTAP 9.7 及更早版本</block>
+  <block id="de93e474f59d689bd502d50a3463819e" category="paragraph">您可以使用 ONTAP 系统管理器中的磁盘窗口（在 ONTAP 9.7 及更早版本中可用）查看存储系统中的所有磁盘。</block>
+  <block id="258afb30ae69ea72441de6bfa02ded92" category="doc">使用 System Manager 管理共享— ONTAP 9.7 及更早版本</block>
+  <block id="47e145cac11e2ed21e19d35136895102" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建，编辑和管理共享。</block>
+  <block id="fa1e16b1d3064c5c2a9c506c6f66ea7e" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑数据保护卷</block>
+  <block id="e74561cb08f6414ff25ebff5204738b7" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）修改数据保护（ DP ）卷的卷名称。如果源卷未启用存储效率，您可能希望仅在目标卷上启用存储效率。</block>
+  <block id="eb4ab168a8612623af24820fd4d8ba27" category="doc">使用 System Manger 查看 Flash Pool 统计信息— ONTAP 9.7 及更早版本</block>
+  <block id="b4b7fb40eb76e5a84d19a4d9485efbd2" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）查看选定 Flash Pool 聚合的实时 SSD 层读取和写入工作负载。</block>
+  <block id="446a5bde28bd136730438a9fe67a7ebb" category="doc">使用 System Manager - ONTAP 9.7 及更早版本查看聚合信息</block>
+  <block id="4fc62bd4381c61d9b0eb0fc112db2afd" category="paragraph">您可以使用 ONTAP System Manager classic 中的聚合窗口（在 ONTAP 9.7 及更早版本中提供）查看有关聚合的名称，状态和空间信息。</block>
+  <block id="0c9f27e77bdffacf8be52b8f641b1bdf" category="doc">使用 System Manager - ONTAP 9.7 及更早版本从源 SVM 创建存储关系</block>
+  <block id="59a8e82d0ecf8665b9a61a8ba2cce46c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从源 Storage Virtual Machine （ SVM ）创建存储关系，并为存储关系分配存储策略以创建备份存储。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。</block>
+  <block id="d301c6c98637b2c2de49130b18671be6" category="list-text">对于某些平台，如果目标集群具有 SnapVault 许可证或 SnapMirror 许可证，并且启用了数据保护优化 \ （ DPO\ ）许可证，则源集群不必启用 SnapVault 许可证或 SnapMirror 许可证。</block>
+  <block id="57ffc515c49079616f5691ed4f8fa780" category="doc">使用 System Manager - ONTAP 9.7 及更早版本在定义的计划外创建 Snapshot 副本</block>
+  <block id="1d45d9d0c9a71495df6b9725beb0809b" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）在定义的计划之外创建卷的 Snapshot 副本，以捕获文件系统在特定时间点的状态。</block>
+  <block id="b5e11383d258d5112b66b2a434e871e5" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建 FlexGroup 卷</block>
+  <block id="ef9ca88818c14d3a07cdf3c9c6202300" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过选择特定聚合或选择系统建议的聚合来创建 FlexGroup 卷。FlexGroup 卷可以包含许多卷，这些卷可以作为一个组进行管理，而不是单独进行管理。</block>
+  <block id="7395f98b92ba1f806cd25f3b2816516d" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑 SVM 设置</block>
+  <block id="d81698ba423ea22b301cb1579d9e6433" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）编辑 Storage Virtual Machine （ SVM ）的属性，例如名称服务开关，名称映射开关和聚合列表。</block>
+  <block id="564791b987f0846ef3c17ad7e3a475c2" category="doc">使用 System Manager 查看已保存的 Snapshot 副本列表— ONTAP 9.7 及更早版本</block>
+  <block id="3a529a084aa6539c3cf0ff1e6a82eebb" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从卷窗口下部窗格的 Snapshot 副本选项卡查看选定卷的所有已保存 Snapshot 副本的列表。您可以使用已保存 Snapshot 副本列表重命名，还原或删除 Snapshot 副本。</block>
+  <block id="eb91db7a154c4738b91d02ca57922942" category="doc">ONTAP 名称服务交换机配置在 System Manager 中的工作原理— ONTAP 9.7 及更早版本</block>
+  <block id="8d63c85c86a43bf30719d6251feabb88" category="doc">查看 FlexClone 卷层次结构— ONTAP 9.7 及更早版本</block>
+  <block id="3a59cafcf4d62062327f96774d795d5a" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）查看 FlexClone 卷及其父卷的层次结构。</block>
+  <block id="9e7629b024a19ce191f9724ba2c07b02" category="doc">使用 System Manager - ONTAP 9.7 及更早版本从源 SVM 创建镜像和存储关系</block>
+  <block id="4294daeb8f01399c15370d2868cbc7b1" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从源 Storage Virtual Machine （ SVM ）创建镜像和存储关系。通过创建此关系，您可以定期将数据从源卷传输到目标卷，从而更好地保护数据。通过此关系，您还可以通过创建源卷的备份来长期保留数据。</block>
+  <block id="b329fa01fe87d8d90f34efa118dbbf38" category="doc">使用 System Manager — ONTAP 9.7 及更早版本进行应用程序专用的 LUN 设置</block>
+  <block id="6026e37739019281574463fdebf2054d" category="paragraph">在 AFF 集群上创建 FC SAN 优化的 LUN 时， ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）支持 Oracle ， SQL 和其他应用程序类型。LUN 大小等 LUN 设置由特定于应用程序类型的规则决定。对于 SQL 和 Oracle ，系统会自动创建 LUN 设置。</block>
+  <block id="402229f8ce0167d0a78bbd044f5164cf" category="doc">使用 System Manager - ONTAP 9.7 及更早版本为 FlexGroup 卷指定高级选项</block>
+  <block id="97da1d3682fa19cce007f55dd00e9257" category="paragraph">创建 FlexGroup 卷时，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）指定要与 FlexGroup 卷关联的选项。</block>
+  <block id="afa4b033845a11aaf03224d5f3b87aaa" category="doc">使用 System Manager - ONTAP 9.7 及更早版本重命名 Snapshot 副本</block>
+  <block id="5d535a61cd876447a88890d18f058a60" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重命名 Snapshot 副本，以帮助您组织和管理 Snapshot 副本。</block>
 </blocks>

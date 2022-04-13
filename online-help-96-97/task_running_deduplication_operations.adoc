@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: run, deduplication, operation, system, manager, online, help, flexvol, volume 
 summary: 您可以使用 System Manager 在创建 FlexVol 卷后立即运行重复数据删除，或者计划在指定时间运行重复数据删除。 
 ---
-= 运行重复数据删除操作
+= 使用 System Manager — ONTAP 9.7 及更早版本运行重复数据删除操作
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 在创建 FlexVol 卷后立即运行重复数据删除，或者计划在指定时间运行重复数据删除。
+您可以使用 ONTAP System Manager classic （ 9.7 及更早版本中提供）在创建 FlexVol 卷后立即运行重复数据删除，或者计划在指定时间运行重复数据删除。
 
 .开始之前
 * 必须在卷上启用重复数据删除。

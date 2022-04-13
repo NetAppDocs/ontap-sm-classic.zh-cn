@@ -5,6 +5,7 @@ keywords: initialize, vault, relationship, system, manager, flexvol, online, hel
 summary: 如果您在创建存储关系时尚未初始化存储关系，则可以使用 System Manager 初始化该关系。启动从源 FlexVol 卷到目标 FlexVol 卷的基线数据传输。 
 ---
 = 初始化存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

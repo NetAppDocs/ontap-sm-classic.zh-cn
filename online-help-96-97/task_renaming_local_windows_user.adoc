@@ -5,6 +5,7 @@ keywords: rename, local, windows, user, system, manager, online, help
 summary: 您可以使用 System Manager 重命名本地 Windows 用户帐户，以便更轻松地识别本地用户。 
 ---
 = 重命名本地 Windows 用户
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

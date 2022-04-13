@@ -5,6 +5,7 @@ keywords: system, manager, verify, snmp, enable, cluster, verify that snmp is en
 summary: '您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面来验证集群上是否启用了 SNMP 。' 
 ---
 = 验证是否已启用 SNMP
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: update, cifs, group, policy, configuration, online, help, enable, disa
 summary: 通过命令行界面（ CLI ）更改策略配置后，您必须更新组策略。您可以使用 System Manager 中的 CIFS 窗口更新组策略。 
 ---
 = 更新 CIFS 组策略配置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

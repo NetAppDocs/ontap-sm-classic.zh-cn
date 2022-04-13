@@ -5,6 +5,7 @@ keywords: configure, snmp, verify, poll, cluster, test, test snmp poll
 summary: 配置 SNMP 后，您应验证是否可以轮询集群。 
 ---
 = 测试 SNMP 轮询
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

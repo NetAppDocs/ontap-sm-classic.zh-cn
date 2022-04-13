@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, online, help, resize, flexgroup, volume, resources 
 summary: 您可以使用 System Manager 通过调整现有资源的大小或添加新资源来调整 FlexGroup 卷的大小。 
 ---
-= 调整 FlexGroup 卷大小
+= 使用 System Manager - ONTAP 9.7 及更早版本调整 FlexGroup 卷的大小
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 通过调整现有资源的大小或添加新资源来调整 FlexGroup 卷的大小。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过调整现有资源的大小或添加新资源来调整 FlexGroup 卷的大小。
 
 .开始之前
 * 要调整 FlexGroup 卷的大小，现有聚合必须具有足够的可用空间。

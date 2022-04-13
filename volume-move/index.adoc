@@ -5,6 +5,7 @@ keywords: nondisruptive, data, volume, node, storage, virtual, machine, svm, ont
 summary: 使用 ONTAP System Manager 经典界面和 ONTAP 9.7 或更早版本，您可以无中断地将数据卷从 ONTAP 9 集群中同一 Storage Virtual Machine （ SVM ）中的一个节点移动到另一个节点。 
 ---
 = 卷移动概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

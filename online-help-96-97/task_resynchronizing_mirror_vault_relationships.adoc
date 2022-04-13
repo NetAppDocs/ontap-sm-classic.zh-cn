@@ -5,6 +5,7 @@ keywords: resynchronize, mirror, vault, relationships, system, manager, online, 
 summary: 您可以使用 System Manager 重新建立先前已断开的镜像和存储关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。 
 ---
 = 重新同步镜像和存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

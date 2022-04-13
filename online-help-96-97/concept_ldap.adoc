@@ -5,6 +5,7 @@ keywords: ldap, system, manager, configure, server, online, help, user, informat
 summary: 您可以使用 System Manager 配置集中维护用户信息的 LDAP 服务器。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本配置 LDAP 服务器
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

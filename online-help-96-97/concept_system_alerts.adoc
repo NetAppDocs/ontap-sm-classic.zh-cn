@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, monitor, cluster, health, alerts, delete, 
 summary: 您可以使用 System Manager 监控集群的不同部分。 
 ---
-= 系统警报
+= 使用 System Manager - ONTAP 9.7 及更早版本管理系统警报
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 监控集群的不同部分。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）监控集群的不同部分。
 
 
 

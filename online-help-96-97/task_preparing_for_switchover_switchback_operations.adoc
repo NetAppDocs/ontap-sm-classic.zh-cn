@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: prepare, switchover, switchback, operation, system, manager, online, help 
 summary: 在使用 System Manager 9.6 执行切换操作之前，您应验证是否已在受影响的站点上执行了必要的步骤。 
 ---
-= 使用 System Manager classic - ONTAP 9.6 及更高版本准备切换和切回操作
+= 准备切换和切回操作
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
@@ -29,4 +30,20 @@ summary: 在使用 System Manager 9.6 执行切换操作之前，您应验证是
 
 
 . 如果要从本地站点（站点 A ）启动远程站点（站点 B ），请确保站点 B 运行的是 System Manager 9.6 或更高版本。
+
+
+
+
+== 使用 System Manger - ONTAP 9.7 及更早版本重命名 MetroCluster 本地站点（站点 A ）
+
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重命名集群中的 MetroCluster 本地站点（站点 A ）。
+
+.步骤
+. 单击 * 配置 * > * 配置更新 * 。
+. 单击 * 更新集群名称 * 。
+. 更新文本框中的名称，然后单击 * 提交 * 。
++
+您可以在显示 MetroCluster 站点 A 状态时查看更新后的名称。
+
+. 要在从远程站点（站点 B ）查看 MetroCluster 站点 A 时显示其更新后的名称，请在远程站点（站点 B ）的命令行界面中执行以下命令： `cluster peer modify-local-name`
 

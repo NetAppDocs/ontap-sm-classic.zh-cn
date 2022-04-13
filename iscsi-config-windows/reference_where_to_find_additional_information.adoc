@@ -5,6 +5,7 @@ keywords: document, iscsi, configuration, where to find additional information
 summary: 还有其他文档可帮助您了解有关 iSCSI 配置的更多信息。 
 ---
 = 从何处查找追加信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

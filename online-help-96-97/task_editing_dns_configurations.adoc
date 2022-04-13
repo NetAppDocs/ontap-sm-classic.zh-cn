@@ -5,6 +5,7 @@ keywords: edit, dns, configurations, online, help, system, manager
 summary: 您可以使用 System Manager 添加主机信息以集中管理 DNS 配置。如果要更改域名或 IP 地址，您可以修改 DNS 详细信息。 
 ---
 = 编辑 DNS 配置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

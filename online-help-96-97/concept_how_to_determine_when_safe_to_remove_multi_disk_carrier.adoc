@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: remove, multidisk, carrier, system, manager, storage, disruption, raid 
 summary: 如果在不安全的情况下删除多磁盘托架，可能会导致一个或多个 RAID 组降级，甚至可能导致存储中断。使用 System Manager ，您可以确定何时可以安全删除多磁盘托架。 
 ---
-= 确定何时可以安全删除多磁盘托架
+= 使用 System Manager - ONTAP 9.7 及更早版本确定何时可以安全地删除多磁盘托架
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果在不安全的情况下删除多磁盘托架，可能会导致一个或多个 RAID 组降级，甚至可能导致存储中断。使用 System Manager ，您可以确定何时可以安全删除多磁盘托架。
+如果在不安全的情况下删除多磁盘托架，可能会导致一个或多个 RAID 组降级，甚至可能导致存储中断。通过 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本），您可以确定何时可以安全删除多磁盘托架。
 
 如果需要更换多磁盘托架，则必须先发生以下事件，然后才能安全地删除托架：
 

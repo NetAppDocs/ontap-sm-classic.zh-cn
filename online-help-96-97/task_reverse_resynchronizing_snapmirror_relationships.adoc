@@ -5,6 +5,7 @@ keywords: reverse, resync, mirror, relationship, system, manager, online, help
 summary: 您可以使用 System Manager 重新建立先前已断开的镜像关系。在反向重新同步操作中，您可以反转源卷和目标卷的功能。 
 ---
 = 反向重新同步镜像关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: cluster, peer, data, replication, snapmirror, snapvault, flexcache, sy
 summary: 对于使用 SnapMirror 技术和 SnapVault 技术进行数据复制以及在 MetroCluster 配置中使用 FlexCache 卷和 SyncMirror 技术进行数据复制，需要使用对等集群。您可以使用 System Manager 为两个集群建立对等关系，以便对等集群可以在它们之间协调和共享资源。 
 ---
 = 使用 System Manager 的集群对等方— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

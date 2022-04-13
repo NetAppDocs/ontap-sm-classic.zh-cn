@@ -5,6 +5,7 @@ keywords: system, manager, online, help, create, cluster, management, logical, i
 summary: 您可以使用 System Manager 创建集群管理逻辑接口（ LIF ），以便为集群提供一个管理接口。您可以使用此 LIF 管理集群的所有活动。 
 ---
 = 创建集群管理逻辑接口
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

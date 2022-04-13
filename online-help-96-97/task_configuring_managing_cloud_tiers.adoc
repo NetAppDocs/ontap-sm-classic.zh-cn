@@ -4,10 +4,11 @@ sidebar: sidebar
 keywords: configure, manage, cloud, tier, online, help, fabricpool, aggregate, storage, system, add, ssd, provision, storage, fabricpool, aggregate, manually, tiering, policy 
 summary: 将数据存储在层中可以提高存储系统的效率。您可以使用启用了 FabricPool 的聚合来管理存储层。云层会根据数据是否经常访问将数据存储在层中。 
 ---
-= 配置和管理云层
+= 使用 System Manager - ONTAP 9.7 及更早版本配置和管理云层
+:allow-uri-read: 
 
 
-将数据存储在层中可以提高存储系统的效率。您可以使用启用了 FabricPool 的聚合来管理存储层。云层会根据数据是否经常访问将数据存储在层中。
+您可以使用 ONTAP System Manger classic （适用于 ONTAP 9.7 及更早版本）配置和管理云层。将数据存储在层中可以提高存储系统的效率。您可以使用启用了 FabricPool 的聚合来管理存储层。云层会根据数据是否经常访问将数据存储在层中。
 
 .开始之前
 * 您必须运行 ONTAP 9.2 或更高版本。

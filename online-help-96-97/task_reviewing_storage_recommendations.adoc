@@ -5,6 +5,7 @@ keywords: review, storage, recommendation, window, online, help, create, aggrega
 summary: 使用存储窗口，您可以查看为创建聚合提供的存储建议。 
 ---
 = 使用 System Manager — ONTAP 9.7 及更早版本查看存储建议
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

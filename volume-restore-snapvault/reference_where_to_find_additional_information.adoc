@@ -5,6 +5,7 @@ keywords: information, manage, snapvault, backup, relationship, method, data, pr
 summary: 追加信息可帮助您管理 SnapVault 备份关系，并使用其他数据保护方法来保护数据资源的可用性。 
 ---
 = 从何处查找追加信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

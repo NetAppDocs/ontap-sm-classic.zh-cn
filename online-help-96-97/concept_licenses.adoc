@@ -5,6 +5,7 @@ keywords: system, manager, view, manage, delete, software, licenses, cluster, no
 summary: 您可以使用 System Manager 查看，管理或删除集群或节点上安装的任何软件许可证。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本管理许可证
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

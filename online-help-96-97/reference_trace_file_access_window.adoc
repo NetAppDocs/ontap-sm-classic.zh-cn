@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, commnd, button, trace, file, access, window, online, help, cif, entry, list 
 summary: '从 System Manager 9.6 开始，如果在使用 CIFS 或 NFS 协议访问 SVM 上的文件和共享时遇到问题，您可以使用 " 跟踪文件访问 " 窗口来诊断问题。' 
 ---
-= 跟踪文件访问窗口
+= System Manager 中的跟踪文件访问窗口
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-从 System Manager 9.6 开始，如果在使用 CIFS 或 NFS 协议访问 SVM 上的文件和共享时遇到问题，您可以使用 " 跟踪文件访问 " 窗口来诊断问题。
+从 ONTAP System Manager 9.6 开始，如果在使用 CIFS 或 NFS 协议访问 SVM 上的文件和共享时遇到问题，您可以使用 " 跟踪文件访问 " 窗口来诊断问题。
 
 
 

@@ -5,6 +5,7 @@ keywords: successful, create, cluster, peer, relationship, protect, availability
 summary: 成功创建集群对等关系后，即可保护数据的可用性。 
 ---
 = 从何处查找追加信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

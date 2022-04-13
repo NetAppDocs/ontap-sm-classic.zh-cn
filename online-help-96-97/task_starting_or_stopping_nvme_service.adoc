@@ -5,6 +5,7 @@ keywords: start, stop, nvme, service, online, help, adaptor, namespace
 summary: 通过 NVMe 服务，您可以管理用于命名空间的 NVMe 适配器。您可以使用 System Manager 启动 NVMe 服务以使适配器联机。您可以停止 NVMe 服务以使 NVMe 适配器脱机并禁用对命名空间的访问。 
 ---
 = 启动和停止 NVMe 服务
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

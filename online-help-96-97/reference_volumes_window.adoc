@@ -4,14 +4,15 @@ sidebar: sidebar
 keywords: system, manager, volume, window, flexgroup, volume, online, help 
 summary: 您可以使用卷窗口管理 FlexVol 卷和 FlexGroup 卷。从 System Manager 9.6 开始，您还可以管理 FlexCache 卷。 
 ---
-= 卷窗口
+= System Manager 中的卷窗口— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用卷窗口管理 FlexVol 卷和 FlexGroup 卷。从 System Manager 9.6 开始，您还可以管理 FlexCache 卷。
+您可以使用 ONTAP System Manager 经典版中的卷窗口（在 ONTAP 9.7 及更早版本中提供）来管理 FlexVol 卷和 FlexGroup 卷。从 System Manager 9.6 开始，您还可以管理 FlexCache 卷。
 
 您不能使用 System Manager 查看或管理为灾难恢复配置的 Storage Virtual Machine （ SVM ）中的卷。您必须改用命令行界面。
 

@@ -5,6 +5,7 @@ keywords: set, up, volume, disaster, recovery, verify, source, destination, clus
 summary: 在为灾难恢复设置卷之前，您必须验证源集群和目标集群是否已建立对等关系，并且是否正在通过对等关系彼此通信。 
 ---
 = 验证集群对等关系和 SVM 对等关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

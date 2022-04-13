@@ -5,6 +5,7 @@ keywords: information, volume-level, disaster, recovery, relationship, method, p
 summary: 追加信息可帮助您管理卷级灾难恢复关系，并提供其他灾难恢复方法来保护数据资源的可用性。 
 ---
 = 从何处查找追加信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

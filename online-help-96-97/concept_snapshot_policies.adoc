@@ -5,6 +5,7 @@ keywords: snapshot, manager, system, create, manage, policy, storage, online, he
 summary: 您可以使用 System Manager 在存储系统中创建和管理 Snapshot 策略。 
 ---
 = Snapshot 策略
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

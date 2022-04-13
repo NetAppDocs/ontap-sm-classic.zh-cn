@@ -5,6 +5,7 @@ keywords: initialize, mirror, vault, relationship, online, help, system, manager
 summary: 如果在创建镜像和存储关系时尚未初始化此关系，则可以使用 System Manager 对其进行初始化。初始化关系时，系统会从源卷向目标卷执行完整的基线数据传输。 
 ---
 = 初始化镜像和存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

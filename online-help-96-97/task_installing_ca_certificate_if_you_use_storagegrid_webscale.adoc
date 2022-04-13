@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: install, ca, certificate, storagegrid, fabricpool, aggregate, online, help 
 summary: 要使 ONTAP 能够使用 StorageGRID 作为启用了 FabricPool 的聚合的对象存储进行身份验证，您可以在集群上安装 StorageGRID CA 证书。 
 ---
-= 如果使用 StorageGRID ，请安装 CA 证书
+= 如果将 StorageGRID 与 System Manager - ONTAP 9.7 及更早版本结合使用，请安装 CA 证书
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-要使 ONTAP 能够使用 StorageGRID 作为启用了 FabricPool 的聚合的对象存储进行身份验证，您可以在集群上安装 StorageGRID CA 证书。
+要使 ONTAP 能够使用 StorageGRID 作为启用了 FabricPool 的聚合的对象存储进行身份验证，您可以使用 System Manager classic （在 ONTAP 9.7 及更早版本中提供）在集群上安装 StorageGRID CA 证书。
 
 .步骤
 . 按照 StorageGRID 系统文档中的说明，使用网格管理界面复制 StorageGRID 系统的 CA 证书。

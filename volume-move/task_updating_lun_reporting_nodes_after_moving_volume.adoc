@@ -5,6 +5,7 @@ keywords: volume, move, lun, ha, pair, remote, node, lun, map, slm, reporting-no
 summary: 如果移动的卷包含 LUN ，而该卷现在位于其他 HA 对上，则应从选择性 LUN 映射（ SLM ）报告节点列表中删除所有远程节点。然后， LUN 映射仅包含所有者节点及其 HA 配对节点，从而确保仅使用优化的 LUN 路径。 
 ---
 = 移动卷后更新 LUN 报告节点
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

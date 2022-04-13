@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, flexgroup, volume, online, help, system, manager 
 summary: FlexGroup 卷可以包含许多卷，这些卷可以作为一个组进行管理，而不是单独进行管理。您可以使用 System Manager 通过选择特定聚合或系统建议的聚合来创建 FlexGroup 卷。 
 ---
-= 创建 FlexGroup 卷
+= 使用 System Manager - ONTAP 9.7 及更早版本创建 FlexGroup 卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-FlexGroup 卷可以包含许多卷，这些卷可以作为一个组进行管理，而不是单独进行管理。您可以使用 System Manager 通过选择特定聚合或系统建议的聚合来创建 FlexGroup 卷。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过选择特定聚合或选择系统建议的聚合来创建 FlexGroup 卷。FlexGroup 卷可以包含许多卷，这些卷可以作为一个组进行管理，而不是单独进行管理。
 
 .关于此任务
 * 您只能创建读 / 写（ rw ） FlexGroup 卷。

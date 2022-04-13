@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, flexclone, file, parent, test, applications, online, help 
 summary: 您可以使用 System Manager 创建 FlexClone 文件，该文件是父文件的可写副本。您可以使用这些副本测试应用程序。 
 ---
-= 创建 FlexClone 文件
+= 使用 System Manager - ONTAP 9.7 及更早版本创建 FlexClone 文件
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建 FlexClone 文件，该文件是父文件的可写副本。您可以使用这些副本测试应用程序。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建 FlexClone 文件，该文件是父文件的可写副本。您可以使用这些副本测试应用程序。
 
 .开始之前
 * 克隆的文件必须是活动文件系统的一部分。

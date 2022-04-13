@@ -5,6 +5,7 @@ keywords: resynchronize, resynchronizing, source, volume, update, activate, upda
 summary: 重新同步源卷后，您可能需要确保在激活源卷之前更新源卷上的所有最新更改。 
 ---
 = 更新源卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

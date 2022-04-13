@@ -5,6 +5,7 @@ keywords: system, manager, create, edit, manage, export, policy, online, help, v
 summary: 您可以使用 System Manager 创建，编辑和管理导出策略。 
 ---
 = 导出策略
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

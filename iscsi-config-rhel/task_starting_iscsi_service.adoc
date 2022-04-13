@@ -5,6 +5,7 @@ keywords: iscsi, configuration, file, service, host, discover, target, access, l
 summary: 编辑 iSCSI 配置文件后，您必须启动 iSCSI 服务，以便主机可以发现目标并访问 LUN 。如果 iSCSI 服务正在运行，则必须重新启动它。 
 ---
 = 启动 iSCSI 服务
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

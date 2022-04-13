@@ -5,6 +5,7 @@ keywords: storage, virtual, machine, svm, cluster, online, help, user, tab, comm
 summary: 您可以使用 Windows 窗口为集群上的每个 Storage Virtual Machine （ SVM ）维护一份本地 Windows 用户和组列表。您可以使用本地 Windows 用户和组进行身份验证和名称映射。 
 ---
 = Windows 窗口
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: ldap, configuration, service, system, manager, online, help, storage, 
 summary: 您可以使用 System Manager 管理 LDAP 配置。 
 ---
 = LDAP 配置服务
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

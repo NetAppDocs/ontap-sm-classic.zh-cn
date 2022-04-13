@@ -5,6 +5,7 @@ keywords: iscsi, protocol, system, manager, configure, block, data, host, tcp, i
 summary: 您可以使用 System Manager 配置 iSCSI 协议，以便使用基于 TCP/IP 的 SCSI 协议将块数据传输到主机。 
 ---
 = iSCSI 协议
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

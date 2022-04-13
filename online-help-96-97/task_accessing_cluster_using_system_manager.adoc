@@ -5,6 +5,7 @@ keywords: access, clister, ontap, system, manager, graphic, interface, lif, node
 summary: 如果您希望使用图形界面而不是命令行界面来访问和管理集群，则可以使用 ONTAP 系统管理器来实现此目的。 ONTAP 系统管理器作为 Web 服务随 提供，默认情况下处于启用状态，并可通过浏览器进行访问。 
 ---
 = 在 System Manager - ONTAP 9.7 及更早版本中使用基于浏览器的图形界面访问集群
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

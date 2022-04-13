@@ -5,6 +5,7 @@ keywords: system, manager, add, traphost, snmp, notification, trap, protocol, ge
 summary: '您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器 " 经典 " 界面添加陷阱主机（ SNMP 管理器），以便在集群中生成陷阱时接收 SNMP 通知（ SNMP 陷阱协议数据单元）。' 
 ---
 = 添加 SNMP 陷阱主机：
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

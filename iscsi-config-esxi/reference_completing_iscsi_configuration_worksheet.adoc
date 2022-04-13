@@ -5,6 +5,7 @@ keywords: network, address, storage, configuration, information, perform, iscsi,
 summary: 要执行 iSCSI 配置任务，您需要网络地址和存储配置信息。 
 ---
 = 正在完成 iSCSI 配置工作表
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

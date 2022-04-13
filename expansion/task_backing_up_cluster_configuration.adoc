@@ -5,6 +5,7 @@ keywords: expand, cluster, advance, privilege, backup, file, configuration, info
 summary: 在扩展集群之前，您应使用高级权限创建备份文件以保存集群配置信息，并可选择保存节点配置。 
 ---
 = 备份集群配置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

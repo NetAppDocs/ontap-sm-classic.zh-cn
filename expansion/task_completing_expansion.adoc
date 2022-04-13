@@ -5,6 +5,7 @@ keywords: node, cluster, configuring, configure, autosupport, network, expansion
 summary: 两个节点加入集群后，您必须通过配置 AutoSupport 并完成 SP 网络来完成新添加节点的配置。 
 ---
 = 完成扩展
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

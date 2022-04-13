@@ -5,6 +5,7 @@ keywords: move, volume, system, manager, destination, aggregate, operation, moni
 summary: '在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面，您可以通过选择卷和目标聚合，启动卷移动操作以及监控卷移动作业来移动卷。使用 System Manager 时，卷移动操作会自动完成。' 
 ---
 = 使用 System Manager 移动卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

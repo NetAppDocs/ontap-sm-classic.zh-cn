@@ -5,6 +5,7 @@ keywords: dns, ddns, service, system, manager, manage, online, help, edit, setti
 summary: 您可以使用 System Manager 管理 DNS/DDNS 服务。 
 ---
 = DNS/DDNS 服务
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

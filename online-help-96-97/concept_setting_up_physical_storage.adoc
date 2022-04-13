@@ -5,6 +5,7 @@ keywords: physical, storage, set, up, online, help, disk, node, spare, aggregate
 summary: 设置物理存储包括将磁盘分配给节点，将备用磁盘置零以及创建聚合。 
 ---
 = 设置物理存储
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

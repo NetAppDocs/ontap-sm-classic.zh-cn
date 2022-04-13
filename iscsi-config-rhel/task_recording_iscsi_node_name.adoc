@@ -5,6 +5,7 @@ keywords: record, iscsi, initiator, node, linux, host, configure, storage, syste
 summary: 您必须在 Linux 主机上记录 iSCSI 启动程序节点名称，以便在配置存储系统时使用。 
 ---
 = 记录 iSCSI 节点名称
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

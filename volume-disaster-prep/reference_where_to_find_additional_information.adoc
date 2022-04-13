@@ -5,6 +5,7 @@ keywords: documentation, activate, destination, volume, test, disaster, recovery
 summary: 此外，我们还提供了其他文档来帮助您激活目标卷以测试灾难恢复设置或发生灾难时。您还可以了解有关如何在灾难发生后重新激活源卷的更多信息。 
 ---
 = 从何处查找追加信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

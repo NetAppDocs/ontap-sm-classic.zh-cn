@@ -5,6 +5,7 @@ keywords: system, manager, mirror, vault, relationship, source, destination, del
 summary: 您可以使用 System Manager 结束源卷与目标卷之间的镜像和存储关系，并从源卷释放 Snapshot 副本。 
 ---
 = 删除镜像和存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

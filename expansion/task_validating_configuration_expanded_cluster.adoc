@@ -5,6 +5,7 @@ keywords: expand, cluster, validate, configuration, config, advisor, command, he
 summary: 扩展集群后，您必须运行 Config Advisor 并使用一些命令来验证配置，以验证集群运行状况和集群复制环。 
 ---
 = 验证扩展集群的配置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

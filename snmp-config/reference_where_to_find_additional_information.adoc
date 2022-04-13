@@ -5,6 +5,7 @@ keywords: reference, manual, configure, snmp, where to find additional informati
 summary: 还有其他参考手册可帮助您配置 SNMP 。 
 ---
 = 从何处查找追加信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

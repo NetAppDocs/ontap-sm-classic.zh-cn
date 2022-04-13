@@ -5,6 +5,7 @@ keywords: efficiency, policy, system, manager, create, edit, delete, online, hel
 summary: 您可以使用 System Manager 创建，编辑和删除效率策略。 
 ---
 = 效率策略
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

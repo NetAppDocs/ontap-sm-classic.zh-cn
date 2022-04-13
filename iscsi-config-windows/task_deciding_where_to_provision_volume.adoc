@@ -5,6 +5,7 @@ keywords: provision, volume, lun, add, exist, storage, virtual, machine, svm, cr
 summary: 在配置卷以包含 LUN 之前，您需要确定是将卷添加到现有 Storage Virtual Machine 还是为卷创建新的 SVM 。您可能还需要在现有 SVM 上配置 iSCSI 。 
 ---
 = 确定在何处配置卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

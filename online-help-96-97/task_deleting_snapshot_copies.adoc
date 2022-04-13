@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: delete, snapshot, copy, online, help, system, manager 
 summary: 您可以使用 System Manager 删除 Snapshot 副本以节省磁盘空间或释放磁盘空间。如果不再需要 Snapshot 副本，您也可以删除该 Snapshot 副本。 
 ---
-= 正在删除 Snapshot 副本
+= 使用 System Manager 删除 Snapshot 副本— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 删除 Snapshot 副本以节省磁盘空间或释放磁盘空间。如果不再需要 Snapshot 副本，您也可以删除该 Snapshot 副本。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）删除 Snapshot 副本以节省磁盘空间或释放磁盘空间。如果不再需要 Snapshot 副本，您也可以删除该 Snapshot 副本。
 
 如果要删除处于繁忙或锁定状态的 Snapshot 副本，则必须已从正在使用 Snapshot 副本的应用程序释放此 Snapshot 副本。
 

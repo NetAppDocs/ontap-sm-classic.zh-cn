@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: trace, file, access, diagnost, error, svm, system, manager, online, help 
 summary: 从 System Manager 9.6 开始，您可以诊断 Storage Virtual Machine （ SVM ）上的 CIFS 或 NFS 文件访问错误。 
 ---
-= 跟踪文件访问以诊断 SVM 上的访问错误
+= 使用 System Manager 跟踪文件访问以诊断 SVM 上的访问错误
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

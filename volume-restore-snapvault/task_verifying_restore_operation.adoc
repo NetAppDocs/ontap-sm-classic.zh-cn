@@ -5,6 +5,7 @@ keywords: perform, restore, operation, snapvault, backup, destination, volume, v
 summary: 从 SnapVault 备份目标卷执行还原操作后，您必须验证源集群上还原操作的状态。 
 ---
 = 验证还原操作
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

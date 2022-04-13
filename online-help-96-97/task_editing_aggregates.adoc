@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: online, help, edit, aggregates, raid, type, group, size, online, help 
 summary: 您可以使用 System Manager 根据需要更改现有聚合的聚合名称， RAID 类型和 RAID 组大小。 
 ---
-= 编辑聚合
+= 使用 System Manager - ONTAP 9.7 及更早版本编辑聚合
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 根据需要更改现有聚合的聚合名称， RAID 类型和 RAID 组大小。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）根据需要更改现有聚合的聚合名称， RAID 类型和 RAID 组大小。
 
 要将聚合的 RAID 类型从 RAID4 修改为 RAID-DP ，聚合必须包含足够多的兼容备用磁盘，但热备用磁盘除外。
 

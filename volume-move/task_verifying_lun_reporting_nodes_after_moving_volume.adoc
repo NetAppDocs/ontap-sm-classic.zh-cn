@@ -5,6 +5,7 @@ keywords: volume, lun, destination, aggregate, high-availability, ha, pair, onta
 summary: 您可以添加 LUN 报告节点，以帮助维护优化的 LUN 路径。 
 ---
 = 移动卷后验证 LUN 报告节点
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

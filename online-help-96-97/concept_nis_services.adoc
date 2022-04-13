@@ -5,6 +5,7 @@ keywords: online, help, system, manager, nis, services, add, edit, manage, netwo
 summary: 您可以使用 System Manager 添加，编辑和管理网络信息服务（ Network Information Service ， NIS ）域。 
 ---
 = NIS 服务
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

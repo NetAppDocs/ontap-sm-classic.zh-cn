@@ -5,6 +5,7 @@ keywords: linux, host, access, scsi, device, lun, partition, file, system, multi
 summary: 当 Linux 主机首次访问新的 SCSI 设备（ LUN ）时，没有分区或文件系统。如果要使用已分区的多路径设备，必须先对底层 SCSI 设备进行分区。您可能还需要在多路径设备上创建逻辑卷，并可选择创建文件系统。 
 ---
 = 在多路径设备上配置逻辑卷并创建文件系统
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

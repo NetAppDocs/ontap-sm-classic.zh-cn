@@ -5,6 +5,7 @@ keywords: system, manager, dashboard, window, multiple, panel, online, help
 summary: 信息板窗口包含多个面板，可提供有关系统及其性能的累积概览信息。 
 ---
 = System Manager 的信息板窗口— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

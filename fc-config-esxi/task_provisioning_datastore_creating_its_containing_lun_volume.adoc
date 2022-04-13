@@ -5,6 +5,7 @@ keywords: datastore, contain, virtual, machine, vmdk, esxi, host, provision, lun
 summary: 数据存储库包含 ESXi 主机上的虚拟机及其 VMDK 。ESXi 主机上的数据存储库在存储集群上的 LUN 上进行配置。 
 ---
 = 配置数据存储库并创建其包含的 LUN 和卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

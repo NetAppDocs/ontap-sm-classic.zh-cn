@@ -5,6 +5,7 @@ keywords: kerberos, interface, service, system, manager, manage, online, help, e
 summary: 您可以使用 System Manager 管理 Kerberos 接口服务。 
 ---
 = Kerberos 接口服务
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

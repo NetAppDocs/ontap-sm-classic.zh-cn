@@ -5,6 +5,7 @@ keywords: windows, unified, host, utilities, installation, program, set, registr
 summary: Windows Unified Host Utilities 包含一个安装程序，用于设置所需的 Windows 注册表和 HBA 参数，以便 Windows 主机正确处理 NetApp ONTAP 和 E 系列平台的存储系统行为。 
 ---
 = 安装 Windows Unified Host Utilities
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

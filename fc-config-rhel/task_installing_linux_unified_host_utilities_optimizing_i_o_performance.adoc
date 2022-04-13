@@ -5,6 +5,7 @@ keywords: linux, unified, host, utilities, software, sanlun, utility, netapp, lu
 summary: Linux Unified Host Utilities 软件包括 sanlun 实用程序，这是一个 NetApp LUN 报告工具，可用于显示有关 Linux 主机上的存储集群节点和主机总线适配器的信息。 
 ---
 = 安装 Linux Unified Host Utilities 并优化 I/O 性能
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

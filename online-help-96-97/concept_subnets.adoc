@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, manage, subnet, online, help, edit, settings, modify, delete, ip, address 
 summary: 您可以使用 System Manager 管理子网。 
 ---
-= Subnets
+= 使用 System Manager - ONTAP 9.7 及更早版本管理子网
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 管理子网。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理子网。
 
 
 

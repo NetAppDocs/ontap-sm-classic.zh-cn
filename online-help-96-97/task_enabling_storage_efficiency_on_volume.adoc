@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, enable, storage, efficiency, volume, deduplication, online, help 
 summary: 您可以使用 System Manager 在卷上启用存储效率并配置重复数据删除和数据压缩或仅配置重复数据删除以节省存储空间。如果在创建卷时未启用存储效率，可以稍后通过编辑卷来启用。 
 ---
-= 在卷上启用存储效率
+= 使用 System Manager - ONTAP 9.7 及更早版本在卷上启用存储效率
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 在卷上启用存储效率并配置重复数据删除和数据压缩或仅配置重复数据删除以节省存储空间。如果在创建卷时未启用存储效率，可以稍后通过编辑卷来启用。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）来启用存储效率，并在卷上配置重复数据删除和数据压缩或仅配置重复数据删除以节省存储空间。如果在创建卷时未启用存储效率，可以稍后通过编辑卷来启用。
 
 .开始之前
 * 卷必须处于联机状态。

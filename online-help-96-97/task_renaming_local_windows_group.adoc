@@ -5,6 +5,7 @@ keywords: rename, local, windows, group, system, manager, online, help
 summary: 您可以使用 System Manager 重命名本地 Windows 组，以便更轻松地识别该组。 
 ---
 = 重命名本地 Windows 组
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

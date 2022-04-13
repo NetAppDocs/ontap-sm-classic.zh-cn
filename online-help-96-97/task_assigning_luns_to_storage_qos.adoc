@@ -5,6 +5,7 @@ keywords: qos, quality, service, assign, lun, storage, system, manager, lun, onl
 summary: 您可以使用 System Manager 将 LUN 分配给存储服务质量（ QoS ）策略组，以限制 LUN 的吞吐量。您可以为新 LUN 分配存储 QoS ，也可以为已分配给策略组的 LUN 修改存储 QoS 详细信息。 
 ---
 = 将 LUN 分配给存储 QoS
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

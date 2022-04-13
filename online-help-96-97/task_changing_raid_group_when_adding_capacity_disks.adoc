@@ -4,14 +4,15 @@ sidebar: sidebar
 keywords: change, raid, group, add, capacity, disk, online, help, hdd 
 summary: 向聚合添加容量磁盘（ HDD ）时，您可以使用 System Manager 更改要添加磁盘的 RAID 组。 
 ---
-= 添加容量磁盘时更改 RAID 组
+= 使用 System Manager - ONTAP 9.7 及更早版本添加容量磁盘时更改 RAID 组
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-向聚合添加容量磁盘（ HDD ）时，您可以使用 System Manager 更改要添加磁盘的 RAID 组。
+向聚合添加容量磁盘（ HDD ）时，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）更改要添加磁盘的 RAID 组。
 
 .关于此任务
 * 如果 RAID 类型为 RAID-DP ，而您要添加大小等于或大于 10 TB 的 FSAS 或 MSATA 磁盘，则只能将其添加到 `S特定 RAID 组` ，而不能添加到 `新 RAID 组` 或 `所有 RAID 组` 。

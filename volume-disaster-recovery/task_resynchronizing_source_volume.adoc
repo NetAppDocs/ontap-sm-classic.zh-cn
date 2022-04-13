@@ -5,6 +5,7 @@ keywords: source, volume, online, resynchronize, data, destination, replicate, r
 summary: 当源卷联机时，您必须在目标卷和源卷之间重新同步数据，以便从目标卷复制最新数据。 
 ---
 = 重新同步源卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

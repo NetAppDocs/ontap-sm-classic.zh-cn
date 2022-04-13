@@ -5,6 +5,7 @@ keywords: lun, storage, virtual, machine, svm, disk, windows, host, system, manu
 summary: Storage Virtual Machine （ SVM ）上的 LUN 在 Windows 主机中显示为磁盘。主机不会自动发现您添加到系统中的 LUN 的任何新磁盘。您必须手动重新扫描磁盘才能发现它们。 
 ---
 = 发现新磁盘
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

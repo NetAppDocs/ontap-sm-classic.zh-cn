@@ -5,6 +5,7 @@ keywords: configure, nfs, access, storage, virtual, machine, svm, verify, config
 summary: 在配置对 Storage Virtual Machine （ SVM ）的 NFS 访问后，您应登录到 NFS 管理主机并从 SVM 读取数据并向 SVM 写入数据来验证配置。 
 ---
 = 从 UNIX 管理主机验证 NFS 访问
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

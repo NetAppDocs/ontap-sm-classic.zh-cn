@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: stop, svm, online, help, system, manager, storage, virtual, machine 
 summary: 如果要对 SVM 中的任何问题描述进行故障排除，删除 SVM 或停止从 SVM 进行数据访问，可以使用 System Manager 停止 Storage Virtual Machine （ SVM ）。 
 ---
-= 正在停止 SVM
+= 使用 System Manager 停止 SVM - ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果要对 SVM 中的任何问题描述进行故障排除，删除 SVM 或停止从 SVM 进行数据访问，可以使用 System Manager 停止 Storage Virtual Machine （ SVM ）。
+如果要对 SVM 中的任何问题描述 进行故障排除，删除 SVM 或停止从 SVM 进行数据访问，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）停止 Storage Virtual Machine （ SVM ）。
 
 必须断开连接到 SVM 的所有客户端。
 

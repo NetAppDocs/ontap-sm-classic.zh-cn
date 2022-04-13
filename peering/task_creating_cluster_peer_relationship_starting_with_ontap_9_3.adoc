@@ -5,6 +5,7 @@ keywords: create, cluster, peer, relationship, cluster, system-generated, passph
 summary: 您可以通过提供系统生成的密码短语以及远程集群的集群间 LIF 的 IP 地址，在两个集群之间创建集群对等关系。 
 ---
 = 创建集群对等关系（从 ONTAP 9.3 开始）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

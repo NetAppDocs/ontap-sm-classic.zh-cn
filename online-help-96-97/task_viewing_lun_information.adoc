@@ -5,6 +5,7 @@ keywords: view, lun, information, manangement, online, help
 summary: 您可以使用 System Manager 中的 LUN 管理选项卡查看有关 LUN 的详细信息，例如其名称，状态，大小和类型。 
 ---
 = 查看 LUN 信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

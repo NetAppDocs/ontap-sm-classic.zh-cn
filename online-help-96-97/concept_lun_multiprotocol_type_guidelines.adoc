@@ -5,6 +5,7 @@ keywords: guidelines, lun, multiprotocol, type, operating, system, host, layout,
 summary: LUN 多协议类型或操作系统类型指定访问 LUN 的主机的操作系统。它还会确定 LUN 上的数据布局以及 LUN 的最小和最大大小。 
 ---
 = 使用 LUN 多协议类型的准则
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

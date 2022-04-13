@@ -5,6 +5,7 @@ keywords: delete, vault, relationship, system, manager, online, help, snapshot, 
 summary: 您可以使用 System Manager 结束源卷与目标卷之间的存储关系，并从源释放 Snapshot 副本。 
 ---
 = 正在删除存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

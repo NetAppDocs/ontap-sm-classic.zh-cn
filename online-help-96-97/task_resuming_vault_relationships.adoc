@@ -5,6 +5,7 @@ keywords: resume, vault, relationship, online, help, system, manager, data, tran
 summary: 您可以使用 System Manager 恢复暂停的存储关系。恢复此关系后，系统将恢复向目标 FlexVol 卷进行的正常数据传输，并重新启动所有存储活动。 
 ---
 = 恢复存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

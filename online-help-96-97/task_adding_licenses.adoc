@@ -5,6 +5,7 @@ keywords: system, manager, add, license, storage, software, online, help
 summary: 如果您的存储系统软件是在出厂时安装的，则 System Manager 会自动将该软件添加到其许可证列表中。如果出厂时未安装该软件，或者您要添加其他软件许可证，则可以使用 System Manager 添加软件许可证。 
 ---
 = 添加许可证
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: windows, host, iscsi, connection, cluster, establish, sessions, initia
 summary: Windows 主机必须与集群中的每个节点建立 iSCSI 连接。您可以使用主机上的 iSCSI 启动程序属性对话框从主机建立会话。 
 ---
 = 启动与目标的 iSCSI 会话
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: system, manager, quota, online, help, view, activate, deactivate, info
 summary: 您可以使用 System Manager 创建，编辑和删除配额。 
 ---
 = 配额
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

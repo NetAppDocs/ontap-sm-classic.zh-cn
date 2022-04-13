@@ -5,6 +5,7 @@ keywords: data, center, create, cluster, online, help, system, manager
 summary: 您可以使用 ONTAP 系统管理器在数据中心中创建和设置集群。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本创建集群
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

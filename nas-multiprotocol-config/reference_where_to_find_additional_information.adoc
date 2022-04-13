@@ -5,6 +5,7 @@ keywords: test, cifs, nfs, client, access, perform, advanced, configuration, san
 summary: 成功测试 CIFS 和 NFS 客户端访问后，您可以执行高级 CIFS 和 NFS 配置或添加 SAN 访问。协议访问完成后，您应保护 SVM 的根卷。我们提供了全面的内容和技术报告，可帮助您实现这些目标。 
 ---
 = 从何处查找追加信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

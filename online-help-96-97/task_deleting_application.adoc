@@ -5,6 +5,7 @@ keywords: delete, application, provisioned
 summary: 您可以删除不再需要的已配置应用程序。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本删除应用程序
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

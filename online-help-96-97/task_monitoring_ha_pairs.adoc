@@ -5,6 +5,7 @@ keywords: system, manager, ha, availability, monitor, ha, pair
 summary: 您可以使用 System Manager 监控集群中所有高可用性（ HA ）对的节点状态和互连状态。您还可以验证是否已启用或已发生接管或交还，并查看当前无法执行接管或交还的原因。 
 ---
 = 监控 HA 对
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

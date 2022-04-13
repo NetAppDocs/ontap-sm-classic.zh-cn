@@ -5,6 +5,7 @@ keywords: resume, mirror, relationship, normal, data, transfer, online, help
 summary: 您可以恢复已暂停的镜像关系。恢复此关系后，系统将恢复向镜像目标的正常数据传输，并重新启动所有镜像活动。 
 ---
 = 恢复镜像关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

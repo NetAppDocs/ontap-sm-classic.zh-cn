@@ -5,6 +5,7 @@ keywords: expand, cluster, network, information, require, configure, node-manage
 summary: 在扩展集群之前，您必须获取必要的网络信息，以便稍后为这两个节点配置节点管理 LIF 和服务处理器 IP 地址。 
 ---
 = 收集所需的网络信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

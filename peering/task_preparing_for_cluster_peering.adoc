@@ -5,6 +5,7 @@ keywords: create, creating, cluster, peer, relationship, verify, time, synchroni
 summary: '在使用 ONTAP System Manager" 经典 " 界面和 ONTAP 9.7 或更早版本创建集群对等关系之前，您必须验证每个集群上的时间是否与外部网络时间协议（ NTP ）服务器同步，并确定要使用的子网，端口和密码短语。' 
 ---
 = 准备建立集群对等关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

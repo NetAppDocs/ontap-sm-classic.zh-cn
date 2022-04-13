@@ -5,6 +5,7 @@ keywords: online, help, assign, group, membership, user, account, online, help, 
 summary: 如果您希望用户拥有与特定组关联的权限，则可以使用 System Manager 为用户帐户分配组成员资格。 
 ---
 = 为用户帐户分配组成员资格
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

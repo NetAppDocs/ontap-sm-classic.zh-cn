@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, data, access, start, svm, online, help, storage, virtual, machine 
 summary: 您可以使用 System Manager 通过启动 Storage Virtual Machine （ SVM ）来提供数据访问。 
 ---
-= 正在启动 SVM
+= 使用 System Manager 启动 SVM - ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 通过启动 Storage Virtual Machine （ SVM ）来提供数据访问。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过启动 SVM 从 Storage Virtual Machine （ SVM ）提供数据访问。
 
 .步骤
 . 单击 * 存储 * > * SVMs * 。

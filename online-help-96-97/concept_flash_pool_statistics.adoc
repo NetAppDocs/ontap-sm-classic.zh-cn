@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: flash, pool, statistics, system, manager, ssd, tier, read, write, workload, aggregate, online, help 
 summary: 您可以使用 System Manager 查看选定 Flash Pool 聚合的实时 SSD 层读取和写入工作负载。 
 ---
-= Flash Pool 统计信息
+= 使用 System Manger 查看 Flash Pool 统计信息— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 查看选定 Flash Pool 聚合的实时 SSD 层读取和写入工作负载。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）查看选定 Flash Pool 聚合的实时 SSD 层读取和写入工作负载。
 
 
 

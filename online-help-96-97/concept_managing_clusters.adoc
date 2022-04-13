@@ -5,6 +5,7 @@ keywords: manage, cluster, system, manager, online, help
 summary: 您可以使用 System Manager 管理集群。 
 ---
 = 管理集群
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

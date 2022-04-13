@@ -5,6 +5,7 @@ keywords: iscsi, service, storage, virtual, machine, svm, lun, initiator, red, h
 summary: 这些过程介绍如何在 Storage Virtual Machine 上快速设置 iSCSI 服务，配置 LUN 以及如何使用 Red Hat Enterprise Linux 服务器上的 iSCSI 启动程序使 LUN 可用。 
 ---
 = 适用于 Red Hat Enterprise Linux 的 iSCSI 配置概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

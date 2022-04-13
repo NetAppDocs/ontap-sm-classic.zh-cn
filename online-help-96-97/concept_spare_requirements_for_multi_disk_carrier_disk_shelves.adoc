@@ -3,5 +3,6 @@ permalink: online-help-96-97/concept_spare_requirements_for_multi_disk_carrier_d
 redirect: ontap/disks-aggregates/hot-spare-disks-work-concept.html 
 ---
 = 
+:allow-uri-read: 
 
 

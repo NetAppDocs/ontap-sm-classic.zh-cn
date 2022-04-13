@@ -5,6 +5,7 @@ keywords: system, manager, volume, manual, cutover, lun, report, node, advance, 
 summary: '您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面移动卷并确定是否需要手动转换。如果需要更新 LUN 报告节点，则必须遵循命令行界面（ CLI ）中的高级操作步骤。您也可以选择规划卷移动的时间。' 
 ---
 = 规划卷移动的方法和时间
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

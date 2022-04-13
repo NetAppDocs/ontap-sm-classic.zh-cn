@@ -5,6 +5,7 @@ keywords: break, mirror, vault, relationship, system, manger, online, help, clie
 summary: 如果源卷不可用，并且您希望客户端应用程序从目标卷访问数据，则可以使用 System Manager 中断镜像和存储关系。在修复或替换源卷，更新源卷以及重新建立系统的初始配置时，您可以使用目标卷提供数据。 
 ---
 = 中断镜像和存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

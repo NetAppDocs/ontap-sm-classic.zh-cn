@@ -1,24 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_port_sets.html 
-sidebar: sidebar 
-keywords: edit, port, set, portset, tab, system, manager, online, help 
-summary: 您可以使用 System Manager 中的端口集选项卡编辑与端口集相关的设置。 
+redirect: ontap-sm-classic/online-help-96-97/task_creating_portsets.html 
 ---
-= 编辑端口集
-:icons: font
-:imagesdir: ../media/
+= 
+:allow-uri-read: 
 
 
-[role="lead"]
-您可以使用 System Manager 中的端口集选项卡编辑与端口集相关的设置。
-
-.步骤
-. 单击 * 存储 * > * LUNs * 。
-. 在 * 端口集 * 选项卡中，选择要编辑的端口集，然后单击 * 编辑 * 。
-. 在 * 编辑端口集 * 对话框中，进行必要的更改。
-. 单击 * 保存并关闭 * 。
-
-
-* 相关信息 *
-
-xref:task_configuring_iscsi_protocol_on_svms.adoc[在 SVM 上配置 iSCSI 协议]

@@ -5,6 +5,7 @@ keywords: ensure, host, multipath, practice, setting, correct, esxi, host, manag
 summary: 您必须确保主机多路径和最佳实践设置正确，以便 ESXi 主机能够正确管理 FC 路径丢失或存储故障转移事件。 
 ---
 = 配置 ESXi 主机最佳实践设置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

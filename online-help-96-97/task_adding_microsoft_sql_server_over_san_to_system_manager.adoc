@@ -5,6 +5,7 @@ keywords: add, microsoft, sql, server, san, system, manager, online, help, enhan
 summary: 您可以使用增强型选项卡将基于 SAN 的 Microsoft SQL Server 实例添加到 System Manager 中。 
 ---
 = 将基于 SAN 的 Microsoft SQL Server 添加到 System Manager — ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

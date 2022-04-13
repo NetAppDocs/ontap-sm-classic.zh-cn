@@ -5,6 +5,7 @@ keywords: system, manager, create, edit, delete, qtree, partition, data, policie
 summary: 您可以使用 System Manager 创建，编辑和删除 qtree 。 
 ---
 = qtree
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

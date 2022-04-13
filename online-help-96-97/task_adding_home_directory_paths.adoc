@@ -5,6 +5,7 @@ keywords: cifs, system, manager, online, help, storage, add , delete, home, dire
 summary: 您可以使用 System Manager 指定存储系统可用于解析用户 CIFS 主目录位置的一个或多个路径。 
 ---
 = 添加主目录路径
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

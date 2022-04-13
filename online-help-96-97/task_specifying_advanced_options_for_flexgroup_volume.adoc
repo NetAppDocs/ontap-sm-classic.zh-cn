@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: flexclone, volume, specify, advanced, create, options, online, help 
 summary: 创建 FlexGroup 卷时，您可以指定要与 FlexGroup 卷关联的选项。 
 ---
-= 为 FlexGroup 卷指定高级选项
+= 使用 System Manager - ONTAP 9.7 及更早版本为 FlexGroup 卷指定高级选项
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-创建 FlexGroup 卷时，您可以指定要与 FlexGroup 卷关联的选项。
+创建 FlexGroup 卷时，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）指定要与 FlexGroup 卷关联的选项。
 
 .步骤
 . 在 * 创建 FlexGroup * 窗口中，单击 image:../media/advanced_options.gif[""] 以指定高级选项。

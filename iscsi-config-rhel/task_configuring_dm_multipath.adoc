@@ -5,6 +5,7 @@ keywords: dm-multipath, manage, path, linux, host, storage, cluster, configuring
 summary: DM-Multipath 可管理 Linux 主机和存储集群之间的多个路径。如果在 LUN 上配置 DM-Multipath （在 Linux 主机上将其显示为 SCSI 设备），则 Linux 主机可以在路径或组件出现故障时访问存储集群上的 LUN 。 
 ---
 = 配置 DM-Multipath
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

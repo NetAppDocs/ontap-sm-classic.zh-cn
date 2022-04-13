@@ -5,6 +5,7 @@ keywords: reset, cifs, domain, controller, system, manager, online, help
 summary: 您可以使用 System Manager 重置与指定域的域控制器的 CIFS 连接。无法重置域控制器信息可能会导致发生原因 A 连接失败。 
 ---
 = 重置 CIFS 域控制器
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

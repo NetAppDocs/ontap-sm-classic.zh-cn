@@ -5,6 +5,7 @@ keywords: multipath, device, verify, host, data, verify that the host can write 
 summary: 在使用多路径设备之前，您应验证主机是否可以将数据写入多路径设备并将其读回。 
 ---
 = 验证主机是否可以对多路径设备进行写入和读取
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

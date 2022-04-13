@@ -5,6 +5,7 @@ keywords: name, mapping, system, manager, specify, user, platform, online, help,
 summary: 您可以使用 System Manager 指定名称映射条目以映射不同平台的用户。 
 ---
 = 名称映射
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

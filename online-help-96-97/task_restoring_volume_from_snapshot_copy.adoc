@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: restore, volume, snapshot, copy, system, manager, online, help 
 summary: 您可以使用 System Manager 将卷还原到先前创建的 Snapshot 副本中记录的状态，以检索丢失的信息。从 Snapshot 副本还原卷时，还原操作会覆盖现有卷配置。创建 Snapshot 副本后对卷中数据所做的任何更改都将丢失。 
 ---
-= 从 Snapshot 副本还原卷
+= 使用 System Manager （ ONTAP 9.7 及更早版本）从 Snapshot 副本还原卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 将卷还原到先前创建的 Snapshot 副本中记录的状态，以检索丢失的信息。从 Snapshot 副本还原卷时，还原操作会覆盖现有卷配置。创建 Snapshot 副本后对卷中数据所做的任何更改都将丢失。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将卷还原到先前创建的 Snapshot 副本中记录的状态，以检索丢失的信息。从 Snapshot 副本还原卷时，还原操作会覆盖现有卷配置。创建 Snapshot 副本后对卷中数据所做的任何更改都将丢失。
 
 .开始之前
 * 您的系统上必须安装 SnapRestore 许可证。

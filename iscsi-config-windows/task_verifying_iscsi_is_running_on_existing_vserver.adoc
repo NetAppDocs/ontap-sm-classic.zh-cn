@@ -5,6 +5,7 @@ keywords: exist, storage, virtual, machine, svm, iscsi, run, verify, verify that
 summary: 如果选择使用现有 Storage Virtual Machine （ SVM ），则必须验证此 SVM 上是否正在运行 iSCSI 服务。 
 ---
 = 验证 iSCSI 服务是否正在现有 SVM 上运行
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

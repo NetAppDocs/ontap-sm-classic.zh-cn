@@ -5,6 +5,7 @@ keywords: system, manager, view, cifs, domain, information, online, help
 summary: 您可以使用 System Manager 查看有关连接到存储系统的域控制器和服务器的信息。 
 ---
 = 查看 CIFS 域信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

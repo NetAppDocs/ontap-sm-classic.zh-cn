@@ -5,6 +5,7 @@ keywords: system, manager, online, help, management, interface, understand, clus
 summary: System Manager 是一个图形管理界面，可用于从 Web 浏览器管理存储系统和存储对象（例如磁盘，卷和聚合）以及执行与存储系统相关的常见管理任务。作为集群管理员，您可以使用 System Manager 管理整个集群及其资源。 
 ---
 = 使用 OnCommand ® System Manager 进行集群管理
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

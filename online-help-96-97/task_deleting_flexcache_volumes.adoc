@@ -5,6 +5,7 @@ keywords: delete, flexcache, volume, system, manager, online, help
 summary: 从 System Manager 9.6 开始，您可以删除不再需要的 FlexCache 卷。 
 ---
 = 删除 FlexCache 卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

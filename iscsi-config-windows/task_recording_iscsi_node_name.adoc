@@ -5,6 +5,7 @@ keywords: record, iscsi, initiator, node, program, windows, host, record the isc
 summary: 您必须从 Windows 主机上的 iSCSI 启动程序中记录 iSCSI 启动程序节点名称。 
 ---
 = 记录 iSCSI 启动程序节点名称
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: create, snapvault, relationship, source, volume, cluster, destination,
 summary: 您必须在一个集群上的源卷与对等集群上的目标卷之间创建 SnapVault 关系，才能创建 SnapVault 备份。 
 ---
 = 创建 SnapVault 关系（ ONTAP 9.2 或更早版本）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: provision, datastore, esxi, host, datacenter, cluster, add, enable, st
 summary: 在为数据中心中的 ESXi 主机配置第一个数据存储库之前，必须将集群或特定添加到。通过添加集群，您可以在集群中的任何上配置存储。 
 ---
 = 将存储集群添加到 VSC
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

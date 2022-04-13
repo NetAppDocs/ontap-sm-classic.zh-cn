@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: flexvol, change, status, volume, online, help, system, manager 
 summary: 如果要使卷脱机，使卷重新联机或限制对卷的访问，您可以使用 System Manager 更改 FlexVol 卷的状态。 
 ---
-= 更改卷的状态
+= 使用 System Manager - ONTAP 9.7 及更早版本更改卷的状态
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果要使卷脱机，使卷重新联机或限制对卷的访问，您可以使用 System Manager 更改 FlexVol 卷的状态。
+如果要使卷脱机，使卷重新联机或限制对卷的访问，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）更改 FlexVol 卷的状态。
 
 .开始之前
 * 如果希望某个卷成为卷复制操作或 SnapMirror 复制操作的目标，则该卷必须处于受限状态。

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: storage, virtual, machine, window, svm, online, help, command, button, peer 
 summary: 您可以使用 Storage Virtual Machine 窗口管理 Storage Virtual Machine （ SVM ）并显示其相关信息。 
 ---
-= Storage Virtual Machine 窗口
+= System Manager 中的 Storage Virtual Machine 窗口— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 Storage Virtual Machine 窗口管理 Storage Virtual Machine （ SVM ）并显示其相关信息。
+您可以使用 ONTAP 系统管理器经典版中的 Storage Virtual Machine 窗口（在 ONTAP 9.7 及更早版本中提供）来管理 Storage Virtual Machine （ SVM ）并显示其相关信息。
 
 您不能使用 System Manager 管理（创建，删除，启动或停止）为灾难恢复（ DR ）配置的 SVM 。此外，您也不能在应用程序界面中查看与为灾难恢复配置的 SVM 关联的存储对象。
 

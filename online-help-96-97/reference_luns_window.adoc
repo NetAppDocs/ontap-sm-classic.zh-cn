@@ -5,6 +5,7 @@ keywords: online, help, lun, management, window, command, button, initiator, por
 summary: 您可以使用 LUN 窗口创建和管理 LUN 以及显示有关 LUN 的信息。您还可以添加，编辑或删除启动程序组和启动程序 ID 。 
 ---
 = LUN 窗口
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

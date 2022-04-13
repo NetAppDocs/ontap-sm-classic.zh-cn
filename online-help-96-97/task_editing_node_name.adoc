@@ -5,6 +5,7 @@ keywords: system, manager, edit, node, name, online, help
 summary: 您可以根据需要使用 System Manager 修改节点的名称。 
 ---
 = 编辑节点名称
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

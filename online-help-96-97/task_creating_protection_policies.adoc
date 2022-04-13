@@ -5,6 +5,7 @@ keywords: create, protection, policies, online, help, system, manager
 summary: 您可以使用 System Manager 创建异步镜像策略，存储策略或镜像和存储策略，并将这些策略应用于数据保护关系。 
 ---
 = 创建保护策略
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

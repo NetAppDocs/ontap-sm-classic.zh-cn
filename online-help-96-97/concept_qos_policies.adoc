@@ -5,6 +5,7 @@ keywords: qos, policy, group, system, manager, create, edit, delete, online, hel
 summary: 您可以使用 System Manager 创建，编辑和删除 QoS 策略组。 
 ---
 = QoS 策略组
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

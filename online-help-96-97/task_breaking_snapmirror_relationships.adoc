@@ -5,6 +5,7 @@ keywords: snapmirror, break, relationship, dp, rw, online, help
 summary: 如果 SnapMirror 源不可用，并且您希望客户端应用程序能够从镜像目标访问数据，则必须中断 SnapMirror 关系。 
 ---
 = 中断 SnapMirror 关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

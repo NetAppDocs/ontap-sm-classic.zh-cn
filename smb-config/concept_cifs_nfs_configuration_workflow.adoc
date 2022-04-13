@@ -5,6 +5,7 @@ keywords: configure, configuring, smb, cifs, creating, create, aggregate, workfl
 summary: 配置 SMB/CIFS 需要选择创建聚合，然后选择特定于您的目标的工作流—创建启用了 CIFS 的新 SVM ，配置对现有 SVM 的 CIFS 访问，或者只需将 CIFS 卷添加到已完全配置 CIFS 访问的现有 SVM 即可。 
 ---
 = SMB/CIFS 配置工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

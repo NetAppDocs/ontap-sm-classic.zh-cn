@@ -5,6 +5,7 @@ keywords: content, destination, activate, volume, disaster, reactivate, source, 
 summary: 您可以在发生灾难后快速激活目标卷，然后使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本）在 ONTAP 中重新激活源卷。 
 ---
 = 卷灾难恢复概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

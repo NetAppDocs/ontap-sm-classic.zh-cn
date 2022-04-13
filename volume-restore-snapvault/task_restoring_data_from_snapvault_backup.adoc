@@ -5,6 +5,7 @@ keywords: snapvault, backup, destination, volume, perform, restore, operation, b
 summary: 选择 SnapVault 备份目标卷后，您必须对新卷执行还原操作以测试备份的数据，或者对现有卷执行还原操作以还原丢失或损坏的数据。 
 ---
 = 从 SnapVault 备份还原数据
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

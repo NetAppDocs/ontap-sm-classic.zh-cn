@@ -5,6 +5,7 @@ keywords: storage, available, host, iscsi, provision, volume, lun, storage, virt
 summary: 使用 iSCSI 使存储可供主机使用时，您需要在 Storage Virtual Machine 上配置卷和 LUN ，然后从主机连接到 LUN 。 
 ---
 = iSCSI 配置和配置工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

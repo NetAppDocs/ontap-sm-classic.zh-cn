@@ -5,6 +5,7 @@ keywords: break, snapmirror, relationship, verify, destination, volume, access, 
 summary: 中断 SnapMirror 关系后，您必须验证目标卷是否具有读 / 写访问权限，以及目标卷设置是否与源卷的设置匹配。 
 ---
 = 验证目标卷状态
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

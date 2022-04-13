@@ -5,6 +5,7 @@ keywords: windows, user, access, volume, create, cifs, restrict, share, modify, 
 summary: 在 Windows 用户访问卷之前，您必须在卷上创建 CIFS 共享，并通过修改共享的访问控制列表（ ACL ）来限制对共享的访问。 
 ---
 = 创建共享并设置其权限
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

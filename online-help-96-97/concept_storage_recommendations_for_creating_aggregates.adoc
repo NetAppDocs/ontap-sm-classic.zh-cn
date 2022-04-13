@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: storage, recommendations, create, aggregate, system, manager, online, help 
 summary: 从 System Manager 9.4 开始，您可以根据存储建议创建聚合。但是，您必须确定您的环境是否支持根据存储建议创建聚合。如果您的环境不支持根据存储建议创建聚合，则必须确定 RAID 策略和磁盘配置，然后手动创建聚合。 
 ---
-= 用于创建聚合的存储建议
+= 使用 System Manager 创建聚合的存储建议— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

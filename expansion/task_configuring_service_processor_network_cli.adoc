@@ -5,6 +5,7 @@ keywords: expand, cluster, configure, service, processor, sp, network, node, man
 summary: 扩展集群后，必须在新节点上配置服务处理器网络。 
 ---
 = 配置服务处理器网络
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

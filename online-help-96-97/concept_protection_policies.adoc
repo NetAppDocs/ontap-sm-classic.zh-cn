@@ -5,6 +5,7 @@ keywords: online, help, protection, policy, system, manager, create, edit, delet
 summary: 您可以使用 System Manager 创建，编辑和删除保护策略。 
 ---
 = 保护策略
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

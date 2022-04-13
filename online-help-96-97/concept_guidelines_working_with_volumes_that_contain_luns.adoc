@@ -5,6 +5,7 @@ keywords: guidelines, flexvol, volume, lun, change, default, settings, snapshot,
 summary: 使用包含 LUN 的 FlexVol 卷时，必须更改 Snapshot 副本的默认设置。您还可以优化 LUN 布局以简化管理。 
 ---
 = 使用包含 LUN 的 FlexVol 卷的准则
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

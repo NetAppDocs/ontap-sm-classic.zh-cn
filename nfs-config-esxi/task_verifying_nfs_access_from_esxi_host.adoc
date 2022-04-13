@@ -5,6 +5,7 @@ keywords: provision, datastore, esxi, verify, nfs, access, creating, create, vir
 summary: 配置数据存储库后，您可以通过在该数据存储库上创建虚拟机并打开其电源来验证 ESXi 主机是否具有 NFS 访问权限。 
 ---
 = 验证从 ESXi 主机进行的 NFS 访问
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

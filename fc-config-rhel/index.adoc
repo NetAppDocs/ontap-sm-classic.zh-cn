@@ -6,6 +6,7 @@ summary: 您可以在 Storage Virtual Machine 上快速设置 FC 服务，配置
 ---
 = 适用于 Red Hat Enterprise Linux 的 FC 配置概述
 :hardbreaks:
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

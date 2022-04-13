@@ -5,6 +5,7 @@ keywords: create, mirror, relationship, destination, svm, online, help, system, 
 summary: 您可以使用 ONTAP 系统管理器从目标 Storage Virtual Machine （ SVM ）创建镜像关系，并为此镜像关系分配策略和计划。如果源卷上的数据损坏或丢失，镜像副本可以快速提供数据。 
 ---
 = 从目标 SVM 创建镜像关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

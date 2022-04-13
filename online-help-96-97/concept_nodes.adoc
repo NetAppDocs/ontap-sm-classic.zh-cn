@@ -4,11 +4,12 @@ sidebar: sidebar
 keywords: node, system, manager, view, detail, cluster, online, help 
 summary: 您可以使用 System Manager 查看集群中节点的详细信息。 
 ---
-= 节点
+= 使用 System Manager - ONTAP 9.7 及更早版本管理节点
+:allow-uri-read: 
 
 
 [role="lead"]
-您可以使用 System Manager 查看集群中节点的详细信息。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）查看集群中节点的详细信息。
 
 
 

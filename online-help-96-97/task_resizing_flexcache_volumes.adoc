@@ -5,6 +5,7 @@ keywords: system, manager, flexcache, resize, volume, online, help
 summary: 从 System Manager 9.6 开始，您可以通过调整现有资源的大小或添加新资源来调整 FlexCache 卷的大小。 
 ---
 = 调整 FlexCache 卷大小
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

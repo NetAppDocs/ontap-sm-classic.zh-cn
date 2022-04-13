@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: space, reservation, flexvol, volume, online, help 
 summary: 使用空间预留，您可以配置 FlexVol 卷。精简配置提供的存储似乎比给定聚合实际可用的存储多，只要当前并未使用所有存储即可。 
 ---
-= 对 FlexVol 卷使用空间预留
+= 在 System Manager - ONTAP 9.7 及更早版本中对 FlexVol 卷使用空间预留
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-使用空间预留，您可以配置 FlexVol 卷。精简配置提供的存储似乎比给定聚合实际可用的存储多，只要当前并未使用所有存储即可。
+在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中，您可以使用空间预留来配置 FlexVol 卷。精简配置提供的存储似乎比给定聚合实际可用的存储多，只要当前并未使用所有存储即可。
 
 厚配置可从聚合中留出足够的存储空间，以确保可以随时写入卷中的任何块。
 

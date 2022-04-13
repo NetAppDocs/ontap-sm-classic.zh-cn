@@ -5,6 +5,7 @@ keywords: online, help, kerberos, realm, service, system, manager, svm, edit, se
 summary: 您可以使用 System Manager 创建和管理 Kerberos 域服务。 
 ---
 = Kerberos 域服务
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

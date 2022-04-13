@@ -5,6 +5,7 @@ keywords: svm, create, storage, virtual, machine, online, help
 summary: 您可以使用 Storage Virtual Machine （ SVM ）窗口创建完全配置的 SVM 。在这些 SVM 上创建存储对象后， SVM 将提供数据。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本创建 SVM
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

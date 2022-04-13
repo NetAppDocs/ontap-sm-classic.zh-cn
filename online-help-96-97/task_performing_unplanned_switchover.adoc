@@ -5,6 +5,7 @@ keywords: perform, unplanned, switchover, system, manager, metrocluster, site, o
 summary: 从 System Manager 9.6 开始，您可以对 MetroCluster 站点启动计划外切换。在发生中断事件或灾难事件后，此操作非常有用。 
 ---
 = 执行计划外切换
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

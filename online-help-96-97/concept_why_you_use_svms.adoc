@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: svm, data, access, nondisruptive, operation, scalability, security, online, help 
 summary: SVM 可为客户端提供数据访问，而与物理存储或控制器无关，这一点与任何存储系统类似。SVM 可提供无中断运行，可扩展性，安全性和统一存储等优势。 
 ---
-= 为什么使用 SVM
+= 关于使用 System Manager 的 SVM — ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

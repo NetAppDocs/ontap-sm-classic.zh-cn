@@ -5,6 +5,7 @@ keywords: online, help, system, manager, manage, schedule, storage
 summary: 您可以使用 System Manager 在存储系统中创建和管理计划。 
 ---
 = Schedules
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

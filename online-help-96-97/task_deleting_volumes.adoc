@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: online, help, delete, volumes, system, manager, flexvol, volume 
 summary: 如果您不再需要某个卷包含的数据，或者已将某个卷包含的数据复制到其他位置，则可以使用 System Manager 删除 FlexVol 该卷。删除卷时，卷中的所有数据都将被销毁，并且您无法恢复这些数据。 
 ---
-= 删除卷
+= 使用 System Manager - ONTAP 9.7 及更早版本删除卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果您不再需要某个卷包含的数据，或者已将某个卷包含的数据复制到其他位置，则可以使用 System Manager 删除 FlexVol 该卷。删除卷时，卷中的所有数据都将被销毁，并且您无法恢复这些数据。
+如果您不再需要某个卷包含的数据，或者已将某个卷包含的数据复制到其他位置，则可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）删除 FlexVol 该卷。删除卷时，卷中的所有数据都将被销毁，并且您无法恢复这些数据。
 
 删除 FlexVol 卷之前，必须满足以下条件：
 

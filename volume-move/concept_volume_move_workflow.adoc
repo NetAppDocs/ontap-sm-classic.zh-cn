@@ -5,6 +5,7 @@ keywords: move, moving, volume, method, operation, plan, timing, system, manager
 summary: 在移动卷之前，您应选择卷移动操作的方法并计划此操作的时间。您可以使用 System Manager 移动卷。移动后，您可能需要更新 NDMP 备份配置。 
 ---
 = 卷移动工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

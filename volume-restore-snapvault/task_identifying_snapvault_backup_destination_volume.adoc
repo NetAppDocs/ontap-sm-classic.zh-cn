@@ -5,6 +5,7 @@ keywords: identify, snapvault, backup, destination, volume, restore, data, sourc
 summary: 您必须确定在源卷中的数据损坏或丢失时要从中还原数据的 SnapVault 备份目标卷。 
 ---
 = 确定 SnapVault 备份目标卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: iscsi, identifier, network, address, storage, configuration, informati
 summary: 要执行 iSCSI 配置任务，您需要 iSCSI 标识符，网络地址和存储配置信息。 
 ---
 = 填写 iSCSI 配置工作表
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

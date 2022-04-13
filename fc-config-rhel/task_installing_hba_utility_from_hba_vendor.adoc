@@ -5,6 +5,7 @@ keywords: hba, utility, enable, view, worldwide, port, name, wwpn, fc, port, tro
 summary: 通过 HBA 实用程序，您可以查看每个 FC 端口的全球通用端口名称（ WWPN ）。该实用程序还可用于对 FC 问题进行故障排除。 
 ---
 = 安装 HBA 供应商提供的 HBA 实用程序
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: edit, nvme, namespace, online, help, system, manager
 summary: 您可以使用 System Manager 通过更改命名空间映射到的子系统来编辑命名空间。 
 ---
 = 编辑 NVMe 命名空间
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

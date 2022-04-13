@@ -5,6 +5,7 @@ keywords: reliable, operation, verify, configuration, support, nfs, verify that 
 summary: 为了确保操作可靠，您必须验证是否支持整个配置。列出了 NFS 和 Virtual Storage Console 支持的配置。 
 ---
 = 验证此配置是否受支持
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: edit, autosupport, settings, system, manager, online, help, email, add
 summary: 您可以使用 System Manager 修改 AutoSupport 设置，以指定发送电子邮件通知的电子邮件地址，并添加多个电子邮件主机名。 
 ---
 = 编辑 AutoSupport 设置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

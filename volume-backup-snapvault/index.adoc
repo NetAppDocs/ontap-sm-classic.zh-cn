@@ -5,6 +5,7 @@ keywords: content, configure, snapvault, backup, relationship, volume, cluster, 
 summary: 您可以在位于不同集群中的卷之间快速配置 SnapVault 备份关系。SnapVault 备份包含一组只读备份副本，这些副本位于一个目标卷上，您可以使用该卷在数据损坏或丢失时还原数据。 
 ---
 = 使用 SnapVault 进行卷备份概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

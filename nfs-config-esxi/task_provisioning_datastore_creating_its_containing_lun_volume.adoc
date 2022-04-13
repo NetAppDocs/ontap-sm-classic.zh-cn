@@ -5,6 +5,7 @@ keywords: datastore, virtual, machine, vmdk, esxi, host, provision, storage, clu
 summary: 数据存储库包含 ESXi 主机上的虚拟机及其 VMDK 。ESXi 主机上的数据存储库是在存储集群上的卷上配置的。 
 ---
 = 配置数据存储库并创建其包含的卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

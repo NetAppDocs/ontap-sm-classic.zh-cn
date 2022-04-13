@@ -5,6 +5,7 @@ keywords: cifs, window, configuration, tab, domain, symlink, branchcache, online
 summary: 您可以使用 CIFS 窗口配置 CIFS 服务器，管理域控制器，管理符号 UNIX 映射以及配置 BranchCache 。 
 ---
 = CIFS 窗口
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

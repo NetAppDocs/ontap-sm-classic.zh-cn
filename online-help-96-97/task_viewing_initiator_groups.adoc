@@ -5,6 +5,7 @@ keywords: view, initiator, group, lun, system, manager, online, help
 summary: 您可以使用 System Manager 中的启动程序组选项卡查看所有启动程序组和映射到这些启动程序组的启动程序，以及映射到启动程序组的 LUN 和 LUN ID 。 
 ---
 = 查看启动程序组
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

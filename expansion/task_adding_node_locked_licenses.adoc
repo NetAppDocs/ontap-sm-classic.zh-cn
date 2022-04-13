@@ -5,6 +5,7 @@ keywords: cluster, feature, node-locked, license, entitle, functionality, add, a
 summary: 如果集群具有使用节点锁定许可证的功能，则必须确保为新节点安装节点锁定许可证。 
 ---
 = 添加节点锁定许可证
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

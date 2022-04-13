@@ -5,6 +5,7 @@ keywords: install, controller, module, reuse, maintenance, mode, ha, state, hard
 summary: 如果新安装的控制器模块已重复使用，而不是新安装的控制器模块，则必须进入维护模式并确保其 HA 状态设置为 HA 。 
 ---
 = 确保已启用硬件级 HA
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, snapshot, copy, outside, defined, schedule, online, help, system, manager 
 summary: 您可以使用 System Manager 在定义的计划之外创建卷的 Snapshot 副本，以捕获文件系统在特定时间点的状态。 
 ---
-= 在定义的计划之外创建 Snapshot 副本
+= 使用 System Manager - ONTAP 9.7 及更早版本在定义的计划外创建 Snapshot 副本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 在定义的计划之外创建卷的 Snapshot 副本，以捕获文件系统在特定时间点的状态。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）在定义的计划之外创建卷的 Snapshot 副本，以捕获文件系统在特定时间点的状态。
 
 .步骤
 . 单击 * 存储 * > * 卷 * 。

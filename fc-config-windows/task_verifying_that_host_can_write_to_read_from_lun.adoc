@@ -5,6 +5,7 @@ keywords: lun, verify, host, write, data, verify that the host can write to and 
 summary: 在使用 LUN 之前，您应验证主机是否可以将数据写入 LUN 并将其读回。 
 ---
 = 验证主机是否可以对 LUN 进行写入和读取
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

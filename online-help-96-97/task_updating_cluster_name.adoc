@@ -5,6 +5,7 @@ keywords: system, manager, update, cluster, name, online, help
 summary: 您可以根据需要使用 System Manager 修改集群的名称。 
 ---
 = 正在更新集群名称
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

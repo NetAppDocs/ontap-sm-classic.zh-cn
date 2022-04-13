@@ -5,6 +5,7 @@ keywords: smb, cifs, nfs, access, volume, exist, storage, virtual, machine, svm
 summary: 您可以在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 和 NFS 访问。 
 ---
 = SMB 和 NFS 多协议配置概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

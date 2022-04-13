@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: jobs, system, manager, job, task, display, information, progress, asynchronous, volume, operation, copy, move, mirror, data, queue, cluster, administrator, online, help 
 summary: 您可以使用 System Manager 管理作业任务，例如显示作业信息和监控作业进度。 
 ---
-= 作业
+= 使用 System Manager - ONTAP 9.7 及更早版本管理作业
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 管理作业任务，例如显示作业信息和监控作业进度。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理作业任务，例如显示作业信息和监控作业进度。
 
 
 

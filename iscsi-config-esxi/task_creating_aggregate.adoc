@@ -5,6 +5,7 @@ keywords: exist, aggregate, physical, storage, provision, create, create an aggr
 summary: 如果不想使用现有聚合，可以创建一个新聚合，以便为要配置的卷提供物理存储。 
 ---
 = 创建聚合
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

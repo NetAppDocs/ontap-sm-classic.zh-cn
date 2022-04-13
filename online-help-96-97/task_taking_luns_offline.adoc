@@ -5,6 +5,7 @@ keywords: take, lun, offline, online, help, management, system, manager
 summary: 您可以使用 System Manager 中的 LUN 管理选项卡使选定 LUN 脱机并使其无法用于块协议访问。 
 ---
 = 使 LUN 脱机
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

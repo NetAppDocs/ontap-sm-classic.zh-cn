@@ -5,6 +5,7 @@ keywords: volume, disaster recovery, workflow, activating, activate, destination
 summary: 卷灾难恢复工作流包括激活目标卷，配置目标卷以进行数据访问以及重新激活原始源卷。 
 ---
 = 卷灾难恢复工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

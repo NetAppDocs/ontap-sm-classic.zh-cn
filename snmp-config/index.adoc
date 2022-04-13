@@ -5,6 +5,7 @@ keywords: content, configure, snmp, cluster, management, level, add, communities
 summary: '在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面，您可以在集群管理级别配置 SNMP ，添加社区，安全用户和陷阱主机以及测试 SNMP 通信。' 
 ---
 = SNMP 配置概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

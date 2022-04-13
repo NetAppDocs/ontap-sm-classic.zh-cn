@@ -5,6 +5,7 @@ keywords: content, restore, volume, snapvault, vault, backup, ontap, data, loss,
 summary: 如果发生数据丢失，您可以从 ONTAP 中的 SnapVault 备份快速还原卷。 
 ---
 = 使用 SnapVault 还原卷概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

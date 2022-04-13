@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: assign, volumes, storage, qos, online, help, flexgroup, online, help, quality, serice 
 summary: 您可以通过将 FlexVol 卷和 FlexGroup 卷分配给存储服务质量（ QoS ）策略组来限制其吞吐量。您可以使用 System Manager 为新卷分配存储 QoS ，也可以修改已分配给策略组的卷的存储 QoS 详细信息。 
 ---
-= 将卷分配给存储 QoS
+= 使用 System Manager - ONTAP 9.7 及更早版本将卷分配给存储服务质量
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以通过将 FlexVol 卷和 FlexGroup 卷分配给存储服务质量（ QoS ）策略组来限制其吞吐量。您可以使用 System Manager 为新卷分配存储 QoS ，也可以修改已分配给策略组的卷的存储 QoS 详细信息。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将 FlexVol 卷和 FlexGroup 卷分配给存储服务质量（ QoS ）策略组，以限制这些卷和卷的吞吐量。您可以使用 System Manager 为新卷分配存储 QoS ，也可以修改已分配给策略组的卷的存储 QoS 详细信息。
 
 .关于此任务
 * 您只能为处于联机状态的读 / 写（ rw ）卷分配存储服务质量。

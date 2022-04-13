@@ -5,6 +5,7 @@ keywords: periodically, monitor, status, snapvault, relationship, ensure, data, 
 summary: 您应定期监控 SnapVault 关系的状态，以确保按照指定计划在目标卷上备份数据。 
 ---
 = 监控 SnapVault 关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

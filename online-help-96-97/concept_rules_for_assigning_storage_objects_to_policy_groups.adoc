@@ -5,6 +5,7 @@ keywords: rulw, assign, storage, object, policy, group, svm, nested, online, hel
 summary: 您应了解一些规则，这些规则规定如何将存储对象分配给存储 QoS 策略组。 
 ---
 = 将存储对象分配给策略组的规则
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

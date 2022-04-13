@@ -5,6 +5,7 @@ keywords: system, manager, set, up, time, zone, cluster, modify, server, ntp
 summary: 您可以使用 System Manager 中的编辑日期和时间对话框手动设置或修改集群的时区。您还可以向集群添加时间服务器。 
 ---
 = 设置集群的时区
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

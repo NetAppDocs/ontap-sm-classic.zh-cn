@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, storage, pools, ssd, flash, pool, aggregates, online, help, create, 
 summary: 您可以使用 System Manager 创建存储池，以使多个 Flash Pool 聚合能够共享 SSD 。 
 ---
-= 存储池
+= 使用 System Manager - ONTAP 9.7 及更早版本管理存储池
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建存储池，以使多个 Flash Pool 聚合能够共享 SSD 。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建存储池，以使多个 Flash Pool 聚合能够共享 SSD 。
 
 
 

@@ -5,6 +5,7 @@ keywords: 'lun, storage, cluster, linux, scsi, device, i/o, path, dm-multipath, 
 summary: 存储集群上的 LUN 在 Linux 主机中显示为 SCSI 设备，这些设备是 DM-Multipath 聚合到称为多路径设备的新设备中的 I/O 路径。主机不会自动发现您添加到系统中的新 SCSI 设备（ LUN ）。您必须手动重新扫描它们才能发现它们。 
 ---
 = 发现新的 SCSI 设备（ LUN ）和多路径设备
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

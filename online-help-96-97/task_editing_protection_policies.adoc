@@ -5,6 +5,7 @@ keywords: edit, protection, policies, online, help, system, manager
 summary: 您可以使用 System Manager 修改保护策略并将此策略应用于数据保护关系。 
 ---
 = 编辑保护策略
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

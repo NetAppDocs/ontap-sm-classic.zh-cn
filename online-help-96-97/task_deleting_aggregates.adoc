@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: delete, aggregates, system, manager, online, help, root 
 summary: 如果您不再需要聚合中的数据，可以使用 System Manager 删除聚合。但是，您无法删除根聚合，因为它包含根卷，其中包含系统配置信息。 
 ---
-= 正在删除聚合
+= 使用 System Manager - ONTAP 9.7 及更早版本删除聚合
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果您不再需要聚合中的数据，可以使用 System Manager 删除聚合。但是，您无法删除根聚合，因为它包含根卷，其中包含系统配置信息。
+当您不再需要聚合中的数据时，可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）删除聚合。但是，您无法删除根聚合，因为它包含根卷，其中包含系统配置信息。
 
 .开始之前
 * 必须删除聚合中的所有 FlexVol 卷以及关联的 Storage Virtual Machine （ SVM ）。

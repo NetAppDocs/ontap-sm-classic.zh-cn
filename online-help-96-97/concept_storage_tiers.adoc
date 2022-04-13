@@ -5,6 +5,7 @@ keywords: system, manager, storage, tiers, aggregates, security, requirements, b
 summary: 您可以使用 System Manager 创建聚合，以满足用户的不同安全要求，备份要求，性能要求和数据共享要求。 
 ---
 = 存储层
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

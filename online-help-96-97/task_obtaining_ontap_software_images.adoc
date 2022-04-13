@@ -5,6 +5,7 @@ keywords: online, help, obtain, ontap, software, image, netapp, support, site, o
 summary: 对于 ONTAP 9.4 及更高版本，您可以将 ONTAP 软件映像从 NetApp 支持站点复制到本地文件夹。对于从 ONTAP 9.3 或更早版本升级的系统，您必须将 ONTAP 软件映像复制到网络上的 HTTP 服务器或 FTP 服务器。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本获取 ONTAP 软件映像
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

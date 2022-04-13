@@ -5,6 +5,7 @@ keywords: system, manager, create, nvme, namespace, svm, logical, blocks, online
 summary: 您可以使用 System Manager 创建一个或多个 NVMe 命名空间，并将每个命名空间连接到 Storage Virtual Machine （ SVM ）中的一个主机或一组主机。NVMe 命名空间是指可格式化为逻辑块的内存量。每个命名空间都可以映射到一个 NVMe 子系统。 
 ---
 = 创建 NVMe 命名空间
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

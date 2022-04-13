@@ -5,6 +5,7 @@ keywords: configuration, update, system, manager, administration, detail, storag
 summary: 您可以使用 System Manager 配置 Storage Virtual Machine （ SVM ）的管理详细信息。 
 ---
 = 使用 System Manager 更新配置— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

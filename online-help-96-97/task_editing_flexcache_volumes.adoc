@@ -5,6 +5,7 @@ keywords: online, help, edit, flexcache, vaolume, system, manager
 summary: 从 System Manager 9.6 开始，您可以编辑现有 FlexCache 卷的属性。 
 ---
 = 编辑 FlexCache 卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

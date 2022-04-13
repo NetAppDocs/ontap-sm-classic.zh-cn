@@ -5,6 +5,7 @@ keywords: port, create, iscsi, associate, software, adapter, support, multipath,
 summary: 为 iSCSI 创建的端口必须与 iSCSI 软件适配器关联，才能支持多路径。 
 ---
 = 将 iSCSI 端口绑定到 iSCSI 软件适配器
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: create, snaplock, volume, online, help, system, manager
 summary: 您可以使用 System Manager 创建 SnapLock Compliance 卷或 SnapLock 企业卷。创建卷时，您还可以设置保留时间，并选择是否自动设置卷中数据的 WORM 状态。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本创建 SnapLock 卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,26 +4,23 @@ sidebar: sidebar
 keywords: system, manager, online, help, vault, policy, relationship, create, source 
 summary: 您可以使用 System Manager 从源 Storage Virtual Machine （ SVM ）创建存储关系，并为存储关系分配存储策略以创建备份存储。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。 
 ---
-= 从源 SVM 创建存储关系
+= 使用 System Manager - ONTAP 9.7 及更早版本从源 SVM 创建存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 从源 Storage Virtual Machine （ SVM ）创建存储关系，并为存储关系分配存储策略以创建备份存储。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从源 Storage Virtual Machine （ SVM ）创建存储关系，并为存储关系分配存储策略以创建备份存储。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。
 
 .开始之前
 * 源集群和目标集群都必须启用 SnapVault 许可证或 SnapMirror 许可证。
 +
 [NOTE]
 ====
-+
+** 对于某些平台，如果目标集群具有 SnapVault 许可证或 SnapMirror 许可证，并且启用了数据保护优化 \ （ DPO\ ）许可证，则源集群不必启用 SnapVault 许可证或 SnapMirror 许可证。
+** 在目标集群上启用 DPO 许可证后，您必须刷新源集群的浏览器以启用 `Protect` 选项。
 
-....
--   For some platforms, it is not mandatory for the source cluster to have the SnapVault license or the SnapMirror license enabled if the destination cluster has the SnapVault license or the SnapMirror license, and the Data Protection Optimization \(DPO\) license enabled.
--   After the DPO license is enabled on the destination cluster, you must refresh the browser of the source cluster to enable the `Protect` option.
-....
-+
 
 ====
 * 源集群和目标集群以及源 SVM 和目标 SVM 之间的对等关系必须运行正常。

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: option, resize, volume, wizard, snapshot, reserve, snapshot, copy, results, view, online, help 
 summary: 您可以使用卷大小调整向导更改卷大小，调整 Snapshot 预留，删除 Snapshot 副本以及动态查看更改结果。 
 ---
-= 用于调整卷大小的选项
+= 使用 System Manager 调整卷大小的选项— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用卷大小调整向导更改卷大小，调整 Snapshot 预留，删除 Snapshot 副本以及动态查看更改结果。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的卷大小调整向导更改卷大小，调整 Snapshot 预留，删除 Snapshot 副本以及动态查看更改结果。
 
 卷大小调整向导将显示一个条形图，其中显示了卷中的当前空间分配情况，包括已用空间量和可用空间量。更改卷的大小或 Snapshot 预留时，此图形会动态更新以反映所做的更改。
 

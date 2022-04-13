@@ -5,6 +5,7 @@ keywords: set, up, cluster, ontap, system, manager, online, help, management, ne
 summary: 从 ONTAP 9.1 开始，您可以使用 ONTAP 系统管理器设置集群，方法是创建集群，设置节点管理网络和集群管理网络，然后设置事件通知。 
 ---
 = 使用 ONTAP System Manager - ONTAP 9.7 及更早版本设置集群
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

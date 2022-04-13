@@ -5,6 +5,7 @@ keywords: set, up, volume, data, protection, snapvault, technology, verify, sour
 summary: 在使用 SnapVault 技术为卷设置数据保护之前，您必须验证源集群和目标集群是否已建立对等关系并通过对等关系彼此通信。您还必须验证源 SVM 和目标 SVM 是否已建立对等关系，并且正在通过对等关系彼此通信。 
 ---
 = 验证集群对等关系和 SVM 对等关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

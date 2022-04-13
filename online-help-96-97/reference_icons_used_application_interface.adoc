@@ -5,6 +5,7 @@ keywords: icon, application, interface, dashboard, window, online, help, icon
 summary: 您可以查看界面中的图标以快速获取有关系统和操作的信息。 
 ---
 = 应用程序界面中使用的图标
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

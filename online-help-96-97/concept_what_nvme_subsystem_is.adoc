@@ -5,6 +5,7 @@ keywords: nvme, subsystem, fc, rdma, transport, port, vserver, online, help, con
 summary: NVMe 子系统包括一个或多个控制器，一个或多个命名空间，一个或多个非易失性内存（ NVM ）子系统端口（ FC-NVMe 或 RDMA 传输端口），一个 NVM 存储介质以及一个控制器和 NVM 存储介质之间的接口。对于控制器映射和管理， NVM 子系统会映射到 ONTAP 中的 SVM 。 
 ---
 = 管理 NVMe 子系统
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

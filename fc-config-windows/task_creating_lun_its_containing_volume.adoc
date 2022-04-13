@@ -5,6 +5,7 @@ keywords: create, lun, wizard, igroup, map, enable, host, access, create a lun
 summary: 您可以使用创建 LUN 向导创建 LUN 。此向导还会创建 igroup 并将 LUN 映射到 igroup ，从而使指定主机能够访问此 LUN 。 
 ---
 = 创建 LUN
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

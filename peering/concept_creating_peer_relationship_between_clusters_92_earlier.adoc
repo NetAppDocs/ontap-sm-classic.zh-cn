@@ -5,6 +5,7 @@ keywords: relationship, define, network, connection, enable, cluster, svm, excha
 summary: '在 ONTAP 9.2 或更低版本的 ONTAP 9 中使用 ONTAP System Manager" 经典 " 界面，您可以创建 SVM 对等关系。' 
 ---
 = 配置对等关系（ ONTAP 9.2 及更早版本）
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

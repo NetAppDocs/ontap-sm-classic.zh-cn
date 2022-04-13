@@ -5,6 +5,7 @@ keywords: online, help, delegate, administration, svm, administrator
 summary: 使用基本网络配置设置一个可正常工作的 Storage Virtual Machine （ SVM ）或 SVM 后，您可以选择将 SVM 的管理委派给 SVM 管理员。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本将管理任务委派给 SVM 管理员
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

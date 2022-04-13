@@ -5,6 +5,7 @@ keywords: date, time, settings, cluster, system, manager, online, help
 summary: 您可以使用 System Manager 管理集群的日期和时间设置。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本管理集群的日期和时间设置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

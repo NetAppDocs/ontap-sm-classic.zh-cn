@@ -5,6 +5,7 @@ keywords: edit, initiator, group, system, manager, online, help, port, set, dial
 summary: 您可以使用 System Manager 中的编辑启动程序组对话框更改现有启动程序组及其操作系统的名称。您可以在启动程序组中添加或删除启动程序。您还可以更改与启动程序组关联的端口集。 
 ---
 = 编辑启动程序组
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

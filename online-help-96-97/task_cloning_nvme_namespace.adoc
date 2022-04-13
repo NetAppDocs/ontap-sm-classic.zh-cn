@@ -5,6 +5,7 @@ keywords: system, manager, clone, nvme, namespace, nqn, online, help
 summary: 您可以使用 System Manager 通过选择克隆命名空间来快速创建同一配置的另一个命名空间。您可以将新克隆的命名空间映射到另一主机 NQN 。 
 ---
 = 克隆 NVMe 命名空间
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

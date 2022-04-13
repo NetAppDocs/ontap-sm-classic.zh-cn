@@ -5,6 +5,7 @@ keywords: create, flexvol, volume, contain, data, security, style, inherit, root
 summary: 您必须创建一个 FlexVol 卷以包含数据。您可以选择更改卷的默认安全模式，此模式是从根卷的安全模式继承的。您也可以选择更改卷在命名空间中的默认位置，即 Storage Virtual Machine （ SVM ）的根卷。 
 ---
 = 创建并配置卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

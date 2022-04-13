@@ -5,6 +5,7 @@ keywords: worldwide, port, name, wwpn, require, zone, fc, switch, create, igroup
 summary: 要对 FC 交换机进行分区并创建允许主机访问其 LUN 的 igroup ，需要使用全球通用端口名称（ WWPN ）。 
 ---
 = 记录每个主机 FC 端口的 WWPN
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

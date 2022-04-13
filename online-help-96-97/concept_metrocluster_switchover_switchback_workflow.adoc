@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: metrocluster, switchover, switchback, workflow, online, help, offline, maintenance 
 summary: 从 System Manager 9.6 开始，您可以在发生灾难后使用 MetroCluster 切换和切回操作，因为灾难会使源集群中的所有节点无法访问并关闭电源。在灾难恢复测试或站点脱机进行维护等情况下，您还可以使用切换工作流进行协商（计划内）切换。 
 ---
-= 关于使用 System Manager classic 进行 MetroCluster 切换和切回— ONTAP 9.7 及更早版本
+= 关于 MetroCluster 切换和切回
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: wizard, create, creating, storage, virtual, machine, svm, domain, name
 summary: 您可以使用一个向导来指导您完成以下过程：创建新的 Storage Virtual Machine （ SVM ），配置域名系统（ DNS ），创建数据逻辑接口（ LIF ），配置 CIFS 服务器，启用 NFS 以及配置 NIS （可选）。 
 ---
 = 创建基本 SVM
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

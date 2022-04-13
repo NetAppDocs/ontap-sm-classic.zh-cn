@@ -5,6 +5,7 @@ keywords: update, singe, node, cluster, system, manager, online, help
 summary: 您可以使用 System Manager 更新单节点集群。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本更新单节点集群
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

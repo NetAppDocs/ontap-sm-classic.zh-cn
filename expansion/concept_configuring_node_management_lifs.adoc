@@ -5,6 +5,7 @@ keywords: controller, module, physical, install, power, configure, node-mangemen
 summary: 物理安装控制器模块后，您可以打开每个控制器模块的电源并配置其节点管理 LIF 。 
 ---
 = 配置节点管理 LIF
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

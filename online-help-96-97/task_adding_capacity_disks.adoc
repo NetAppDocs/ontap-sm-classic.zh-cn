@@ -4,14 +4,15 @@ sidebar: sidebar
 keywords: add, capacity, disk, online, help, aggregate 
 summary: 您可以通过添加容量磁盘来增加现有非根聚合或包含磁盘的根聚合的大小。您可以使用 System Manager 添加选定 ONTAP 磁盘类型的 HDD 或 SSD 并修改 RAID 组选项。 
 ---
-= 添加容量磁盘
+= 使用 System Manager - ONTAP 9.7 及更早版本添加容量磁盘
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以通过添加容量磁盘来增加现有非根聚合或包含磁盘的根聚合的大小。您可以使用 System Manager 添加选定 ONTAP 磁盘类型的 HDD 或 SSD 并修改 RAID 组选项。
+您可以通过添加容量磁盘来增加现有非根聚合或包含磁盘的根聚合的大小。您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）添加选定 ONTAP 磁盘类型的 HDD 或 SSD 并修改 RAID 组选项。
 
 .开始之前
 * 聚合必须处于联机状态。

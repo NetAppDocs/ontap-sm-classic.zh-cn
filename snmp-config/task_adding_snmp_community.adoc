@@ -5,6 +5,7 @@ keywords: system, manager, add, community, administrative, storage, virtual, mac
 summary: '您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面向运行 SNMPv1 或 SNMPv2c 的集群的管理 Storage Virtual Machine （ SVM ）添加社区。System Manager 使用 SNMP 协议 SNMPv1 和 SNMPv2c 以及 SNMP 社区来发现存储系统。' 
 ---
 = 添加 SNMP 社区
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

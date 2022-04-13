@@ -5,6 +5,7 @@ keywords: online, help, cluster, update, window, tab, update, command, button, h
 summary: 您可以使用集群更新窗口无中断地自动更新集群，也可以在中断的情况下更新单节点集群。 
 ---
 = 使用 System Manager 的集群更新窗口— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

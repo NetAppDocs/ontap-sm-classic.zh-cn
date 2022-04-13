@@ -5,6 +5,7 @@ keywords: network, address, storage, configuration, information, perform, nfs, c
 summary: 要执行 NFS 客户端配置任务，您需要网络地址和存储配置信息。 
 ---
 = 填写 NFS 客户端配置工作表
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

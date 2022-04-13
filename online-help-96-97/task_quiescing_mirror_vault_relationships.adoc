@@ -5,6 +5,7 @@ keywords: quiescing, mirror, vault, relationship, system, manager, snapshot, onl
 summary: 在创建 Snapshot 副本之前，您可以使用 System Manager 暂停目标卷以使目标保持稳定。暂停操作可以完成镜像和存储关系的活动数据传输，并禁用以后的传输。 
 ---
 = 暂停镜像和存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

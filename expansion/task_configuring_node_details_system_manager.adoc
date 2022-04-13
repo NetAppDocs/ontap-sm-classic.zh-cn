@@ -5,6 +5,7 @@ keywords: system, manager, configure, node, management, lif, service, processor,
 summary: 您可以使用 System Manager 为新添加的节点配置节点管理 LIF 和服务处理器设置。 
 ---
 = 在 System Manager 中配置节点详细信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

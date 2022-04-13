@@ -5,6 +5,7 @@ keywords: delete, protection, policies, online, help, system, manager
 summary: 如果您不想再使用某个保护策略，可以使用 System Manager 删除该策略。 
 ---
 = 正在删除保护策略
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

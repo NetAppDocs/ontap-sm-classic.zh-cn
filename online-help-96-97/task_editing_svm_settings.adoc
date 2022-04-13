@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: online, help, system, manager, edit, svm, settings 
 summary: 您可以使用 System Manager 编辑 Storage Virtual Machine （ SVM ）的属性，例如名称服务开关，名称映射开关和聚合列表。 
 ---
-= 编辑 SVM 设置
+= 使用 System Manager - ONTAP 9.7 及更早版本编辑 SVM 设置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 编辑 Storage Virtual Machine （ SVM ）的属性，例如名称服务开关，名称映射开关和聚合列表。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）编辑 Storage Virtual Machine （ SVM ）的属性，例如名称服务开关，名称映射开关和聚合列表。
 
 .关于此任务
 * 您可以编辑以下 SVM 属性的值：

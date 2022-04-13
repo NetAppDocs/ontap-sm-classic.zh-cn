@@ -5,6 +5,7 @@ keywords: online, help, add, initiator, system, help, group, lun, online, help
 summary: 您可以使用 System Manager 将启动程序添加到启动程序组。当启动程序所属的启动程序组映射到某个 LUN 时，启动程序可提供对该 LUN 的访问权限。 
 ---
 = 添加启动程序
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

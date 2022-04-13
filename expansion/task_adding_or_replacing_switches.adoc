@@ -5,6 +5,7 @@ keywords: expand, cluster, ensure, configuration, switch, exist, port, add, repl
 summary: 在扩展集群之前，您必须确保集群交换机支持扩展的配置。如果集群无交换机，则必须添加交换机。 
 ---
 = 添加或更换交换机
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

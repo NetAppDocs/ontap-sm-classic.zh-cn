@@ -5,6 +5,7 @@ keywords: cluster, install, controller, configure, node-management, run, ontap, 
 summary: 准备好集群后，您必须安装控制器并配置节点管理 LIF 。 
 ---
 = 安装新节点
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

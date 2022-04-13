@@ -5,6 +5,7 @@ keywords: support, multipath, modify, replacement, timeout, value, iscsi, config
 summary: 要支持多路径，必须修改 iSCSI 配置文件中的替换超时值。 
 ---
 = 设置 iSCSI 替换超时值
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

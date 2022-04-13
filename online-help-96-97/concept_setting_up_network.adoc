@@ -5,6 +5,7 @@ keywords: online, help, set, up, network, ipspace, broadcast, domain, subnet, sy
 summary: 设置网络包括创建 IP 空间，广播域和子网。 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本设置网络
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: system, manager, flexcache, volume, information, online, help
 summary: 从 System Manager 9.6 开始，您可以查看有关 FlexCache 卷的信息。您可以通过图形方式查看 FlexCache 卷的已分配空间和性能。 
 ---
 = 查看 FlexCache 卷信息
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

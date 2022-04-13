@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: resize, volume, capacity, snapshot, copy, online, help 
 summary: 当卷容量接近全满时，您可以增加卷的大小，删除某些 Snapshot 副本或调整 Snapshot 预留。您可以使用 System Manager 中的卷大小调整向导提供更多可用空间。 
 ---
-= 调整卷大小
+= 使用 System Manager - ONTAP 9.7 及更早版本调整卷大小
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-当卷容量接近全满时，您可以增加卷的大小，删除某些 Snapshot 副本或调整 Snapshot 预留。您可以使用 System Manager 中的卷大小调整向导提供更多可用空间。
+当卷容量接近全满时，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）来增加卷的大小，删除某些 Snapshot 副本或调整 Snapshot 预留。您可以使用 System Manager 中的卷大小调整向导提供更多可用空间。
 
 .关于此任务
 * 对于配置为自动增长的卷，您可以根据卷大小的增加修改卷可以自动增长到的限制。

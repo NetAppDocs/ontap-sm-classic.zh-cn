@@ -5,6 +5,7 @@ keywords: lag, time, online, help, system, logs
 summary: 滞后时间是指目标系统滞后于源系统的时间量。 
 ---
 = 什么是滞后时间
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

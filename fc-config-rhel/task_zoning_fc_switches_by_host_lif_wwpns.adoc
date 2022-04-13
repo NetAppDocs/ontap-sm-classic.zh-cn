@@ -5,6 +5,7 @@ keywords: zoning, fc, switch, enable, host, connect, storage, limit, number, pat
 summary: 通过对 FC 交换机进行分区，主机可以连接到存储并限制路径数。您可以使用交换机的管理接口对交换机进行分区。 
 ---
 = 按主机和 LIF WWPN 对 FC 交换机进行分区
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: create, svm, system, manager, cluster, online, help
 summary: 您可以使用 System Manager 创建完全配置的 Storage Virtual Machine （ SVM ），以便可以立即提供数据。一个集群可以具有一个或多个 SVM 。 
 ---
 = 使用 System Manager 创建 SVM - ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

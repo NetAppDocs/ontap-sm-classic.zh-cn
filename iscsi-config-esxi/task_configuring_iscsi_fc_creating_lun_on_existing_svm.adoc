@@ -5,6 +5,7 @@ keywords: configure, iscsi, exist, storage, virtual, machine, svm, protocol, ena
 summary: 您可以在现有 Storage Virtual Machine （ SVM ）上配置 iSCSI 。iSCSI 协议必须已在 SVM 上启用，但尚未配置。此信息适用于要为其配置多个协议但尚未配置 iSCSI 的 SVM 。 
 ---
 = 在现有 SVM 上配置 iSCSI
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

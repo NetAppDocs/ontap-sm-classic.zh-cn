@@ -5,6 +5,7 @@ keywords: abort, mirror, vault, relationship, online, help, data, transfer
 summary: 如果要停止数据传输，可以中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。 
 ---
 = 中止镜像和存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

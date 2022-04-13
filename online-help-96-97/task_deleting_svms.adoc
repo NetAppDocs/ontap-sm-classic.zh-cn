@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, delete, svm, online, help, storage, virtual, machine 
 summary: 您可以使用 System Manager 从存储系统配置中删除不再需要的 Storage Virtual Machine （ SVM ）。 
 ---
-= 正在删除 SVM
+= 使用 System Manager 删除 SVM - ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 从存储系统配置中删除不再需要的 Storage Virtual Machine （ SVM ）。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从存储系统配置中删除不再需要的 Storage Virtual Machine （ SVM ）。
 
 您必须已完成以下任务：
 

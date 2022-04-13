@@ -5,6 +5,7 @@ keywords: nfs, client, access, volume, create, export, policy, permit, administr
 summary: 在任何 NFS 客户端能够访问卷之前，您必须为卷创建导出策略，添加允许管理主机访问的规则，并将新导出策略应用于卷。 
 ---
 = 为卷创建导出策略
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

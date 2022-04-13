@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, mirror, relationship, source, lvm, system, manager, online, help 
 summary: 您可以使用 System Manager 从源 Storage Virtual Machine （ SVM ）创建镜像关系，并为此镜像关系分配镜像策略和计划。如果源卷上的数据损坏或丢失，镜像副本可以快速提供数据。 
 ---
-= 从源 SVM 创建镜像关系
+= 使用 System Manager - ONTAP 9.7 及更早版本从源 SVM 创建镜像关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 从源 Storage Virtual Machine （ SVM ）创建镜像关系，并为此镜像关系分配镜像策略和计划。如果源卷上的数据损坏或丢失，镜像副本可以快速提供数据。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从源 Storage Virtual Machine （ SVM ）创建镜像关系，并为镜像关系分配镜像策略和计划。如果源卷上的数据损坏或丢失，镜像副本可以快速提供数据。
 
 .开始之前
 * 必须在源集群和目标集群上启用 SnapMirror 许可证。

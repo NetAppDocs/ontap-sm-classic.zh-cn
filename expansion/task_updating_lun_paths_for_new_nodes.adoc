@@ -5,6 +5,7 @@ keywords: cluster, configure, san, lif, add, update, path, lun, node, update lun
 summary: 如果集群配置了 SAN ，则必须在新添加的节点上创建 SAN LIF ，然后更新路径。 
 ---
 = 更新新节点的 LUN 路径
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

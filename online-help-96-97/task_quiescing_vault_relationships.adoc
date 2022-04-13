@@ -5,6 +5,7 @@ keywords: system, manager, online, help, quiescing, vault, relationship, data, t
 summary: 您可以使用 System Manager 通过暂停存储关系来禁用向目标 FlexVol 卷传输数据。 
 ---
 = 暂停存储关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

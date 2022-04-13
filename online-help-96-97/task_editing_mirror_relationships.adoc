@@ -5,6 +5,7 @@ keywords: system, manager, edit, mirror, relationships, online, help
 summary: 您可以使用 System Manager 通过选择集群中的现有策略或计划或者创建策略或计划来编辑镜像关系。 
 ---
 = 编辑镜像关系
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

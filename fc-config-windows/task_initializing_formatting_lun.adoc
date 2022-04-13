@@ -5,6 +5,7 @@ keywords: lun, access, windows, host, partition, file, system, initialize, lun, 
 summary: 当新 LUN 首次由 Windows 主机访问时，它没有分区或文件系统。您必须初始化 LUN ，并可选择使用文件系统对其进行格式化。 
 ---
 = 初始化并格式化 LUN
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

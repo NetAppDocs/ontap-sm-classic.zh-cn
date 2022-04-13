@@ -5,6 +5,7 @@ keywords: bring, lun, online, management, tab, online, help, system, manager
 summary: 您可以使用 System Manager 中的 LUN 管理选项卡使选定的 LUN 联机并使其可供主机使用。 
 ---
 = 使 LUN 联机
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

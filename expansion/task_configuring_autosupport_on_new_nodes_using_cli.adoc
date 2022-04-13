@@ -5,6 +5,7 @@ keywords: add, node, cluster, configure, autosupport, node, configuring, configu
 summary: 将节点添加到集群后，必须在节点上配置 AutoSupport 。 
 ---
 = 在新节点上配置 AutoSupport
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

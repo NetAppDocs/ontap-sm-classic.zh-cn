@@ -5,6 +5,7 @@ keywords: reliable, operation, verify, entire, fc, configuration, support, verif
 summary: 为了确保操作可靠，您必须验证是否支持整个 FC 配置。 
 ---
 = 验证是否支持 FC 配置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

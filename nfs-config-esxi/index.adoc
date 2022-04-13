@@ -5,6 +5,7 @@ keywords: nfs, access, esxi, host, datastores, ontap, volume, configuration, ove
 summary: 使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本），您可以使用 ONTAP 卷为 ESXi 主机快速设置对数据存储库的 NFS 访问。 
 ---
 = 使用 VSC 为 ESXi 配置 NFS 概述
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

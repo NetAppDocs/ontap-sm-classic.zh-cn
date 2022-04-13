@@ -5,6 +5,7 @@ keywords: storage, virtual, machine, svm, iscsi, target, host, access, lun, logi
 summary: Storage Virtual Machine （ SVM ）提供 iSCSI 目标，主机可通过此目标访问 LUN 。创建 SVM 时，还需要创建逻辑接口（ LIF ），以提供 LUN 的路径。您可以创建 SVM 以将用户的数据和管理功能与集群中其他用户的数据和管理功能分隔开。 
 ---
 = 创建新的 SVM
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

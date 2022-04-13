@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: online, help, storage, tier, window, command, button 
 summary: 您可以使用存储层窗口查看集群范围的空间详细信息以及添加和查看聚合详细信息。 
 ---
-= 存储层窗口
+= System Manager 中的存储层窗口— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用存储层窗口查看集群范围的空间详细信息以及添加和查看聚合详细信息。
+您可以使用 ONTAP System Manager 经典版中的存储层窗口（在 ONTAP 9.7 和 earier 中提供）查看集群范围的空间详细信息以及添加和查看聚合详细信息。
 
 内部层面板或性能层面板（如果集群包含全闪存（全 SSD ）聚合）可显示集群范围的空间详细信息，例如所有聚合的总大小之和，集群中聚合使用的空间， 和集群中的可用空间。
 

@@ -5,6 +5,7 @@ keywords: ldap, client, service, system, manager, add, edit, delete, client, con
 summary: 您可以使用 System Manager 添加，编辑和删除 LDAP 客户端配置。 
 ---
 = LDAP 客户端服务
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

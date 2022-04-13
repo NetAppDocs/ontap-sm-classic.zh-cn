@@ -5,6 +5,7 @@ keywords: cifs, svm, system, manager, online, help, branchcache, set, up, modify
 summary: 您可以使用 System Manager 在启用了 CIFS 的 Storage Virtual Machine （ SVM ）上配置 BranchCache ，以便在发出请求的客户端本地计算机上缓存内容。 
 ---
 = 设置 BranchCache
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

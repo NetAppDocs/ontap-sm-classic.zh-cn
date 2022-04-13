@@ -5,6 +5,7 @@ keywords: storage, host, iscsi, provision, lun, virtual, machine, svm, iscsi con
 summary: 使用 iSCSI 为主机提供存储时，您需要在 Storage Virtual Machine （ SVM ）上配置卷和 LUN ，然后从主机连接到 LUN 。 
 ---
 = iSCSI 配置和配置工作流
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: create, flexclone, volume, system, manager, online, help 
 summary: 如果需要现有 FlexVol 卷的可写时间点副本，可以使用 System Manager 创建 FlexClone 卷。您可能希望创建卷的副本以供测试，或者在不授予其他用户对生产数据访问权限的情况下为其提供对卷的访问权限。 
 ---
-= 创建 FlexClone 卷
+= 使用 System Manager - ONTAP 9.7 及更早版本创建 FlexClone 卷
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果需要现有 FlexVol 卷的可写时间点副本，可以使用 System Manager 创建 FlexClone 卷。您可能希望创建卷的副本以供测试，或者在不授予其他用户对生产数据访问权限的情况下为其提供对卷的访问权限。
+如果需要现有 FlexVol 卷的可写时间点副本，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建 FlexClone 卷。您可能希望创建卷的副本以供测试，或者在不授予其他用户对生产数据访问权限的情况下为其提供对卷的访问权限。
 
 .开始之前
 * 存储系统上必须安装 FlexClone 许可证。

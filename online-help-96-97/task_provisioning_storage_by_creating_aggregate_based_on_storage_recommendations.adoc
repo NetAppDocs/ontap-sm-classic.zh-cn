@@ -1,36 +1,8 @@
 ---
 permalink: online-help-96-97/task_provisioning_storage_by_creating_aggregate_based_on_storage_recommendations.html 
-sidebar: sidebar 
-keywords: provision, storage, create, aggregate, recommendation, system, manager, online, help 
-summary: 您可以使用 System Manager 根据存储建议创建聚合。System Manager 可分析存储系统的配置并提供存储建议，例如要创建的聚合数，可用节点和可用备用磁盘。 
+redirect: ontap-sm-classic/online-help-96-97/task_provisioning_storage_through_aggregates.html 
 ---
-= 使用 System Manager - ONTAP 9.7 及更早版本根据存储建议创建聚合
-:icons: font
-:imagesdir: ../media/
+= 
+:allow-uri-read: 
 
-
-[role="lead"]
-您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）根据存储建议创建聚合。System Manager 可分析存储系统的配置并提供存储建议，例如要创建的聚合数，可用节点和可用备用磁盘。
-
-.关于此任务
-* 您不能根据 Cloud Volumes ONTAP ， ONTAP Select 和 MetroCluster 配置中的存储建议创建聚合。
-* 如果存在任何错误，则会显示在屏幕上。
-+
-您可以修复这些错误，然后根据存储建议创建聚合，也可以手动创建聚合。
-
-
-
-.步骤
-. 使用以下方法之一创建聚合：
-+
-** 单击 * 应用程序和层 * > * 存储层 * > * 添加聚合 * 。
-** 单击 * 存储 * > * 聚合和磁盘 * > * 聚合 * > * 创建 * 。
-
-
-. 查看存储建议，然后单击 * 提交 * 。
-+
-" 信息 " 对话框将显示聚合的状态。
-
-. 单击 * 在后台运行 * 以导航到 * 聚合 * 窗口。
-. 单击 * 刷新 * 以查看已创建的聚合。
 

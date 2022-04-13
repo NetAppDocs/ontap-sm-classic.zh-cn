@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: ontap, report, disk, type, industry, standards, sas, fc, storage, array, online, help 
 summary: ONTAP 会将一种类型与每个磁盘相关联。ONTAP 报告的某些磁盘类型与行业标准不同；您应了解 ONTAP 磁盘类型与行业标准的对应关系，以避免混淆。 
 ---
-= ONTAP 如何报告磁盘类型
+= ONTAP 如何在 System Manager - ONTAP 9.7 及更早版本中报告磁盘类型
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ONTAP 会将一种类型与每个磁盘相关联。ONTAP 报告的某些磁盘类型与行业标准不同；您应了解 ONTAP 磁盘类型与行业标准的对应关系，以避免混淆。
+ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）可将一种类型与每个磁盘相关联。ONTAP 报告的某些磁盘类型与行业标准不同；您应了解 ONTAP 磁盘类型与行业标准的对应关系，以避免混淆。
 
 除非另有说明，否则 ONTAP 文档提及磁盘类型时，它是 ONTAP 使用的类型。_RAID 磁盘类型 _ 表示特定磁盘在 RAID 中所起的作用。RAID 磁盘类型与 ONTAP 磁盘类型无关。
 

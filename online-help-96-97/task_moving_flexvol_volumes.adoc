@@ -4,14 +4,15 @@ sidebar: sidebar
 keywords: move, flexvol, volume, aggregate, system, manager, online, help 
 summary: 您可以使用 System Manager 无中断地将 FlexVol 卷移动到其他聚合或节点，以提高容量利用率并提高性能。 
 ---
-= 移动 FlexVol 卷
+= 使用 System Manager 移动 FlexVol 卷— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 无中断地将 FlexVol 卷移动到其他聚合或节点，以提高容量利用率并提高性能。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）无中断地将 FlexVol 卷移动到其他聚合或其他节点，以提高容量利用率和性能。
 
 如果要移动数据保护卷，则必须先初始化数据保护镜像关系，然后再移动该卷。
 

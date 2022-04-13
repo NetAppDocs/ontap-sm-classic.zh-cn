@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: system, manager, oracle, sql, lun, application, specific, online, help 
 summary: 在 AFF 集群上创建 FC SAN 优化的 LUN 时， System Manager 支持 Oracle ， SQL 和其他应用程序类型。LUN 大小等 LUN 设置由特定于应用程序类型的规则决定。对于 SQL 和 Oracle ，系统会自动创建 LUN 设置。 
 ---
-= 应用程序专用的 LUN 设置
+= 使用 System Manager — ONTAP 9.7 及更早版本进行应用程序专用的 LUN 设置
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-在 AFF 集群上创建 FC SAN 优化的 LUN 时， System Manager 支持 Oracle ， SQL 和其他应用程序类型。LUN 大小等 LUN 设置由特定于应用程序类型的规则决定。对于 SQL 和 Oracle ，系统会自动创建 LUN 设置。
+在 AFF 集群上创建 FC SAN 优化的 LUN 时， ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）支持 Oracle ， SQL 和其他应用程序类型。LUN 大小等 LUN 设置由特定于应用程序类型的规则决定。对于 SQL 和 Oracle ，系统会自动创建 LUN 设置。
 
 如果集群包含两个或更多节点， System Manager 将仅使用 API 选择的前两个节点来创建 LUN 。已在这两个节点中的每个节点上创建数据聚合。创建的每个卷的大小等于聚合的可用容量。这些卷会进行精简配置，并在 LUN 上禁用空间预留。
 

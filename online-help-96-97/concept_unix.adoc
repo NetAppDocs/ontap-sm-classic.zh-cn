@@ -5,6 +5,7 @@ keywords: system, manager, unix, svm, online, help, command, button, group, tab,
 summary: 您可以使用 System Manager 维护每个 Storage Virtual Machine （ SVM ）的本地 UNIX 用户和组列表。 
 ---
 = "unix"
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

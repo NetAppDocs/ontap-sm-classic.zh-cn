@@ -5,6 +5,7 @@ keywords: fc, host, bus, adapter, hba, esx, support, driver, firmware, bio, upda
 summary: 如果 ESX 主机中的 FC 主机总线适配器运行的驱动程序，固件和 BIOS 版本不受支持，则必须对其进行更新。 
 ---
 = 更新 HBA 驱动程序，固件和 BIOS
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

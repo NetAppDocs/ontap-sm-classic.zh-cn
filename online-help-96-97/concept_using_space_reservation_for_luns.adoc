@@ -5,6 +5,7 @@ keywords: understand, space, reservation, lun, volume, guarantee, online, help
 summary: 了解空间预留设置（与卷保证结合使用）如何影响为 LUN 预留空间的方式，有助于您了解禁用空间预留的后果，以及为什么某些 LUN 和卷设置组合不起作用。 
 ---
 = 了解 LUN 的空间预留
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

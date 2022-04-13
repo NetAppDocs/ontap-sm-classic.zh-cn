@@ -5,6 +5,7 @@ keywords: edit, lun, properties, online, help, system, manager
 summary: 您可以使用 System Manager 中的 LUN 属性对话框更改 LUN 的名称，问题描述，大小，空间预留设置或映射的启动程序主机。 
 ---
 = 编辑 LUN
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

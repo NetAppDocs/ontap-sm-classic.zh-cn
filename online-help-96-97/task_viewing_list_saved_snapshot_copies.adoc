@@ -4,13 +4,14 @@ sidebar: sidebar
 keywords: view, list, saved, snapshot, copy, system, manager, online, help 
 summary: 您可以使用 System Manager 从卷窗口下部窗格的 Snapshot 副本选项卡中查看选定卷的所有已保存 Snapshot 副本列表。您可以使用已保存 Snapshot 副本列表重命名，还原或删除 Snapshot 副本。 
 ---
-= 查看已保存 Snapshot 副本的列表
+= 使用 System Manager 查看已保存的 Snapshot 副本列表— ONTAP 9.7 及更早版本
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 从卷窗口下部窗格的 Snapshot 副本选项卡中查看选定卷的所有已保存 Snapshot 副本列表。您可以使用已保存 Snapshot 副本列表重命名，还原或删除 Snapshot 副本。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从卷窗口下部窗格的 Snapshot 副本选项卡查看选定卷的所有已保存 Snapshot 副本的列表。您可以使用已保存 Snapshot 副本列表重命名，还原或删除 Snapshot 副本。
 
 卷必须处于联机状态。
 

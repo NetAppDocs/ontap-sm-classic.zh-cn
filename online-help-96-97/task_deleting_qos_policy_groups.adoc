@@ -5,6 +5,7 @@ keywords: online, help, delete, qos, policy, groups, system, manager
 summary: 您可以使用 System Manager 删除不再需要的存储服务质量（ QoS ）策略组。 
 ---
 = 正在删除 QoS 策略组
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
