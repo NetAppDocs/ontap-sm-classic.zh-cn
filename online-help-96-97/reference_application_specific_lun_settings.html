@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>应用程序专用的 LUN 设置</title>
+  <title>使用 System Manager — ONTAP 9.7 及更早版本进行应用程序专用的 LUN 设置</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="应用程序专用的 LUN 设置" />
+  <meta property="og:title" content="使用 System Manager — ONTAP 9.7 及更早版本进行应用程序专用的 LUN 设置" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/reference_application_specific_lun_settings.html" />
 	<meta property="og:description" content="在 AFF 集群上创建 FC SAN 优化的 LUN 时， System Manager 支持 Oracle ， SQL 和其他应用程序类型。LUN 大小等 LUN 设置由特定于应用程序类型的规则决定。对于 SQL 和 Oracle ，系统会自动创建 LUN 设置。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[应用程序专用的 LUN 设置](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/reference_application_specific_lun_settings.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/reference_application_specific_lun_settings.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[使用 System Manager — ONTAP 9.7 及更早版本进行应用程序专用的 LUN 设置](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/reference_application_specific_lun_settings.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/reference_application_specific_lun_settings.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此页面上</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">应用程序专用的 LUN 设置</h1>
+  <h1 class="n-doc__component-detail-heading">使用 System Manager — ONTAP 9.7 及更早版本进行应用程序专用的 LUN 设置</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2021-10-28 01:54:10 +0000">10/28/2021</time>
+    <time datetime="2022-04-13 23:20:46 +0000">04/13/2022</time>
     
   
 
@@ -5359,7 +5359,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>在 AFF 集群上创建 FC SAN 优化的 LUN 时， System Manager 支持 Oracle ， SQL 和其他应用程序类型。LUN 大小等 LUN 设置由特定于应用程序类型的规则决定。对于 SQL 和 Oracle ，系统会自动创建 LUN 设置。</p>
+<p>在 AFF 集群上创建 FC SAN 优化的 LUN 时， ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）支持 Oracle ， SQL 和其他应用程序类型。LUN 大小等 LUN 设置由特定于应用程序类型的规则决定。对于 SQL 和 Oracle ，系统会自动创建 LUN 设置。</p>
 </div>
 <div class="paragraph">
 <p>如果集群包含两个或更多节点， System Manager 将仅使用 API 选择的前两个节点来创建 LUN 。已在这两个节点中的每个节点上创建数据聚合。创建的每个卷的大小等于聚合的可用容量。这些卷会进行精简配置，并在 LUN 上禁用空间预留。</p>

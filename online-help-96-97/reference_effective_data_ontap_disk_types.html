@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>如何使用有效的 ONTAP 磁盘类型混合 HDD</title>
+  <title>使用有效的 ONTAP 磁盘类型将 HDD 与系统管理器混合使用 - ONTAP 9.7 及更早版本</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="如何使用有效的 ONTAP 磁盘类型混合 HDD" />
+  <meta property="og:title" content="使用有效的 ONTAP 磁盘类型将 HDD 与系统管理器混合使用 - ONTAP 9.7 及更早版本" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/reference_effective_data_ontap_disk_types.html" />
 	<meta property="og:description" content="从 Data ONTAP 8.1 开始，某些 ONTAP 磁盘类型在创建和添加到聚合以及管理备用磁盘时被视为等效类型。ONTAP 会为每种磁盘类型分配一个有效的磁盘类型。您可以混用具有相同有效磁盘类型的 HDD 。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[如何使用有效的 ONTAP 磁盘类型混合 HDD](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/reference_effective_data_ontap_disk_types.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/reference_effective_data_ontap_disk_types.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[使用有效的 ONTAP 磁盘类型将 HDD 与系统管理器混合使用 - ONTAP 9.7 及更早版本](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/reference_effective_data_ontap_disk_types.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/reference_effective_data_ontap_disk_types.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此页面上</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">如何使用有效的 ONTAP 磁盘类型混合 HDD</h1>
+  <h1 class="n-doc__component-detail-heading">使用有效的 ONTAP 磁盘类型将 HDD 与系统管理器混合使用 - ONTAP 9.7 及更早版本</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2021-10-28 01:54:10 +0000">10/28/2021</time>
+    <time datetime="2022-04-13 23:20:46 +0000">04/13/2022</time>
     
   
 
@@ -5357,7 +5357,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>从 Data ONTAP 8.1 开始，某些 ONTAP 磁盘类型在创建和添加到聚合以及管理备用磁盘时被视为等效类型。ONTAP 会为每种磁盘类型分配一个有效的磁盘类型。您可以混用具有相同有效磁盘类型的 HDD 。</p>
+<p>从 Data ONTAP 8.1 开始，某些 ONTAP 磁盘类型在创建和添加到聚合以及管理备用磁盘时被视为等效类型。ONTAP 会为每种磁盘类型分配一个有效的磁盘类型。您可以使用 ONTAP System Manager classic （ 9.7 及更早版本中提供）混合具有相同有效磁盘类型的 HDD 。</p>
 </div>
 <div class="paragraph">
 <p>如果将 <code>raid.disktype.enable</code> 选项设置为 <code>off</code> ，则可以在同一聚合中混用某些类型的 HDD 。如果将 <code>raid.disktype.enable</code> 选项设置为 <code>on</code> ，则有效磁盘类型与 ONTAP 磁盘类型相同。只能使用一种磁盘类型创建聚合。<code>raid.disktype.enable</code> 选项的默认值为 <code>off</code> 。</p>

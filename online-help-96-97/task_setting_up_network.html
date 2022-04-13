@@ -5349,15 +5349,17 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-09 01:51:31 +0000">04/09/2022</time>
+    <time datetime="2022-04-13 23:20:46 +0000">04/13/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）设置网络来管理集群，节点和服务处理器。您还可以使用网络窗口设置 DNS 和 NTP 详细信息。</p>
+<p>您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过设置网络来管理集群，节点和服务处理器。您还可以使用网络窗口设置 DNS 和 NTP 详细信息。</p>
 </div>
 <div class="paragraph">
 <p>您必须已设置集群。</p>
@@ -5375,6 +5377,237 @@
 <p>您可以禁用 IP 地址范围，并为集群管理，节点管理和服务处理器管理网络输入单独的 IP 地址。</p>
 </li>
 </ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="在启用-ip-地址范围后设置网络">在启用 IP 地址范围后设置网络</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>您可以通过启用 IP 地址范围来设置网络。通过 IP 地址范围，您可以输入位于相同网络掩码范围或不同网络掩码范围的 IP 地址。</p>
+</div>
+<div class="olist arabic">
+<div class="title">步骤</div>
+<ol class="arabic">
+<li>
+<p>在 * IP 地址范围 * 字段中输入 IP 地址范围，然后单击 * 应用 * 。</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">选项</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>您的 IP 地址范围位于同一网络掩码中</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>输入 IP 地址范围，然后单击 * 应用 * 。IP 地址会依次应用于集群管理，节点管理和服务处理器管理网络。</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>您的 IP 地址范围位于不同的网络掩码中</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>在单独的行中输入每个 IP 地址范围，然后单击 * 应用 * 。应用于集群管理的第一个 IP 地址以及其他 IP 地址将按顺序应用于节点管理和服务处理器管理网络。</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>输入用于集群管理，节点管理和服务处理器管理的 IP 地址范围后，您不能手动修改这些字段中的 IP 地址值。您必须确保所有 IP 地址均为 IPv4 地址。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>输入网络掩码和网关详细信息。</p>
+</li>
+<li>
+<p>在 * 端口 * 字段中选择用于集群管理的端口。</p>
+</li>
+<li>
+<p>如果节点管理中的 * 端口 * 字段未填充 * e0M* ，请输入端口详细信息。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>默认情况下，端口字段显示 e0M 。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>对于服务处理器管理，如果要覆盖默认值，请确保已输入必需的网关详细信息。</p>
+</li>
+<li>
+<p>如果已启用 * DNS 详细信息 * 字段，请输入 DNS 服务器详细信息。</p>
+</li>
+<li>
+<p>如果已启用 * NTP 详细信息 * 字段，请输入 NTP 服务器详细信息。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>可以选择提供备用 NTP 服务器详细信息。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>单击 * 提交 * 。</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="下一步操作">下一步操作</h3>
+<div class="paragraph">
+<p>在支持页面中输入事件通知以继续进行集群设置。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="在禁用-ip-地址范围时设置网络">在禁用 IP 地址范围时设置网络</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>您可以通过禁用 IP 地址范围并为集群管理，节点管理和服务提供商网络输入各个 IP 地址来设置网络。</p>
+</div>
+<div class="paragraph">
+<p>在网络页面中，如果禁用了 * IP 地址范围 * ，请为集群管理，节点管理和服务处理器网络输入各个 IP 地址。</p>
+</div>
+<div class="olist arabic">
+<div class="title">步骤</div>
+<ol class="arabic">
+<li>
+<p>在 * 集群管理 IP 地址 * 字段中输入集群管理 IP 地址。</p>
+</li>
+<li>
+<p>输入用于集群管理的网络掩码详细信息。</p>
+</li>
+<li>
+<p>输入用于集群管理的网关详细信息。</p>
+</li>
+<li>
+<p>在 * 端口 * 字段中选择用于集群管理的端口。</p>
+</li>
+<li>
+<p>如果要提供网络掩码和网关详细信息来管理节点，请清除 * 保留集群管理 * 的网络掩码和网关配置复选框，然后输入网络掩码和网关详细信息。</p>
+</li>
+<li>
+<p>在 * 节点管理 * 字段中输入节点管理 IP 地址。</p>
+</li>
+<li>
+<p>如果节点管理中的 * 端口 * 字段未填充 * e0M* ，请输入端口详细信息。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>默认情况下，端口字段显示 e0M 。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>输入服务处理器管理网络掩码和网关详细信息。</p>
+</li>
+<li>
+<p>在 * 服务处理器管理 * 字段中输入服务处理器 IP 管理地址。</p>
+</li>
+<li>
+<p>如果已启用 * DNS 详细信息 * 字段，请输入 DNS 服务器详细信息。</p>
+</li>
+<li>
+<p>如果已启用 * NTP 详细信息 * 字段，请输入 NTP 服务器详细信息。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="注">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>可以选择提供备用 NTP 服务器详细信息。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>单击 * 提交 * 。</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="下一步操作-2">下一步操作</h3>
+<div class="paragraph">
+<p>在支持页面中输入事件通知以继续进行集群设置。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>相关信息 *</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Systems/FAS_Systems/What_is_a_Service_Processor_and_how_do_I_use_it%3F">"什么是服务处理器？如何使用？"</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_and_troubleshoot_NTP_on_clustered_Data_ONTAP_8.2_and_later_using_CLI">"如何使用命令行界面在集群模式 Data ONTAP 8.2 及更高版本上配置 NTP 并对其进行故障排除"</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/ontap-9/index.jsp">"ONTAP 9 文档中心"</a></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_network_window.html">网络窗口</a></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_configuration_updates_window.html">配置更新窗口</a></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_date_time_window.html">日期和时间窗口</a></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_service_processors_window.html">服务处理器窗口</a></p>
+</div>
+</div>
+</div>
 </div>
 
     </article>

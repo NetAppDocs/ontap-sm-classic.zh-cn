@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>什么是兼容备用磁盘</title>
+  <title>System Manager 中的兼容备用磁盘— ONTAP 9.7 及更早版本</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="什么是兼容备用磁盘" />
+  <meta property="og:title" content="System Manager 中的兼容备用磁盘— ONTAP 9.7 及更早版本" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_what_compatible_spare_disks_are.html" />
 	<meta property="og:description" content="在 System Manager 中，兼容备用磁盘是指与聚合中其他磁盘的属性匹配的磁盘。如果要通过添加 HDD （容量磁盘）来增加现有聚合的大小或将聚合的 RAID 类型从 RAID4 更改为 RAID-DP ，则聚合必须包含足够的兼容备用磁盘。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[什么是兼容备用磁盘](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_what_compatible_spare_disks_are.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_what_compatible_spare_disks_are.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[System Manager 中的兼容备用磁盘— ONTAP 9.7 及更早版本](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/concept_what_compatible_spare_disks_are.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_what_compatible_spare_disks_are.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此页面上</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">什么是兼容备用磁盘</h1>
+  <h1 class="n-doc__component-detail-heading">System Manager 中的兼容备用磁盘— ONTAP 9.7 及更早版本</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2021-10-28 01:54:10 +0000">10/28/2021</time>
+    <time datetime="2022-04-13 23:20:46 +0000">04/13/2022</time>
     
   
 
@@ -5357,7 +5357,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>在 System Manager 中，兼容备用磁盘是指与聚合中其他磁盘的属性匹配的磁盘。如果要通过添加 HDD （容量磁盘）来增加现有聚合的大小或将聚合的 RAID 类型从 RAID4 更改为 RAID-DP ，则聚合必须包含足够的兼容备用磁盘。</p>
+<p>在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中，兼容备用磁盘是指与聚合中其他磁盘的属性匹配的磁盘。如果要通过添加 HDD （容量磁盘）来增加现有聚合的大小或将聚合的 RAID 类型从 RAID4 更改为 RAID-DP ，则聚合必须包含足够的兼容备用磁盘。</p>
 </div>
 <div class="paragraph">
 <p>必须匹配的磁盘属性包括磁盘类型，磁盘大小（如果没有相同的磁盘大小，可以是更大的磁盘），磁盘 RPM ，校验和，节点所有者，池， 和共享磁盘属性。如果您使用的磁盘大小较高，则必须注意，磁盘大小会缩小，并且所有磁盘的大小会减小到最低磁盘大小。现有共享磁盘与更大的非共享磁盘匹配，非共享磁盘将转换为共享磁盘并作为备用磁盘添加。</p>

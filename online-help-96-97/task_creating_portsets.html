@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>创建端口集</title>
+  <title>使用 System Manager - ONTAP 9.7 及更早版本管理端口集</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="创建端口集" />
+  <meta property="og:title" content="使用 System Manager - ONTAP 9.7 及更早版本管理端口集" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_portsets.html" />
-	<meta property="og:description" content="您可以使用 System Manager 创建端口集，以限制对 LUN 的访问。" />
+	<meta property="og:description" content="您可以使用 ONTAP System Manager classic 创建，删除和编辑端口集。" />
   <meta property="og:image" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="您可以使用 System Manager 创建端口集，以限制对 LUN 的访问。">
-  <meta name="keywords" content=" system, manager, port, set, create, online, help, lun"><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="您可以使用 ONTAP System Manager classic 创建，删除和编辑端口集。">
+  <meta name="keywords" content=" system, manager, port, set, create, online, help, lun, delete, edit, manage"><!-- Icons -->
   <link rel="icon" href="/zh-cn/ontap-sm-classic/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[创建端口集](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_portsets.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_creating_portsets.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[使用 System Manager - ONTAP 9.7 及更早版本管理端口集](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_portsets.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_creating_portsets.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此页面上</div>
@@ -5342,22 +5342,32 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">创建端口集</h1>
+  <h1 class="n-doc__component-detail-heading">使用 System Manager - ONTAP 9.7 及更早版本管理端口集</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2021-10-28 01:54:10 +0000">10/28/2021</time>
+    <time datetime="2022-04-13 23:20:46 +0000">04/13/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>您可以使用 System Manager 创建端口集，以限制对 LUN 的访问。</p>
+<p>您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建，删除和编辑端口集。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="创建端口集">创建端口集</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>您可以使用 ONTAP System Manager classic 创建端口集，以限制对 LUN 的访问。</p>
 </div>
 <div class="olist arabic">
 <div class="title">步骤</div>
@@ -5378,6 +5388,65 @@
 <p>单击 * 创建 * 。</p>
 </li>
 </ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="删除端口集">删除端口集</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>您可以使用 System Manager 删除不再需要的端口集。</p>
+</div>
+<div class="olist arabic">
+<div class="title">步骤</div>
+<ol class="arabic">
+<li>
+<p>单击 * 存储 * &gt; * LUNs * 。</p>
+</li>
+<li>
+<p>在 * 端口集 * 选项卡中，选择一个或多个端口集，然后单击 * 删除 * 。</p>
+</li>
+<li>
+<p>单击 * 删除 * 确认删除。</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="编辑端口集">编辑端口集</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>您可以使用 System Manager 中的端口集选项卡编辑与端口集相关的设置。</p>
+</div>
+<div class="olist arabic">
+<div class="title">步骤</div>
+<ol class="arabic">
+<li>
+<p>单击 * 存储 * &gt; * LUNs * 。</p>
+</li>
+<li>
+<p>在 * 端口集 * 选项卡中，选择要编辑的端口集，然后单击 * 编辑 * 。</p>
+</li>
+<li>
+<p>在 * 编辑端口集 * 对话框中，进行必要的更改。</p>
+</li>
+<li>
+<p>单击 * 保存并关闭 * 。</p>
+<div class="ulist">
+<ul>
+<li>
+<p>相关信息 *</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><a href="task_configuring_iscsi_protocol_on_svms.html">在 SVM 上配置 iSCSI 协议</a></p>
+</div>
+</div>
 </div>
 
     </article>

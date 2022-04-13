@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>从源 SVM 创建存储关系</title>
+  <title>使用 System Manager - ONTAP 9.7 及更早版本从源 SVM 创建存储关系</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="从源 SVM 创建存储关系" />
+  <meta property="og:title" content="使用 System Manager - ONTAP 9.7 及更早版本从源 SVM 创建存储关系" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_vault_relationship_from_source_svm.html" />
 	<meta property="og:description" content="您可以使用 System Manager 从源 Storage Virtual Machine （ SVM ）创建存储关系，并为存储关系分配存储策略以创建备份存储。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[从源 SVM 创建存储关系](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_vault_relationship_from_source_svm.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_creating_vault_relationship_from_source_svm.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[使用 System Manager - ONTAP 9.7 及更早版本从源 SVM 创建存储关系](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_vault_relationship_from_source_svm.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_creating_vault_relationship_from_source_svm.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此页面上</div>
@@ -5342,14 +5342,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">从源 SVM 创建存储关系</h1>
+  <h1 class="n-doc__component-detail-heading">使用 System Manager - ONTAP 9.7 及更早版本从源 SVM 创建存储关系</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2021-10-28 01:54:10 +0000">10/28/2021</time>
+    <time datetime="2022-04-13 23:20:46 +0000">04/13/2022</time>
     
   
 
@@ -5357,7 +5357,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>您可以使用 System Manager 从源 Storage Virtual Machine （ SVM ）创建存储关系，并为存储关系分配存储策略以创建备份存储。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。</p>
+<p>您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从源 Storage Virtual Machine （ SVM ）创建存储关系，并为存储关系分配存储策略以创建备份存储。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。</p>
 </div>
 <div class="ulist">
 <div class="title">开始之前</div>
@@ -5371,17 +5371,15 @@
 <img src="/us-en/ontap-sm-classic/images/note.svg" alt="注">
 </td>
 <td class="content">
-<div class="paragraph">
-<p>+</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>-   For some platforms, it is not mandatory for the source cluster to have the SnapVault license or the SnapMirror license enabled if the destination cluster has the SnapVault license or the SnapMirror license, and the Data Protection Optimization \(DPO\) license enabled.
--   After the DPO license is enabled on the destination cluster, you must refresh the browser of the source cluster to enable the `Protect` option.</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>+</p>
+<div class="ulist">
+<ul>
+<li>
+<p>对于某些平台，如果目标集群具有 SnapVault 许可证或 SnapMirror 许可证，并且启用了数据保护优化 \ （ DPO\ ）许可证，则源集群不必启用 SnapVault 许可证或 SnapMirror 许可证。</p>
+</li>
+<li>
+<p>在目标集群上启用 DPO 许可证后，您必须刷新源集群的浏览器以启用 <code>Protect</code> 选项。</p>
+</li>
+</ul>
 </div>
 </td>
 </tr>

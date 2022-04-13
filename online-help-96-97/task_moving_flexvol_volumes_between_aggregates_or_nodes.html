@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>在聚合或节点之间移动 FlexVol 卷</title>
+  <title>使用 System Manager - ONTAP 9.7 及更早版本在聚合或节点之间移动 FlexVol 卷</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="在聚合或节点之间移动 FlexVol 卷" />
+  <meta property="og:title" content="使用 System Manager - ONTAP 9.7 及更早版本在聚合或节点之间移动 FlexVol 卷" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html" />
 	<meta property="og:description" content="您可以使用 System Manager 无中断地将 FlexVol 卷移动到其他聚合或节点，以提高容量利用率并提高性能。" />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[在聚合或节点之间移动 FlexVol 卷](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[使用 System Manager - ONTAP 9.7 及更早版本在聚合或节点之间移动 FlexVol 卷](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此页面上</div>
@@ -5342,22 +5342,24 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">在聚合或节点之间移动 FlexVol 卷</h1>
+  <h1 class="n-doc__component-detail-heading">使用 System Manager - ONTAP 9.7 及更早版本在聚合或节点之间移动 FlexVol 卷</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2021-10-28 01:54:10 +0000">10/28/2021</time>
+    <time datetime="2022-04-13 23:20:46 +0000">04/13/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>您可以使用 System Manager 无中断地将 FlexVol 卷移动到其他聚合或节点，以提高容量利用率并提高性能。</p>
+<p>您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）无中断地将 FlexVol 卷移动到其他聚合或其他节点，以提高容量利用率和性能。</p>
 </div>
 <div class="paragraph">
 <p>如果要移动数据保护（ DP ）卷，则必须先初始化数据保护镜像关系，然后再移动该卷。</p>
@@ -5420,6 +5422,48 @@
 <p>单击 * 移动 * 。</p>
 </li>
 </ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="手动触发卷移动转换">手动触发卷移动转换</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>对于卷移动操作，您可以使用 System Manager 在卷进入转换延迟阶段时手动触发转换。您可以设置转换的持续时间，以及在该持续时间内操作失败时系统要执行的转换操作。</p>
+</div>
+<div class="olist arabic">
+<div class="title">步骤</div>
+<ol class="arabic">
+<li>
+<p>单击 * 存储 * &gt; * SVMs * 。</p>
+</li>
+<li>
+<p>选择 SVM ，然后单击 * SVM 设置 * 。</p>
+</li>
+<li>
+<p>单击 * 卷 * 选项卡</p>
+</li>
+<li>
+<p>展开已启动卷移动操作的卷。</p>
+</li>
+<li>
+<p>单击 * 显示更多详细信息 * 链接可查看有关卷的更多信息。</p>
+</li>
+<li>
+<p>在 * 概述 * 选项卡中，单击 * 转换 * 。</p>
+</li>
+<li>
+<p>在 * 转换 * 对话框中，单击 * 高级选项 * 。</p>
+</li>
+<li>
+<p>指定转换操作和转换窗口期间。</p>
+</li>
+<li>
+<p>单击 * 确定 * 。</p>
+</li>
+</ol>
+</div>
+</div>
 </div>
 
     </article>
