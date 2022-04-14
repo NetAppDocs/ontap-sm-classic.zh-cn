@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: ldap, configuration, service, system, manager, online, help, storage, virtual, machine, ldap, client, window 
 summary: 您可以使用 System Manager 管理 LDAP 配置。 
 ---
-= LDAP 配置服务
+= 使用 System Manager - ONTAP 9.7 及更早版本管理 LDAP 配置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 管理 LDAP 配置。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理 LDAP 配置。
 
 
 

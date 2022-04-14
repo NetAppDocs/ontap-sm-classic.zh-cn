@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, create, qos, policy, groups, system, manager, quality, service 
 summary: 您可以使用 System Manager 创建存储服务质量（ QoS ）策略组，以限制工作负载的吞吐量并监控工作负载性能。 
 ---
-= 创建 QoS 策略组
+= 使用 System Manager - ONTAP 9.7 及更早版本创建 QoS 策略组
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建存储服务质量（ QoS ）策略组，以限制工作负载的吞吐量并监控工作负载性能。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建存储服务质量（ QoS ）策略组，以限制工作负载的吞吐量并监控工作负载性能。
 
 .步骤
 . 单击 * 存储 * > * SVMs * 。

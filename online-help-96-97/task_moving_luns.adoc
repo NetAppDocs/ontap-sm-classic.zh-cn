@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: move, lun, qtree, storage, virtual, machine, svm, online, help 
 summary: 您可以使用 System Manager 将 LUN 从其所在卷移动到 Storage Virtual Machine （ SVM ）中的另一个卷或 qtree 。您可以将 LUN 移动到包含高性能磁盘的聚合上托管的卷，从而提高访问 LUN 时的性能。 
 ---
-= 正在移动 LUN
+= 使用 System Manager 移动 LUN — ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 将 LUN 从其所在卷移动到 Storage Virtual Machine （ SVM ）中的另一个卷或 qtree 。您可以将 LUN 移动到包含高性能磁盘的聚合上托管的卷，从而提高访问 LUN 时的性能。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将 LUN 从其所在卷移动到 Storage Virtual Machine （ SVM ）中的其他卷或 qtree 。您可以将 LUN 移动到包含高性能磁盘的聚合上托管的卷，从而提高访问 LUN 时的性能。
 
 .关于此任务
 * 不能将 LUN 移动到同一卷中的 qtree 。

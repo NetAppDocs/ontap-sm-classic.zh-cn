@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, delete, qos, policy, groups, system, manager 
 summary: 您可以使用 System Manager 删除不再需要的存储服务质量（ QoS ）策略组。 
 ---
-= 正在删除 QoS 策略组
+= 使用 System Manager - ONTAP 9.7 及更早版本删除 QoS 策略组
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 删除不再需要的存储服务质量（ QoS ）策略组。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）删除不再需要的存储服务质量（ QoS ）策略组。
 
 您必须已取消分配分配分配给策略组的所有存储对象。
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: qos, quality, service, assign, lun, storage, system, manager, lun, online, help, policy, group 
 summary: 您可以使用 System Manager 将 LUN 分配给存储服务质量（ QoS ）策略组，以限制 LUN 的吞吐量。您可以为新 LUN 分配存储 QoS ，也可以为已分配给策略组的 LUN 修改存储 QoS 详细信息。 
 ---
-= 将 LUN 分配给存储 QoS
+= 使用 System Manager - ONTAP 9.7 及更早版本将 LUN 分配给存储服务质量
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 将 LUN 分配给存储服务质量（ QoS ）策略组，以限制 LUN 的吞吐量。您可以为新 LUN 分配存储 QoS ，也可以为已分配给策略组的 LUN 修改存储 QoS 详细信息。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将 LUN 分配给存储服务质量（ QoS ）策略组，以限制 LUN 的吞吐量。您可以为新 LUN 分配存储 QoS ，也可以为已分配给策略组的 LUN 修改存储 QoS 详细信息。
 
 .关于此任务
 * 如果为策略组分配了以下存储对象，则不能为 LUN 分配存储 QoS ：

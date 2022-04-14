@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, lun, management, window, command, button, initiator, portset, group, online, help 
 summary: 您可以使用 LUN 窗口创建和管理 LUN 以及显示有关 LUN 的信息。您还可以添加，编辑或删除启动程序组和启动程序 ID 。 
 ---
-= LUN 窗口
+= ONTAP 9.7 及更早版本中的 LUN 窗口
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 LUN 窗口创建和管理 LUN 以及显示有关 LUN 的信息。您还可以添加，编辑或删除启动程序组和启动程序 ID 。
+您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的 LUN 窗口创建和管理 LUN 以及显示有关 LUN 的信息。您还可以添加，编辑或删除启动程序组和启动程序 ID 。
 
 
 

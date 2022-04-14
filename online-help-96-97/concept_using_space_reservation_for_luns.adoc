@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: understand, space, reservation, lun, volume, guarantee, online, help 
 summary: 了解空间预留设置（与卷保证结合使用）如何影响为 LUN 预留空间的方式，有助于您了解禁用空间预留的后果，以及为什么某些 LUN 和卷设置组合不起作用。 
 ---
-= 了解 LUN 的空间预留
+= 了解 System Manager - ONTAP 9.7 及更早版本中 LUN 的空间预留
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-了解空间预留设置（与卷保证结合使用）如何影响为 LUN 预留空间的方式，有助于您了解禁用空间预留的后果，以及为什么某些 LUN 和卷设置组合不起作用。
+了解 ONTAP System Manager 经典版（适用于 ONTAP 9.7 及更早版本）中的空间预留设置（与卷保证相结合）如何影响为 LUN 预留空间的方式，有助于您了解禁用空间预留的后果。此外，它还有助于您了解 LUN 和卷设置的某些组合为何不有用。
 
 如果 LUN 启用了空间预留（预留了空间的 LUN ），并且其所在卷具有卷保证，则会在创建时从卷中为 LUN 预留可用空间；此预留空间的大小由 LUN 大小决定。卷中的其他存储对象（其他 LUN ，文件， Snapshot 副本等）无法使用此空间。
 

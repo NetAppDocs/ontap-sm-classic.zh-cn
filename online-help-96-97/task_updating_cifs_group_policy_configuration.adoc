@@ -4,14 +4,20 @@ sidebar: sidebar
 keywords: update, cifs, group, policy, configuration, online, help, enable, disable, modify, reload, set, up 
 summary: 通过命令行界面（ CLI ）更改策略配置后，您必须更新组策略。您可以使用 System Manager 中的 CIFS 窗口更新组策略。 
 ---
-= 更新 CIFS 组策略配置
+= 使用 System Manager — ONTAP 9.7 及更早版本管理 CIFS 组策略配置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-通过命令行界面（ CLI ）更改策略配置后，您必须更新组策略。您可以使用 System Manager 中的 CIFS 窗口更新组策略。
+您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的 CIFS 窗口更新和管理组策略。
+
+
+
+== 更新 CIFS 组策略配置
+
+通过命令行界面（ CLI ）更改策略配置后，您必须更新组策略。
 
 .步骤
 . 单击 * 存储 * > * SVMs * 。

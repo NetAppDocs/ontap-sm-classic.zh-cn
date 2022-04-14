@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: clone, lun, create, multiple, copy, system, manager, online, help 
 summary: 通过 LUN 克隆，您可以为 LUN 创建多个可读和可写副本。您可以使用 System Manager 为 LUN 创建一个临时副本以供测试，也可以在不向其他用户提供生产数据访问权限的情况下为其提供一份数据副本。 
 ---
-= 正在克隆 LUN
+= 使用 System Manager 克隆 LUN — ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-通过 LUN 克隆，您可以为 LUN 创建多个可读和可写副本。您可以使用 System Manager 为 LUN 创建一个临时副本以供测试，也可以在不向其他用户提供生产数据访问权限的情况下为其提供一份数据副本。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）创建 LUN 的临时副本以供测试，或者在不向其他用户提供生产数据访问权限的情况下为其提供数据副本。通过 LUN 克隆，您可以为 LUN 创建多个可读和可写副本。
 
 .开始之前
 * 您必须已在存储系统上安装 FlexClone 许可证。

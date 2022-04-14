@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: cif, protocol, system, manager, enable, configure, server, client, file, cluster, online, help, set up, general, properties, edit 
 summary: 您可以使用 System Manager 启用和配置 CIFS 服务器，以允许 CIFS 客户端访问集群上的文件。 
 ---
-= CIFS 协议
+= 使用 System Manager - ONTAP 9.7 及更早版本配置 CIFS 协议
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 启用和配置 CIFS 服务器，以允许 CIFS 客户端访问集群上的文件。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）启用和配置 CIFS 服务器，以允许 CIFS 客户端访问集群上的文件。
 
 
 

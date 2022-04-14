@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: take, lun, offline, online, help, management, system, manager 
 summary: 您可以使用 System Manager 中的 LUN 管理选项卡使选定 LUN 脱机并使其无法用于块协议访问。 
 ---
-= 使 LUN 脱机
+= 使用 System Manager - ONTAP 9.7 及更早版本使 LUN 脱机
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 中的 * LUN 管理 * 选项卡使选定的 LUN 脱机并使其无法用于块协议访问。
+您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的 * LUN 管理 * 选项卡使选定的 LUN 脱机并使其无法用于块协议访问。
 
 访问 LUN 的任何主机应用程序都必须暂停或同步。
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: iscsi, protocol, system, manager, configure, block, data, host, tcp, ip, online, help, initiate, disable, enable, dialog, box, security, authentication, default 
 summary: 您可以使用 System Manager 配置 iSCSI 协议，以便使用基于 TCP/IP 的 SCSI 协议将块数据传输到主机。 
 ---
-= iSCSI 协议
+= 使用 System Manager - ONTAP 9.7 及更早版本配置 iSCSI 协议
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 配置 iSCSI 协议，以便使用基于 TCP/IP 的 SCSI 协议将块数据传输到主机。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）配置 iSCSI 协议，以便使用 SCSI 协议通过 TCP/IP 将块数据传输到主机。
 
 
 

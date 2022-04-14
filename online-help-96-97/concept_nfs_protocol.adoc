@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: nfs, protocol, system, manager, authenticate, client, asses, data, svm, online, help 
 summary: 您可以使用 System Manager 对 NFS 客户端进行身份验证，以访问 SVM 上的数据。 
 ---
-= NFS 协议
+= 使用 System Manager - ONTAP 9.7 及更早版本配置 NFS 协议
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 对 NFS 客户端进行身份验证，以访问 SVM 上的数据。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）对 NFS 客户端进行身份验证，以访问 SVM 上的数据。
 
 
 

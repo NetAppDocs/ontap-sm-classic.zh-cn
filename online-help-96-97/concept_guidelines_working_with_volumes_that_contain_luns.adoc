@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: guidelines, flexvol, volume, lun, change, default, settings, snapshot, copy, simplify, administration 
 summary: 使用包含 LUN 的 FlexVol 卷时，必须更改 Snapshot 副本的默认设置。您还可以优化 LUN 布局以简化管理。 
 ---
-= 使用包含 LUN 的 FlexVol 卷的准则
+= 在 System Manager 中使用包含 LUN 的 FlexVol 卷的准则— ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-使用包含 LUN 的 FlexVol 卷时，必须更改 Snapshot 副本的默认设置。您还可以优化 LUN 布局以简化管理。
+在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中，如果使用包含 LUN 的 FlexVol 卷，则必须更改 Snapshot 副本的默认设置。您还可以优化 LUN 布局以简化管理。
 
 许多可选功能都需要 Snapshot 副本，例如 SnapMirror ， SyncMirror ，转储和还原以及 ndmpcopy 。
 

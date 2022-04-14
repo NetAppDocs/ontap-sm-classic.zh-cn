@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: cifs, window, configuration, tab, domain, symlink, branchcache, online, help 
 summary: 您可以使用 CIFS 窗口配置 CIFS 服务器，管理域控制器，管理符号 UNIX 映射以及配置 BranchCache 。 
 ---
-= CIFS 窗口
+= System Manager 中的 CIFS 窗口— ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 CIFS 窗口配置 CIFS 服务器，管理域控制器，管理符号 UNIX 映射以及配置 BranchCache 。
+您可以使用 System Manager （ ONTAP 9.7 及更早版本）中的 CIFS 窗口配置 CIFS 服务器，管理域控制器，管理符号 UNIX 映射以及配置 BranchCache 。
 
 
 

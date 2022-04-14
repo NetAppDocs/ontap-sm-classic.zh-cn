@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, kerberos, realm, service, system, manager, svm, edit, security, strong, nfs, authentication, microsoft, ntlm, ntlm v2, client 
 summary: 您可以使用 System Manager 创建和管理 Kerberos 域服务。 
 ---
-= Kerberos 域服务
+= 使用 System Manager — ONTAP 9.7 及更早版本管理 Kerberos 域服务
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建和管理 Kerberos 域服务。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理 Kerberos 域服务。
 
 
 

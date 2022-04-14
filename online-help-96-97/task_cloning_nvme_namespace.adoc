@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, clone, nvme, namespace, nqn, online, help 
 summary: 您可以使用 System Manager 通过选择克隆命名空间来快速创建同一配置的另一个命名空间。您可以将新克隆的命名空间映射到另一主机 NQN 。 
 ---
-= 克隆 NVMe 命名空间
+= 使用 System Manager - ONTAP 9.7 及更早版本克隆 NVMe 命名空间
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 通过选择克隆命名空间来快速创建同一配置的另一个命名空间。您可以将新克隆的命名空间映射到另一主机 NQN 。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过选择克隆命名空间来快速创建另一个具有相同配置的命名空间。您可以将新克隆的命名空间映射到另一主机 NQN 。
 
 要克隆命名空间，您必须具有 FlexClone 许可证。
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: nvme, subsystem, fc, rdma, transport, port, vserver, online, help, controller, cluster, table, settings, manage 
 summary: NVMe 子系统包括一个或多个控制器，一个或多个命名空间，一个或多个非易失性内存（ NVM ）子系统端口（ FC-NVMe 或 RDMA 传输端口），一个 NVM 存储介质以及一个控制器和 NVM 存储介质之间的接口。对于控制器映射和管理， NVM 子系统会映射到 ONTAP 中的 SVM 。 
 ---
-= 管理 NVMe 子系统
+= 使用 System Manager - ONTAP 9.7 及更早版本管理 NVMe 子系统
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-可以使用 System Manager 创建 NVMe 子系统。您可以将 NVMe 子系统与 SVM 中的不同主机和命名空间相关联。此外，每个 Vserver 可以支持多个 NVMe 子系统。但是，您不能将 NVMe 子系统配置为在多个 SVM 上使用。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理 NVMe 子系统。您可以将 NVMe 子系统与 SVM 中的不同主机和命名空间相关联。此外，每个 Vserver 可以支持多个 NVMe 子系统。但是，您不能将 NVMe 子系统配置为在多个 SVM 上使用。
 
 
 

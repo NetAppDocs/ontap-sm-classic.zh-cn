@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: edit, qos, policy, group, group, dialog, system, manager, online, help 
 summary: 您可以使用 System Manager 中的编辑策略组对话框修改现有存储服务质量（ QoS ）策略组的名称和最大吞吐量。 
 ---
-= 编辑 QoS 策略组
+= 使用 System Manager - ONTAP 9.7 及更早版本编辑 QoS 策略组
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 中的编辑策略组对话框修改现有存储服务质量（ QoS ）策略组的名称和最大吞吐量。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的编辑策略组对话框修改现有存储服务质量（ QoS ）策略组的名称和最大吞吐量。
 
 .关于此任务
 * 在 System Manager 9.5 中，您只能对基于性能的全闪存优化特性设置最小吞吐量限制。在 System Manager 9.6 中，您还可以为 ONTAP Select 高级系统设置最小吞吐量限制。

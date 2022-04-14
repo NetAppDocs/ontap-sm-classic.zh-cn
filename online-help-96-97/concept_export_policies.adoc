@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, create, edit, manage, export, policy, online, help, volume, rules, svm, qtree, rename 
 summary: 您可以使用 System Manager 创建，编辑和管理导出策略。 
 ---
-= 导出策略
+= 使用 System Manager - ONTAP 9.7 及更早版本管理导出策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建，编辑和管理导出策略。
+您可以使用 ONTAP System Manager classic （在 9.7 及更早版本中提供）创建，编辑和管理导出策略。
 
 
 

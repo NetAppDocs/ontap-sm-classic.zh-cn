@@ -176,7 +176,7 @@ summary: 您可以根据存储建议创建聚合，也可以根据需要手动�
 
 
 
-= 使用 System Manager — ONTAP 9.7 及更早版本手动创建 SnapLock 聚合
+== 使用 System Manager — ONTAP 9.7 及更早版本手动创建 SnapLock 聚合
 
 您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建 SnapLock 合规性聚合或 SnapLock 企业聚合。您可以在这些聚合上创建 SnapLock 卷，从而提供 "`一次写入，多次读取` " （ WORM ）功能。
 
@@ -242,7 +242,7 @@ summary: 您可以根据存储建议创建聚合，也可以根据需要手动�
 
 
 
-= 使用 System Manager — ONTAP 9.7 及更早版本手动创建启用了 FabricPool 的聚合
+== 使用 System Manager — ONTAP 9.7 及更早版本手动创建启用了 FabricPool 的聚合
 
 您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建启用了 FabricPool 的聚合，或者通过将云层附加到 SSD 聚合将现有 SSD 聚合转换为启用了 FabricPool 的聚合。
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: edit, nvme, namespace, online, help, system, manager 
 summary: 您可以使用 System Manager 通过更改命名空间映射到的子系统来编辑命名空间。 
 ---
-= 编辑 NVMe 命名空间
+= 使用 System Manger - ONTAP 9.7 及更早版本编辑 NVMe 命名空间
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 通过更改命名空间映射到的子系统来编辑命名空间。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过更改命名空间映射到的子系统来编辑命名空间。
 
 您只能在此窗口中修改 NVMe 子系统设置，而不能编辑其他命名空间详细信息。
 

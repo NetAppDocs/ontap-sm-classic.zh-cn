@@ -2611,7 +2611,6 @@
   <block id="f292651045c183bc7c4cf9d2df59c36f" category="doc">System Manager 窗口布局</block>
   <block id="da1f9aa178114b8d7b3ae1a118b9633f" category="summary">您可以使用 System Manager 中的 LUN 管理选项卡使选定的 LUN 联机并使其可供主机使用。</block>
   <block id="ef50835fdda9b89e011ae3fd8bd8a366" category="doc">使 LUN 联机</block>
-  <block id="f0f8cd1a811733b198541b3b8c399cfe" category="paragraph">您可以使用 System Manager 中的 * LUN 管理 * 选项卡使选定的 LUN 联机并使其可供主机使用。</block>
   <block id="5ac718bd67533fe75657fd6fb6f196c2" category="paragraph">访问 LUN 的任何主机应用程序都必须暂停或同步。</block>
   <block id="3e546954bbbe83065eb0be3316ec913d" category="list-text">在 * LUN 管理 * 选项卡中，选择要联机的一个或多个 LUN 。</block>
   <block id="7c7d517f76db23a8dad768ae23527e0e" category="list-text">单击 * 状态 * &gt; * 联机 * 。</block>
@@ -2735,7 +2734,6 @@
   <block id="a87ec36a031b34f90e72e5e035d3aca3" category="paragraph">系统会为该用户帐户分配所有选定组的成员资格，该用户拥有与这些组关联的权限。</block>
   <block id="d787d97d1ef711916810f55e106054e4" category="paragraph"><block ref="d787d97d1ef711916810f55e106054e4" category="inline-xref-macro-rx"></block></block>
   <block id="707fa24f91d2418c829d1b43a17e7032" category="summary">您可以使用 System Manager 中的启动程序组选项卡查看所有启动程序组和映射到这些启动程序组的启动程序，以及映射到启动程序组的 LUN 和 LUN ID 。</block>
-  <block id="88bf599180603bbc8a5e0a0b3e91106f" category="doc">查看启动程序组</block>
   <block id="604b93a6316501ffc28f70477ddc708f" category="list-text">单击 * 启动程序组 * 并查看上部窗格中列出的启动程序组。</block>
   <block id="415aa2b1fc11348719f267b093a8dd51" category="list-text">选择一个启动程序组以查看属于该启动程序组的启动程序，这些启动程序列在下部窗格的 * 启动程序 * 选项卡中。</block>
   <block id="e3d7ee69492f9895a48cb902eab75dcf" category="list-text">选择一个启动程序组以查看映射到该启动程序组的 LUN ，这些 LUN 将列在下部窗格的 * 映射 LUN* 中。</block>
@@ -4091,7 +4089,6 @@
   <block id="62f1eca35a9688061f8f804469c85342" category="paragraph">如果尚未分配存储池的分配单元，则向该存储池添加 SSD 不会影响 SSD 缓存大小。</block>
   <block id="593a96f8d3378c543eb184569368e16c" category="paragraph">将 SSD 添加到现有存储池时， SSD 必须归存储池中现有 SSD 所属的同一 HA 对中的一个节点或另一个节点所有。您可以添加 HA 对中任一节点所拥有的 SSD 。</block>
   <block id="995c18b1676c2587760a3058749ac4f2" category="summary">您可以使用 System Manager 在启用了 CIFS 的 Storage Virtual Machine （ SVM ）上配置 BranchCache ，以便在发出请求的客户端本地计算机上缓存内容。</block>
-  <block id="b25b7d42296cfab434be363cb4148e12" category="doc">设置 BranchCache</block>
   <block id="9cbfd8ceff59e9886ddd216983516f58" category="list-text">CIFS 必须获得许可，并且必须配置 CIFS 服务器。</block>
   <block id="5c7668e4ef8685c6ef00f5d8471e476e" category="list-text">对于 BranchCache 版本 1 ，必须启用 SMB 2.1 或更高版本。</block>
   <block id="0ca1cbffe5aba8ce14cf0c4ee8fc4bc9" category="list-text">对于 BranchCache 版本 2 ，必须启用 SMB 3.0 ，并且远程 Windows 客户端必须支持 BranchCache 2 。</block>
@@ -4443,7 +4440,6 @@
   <block id="1290983ba5fc87ec0fc668a784e88af4" category="paragraph">服务处理器列表下方的区域显示有关服务处理器的详细信息，包括网络详细信息，例如 IP 地址，网络掩码（ IPv4 ）或前缀长度（ IPv6 ），网关， IP 源， MAC 地址以及常规详细信息，例如固件版本以及是否启用了固件自动更新。</block>
   <block id="5d15711e0f0051e3f2159baa0ec89265" category="paragraph"><block ref="5d15711e0f0051e3f2159baa0ec89265" category="inline-xref-macro-rx"></block></block>
   <block id="cfa566be6299e9e3d5fade67a78c3e74" category="summary">您可以使用 System Manager 通过更改命名空间映射到的子系统来编辑命名空间。</block>
-  <block id="36f236cfc6cf3ff5de81d1b4bb5ec49b" category="doc">编辑 NVMe 命名空间</block>
   <block id="9ec7401b6f04c416e336acd652043b73" category="paragraph">您只能在此窗口中修改 NVMe 子系统设置，而不能编辑其他命名空间详细信息。</block>
   <block id="f7e3bbd4fe5c0d8ca1b63838f152aa81" category="list-text">在 * NVMe 命名空间窗口 * 中，选择要编辑的命名空间。</block>
   <block id="f675a7bc5b1163c3b4fcd04df9e2b068" category="list-text">选择子系统选项：</block>
@@ -4691,7 +4687,6 @@
   <block id="7bcfe62a89850496a49500438de98c3d" category="summary">您可以使用 System Manager 创建，编辑和删除 qtree 。</block>
   <block id="48b9817af3fdae7035b6862c98196584" category="doc">qtree</block>
   <block id="167f6dae62c5e6a04290b4be80be116e" category="summary">您可以使用 System Manager 删除不再需要的存储服务质量（ QoS ）策略组。</block>
-  <block id="a909468cb7d757fc7661a8410b5f0b1b" category="doc">正在删除 QoS 策略组</block>
   <block id="7d0973962863fbba831179ad8a119586" category="paragraph">您必须已取消分配分配分配给策略组的所有存储对象。</block>
   <block id="cd8b8d46f76eda836496f2292b3eec3b" category="list-text">在 * 策略 * 窗格中，单击 * QoS 策略组 * 。</block>
   <block id="530e5f35c1250f24027e3a75918a7380" category="list-text">在 * QoS 策略组 * 窗口中，选择要删除的策略组，然后单击 * 删除 * 。</block>
@@ -5015,7 +5010,6 @@
   <block id="4a3003dbcd3c67001c1afc3e8b420380" category="paragraph">您可以查看有关云层的详细信息，例如云层列表，对象存储的详细信息，已用聚合以及已用容量。</block>
   <block id="30b35acb34fdac095433d5a9cfb477d7" category="paragraph">如果您使用命令行界面（ CLI ）创建阿里云， Amazon AWS S3 ， AWS Commercial Cloud Service （ C2S ）， Google Cloud ， IBM Cloud ， Microsoft Azure Blob Storage 或 StorageGRID 以外的云层，则此云层将在 System Manager 中显示为其他。然后，您可以将聚合附加到此云层。</block>
   <block id="6b4bdf23b4032fcfb80a5f7c7a2cd50f" category="summary">NVMe 子系统包括一个或多个控制器，一个或多个命名空间，一个或多个非易失性内存（ NVM ）子系统端口（ FC-NVMe 或 RDMA 传输端口），一个 NVM 存储介质以及一个控制器和 NVM 存储介质之间的接口。对于控制器映射和管理， NVM 子系统会映射到 ONTAP 中的 SVM 。</block>
-  <block id="1a69be246157ce60484af00e0a80f3b5" category="paragraph">可以使用 System Manager 创建 NVMe 子系统。您可以将 NVMe 子系统与 SVM 中的不同主机和命名空间相关联。此外，每个 Vserver 可以支持多个 NVMe 子系统。但是，您不能将 NVMe 子系统配置为在多个 SVM 上使用。</block>
   <block id="a20f7d41b2cda612190a0da100d8ea35" category="doc">更改 FlexCache 卷的状态</block>
   <block id="edd157911f3f71d15fad21af777b74ce" category="list-text">选择要修改其状态的 FlexCache 卷。</block>
   <block id="0ebba1c780c0912daef9ef93708f39ed" category="list-text">单击 * 更多操作 * &gt; * 将状态更改为 * ，然后选择所需状态以更新 FlexCache 卷状态。</block>
@@ -5238,7 +5232,6 @@
   <block id="f6744fd5f178d6e9ad466d5f733a7cc8" category="list-text">如果要将目标端口设置为 LIF 的新主端口，请选中 * 永久迁移 * 复选框。</block>
   <block id="3448a1d5e7a8aad36abd21809538176a" category="list-text">单击 * 迁移 * 。</block>
   <block id="24332faf18b65e5a477a432f04f682d2" category="summary">您可以使用 System Manager 中的 LUN 管理选项卡查看有关 LUN 的详细信息，例如其名称，状态，大小和类型。</block>
-  <block id="02743adbc8323740cf7c5fcc6b2bf0e9" category="doc">查看 LUN 信息</block>
   <block id="280690e8861d2893809514f9fb956595" category="list-text">在 * LUN 管理 * 选项卡中，从显示的 LUN 列表中选择要查看相关信息的 LUN 。</block>
   <block id="cf0040d83b2ae87512d142e3c26dddb9" category="list-text">在 * LUN * 窗口中查看 LUN 详细信息。</block>
   <block id="aca897e16cf74f1f56be3cf8cbaf74e3" category="summary">您可以使用 System Manager 创建 NVMe 子系统。</block>
@@ -5314,7 +5307,6 @@
   <block id="6bbaafbdef150c899eef328db1d6fadc" category="summary">如果您更换了存储系统机箱并在同一个光纤通道 SAN 中重复使用它，则在某些情况下，更换的存储系统的节点名称可能会重复。您可以使用 System Manager 更改存储系统的节点名称。</block>
   <block id="969550f744e4b195d9375c6e2077429d" category="list-text">键入新名称，然后单击 * 确定 * 。</block>
   <block id="3241edb94f07e6bbf7cba493631ff2c6" category="summary">您可以使用 System Manager 中的编辑策略组对话框修改现有存储服务质量（ QoS ）策略组的名称和最大吞吐量。</block>
-  <block id="58d5c88fca53e41efef32664ecf5ac03" category="doc">编辑 QoS 策略组</block>
   <block id="20ce37acd2082db423c612d41df0cb50" category="list-text">选择要编辑的 QoS 策略组，然后单击 * 编辑 * 。</block>
   <block id="673e9537e0f6270432536a3d148d4573" category="list-text">如果未指定最小吞吐量限制，则可以设置最大吞吐量限制，以 IOPS 和 B/ 秒， KB/ 秒， MB/ 秒等为单位。</block>
   <block id="5c5c7ddc00ec7405fc1756a5d41d88e6" category="list-text">如果未指定最大吞吐量限制，则此值将设置为无限制，而您指定的单位不会影响最大吞吐量。</block>
@@ -5415,7 +5407,6 @@
   <block id="99c1dfab43c6374e01ac1402449d7fba" category="list-text">* Kerberos 状态 *</block>
   <block id="a88429fa210f6c6030814033d1dd40d5" category="paragraph">指定是否启用 Kerberos 。</block>
   <block id="4ea14be7e4196bdf68b29f9363afc5e7" category="summary">了解空间预留设置（与卷保证结合使用）如何影响为 LUN 预留空间的方式，有助于您了解禁用空间预留的后果，以及为什么某些 LUN 和卷设置组合不起作用。</block>
-  <block id="ffc424527f14a84517b805809d2039ae" category="doc">了解 LUN 的空间预留</block>
   <block id="c4373a862ce82a315a77700bf12c777b" category="paragraph">如果 LUN 启用了空间预留（预留了空间的 LUN ），并且其所在卷具有卷保证，则会在创建时从卷中为 LUN 预留可用空间；此预留空间的大小由 LUN 大小决定。卷中的其他存储对象（其他 LUN ，文件， Snapshot 副本等）无法使用此空间。</block>
   <block id="309c76eeff63d8465df0721ca6cf6a93" category="paragraph">如果 LUN 禁用了空间预留（非空间预留 LUN ），则在创建 LUN 时不会为该 LUN 预留任何空间。只要有足够的可用空间，就会根据需要从卷中为 LUN 分配任何写入操作所需的存储。</block>
   <block id="bd9f3fb4d4ac06acfae10c70ce3223af" category="paragraph">如果在无保证的卷中创建了空间预留 LUN ，则该 LUN 的行为与非空间预留 LUN 相同。这是因为无保证的卷没有可分配给 LUN 的空间；由于无保证，卷本身只能在写入时分配空间。因此，建议不要在无保证的卷中创建预留了空间的 LUN ；采用这种配置组合可能会提供写入保证，而这实际上是不可能的。</block>
@@ -6027,7 +6018,6 @@
   <block id="cf5efac794f9f36bdd31275f086bd19a" category="list-text">键入 VLAN 标记，然后单击 * 添加 * 。</block>
   <block id="4ba0aade486f0ec12b0d3eb598a0dcc8" category="paragraph">您必须添加唯一的 VLAN 标记。</block>
   <block id="9309ceb4743adf18b7713ea7f364dfcc" category="summary">您可以使用 System Manager 中的 LUN 管理选项卡使选定 LUN 脱机并使其无法用于块协议访问。</block>
-  <block id="00cdab290cbd93ae2285d05b34c70656" category="paragraph">您可以使用 System Manager 中的 * LUN 管理 * 选项卡使选定的 LUN 脱机并使其无法用于块协议访问。</block>
   <block id="6c27f3175ff8f7af46954b46d57e54e2" category="list-text">在 * LUN 管理 * 选项卡中，选择一个或多个要脱机的 LUN 。</block>
   <block id="18c1f78e298d9d16297024976c798cb5" category="list-text">单击 * 状态 * &gt; * 脱机 * 。</block>
   <block id="774055ea09ecdc6f74affb497595287c" category="summary">您可以通过 System Manager 中的信息板监控集群的运行状况和性能。您还可以使用信息板确定硬件问题和存储配置问题。</block>
@@ -6176,7 +6166,6 @@
   <block id="0e0d181e187c90f5b4b9fd46d5091d7a" category="list-text">如果不需要默认值，请指定新的目标值。如果路由不存在，则会根据网关和目标自动创建新路由。</block>
   <block id="d3cdfcb24f995bce55fae27f134f9066" category="list-text">在 * 选择网络端口或适配器 * 对话框中，选择一个端口，然后单击 * 确定 * 。</block>
   <block id="096ce1885f7b5101d8786c5d4156e6e8" category="summary">您可以使用 System Manager 查看有关连接到存储系统的域控制器和服务器的信息。</block>
-  <block id="fcfd7b9944187521aea2303b6e59cfc7" category="doc">查看 CIFS 域信息</block>
   <block id="82f4068ee64d46dc0fc070cc1edecced" category="list-text">查看有关已连接的域控制器和服务器的信息。</block>
   <block id="7656978957b246986ef3e37c12f3a553" category="summary">您可以使用 System Manager 删除网络接口以释放该接口的 IP 地址，然后将该 IP 地址用于其他目的。</block>
   <block id="085e73e0e0eb98ee410c72022d3e47eb" category="paragraph">必须禁用网络接口的状态。</block>
@@ -6508,7 +6497,6 @@
   <block id="4bf1bc496e9899293b5294c16b401879" category="summary">您可以使用 System Manager 配置 SNMP 以监控集群中的 SVM 。</block>
   <block id="305af65222ed3fff91f5c8bcdfe17162" category="doc">SNMP</block>
   <block id="d2acc54a765b5dd25cb56d3bd68983d5" category="summary">您可以使用 System Manager 管理 Kerberos 接口服务。</block>
-  <block id="adad030056fcbdb4f2dec4a9ccdda5e0" category="doc">Kerberos 接口服务</block>
   <block id="038069116dbaa028259c7ebde159a32d" category="summary">信息板窗口包含多个面板，可提供有关系统及其性能的累积概览信息。</block>
   <block id="390c1a3f69d68ea2d55078be2be4c36d" category="doc">信息板窗口</block>
   <block id="db372c6bc9d08cd22b46a517e859da12" category="paragraph">您可以使用信息板窗口查看有关以下内容的信息：重要警报和通知，聚合和卷的效率和容量，集群中可用的节点，高可用性（ HA ）对中节点的状态，最活跃的应用程序和对象， 以及集群或节点的性能指标。</block>
@@ -7775,7 +7763,6 @@
   <block id="c93b0e560570b29978227e9d7a52f7f2" category="summary">如果您不希望存储系统使用主目录路径来解析用户的 CIFS 主目录位置，则可以使用 System Manager 删除此路径。</block>
   <block id="a71d27feff6effa0ad197ec2027f3b52" category="list-text">在 * 管理主目录 * 对话框中，选择要删除的主目录路径，然后单击 * 删除 * 。</block>
   <block id="efd6deaa57c127649ff996a6581d77b1" category="summary">通过 NVMe 服务，您可以管理用于命名空间的 NVMe 适配器。您可以使用 System Manager 启动 NVMe 服务以使适配器联机。您可以停止 NVMe 服务以使 NVMe 适配器脱机并禁用对命名空间的访问。</block>
-  <block id="658224e4a48b5dc4eb9f2ade128e6605" category="doc">启动和停止 NVMe 服务</block>
   <block id="385da830895079eabe56c8475a2f4ee7" category="paragraph">在启动 NVMe 服务之前，必须存在支持 NVMe 的适配器。</block>
   <block id="2b1e7498489f41e4ab0f84375197af2b" category="list-text">在 * 协议 * 菜单中，单击 * NVMe* 。</block>
   <block id="ecb15d4512908b57ead42c4707c53349" category="list-text">根据需要单击 * 启动 * 或 * 停止 * 服务。</block>
@@ -8992,7 +8979,6 @@
   <block id="b58f4629c05c62ab785a00da650796ac" category="section-title">启动或停止 FC 或 FCoE 服务</block>
   <block id="f0bb3a1069bc693d784499624c92773a" category="section-title">锁定或解除锁定 SVM 用户帐户</block>
   <block id="67f089ce62f54b39419b9b13e6c8663d" category="section-title">修改 BranchCache 设置</block>
-  <block id="b66b8b21cafa185908f6cd71627ccf41" category="doc">管理 NVMe 子系统</block>
   <block id="ab0d1f1c8eac759e4de3ff1f519e6f70" category="paragraph">指定接口所属的子网。Mx * * 角色 *</block>
   <block id="d262dc861cfb38f39b59d63acb258d4d" category="section-title">关于 MetroCluster 切换和切回</block>
   <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">什么是 NVMe 子系统</block>
@@ -9319,4 +9305,92 @@
   <block id="97da1d3682fa19cce007f55dd00e9257" category="paragraph">创建 FlexGroup 卷时，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）指定要与 FlexGroup 卷关联的选项。</block>
   <block id="afa4b033845a11aaf03224d5f3b87aaa" category="doc">使用 System Manager - ONTAP 9.7 及更早版本重命名 Snapshot 副本</block>
   <block id="5d535a61cd876447a88890d18f058a60" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重命名 Snapshot 副本，以帮助您组织和管理 Snapshot 副本。</block>
+  <block id="07eb514f70a999f334173ccafac0631e" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑 LUN</block>
+  <block id="f33424485e106582e6bef2ce528c0af6" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的 LUN 属性对话框更改 LUN 的名称，问题描述 ，大小，空间预留设置或映射的启动程序主机。</block>
+  <block id="219ed1cd72eacf606cf22dbeb3388572" category="doc">ONTAP 9.7 及更早版本中的 LUN 窗口</block>
+  <block id="5d2d8563802e062243a864a55e77fbea" category="paragraph">您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的 LUN 窗口创建和管理 LUN 以及显示有关 LUN 的信息。您还可以添加，编辑或删除启动程序组和启动程序 ID 。</block>
+  <block id="81fcfd7aad3f004e49c1184865a3dcfc" category="doc">使用 System Manager — ONTAP 9.7 及更早版本管理 CIFS 组策略配置</block>
+  <block id="e2fc3fd15bd8c9cd2b3d3dfd689b7c4b" category="paragraph">您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的 CIFS 窗口更新和管理组策略。</block>
+  <block id="fff9c72eb36099d10ef75b45b3c38a14" category="paragraph">通过命令行界面（ CLI ）更改策略配置后，您必须更新组策略。</block>
+  <block id="f239a20c84202d4b9ea65487c4d0660a" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑启动程序组</block>
+  <block id="ecd381c0c9a48e73098f8004e8c10e3e" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的 * 编辑启动程序组 * 对话框更改现有启动程序组及其操作系统的名称。您可以在启动程序组中添加或删除启动程序。您还可以更改与启动程序组关联的端口集。</block>
+  <block id="d7585e12a7f0f4136389a429e2368762" category="doc">在 System Manager 中使用包含 LUN 的 FlexVol 卷的准则— ONTAP 9.7 及更早版本</block>
+  <block id="2824153741cd9295699331cee1553264" category="paragraph">在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中，如果使用包含 LUN 的 FlexVol 卷，则必须更改 Snapshot 副本的默认设置。您还可以优化 LUN 布局以简化管理。</block>
+  <block id="46ca4b6cc5dac93b4008f7f8137a3f2f" category="doc">使用 System Manager - ONTAP 9.7 及更早版本删除 QoS 策略组</block>
+  <block id="89d43162b83abf7f18e1c6fe6e0118ff" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）删除不再需要的存储服务质量（ QoS ）策略组。</block>
+  <block id="8d9f570ceab703410bf1da67b4eac8de" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理导出策略</block>
+  <block id="f01f89371c1f36dc3a254c24e66496c7" category="paragraph">您可以使用 ONTAP System Manager classic （在 9.7 及更早版本中提供）创建，编辑和管理导出策略。</block>
+  <block id="7d454c0153d457c8b1a040bcf2526a4e" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理 LDAP 配置</block>
+  <block id="1e3b64ae2d873ab61309237ca2a73b01" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理 LDAP 配置。</block>
+  <block id="15c3dcb90397a49e222b75d1658a98b8" category="doc">使用 System Manager — ONTAP 9.7 及更早版本配置 FC/FCoE 协议</block>
+  <block id="a9303098cc635c5ab21f14cb0861efed" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）配置 FC/FCoE 协议。</block>
+  <block id="027f75835e293694bc0099251487a336" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理 NVMe 子系统</block>
+  <block id="f8fe10652ce15fcce918cebd766c4c55" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理 NVMe 子系统。您可以将 NVMe 子系统与 SVM 中的不同主机和命名空间相关联。此外，每个 Vserver 可以支持多个 NVMe 子系统。但是，您不能将 NVMe 子系统配置为在多个 SVM 上使用。</block>
+  <block id="ff53e573b883cf1f37fc074b5e06712e" category="doc">在 System Manager 中使用 LUN 多协议类型的准则— ONTAP 9.7 及更早版本</block>
+  <block id="d67263540483b767022f2e4ccfea699a" category="paragraph">在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中， LUN 多协议类型或操作系统类型指定访问 LUN 的主机的操作系统。它还会确定 LUN 上的数据布局以及 LUN 的最小和最大大小。</block>
+  <block id="07914950c1162a06c6bc39a929bcc4a7" category="doc">使用 System Manager - ONTAP 9.7 及更早版本使 LUN 脱机</block>
+  <block id="42dece1ca458cc614524ba3f73390295" category="paragraph">您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的 * LUN 管理 * 选项卡使选定的 LUN 脱机并使其无法用于块协议访问。</block>
+  <block id="f274a662d6fdb06d444f4af8e95b1b69" category="doc">使用 System Manager - ONTAP 9.7 及更早版本克隆 NVMe 命名空间</block>
+  <block id="41e8b2114aa35da73b416b7a7cf95eb0" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过选择克隆命名空间来快速创建另一个具有相同配置的命名空间。您可以将新克隆的命名空间映射到另一主机 NQN 。</block>
+  <block id="976f00634832cb31e248aad233285917" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理 qtree</block>
+  <block id="77e357ee968621d5cdf41b43c70e8a85" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建，编辑和删除 qtree 。</block>
+  <block id="a2f5476d6b0bf4ed4856133b5480e3f3" category="doc">使用 System Manager 克隆 LUN — ONTAP 9.7 及更早版本</block>
+  <block id="76b573892d8d7ce544b9669b73285856" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）创建 LUN 的临时副本以供测试，或者在不向其他用户提供生产数据访问权限的情况下为其提供数据副本。通过 LUN 克隆，您可以为 LUN 创建多个可读和可写副本。</block>
+  <block id="a0741be6845827b2c37f25cafc9c2f47" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理效率策略</block>
+  <block id="a5c2d8dc1e387afefbdd25cb50c35386" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建，编辑和删除效率策略。</block>
+  <block id="8a0b9efae953ad78e31452692e212986" category="doc">了解 System Manager - ONTAP 9.7 及更早版本中 LUN 的空间预留</block>
+  <block id="48179f823f2ef45ef8b5814a040d2469" category="paragraph">了解 ONTAP System Manager 经典版（适用于 ONTAP 9.7 及更早版本）中的空间预留设置（与卷保证相结合）如何影响为 LUN 预留空间的方式，有助于您了解禁用空间预留的后果。此外，它还有助于您了解 LUN 和卷设置的某些组合为何不有用。</block>
+  <block id="8dc521e6088213a6ca4845b2e447ad1f" category="doc">使用 System Manager 设置 NVMe — ONTAP 9.7 及更早版本</block>
+  <block id="ba359a34f06422eae8bbfc598dc574cc" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）为 SVM 设置 NVMe 协议。在 SVM 上启用 NVMe 协议后，您可以配置一个或多个命名空间并将其分配给主机和子系统。</block>
+  <block id="0d37f304afcc30684a1a820323a47605" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建 NVMe 命名空间</block>
+  <block id="ef67c485b2c6cab864d12bc0c3225891" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建一个或多个 NVMe 命名空间，并将每个命名空间连接到 Storage Virtual Machine （ SVM ）中的一个或一组主机。NVMe 命名空间是指可格式化为逻辑块的内存量。每个命名空间都可以映射到一个 NVMe 子系统。</block>
+  <block id="1a0ba5c2f4e7de22f403caf60a841d89" category="doc">使用 System Manager - ONTAP 9.7 及更早版本查看 LUN 信息</block>
+  <block id="da7cd062e33c4b51fae6fea4a85b5f93" category="paragraph">您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的 * LUN 管理 * 选项卡查看有关 LUN 的详细信息，例如其名称，状态，大小和类型。</block>
+  <block id="5402da9bf169f313391fe2df34c5e9c8" category="doc">System Manager 中的 CIFS 窗口— ONTAP 9.7 及更早版本</block>
+  <block id="eeed665e66794c54433d3a763c6f9a29" category="paragraph">您可以使用 System Manager （ ONTAP 9.7 及更早版本）中的 CIFS 窗口配置 CIFS 服务器，管理域控制器，管理符号 UNIX 映射以及配置 BranchCache 。</block>
+  <block id="a59ee843aef4cd1f9426bb0713912d44" category="doc">使用 System Manager 使 LUN 联机— ONTAP 9.7 及更早版本</block>
+  <block id="5512b8e907041ebb0ac559fb1298cf8e" category="paragraph">您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的 * LUN 管理 * 选项卡使选定的 LUN 联机并使其可供主机使用。</block>
+  <block id="62ff1838c0b0867c91d22b647ce628f1" category="doc">使用 System Manager — ONTAP 9.7 及更早版本管理配额</block>
+  <block id="92b5cfb7c1fce1eb7a3e8af80d9f9e4c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建，编辑和删除配额。</block>
+  <block id="f8206d5822aae59ab25ac11cfd0db3b1" category="doc">使用 System Manager 移动 LUN — ONTAP 9.7 及更早版本</block>
+  <block id="f6eab1b0f1e3aecbf6c1fc2d5b6d1f3d" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将 LUN 从其所在卷移动到 Storage Virtual Machine （ SVM ）中的其他卷或 qtree 。您可以将 LUN 移动到包含高性能磁盘的聚合上托管的卷，从而提高访问 LUN 时的性能。</block>
+  <block id="932602fa5fa764793ab1fa81fc0be6d7" category="doc">使用 System Manger - ONTAP 9.7 及更早版本编辑 NVMe 命名空间</block>
+  <block id="727ece68052790d13859f0d00c5bc97d" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过更改命名空间映射到的子系统来编辑命名空间。</block>
+  <block id="3ab7fd8a82e1834d805386fd9d48097b" category="doc">使用 System Manager 查看启动程序组 - ONTAP 9.7 及更早版本</block>
+  <block id="2e7e039707010ae5e778413a23bbe402" category="paragraph">您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的 * 启动程序组 * 选项卡查看映射到这些启动程序组的所有启动程序组和启动程序，以及映射到启动程序组的 LUN 和 LUN ID 。</block>
+  <block id="a662f5c9c50a29062ff6977d842954f0" category="doc">使用 System Manager - ONTAP 9.7 及更早版本配置 iSCSI 协议</block>
+  <block id="040b3781e4cbff14476ffeeb03c22683" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）配置 iSCSI 协议，以便使用 SCSI 协议通过 TCP/IP 将块数据传输到主机。</block>
+  <block id="6bdc6e23cb590c92f04dbf87942b2526" category="doc">使用 System Manager - ONTAP 9.7 及更早版本配置 LDAP 客户端服务</block>
+  <block id="1cc58ec3ba2b0eaeaf517b9ada71d80a" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）添加，编辑和删除 LDAP 客户端配置。</block>
+  <block id="0503dc7bdab97ba0513cd725666d3394" category="doc">使用 System Manager — ONTAP 9.7 及更早版本管理 Kerberos 域服务</block>
+  <block id="79cde82c3d2d00c127421f9b6f935f07" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理 Kerberos 域服务。</block>
+  <block id="db70d19fe15e3b3befd05bc1952b3160" category="doc">使用 System Manager - ONTAP 9.7 及更早版本配置 NFS 协议</block>
+  <block id="e113f7159fe0e4b9281c320259b8d028" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）对 NFS 客户端进行身份验证，以访问 SVM 上的数据。</block>
+  <block id="5e3648b4259a50ed4fa560f0aafbc510" category="doc">管理主目录路径— ONTAP 9.7 及更早版本</block>
+  <block id="39d120445d993265c3d8aee9b6a527ed" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）指定一个或多个路径，存储系统可使用这些路径来解析用户的 CIFS 主目录位置。</block>
+  <block id="0c70ae169ea69b4c41227b52efd76177" category="doc">使用 System Manager 配置 BranchCache — ONTAP 9.7 及更早版本</block>
+  <block id="79a73a3b3acb98e645503758adb9b5e6" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）在启用了 CIFS 的 Storage Virtual Machine （ SVM ）上配置 BranchCache ，以便在发出请求的客户端本地计算机上缓存内容。</block>
+  <block id="ec549686b158a67cc1b683ae3c5b90b3" category="doc">使用 System Manager - ONTAP 9.7 及更早版本查看 CIFS 域信息</block>
+  <block id="d762ff3b26da985a7dc98a56b4075eff" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）查看有关连接到存储系统的域控制器和服务器的信息。</block>
+  <block id="d40a5432aaa249b7d363145fed83e83b" category="doc">使用 System Manager - ONTAP 9.7 及更早版本将 LUN 分配给存储服务质量</block>
+  <block id="b5d7b5ee9032a887cb370fc8658d3b9c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将 LUN 分配给存储服务质量（ QoS ）策略组，以限制 LUN 的吞吐量。您可以为新 LUN 分配存储 QoS ，也可以为已分配给策略组的 LUN 修改存储 QoS 详细信息。</block>
+  <block id="e5377734635222b4a05b64c98f884203" category="doc">使用 System Manager — ONTAP 9.7 及更早版本管理 DNS/DDNS 服务</block>
+  <block id="e5f80dc702947309680d1afbeea7cd5a" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理 DNS/DDNS 服务。</block>
+  <block id="40ac4c7cdd68bb2416925b40af178901" category="doc">使用 System Manager 启动和停止 NVMe 服务 - ONTAP 9.7 及更早版本</block>
+  <block id="917b92acb38ad7b6209e26de91ce38a9" category="paragraph">您可以使用 ONTAP System Manager classic （在 9.7 及更早版本中提供）启动 NVMe 服务以使适配器联机。通过 NVMe 服务，您可以管理用于命名空间的 NVMe 适配器。您可以停止 NVMe 服务以使 NVMe 适配器脱机并禁用对命名空间的访问。</block>
+  <block id="ef9299f4d9ab701bc7d83decc9611053" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑 QoS 策略组</block>
+  <block id="980ea682ed148899940453682116cf28" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的编辑策略组对话框修改现有存储服务质量（ QoS ）策略组的名称和最大吞吐量。</block>
+  <block id="c6569c9c8109bf4cd2f35a096e9a806e" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建 QoS 策略组</block>
+  <block id="6685e05ba41f861ad9bf8b5d50878022" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建存储服务质量（ QoS ）策略组，以限制工作负载的吞吐量并监控工作负载性能。</block>
+  <block id="78207357f350ce56fd3fa8e2a7391ce2" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理 Kerberos 接口服务</block>
+  <block id="381ccce315fd379442a9e0a646822167" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理 Kerberos 接口服务。</block>
+  <block id="b9bf7d43b339de24350647273adf0828" category="doc">使用 System Manager — ONTAP 9.7 及更早版本管理首选域控制器</block>
+  <block id="1c8df30269c0b7d68fd0908d4455290a" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理首选域控制器</block>
+  <block id="76a6394ebba69d649eac839a06da71d9" category="doc">使用 System Manager - ONTAP 9.7 及更早版本配置 CIFS 协议</block>
+  <block id="8ddabe3ae143d491ee852f8d59f2a3dd" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）启用和配置 CIFS 服务器，以允许 CIFS 客户端访问集群上的文件。</block>
+  <block id="fe491cb74b5104c47c986ff02db47b0a" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理 NIS 服务</block>
+  <block id="20c50a1a28ed1eec133adb942e99ab41" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑启动程序</block>
+  <block id="8dd66dd9096dffc9efad593645a3588e" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的 * 编辑启动程序组 * 对话框更改启动程序组中现有启动程序的名称。</block>
+  <block id="015e58141b759f3d5ce1ad7addbf1b60" category="doc">使用 System Manager 重置 CIFS 域控制器 - ONTAP 9.7 及更早版本</block>
+  <block id="18d7c96bac375b507e178e9ddd34b685" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重置与指定域的域控制器的 CIFS 连接。无法重置域控制器信息可能会导致发生原因 A 连接失败。</block>
 </blocks>

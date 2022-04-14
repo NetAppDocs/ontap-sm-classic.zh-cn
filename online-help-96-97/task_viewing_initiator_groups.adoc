@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: view, initiator, group, lun, system, manager, online, help 
 summary: 您可以使用 System Manager 中的启动程序组选项卡查看所有启动程序组和映射到这些启动程序组的启动程序，以及映射到启动程序组的 LUN 和 LUN ID 。 
 ---
-= 查看启动程序组
+= 使用 System Manager 查看启动程序组 - ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 中的启动程序组选项卡查看所有启动程序组和映射到这些启动程序组的启动程序，以及映射到启动程序组的 LUN 和 LUN ID 。
+您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的 * 启动程序组 * 选项卡查看映射到这些启动程序组的所有启动程序组和启动程序，以及映射到启动程序组的 LUN 和 LUN ID 。
 
 .步骤
 . 单击 * 存储 * > * LUNs * 。
