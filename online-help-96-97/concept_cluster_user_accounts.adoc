@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user, system, manager, add, edit, manage, account, login, online, help, cluster, administration, online, help, modify, lock, delete, unlock, create 
 summary: 您可以使用 System Manager 添加，编辑和管理集群用户帐户，并指定用于访问存储系统的登录用户方法。 
 ---
-= 使用 System Manager - ONTAP 9.7 及更早版本管理集群用户帐户
+= 使用 System Manager - ONTAP 9.7 及更早版本管理用户帐户
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -9061,7 +9061,6 @@
   <block id="f8c7aff1779acf3b9dc85a549c8f4d4f" category="paragraph">您可以使用 ONTAP System Manager classic （ 9.7 及更早版本中提供）删除不再需要的已配置应用程序。</block>
   <block id="ccda83eb5ed4056b1202262cc09443c9" category="doc">使用 System Manager - ONTAP 9.7 及更早版本更新集群</block>
   <block id="ba92625a1cffe75a8f65eb6b092f6da8" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）更新集群或高可用性（ HA ）对中的各个节点。您还可以更新 MetroCluster 配置中的集群。</block>
-  <block id="c7d3918644137f881f62d314dd74b786" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理集群用户帐户</block>
   <block id="ee56e6f13b7ebc3f13f7477735835f4c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）添加，编辑和管理集群用户帐户，并指定用于访问存储系统的登录用户方法。</block>
   <block id="e990537de20ec1517a4049efeae4c1b8" category="doc">System Manager - ONTAP 9.7 及更早版本中的应用程序配置设置</block>
   <block id="25d492d354ae334c48fa3dfc30fcdebc" category="paragraph">在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中为数据库，服务器或虚拟桌面设置基本或增强型模板时，您必须提供详细信息。配置应用程序后，您可以编辑详细信息并指定调整大小（仅增加大小）。本节介绍每个模板中的字段。仅显示配置或编辑特定应用程序设置所需的字段。</block>
@@ -9117,7 +9116,6 @@
   <block id="65cb7b95d3e9511248e4d454f7a1000b" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）配置 AutoSupport 通知，以帮助您监控存储系统运行状况。</block>
   <block id="1f13cccfbc69a5a3b13b2cb14ee1c9e6" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理存储池</block>
   <block id="ebacb42d7af485b4c9760bd64078b3c9" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建存储池，以使多个 Flash Pool 聚合能够共享 SSD 。</block>
-  <block id="98f75cb448f7e82e01fb789642587098" category="doc">使用 System Manager 管理硬件缓存— ONTAP 9.7 及更早版本</block>
   <block id="7b9cdbb20d7b7f588086eab7aa5c2913" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理硬件缓存模块。</block>
   <block id="abb7c046c422db37c0202c07166a8eab" category="doc">使用 System Manager - ONTAP 9.7 及更早版本调整卷大小</block>
   <block id="20169e117853b27b34193a931dadb8dc" category="paragraph">当卷容量接近全满时，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）来增加卷的大小，删除某些 Snapshot 副本或调整 Snapshot 预留。您可以使用 System Manager 中的卷大小调整向导提供更多可用空间。</block>
@@ -9393,4 +9391,7 @@
   <block id="8dd66dd9096dffc9efad593645a3588e" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的 * 编辑启动程序组 * 对话框更改启动程序组中现有启动程序的名称。</block>
   <block id="015e58141b759f3d5ce1ad7addbf1b60" category="doc">使用 System Manager 重置 CIFS 域控制器 - ONTAP 9.7 及更早版本</block>
   <block id="18d7c96bac375b507e178e9ddd34b685" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重置与指定域的域控制器的 CIFS 连接。无法重置域控制器信息可能会导致发生原因 A 连接失败。</block>
+  <block id="fc127a3a51a884e1e04b66f7100eb154" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理硬件缓存</block>
+  <block id="fb51c3b2e9d4cd4cc77e73bd0865c088" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理用户帐户</block>
+  <block id="42a891d2a7e8934b2961de24740a46a6" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）添加，编辑和管理网络信息服务（ NIS ）域。</block>
 </blocks>

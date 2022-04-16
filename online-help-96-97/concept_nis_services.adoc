@@ -11,7 +11,7 @@ summary: 您可以使用 System Manager 添加，编辑和管理网络信息服�
 
 
 [role="lead"]
-您可以使用 System Manager 添加，编辑和管理网络信息服务（ Network Information Service ， NIS ）域。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）添加，编辑和管理网络信息服务（ NIS ）域。
 
 
 
