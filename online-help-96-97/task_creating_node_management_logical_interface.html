@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head class="at-element-marker">
-  <title>创建节点管理逻辑接口</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="创建节点管理逻辑接口" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_node_management_logical_interface.html" />
-	<meta property="og:description" content="您可以使用 System Manager 创建专用节点管理逻辑接口（ LIF ）来管理集群中的特定节点。您可以使用此 LIF 管理节点的系统维护活动。" />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/zh-cn/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="您可以使用 System Manager 创建专用节点管理逻辑接口（ LIF ）来管理集群中的特定节点。您可以使用此 LIF 管理节点的系统维护活动。">
-  <meta name="keywords" content=" system, manager, create, node, management, logical, interface, online, help"><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/zh-cn/ontap-sm-classic/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -53,6 +53,9 @@
   <link rel="stylesheet" href="/zh-cn/ontap-sm-classic/css/tabbed-blocks.css" type="text/css">
   <!-- Canonical url -->
   <link rel='stylesheet' href='/zh-cn/ontap-sm-classic/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
+    pageRedirect("https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_updating_cluster_name.html");
+    function pageRedirect(url) { location.href = url; }
+  </script><script>
     if (document.location.hostname === "docs.netapp.com") {
       var head = document.getElementsByTagName('head')[0];
       var onetrustConsent = document.createElement("script");
@@ -169,7 +172,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[创建节点管理逻辑接口](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_node_management_logical_interface.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_creating_node_management_logical_interface.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_node_management_logical_interface.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_creating_node_management_logical_interface.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/ontap-sm-classic/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此页面上</div>
@@ -5342,135 +5345,23 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">创建节点管理逻辑接口</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:20:46 +0000">04/13/2022</time>
+    <time datetime="2022-04-20 21:53:58 +0000">04/20/2022</time>
     
   
 
 
 </p>
 
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph lead">
-<p>您可以使用 System Manager 创建专用节点管理逻辑接口（ LIF ）来管理集群中的特定节点。您可以使用此 LIF 管理节点的系统维护活动。</p>
-</div>
-<div class="olist arabic">
-<div class="title">步骤</div>
-<ol class="arabic">
-<li>
-<p>单击 * 配置 * &gt; * 集群 * &gt; * 配置更新 * 。</p>
-</li>
-<li>
-<p>在 * 节点 * 选项卡中，选择要为其创建节点管理 LIF 的节点，然后单击 * 创建节点管理 LIF* 。</p>
-</li>
-<li>
-<p>在 * 创建节点管理 LIF* 对话框中，指定节点管理 LIF 的名称。</p>
-</li>
-<li>
-<p>将 IP 地址分配给节点管理 LIF ：</p>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">如果您要 &#8230;&#8203;</th>
-<th class="tableblock halign-left valign-top">那么 &#8230;&#8203;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>使用子网指定 IP 地址</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>选择 * 使用子网 * 。</p>
-</li>
-<li>
-<p>在添加详细信息对话框中，选择应从中分配 IP 地址的子网。</p>
 <div class="paragraph">
-<p>对于集群间 LIF ，仅显示与选定 IP 空间关联的子网。</p>
-</div>
-</li>
-<li>
-<p>如果要为 LIF 分配特定 IP 地址，请选择 * 使用特定 IP 地址 * ，然后键入 IP 地址。</p>
-<div class="paragraph">
-<p>如果您指定的 IP 地址尚未位于子网范围内，则会将此 IP 地址添加到子网中。</p>
-</div>
-</li>
-<li>
-<p>单击 * 确定 * 。</p>
-</li>
-</ol>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>手动指定 IP 地址，而不使用子网</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>选择 * 不使用子网 * 。</p>
-</li>
-<li>
-<p>在添加详细信息对话框中，执行以下步骤：</p>
-<div class="olist lowerroman">
-<ol class="lowerroman" type="i">
-<li>
-<p>指定 IP 地址和网络掩码或前缀。</p>
-</li>
-<li>
-<p>可选：指定网关。</p>
-</li>
-<li>
-<p>如果不想对目标字段使用默认值，请指定新的目标值。</p>
-<div class="paragraph">
-<p>如果不指定值，则目标字段将根据 IP 地址系列填充默认值。</p>
-</div>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>如果路由不存在，则会根据网关和目标自动创建新路由。</p>
-</div>
-</li>
-<li>
-<p>单击 * 确定 * 。</p>
-</li>
-</ol>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>从 * 端口详细信息 * 区域选择所需端口。</p>
-</li>
-<li>
-<p>单击 * 创建 * 。</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="下一步操作">下一步操作</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>如果要删除现有节点管理 LIF ，必须使用命令行界面（ CLI ）。</p>
-</div>
-</div>
+<p>=
+:allow-uri-read:</p>
 </div>
 
     </article>
