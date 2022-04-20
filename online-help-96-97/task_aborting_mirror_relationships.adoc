@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: abort, mirror, transfer, online, help, volume, replication 
 summary: 您可以在数据传输完成之前中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。 
 ---
-= 中止镜像传输
+= 使用 System Manager — ONTAP 9.7 及更早版本中止镜像传输
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以在数据传输完成之前中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。
+在数据传输完成之前，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。
 
 .步骤
 . 单击 * 保护 * > * 卷关系 * 。

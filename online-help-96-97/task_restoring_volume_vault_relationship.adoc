@@ -4,14 +4,12 @@ sidebar: sidebar
 keywords: system, manager, restore, volume, vault, relationship, online, help, snapshot, copy 
 summary: 如果源数据损坏且不再可用，您可以使用 System Manager 将 Snapshot 副本还原到源卷或其他卷。您可以将原始数据替换为目标卷中的 Snapshot 副本。 
 ---
-= 还原存储关系中的卷
+= 使用 System Manager 还原存储关系中的卷— ONTAP 9.7 及更早版本
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 [role="lead"]
-如果源数据损坏且不再可用，您可以使用 System Manager 将 Snapshot 副本还原到源卷或其他卷。您可以将原始数据替换为目标卷中的 Snapshot 副本。
+如果源数据损坏且不再可用，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）将 Snapshot 副本还原到源卷或其他卷。您可以将原始数据替换为目标卷中的 Snapshot 副本。
 
 .开始之前
 * 必须在源存储系统和目标存储系统上或包含源卷和目标卷的节点上启用 SnapMirror 许可证。

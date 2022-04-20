@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: delete, vault, relationship, system, manager, online, help, snapshot, copy 
 summary: 您可以使用 System Manager 结束源卷与目标卷之间的存储关系，并从源释放 Snapshot 副本。 
 ---
-= 正在删除存储关系
+= 使用 System Manager 删除存储关系 - ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 结束源卷与目标卷之间的存储关系，并从源释放 Snapshot 副本。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）结束源卷与目标卷之间的存储关系，并从源卷释放 Snapshot 副本。
 
 释放此关系将永久删除源卷上存储关系使用的基本 Snapshot 副本。要重新创建存储关系，必须使用命令行界面（ CLI ）从源卷运行重新同步操作。
 

@@ -4,16 +4,14 @@ sidebar: sidebar
 keywords: svm, relationship, dr, disaster, recovery, online, storage, virtual, machine, help, create, data, transfer 
 summary: Storage Virtual Machine （ SVM ）灾难恢复（ DR ）可通过恢复 SVM 成分卷中的数据以及恢复 SVM 配置，在 SVM 级别提供灾难恢复功能。 
 ---
-= SVM 关系
+= 与 System Manager 的 SVM 关系— ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Storage Virtual Machine （ SVM ）灾难恢复（ DR ）可通过恢复 SVM 成分卷中的数据以及恢复 SVM 配置，在 SVM 级别提供灾难恢复功能。
-
-您可以使用 System Manager 创建和管理 SVM 之间的镜像关系以及镜像和存储关系。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理 SVM 之间的镜像关系以及镜像和存储关系。Storage Virtual Machine （ SVM ）灾难恢复（ DR ）可通过恢复 SVM 成分卷中的数据以及恢复 SVM 配置，在 SVM 级别提供灾难恢复功能。
 
 
 

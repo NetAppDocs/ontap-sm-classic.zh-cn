@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: name, mapping, system, manager, specify, user, platform, online, help, command, button, rules 
 summary: 您可以使用 System Manager 指定名称映射条目以映射不同平台的用户。 
 ---
-= 名称映射
+= 使用 System Manager 进行名称映射— ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 指定名称映射条目以映射不同平台的用户。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）指定名称映射条目以映射不同平台的用户。
 
 
 

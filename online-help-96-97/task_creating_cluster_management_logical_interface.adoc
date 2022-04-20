@@ -1,66 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_cluster_management_logical_interface.html 
-sidebar: sidebar 
-keywords: system, manager, online, help, create, cluster, management, logical, interface 
-summary: 您可以使用 System Manager 创建集群管理逻辑接口（ LIF ），以便为集群提供一个管理接口。您可以使用此 LIF 管理集群的所有活动。 
+redirect: ontap-sm-classic/online-help-96-97/task_updating_cluster_name.html 
 ---
-= 创建集群管理逻辑接口
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
-
-[role="lead"]
-您可以使用 System Manager 创建集群管理逻辑接口（ LIF ），以便为集群提供一个管理接口。您可以使用此 LIF 管理集群的所有活动。
-
-.步骤
-. 单击 * 配置 * > * 集群 * > * 配置更新 * 。
-. 在 * 集群详细信息 * 窗格中，单击 * 创建集群管理 LIF* 。
-. 在 * 创建集群管理 LIF* 对话框中，指定集群管理 LIF 的名称。
-. 为集群管理 LIF 分配 IP 地址：
-+
-|===
-| 如果您要 ... | 那么 ... 
-
-
- a| 
-使用子网指定 IP 地址
- a| 
-.. 选择 * 使用子网 * 。
-.. 在添加详细信息对话框中，选择应从中分配 IP 地址的子网。
-+
-对于集群间 LIF ，仅显示与选定 IP 空间关联的子网。
-
-.. 如果要为 LIF 分配特定 IP 地址，请选择 * 使用特定 IP 地址 * ，然后键入 IP 地址。
-+
-如果您指定的 IP 地址尚未位于子网范围内，则会将此 IP 地址添加到子网中。
-
-.. 单击 * 确定 * 。
-
-
-
-
- a| 
-手动指定 IP 地址，而不使用子网
- a| 
-.. 选择 * 不使用子网 * 。
-.. 在添加详细信息对话框中，执行以下步骤：
-+
-... 指定 IP 地址和网络掩码或前缀。
-... 可选：指定网关。
-... 如果不想对目标字段使用默认值，请指定新的目标值。
-+
-如果不指定值，则目标字段将根据 IP 地址系列填充默认值。
-
-
-
-+
-如果路由不存在，则会根据网关和目标自动创建新路由。
-
-.. 单击 * 确定 * 。
-
-
-|===
-. 从 * 端口详细信息 * 区域选择所需的端口。
-. 单击 * 创建 * 。
 

@@ -4,14 +4,12 @@ sidebar: sidebar
 keywords: edit, mirror, vault, relationship, system, manager, online, help 
 summary: 您可以使用 System Manager 通过修改选定策略或计划来编辑镜像和存储关系。但是，您不能编辑现有策略或计划的参数。 
 ---
-= 编辑镜像和存储关系
+= 使用 System Manager 编辑镜像和存储关系— ONTAP 9.7 及更早版本
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 通过修改选定策略或计划来编辑镜像和存储关系。但是，您不能编辑现有策略或计划的参数。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过修改选定策略或计划来编辑镜像和存储关系。但是，您不能编辑现有策略或计划的参数。
 
 源集群和目标集群之间的对等关系必须运行正常。
 

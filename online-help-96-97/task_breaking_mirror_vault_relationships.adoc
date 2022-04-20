@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: break, mirror, vault, relationship, system, manger, online, help, client, applications 
 summary: 如果源卷不可用，并且您希望客户端应用程序从目标卷访问数据，则可以使用 System Manager 中断镜像和存储关系。在修复或替换源卷，更新源卷以及重新建立系统的初始配置时，您可以使用目标卷提供数据。 
 ---
-= 中断镜像和存储关系
+= 使用 System Manager 中断镜像和存储关系— ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果源卷不可用，并且您希望客户端应用程序从目标卷访问数据，则可以使用 System Manager 中断镜像和存储关系。在修复或替换源卷，更新源卷以及重新建立系统的初始配置时，您可以使用目标卷提供数据。
+如果源卷不可用，并且您希望客户端应用程序从目标卷访问数据，则可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中断镜像和存储关系。在修复或替换源卷，更新源卷以及重新建立系统的初始配置时，您可以使用目标卷提供数据。
 
 .开始之前
 * 镜像和存储关系必须处于已暂停或闲置状态。

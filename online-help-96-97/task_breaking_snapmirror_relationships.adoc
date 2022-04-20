@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: snapmirror, break, relationship, dp, rw, online, help 
 summary: 如果 SnapMirror 源不可用，并且您希望客户端应用程序能够从镜像目标访问数据，则必须中断 SnapMirror 关系。 
 ---
-= 中断 SnapMirror 关系
+= 使用 System Manager 中断 SnapMirror 关系— ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果 SnapMirror 源不可用，并且您希望客户端应用程序能够从镜像目标访问数据，则必须中断 SnapMirror 关系。断开 SnapMirror 关系后，目标卷类型将从 " 数据保护 " （ DP ）更改为 " 读 / 写 " （ RW ）。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中断 SnapMirror 关系。如果 SnapMirror 源不可用，并且您希望客户端应用程序能够从镜像目标访问数据，则必须中断 SnapMirror 关系。断开 SnapMirror 关系后，目标卷类型将从 " 数据保护 " （ DP ）更改为 " 读 / 写 " （ RW ）。
 
 .开始之前
 * SnapMirror 目标必须处于静默状态或闲置状态。

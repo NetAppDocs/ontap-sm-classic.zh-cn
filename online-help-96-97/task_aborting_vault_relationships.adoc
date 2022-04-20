@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: abort, snapshot, copy, transfer, online, help, system, manager 
 summary: 您可以使用 System Manager 中止或停止当前正在进行的数据传输。 
 ---
-= 中止 Snapshot 副本传输
+= 使用 System Manager — ONTAP 9.7 及更早版本中止 Snapshot 副本传输
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 中止或停止当前正在进行的数据传输。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中止或停止当前正在进行的数据传输。
 
 .步骤
 . 单击 * 保护 * > * 卷关系 * 。

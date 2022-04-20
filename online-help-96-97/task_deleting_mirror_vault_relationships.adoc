@@ -4,14 +4,12 @@ sidebar: sidebar
 keywords: system, manager, mirror, vault, relationship, source, destination, delete, online, help 
 summary: 您可以使用 System Manager 结束源卷与目标卷之间的镜像和存储关系，并从源卷释放 Snapshot 副本。 
 ---
-= 删除镜像和存储关系
+= 使用 System Manager 删除镜像和存储关系 - ONTAP 9.7 及更早版本
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 结束源卷与目标卷之间的镜像和存储关系，并从源卷释放 Snapshot 副本。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）结束源卷与目标卷之间的镜像和存储关系，并从源卷释放 Snapshot 副本。
 
 .关于此任务
 * 删除镜像和存储关系之前，最好先断开此关系。

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: resume, mirror, relationship, normal, data, transfer, online, help 
 summary: 您可以恢复已暂停的镜像关系。恢复此关系后，系统将恢复向镜像目标的正常数据传输，并重新启动所有镜像活动。 
 ---
-= 恢复镜像关系
+= 使用 System Manager 恢复暂停的镜像关系 - ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以恢复已暂停的镜像关系。恢复此关系后，系统将恢复向镜像目标的正常数据传输，并重新启动所有镜像活动。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）恢复暂停的镜像关系。恢复此关系后，系统将恢复向镜像目标的正常数据传输，并重新启动所有镜像活动。
 
 如果您已从命令行界面（ CLI ）暂停已断开的镜像关系，则无法从 System Manager 恢复此关系。您必须使用命令行界面恢复此关系。
 

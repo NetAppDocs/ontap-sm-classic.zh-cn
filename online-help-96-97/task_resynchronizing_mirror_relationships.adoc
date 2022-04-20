@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: resync, mirror, relationship, operation, online, help 
 summary: 您可以重新建立先前已断开的镜像关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。 
 ---
-= 重新同步镜像关系
+= 使用 System Manager 重新同步镜像关系 - ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以重新建立先前已断开的镜像关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重新建立先前已断开的镜像关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。
 
 源集群和目标集群以及源 SVM 和目标 SVM 必须处于对等关系。
 

@@ -4,14 +4,12 @@ sidebar: sidebar
 keywords: system, manager, online, help, quiescing, vault, relationship, data, transfer, flexvol 
 summary: 您可以使用 System Manager 通过暂停存储关系来禁用向目标 FlexVol 卷传输数据。 
 ---
-= 暂停存储关系
+= 暂停与 System Manager - ONTAP 9.7 及更早版本的存储关系
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 通过暂停存储关系来禁用向目标 FlexVol 卷传输数据。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过暂停存储关系来禁用向目标 FlexVol 卷传输数据。
 
 .步骤
 . 单击 * 保护 * > * 卷关系 * 。

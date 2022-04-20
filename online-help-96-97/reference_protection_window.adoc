@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: command, buttons, protection, window, relationship, vault, mirror, online, help, ls 
 summary: '您可以使用 " 保护 " 窗口创建和管理镜像关系，存储关系以及镜像和存储关系，并显示有关这些关系的详细信息。保护窗口不会显示负载共享（ LS ）关系和过渡数据保护（ TDP ）关系。' 
 ---
-= 保护窗口
+= 使用 System Manager — ONTAP 9.7 及更早版本的保护窗口
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 " 保护 " 窗口创建和管理镜像关系，存储关系以及镜像和存储关系，并显示有关这些关系的详细信息。保护窗口不会显示负载共享（ LS ）关系和过渡数据保护（ TDP ）关系。
+您可以将保护窗口与 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）结合使用，以创建和管理镜像关系，存储关系以及镜像和存储关系，并显示有关这些关系的详细信息。保护窗口不会显示负载共享（ LS ）关系和过渡数据保护（ TDP ）关系。
 
 
 

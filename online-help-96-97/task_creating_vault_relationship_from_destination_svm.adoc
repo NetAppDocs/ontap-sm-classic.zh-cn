@@ -4,14 +4,12 @@ sidebar: sidebar
 keywords: system, manager, create, vault, relationship, destination, svm, online, help 
 summary: 您可以使用 System Manager 从目标 Storage Virtual Machine （ SVM ）创建存储关系，并分配用于创建备份存储的存储策略。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。 
 ---
-= 从目标 SVM 创建存储关系
+= 使用 System Manager - ONTAP 9.7 及更早版本从目标 SVM 创建存储关系
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 从目标 Storage Virtual Machine （ SVM ）创建存储关系，并分配用于创建备份存储的存储策略。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从目标 Storage Virtual Machine （ SVM ）创建存储关系，并分配存储策略以创建备份存储。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。
 
 .开始之前
 * 源集群必须运行 ONTAP 8.2.2 或更高版本。

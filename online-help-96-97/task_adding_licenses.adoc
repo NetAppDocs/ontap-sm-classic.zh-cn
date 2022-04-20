@@ -4,14 +4,16 @@ sidebar: sidebar
 keywords: system, manager, add, license, storage, software, online, help 
 summary: 如果您的存储系统软件是在出厂时安装的，则 System Manager 会自动将该软件添加到其许可证列表中。如果出厂时未安装该软件，或者您要添加其他软件许可证，则可以使用 System Manager 添加软件许可证。 
 ---
-= 添加许可证
+= 使用 System Manager - ONTAP 9.7 及更早版本添加许可证
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果您的存储系统软件是在出厂时安装的，则 System Manager 会自动将该软件添加到其许可证列表中。如果出厂时未安装该软件，或者您要添加其他软件许可证，则可以使用 System Manager 添加软件许可证。
+如果出厂时未安装 ONTAP System Manager 经典版软件（在 ONTAP 9.7 及更早版本中提供），或者您希望添加其他软件许可证，则可以使用 System Manager 经典版来添加软件许可证。
+
+如果您的存储系统软件是在出厂时安装的，则 System Manager 会自动将该软件添加到其许可证列表中。
 
 必须提供特定 ONTAP 服务的软件许可证代码。
 

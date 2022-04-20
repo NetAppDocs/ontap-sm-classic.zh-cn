@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, set, up, time, zone, cluster, modify, server, ntp 
 summary: 您可以使用 System Manager 中的编辑日期和时间对话框手动设置或修改集群的时区。您还可以向集群添加时间服务器。 
 ---
-= 设置集群的时区
+= 使用 System Manager - ONTAP 9.7 及更早版本设置集群的时区
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 中的编辑日期和时间对话框手动设置或修改集群的时区。您还可以向集群添加时间服务器。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的编辑日期和时间对话框手动设置或修改集群的时区。您还可以向集群添加时间服务器。
 
 集群上始终启用网络时间协议（ NTP ）。您可以联系技术支持来禁用 NTP 。但是，不建议禁用 NTP 。
 

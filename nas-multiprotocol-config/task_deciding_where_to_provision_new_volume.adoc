@@ -26,10 +26,10 @@ link:task_creating_new_svm.md#["创建基本 SVM"]
 
 * 如果要在已启用 CIFS 和 NFS 但尚未对其进行配置的现有 SVM 上配置卷，请在现有 SVM 上添加 CIFS 和 NFS 访问。
 +
-link:concept_adding_nas_access_to_existing_svm.md#["在现有 SVM 上添加 CIFS 和 NFS 访问"]
+link:concept_adding_nas_access_to_existing_svm.html["在现有 SVM 上添加 CIFS 和 NFS 访问"]
 
 * 如果要在已完全配置为可进行 CIFS 和 NFS 多协议访问的现有 SVM 上配置卷，则可以直接创建和配置卷。
 +
-link:task_creating_configuring_volume.md#["创建和配置卷"]
+link:task_creating_configuring_volume.html["创建和配置卷"]
 
 

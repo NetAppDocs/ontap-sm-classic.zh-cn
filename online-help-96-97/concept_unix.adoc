@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, unix, svm, online, help, command, button, group, tab, storage, virtual, machine 
 summary: 您可以使用 System Manager 维护每个 Storage Virtual Machine （ SVM ）的本地 UNIX 用户和组列表。 
 ---
-= "unix"
+= 使用 System Manager — ONTAP 9.7 及更早版本的本地 UNIX 用户和组
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 维护每个 Storage Virtual Machine （ SVM ）的本地 UNIX 用户和组列表。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）为每个 Storage Virtual Machine （ SVM ）维护一个本地 UNIX 用户和组列表。
 
 
 

@@ -1160,10 +1160,8 @@
   <block id="982fca9c7818ccb19d65f539ee14cf72" category="paragraph">如果现有 SVM 上尚未启用 CIFS 和 NFS ，则必须选择此选项。</block>
   <block id="a15677c03b18981256e9de73817c9522" category="list-text">如果要在已启用 CIFS 和 NFS 但尚未对其进行配置的现有 SVM 上配置卷，请在现有 SVM 上添加 CIFS 和 NFS 访问。</block>
   <block id="6b7c7970bdcb41db6688672f56b80678" category="inline-link-macro">在现有 SVM 上添加 CIFS 和 NFS 访问</block>
-  <block id="871bdd2745272ce820d059036f01ecc9" category="paragraph"><block ref="871bdd2745272ce820d059036f01ecc9" category="inline-link-macro-rx"></block></block>
   <block id="98b3b77c540ef88bfdae983c9ec431a5" category="list-text">如果要在已完全配置为可进行 CIFS 和 NFS 多协议访问的现有 SVM 上配置卷，则可以直接创建和配置卷。</block>
   <block id="4738c89fba99cbd003e7a9ba8bca4895" category="inline-link-macro">创建和配置卷</block>
-  <block id="42d5b9eba7a6508e91e316b417dfd94e" category="paragraph"><block ref="42d5b9eba7a6508e91e316b417dfd94e" category="inline-link-macro-rx"></block></block>
   <block id="67afeea773bae0456047fb544b7c465f" category="summary">开始扩展集群之前，您必须验证计划的配置，收集所需的网络信息，并根据需要添加或更换交换机。</block>
   <block id="20c8c1f94a4276c9e961cb14f57dc523" category="doc">验证集群是否已做好扩展准备</block>
   <block id="ca4d696c3c3d4566b032bf5cba740486" category="summary">两个节点加入集群后，您必须通过配置 AutoSupport 并完成 SP 网络来完成新添加节点的配置。</block>
@@ -3157,7 +3155,6 @@
   <block id="4d443a7d53fb1e8ee63439724cd8b260" category="list-text">* 已用 % *</block>
   <block id="090b791e65cf988e8357fe1280107241" category="list-text">* 卷 *</block>
   <block id="c8aefd69cf3fd3ee4f045175ae7aff94" category="summary">您可以使用 System Manager 通过修改选定策略或计划来编辑镜像和存储关系。但是，您不能编辑现有策略或计划的参数。</block>
-  <block id="892f7f19144422ba8b2ab9a8a70baa33" category="doc">编辑镜像和存储关系</block>
   <block id="a3672634259ae0b565520dc23a8b3111" category="paragraph">您可以通过修改策略类型来修改版本灵活的镜像关系，存储关系或镜像和存储关系的关系类型。</block>
   <block id="1e6d016df1b9eaf71db6291df19fd610" category="list-text">选择要修改的镜像和存储关系，然后单击 * 编辑 * 。</block>
   <block id="d254a68c48559342ea0c1a4fcc0a6be6" category="paragraph">单击 * 浏览 * ，然后选择现有计划。</block>
@@ -3823,7 +3820,6 @@
   <block id="c16aa9249afc503b1d9abe09cc35cd71" category="list-text">* 无 * ：对等关系未加密。</block>
   <block id="9750464be12c1a01681042cd15915063" category="list-text">* TLS PSK* ：对等关系已加密。</block>
   <block id="a919b2052fc9a66fd57aa5c1173eef87" category="summary">您可以根据需要使用 System Manager 修改节点的名称。</block>
-  <block id="69fa390d09c57cdac463283ea781e39b" category="doc">编辑节点名称</block>
   <block id="55d39636d1d05d13802eb2fb2db89a4c" category="list-text">在 * 节点 * 选项卡中，选择要重命名的节点，然后单击 * 编辑节点名称 * 。</block>
   <block id="2dfe3592e31a21358544f237cb1ef204" category="list-text">在 * 编辑节点名称 * 对话框中，键入节点的新名称，然后单击 * 提交 * 。</block>
   <block id="49dc14bd6bb3abfc6863be30c6ab13dc" category="summary">您可以使用 System Manager 修改为特定域配置的首选域控制器的 IP 地址。</block>
@@ -4147,7 +4143,6 @@
   <block id="9c9a0c9ae151b8faccd99cacb2c5cfd7" category="paragraph"><block ref="9c9a0c9ae151b8faccd99cacb2c5cfd7" category="inline-link-rx"></block></block>
   <block id="831d5630e653da6abaa112ccec4c1297" category="summary">Storage Virtual Machine （ SVM ）灾难恢复（ DR ）可通过恢复 SVM 成分卷中的数据以及恢复 SVM 配置，在 SVM 级别提供灾难恢复功能。</block>
   <block id="8e3c3ed2b2343d5ec6f650bb4929ecaa" category="doc">SVM 关系</block>
-  <block id="81b1005335563dfa4d868949da148162" category="paragraph">您可以使用 System Manager 创建和管理 SVM 之间的镜像关系以及镜像和存储关系。</block>
   <block id="8e34b98fb807bcec3ed66f97d3a91f5f" category="summary">您可以使用效率策略窗口创建，显示和管理有关效率策略的信息。</block>
   <block id="f701c7ead9417fe1e606f37b596ad3b3" category="doc">效率策略窗口</block>
   <block id="b43c8eb1c33715c77d2644f12fe561c3" category="paragraph">打开添加效率策略对话框，在此可以在指定的持续时间（基于计划）或卷数据更改达到指定阈值（基于阈值）时对卷运行重复数据删除操作。</block>
@@ -4407,7 +4402,6 @@
   <block id="524a91ab8883b38a2a1617323e2d15c4" category="list-text">在 * iSCSI* 窗口的 * 服务 * 选项卡中，单击 * 编辑 * 。</block>
   <block id="cb3b486ada0c2d1f1fdeec5074e2efdb" category="list-text">在 * 编辑 iSCSI 服务配置 * 对话框的 * 目标别名 * 字段中输入 iSCSI 别名，然后单击 * 确定 * 。</block>
   <block id="7a719753b5cc693e70eaafdf4df13427" category="summary">如果您已暂停镜像和存储关系，则可以使用 System Manager 恢复此关系。恢复此关系后，系统将恢复向目标卷进行的正常数据传输，并重新启动所有保护活动。</block>
-  <block id="7888353c7236831cd355df22d4f32ddc" category="doc">恢复镜像和存储关系</block>
   <block id="1ca316d456bfc783136ef2cbef4e0b6c" category="paragraph">如果已从命令行界面（ CLI ）暂停已断开的镜像和存储关系，则无法从 System Manager 恢复此关系。您必须使用命令行界面恢复此关系。</block>
   <block id="cdbe1ccd7399a1701afc2c94069ee6d8" category="list-text">选择要恢复的镜像和存储关系，然后单击 * 操作 * &gt; * 恢复 * 。</block>
   <block id="06895a249469b7de4c423243bf6e23fc" category="list-text">选中确认复选框，然后单击 * 恢复 * 。</block>
@@ -4418,7 +4412,6 @@
   <block id="c10a7f4927ffc0a67a152b6bd7a850a1" category="list-text">选择要确认的警报，然后单击 * 确认 * 。</block>
   <block id="5c885a7f69d642e609b2c5918b9feb4b" category="list-text">键入您的姓名，然后单击 * 确认 * 。</block>
   <block id="0218bfc8c15044ba0898def79386160d" category="summary">您可以使用 System Manager 重新建立先前已断开的镜像和存储关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。</block>
-  <block id="3fc1b317f5c52a61b2ce404f0930f389" category="doc">重新同步镜像和存储关系</block>
   <block id="858a9fdccf693c25652e60fe165a03c2" category="paragraph">源和目标集群以及源和目标 Storage Virtual Machine （ SVM ）必须处于对等关系。</block>
   <block id="67b4ed20481864137b35102fa97434d4" category="paragraph">在执行重新同步操作之前，应注意以下事项：</block>
   <block id="c000c692ee9195361c8adde986ec77f8" category="list-text">执行重新同步操作时，目标卷上的内容将被源卷上的内容覆盖。</block>
@@ -4574,7 +4567,6 @@
   <block id="5652939fb504000d7345b9925e453202" category="list-text">在 * 编辑 NFS 设置 * 对话框中，进行所需的更改。</block>
   <block id="f36d18dddd479e5588589bf74c5a026e" category="inline-xref-macro">NFS 窗口</block>
   <block id="e32032d2625b9284ad549f09b76e2c69" category="summary">您可以使用 System Manager 重置集群的密码。</block>
-  <block id="21d8ed0c68269db4607db532dc48b719" category="doc">更改集群密码</block>
   <block id="c8e1776bcb8e14a20836e0b5ce91b012" category="list-text">在 * 集群详细信息 * 窗格中，单击 * 更改密码 * 。</block>
   <block id="86a3ce2e49a66addd99e3ee6c6a90b1f" category="list-text">在 * 更改密码 * 对话框中，指定新密码，确认新密码，然后单击 * 更改 * 。</block>
   <block id="1d0d544f1b31a0e6bfadcc298162e9d6" category="summary">您可以使用 System Manager 创建，编辑和删除效率策略。</block>
@@ -4827,7 +4819,6 @@
   <block id="0e85ca1e4d57aca2bfeec85967a5fa5d" category="list-text">语言属性设置为与源卷的语言属性匹配。</block>
   <block id="79cb3b7c5f95f37b5ec81add1aa77ad1" category="paragraph">如果目标 FlexVol 卷与源 FlexVol 卷位于不同的 SVM 上，则在这两个 SVM 之间创建对等关系（如果此关系尚不存在）。</block>
   <block id="0760716a254661585d034a675f162e3c" category="summary">如果源卷不可用，并且您希望客户端应用程序从目标卷访问数据，则可以使用 System Manager 中断镜像和存储关系。在修复或替换源卷，更新源卷以及重新建立系统的初始配置时，您可以使用目标卷提供数据。</block>
-  <block id="46028a2c1b4bef1391f5a1c1ff1fb4ec" category="doc">中断镜像和存储关系</block>
   <block id="688950239c93be2f7637b1baa95b42d6" category="list-text">镜像和存储关系必须处于已暂停或闲置状态。</block>
   <block id="6667b21a600772c7ea0e910cc1960334" category="list-text">目标卷必须挂载到目标 Storage Virtual Machine （ SVM ）命名空间上。</block>
   <block id="5baafab505d4d55220ba92160de4bc45" category="paragraph">您可以中断 ONTAP 系统和 SolidFire 存储系统之间的镜像关系。</block>
@@ -4960,7 +4951,6 @@
   <block id="47abe13b2a60b5f0e9065d0977f52a7a" category="list-text">* 主组名称 *</block>
   <block id="0d06fe1a1d959e7ea187917e90351a64" category="paragraph">显示用户所属组的名称。</block>
   <block id="94f3878cec50cf8a0b62544782eb89e8" category="summary">如果源数据损坏且不再可用，您可以使用 System Manager 将 Snapshot 副本还原到源卷或其他卷。您可以将原始数据替换为目标卷中的 Snapshot 副本。</block>
-  <block id="766163c41cbf7db64655222598e82908" category="doc">还原镜像和存储关系中的卷</block>
   <block id="2968058455bc581de51103de28bc77e3" category="list-text">必须在源集群和目标集群或包含源卷和目标卷的节点上启用 SnapMirror 许可证和 SnapVault 许可证。</block>
   <block id="214f1a9a6c2a9f20704d0eff07db7e6e" category="list-text">为还原操作选择的源聚合或任何其他聚合必须是 64 位聚合。</block>
   <block id="fca1c3dc65515cc415cf2281d754d36f" category="list-text">如果要从运行 ONTAP 9.2 或更早版本的集群连接到启用了 SAML 身份验证的远程集群，则还必须在此远程集群上启用基于密码的身份验证。</block>
@@ -5999,7 +5989,6 @@
   <block id="dc9d37a202e296240d704411fe802886" category="paragraph">默认情况下，现有聚合用于调整 FlexGroup 卷的大小。卷允许的最小大小显示在大小字段旁边。</block>
   <block id="624ba68c42fd00942764f808571c9670" category="paragraph">如果要通过添加新资源来扩展 FlexGroup 卷，请单击 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> （高级选项）。请参见 <block ref="b061540f3903424de0fd13460a711a9e" category="inline-link-macro-rx"></block>。</block>
   <block id="8c6693cc07f98ea3023a538d6ad1d8c5" category="summary">您可以使用 System Manager 修改 AutoSupport 设置，以指定发送电子邮件通知的电子邮件地址，并添加多个电子邮件主机名。</block>
-  <block id="4cbbb191083a19d601fab9ea45cb9bae" category="doc">编辑 AutoSupport 设置</block>
   <block id="7299f317822d19bde80be6f950f9bef3" category="list-text">选择要修改 AutoSupport 设置的节点，然后单击 * 编辑 * 。</block>
   <block id="1cdaba677267c6c6791e6f28c8d3bc2a" category="list-text">在 * 电子邮件收件人 * 选项卡中，键入发送电子邮件通知的电子邮件地址，指定电子邮件收件人和每个电子邮件收件人的邮件内容，然后添加邮件主机。</block>
   <block id="928dcd47ab1dba532e19a4b381cfdbd5" category="paragraph">每个主机最多可以添加五个电子邮件地址。</block>
@@ -6691,7 +6680,6 @@
   <block id="8a9933d1b53dd6f17d6ec97c4891fc28" category="list-text">验证 AutoSupport 状态是否正确显示您所做的更改。</block>
   <block id="4f0b7bb576d3c8fa91bf3496e68c038e" category="doc">镜像聚合的工作原理</block>
   <block id="ecb19c57a1e9d7470da7d5ef2ad7af05" category="summary">您可以使用 System Manager 添加主机信息以集中管理 DNS 配置。如果要更改域名或 IP 地址，您可以修改 DNS 详细信息。</block>
-  <block id="6512b12b32b809d4608dd877b15b931f" category="doc">编辑 DNS 配置</block>
   <block id="56ede0d35b454d21ee6de6db7e02eef1" category="list-text">在 * 集群详细信息 * 窗格中，单击 * 编辑 DNS 配置 * 。</block>
   <block id="7731c0e23c3a06d337ee5d4f9e42e00f" category="list-text">在 * DNS 域 * 区域中，添加或修改 DNS 域名。</block>
   <block id="3f2d272e6d922715f76b0113cd25a362" category="list-text">在 * 名称服务器 * 区域中，添加或修改 IP 地址。</block>
@@ -7061,7 +7049,6 @@
   <block id="2c8dfcc823a858dcc0c124552a13f9fd" category="summary">您可以使用 System Manager 在存储系统中创建和管理 Snapshot 策略。</block>
   <block id="623fb58af5512173351f2a5e63dd6d85" category="doc">Snapshot 策略</block>
   <block id="f62b3e5859b206499e7a44a289ca9733" category="summary">如果在创建镜像和存储关系时尚未初始化此关系，则可以使用 System Manager 对其进行初始化。初始化关系时，系统会从源卷向目标卷执行完整的基线数据传输。</block>
-  <block id="6a157a29e95317dcc5c7ba48a6d5e6bf" category="doc">初始化镜像和存储关系</block>
   <block id="194940f508e4816ec6049ab532d382b3" category="list-text">选择要初始化的镜像和存储关系，然后单击 * 操作 * &gt; * 初始化 * 。</block>
   <block id="e416e315e41641912fdc726174c2b70c" category="list-text">选中确认复选框，然后单击 * 初始化 * 。</block>
   <block id="57174ed0aaf39bc07bfaedc78339bef3" category="list-text">在 * 保护 * 窗口中验证关系的状态。</block>
@@ -7135,7 +7122,6 @@
   <block id="b92ca4bcca6aa47dec20b94435c6f38c" category="summary">您可以使用 System Manager 创建，编辑和删除配额。</block>
   <block id="fb0d8a1c841cd92afd4cb16ddedaeed5" category="doc">配额</block>
   <block id="d410173001a34ef0bf33d098e9df782e" category="summary">对于与版本无关的镜像关系，如果源数据损坏且不再可用，您可以使用 System Manager 将 Snapshot 副本还原到源卷或其他卷。您可以将原始数据替换为目标卷中的 Snapshot 副本。</block>
-  <block id="c531ca95860694d5ed26adc4a1a9a6eb" category="doc">还原镜像关系中的卷</block>
   <block id="16d958e78d1cca90f901c3fe80893940" category="list-text">必须在源集群和目标集群或包含源卷和目标卷的节点上启用 SnapMirror 许可证。</block>
   <block id="662b5c7cd59abb0fc0ef5a08a466d0c4" category="list-text">如果要从运行 ONTAP 9.2 或更早版本的集群连接到启用了安全断言标记语言（ SAML ）身份验证的远程集群，则还必须在此远程集群上启用基于密码的身份验证。</block>
   <block id="4309f4e5604478417206b1336d6ac8f1" category="list-text">您不能还原 MetroCluster 配置中源 Storage Virtual Machine （ SVM ）与目标 SVM 之间的镜像关系中的卷。</block>
@@ -7307,7 +7293,6 @@
   <block id="6138ee6e3595264422fd2af16143707f" category="inline-link">NetApp 技术报告 3965 ：《 NetApp 精简配置部署和实施 Data ONTAP 8.1 （ 7- 模式）》</block>
   <block id="a65894b5e65e1b79567c981dd1c9864f" category="paragraph"><block ref="a65894b5e65e1b79567c981dd1c9864f" category="inline-link-rx"></block></block>
   <block id="9472ca14a963b3463ffacfba144d853c" category="summary">如果 SnapMirror 源不可用，并且您希望客户端应用程序能够从镜像目标访问数据，则必须中断 SnapMirror 关系。</block>
-  <block id="2c13690cfe030889afa3cd68b6befe59" category="paragraph">如果 SnapMirror 源不可用，并且您希望客户端应用程序能够从镜像目标访问数据，则必须中断 SnapMirror 关系。断开 SnapMirror 关系后，目标卷类型将从 " 数据保护 " （ DP ）更改为 " 读 / 写 " （ RW ）。</block>
   <block id="fddb60ada1cd638223649f65cdd12a8c" category="list-text">SnapMirror 目标必须处于静默状态或闲置状态。</block>
   <block id="6d9c53721983e127a1600326b186618a" category="list-text">在修复或替换源卷，更新源卷以及重新建立系统的原始配置时，您可以使用目标卷提供数据。</block>
   <block id="3ac9fdedc3058e0bb62f8afbd7231a51" category="list-text">您可以中断 ONTAP 系统和 SolidFire 存储系统之间的 SnapMirror 关系。</block>
@@ -7486,7 +7471,6 @@
   <block id="f9d4712df61a2f97d40fa05e581a6dbe" category="paragraph"><block ref="f9d4712df61a2f97d40fa05e581a6dbe" category="inline-xref-macro-rx"></block></block>
   <block id="c985af8fba9d9fa14f971f90f37de08b" category="doc">名称映射转换规则</block>
   <block id="fdd229b59553630eae6caa0098c8c8c2" category="paragraph">ONTAP 系统会为每个 SVM 保留一组转换规则。每个规则都包含两部分： _pattern_ 和 _replacement_ 。转换从相应列表的开头开始，并根据第一个匹配规则执行替换。模式是 UNIX 模式的正则表达式。替换项是一个字符串，其中包含表示模式中子表达式的转义序列，如 UNIX `sed` 程序中所用。</block>
-  <block id="97c1385e84acdf8323725c547cbd4d20" category="doc">更新镜像和存储关系</block>
   <block id="0f1936a33cb31a39e597a795d7fe6ec8" category="paragraph">镜像和存储关系必须已初始化且处于 Snapmirrored 状态。</block>
   <block id="fb5e019f9c42298f7f16f864e0e4f01e" category="list-text">选择要更新数据的镜像关系，然后单击 * 操作 * &gt; * 更新 * 。</block>
   <block id="66a90644b0ac4440d8fb12bcd3baa112" category="list-text">选择 * 将传输带宽限制为 * 以限制用于传输的网络带宽，然后指定最大传输速度。</block>
@@ -7534,7 +7518,6 @@
   <block id="12d863663219ca11a60e18912f9d77e0" category="list-text">根据需要更改重复数据删除计划。</block>
   <block id="5874224252f9cf3d3fea759bc537dc53" category="summary">设置集群涉及收集配置信息，创建集群管理和节点管理接口，添加许可证，设置集群时间以及监控 HA 对。</block>
   <block id="7fcd701d4af64e601a44499f2f83f92c" category="summary">您可以使用 System Manager 结束源卷与目标卷之间的镜像和存储关系，并从源卷释放 Snapshot 副本。</block>
-  <block id="ab244eb12fcb754ef620220e669a2a95" category="doc">删除镜像和存储关系</block>
   <block id="d5bd834a78b5440108ac98fb1ce7877e" category="list-text">删除镜像和存储关系之前，最好先断开此关系。</block>
   <block id="550c5da5e953dd75d25c213771288b7b" category="list-text">要重新创建此关系，必须使用命令行界面（ CLI ）从源卷运行重新同步操作。</block>
   <block id="b256050a5b646fd77eecf8d35d755564" category="list-text">选择要删除的镜像和存储关系，然后单击 * 删除 * 。</block>
@@ -7676,7 +7659,6 @@
   <block id="b4f6c829b49d72208011654bdc5cacec" category="list-text">在 * 保护 * 选项卡中启用 * 卷保护 * 以保护卷：</block>
   <block id="0ed79c6602c851e2dd015429ca786025" category="list-text">在 * 保护 * 选项卡中，选择 * 复制 * 类型：</block>
   <block id="1aa8e9743f0339f1d0756bf4ae45e629" category="summary">您可以通过启用 IP 地址范围来设置网络。通过 IP 地址范围，您可以输入位于相同网络掩码范围或不同网络掩码范围的 IP 地址。</block>
-  <block id="7aa46ceb46b55e1584c5199b992f5235" category="doc">在启用 IP 地址范围后设置网络</block>
   <block id="785e7abdebfba0c077f70ba137de92d3" category="list-text">在 * IP 地址范围 * 字段中输入 IP 地址范围，然后单击 * 应用 * 。</block>
   <block id="054b4f3ea543c990f6b125f41af6ebf7" category="cell">选项</block>
   <block id="fda3d70d690cf239a0df47903d8ca82c" category="paragraph">您的 IP 地址范围位于同一网络掩码中</block>
@@ -7814,7 +7796,6 @@
   <block id="a51cdd177454df0c74c1e98b4717528d" category="list-text">这两个站点均采用双节点配置（每个集群两个节点）运行。使用 System Manager 时，不支持使用单节点或四节点配置的站点执行切换和切回操作。</block>
   <block id="0a0204716d35d72d94269db60a34deb3" category="list-text">如果要从本地站点（站点 A ）启动远程站点（站点 B ），请确保站点 B 运行的是 System Manager 9.6 或更高版本。</block>
   <block id="cc50a237602ba64e6ef106a4a2aa2f10" category="summary">您可以根据需要使用 System Manager 修改集群的名称。</block>
-  <block id="38ff23bba4944bd809f80b302e2ed29e" category="doc">正在更新集群名称</block>
   <block id="16010775e9ee35b25c4ede9cc10954ec" category="list-text">在 * 集群详细信息 * 窗格中，单击 * 更新集群名称 * 。</block>
   <block id="a6fcfbcbef725f9196844bcecfa79262" category="list-text">在 * 更新集群名称 * 对话框中，指定集群的新名称，然后单击 * 提交 * 。</block>
   <block id="c30a7a03ca5bc6a61c5554f47389c63a" category="summary">如果要使用 Kerberos 身份验证进行客户端访问，则必须将 Storage Virtual Machine （ SVM ）配置为使用现有 Kerberos 域。您可以使用 System Manager 创建 Kerberos 域配置，从而使 SVM 能够对 NFS 使用 Kerberos 安全服务。</block>
@@ -9394,4 +9375,83 @@
   <block id="fc127a3a51a884e1e04b66f7100eb154" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理硬件缓存</block>
   <block id="fb51c3b2e9d4cd4cc77e73bd0865c088" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理用户帐户</block>
   <block id="42a891d2a7e8934b2961de24740a46a6" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）添加，编辑和管理网络信息服务（ NIS ）域。</block>
+  <block id="b4c3e51a3e6d798ba155eeaa53407e21" category="doc">使用 System Manager — ONTAP 9.7 及更早版本初始化镜像和存储关系</block>
+  <block id="0130053042b2477edae683b3c8cffd02" category="paragraph">如果在创建镜像和存储关系时尚未初始化此关系，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）初始化此关系。初始化关系时，系统会从源卷向目标卷执行完整的基线数据传输。</block>
+  <block id="d7aa241cdf6608a93d68cc08a17358c5" category="doc">使用 System Manager 还原镜像关系中的卷— ONTAP 9.7 及更早版本</block>
+  <block id="15f33799830d7062ead6409ca8ffcd26" category="paragraph">对于与版本无关的镜像关系，如果源数据损坏且不再可用，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）将 Snapshot 副本还原到源卷或其他卷。您可以将原始数据替换为目标卷中的 Snapshot 副本。</block>
+  <block id="afa61f1b1307e790cdbfbb6214754282" category="doc">使用 System Manager - ONTAP 9.7 及更早版本从目标 SVM 创建存储关系</block>
+  <block id="43683d217f4463f8f72a79932ddb4a19" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从目标 Storage Virtual Machine （ SVM ）创建存储关系，并分配存储策略以创建备份存储。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。</block>
+  <block id="7a8704124255fce54a5d048005dbb2c7" category="doc">使用 System Manager 恢复镜像和存储关系— ONTAP 9.7 及更早版本</block>
+  <block id="4395babd19d50d84f219edbe94c24fa2" category="paragraph">如果您已暂停镜像和存储关系，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）恢复此关系。恢复此关系后，系统将恢复向目标卷进行的正常数据传输，并重新启动所有保护活动。</block>
+  <block id="fe17196f3e0914a4cec43667071b4869" category="doc">使用 System Manager 中断镜像和存储关系— ONTAP 9.7 及更早版本</block>
+  <block id="a63d94092a796634808ee226f75b5367" category="paragraph">如果源卷不可用，并且您希望客户端应用程序从目标卷访问数据，则可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中断镜像和存储关系。在修复或替换源卷，更新源卷以及重新建立系统的初始配置时，您可以使用目标卷提供数据。</block>
+  <block id="aba0d4534cb127db2509180202369c03" category="doc">使用 System Manager - ONTAP 9.7 及更早版本设置集群的时区</block>
+  <block id="d8c48a42a81a8438050a9c7c83cafecc" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的编辑日期和时间对话框手动设置或修改集群的时区。您还可以向集群添加时间服务器。</block>
+  <block id="e069e09d59568675b506a5631c4b22b7" category="doc">与 System Manager 的 SVM 关系— ONTAP 9.7 及更早版本</block>
+  <block id="26db8af5ab588089d2d0b8f377dadc4d" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理 SVM 之间的镜像关系以及镜像和存储关系。Storage Virtual Machine （ SVM ）灾难恢复（ DR ）可通过恢复 SVM 成分卷中的数据以及恢复 SVM 配置，在 SVM 级别提供灾难恢复功能。</block>
+  <block id="c48810549c92e77a74367bf1cec6df93" category="doc">使用 System Manager - ONTAP 9.7 及更早版本监控 HA 对</block>
+  <block id="69d871a356c50778c71ad0cc45db4702" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）监控集群中所有高可用性（ HA ）对的节点状态和互连状态。您还可以验证是否已启用或已发生接管或交还，并查看当前无法执行接管或交还的原因。</block>
+  <block id="262333fc510a217309de41b775906e37" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建和管理角色</block>
+  <block id="9a8f0d506aed3b767779b83964cf1b1a" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理角色。</block>
+  <block id="92bd79c670ac94d203248da956241472" category="doc">暂停与 System Manager - ONTAP 9.7 及更早版本的存储关系</block>
+  <block id="602631b50dbbeb1ccbb9df20a76a9ec9" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过暂停存储关系来禁用向目标 FlexVol 卷传输数据。</block>
+  <block id="8702a816375d4468a1fdafddd89c5aac" category="doc">使用 System Manager 删除镜像和存储关系 - ONTAP 9.7 及更早版本</block>
+  <block id="70e3cca159c9dc14434a83eef0cbe103" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）结束源卷与目标卷之间的镜像和存储关系，并从源卷释放 Snapshot 副本。</block>
+  <block id="18f944a43803893b3abefe4cddb83100" category="doc">使用 System Manager — ONTAP 9.7 及更早版本中止 Snapshot 副本传输</block>
+  <block id="4b7a0caa5d810697cb98d1268491c200" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中止或停止当前正在进行的数据传输。</block>
+  <block id="3f24c14d1945245ea70ef197ca7eb065" category="doc">使用 System Manager - ONTAP 9.7 及更早版本设置集群</block>
+  <block id="9b4bd0e05bd59040708e0e8eef3ef34c" category="paragraph">您可以使用 ONTAP System Manger classic （适用于 ONTAP 9.7 及更早版本）设置集群。</block>
+  <block id="db95e3b8fcea0a5c57d5d6584105ea6a" category="doc">使用 System Manager — ONTAP 9.7 及更早版本的保护窗口</block>
+  <block id="ee9bd4dddb5496bd38976d668f5dbc30" category="paragraph">您可以将保护窗口与 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）结合使用，以创建和管理镜像关系，存储关系以及镜像和存储关系，并显示有关这些关系的详细信息。保护窗口不会显示负载共享（ LS ）关系和过渡数据保护（ TDP ）关系。</block>
+  <block id="7c9bd76bd294b7e14d1899d0c2068e90" category="doc">使用 System Manager 删除存储关系 - ONTAP 9.7 及更早版本</block>
+  <block id="652e2e8c89320862132487366920ad01" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）结束源卷与目标卷之间的存储关系，并从源卷释放 Snapshot 副本。</block>
+  <block id="1aafe4488fd8fc784e00f6d40348c9a5" category="doc">使用 System Manager 反向重新同步镜像和存储关系 - ONTAP 9.7 及更早版本</block>
+  <block id="a2c1f6a60da92875a0951c6009bb7dd6" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重新建立先前已断开的镜像和存储关系。在反向重新同步操作中，源卷和目标卷的功能将发生反转。在修复或替换源卷，更新源卷以及重新建立系统的原始配置时，您可以使用目标卷提供数据。</block>
+  <block id="d39135bbda4e5047a54cca0689614d8f" category="doc">恢复与 System Manager 的存储关系— ONTAP 9.7 及更早版本</block>
+  <block id="3c428bd6f5566acb4c28884599bf5cff" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）恢复暂停的存储关系。恢复此关系后，系统将恢复向目标 FlexVol 卷进行的正常数据传输，并重新启动所有存储活动。</block>
+  <block id="8388d4a13ab57698a5224ad8bdbe742b" category="doc">使用 System Manager 还原存储关系中的卷— ONTAP 9.7 及更早版本</block>
+  <block id="115d8c0acb5172464ab31dee9470acc0" category="paragraph">如果源数据损坏且不再可用，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）将 Snapshot 副本还原到源卷或其他卷。您可以将原始数据替换为目标卷中的 Snapshot 副本。</block>
+  <block id="9c46fcf4193cc27f57e062a5cfbca4e7" category="doc">使用 System Manager - ONTAP 9.7 及更早版本添加许可证</block>
+  <block id="b4a324d3ca1064db7f2646901a62eb2c" category="paragraph">如果出厂时未安装 ONTAP System Manager 经典版软件（在 ONTAP 9.7 及更早版本中提供），或者您希望添加其他软件许可证，则可以使用 System Manager 经典版来添加软件许可证。</block>
+  <block id="fe8b3faa5a96053a132d3f57a58e12f1" category="paragraph">如果您的存储系统软件是在出厂时安装的，则 System Manager 会自动将该软件添加到其许可证列表中。</block>
+  <block id="598204bea84a425b3062a08d37f16547" category="doc">使用 System Manager — ONTAP 9.7 及更早版本中止镜像传输</block>
+  <block id="d3e29f1540288a85f0960a5f58cb1f30" category="paragraph">在数据传输完成之前，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。</block>
+  <block id="244f91d9d12bd9740caec32708a6b318" category="doc">使用 System Manager - ONTAP 9.7 及更早版本删除本地 Windows 用户帐户</block>
+  <block id="ce5ff83bcd1ab1b41de67636913d780c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本） 如果不再需要使用本地 Windows 用户帐户对 SVM 的 CIFS 服务器进行本地 CIFS 身份验证或确定对 SVM 中数据的访问权限，则从 Storage Virtual Machine （ SVM ）中删除此用户帐户。</block>
+  <block id="845e4f773bf2fd938fd9f7abbe76d11d" category="doc">使用 System Manager 重新同步镜像关系 - ONTAP 9.7 及更早版本</block>
+  <block id="5c5eba880c02239001f4b222d1724c18" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重新建立先前已断开的镜像关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。</block>
+  <block id="4cfe8e7f20b3f6aa84c77b061d1df0fe" category="doc">使用 System Manager 的 Windows 窗口— ONTAP 9.7 及更早版本</block>
+  <block id="56384d0058f4049f1a25b56477095e11" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）来使用 Windows 窗口。Windows 窗口可帮助您维护集群上每个 Storage Virtual Machine （ SVM ）的本地 Windows 用户和组列表。您可以使用本地 Windows 用户和组进行身份验证和名称映射。</block>
+  <block id="f2ee0f2878a7ea4f311d171d771d6b26" category="doc">使用 System Manager - ONTAP 9.7 及更早版本更新存储关系</block>
+  <block id="5b82e2713cfb8916eb2d29f19181f641" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动启动计划外增量更新。您可能需要手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。</block>
+  <block id="548556d1faeba7eb8637f682210271a4" category="doc">使用 System Manager — ONTAP 9.7 及更早版本的本地 UNIX 用户和组</block>
+  <block id="ba30e9183e00613e181d1a9648c4d68c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）为每个 Storage Virtual Machine （ SVM ）维护一个本地 UNIX 用户和组列表。</block>
+  <block id="da9328160e0d110b694b5ee04fd15dcc" category="doc">使用 System Manager — ONTAP 9.7 及更早版本初始化存储关系</block>
+  <block id="fec24ee3dcf73c82d9b795514beb980c" category="paragraph">如果您在创建存储关系时尚未初始化存储关系，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）初始化该关系。启动从源 FlexVol 卷到目标 FlexVol 卷的基线数据传输。</block>
+  <block id="2728c5c503ed3526a9c5c82ee2d862ad" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑存储关系</block>
+  <block id="a05bae97cbda30a89351578dd63c58c2" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）通过选择集群中的现有策略或计划或者创建新的策略或计划来编辑存储关系。但是，您不能编辑现有策略或计划的参数。</block>
+  <block id="e00972bdf55dbd8d6817ccc7b7bd882e" category="doc">暂停与 System Manager 的镜像和存储关系— ONTAP 9.7 及更早版本</block>
+  <block id="5d18e12d84ec51a00ddf7d35536cd47c" category="paragraph">在创建 Snapshot 副本之前，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）暂停目标卷以稳定目标卷。暂停操作可以完成镜像和存储关系的活动数据传输，并禁用以后的传输。</block>
+  <block id="c7611e5724a43af42cd618696ddbde06" category="doc">使用 System Manager 更新镜像和存储关系— ONTAP 9.7 及更早版本</block>
+  <block id="348c7f611493f56a2e14dfb2a4d55799" category="doc">使用 System Manager - ONTAP 9.7 及更早版本还原镜像和存储关系中的卷</block>
+  <block id="83ed915429df41c7b9156b8c6991f060" category="doc">使用 System Manager - ONTAP 9.7 及更早版本从目标 SVM 创建镜像和存储关系</block>
+  <block id="5a1aeae3ca24aad60bedbba9c3361a53" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从目标 Storage Virtual Machine （ SVM ）创建镜像和存储关系。通过创建此关系，您可以定期将数据从源卷传输到目标卷，从而更好地保护数据。此外，您还可以通过创建源卷的备份来长期保留数据。</block>
+  <block id="72a40f368bff858b4091b43eb7172fc7" category="doc">使用 System Manager 中断 SnapMirror 关系— ONTAP 9.7 及更早版本</block>
+  <block id="8cbc7e1408126f1ff5a2916af875f4bd" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中断 SnapMirror 关系。如果 SnapMirror 源不可用，并且您希望客户端应用程序能够从镜像目标访问数据，则必须中断 SnapMirror 关系。断开 SnapMirror 关系后，目标卷类型将从 " 数据保护 " （ DP ）更改为 " 读 / 写 " （ RW ）。</block>
+  <block id="58aa7c8a67f411fb22d80b3830bcd784" category="doc">使用 System Manager 编辑镜像和存储关系— ONTAP 9.7 及更早版本</block>
+  <block id="2a5c883848e9cc772501982a7b32b9f0" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过修改选定策略或计划来编辑镜像和存储关系。但是，您不能编辑现有策略或计划的参数。</block>
+  <block id="1e4f433097152201c34a89a43b006635" category="doc">使用 System Manager 恢复暂停的镜像关系 - ONTAP 9.7 及更早版本</block>
+  <block id="1996f4fb463ea1c709660660d37eb896" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）恢复暂停的镜像关系。恢复此关系后，系统将恢复向镜像目标的正常数据传输，并重新启动所有镜像活动。</block>
+  <block id="94b62c27be996324d0173ca83ba2629b" category="doc">使用 System Manager 进行名称映射— ONTAP 9.7 及更早版本</block>
+  <block id="cee4c228dbc1bd4065b40bb31f18464c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）指定名称映射条目以映射不同平台的用户。</block>
+  <block id="706d088ecb014b185975448770e848fa" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建和管理 Storage Virtual Machine （ SVM ）用户帐户</block>
+  <block id="9dd1a3bc9b77bce7cd8a13454090a064" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理 Storage Virtual Machine （ SVM ）用户帐户。</block>
+  <block id="45a11fec0e7239fbcf37cef2902890d3" category="doc">使用 System Manager 反向重新同步镜像关系 - ONTAP 9.7 及更早版本</block>
+  <block id="e04d733170c775fa5ecebcaa3ee8a458" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重新建立先前已断开的镜像关系。在反向重新同步操作中，您可以反转源卷和目标卷的功能。</block>
+  <block id="d40cfc39f79f1537f0808a3b5576751a" category="doc">使用 System Manager - ONTAP 9.7 及更早版本从目标 SVM 创建镜像关系</block>
+  <block id="b77843c3f8ae61a4d70a598fdb4c0c1e" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从目标 Storage Virtual Machine （ SVM ）创建镜像关系，并为镜像关系分配策略和计划。如果源卷上的数据损坏或丢失，镜像副本可以快速提供数据。</block>
+  <block id="eb1d31c51189f9c044e0d58aeef738ca" category="doc">使用 System Manager 重新同步镜像和存储关系 - ONTAP 9.7 及更早版本</block>
+  <block id="f9ea1b5aa775cb6f0ce37c0625586896" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重新建立先前已断开的镜像和存储关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。</block>
+  <block id="7b636060a1edee9c18093390f42f6441" category="paragraph"><block ref="7b636060a1edee9c18093390f42f6441" category="inline-link-macro-rx"></block></block>
+  <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
 </blocks>

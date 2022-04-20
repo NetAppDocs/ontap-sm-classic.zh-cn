@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: storage, virtual, machine, svm, cluster, online, help, user, tab, command, buttons, group 
 summary: 您可以使用 Windows 窗口为集群上的每个 Storage Virtual Machine （ SVM ）维护一份本地 Windows 用户和组列表。您可以使用本地 Windows 用户和组进行身份验证和名称映射。 
 ---
-= Windows 窗口
+= 使用 System Manager 的 Windows 窗口— ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 Windows 窗口为集群上的每个 Storage Virtual Machine （ SVM ）维护一份本地 Windows 用户和组列表。您可以使用本地 Windows 用户和组进行身份验证和名称映射。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）来使用 Windows 窗口。Windows 窗口可帮助您维护集群上每个 Storage Virtual Machine （ SVM ）的本地 Windows 用户和组列表。您可以使用本地 Windows 用户和组进行身份验证和名称映射。
 
 
 

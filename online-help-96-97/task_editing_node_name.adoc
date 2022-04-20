@@ -1,20 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_node_name.html 
-sidebar: sidebar 
-keywords: system, manager, edit, node, name, online, help 
-summary: 您可以根据需要使用 System Manager 修改节点的名称。 
+redirect: ontap-sm-classic/online-help-96-97/task_updating_cluster_name.html 
 ---
-= 编辑节点名称
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
-
-[role="lead"]
-您可以根据需要使用 System Manager 修改节点的名称。
-
-.步骤
-. 单击 * 配置 * > * 集群 * > * 配置更新 * 。
-. 在 * 节点 * 选项卡中，选择要重命名的节点，然后单击 * 编辑节点名称 * 。
-. 在 * 编辑节点名称 * 对话框中，键入节点的新名称，然后单击 * 提交 * 。
 

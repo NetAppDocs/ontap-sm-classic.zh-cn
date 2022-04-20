@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, update, mirror, vault, relationship, online, help 
 summary: 您可以使用 System Manager 手动启动计划外增量更新。您可能需要手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。 
 ---
-= 更新镜像和存储关系
+= 使用 System Manager 更新镜像和存储关系— ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 手动启动计划外增量更新。您可能需要手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动启动计划外增量更新。您可能需要手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。
 
 镜像和存储关系必须已初始化且处于 Snapmirrored 状态。
 
