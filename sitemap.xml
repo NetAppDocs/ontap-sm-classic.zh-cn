@@ -2738,7 +2738,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic//search.html</loc>
       
-      <lastmod>2022-04-20T21:54:38+00:00</lastmod>
+      <lastmod>2022-04-25T00:35:16+00:00</lastmod>
       
     </url>
   
@@ -2752,7 +2752,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_aborting_mirror_vault_relationships.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -3011,7 +3011,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_adding_user_accounts_to_windows_local_group.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -3039,7 +3039,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_assigning_group_memberships_to_user_account.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -3151,7 +3151,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_changing_password_for_windows_local_users.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -3802,7 +3802,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_local_windows_user_accounts.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -4376,7 +4376,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_deleting_local_windows_group.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -4397,7 +4397,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_deleting_mirror_relationships.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -4754,14 +4754,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_editing_local_windows_user_properties.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -4775,7 +4775,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -5132,7 +5132,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_initializing_mirror_relationships.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -5580,7 +5580,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_quiescing_mirror_relationships.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -5664,14 +5664,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_renaming_local_windows_group.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_renaming_local_windows_user.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
@@ -6168,7 +6168,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_updating_mirror_relationships.html</loc>
       
-      <lastmod>2022-04-13T23:20:46+00:00</lastmod>
+      <lastmod>2022-04-25T00:34:39+00:00</lastmod>
       
     </url>
   
