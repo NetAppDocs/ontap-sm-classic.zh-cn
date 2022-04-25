@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: initialize, mirror, relationship, baseline, transfer, online, help 
 summary: 启动镜像关系时，必须初始化该关系。初始化关系包括从源卷到目标卷的完整基线数据传输。如果在创建镜像关系时尚未初始化此关系，则可以使用 System Manager 对其进行初始化。 
 ---
-= 正在初始化镜像关系
+= 使用 System Manager — ONTAP 9.7 及更早版本初始化镜像关系
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-启动镜像关系时，必须初始化该关系。初始化关系包括从源卷到目标卷的完整基线数据传输。如果在创建镜像关系时尚未初始化此关系，则可以使用 System Manager 对其进行初始化。
+启动镜像关系时，必须初始化该关系。初始化关系包括从源卷到目标卷的完整基线数据传输。如果在创建镜像关系时尚未初始化此关系，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）初始化此关系。
 
 .步骤
 . 单击 * 保护 * > * 卷关系 * 。

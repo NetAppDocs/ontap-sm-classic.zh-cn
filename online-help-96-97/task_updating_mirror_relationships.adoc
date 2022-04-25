@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, update, mirror, relationship, unscheduled 
 summary: 您可以启动目标的计划外镜像更新。您可能需要执行手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。 
 ---
-= 正在更新镜像关系
+= 使用 System Manager 更新镜像关系— ONTAP 9.7 及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以启动目标的计划外镜像更新。您可能需要执行手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）对目标启动计划外镜像更新。您可能需要执行手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。
 
 镜像关系必须处于 Snapmirrored 状态。
 

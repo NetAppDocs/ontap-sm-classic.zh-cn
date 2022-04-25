@@ -3031,7 +3031,6 @@
   <block id="4a570d9461a3a24f9545013613537a51" category="paragraph">在下图中， SVM vs3 将分配给策略组 pg2 。您不能将卷 vol4 或 vol5 分配给策略组，因为存储层次结构（ SVM vs3 ）中的对象已分配给策略组。</block>
   <block id="8ce995370c9e714eb5c14a96b94ad814" category="summary">您可以使用 System Manager 将本地用户， Active Directory 用户或 Active Directory 组（如果您希望用户拥有与该组关联的权限）添加到 Windows 本地组。</block>
   <block id="d6b3e82d5d3d8841735df1e166044e95" category="doc">将用户帐户添加到 Windows 本地组</block>
-  <block id="0564dbc035c43056e3635c928371a602" category="paragraph">您可以使用 System Manager 将本地用户， Active Directory 用户或 Active Directory 组（如果您希望用户拥有与该组关联的权限）添加到 Windows 本地组。</block>
   <block id="c453c2ae57359c623decc0fd8b03ae1f" category="paragraph">向本地 Windows 组添加成员时，必须牢记以下几点：</block>
   <block id="92ad10331cf39490bae951d388432656" category="list-text">您不能将本地 Windows 组添加到其他本地 Windows 组。</block>
   <block id="37b8a61b5fe27d9d36d85bb4434aab1e" category="list-text">您不能使用 System Manager 添加用户名中包含空格的用户帐户。</block>
@@ -3926,7 +3925,6 @@
   <block id="d214a939449dd420c63eb5e03c605a79" category="list-text">在 * 编辑 SNMP 设置 * 对话框中，选择 * 陷阱主机 * 选项卡，然后选中或清除 * 启用陷阱 * 复选框以分别启用或禁用 SNMP 陷阱。</block>
   <block id="7389ea20d819b1c391f9a10eabd5aad7" category="list-text">如果启用 SNMP 陷阱，请添加要将陷阱发送到的主机的主机名或 IP 地址。</block>
   <block id="f370a4a148925079b15117f7cd76fe2d" category="summary">如果要停止数据传输，可以中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。</block>
-  <block id="02ae21f4b0ddb0676206c2c495690f3d" category="doc">中止镜像和存储关系</block>
   <block id="e7413b72328d779c799ba2723d5ad558" category="list-text">选择要停止数据传输的镜像和存储关系，然后单击 * 操作 * &gt; * 中止 * 。</block>
   <block id="ce99fd1f40a25439cb6244c37ddad5f1" category="list-text">选中 * 是，我要中止传输 * 复选框以确认操作。</block>
   <block id="9b14937d874cffa7b0102b94f2948e6a" category="list-text">选中 * 保留所有部分传输的数据 * 复选框以保留已传输到目标卷的数据。</block>
@@ -5794,7 +5792,6 @@
   <block id="f4fad5bde7f7a3d4bb61f5d78a5ea502" category="list-text">验证 * 接合路径 * 窗口中的 * 导出策略 * 列是否显示您应用于卷的导出策略。</block>
   <block id="4124642190805770b8ea067ef13b67a4" category="paragraph">默认导出策略将替换为选定的导出策略。</block>
   <block id="136dd5d0414a62d4b3656dd07d0e3ed5" category="summary">如果要更改现有用户的全名或问题描述，或者要启用或禁用用户帐户，则可以使用 System Manager 修改本地 Windows 用户帐户。您还可以修改分配给用户帐户的组成员资格。</block>
-  <block id="868c5f63dfaa98d3d0269baf4d958a21" category="paragraph">如果要更改现有用户的全名或问题描述，或者要启用或禁用用户帐户，则可以使用 System Manager 修改本地 Windows 用户帐户。您还可以修改分配给用户帐户的组成员资格。</block>
   <block id="29085bd39c9a2ab55bafef6a551bde17" category="list-text">在 * 用户 * 选项卡中，单击 * 编辑 * 。</block>
   <block id="a292e6b20e984807fe7fc7fbab57a006" category="list-text">在 * 修改用户 * 窗口中，进行所需的更改。</block>
   <block id="91650f5965ba3fed5dc9af6ebcf68e26" category="paragraph">本地 Windows 用户帐户的属性将被修改并显示在 * 用户 * 选项卡中。</block>
@@ -7710,7 +7707,6 @@
   <block id="cb225f46cb74898cf3cfedd2c5325eee" category="paragraph">您可以创建新的导出策略或选择现有策略。默认情况下， qtree 的导出策略与选定卷的导出策略相同。</block>
   <block id="44187f372172e810c36fd415c4399c59" category="list-text">qtree 和用户配额的空间使用量限制</block>
   <block id="cdca416bdc3d69f2edc7f12283194616" category="summary">您可以通过使用 System Manager 添加和删除本地用户， Active Directory 用户或 Active Directory 组来管理本地组成员资格。您可以修改分配给组的权限以及组的问题描述，以便轻松标识组。</block>
-  <block id="50f5d074df8e2b372c9d565c9a3e877d" category="paragraph">您可以通过使用 System Manager 添加和删除本地用户， Active Directory 用户或 Active Directory 组来管理本地组成员资格。您可以修改分配给组的权限以及组的问题描述，以便轻松标识组。</block>
   <block id="9f527bf76f30148a40343c0526b8e1e5" category="paragraph">在本地 Windows 组中添加成员或删除成员时，必须牢记以下几点：</block>
   <block id="b5c8d2634d49789495b71d677a5e7e2d" category="list-text">您不能在特殊的 _Everyone _ 组中添加或删除用户。</block>
   <block id="71da504c4c1b677d770fba449511d7fc" category="list-text">在 * 组 * 选项卡中，单击 * 编辑 * 。</block>
@@ -9454,4 +9450,34 @@
   <block id="f9ea1b5aa775cb6f0ce37c0625586896" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重新建立先前已断开的镜像和存储关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。</block>
   <block id="7b636060a1edee9c18093390f42f6441" category="paragraph"><block ref="7b636060a1edee9c18093390f42f6441" category="inline-link-macro-rx"></block></block>
   <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
+  <block id="7fc9d2dac7a3691a556388235669f20b" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建本地 Windows 用户帐户</block>
+  <block id="9b2dd0ee538f3cddaa6439a695abe2c2" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）创建本地 Windows 用户帐户，该帐户可用于授权通过 SMB 连接访问 Storage Virtual Machine （ SVM ）中包含的数据。在创建 CIFS 会话时，您还可以使用本地 Windows 用户帐户进行身份验证。</block>
+  <block id="78ea6627cbe9ebae6d874bc681df76f6" category="doc">使用 System Manager - ONTAP 9.7 及更早版本将用户帐户添加到 Windows 本地组</block>
+  <block id="3a7f7d9913063f7ef0a2e90629eb8ad8" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将本地用户， Active Directory 用户或 Active Directory 组（如果您希望用户拥有与该组关联的权限）添加到 Windows 本地组。</block>
+  <block id="f11fdf178e9f4a585ed4c804386ba193" category="doc">使用 System Manager - ONTAP 9.7 及更早版本删除本地 Windows 组</block>
+  <block id="f6b214ba0427d69a51c88da91749df47" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本） 从 Storage Virtual Machine （ SVM ）中删除本地 Windows 组，前提是不再需要该组来确定对 SVM 中数据的访问权限或为组成员分配 SVM 用户权限（特权）。</block>
+  <block id="07fd8f3ebecaf5b0ee6df0eeaacf4cd1" category="doc">使用 System Manager 删除镜像关系 - ONTAP 9.7 及更早版本</block>
+  <block id="2add29dba3f579e7873ffccebda39883" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）删除镜像关系并永久结束源卷与目标卷之间的镜像关系。删除镜像关系后，源卷上的基本 Snapshot 副本将被删除。</block>
+  <block id="650ead9da4264c25a8ec4bac6caf3103" category="doc">使用 System Manager — ONTAP 9.7 及更早版本初始化镜像关系</block>
+  <block id="2d257bc7ad7971ece9f3c5a9f7a360ab" category="paragraph">启动镜像关系时，必须初始化该关系。初始化关系包括从源卷到目标卷的完整基线数据传输。如果在创建镜像关系时尚未初始化此关系，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）初始化此关系。</block>
+  <block id="54c694780bc0d73c45bd41e05288e37b" category="doc">使用 System Manager - ONTAP 9.7 及更早版本重命名本地 Windows 组</block>
+  <block id="eb95faffa28da69a4bf5e7047d2c7f4c" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重命名本地 Windows 组，以便更轻松地识别该组。</block>
+  <block id="665c825107a5830a82d2b69e5aeff554" category="doc">中止与 System Manager 的镜像和存储关系— ONTAP 9.7 及更早版本</block>
+  <block id="b182b9233296a73be3f27b870226b2af" category="paragraph">如果要停止数据传输，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。</block>
+  <block id="af744edfa9643645796a3d01c80db4bc" category="doc">使用 System Manager - ONTAP 9.7 及更早版本为用户帐户分配组成员资格</block>
+  <block id="dc70272f593f6af1c12f7efe72a0e330" category="paragraph">如果您希望用户拥有与特定组关联的权限，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）为用户帐户分配组成员资格。</block>
+  <block id="0d3bbe8b78353d5562dabcf969cc1dae" category="doc">使用 System Manager 更新镜像关系— ONTAP 9.7 及更早版本</block>
+  <block id="1eddf35781858e6d7b51ae77406277d1" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）对目标启动计划外镜像更新。您可能需要执行手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。</block>
+  <block id="48eed03d602d577542605f9afa7f0012" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑镜像关系</block>
+  <block id="e666de52884b241977ae2e4598f2e051" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）通过选择集群中的现有策略或计划或者创建策略或计划来编辑镜像关系。</block>
+  <block id="a51dbb033d276fe1b15f5efb9a2e6916" category="doc">暂停与 System Manager - ONTAP 9.7 及更早版本的镜像关系</block>
+  <block id="6b20144c3e0fa3b348c35e826c79a3f5" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）暂停镜像目标，以便在创建 Snapshot 副本之前使其保持稳定。暂停操作可以完成镜像关系的活动镜像传输，并禁用以后的传输。</block>
+  <block id="85d0833b56faab64ea27240a6f082070" category="doc">使用 System Manager - ONTAP 9.7 及更早版本重置 Windows 本地用户的密码</block>
+  <block id="55e67ad0368005cd9a055b4b179ef69e" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重置 Windows 本地用户的密码。例如，如果当前密码泄露或用户忘记了密码，您可能需要重置密码。</block>
+  <block id="66a86df29a3df9220ad1f1c90164d7d6" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑本地 Windows 用户属性</block>
+  <block id="504f000909a925ba4f74f21133bc0319" category="paragraph">如果要更改现有用户的全名或问题描述 ，或者要启用或禁用用户帐户，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）修改本地 Windows 用户帐户。您还可以修改分配给用户帐户的组成员资格。</block>
+  <block id="d839a28bf3542d56602749c26fa7c3f0" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑本地 Windows 组属性</block>
+  <block id="9f7846eb6b93be23ec56786e828ee53e" category="paragraph">您可以通过使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）添加和删除本地用户， Active Directory 用户或 Active Directory 组来管理本地组成员资格。您可以修改分配给组的权限以及组的问题描述，以便轻松标识组。</block>
+  <block id="1721ba418668b0e222dfb8cb45448455" category="doc">使用 System Manager - ONTAP 9.7 及更早版本重命名本地 Windows 用户</block>
+  <block id="d39d06fa99b2894ced6d109c0b410699" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重命名本地 Windows 用户帐户，以便更轻松地识别本地用户。</block>
 </blocks>

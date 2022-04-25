@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: rename, local, windows, group, system, manager, online, help 
 summary: 您可以使用 System Manager 重命名本地 Windows 组，以便更轻松地识别该组。 
 ---
-= 重命名本地 Windows 组
+= 使用 System Manager - ONTAP 9.7 及更早版本重命名本地 Windows 组
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 重命名本地 Windows 组，以便更轻松地识别该组。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重命名本地 Windows 组，以便更轻松地识别该组。
 
 .关于此任务
 * 新组名称必须与旧组名称创建在同一个域中。

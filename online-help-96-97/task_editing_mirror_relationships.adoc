@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: system, manager, edit, mirror, relationships, online, help 
 summary: 您可以使用 System Manager 通过选择集群中的现有策略或计划或者创建策略或计划来编辑镜像关系。 
 ---
-= 编辑镜像关系
+= 使用 System Manager - ONTAP 9.7 及更早版本编辑镜像关系
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 通过选择集群中的现有策略或计划或者创建策略或计划来编辑镜像关系。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）通过选择集群中的现有策略或计划或者创建策略或计划来编辑镜像关系。
 
 .关于此任务
 * 您不能编辑在 Data ONTAP 8.2.1 中的卷与 ONTAP 8.3 或更高版本中的卷之间创建的镜像关系。

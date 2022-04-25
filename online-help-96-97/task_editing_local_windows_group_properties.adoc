@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, edit, local, windows, group, properties, active, directory 
 summary: 您可以通过使用 System Manager 添加和删除本地用户， Active Directory 用户或 Active Directory 组来管理本地组成员资格。您可以修改分配给组的权限以及组的问题描述，以便轻松标识组。 
 ---
-= 编辑本地 Windows 组属性
+= 使用 System Manager - ONTAP 9.7 及更早版本编辑本地 Windows 组属性
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以通过使用 System Manager 添加和删除本地用户， Active Directory 用户或 Active Directory 组来管理本地组成员资格。您可以修改分配给组的权限以及组的问题描述，以便轻松标识组。
+您可以通过使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）添加和删除本地用户， Active Directory 用户或 Active Directory 组来管理本地组成员资格。您可以修改分配给组的权限以及组的问题描述，以便轻松标识组。
 
 在本地 Windows 组中添加成员或删除成员时，必须牢记以下几点：
 

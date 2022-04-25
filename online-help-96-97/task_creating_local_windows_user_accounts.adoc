@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: create, local, windows, user, account, online, help, system, manager, svm, cifs 
 summary: 您可以使用 System Manager 创建本地 Windows 用户帐户，此帐户可用于授权通过 SMB 连接访问 Storage Virtual Machine （ SVM ）中包含的数据。在创建 CIFS 会话时，您还可以使用本地 Windows 用户帐户进行身份验证。 
 ---
-= 创建本地 Windows 用户帐户
+= 使用 System Manager - ONTAP 9.7 及更早版本创建本地 Windows 用户帐户
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建本地 Windows 用户帐户，此帐户可用于授权通过 SMB 连接访问 Storage Virtual Machine （ SVM ）中包含的数据。在创建 CIFS 会话时，您还可以使用本地 Windows 用户帐户进行身份验证。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）创建本地 Windows 用户帐户，该帐户可用于授权通过 SMB 连接访问 Storage Virtual Machine （ SVM ）中包含的数据。在创建 CIFS 会话时，您还可以使用本地 Windows 用户帐户进行身份验证。
 
 .开始之前
 * 必须为 SVM 配置 CIFS 服务器。

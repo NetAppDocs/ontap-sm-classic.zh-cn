@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: rename, local, windows, user, system, manager, online, help 
 summary: 您可以使用 System Manager 重命名本地 Windows 用户帐户，以便更轻松地识别本地用户。 
 ---
-= 重命名本地 Windows 用户
+= 使用 System Manager - ONTAP 9.7 及更早版本重命名本地 Windows 用户
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 重命名本地 Windows 用户帐户，以便更轻松地识别本地用户。
+您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重命名本地 Windows 用户帐户，以便更轻松地识别本地用户。
 
 .关于此任务
 * 新用户名必须与先前的用户名在同一域中创建。

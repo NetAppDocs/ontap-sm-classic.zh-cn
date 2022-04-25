@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: add, user, accounts, windows, local, group, active, directory, online, help 
 summary: 您可以使用 System Manager 将本地用户， Active Directory 用户或 Active Directory 组（如果您希望用户拥有与该组关联的权限）添加到 Windows 本地组。 
 ---
-= 将用户帐户添加到 Windows 本地组
+= 使用 System Manager - ONTAP 9.7 及更早版本将用户帐户添加到 Windows 本地组
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 将本地用户， Active Directory 用户或 Active Directory 组（如果您希望用户拥有与该组关联的权限）添加到 Windows 本地组。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将本地用户， Active Directory 用户或 Active Directory 组（如果您希望用户拥有与该组关联的权限）添加到 Windows 本地组。
 
 .开始之前
 * 该组必须存在，您才能向该组添加用户。

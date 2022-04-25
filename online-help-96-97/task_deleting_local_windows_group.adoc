@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: delete, local, windows, group, systems, manager, online, help, svm, rights 
 summary: 如果不再需要使用某个本地 Windows 组来确定对 SVM 中数据的访问权限或为组成员分配 SVM 用户权限，则可以使用 System Manager 从 Storage Virtual Machine （ SVM ）中删除该组。 
 ---
-= 删除本地 Windows 组
+= 使用 System Manager - ONTAP 9.7 及更早版本删除本地 Windows 组
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-如果不再需要使用某个本地 Windows 组来确定对 SVM 中数据的访问权限或为组成员分配 SVM 用户权限，则可以使用 System Manager 从 Storage Virtual Machine （ SVM ）中删除该组。
+您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本） 从 Storage Virtual Machine （ SVM ）中删除本地 Windows 组，前提是不再需要该组来确定对 SVM 中数据的访问权限或为组成员分配 SVM 用户权限（特权）。
 
 .关于此任务
 * 删除本地组将删除该组的成员资格记录。
