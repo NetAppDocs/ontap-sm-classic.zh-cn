@@ -1,24 +1,8 @@
 ---
 permalink: online-help-96-97/task_resuming_mirror_vault_relationships.html 
-sidebar: sidebar 
-keywords: resume, mirror, vault, relationship, online, help, system, manager 
-summary: 如果您已暂停镜像和存储关系，则可以使用 System Manager 恢复此关系。恢复此关系后，系统将恢复向目标卷进行的正常数据传输，并重新启动所有保护活动。 
+redirect: online-help-96-97/task_editing_mirror_vault_relationships.html 
 ---
-= 使用 System Manager 恢复镜像和存储关系— ONTAP 9.7 及更早版本
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-如果您已暂停镜像和存储关系，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）恢复此关系。恢复此关系后，系统将恢复向目标卷进行的正常数据传输，并重新启动所有保护活动。
-
-如果已从命令行界面（ CLI ）暂停已断开的镜像和存储关系，则无法从 System Manager 恢复此关系。您必须使用命令行界面恢复此关系。
-
-.步骤
-. 单击 * 保护 * > * 卷关系 * 。
-. 选择要恢复的镜像和存储关系，然后单击 * 操作 * > * 恢复 * 。
-. 选中确认复选框，然后单击 * 恢复 * 。
-
-
-恢复正常数据传输。如果此关系已计划传输，则此传输将从下一个计划开始。

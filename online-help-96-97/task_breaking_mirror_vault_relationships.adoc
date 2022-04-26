@@ -1,29 +1,8 @@
 ---
 permalink: online-help-96-97/task_breaking_mirror_vault_relationships.html 
-sidebar: sidebar 
-keywords: break, mirror, vault, relationship, system, manger, online, help, client, applications 
-summary: 如果源卷不可用，并且您希望客户端应用程序从目标卷访问数据，则可以使用 System Manager 中断镜像和存储关系。在修复或替换源卷，更新源卷以及重新建立系统的初始配置时，您可以使用目标卷提供数据。 
+redirect: online-help-96-97/task_editing_mirror_vault_relationships.html 
 ---
-= 使用 System Manager 中断镜像和存储关系— ONTAP 9.7 及更早版本
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-如果源卷不可用，并且您希望客户端应用程序从目标卷访问数据，则可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中断镜像和存储关系。在修复或替换源卷，更新源卷以及重新建立系统的初始配置时，您可以使用目标卷提供数据。
-
-.开始之前
-* 镜像和存储关系必须处于已暂停或闲置状态。
-* 目标卷必须挂载到目标 Storage Virtual Machine （ SVM ）命名空间上。
-
-
-您可以中断 ONTAP 系统和 SolidFire 存储系统之间的镜像关系。
-
-.步骤
-. 单击 * 保护 * > * 卷关系 * 。
-. 选择要中断的镜像和存储关系，然后单击 * 操作 * > * 中断 * 。
-. 选中确认复选框，然后单击 * 中断 * 。
-
-
-镜像和存储关系已断开。目标卷类型从数据保护（ DP ）只读更改为读 / 写。系统会存储镜像和存储关系的基本 Snapshot 副本，以供日后使用。

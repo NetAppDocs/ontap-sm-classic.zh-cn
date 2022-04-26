@@ -1,30 +1,8 @@
 ---
 permalink: online-help-96-97/task_initializing_vault_relationships.html 
-sidebar: sidebar 
-keywords: initialize, vault, relationship, system, manager, flexvol, online, help 
-summary: 如果您在创建存储关系时尚未初始化存储关系，则可以使用 System Manager 初始化该关系。启动从源 FlexVol 卷到目标 FlexVol 卷的基线数据传输。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html 
 ---
-= 使用 System Manager — ONTAP 9.7 及更早版本初始化存储关系
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-如果您在创建存储关系时尚未初始化存储关系，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）初始化该关系。启动从源 FlexVol 卷到目标 FlexVol 卷的基线数据传输。
-
-源集群和目标集群之间的对等关系必须运行正常。
-
-.步骤
-. 单击 * 保护 * > * 卷关系 * 。
-. 选择要初始化的关系，然后单击 * 操作 * > * 初始化 * 。
-. 在 * 初始化 * 窗口中，单击 * 初始化 * 。
-
-
-此时将创建一个 Snapshot 副本并将其传输到目标。
-
-此 Snapshot 副本用作后续增量 Snapshot 副本的基线。
-
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]

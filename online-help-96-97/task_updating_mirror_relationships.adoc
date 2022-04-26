@@ -1,34 +1,8 @@
 ---
 permalink: online-help-96-97/task_updating_mirror_relationships.html 
-sidebar: sidebar 
-keywords: online, help, update, mirror, relationship, unscheduled 
-summary: 您可以启动目标的计划外镜像更新。您可能需要执行手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html 
 ---
-= 使用 System Manager 更新镜像关系— ONTAP 9.7 及更早版本
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）对目标启动计划外镜像更新。您可能需要执行手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。
-
-镜像关系必须处于 Snapmirrored 状态。
-
-.步骤
-. 单击 * 保护 * > * 卷关系 * 。
-. 选择要更新数据的镜像关系，然后单击 * 操作 * > * 更新 * 。
-. 选择以下选项之一：
-+
-** 选择 * 按需 * 可从源卷和目标卷之间的最新通用 Snapshot 副本执行增量传输。
-** 选择 * 选择 Snapshot 副本 * 并指定要传输的 Snapshot 副本。
-
-
-. 选择 * 将传输带宽限制为 * 可限制用于传输的网络带宽并指定最大传输速度。
-. 单击 * 更新 * 。
-. 在 * 详细信息 * 选项卡中验证传输状态。
-
-
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]

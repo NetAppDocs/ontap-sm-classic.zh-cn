@@ -1,30 +1,8 @@
 ---
 permalink: online-help-96-97/task_updating_mirror_vault_relationships.html 
-sidebar: sidebar 
-keywords: system, manager, update, mirror, vault, relationship, online, help 
-summary: 您可以使用 System Manager 手动启动计划外增量更新。您可能需要手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。 
+redirect: online-help-96-97/task_editing_mirror_vault_relationships.html 
 ---
-= 使用 System Manager 更新镜像和存储关系— ONTAP 9.7 及更早版本
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
-
-[role="lead"]
-您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动启动计划外增量更新。您可能需要手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。
-
-镜像和存储关系必须已初始化且处于 Snapmirrored 状态。
-
-.步骤
-. 单击 * 保护 * > * 卷关系 * 。
-. 选择要更新数据的镜像关系，然后单击 * 操作 * > * 更新 * 。
-. 选择以下选项之一：
-+
-** 选择 * 按策略 * 可从源卷和目标卷之间的最新通用 Snapshot 副本执行增量传输。
-** 选择 * 选择 Snapshot 副本 * 并指定要传输的 Snapshot 副本。
-
-
-. 选择 * 将传输带宽限制为 * 以限制用于传输的网络带宽，然后指定最大传输速度。
-. 单击 * 更新 * 。
-. 在 * 详细信息 * 选项卡中验证传输状态。
 

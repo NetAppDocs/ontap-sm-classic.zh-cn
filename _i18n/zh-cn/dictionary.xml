@@ -2715,7 +2715,6 @@
   <block id="e54d6f4c00bbf4bda2f4cfb5e26ce554" category="inline-xref-macro">iSCSI 窗口</block>
   <block id="cf7e5af013c561e4441064bb2e7f5e49" category="inline-xref-macro">在 SVM 上配置 iSCSI 协议</block>
   <block id="aea360b94eba5ad45f55e615a1e58409" category="paragraph"><block ref="aea360b94eba5ad45f55e615a1e58409" category="inline-xref-macro-rx"></block></block>
-  <block id="f25741b359bd60e4cd26b8efa4c0882e" category="summary">您可以恢复已暂停的镜像关系。恢复此关系后，系统将恢复向镜像目标的正常数据传输，并重新启动所有镜像活动。</block>
   <block id="da2bbe144e916e296ed5dc9811bf144b" category="doc">恢复镜像关系</block>
   <block id="d0301e8aa18e111d6fd24af281e7819f" category="paragraph">如果您已从命令行界面（ CLI ）暂停已断开的镜像关系，则无法从 System Manager 恢复此关系。您必须使用命令行界面恢复此关系。</block>
   <block id="cd10025bb0c0201ed512834fc9a96785" category="list-text">选择要恢复的镜像关系。</block>
@@ -4399,7 +4398,6 @@
   <block id="d8cecc4d7f05dcf1826a5125a6ed4031" category="paragraph">iSCSI 别名是一个包含 1 到 128 个可打印字符的字符串。 iSCSI 别名不能包含空格。</block>
   <block id="524a91ab8883b38a2a1617323e2d15c4" category="list-text">在 * iSCSI* 窗口的 * 服务 * 选项卡中，单击 * 编辑 * 。</block>
   <block id="cb3b486ada0c2d1f1fdeec5074e2efdb" category="list-text">在 * 编辑 iSCSI 服务配置 * 对话框的 * 目标别名 * 字段中输入 iSCSI 别名，然后单击 * 确定 * 。</block>
-  <block id="7a719753b5cc693e70eaafdf4df13427" category="summary">如果您已暂停镜像和存储关系，则可以使用 System Manager 恢复此关系。恢复此关系后，系统将恢复向目标卷进行的正常数据传输，并重新启动所有保护活动。</block>
   <block id="1ca316d456bfc783136ef2cbef4e0b6c" category="paragraph">如果已从命令行界面（ CLI ）暂停已断开的镜像和存储关系，则无法从 System Manager 恢复此关系。您必须使用命令行界面恢复此关系。</block>
   <block id="cdbe1ccd7399a1701afc2c94069ee6d8" category="list-text">选择要恢复的镜像和存储关系，然后单击 * 操作 * &gt; * 恢复 * 。</block>
   <block id="06895a249469b7de4c423243bf6e23fc" category="list-text">选中确认复选框，然后单击 * 恢复 * 。</block>
@@ -5081,7 +5079,6 @@
   <block id="9ed7e799c4b4dfede274403dd4f4087c" category="paragraph">以天，小时和分钟为单位指定间隔选项。</block>
   <block id="9b6545e4cea9b4ad4979d41bb9170e2b" category="paragraph">高级</block>
   <block id="a86896df008e51bf69f86ad48889449a" category="paragraph">以月，天，工作日（如果适用），小时和分钟为单位指定高级 cron 选项。</block>
-  <block id="876e9103e3b730c930224fa67ff29691" category="summary">您可以重新建立先前已断开的镜像关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。</block>
   <block id="58e256a5f2c9618c26f221237520a80e" category="paragraph">源集群和目标集群以及源 SVM 和目标 SVM 必须处于对等关系。</block>
   <block id="00f21750cc8bdae0aa3b1cc518b7a348" category="list-text">执行重新同步操作时，镜像目标上的内容将被源卷上的内容覆盖。</block>
   <block id="3276f0f477ca91453726cbdf0d7f00f6" category="list-text">对于 SnapLock Compliance 卷，活动文件系统中与通用 Snapshot 副本相关的所有数据更改都会保留在锁定的 Snapshot 副本中，直到为当前卷设置的到期时间为止。</block>
@@ -6402,7 +6399,6 @@
   <block id="dbb47065e3fd49e99cb3952616e3b4ea" category="paragraph">调整 LUN 大小时，必须在主机端执行为使用 LUN 的主机类型和应用程序建议的步骤。</block>
   <block id="07f774b0beb170793b051edf8fad2410" category="list-text">在 * LUN 管理 * 选项卡中，从 LUN 列表中选择要编辑的 LUN ，然后单击 * 编辑 * 。</block>
   <block id="97ce71fc2e74b9afefe150da44124653" category="list-text">进行所需的更改。</block>
-  <block id="f4449c3f1ac13500ec8ce4266f084d0c" category="summary">您可以启动目标的计划外镜像更新。您可能需要执行手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。</block>
   <block id="0d33c1ff7c087069da33d00057d1c5a0" category="paragraph">镜像关系必须处于 Snapmirrored 状态。</block>
   <block id="d83ad2ba9c189be7b44eec5c2a2d78c3" category="list-text">选择要更新数据的镜像关系，然后单击 * 操作 * &gt; * 更新 * 。</block>
   <block id="bb6c6c47b08b6be1c49c31535ecc92d0" category="list-text">选择 * 按需 * 可从源卷和目标卷之间的最新通用 Snapshot 副本执行增量传输。</block>
@@ -7157,7 +7153,6 @@
   <block id="400d42a3a13da986cd2cf283dd4c1d7c" category="list-text">在 * 配置 * 选项卡的 * 主目录 * 区域中，单击 * 管理 * 。</block>
   <block id="c60fbd277b3cf8a2b3392b0da74d7c91" category="list-text">在 * 管理主目录 * 对话框中，指定存储系统用来搜索用户 CIFS 主目录的路径。</block>
   <block id="ba43a0b415d67a230fa5cc9655cb4818" category="list-text">单击 * 添加 * ，然后单击 * 保存并关闭 * 。</block>
-  <block id="9833672dfe863c0a48b2e51cf6519c48" category="summary">您可以删除镜像关系并永久结束源卷与目标卷之间的镜像关系。删除镜像关系后，源卷上的基本 Snapshot 副本将被删除。</block>
   <block id="67d62bde8595af5bd8630f51cae01315" category="paragraph">删除镜像关系之前，最好先断开镜像关系。</block>
   <block id="e4f5108ad092cccf7d5779b2a480f241" category="list-text">选择要删除的镜像关系，然后单击 * 删除 * 。</block>
   <block id="19d690eb00d4fb086e12392349d1651e" category="list-text">选中确认复选框以删除镜像关系并释放基本 Snapshot 副本，然后单击 * 删除 * 。</block>
@@ -9371,16 +9366,8 @@
   <block id="fc127a3a51a884e1e04b66f7100eb154" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理硬件缓存</block>
   <block id="fb51c3b2e9d4cd4cc77e73bd0865c088" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理用户帐户</block>
   <block id="42a891d2a7e8934b2961de24740a46a6" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）添加，编辑和管理网络信息服务（ NIS ）域。</block>
-  <block id="b4c3e51a3e6d798ba155eeaa53407e21" category="doc">使用 System Manager — ONTAP 9.7 及更早版本初始化镜像和存储关系</block>
-  <block id="0130053042b2477edae683b3c8cffd02" category="paragraph">如果在创建镜像和存储关系时尚未初始化此关系，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）初始化此关系。初始化关系时，系统会从源卷向目标卷执行完整的基线数据传输。</block>
   <block id="d7aa241cdf6608a93d68cc08a17358c5" category="doc">使用 System Manager 还原镜像关系中的卷— ONTAP 9.7 及更早版本</block>
   <block id="15f33799830d7062ead6409ca8ffcd26" category="paragraph">对于与版本无关的镜像关系，如果源数据损坏且不再可用，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）将 Snapshot 副本还原到源卷或其他卷。您可以将原始数据替换为目标卷中的 Snapshot 副本。</block>
-  <block id="afa61f1b1307e790cdbfbb6214754282" category="doc">使用 System Manager - ONTAP 9.7 及更早版本从目标 SVM 创建存储关系</block>
-  <block id="43683d217f4463f8f72a79932ddb4a19" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从目标 Storage Virtual Machine （ SVM ）创建存储关系，并分配存储策略以创建备份存储。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。</block>
-  <block id="7a8704124255fce54a5d048005dbb2c7" category="doc">使用 System Manager 恢复镜像和存储关系— ONTAP 9.7 及更早版本</block>
-  <block id="4395babd19d50d84f219edbe94c24fa2" category="paragraph">如果您已暂停镜像和存储关系，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）恢复此关系。恢复此关系后，系统将恢复向目标卷进行的正常数据传输，并重新启动所有保护活动。</block>
-  <block id="fe17196f3e0914a4cec43667071b4869" category="doc">使用 System Manager 中断镜像和存储关系— ONTAP 9.7 及更早版本</block>
-  <block id="a63d94092a796634808ee226f75b5367" category="paragraph">如果源卷不可用，并且您希望客户端应用程序从目标卷访问数据，则可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中断镜像和存储关系。在修复或替换源卷，更新源卷以及重新建立系统的初始配置时，您可以使用目标卷提供数据。</block>
   <block id="aba0d4534cb127db2509180202369c03" category="doc">使用 System Manager - ONTAP 9.7 及更早版本设置集群的时区</block>
   <block id="d8c48a42a81a8438050a9c7c83cafecc" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）中的编辑日期和时间对话框手动设置或修改集群的时区。您还可以向集群添加时间服务器。</block>
   <block id="e069e09d59568675b506a5631c4b22b7" category="doc">与 System Manager 的 SVM 关系— ONTAP 9.7 及更早版本</block>
@@ -9389,22 +9376,12 @@
   <block id="69d871a356c50778c71ad0cc45db4702" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）监控集群中所有高可用性（ HA ）对的节点状态和互连状态。您还可以验证是否已启用或已发生接管或交还，并查看当前无法执行接管或交还的原因。</block>
   <block id="262333fc510a217309de41b775906e37" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建和管理角色</block>
   <block id="9a8f0d506aed3b767779b83964cf1b1a" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理角色。</block>
-  <block id="92bd79c670ac94d203248da956241472" category="doc">暂停与 System Manager - ONTAP 9.7 及更早版本的存储关系</block>
-  <block id="602631b50dbbeb1ccbb9df20a76a9ec9" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过暂停存储关系来禁用向目标 FlexVol 卷传输数据。</block>
-  <block id="8702a816375d4468a1fdafddd89c5aac" category="doc">使用 System Manager 删除镜像和存储关系 - ONTAP 9.7 及更早版本</block>
-  <block id="70e3cca159c9dc14434a83eef0cbe103" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）结束源卷与目标卷之间的镜像和存储关系，并从源卷释放 Snapshot 副本。</block>
   <block id="18f944a43803893b3abefe4cddb83100" category="doc">使用 System Manager — ONTAP 9.7 及更早版本中止 Snapshot 副本传输</block>
   <block id="4b7a0caa5d810697cb98d1268491c200" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中止或停止当前正在进行的数据传输。</block>
   <block id="3f24c14d1945245ea70ef197ca7eb065" category="doc">使用 System Manager - ONTAP 9.7 及更早版本设置集群</block>
   <block id="9b4bd0e05bd59040708e0e8eef3ef34c" category="paragraph">您可以使用 ONTAP System Manger classic （适用于 ONTAP 9.7 及更早版本）设置集群。</block>
   <block id="db95e3b8fcea0a5c57d5d6584105ea6a" category="doc">使用 System Manager — ONTAP 9.7 及更早版本的保护窗口</block>
   <block id="ee9bd4dddb5496bd38976d668f5dbc30" category="paragraph">您可以将保护窗口与 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）结合使用，以创建和管理镜像关系，存储关系以及镜像和存储关系，并显示有关这些关系的详细信息。保护窗口不会显示负载共享（ LS ）关系和过渡数据保护（ TDP ）关系。</block>
-  <block id="7c9bd76bd294b7e14d1899d0c2068e90" category="doc">使用 System Manager 删除存储关系 - ONTAP 9.7 及更早版本</block>
-  <block id="652e2e8c89320862132487366920ad01" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）结束源卷与目标卷之间的存储关系，并从源卷释放 Snapshot 副本。</block>
-  <block id="1aafe4488fd8fc784e00f6d40348c9a5" category="doc">使用 System Manager 反向重新同步镜像和存储关系 - ONTAP 9.7 及更早版本</block>
-  <block id="a2c1f6a60da92875a0951c6009bb7dd6" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重新建立先前已断开的镜像和存储关系。在反向重新同步操作中，源卷和目标卷的功能将发生反转。在修复或替换源卷，更新源卷以及重新建立系统的原始配置时，您可以使用目标卷提供数据。</block>
-  <block id="d39135bbda4e5047a54cca0689614d8f" category="doc">恢复与 System Manager 的存储关系— ONTAP 9.7 及更早版本</block>
-  <block id="3c428bd6f5566acb4c28884599bf5cff" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）恢复暂停的存储关系。恢复此关系后，系统将恢复向目标 FlexVol 卷进行的正常数据传输，并重新启动所有存储活动。</block>
   <block id="8388d4a13ab57698a5224ad8bdbe742b" category="doc">使用 System Manager 还原存储关系中的卷— ONTAP 9.7 及更早版本</block>
   <block id="115d8c0acb5172464ab31dee9470acc0" category="paragraph">如果源数据损坏且不再可用，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）将 Snapshot 副本还原到源卷或其他卷。您可以将原始数据替换为目标卷中的 Snapshot 副本。</block>
   <block id="9c46fcf4193cc27f57e062a5cfbca4e7" category="doc">使用 System Manager - ONTAP 9.7 及更早版本添加许可证</block>
@@ -9414,30 +9391,13 @@
   <block id="d3e29f1540288a85f0960a5f58cb1f30" category="paragraph">在数据传输完成之前，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。</block>
   <block id="244f91d9d12bd9740caec32708a6b318" category="doc">使用 System Manager - ONTAP 9.7 及更早版本删除本地 Windows 用户帐户</block>
   <block id="ce5ff83bcd1ab1b41de67636913d780c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本） 如果不再需要使用本地 Windows 用户帐户对 SVM 的 CIFS 服务器进行本地 CIFS 身份验证或确定对 SVM 中数据的访问权限，则从 Storage Virtual Machine （ SVM ）中删除此用户帐户。</block>
-  <block id="845e4f773bf2fd938fd9f7abbe76d11d" category="doc">使用 System Manager 重新同步镜像关系 - ONTAP 9.7 及更早版本</block>
-  <block id="5c5eba880c02239001f4b222d1724c18" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重新建立先前已断开的镜像关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。</block>
   <block id="4cfe8e7f20b3f6aa84c77b061d1df0fe" category="doc">使用 System Manager 的 Windows 窗口— ONTAP 9.7 及更早版本</block>
   <block id="56384d0058f4049f1a25b56477095e11" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）来使用 Windows 窗口。Windows 窗口可帮助您维护集群上每个 Storage Virtual Machine （ SVM ）的本地 Windows 用户和组列表。您可以使用本地 Windows 用户和组进行身份验证和名称映射。</block>
-  <block id="f2ee0f2878a7ea4f311d171d771d6b26" category="doc">使用 System Manager - ONTAP 9.7 及更早版本更新存储关系</block>
-  <block id="5b82e2713cfb8916eb2d29f19181f641" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动启动计划外增量更新。您可能需要手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。</block>
   <block id="548556d1faeba7eb8637f682210271a4" category="doc">使用 System Manager — ONTAP 9.7 及更早版本的本地 UNIX 用户和组</block>
   <block id="ba30e9183e00613e181d1a9648c4d68c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）为每个 Storage Virtual Machine （ SVM ）维护一个本地 UNIX 用户和组列表。</block>
-  <block id="da9328160e0d110b694b5ee04fd15dcc" category="doc">使用 System Manager — ONTAP 9.7 及更早版本初始化存储关系</block>
-  <block id="fec24ee3dcf73c82d9b795514beb980c" category="paragraph">如果您在创建存储关系时尚未初始化存储关系，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）初始化该关系。启动从源 FlexVol 卷到目标 FlexVol 卷的基线数据传输。</block>
-  <block id="2728c5c503ed3526a9c5c82ee2d862ad" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑存储关系</block>
-  <block id="a05bae97cbda30a89351578dd63c58c2" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）通过选择集群中的现有策略或计划或者创建新的策略或计划来编辑存储关系。但是，您不能编辑现有策略或计划的参数。</block>
-  <block id="e00972bdf55dbd8d6817ccc7b7bd882e" category="doc">暂停与 System Manager 的镜像和存储关系— ONTAP 9.7 及更早版本</block>
-  <block id="5d18e12d84ec51a00ddf7d35536cd47c" category="paragraph">在创建 Snapshot 副本之前，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）暂停目标卷以稳定目标卷。暂停操作可以完成镜像和存储关系的活动数据传输，并禁用以后的传输。</block>
-  <block id="c7611e5724a43af42cd618696ddbde06" category="doc">使用 System Manager 更新镜像和存储关系— ONTAP 9.7 及更早版本</block>
   <block id="348c7f611493f56a2e14dfb2a4d55799" category="doc">使用 System Manager - ONTAP 9.7 及更早版本还原镜像和存储关系中的卷</block>
-  <block id="83ed915429df41c7b9156b8c6991f060" category="doc">使用 System Manager - ONTAP 9.7 及更早版本从目标 SVM 创建镜像和存储关系</block>
-  <block id="5a1aeae3ca24aad60bedbba9c3361a53" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从目标 Storage Virtual Machine （ SVM ）创建镜像和存储关系。通过创建此关系，您可以定期将数据从源卷传输到目标卷，从而更好地保护数据。此外，您还可以通过创建源卷的备份来长期保留数据。</block>
   <block id="72a40f368bff858b4091b43eb7172fc7" category="doc">使用 System Manager 中断 SnapMirror 关系— ONTAP 9.7 及更早版本</block>
   <block id="8cbc7e1408126f1ff5a2916af875f4bd" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中断 SnapMirror 关系。如果 SnapMirror 源不可用，并且您希望客户端应用程序能够从镜像目标访问数据，则必须中断 SnapMirror 关系。断开 SnapMirror 关系后，目标卷类型将从 " 数据保护 " （ DP ）更改为 " 读 / 写 " （ RW ）。</block>
-  <block id="58aa7c8a67f411fb22d80b3830bcd784" category="doc">使用 System Manager 编辑镜像和存储关系— ONTAP 9.7 及更早版本</block>
-  <block id="2a5c883848e9cc772501982a7b32b9f0" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过修改选定策略或计划来编辑镜像和存储关系。但是，您不能编辑现有策略或计划的参数。</block>
-  <block id="1e4f433097152201c34a89a43b006635" category="doc">使用 System Manager 恢复暂停的镜像关系 - ONTAP 9.7 及更早版本</block>
-  <block id="1996f4fb463ea1c709660660d37eb896" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）恢复暂停的镜像关系。恢复此关系后，系统将恢复向镜像目标的正常数据传输，并重新启动所有镜像活动。</block>
   <block id="94b62c27be996324d0173ca83ba2629b" category="doc">使用 System Manager 进行名称映射— ONTAP 9.7 及更早版本</block>
   <block id="cee4c228dbc1bd4065b40bb31f18464c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）指定名称映射条目以映射不同平台的用户。</block>
   <block id="706d088ecb014b185975448770e848fa" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建和管理 Storage Virtual Machine （ SVM ）用户帐户</block>
@@ -9446,8 +9406,6 @@
   <block id="e04d733170c775fa5ecebcaa3ee8a458" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重新建立先前已断开的镜像关系。在反向重新同步操作中，您可以反转源卷和目标卷的功能。</block>
   <block id="d40cfc39f79f1537f0808a3b5576751a" category="doc">使用 System Manager - ONTAP 9.7 及更早版本从目标 SVM 创建镜像关系</block>
   <block id="b77843c3f8ae61a4d70a598fdb4c0c1e" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从目标 Storage Virtual Machine （ SVM ）创建镜像关系，并为镜像关系分配策略和计划。如果源卷上的数据损坏或丢失，镜像副本可以快速提供数据。</block>
-  <block id="eb1d31c51189f9c044e0d58aeef738ca" category="doc">使用 System Manager 重新同步镜像和存储关系 - ONTAP 9.7 及更早版本</block>
-  <block id="f9ea1b5aa775cb6f0ce37c0625586896" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重新建立先前已断开的镜像和存储关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。</block>
   <block id="7b636060a1edee9c18093390f42f6441" category="paragraph"><block ref="7b636060a1edee9c18093390f42f6441" category="inline-link-macro-rx"></block></block>
   <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
   <block id="7fc9d2dac7a3691a556388235669f20b" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建本地 Windows 用户帐户</block>
@@ -9456,22 +9414,12 @@
   <block id="3a7f7d9913063f7ef0a2e90629eb8ad8" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将本地用户， Active Directory 用户或 Active Directory 组（如果您希望用户拥有与该组关联的权限）添加到 Windows 本地组。</block>
   <block id="f11fdf178e9f4a585ed4c804386ba193" category="doc">使用 System Manager - ONTAP 9.7 及更早版本删除本地 Windows 组</block>
   <block id="f6b214ba0427d69a51c88da91749df47" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本） 从 Storage Virtual Machine （ SVM ）中删除本地 Windows 组，前提是不再需要该组来确定对 SVM 中数据的访问权限或为组成员分配 SVM 用户权限（特权）。</block>
-  <block id="07fd8f3ebecaf5b0ee6df0eeaacf4cd1" category="doc">使用 System Manager 删除镜像关系 - ONTAP 9.7 及更早版本</block>
-  <block id="2add29dba3f579e7873ffccebda39883" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）删除镜像关系并永久结束源卷与目标卷之间的镜像关系。删除镜像关系后，源卷上的基本 Snapshot 副本将被删除。</block>
-  <block id="650ead9da4264c25a8ec4bac6caf3103" category="doc">使用 System Manager — ONTAP 9.7 及更早版本初始化镜像关系</block>
-  <block id="2d257bc7ad7971ece9f3c5a9f7a360ab" category="paragraph">启动镜像关系时，必须初始化该关系。初始化关系包括从源卷到目标卷的完整基线数据传输。如果在创建镜像关系时尚未初始化此关系，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）初始化此关系。</block>
   <block id="54c694780bc0d73c45bd41e05288e37b" category="doc">使用 System Manager - ONTAP 9.7 及更早版本重命名本地 Windows 组</block>
   <block id="eb95faffa28da69a4bf5e7047d2c7f4c" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重命名本地 Windows 组，以便更轻松地识别该组。</block>
   <block id="665c825107a5830a82d2b69e5aeff554" category="doc">中止与 System Manager 的镜像和存储关系— ONTAP 9.7 及更早版本</block>
   <block id="b182b9233296a73be3f27b870226b2af" category="paragraph">如果要停止数据传输，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。</block>
   <block id="af744edfa9643645796a3d01c80db4bc" category="doc">使用 System Manager - ONTAP 9.7 及更早版本为用户帐户分配组成员资格</block>
   <block id="dc70272f593f6af1c12f7efe72a0e330" category="paragraph">如果您希望用户拥有与特定组关联的权限，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）为用户帐户分配组成员资格。</block>
-  <block id="0d3bbe8b78353d5562dabcf969cc1dae" category="doc">使用 System Manager 更新镜像关系— ONTAP 9.7 及更早版本</block>
-  <block id="1eddf35781858e6d7b51ae77406277d1" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）对目标启动计划外镜像更新。您可能需要执行手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。</block>
-  <block id="48eed03d602d577542605f9afa7f0012" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑镜像关系</block>
-  <block id="e666de52884b241977ae2e4598f2e051" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）通过选择集群中的现有策略或计划或者创建策略或计划来编辑镜像关系。</block>
-  <block id="a51dbb033d276fe1b15f5efb9a2e6916" category="doc">暂停与 System Manager - ONTAP 9.7 及更早版本的镜像关系</block>
-  <block id="6b20144c3e0fa3b348c35e826c79a3f5" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）暂停镜像目标，以便在创建 Snapshot 副本之前使其保持稳定。暂停操作可以完成镜像关系的活动镜像传输，并禁用以后的传输。</block>
   <block id="85d0833b56faab64ea27240a6f082070" category="doc">使用 System Manager - ONTAP 9.7 及更早版本重置 Windows 本地用户的密码</block>
   <block id="55e67ad0368005cd9a055b4b179ef69e" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重置 Windows 本地用户的密码。例如，如果当前密码泄露或用户忘记了密码，您可能需要重置密码。</block>
   <block id="66a86df29a3df9220ad1f1c90164d7d6" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑本地 Windows 用户属性</block>
@@ -9480,4 +9428,29 @@
   <block id="9f7846eb6b93be23ec56786e828ee53e" category="paragraph">您可以通过使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）添加和删除本地用户， Active Directory 用户或 Active Directory 组来管理本地组成员资格。您可以修改分配给组的权限以及组的问题描述，以便轻松标识组。</block>
   <block id="1721ba418668b0e222dfb8cb45448455" category="doc">使用 System Manager - ONTAP 9.7 及更早版本重命名本地 Windows 用户</block>
   <block id="d39d06fa99b2894ced6d109c0b410699" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重命名本地 Windows 用户帐户，以便更轻松地识别本地用户。</block>
+  <block id="9d19621188a7ddeb48a045dd2d39bbdf" category="paragraph">Perfalink ： online -help-96-97/ task_creating_vault_relationship_from_destination_svm.html 重定向： ontap-sm-classic/redirect/ontap-sm-classic/online -help-96-97/ task_editing_vault_relationships.html</block>
+  <block id="a5e43690037a175b3839475cc48dd350" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理存储关系</block>
+  <block id="48bf13819878ffc3abe7cc117e2144c4" category="paragraph">除了从目标 SVM 创建存储关系之外，您还可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）来更新，恢复，暂停，初始化和删除存储关系。</block>
+  <block id="e0ee58226c5bcccbc24858177927a575" category="section-title">编辑关系</block>
+  <block id="ebd58c12724484185b112ef9fa8ea6e6" category="section-title">初始化关系</block>
+  <block id="dbb1c9398d4d9e25d14aba165d169b68" category="section-title">从目标 SVM 创建关系</block>
+  <block id="ab344d7fb1689680a0d4cdbbc5de1e05" category="section-title">更新关系</block>
+  <block id="76db6b34fbbc30a6bf267e7b8d4ded4b" category="section-title">删除关系</block>
+  <block id="779ce943bfcf388aea4fa5a5a1d45974" category="section-title">恢复关系</block>
+  <block id="f667840b03e4954209dac92efcf77cc2" category="section-title">暂停关系</block>
+  <block id="6101faf64442e938a7c3e24db1680122" category="doc">使用 System Manager 管理镜像关系— ONTAP 9.7 及更早版本</block>
+  <block id="b6ca78baa0afadbb225947cd6831fefc" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理镜像关系。除了恢复已暂停的镜像关系之外，您还可以更新，暂停，初始化，重新建立，删除和编辑镜像关系。</block>
+  <block id="aa6105e2616d9aaebd65575bdf43d7d1" category="paragraph">您可以使用 System Manager 删除镜像关系并永久结束源卷与目标卷之间的镜像关系。删除镜像关系后，源卷上的基本 Snapshot 副本将被删除。</block>
+  <block id="c635a3eba9f55669cb810f90f9277156" category="section-title">重新同步关系</block>
+  <block id="d0ac2d242af3fab7034e0c66a45bf889" category="paragraph">您可以使用 System Manager 重新建立先前已断开的镜像关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。</block>
+  <block id="1b25bcf7e4a201ba9229d55f3a7b0e32" category="section-title">恢复暂停的关系</block>
+  <block id="2289be2a2365e51d7185f366e7b82873" category="paragraph">您可以使用 System Manager 恢复已暂停的镜像关系。恢复此关系后，系统将恢复向镜像目标的正常数据传输，并重新启动所有镜像活动。</block>
+  <block id="8155bef0c8f1cbeca168907c179a03e5" category="paragraph">您可以使用 System Manager 对目标启动计划外镜像更新。您可能需要执行手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。</block>
+  <block id="d778c33876cbd2b8268b53d9c92f5118" category="doc">使用 System Manager 管理镜像和存储关系— ONTAP 9.7 及更早版本</block>
+  <block id="d20367ec9463146247a691d4d655b5e1" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理镜像和存储关系。您可以编辑，删除，初始化，更新，暂停， 恢复和中断镜像和存储关系。除了从目标 SVM 创建镜像和存储关系之外，您还可以执行重新同步或反向重新同步操作。</block>
+  <block id="5a23be0d994fb95f00953565e36e42cd" category="section-title">手动更新关系</block>
+  <block id="f975ac8f1e339f0853e1f7b3e8bacc40" category="section-title">从目标 SVM 创建关系</block>
+  <block id="f3f3b96d8274242da43a2f42e804cad6" category="section-title">反向重新同步关系</block>
+  <block id="94abed87672787fb153772c9fb63614e" category="section-title">中断关系</block>
+  <block id="14a98e8a343b35168e84061fb6deab29" category="paragraph">如果您具有暂停的镜像和存储关系，则可以使用 System Manager 恢复此关系。恢复此关系后，系统将恢复向目标卷进行的正常数据传输，并重新启动所有保护活动。</block>
 </blocks>

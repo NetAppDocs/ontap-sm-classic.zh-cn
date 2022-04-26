@@ -1,26 +1,8 @@
 ---
 permalink: online-help-96-97/task_resuming_vault_relationships.html 
-sidebar: sidebar 
-keywords: resume, vault, relationship, online, help, system, manager, data, transfer 
-summary: 您可以使用 System Manager 恢复暂停的存储关系。恢复此关系后，系统将恢复向目标 FlexVol 卷进行的正常数据传输，并重新启动所有存储活动。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html 
 ---
-= 恢复与 System Manager 的存储关系— ONTAP 9.7 及更早版本
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）恢复暂停的存储关系。恢复此关系后，系统将恢复向目标 FlexVol 卷进行的正常数据传输，并重新启动所有存储活动。
-
-.步骤
-. 单击 * 保护 * > * 卷关系 * 。
-. 选择要恢复数据传输的关系，然后单击 * 操作 * > * 恢复 * 。
-. 在 * 恢复 * 窗口中，单击 * 恢复 * 。
-
-
-恢复正常数据传输。如果此关系已计划传输，则此传输将从下一个计划开始。
-
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]

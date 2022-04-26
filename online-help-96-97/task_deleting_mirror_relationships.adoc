@@ -1,28 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_mirror_relationships.html 
-sidebar: sidebar 
-keywords: delete, mirror, relationships, online, help, snapshot, copy 
-summary: 您可以删除镜像关系并永久结束源卷与目标卷之间的镜像关系。删除镜像关系后，源卷上的基本 Snapshot 副本将被删除。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html 
 ---
-= 使用 System Manager 删除镜像关系 - ONTAP 9.7 及更早版本
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）删除镜像关系并永久结束源卷与目标卷之间的镜像关系。删除镜像关系后，源卷上的基本 Snapshot 副本将被删除。
-
-删除镜像关系之前，最好先断开镜像关系。
-
-.步骤
-. 单击 * 保护 * > * 卷关系 * 。
-. 选择要删除的镜像关系，然后单击 * 删除 * 。
-. 选中确认复选框以删除镜像关系并释放基本 Snapshot 副本，然后单击 * 删除 * 。
-
-
-此时将删除此关系，并删除源卷上的基本 Snapshot 副本。
-
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
