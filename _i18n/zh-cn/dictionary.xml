@@ -2641,7 +2641,6 @@
   <block id="3a501d3a65994d497f5cb40fb393ac8c" category="paragraph">您可以选择此选项以指定 cron 模式的计划。</block>
   <block id="85b46078a35291049ac1edfa07e75f35" category="paragraph">您不想分配计划</block>
   <block id="a26531ddd22c342a5bd9860ea919b50d" category="paragraph">选择 * 无 * 。</block>
-  <block id="b9b83c03586f346b6fdd8afa94f2839d" category="doc">通过根据存储建议创建聚合来配置存储</block>
   <block id="f527ab93e764b9b968cad6273c5a0f1c" category="list-text">您不能根据 Cloud Volumes ONTAP ， ONTAP Select 和 MetroCluster 配置中的存储建议创建聚合。</block>
   <block id="3efcf0a9999f2a8e8d0650f90fe62f04" category="list-text">如果存在任何错误，则会显示在屏幕上。</block>
   <block id="e58728e95da676e6c26dd655adcf9ddc" category="paragraph">您可以修复这些错误，然后根据存储建议创建聚合，也可以手动创建聚合。</block>
@@ -5207,7 +5206,6 @@
   <block id="e21233a7f0d7fedb5883aea1dfed27cf" category="list-text">访问协议</block>
   <block id="baedff73fdfff23f65e8b80727cd3088" category="list-text">访问详细信息</block>
   <block id="b0c2f11a1490b3f1c79ce5025eabda52" category="list-text">验证导出规则的更新更改是否显示在 * 导出规则 * 选项卡中。</block>
-  <block id="54acf068c9d0de4a69ed8d974205c201" category="doc">使用 System Manager 配置集群</block>
   <block id="fa9b78c8d98449ad623cf9c3061e2610" category="summary">如果源端口出现故障或需要维护，您可以使用 System Manager 将数据 LIF 或集群管理 LIF 迁移到集群中同一节点或不同节点上的其他端口。</block>
   <block id="fdbee5f0bccba97290ea1f0c8e2da4a6" category="paragraph">目标节点和端口必须正常运行，并且必须能够访问与源端口相同的网络。</block>
   <block id="599b5262b7fbed8b328b473c124117ee" category="list-text">如果要从节点中删除 NIC ，则必须将属于该 NIC 的端口上托管的 LIF 迁移到集群中的其他端口。</block>
@@ -6138,7 +6136,6 @@
   <block id="332f7443ce6f845f0e4612a1953702d0" category="list-text">在 * 启动程序组 * 选项卡中，选择启动程序所属的启动程序组，然后单击 * 编辑 * 。</block>
   <block id="05fadadb4e82b593b997e532856301ab" category="list-text">选择要编辑的启动程序，然后单击 * 编辑 * 。</block>
   <block id="4ac8088e85489a5e325a71e2c9694b7b" category="list-text">更改名称并单击 * 确定 * 。</block>
-  <block id="c8442f81c4d3560c22f5b2789ad3322b" category="doc">配置 SVM 的管理详细信息</block>
   <block id="b7741109a9b1c061304a8da08dccc9de" category="paragraph">您可以使用 System Manager 快速配置存储虚拟机（ SVM ）的管理详细信息。您可以选择将 SVM 的管理委派给 SVM 管理员。</block>
   <block id="aa672d71a085ada5e9a54f90f48abb5e" category="paragraph">作为 SVM 管理员，您不能使用 System Manager 管理委派的 SVM 。您只能使用命令行界面（ CLI ）来管理 SVMsonly 。</block>
   <block id="849b25c65aab49d7e490a11d44d8fe93" category="list-text">在 * SVM* 选项卡中，选择节点，然后单击 * 配置管理详细信息 * 。</block>
@@ -6315,7 +6312,6 @@
   <block id="33ebaf0798e7ca01ef22a5e89b3cb821" category="list-text">从 * SVM* 字段的下拉菜单中，选择要删除的配额所在的 Storage Virtual Machine （ SVM ）。</block>
   <block id="ede1cd90312d02c6f76edf683fca51e9" category="list-text">选择要删除的一个或多个配额，然后单击 * 删除 * 。</block>
   <block id="330c5bad0b924f532120259d86b27ed2" category="summary">您可以使用 System Manager 通过创建和管理 IP 空间，广播域，子网，网络接口，以太网端口， 和 FC/FCoE 适配器。</block>
-  <block id="8018f4064283c55dfa6bfec30f453db2" category="doc">通过手动创建 SnapLock 聚合配置存储</block>
   <block id="38ef748223faace4d3330c24cb1484f8" category="paragraph">必须已添加 SnapLock 许可证。</block>
   <block id="77db25bdfb80aa1d0ccdedf1bf8c4811" category="list-text">在 MetroCluster 配置中，您只能创建 SnapLock 企业聚合。</block>
   <block id="7f2385194f8b9f77992e74007f1eba1c" category="list-text">对于阵列 LUN ，仅支持 SnapLock 企业聚合。</block>
@@ -7876,7 +7872,6 @@
   <block id="d129f6c98e37c0be76c2f406b61b16fe" category="doc">管理集群</block>
   <block id="70d81d76e7e6ddb8148c26b4474cd931" category="summary">您可以使用 System Manager 更改默认 iSCSI 身份验证方法，此身份验证方法适用于未配置特定身份验证方法的任何启动程序。</block>
   <block id="f3a94bcb82040980e2f12ee0d098a87a" category="list-text">在 * 启动程序安全性 * 选项卡中，单击 * 默认安全性 * 区域中的 * 编辑 * 。</block>
-  <block id="44d0299d0fc31a880b954ccc657a0d6e" category="doc">通过手动创建聚合配置存储</block>
   <block id="97dba5acf15587b71ee98a554fe289f3" category="paragraph">所有磁盘的大小必须相同。</block>
   <block id="00a75fb35e6e77311b62e8e94339e5e0" category="list-text">如果要在 ONTAP Select 中的四节点集群上创建聚合，则默认情况下会选中镜像聚合选项。</block>
   <block id="00e5021250b8b5eb737448724650f488" category="list-text">创建聚合：</block>
@@ -8334,8 +8329,6 @@
   <block id="3402829d82cf648c6f41ae5baff2b540" category="sidebar">禁用 SAML 身份验证</block>
   <block id="4145d0d7fbcb0d29c794d65d3084cf6b" category="sidebar">设置对等</block>
   <block id="0d9029e785d6af991e53b31b279e9aa4" category="sidebar">管理集群</block>
-  <block id="74722ab72582e7af7d62ece733b2150b" category="sidebar">了解仲裁和 epsilon</block>
-  <block id="f06636b2346b63459f02015a51ae4972" category="sidebar">使用信息板监控集群</block>
   <block id="af107aead5a30e669642736622e80e70" category="sidebar">编辑应用程序</block>
   <block id="2a7744231308a439ef79ca3874bd7542" category="sidebar">删除应用程序</block>
   <block id="38abf1a212acc0b67529e5ca8f89e640" category="sidebar">编辑服务处理器设置</block>
@@ -8490,10 +8483,6 @@
   <block id="747db15d84dfaabaf70d11952f46c2a0" category="sidebar">删除本地 Windows 用户帐户</block>
   <block id="f14e71e7e0d11fd8ae3de32514c9cf0f" category="sidebar">管理数据保护</block>
   <block id="bda77c175f764372331084b2a8e075aa" category="sidebar">删除镜像关系</block>
-  <block id="523b28a3bedda7bafa50e18fa254efab" category="sidebar">编辑镜像关系</block>
-  <block id="4872f9b976228a8ab5b57af5b65359a7" category="sidebar">初始化镜像关系</block>
-  <block id="d780ef1cd072d3fa5780c148229ff679" category="sidebar">更新镜像关系</block>
-  <block id="5f8f5127cb94863d71f54c4c841dde93" category="sidebar">恢复镜像关系</block>
   <block id="d060c996508910ed3ad69c79e87e23af" category="sidebar">中断 SnapMirror 关系</block>
   <block id="537ad555b4601753fd06527686eff90c" category="sidebar">重新同步镜像关系</block>
   <block id="4bc208bafdebbad7e8d3a1fd96045f3e" category="sidebar">中止镜像传输</block>
@@ -9453,4 +9442,5 @@
   <block id="f3f3b96d8274242da43a2f42e804cad6" category="section-title">反向重新同步关系</block>
   <block id="94abed87672787fb153772c9fb63614e" category="section-title">中断关系</block>
   <block id="14a98e8a343b35168e84061fb6deab29" category="paragraph">如果您具有暂停的镜像和存储关系，则可以使用 System Manager 恢复此关系。恢复此关系后，系统将恢复向目标卷进行的正常数据传输，并重新启动所有保护活动。</block>
+  <block id="5a1525d50d3d3d93a88bf7e478ee0f10" category="sidebar">管理镜像关系</block>
 </blocks>

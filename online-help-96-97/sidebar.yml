@@ -40,27 +40,10 @@ entries:
   url: "/online-help-96-97/task_configuring_system_manager_options.html"
 - title: 查看 ONTAP System Manager 日志文件
   url: "/online-help-96-97/task_viewing_system_manager_log_files.html"
-- title: 使用 System Manager 配置集群
-  url: "/online-help-96-97/concept_configuring_cluster_by_using_system_manager.html"
-  entries:
-  - title: 使用 ONTAP System Manager 基于浏览器的图形界面访问集群
-    url: "/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html"
 - title: 设置集群
   entries:
-  - title: 更新集群名称
+  - title: 设置集群
     url: "/online-help-96-97/task_updating_cluster_name.html"
-  - title: 更改集群密码
-    url: "/online-help-96-97/task_changing_password.html"
-  - title: 编辑 DNS 配置
-    url: "/online-help-96-97/task_editing_dns_configurations.html"
-  - title: 创建集群管理逻辑接口
-    url: "/online-help-96-97/task_creating_cluster_management_logical_interface.html"
-  - title: 编辑节点名称
-    url: "/online-help-96-97/task_editing_node_name.html"
-  - title: 创建节点管理逻辑接口
-    url: "/online-help-96-97/task_creating_node_management_logical_interface.html"
-  - title: 编辑 AutoSupport 设置
-    url: "/online-help-96-97/task_editing_autosupport_settings.html"
   - title: 添加许可证
     url: "/online-help-96-97/task_adding_licenses.html"
   - title: 设置集群的时区
@@ -77,17 +60,6 @@ entries:
     url: "/online-help-96-97/task_zeroing_disks.html"
   - title: 通过聚合配置存储
     url: "/online-help-96-97/task_provisioning_storage_through_aggregates.html"
-    entries:
-    - title: 通过根据存储建议创建聚合来配置存储
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_aggregate_based_on_storage_recommendations.html"
-    - title: 通过手动创建聚合配置存储
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_aggregate_manually.html"
-    - title: 通过手动创建 Flash Pool 聚合来配置存储
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_flash_pool_aggregate_manually.html"
-    - title: 通过手动创建 SnapLock 聚合配置存储
-      url: "/online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html"
-    - title: 通过手动创建启用了 FabricPool 的聚合来配置存储
-      url: "/online-help-96-97/task_provisioning_storage_creating_fabricpool_enabled_aggregate_manually_delete.html"
 - title: 创建 SVM
   url: "/online-help-96-97/task_creating_svms.html"
   entries:
@@ -110,24 +82,10 @@ entries:
 - title: 设置对等
   url: "/online-help-96-97/task_setting_up_peering.html"
 - title: 管理集群
-  url: "/online-help-96-97/concept_understanding_quorum_epsilon.html"
   entries:
-  - title: 了解仲裁和 epsilon
-    url: "/online-help-96-97/concept_understanding_quorum_epsilon.html"
   - title: 信息板窗口
     url: "/online-help-96-97/reference_dashboard_window.html"
-    entries:
-    - title: 使用信息板监控集群
-      url: "/online-help-96-97/task_monitoring_status_using_dashboard.html"
-  - title: 配置更新
-    url: "/online-help-96-97/concept_configuration_update.html"
-    entries:
-    - title: 配置 SVM 的管理详细信息
-      url: "/online-help-96-97/task_configuring_administration_details_svm.html"
-    - title: 配置更新窗口
-      url: "/online-help-96-97/reference_configuration_updates_window.html"
   - title: MetroCluster 切换和切回
-    url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
     entries:
     - title: MetroCluster 切换和切回工作流
       url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
@@ -221,7 +179,6 @@ entries:
 - title: FC/FCoE 和 NVMe 适配器
   url: "/online-help-96-97/concept_fc_fcoe_nvme_adapters.html"
 - title: 存储层
-  url: "/online-help-96-97/task_editing_aggregates.html"
   entries:
   - title: 编辑聚合
     url: "/online-help-96-97/task_editing_aggregates.html"
@@ -593,8 +550,7 @@ entries:
   url: "/online-help-96-97/concept_roles_delete.html"
 - title: '"unix"'
   url: "/online-help-96-97/concept_unix.html"
-- title: 创建本地 Windows 组
-  url: "/online-help-96-97/task_creating_local_user_group.html"
+- title: Windows
   entries:
   - title: 创建本地 Windows 组
     url: "/online-help-96-97/task_creating_local_user_group.html"
@@ -632,16 +588,8 @@ entries:
       url: "/online-help-96-97/task_creating_mirror_relationship_from_destination_svm.html"
     - title: 删除镜像关系
       url: "/online-help-96-97/task_deleting_mirror_relationships.html"
-    - title: 编辑镜像关系
+    - title: 管理镜像关系
       url: "/online-help-96-97/task_editing_mirror_relationships.html"
-    - title: 初始化镜像关系
-      url: "/online-help-96-97/task_initializing_mirror_relationships.html"
-    - title: 更新镜像关系
-      url: "/online-help-96-97/task_updating_mirror_relationships.html"
-    - title: 暂停镜像关系
-      url: "/online-help-96-97/task_quiescing_mirror_relationships.html"
-    - title: 恢复镜像关系
-      url: "/online-help-96-97/task_resuming_mirror_relationships.html"
     - title: 中断 SnapMirror 关系
       url: "/online-help-96-97/task_breaking_snapmirror_relationships.html"
     - title: 重新同步镜像关系
