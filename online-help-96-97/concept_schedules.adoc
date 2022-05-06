@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, system, manager, manage, schedule, storage 
 summary: 您可以使用 System Manager 在存储系统中创建和管理计划。 
 ---
-= Schedules
+= 使用System Manager - ONTAP 9.7及更早版本管理计划
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 在存储系统中创建和管理计划。
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在存储系统中创建和管理计划。
 
 
 

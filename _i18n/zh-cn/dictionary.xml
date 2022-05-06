@@ -9443,4 +9443,10 @@
   <block id="94abed87672787fb153772c9fb63614e" category="section-title">中断关系</block>
   <block id="14a98e8a343b35168e84061fb6deab29" category="paragraph">如果您具有暂停的镜像和存储关系，则可以使用 System Manager 恢复此关系。恢复此关系后，系统将恢复向目标卷进行的正常数据传输，并重新启动所有保护活动。</block>
   <block id="5a1525d50d3d3d93a88bf7e478ee0f10" category="sidebar">管理镜像关系</block>
+  <block id="b7ec724705dfb51c3e3d8c7338ee51cc" category="doc">使用System Manager - ONTAP 9.7及更早版本管理保护策略</block>
+  <block id="121e126ccb3ed9f1bd655bd54fdcda6f" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)创建、编辑和删除保护策略。</block>
+  <block id="811e46b365614dad2afccbb5744217f7" category="doc">使用System Manager - ONTAP 9.7及更早版本管理Snapshot策略</block>
+  <block id="92526cba00250769d0d0d584b6d93ce4" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在存储系统中创建和管理Snapshot策略。</block>
+  <block id="f3400c7c7f134d2f8f2f30b279b5c285" category="doc">使用System Manager - ONTAP 9.7及更早版本管理计划</block>
+  <block id="c934845b8edbac9b1640d3a858f83f4a" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在存储系统中创建和管理计划。</block>
 </blocks>

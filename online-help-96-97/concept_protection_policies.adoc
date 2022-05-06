@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: online, help, protection, policy, system, manager, create, edit, delete 
 summary: 您可以使用 System Manager 创建，编辑和删除保护策略。 
 ---
-= 保护策略
+= 使用System Manager - ONTAP 9.7及更早版本管理保护策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 创建，编辑和删除保护策略。
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)创建、编辑和删除保护策略。
 
 
 

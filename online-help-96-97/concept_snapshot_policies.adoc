@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: snapshot, manager, system, create, manage, policy, storage, online, help 
 summary: 您可以使用 System Manager 在存储系统中创建和管理 Snapshot 策略。 
 ---
-= Snapshot 策略
+= 使用System Manager - ONTAP 9.7及更早版本管理Snapshot策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用 System Manager 在存储系统中创建和管理 Snapshot 策略。
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在存储系统中创建和管理Snapshot策略。
 
 
 
