@@ -144,8 +144,6 @@ entries:
     url: "/online-help-96-97/task_updating_single_node_clusters.html"
   - title: 无中断更新集群
     url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
-  - title: 无中断更新集群
-    url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
   - title: 集群更新窗口
     url: "/online-help-96-97/reference_cluster_update_window.html"
 - title: 集群的日期和时间设置
@@ -200,8 +198,6 @@ entries:
     url: "/online-help-96-97/task_viewing_aggregate_information.html"
   - title: 如果使用 StorageGRID ，则安装 CA 证书
     url: "/online-help-96-97/task_installing_ca_certificate_if_you_use_storagegrid_webscale.html"
-  - title: 移动 FlexVol 卷的工作原理
-    url: "/online-help-96-97/concept_how_moving_volume_works.html"
   - title: 如何使用有效的 ONTAP 磁盘类型混合 HDD
     url: "/online-help-96-97/reference_effective_data_ontap_disk_types.html"
   - title: 什么是兼容备用磁盘
@@ -210,10 +206,6 @@ entries:
     url: "/online-help-96-97/concept_how_system_manager_calculates_hot_spares.html"
   - title: 显示磁盘类型和磁盘 RPM 的规则
     url: "/online-help-96-97/concept_rules_for_mixing_disk_types_disk_rpms.html"
-  - title: 镜像聚合的工作原理
-    url: "/online-help-96-97/concept_how_mirrored_aggregates_work.html"
-  - title: 什么是 FabricPool
-    url: "/online-help-96-97/concept_what_fabricpool_is.html"
   - title: 用于创建聚合的存储建议
     url: "/online-help-96-97/concept_storage_recommendations_for_creating_aggregates.html"
   - title: 存储层窗口
@@ -226,21 +218,14 @@ entries:
   url: "/online-help-96-97/concept_storage_pools.html"
 - title: 将磁盘重新分配给节点
   url: "/online-help-96-97/task_reassigning_disks_to_nodes.html"
+- title: Disks
   entries:
   - title: 查看磁盘信息
     url: "/online-help-96-97/task_viewing_disk_information.html"
   - title: ONTAP 如何报告磁盘类型
     url: "/online-help-96-97/concept_how_ontap_reports_drive_types.html"
-  - title: 磁盘所需的最少热备用磁盘数
-    url: "/online-help-96-97/concept_minimum_number_hot_spares_you_should_have.html"
-  - title: 多磁盘托架磁盘的备用要求
-    url: "/online-help-96-97/concept_spare_requirements_for_multi_disk_carrier_disk_shelves.html"
-  - title: 多磁盘托架存储架的磁盘架配置要求
-    url: "/online-help-96-97/concept_shelf_configuration_requirements_for_multi_disk_carrier_disk_shelves.html"
   - title: 确定何时可以安全删除多磁盘托架
     url: "/online-help-96-97/concept_how_to_determine_when_safe_to_remove_multi_disk_carrier.html"
-  - title: 调整 RAID 组大小的注意事项
-    url: "/online-help-96-97/concept_considerations_for_sizing_raid_groups.html"
   - title: 磁盘窗口
     url: "/online-help-96-97/reference_disks_window.html"
 - title: 阵列 LUN
@@ -259,8 +244,6 @@ entries:
   url: "/online-help-96-97/concept_jobs.html"
 - title: Flash Pool 统计信息
   url: "/online-help-96-97/concept_flash_pool_statistics.html"
-- title: 管理逻辑存储
-  url: "/online-help-96-97/concept_managing_logical_storage.html"
 - title: SVM 信息板窗口
   url: "/online-help-96-97/reference_svm_dashboard_window.html"
   entries:
@@ -278,8 +261,6 @@ entries:
     url: "/online-help-96-97/reference_managing_svms.html"
   - title: 跟踪文件访问以诊断 SVM 上的访问错误
     url: "/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html"
-  - title: SVMs 的类型
-    url: "/online-help-96-97/concept_types_svms.html"
   - title: 为什么使用 SVM
     url: "/online-help-96-97/concept_why_you_use_svms.html"
   - title: ONTAP 名称服务交换机配置的工作原理
@@ -333,9 +314,6 @@ entries:
     url: "/online-help-96-97/task_running_deduplication_operations.html"
   - title: 在聚合或节点之间移动 FlexVol 卷
     url: "/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html"
-    entries:
-    - title: 手动触发卷移动转换
-      url: "/online-help-96-97/task_manually_triggering_cutover_phase.html"
   - title: 将卷分配给存储 QoS
     url: "/online-help-96-97/task_assigning_volumes_to_storage_qos.html"
   - title: 从源 SVM 创建镜像关系
@@ -376,28 +354,12 @@ entries:
     url: "/online-help-96-97/task_changing_status_flexcache_volume.html"
   - title: 删除 FlexCache 卷
     url: "/online-help-96-97/task_deleting_flexcache_volumes.html"
-  - title: 什么是 NetApp 卷加密
-    url: "/online-help-96-97/concept_what_netapp_volume_encryption_is.html"
-  - title: Snapshot 配置
-    url: "/online-help-96-97/concept_snapshot_configuration.html"
   - title: 卷保证对 FlexVol 卷的工作原理
     url: "/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html"
-  - title: FlexClone 卷和空间保证
-    url: "/online-help-96-97/concept_flexclone_volumes_space_guarantees.html"
-  - title: 使用 FlexVol 卷进行精简配置以提高效率
-    url: "/online-help-96-97/concept_thin_provisioning_for_greater_efficiencies_using_flexvol_volumes.html"
   - title: 对 FlexVol 卷使用空间预留
     url: "/online-help-96-97/concept_using_space_reservation_with_flexvol_volumes.html"
-  - title: 存储效率的优势
-    url: "/online-help-96-97/concept_benefits_storage_efficiency.html"
-  - title: 数据压缩和重复数据删除
-    url: "/online-help-96-97/concept_data_compression_deduplication.html"
-  - title: 使用重复数据删除的准则
-    url: "/online-help-96-97/reference_guidelines_for_using_deduplication.html"
   - title: 用于调整卷大小的选项
     url: "/online-help-96-97/concept_options_for_resizing_volumes.html"
-  - title: 移动卷时的注意事项
-    url: "/online-help-96-97/concept_considerations_when_moving_volumes.html"
   - title: 卷窗口
     url: "/online-help-96-97/reference_volumes_window.html"
 - title: Junction path
