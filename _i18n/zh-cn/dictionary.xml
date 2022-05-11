@@ -2702,7 +2702,6 @@
   <block id="354e20e392b6f4839215d5036f756e8f" category="paragraph">您不应从下拉菜单中选择用于灾难恢复的目标 SVM 来创建导出策略。</block>
   <block id="eb801dbd529c3b2f57237587a86aca87" category="list-text">在 "** 导出规则 "* 区域中，单击 * 添加 * 向导出策略添加规则。</block>
   <block id="e0021a98baff12eb4ec0bf3367afc00d" category="list-text">验证创建的导出策略是否显示在 * 导出策略 * 窗口中。</block>
-  <block id="b42bc8b4d95db5c8d28cad47c91c38e8" category="doc">igroup 操作系统类型</block>
   <block id="499f655331418326fddcfb1f78ffe612" category="summary">您可以使用 System Manager 创建和管理 Storage Virtual Machine （ SVM ）用户帐户。</block>
   <block id="f9aae5fda8d810a29f12d1e61b4ab25f" category="doc">用户</block>
   <block id="adc9a56984fed54c5e8a9a0495e502a7" category="summary">您可以使用 System Manager 通过启用或禁用接口来控制用于 iSCSI 通信的网络接口。启用 iSCSI 服务后， iSCSI 连接和请求将通过为 iSCSI 启用的网络接口接受，但不会通过已禁用的接口接受。</block>
@@ -3050,7 +3049,6 @@
   <block id="30adc505038075f7ff4b7dd8c46ed581" category="paragraph">此时将删除本地组及其成员资格记录。</block>
   <block id="e074b06c6bcffc41130111700ce589f4" category="summary">您可以设置安全断言标记语言（ SAML ）身份验证，以便远程用户在登录到 System Manager 之前通过安全身份提供程序（ IdP ）进行身份验证。</block>
   <block id="a1c17e9e89d922e43d5aa0884477d0b3" category="image-alt">MFA 工作流</block>
-  <block id="ccdb7bf9d93e5652b57cabcc8c41e061" category="doc">Schedules</block>
   <block id="8275bc465c55d12cddbb9a7784491b14" category="paragraph">您可以配置许多任务（例如，卷 Snapshot 副本和镜像复制），使其按指定计划运行。按指定计划运行的计划称为 _cron_ 计划，因为它们与 UNIX `cron` 计划类似。按间隔运行的计划称为 _interval_ 计划。</block>
   <block id="b343a97688c7029f7105ec46cd6d3ce8" category="paragraph">您可以通过以下方式管理计划：</block>
   <block id="4efe225ffafe863f9a2d383882474221" category="list-text">创建 cron 计划或间隔计划</block>
@@ -3267,7 +3265,6 @@
   <block id="fe975fdbc1a4ce71f4970b4f5c786235" category="paragraph">显示 SNMP 服务器的社区名称。</block>
   <block id="beb121731221cade02463599d8adca1e" category="list-text">* 安全名称 *</block>
   <block id="107bea07d2bf29e67c0aa91b72728753" category="paragraph">显示 SNMP 服务器的安全模式。</block>
-  <block id="f4c0fc1a228f243144f99ec4c1441785" category="doc">启动程序主机</block>
   <block id="5965aeb6244778b6539f2a5da4d3e3c9" category="summary">您可以使用 System Manager 通过启动 Storage Virtual Machine （ SVM ）来提供数据访问。</block>
   <block id="e236d336e04f19a5f31aaeba921e7a28" category="list-text">选择要启动的 SVM ，然后单击 * 启动 * 。</block>
   <block id="c19970592d059062d7ce4832bb7a7720" category="paragraph">SVM 将开始向客户端提供数据。</block>
@@ -3627,7 +3624,6 @@
   <block id="9c5f4c720655efa44a639aa6731684c3" category="paragraph">如果在所有节点上安装了节点锁定许可证，或者在集群上安装了站点许可证，则无论使用情况如何，均不存在授权风险。</block>
   <block id="88183b946cc5f0e8c96b2e66e1c74a7e" category="list-text">未知</block>
   <block id="9812430032475277f82a0bc3792be99d" category="paragraph">如果 API 有时无法检索与集群或集群中节点相关的授权风险相关的数据，则风险未知。</block>
-  <block id="939cfaf55fa855cb56b546b4a6faa5c2" category="doc">SnapMirror 关系的工作原理</block>
   <block id="c1edbc4c9e061c62e85d9779adb916f3" category="summary">您可以使用 System Manager 添加访问控制角色，并指定该角色的用户可以访问的命令或命令目录。此外，您还可以控制角色对命令或命令目录的访问级别，并可以指定查询来对命令或命令目录执行适用场景操作。</block>
   <block id="680bc53c2140210b4a76bfa69cdc2535" category="doc">添加角色</block>
   <block id="7267345a94face97a0b4b2e735d51b1d" category="list-text">在 * SVM 用户详细信息 * 窗格中，单击 * 角色 * 。</block>
@@ -3683,7 +3679,6 @@
   <block id="fbcc56459d29c15620462de83f71074c" category="doc">添加 NIS 域</block>
   <block id="5da00e6820c365b004c01ba5db8b0eed" category="list-text">在 * 服务 * 窗格中，单击 * NIS * 。</block>
   <block id="8bf0edfb67d7acc4766aa49f8f5eac2c" category="list-text">键入 NIS 域名，然后添加一个或多个 NIS 服务器。</block>
-  <block id="fc0cf184ac9872d5db9ff77d32bb19ae" category="doc">什么是 NVMe</block>
   <block id="ec09991f8b29bb79319ce5ba758cb51a" category="summary">您可以使用 System Manager 添加效率策略，以便按指定计划或在卷数据更改达到指定阈值时对卷运行重复数据删除操作。</block>
   <block id="71acd262805cefb647f7287b5fdd51b5" category="doc">添加效率策略</block>
   <block id="fedd4eecd4abd1c6a85498d8a8bf6ce4" category="list-text">在 * 策略 * 窗格中，单击 * 效率策略 * 。</block>
@@ -4134,7 +4129,6 @@
   <block id="0fbd8971220ee7d0340edcc5aa07a5c0" category="inline-link">NetApp 技术报告 3483 ：《 NetApp SAN 或 IP SAN 企业环境中的精简配置》</block>
   <block id="9c9a0c9ae151b8faccd99cacb2c5cfd7" category="paragraph"><block ref="9c9a0c9ae151b8faccd99cacb2c5cfd7" category="inline-link-rx"></block></block>
   <block id="831d5630e653da6abaa112ccec4c1297" category="summary">Storage Virtual Machine （ SVM ）灾难恢复（ DR ）可通过恢复 SVM 成分卷中的数据以及恢复 SVM 配置，在 SVM 级别提供灾难恢复功能。</block>
-  <block id="8e3c3ed2b2343d5ec6f650bb4929ecaa" category="doc">SVM 关系</block>
   <block id="8e34b98fb807bcec3ed66f97d3a91f5f" category="summary">您可以使用效率策略窗口创建，显示和管理有关效率策略的信息。</block>
   <block id="f701c7ead9417fe1e606f37b596ad3b3" category="doc">效率策略窗口</block>
   <block id="b43c8eb1c33715c77d2644f12fe561c3" category="paragraph">打开添加效率策略对话框，在此可以在指定的持续时间（基于计划）或卷数据更改达到指定阈值（基于阈值）时对卷运行重复数据删除操作。</block>
@@ -4301,7 +4295,6 @@
   <block id="d46660e9a212421dead8effdffda7b1a" category="list-text">单击 * 网络 * &gt; * 广播域 * 。</block>
   <block id="95b407213efba60488e097619794f601" category="list-text">选择要删除的广播域，然后单击 * 删除 * 。</block>
   <block id="6fdf6c4c8352f1673b38d5c329f94b7e" category="summary">您可以使用 System Manager 创建，编辑和删除保护策略。</block>
-  <block id="5d1184f76781faaf229c6b885314bcd3" category="doc">保护策略</block>
   <block id="985882a1c05b1efab591200c255c9c18" category="summary">您可以使用 System Manager 将未分配的阵列 LUN 分配给现有聚合，以增加聚合的大小。</block>
   <block id="ced93cbc907159a5b58d65c837220543" category="list-text">如果满足以下条件，则可以分配阵列 LUN ：</block>
   <block id="0eb04ff9cc457d57edef6a52601c5ed1" category="list-text">选定阵列 LUN 的容器类型必须为 "`unassigned` " 。</block>
@@ -4750,7 +4743,6 @@
   <block id="d1061f0844bd3bab4db546fea46a5b13" category="list-text">* 策略规则选项卡 *</block>
   <block id="7c5beb1f61b677340bc21b1becdd87e6" category="paragraph">显示应用于策略的规则的详细信息。只有当选定策略包含规则时，才会显示策略规则选项卡。</block>
   <block id="69ec7f280c33ee5c1e0288ccde6f4382" category="summary">在创建 Snapshot 副本之前，您可以使用 System Manager 暂停目标卷以使目标保持稳定。暂停操作可以完成镜像和存储关系的活动数据传输，并禁用以后的传输。</block>
-  <block id="ce8e2d0c539d6e2f6dd1395f82472558" category="doc">暂停镜像和存储关系</block>
   <block id="c3708408f9dc6c088c7305bb9f73b132" category="paragraph">镜像和存储关系必须处于 Snapmirrored 状态。</block>
   <block id="674715c13a8ed577fb9173a56349da63" category="list-text">选择要暂停的镜像和存储关系，然后单击 * 操作 * &gt; * 暂停 * 。</block>
   <block id="29dae394602a437c321ae57db948174e" category="paragraph">如果没有正在进行的传输，则传输状态将显示为已暂停。如果正在进行传输，则传输不会受到影响，传输状态将显示为正在暂停，直到传输完成为止。</block>
@@ -5050,7 +5042,6 @@
   <block id="2f0beda30988af0d5e49a7aa62c20690" category="paragraph">显示有关选定存储池中磁盘的详细信息，例如名称，磁盘类型，可用大小和总大小。</block>
   <block id="58bd3f8eddbd2def6918aaeddc1aeb38" category="summary">您可以使用 System Manager 管理 DNS/DDNS 服务。</block>
   <block id="35664c8a9946ebefaf08987965cb8b27" category="doc">DNS/DDNS 服务</block>
-  <block id="8941ac7594748e8ec13686f25ab283fd" category="doc">数据保护关系的类型</block>
   <block id="36afff17041316f3d07de8b06cc92c3a" category="summary">您可以导出卷上的特定 qtree ，使其可供客户端直接访问，而不是导出整个卷。您可以使用 System Manager 通过为 qtree 分配导出策略来导出 qtree 。您可以从 qtree 窗口为一个或多个 qtree 分配导出策略。</block>
   <block id="2da17c44350d159bed805bcb18bcde08" category="list-text">从 SVM 字段的下拉菜单中选择要导出的 qtree 所在的 Storage Virtual Machine （ SVM ）。</block>
   <block id="0d3bdb4a1144aba73cb0ff5fb157431c" category="list-text">选择要为其分配导出策略的一个或多个 qtree ，然后单击 * 更改导出策略 * 。</block>
@@ -5086,7 +5077,6 @@
   <block id="d3abca15f6b22195064321922e319944" category="list-text">在 * 效率策略 * 窗口中，选择要编辑的策略，然后单击 * 编辑 * 。</block>
   <block id="24470644eeaeffa30f8f535ea804bff3" category="list-text">在 * 编辑效率策略 * 对话框中，进行所需的更改。</block>
   <block id="4289c80d91f288631499a13ed510c90f" category="summary">您可以使用 System Manager 从目标 Storage Virtual Machine （ SVM ）创建镜像和存储关系。通过创建此关系，您可以定期将数据从源卷传输到目标卷，从而更好地保护数据。此外，您还可以通过创建源卷的备份来长期保留数据。</block>
-  <block id="201fdbf27b19fb3675c38d8c0d795990" category="doc">从目标 SVM 创建镜像和存储关系</block>
   <block id="80502c8b6847cf1300129d4adc408722" category="list-text">目标集群必须运行 ONTAP 8.3.2 或更高版本。</block>
   <block id="b878d1dd96cd71140301bb2ecc51c7f7" category="list-text">源聚合和目标聚合必须是 64 位聚合。</block>
   <block id="9beb36543feadc0441b6d6fa511361c7" category="list-text">必须已存在读 / 写（ rw ）类型的源卷。</block>
@@ -5668,7 +5658,6 @@
   <block id="4d3f9674a089a90acd84998190c6bc95" category="paragraph">您不能使用 System Manager 删除集群 IP 空间中的子网。您必须改用命令行界面（ CLI ）。</block>
   <block id="705f6df3189f8eef05276d3cb363bb8a" category="list-text">单击 * 网络 * &gt; * 子网 * 。</block>
   <block id="fcbb33b0797104cdcaa57d27e71ab63e" category="list-text">选择要删除的子网，然后单击 * 删除 * 。</block>
-  <block id="88ea85c6f41faf7838eeb9229aafdd58" category="doc">igroup 名称</block>
   <block id="4f02650b1c0ac5ab7ddd0acf9e184ece" category="summary">您可以使用 System Manager 在 Storage Virtual Machine （ SVM ）上配置 CIFS 和 NFS 协议，以便为 NAS 客户端提供文件级数据访问。要启用 CIFS 协议，必须创建数据 LIF 和 CIFS 服务器。要启用 NFS 协议，您可以指定 NIS 详细信息和数据 LIF 。</block>
   <block id="6cf83f6940b19f7ef6f561003e6ed0c1" category="doc">在 SVM 上配置 CIFS 和 NFS 协议</block>
   <block id="a6f39c85b7066c0925baac10bcded864" category="list-text">要在 SVM 上配置或启用的协议必须获得许可。</block>
@@ -5957,7 +5946,6 @@
   <block id="41baae8263adb4ec516ef9c10284e931" category="paragraph">显示有关选定聚合的详细信息，并以图形方式显示聚合的空间分配，聚合的空间节省以及聚合在 IOPS 和总数据传输方面的性能。</block>
   <block id="7684669141bc1d61ff12daea729dbbd5" category="paragraph">显示磁盘布局信息，例如磁盘名称，磁盘类型，物理大小，可用大小，磁盘位置， 磁盘状态，丛名称，丛状态， RAID 组， RAID 类型， 和存储池（如果有）。此外，还会显示与多路径配置中的磁盘主路径关联的磁盘端口以及与磁盘二级路径关联的磁盘名称。</block>
   <block id="68f887cbc24995b778d4f33a8db8a5ef" category="paragraph">显示有关聚合上的卷总数，聚合总空间以及提交给聚合的空间的详细信息。</block>
-  <block id="6b90077bf0289755b1869a54e6dbe915" category="doc">存储 QoS 的工作原理</block>
   <block id="386804db58294cbf95f8d8cdc4b054e4" category="paragraph">FlexGroup 卷必须处于联机状态。</block>
   <block id="b5b2b1d45957a6c155cc1161578601a9" category="paragraph">在以下情况下，可以扩展 FabricPool FlexGroup 卷：</block>
   <block id="06661904c37362a5e07730c47db17f4a" category="list-text">FabricPool FlexGroup 卷只能使用 FabricPool 聚合进行扩展。</block>
@@ -7024,7 +7012,6 @@
   <block id="cfd96c760e1399a4a5e72d60a3292218" category="list-text">选择要修改密码的用户帐户，然后单击 * 更改密码 * 。</block>
   <block id="74870d0664c88d740f724789c5a93b74" category="list-text">在 * 更改密码 * 对话框中，键入新密码并确认新密码，然后单击 * 更改 * 。</block>
   <block id="2c8dfcc823a858dcc0c124552a13f9fd" category="summary">您可以使用 System Manager 在存储系统中创建和管理 Snapshot 策略。</block>
-  <block id="623fb58af5512173351f2a5e63dd6d85" category="doc">Snapshot 策略</block>
   <block id="f62b3e5859b206499e7a44a289ca9733" category="summary">如果在创建镜像和存储关系时尚未初始化此关系，则可以使用 System Manager 对其进行初始化。初始化关系时，系统会从源卷向目标卷执行完整的基线数据传输。</block>
   <block id="194940f508e4816ec6049ab532d382b3" category="list-text">选择要初始化的镜像和存储关系，然后单击 * 操作 * &gt; * 初始化 * 。</block>
   <block id="e416e315e41641912fdc726174c2b70c" category="list-text">选中确认复选框，然后单击 * 初始化 * 。</block>
@@ -7155,7 +7142,6 @@
   <block id="5f950ca8f16177c291f7ea6b16c96936" category="paragraph">您可以先使用大小相同的磁盘创建聚合，然后再添加大小不同的磁盘。</block>
   <block id="159682f407b6abd0d503bf2939123be4" category="list-text">将校验和类型不同的磁盘组合在一起。</block>
   <block id="e1d796013d0985fb55f6817a9cb8e7f9" category="paragraph">您可以先创建具有单个校验和类型的聚合，然后再添加其他校验和类型的存储。</block>
-  <block id="243b719fa0f35fb6676b7d6052729373" category="doc">QoS 策略组窗口</block>
   <block id="afb60cd4eee626334806b5cbeb0fbcb1" category="summary">您可以使用 System Manager 将 SSD 添加为存储池或专用 SSD 以配置缓存。通过添加 SSD ，您可以将非根聚合或不包含分区磁盘的根聚合转换为 Flash Pool 聚合，或者增加现有 Flash Pool 聚合的缓存大小。</block>
   <block id="9895949ba7ab9b550d44e5c6f5ef0b02" category="list-text">添加的 SSD 缓存不会增加到聚合的大小，您可以将 SSD RAID 组添加到聚合中，即使该组达到最大大小也是如此。</block>
   <block id="d494208667291d04a5b9661e282bbfbc" category="list-text">使用 System Manager 添加缓存时，无法使用已分区的 SSD 。</block>
@@ -7168,7 +7154,6 @@
   <block id="c7d10b4a91b4215ee8de5e4ea5e91086" category="list-text">哈希存储大小</block>
   <block id="3aa43f82fc2f41e3036679584f63fe4f" category="list-text">操作模式</block>
   <block id="7a90fce9ee937c279fd329ae168b366a" category="list-text">BranchCache 版本</block>
-  <block id="cdd4c15a922d3317c673af22b257983d" category="doc">NVMe 命名空间</block>
   <block id="2ded840bb0d149049d94d6cc27cd4eb9" category="summary">您可以使用 System Manager 创建主目录共享并管理主目录搜索路径。</block>
   <block id="c6d1ab85546f960ef1908682152ddb98" category="doc">创建主目录共享</block>
   <block id="07b21b3751e97e8be0734694465e1a54" category="paragraph">必须设置并启动 CIFS 。</block>
@@ -7243,7 +7228,6 @@
   <block id="7cca22e56f8c45989e0cc1324a653478" category="list-text">在 * 角色 * 窗口中，选择要修改的角色，然后单击 * 编辑 * 。</block>
   <block id="83dbffe81fcc3b4a5596c923cfc13c5a" category="list-text">在 * 编辑角色 * 对话框中，修改角色属性，然后单击 * 修改 * 。</block>
   <block id="55d0bdbd08f1e586ecb20c841e0d3a13" category="list-text">验证您在 * 角色 * 窗口中所做的更改。</block>
-  <block id="fac3a7ad23607350ca249ed40421f014" category="doc">最大吞吐量限制的工作原理</block>
   <block id="cb8bdf49106d7b30dd41f2380f55d146" category="summary">您可以使用 System Manager 查看默认身份验证信息以及所有特定于启动程序的身份验证信息。</block>
   <block id="e5d5dcf6adf8fa0a2653761cad66aa79" category="list-text">在 * iSCSI* 窗口的 * 启动程序安全性 * 选项卡中，查看详细信息。</block>
   <block id="83ba36f9e12be2aeb03cb703832a6612" category="summary">通过设置网络，您可以管理集群，节点和服务处理器。您还可以使用网络窗口设置 DNS 和 NTP 详细信息。</block>
@@ -7362,7 +7346,6 @@
   <block id="5669ad68be3167c39ac72f6e6c9156b9" category="paragraph">清单选项卡下方的区域显示有关选定磁盘的详细信息，包括聚合或卷的相关信息（如果适用），供应商 ID ，置零状态（以百分比表示），磁盘序列号以及磁盘损坏时的错误详细信息。对于共享磁盘，清单详细信息区域将显示所有聚合的名称，包括根聚合和非根聚合。</block>
   <block id="9be33596938d5c4bd6c50efc04b28599" category="paragraph"><block ref="9be33596938d5c4bd6c50efc04b28599" category="inline-xref-macro-rx"></block></block>
   <block id="ed16afb7c159c6fe58c80a1dc3cede52" category="summary">您可以使用 System Manager 重新建立先前已断开的镜像和存储关系。在反向重新同步操作中，源卷和目标卷的功能将发生反转。在修复或替换源卷，更新源卷以及重新建立系统的原始配置时，您可以使用目标卷提供数据。</block>
-  <block id="4ea52d7763a6ba3d988f1fb36ab1f9ab" category="doc">反向重新同步镜像和存储关系</block>
   <block id="0bb531b9f077cfe61f1999612d091d9f" category="list-text">执行反向重新同步时，源卷上的内容将被目标卷上的内容覆盖。</block>
   <block id="718bba66a8f2379fec2ccfa1390fdb20" category="paragraph">反向重新同步操作可能会使源卷上的数据丢失发生原因。</block>
   <block id="f2ed808ce0eba9594be7325263101a99" category="list-text">执行反向重新同步时，此关系的策略将设置为 MirrorAndVault ，而计划将设置为无。</block>
@@ -7464,7 +7447,6 @@
   <block id="e4406d7b69c5a0daab406590ecc9c739" category="paragraph">将 StorageGRID 添加为云层时，如果未安装 CA 证书，则会显示一条消息。</block>
   <block id="dd582db7d96f61a988cc0582df82bd46" category="list-text">添加 StorageGRID CA 证书。</block>
   <block id="ffa436a25018eb0648394741eef0dadf" category="paragraph">您指定的完全限定域名（ FQDN ）必须与 StorageGRID CA 证书上的自定义公用名匹配。</block>
-  <block id="ca301c828c76b7b6b1a9b621ba37f603" category="doc">igroup 类型</block>
   <block id="ada5b1798b480ac4ca8c7dc0155604e2" category="summary">您可以使用 System Manager 创建和管理网络接口。</block>
   <block id="d9cc6b84b66475f5674f1dbdb05947a9" category="doc">网络接口</block>
   <block id="9e007cde0294836d49fce82a0770d6fa" category="summary">设置对等涉及到在每个节点上创建集群间逻辑接口（ LIF ），创建集群对等以及创建 SVM 对等。</block>
@@ -7473,7 +7455,6 @@
   <block id="5e716b5eddd97359d5c74915f382d197" category="paragraph">必须手动取消映射映射映射映射到启动程序组的所有 LUN 。</block>
   <block id="fb6f5f906859527d7efef2ab24d4e22f" category="list-text">在 * 启动程序组 * 选项卡中，选择要删除的一个或多个启动程序组，然后单击 * 删除 * 。</block>
   <block id="9ea7f4edd7f7fe7bc3cb3f3ca65c30a1" category="list-text">验证删除的启动程序组是否不再显示在 * 启动程序组 * 选项卡中。</block>
-  <block id="8b8009cf30f8359309c965b346664a48" category="doc">SnapMirror 许可</block>
   <block id="ec489e304ef214f9ca48e48798fe1c52" category="summary">通过配额，您可以限制或跟踪用户，组或 qtree 使用的磁盘空间和文件数。您可以使用 System Manager 中的添加配额向导创建配额并将配额应用于特定卷或 qtree 。</block>
   <block id="773a550fcc590dce7811f55498ffce1b" category="doc">创建配额</block>
   <block id="21ec9b3fca74fe043866c3cf40eb3f0e" category="paragraph">使用 System Manager ，可以为配额可以拥有的文件数的硬限制和软限制指定的最小值为 1000 。如果要指定低于 1000 的值，应使用命令行界面（ CLI ）。</block>
@@ -8406,7 +8387,6 @@
   <block id="9ddfcfa2178bbaa95f3516e283f56c6c" category="sidebar">查看 LUN 信息</block>
   <block id="cd242385237807a42c01bc56e88dd621" category="sidebar">查看启动程序组</block>
   <block id="46474bb633a6e11a4c8db2e2fd2cb25d" category="sidebar">了解 LUN 的空间预留</block>
-  <block id="307993e58e8cb708767af2aac9604017" category="sidebar">了解 LUN 克隆</block>
   <block id="574733b1608db4268068dfc213b121cc" category="sidebar">删除 qtree</block>
   <block id="f34844e661c707693f5f171cb90c9a2f" category="sidebar">编辑 qtree</block>
   <block id="55a10c126840e128772d6b29a99d596e" category="sidebar">查看 qtree 信息</block>
@@ -8444,7 +8424,6 @@
   <block id="c3be79ad655700366cbdf66fb41f3ab5" category="sidebar">启用或禁用效率策略</block>
   <block id="e89898d375d94a34915c63abf5b83cbd" category="sidebar">删除 QoS 策略组</block>
   <block id="20c4625db1b141a11d4ed4f1addcefc3" category="sidebar">编辑 QoS 策略组</block>
-  <block id="f104ae7705a6cd41d529246347e38804" category="sidebar">使用存储 QoS 管理工作负载性能</block>
   <block id="67e314f08bf0f0412397e119dfc49a65" category="sidebar">编辑 NIS 域</block>
   <block id="cd81734e2ab9efc6cfe818f7b53a07cc" category="sidebar">删除 LDAP 客户端配置</block>
   <block id="ab13cfe988ac7e718d879dec5013131b" category="sidebar">编辑 LDAP 客户端配置</block>
@@ -8464,29 +8443,13 @@
   <block id="db5cb060d3f1c56dc4a35fce5a867ee4" category="sidebar">重命名本地 Windows 用户</block>
   <block id="f8d149e2f560d043fee27559bcf3940e" category="sidebar">重置 Windows 本地用户的密码</block>
   <block id="747db15d84dfaabaf70d11952f46c2a0" category="sidebar">删除本地 Windows 用户帐户</block>
-  <block id="f14e71e7e0d11fd8ae3de32514c9cf0f" category="sidebar">管理数据保护</block>
-  <block id="bda77c175f764372331084b2a8e075aa" category="sidebar">删除镜像关系</block>
   <block id="d060c996508910ed3ad69c79e87e23af" category="sidebar">中断 SnapMirror 关系</block>
-  <block id="537ad555b4601753fd06527686eff90c" category="sidebar">重新同步镜像关系</block>
   <block id="4bc208bafdebbad7e8d3a1fd96045f3e" category="sidebar">中止镜像传输</block>
   <block id="d0bfe18666fab64eacdc44d2864d6412" category="sidebar">还原镜像关系中的卷</block>
-  <block id="4ab4a5d86aa17e491eee18620ed0bac3" category="sidebar">删除存储关系</block>
-  <block id="227af0287a294f61f634774d34b24c0e" category="sidebar">编辑存储关系</block>
-  <block id="ae956403fbd181f5db66838103186bf8" category="sidebar">初始化存储关系</block>
-  <block id="fab1a40175465547f12d8bf6b4741703" category="sidebar">更新存储关系</block>
-  <block id="c229e268680305c05dc6f71d75f4c1b4" category="sidebar">恢复存储关系</block>
   <block id="2ac16ad7b9492e5af6e6d0fe8d7aadf1" category="sidebar">中止 Snapshot 副本传输</block>
   <block id="0b6959b088b18af039659613215849d3" category="sidebar">还原存储关系中的卷</block>
-  <block id="db82443e569f07635868fc5ff76f3d55" category="sidebar">删除镜像和存储关系</block>
-  <block id="b3f5a15cc10f040782c9c7b46e375d5f" category="sidebar">编辑镜像和存储关系</block>
-  <block id="3a9162b4b931a2f97ab546e6e4a59364" category="sidebar">初始化镜像和存储关系</block>
-  <block id="3e08a966469680aab6cbae8c48d31397" category="sidebar">更新镜像和存储关系</block>
-  <block id="6411ef7bf5686b381d2cd378f7478735" category="sidebar">恢复镜像和存储关系</block>
-  <block id="1e3f45dd462bf83ee02932bdb0e40894" category="sidebar">中断镜像和存储关系</block>
-  <block id="f292c64a23f8885e326eb631ed0d1f95" category="sidebar">重新同步镜像和存储关系</block>
   <block id="5639586a8b149082c28f6f7cbd69376e" category="sidebar">中止镜像和存储关系</block>
   <block id="930544b632b68242721aed3e36cb565b" category="sidebar">还原镜像和存储关系中的卷</block>
-  <block id="bc17baa824729465e76388d0891faa91" category="sidebar">了解 StrictSync 和 Sync 策略支持的工作负载</block>
   <block id="4fe746c4b3e8ab088fb436641f9b98c6" category="sidebar">编辑 SVM 关系</block>
   <block id="fc67dc264a61ca8ae9872acecc3f7bf8" category="sidebar">管理 SVM 关系</block>
   <block id="c948edc0c818adf4847d91a8137716a6" category="sidebar">编辑 Snapshot 策略</block>
@@ -9432,4 +9395,9 @@
   <block id="f3400c7c7f134d2f8f2f30b279b5c285" category="doc">使用System Manager - ONTAP 9.7及更早版本管理计划</block>
   <block id="c934845b8edbac9b1640d3a858f83f4a" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在存储系统中创建和管理计划。</block>
   <block id="2d4aef30a49a581a6ed89ce840054235" category="sidebar">Disks</block>
+  <block id="5893aac69b45363ec1744eacd931f906" category="sidebar">管理启动程序组</block>
+  <block id="2136f0fa9d505507ee528b858ede9c00" category="sidebar">管理镜像和存储关系</block>
+  <block id="4eb9fc48340d0d596cecceb0f28dd73e" category="sidebar">SVM关系</block>
+  <block id="a4730321aa25d81da462f897cef15c5a" category="sidebar">管理保护策略</block>
+  <block id="58733b37e2507dd15a2f998c25576e58" category="sidebar">管理Snapshot策略</block>
 </blocks>
