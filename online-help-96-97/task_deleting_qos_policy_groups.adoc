@@ -1,24 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_qos_policy_groups.html 
-sidebar: sidebar 
-keywords: online, help, delete, qos, policy, groups, system, manager 
-summary: 您可以使用 System Manager 删除不再需要的存储服务质量（ QoS ）策略组。 
+redirect: ontap-sm-classic/online-help-96-97/task_creating_qos_policy_groups.html 
 ---
-= 使用 System Manager - ONTAP 9.7 及更早版本删除 QoS 策略组
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
-
-[role="lead"]
-您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）删除不再需要的存储服务质量（ QoS ）策略组。
-
-您必须已取消分配分配分配给策略组的所有存储对象。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 策略 * 窗格中，单击 * QoS 策略组 * 。
-. 在 * QoS 策略组 * 窗口中，选择要删除的策略组，然后单击 * 删除 * 。
-. 在确认对话框中，单击 * 删除 * 。
 

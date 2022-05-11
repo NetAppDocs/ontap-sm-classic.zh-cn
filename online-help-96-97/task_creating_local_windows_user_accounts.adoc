@@ -1,64 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_local_windows_user_accounts.html 
-sidebar: sidebar 
-keywords: create, local, windows, user, account, online, help, system, manager, svm, cifs 
-summary: 您可以使用 System Manager 创建本地 Windows 用户帐户，此帐户可用于授权通过 SMB 连接访问 Storage Virtual Machine （ SVM ）中包含的数据。在创建 CIFS 会话时，您还可以使用本地 Windows 用户帐户进行身份验证。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html 
 ---
-= 使用 System Manager - ONTAP 9.7 及更早版本创建本地 Windows 用户帐户
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）创建本地 Windows 用户帐户，该帐户可用于授权通过 SMB 连接访问 Storage Virtual Machine （ SVM ）中包含的数据。在创建 CIFS 会话时，您还可以使用本地 Windows 用户帐户进行身份验证。
-
-.开始之前
-* 必须为 SVM 配置 CIFS 服务器。
-
-
-本地 Windows 用户名必须满足以下要求：
-
-* 不得超过 20 个字符
-* 不得在句点后结束
-* 不得包含逗号
-* 不得包含以下任何可打印字符： " / \ [ ] ： | < > + = ；？* @
-* 不得包含 ASCII 范围 1 到 31 的字符，这些字符不可打印
-
-
-密码必须满足以下条件：
-
-* 长度必须至少为六个字符
-* 不得包含用户帐户名称
-* 必须包含以下四个类别中至少三个类别的字符：
-+
-** 大写英文字符（ A 到 Z ）
-** 小写英文字符（ a 到 z ）
-** 基数为 10 位（ 0 到 9 ）
-** 特殊字符： ~ ！@ # 0 ^ & * _ - + = ` \ | （） [ ] ：； " < > ， .？/
-
-
-
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 主机用户和组 * 窗格中，单击 * Windows * 。
-. 在 * 用户 * 选项卡中，单击 * 创建 * 。
-. 指定本地用户的名称。
-. 指定本地用户的全名以及有助于标识此新用户的问题描述。
-. 输入本地用户的密码，然后确认该密码。
-+
-密码必须满足密码要求。
-
-. 单击 * 添加 * 向用户分配组成员资格。
-. 在 * 添加组 * 窗口中，从 SVM 中的可用组列表中选择组。
-. 选择 * 禁用此帐户 * 可在创建用户后禁用此帐户。
-. 单击 * 创建 * 。
-
-
-此时将创建本地 Windows 用户帐户，并为其分配选定组的成员资格。此用户帐户将在 * 用户 * 选项卡中列出。
-
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]

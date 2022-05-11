@@ -1,38 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_local_windows_group.html 
-sidebar: sidebar 
-keywords: delete, local, windows, group, systems, manager, online, help, svm, rights 
-summary: 如果不再需要使用某个本地 Windows 组来确定对 SVM 中数据的访问权限或为组成员分配 SVM 用户权限，则可以使用 System Manager 从 Storage Virtual Machine （ SVM ）中删除该组。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html 
 ---
-= 使用 System Manager - ONTAP 9.7 及更早版本删除本地 Windows 组
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本） 从 Storage Virtual Machine （ SVM ）中删除本地 Windows 组，前提是不再需要该组来确定对 SVM 中数据的访问权限或为组成员分配 SVM 用户权限（特权）。
-
-.关于此任务
-* 删除本地组将删除该组的成员资格记录。
-* 文件系统未更改。
-+
-不会调整引用此组的文件和目录上的 Windows 安全描述符。
-
-* 不能删除特殊的 "`Everyone` " 组。
-* 无法删除 BUILTIN\Administrators 和 BUILTIN\Users 等内置组。
-
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 主机用户和组 * 窗格中，单击 * Windows * 。
-. 在 * 组 * 选项卡中，选择要删除的组，然后单击 * 删除 * 。
-. 单击 * 删除 * 。
-
-
-此时将删除本地组及其成员资格记录。
-
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]

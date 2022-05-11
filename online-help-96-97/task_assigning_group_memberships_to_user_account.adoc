@@ -1,36 +1,8 @@
 ---
 permalink: online-help-96-97/task_assigning_group_memberships_to_user_account.html 
-sidebar: sidebar 
-keywords: online, help, assign, group, membership, user, account, online, help, system, manager 
-summary: 如果您希望用户拥有与特定组关联的权限，则可以使用 System Manager 为用户帐户分配组成员资格。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html 
 ---
-= 使用 System Manager - ONTAP 9.7 及更早版本为用户帐户分配组成员资格
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-如果您希望用户拥有与特定组关联的权限，则可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）为用户帐户分配组成员资格。
-
-.开始之前
-* 该组必须存在，您才能向该组添加用户。
-* 用户必须存在，您才能将其添加到组。
-
-
-您不能将用户添加到特殊的 _Everyone 组。
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 主机用户和组 * 窗格中，单击 * Windows * 。
-. 在 * 用户 * 选项卡中，选择要为其分配组成员资格的用户帐户，然后单击 * 添加到组 * 。
-. 在 * 添加组 * 窗口中，选择要将用户帐户添加到的组。
-. 单击 * 确定 * 。
-
-
-系统会为该用户帐户分配所有选定组的成员资格，该用户拥有与这些组关联的权限。
-
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]

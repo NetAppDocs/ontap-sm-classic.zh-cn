@@ -1,41 +1,8 @@
 ---
 permalink: online-help-96-97/task_renaming_local_windows_group.html 
-sidebar: sidebar 
-keywords: rename, local, windows, group, system, manager, online, help 
-summary: 您可以使用 System Manager 重命名本地 Windows 组，以便更轻松地识别该组。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html 
 ---
-= 使用 System Manager - ONTAP 9.7 及更早版本重命名本地 Windows 组
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重命名本地 Windows 组，以便更轻松地识别该组。
-
-.关于此任务
-* 新组名称必须与旧组名称创建在同一个域中。
-* 组名称必须满足以下要求：
-+
-** 不得超过 256 个字符
-** 不得在句点后结束
-** 不得包含逗号
-** 不得包含以下任何可打印字符： " / \ [ ] ： | < > + = ；？* @
-** 不得包含 ASCII 范围 1 到 31 的字符，这些字符不可打印
-
-
-
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 主机用户和组 * 窗格中，单击 * Windows * 。
-. 在 * 组 * 选项卡中，选择要重命名的组，然后单击 * 重命名 * 。
-. 在 * 重命名组 * 窗口中，为组指定一个新名称。
-
-
-此时将更改本地组名称，并在组窗口中使用新名称列出该组。
-
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]

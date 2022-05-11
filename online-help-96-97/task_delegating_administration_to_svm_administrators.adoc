@@ -11,7 +11,7 @@ summary: 使用基本网络配置设置一个可正常工作的 Storage Virtual 
 
 
 [role="lead"]
-在为正常工作的 Storage Virtual Machine （ SVM ）或 SVM 设置基本网络配置后，您可以选择使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）将 SVM 的管理委派给 SVM 管理员。
+在为正常工作的Storage Virtual Machine (SVM)或SVM设置基本网络配置后、您可以使用System Manager classic (适用于ONTAP 9.7及更早版本)将SVM的管理委派给SVM管理员。
 
 SVM 管理员不能使用 System Manager 管理委派的 SVM 。管理员只能使用命令行界面（ CLI ）对其进行管理。
 

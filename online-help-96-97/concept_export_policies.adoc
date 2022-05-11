@@ -11,7 +11,7 @@ summary: 您可以使用 System Manager 创建，编辑和管理导出策略。
 
 
 [role="lead"]
-您可以使用 ONTAP System Manager classic （在 9.7 及更早版本中提供）创建，编辑和管理导出策略。
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)创建、编辑和管理导出策略。
 
 
 

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: ontap, name, service, switch, configuration, works, unix, system, online, help 
 summary: ONTAP 将名称服务配置信息存储在一个表中，该表相当于 UNIX 系统上的 /etc/nsswitch.conf 文件。您必须了解该表的功能以及 ONTAP 如何使用它，以便可以根据您的环境对其进行适当配置。 
 ---
-= ONTAP 名称服务交换机配置在 System Manager 中的工作原理— ONTAP 9.7 及更早版本
+= 关于System Manager中的ONTAP 名称服务开关配置—ONTAP 9.7及更早版本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ONTAP 将名称服务配置信息存储在一个表中，该表相当于 UNIX 系统上的 ` /etc/nsswitch.conf` 文件。您必须了解该表的功能以及 ONTAP 如何使用它，以便可以根据您的环境对其进行适当配置。
+ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)会将名称服务配置信息存储在一个表中、该表相当于UNIX系统上的`/etc/nsswitch.conf`文件。您必须了解该表的功能以及 ONTAP 如何使用它，以便可以根据您的环境对其进行适当配置。
 
 ONTAP 名称服务切换表可确定 ONTAP 为检索特定类型的名称服务信息而查询的名称服务源。ONTAP 会为每个 SVM 维护一个单独的名称服务切换表。
 

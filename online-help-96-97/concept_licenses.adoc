@@ -11,7 +11,7 @@ summary: 您可以使用 System Manager 查看，管理或删除集群或节点�
 
 
 [role="lead"]
-您可以使用 ONTAP System Manager classic （ 9.7 及更早版本中提供）查看，管理或删除集群或节点上安装的任何软件许可证。
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)查看、管理或删除集群或节点上安装的任何软件许可证。
 
 
 

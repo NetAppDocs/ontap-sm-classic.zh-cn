@@ -1,42 +1,8 @@
 ---
 permalink: online-help-96-97/task_reverse_resynchronizing_snapmirror_relationships.html 
-sidebar: sidebar 
-keywords: reverse, resync, mirror, relationship, system, manager, online, help 
-summary: 您可以使用 System Manager 重新建立先前已断开的镜像关系。在反向重新同步操作中，您可以反转源卷和目标卷的功能。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html 
 ---
-= 使用 System Manager 反向重新同步镜像关系 - ONTAP 9.7 及更早版本
+= 
 :allow-uri-read: 
 
 
-[role="lead"]
-您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重新建立先前已断开的镜像关系。在反向重新同步操作中，您可以反转源卷和目标卷的功能。
-
-源卷必须处于联机状态。
-
-.关于此任务
-* 在修复或替换源卷，更新源卷以及重新建立系统的初始配置时，您可以使用目标卷提供数据。
-* 执行反向重新同步时，镜像源上的内容将被目标卷上的内容覆盖。
-+
-[NOTE]
-====
-** 对于 SnapLock Compliance 卷，活动文件系统中与通用 Snapshot 副本相关的所有数据更改都会保留在锁定的 Snapshot 副本中，直到为当前卷设置的到期时间为止。
-+
-如果卷到期时间为过去或尚未设置，则 Snapshot 副本和通用 Snapshot 副本将锁定 30 天。通用 Snapshot 副本与最新锁定的 Snapshot 副本之间的所有中间 Snapshot 副本都会被删除。
-
-** 对于 SnapLock Compliance 卷以外的所有卷，重新同步操作可能发生原因会丢失在创建基本 Snapshot 副本后写入源卷的较新数据。
-
-
-====
-* 执行反向重新同步时，此关系的镜像策略将设置为 DPDefault ，而镜像计划将设置为无。
-
-
-.步骤
-. 单击 * 保护 * > * 卷关系 * 。
-. 选择要反转的镜像关系。
-. 单击 * 操作 * > * 反向重新同步 * 。
-. 选中确认复选框，然后单击 * 反向重新同步 * 。
-
-
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]

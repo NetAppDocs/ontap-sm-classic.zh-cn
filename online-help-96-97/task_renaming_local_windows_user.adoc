@@ -1,42 +1,8 @@
 ---
 permalink: online-help-96-97/task_renaming_local_windows_user.html 
-sidebar: sidebar 
-keywords: rename, local, windows, user, system, manager, online, help 
-summary: 您可以使用 System Manager 重命名本地 Windows 用户帐户，以便更轻松地识别本地用户。 
+redirect: ontap-sm-classic/online-help-96-97/task_editing_local_windows_group_properties.html 
 ---
-= 使用 System Manager - ONTAP 9.7 及更早版本重命名本地 Windows 用户
+= 
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
-[role="lead"]
-您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）重命名本地 Windows 用户帐户，以便更轻松地识别本地用户。
-
-.关于此任务
-* 新用户名必须与先前的用户名在同一域中创建。
-* 您指定的用户名必须满足以下要求：
-+
-** 不得超过 20 个字符
-** 不得在句点后结束
-** 不得包含逗号
-** 不得包含以下任何可打印字符： " / \ [ ] ： | < > + = ；？* @
-** 不得包含 ASCII 范围 1 到 31 的字符，这些字符不可打印
-
-
-
-
-.步骤
-. 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
-. 在 * 主机用户和组 * 窗格中，单击 * Windows * 。
-. 在 * 用户 * 选项卡中，选择要重命名的用户，然后单击 * 重命名 * 。
-. 在 * 重命名用户 * 窗口中，为用户指定一个新名称。
-. 确认新名称，然后单击 * 重命名 * 。
-
-
-此时将更改用户名，并且新名称将在 * 用户 * 选项卡中列出。
-
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
