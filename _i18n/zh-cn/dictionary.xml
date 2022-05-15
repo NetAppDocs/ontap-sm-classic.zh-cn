@@ -5111,7 +5111,6 @@
   <block id="1796c10a8658ad63233422dfb6d0adb4" category="list-text">选择要分配的磁盘，然后单击 * 分配 * 。</block>
   <block id="f83e2b71e950078fd1e49c8f30f164b5" category="list-text">在 * 分配磁盘 * 对话框中，选择要将磁盘分配到的节点。</block>
   <block id="54398abab76b88472b675eabf1995da2" category="doc">ONTAP System Manager 增强功能</block>
-  <block id="0dd816e380a61ab15ced19aed96e781a" category="list-text">NVMe 协议</block>
   <block id="1f06c32e4284c548639b045d1a680c1f" category="doc">ONTAP 如何启用动态主目录</block>
   <block id="ddb6804ce83c0756809d4eaa0da80de7" category="paragraph">通过 ONTAP 主目录，您可以配置一个 SMB 共享，该共享根据连接到它的用户和一组变量映射到不同的目录。您可以使用一些主目录参数配置一个共享，以定义入口点（共享）与主目录（ SVM 上的目录）之间的用户关系，而不是为每个用户创建单独的共享。</block>
   <block id="47d8b0af5d2931cb4e847ec858c73ecf" category="paragraph">以来宾用户身份登录的用户没有主目录，无法访问其他用户的主目录。可通过四个变量确定用户映射到目录的方式：</block>
@@ -5272,7 +5271,6 @@
   <block id="c7b0a7e89e5a47f2ab1b0e6c7f75057b" category="doc">向集群添加节点</block>
   <block id="fae8d23d1721f927925eae3dd935e87c" category="list-text">单击 * 配置 * &gt; * 集群 * &gt; * 扩展 * 。</block>
   <block id="1b1deb33f8ee4653aaeffd03898f0c25" category="paragraph">System Manager 将搜索新添加的节点。如果显示任何警告，则必须先修复这些警告，然后再继续操作。如果发现新的兼容节点，请继续执行下一步。</block>
-  <block id="1f69a8016cdc11fb948bf5ce26bc0de1" category="summary">您可以使用 System Manager 配置 NVMe 协议。NVMe 是一种传输协议，可用于高速访问基于闪存的网络存储。使用 NVMe 协议的系统具有一个子系统，其中包含特定 NVMe 控制器，命名空间，非易失性存储介质，主机，端口以及控制器和存储介质之间的接口。</block>
   <block id="28ea3f57013ca08922238bd44afd27d2" category="summary">您可以使用 System Manager 无中断地将 FlexVol 卷移动到其他聚合或节点，以提高容量利用率并提高性能。</block>
   <block id="6a31044e5c4900961ed521bb6256a164" category="doc">移动 FlexVol 卷</block>
   <block id="8ba444e57d3179116ab27ad5e1c82bd7" category="paragraph">如果要移动数据保护卷，则必须先初始化数据保护镜像关系，然后再移动该卷。</block>
@@ -8880,7 +8878,6 @@
   <block id="8d74ad77222f6c5c38989bad7372cf2c" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建集群</block>
   <block id="f9c28b17c0f35d7a3c72a8e6a546dfee" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）在数据中心中创建和设置集群。</block>
   <block id="5fc170c97be608be88f22779966c7146" category="doc">在使用 System Manager 的 SVM 上配置 NVMe 协议 - ONTAP 9.7 及更早版本</block>
-  <block id="75e42471a0f30f0b5291750d4a05d20a" category="doc">使用 System Manager - ONTAP 9.7 及更早版本根据存储建议创建聚合</block>
   <block id="efbc0ad8b6d2eb58efb50697f164d765" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）根据存储建议创建聚合。System Manager 可分析存储系统的配置并提供存储建议，例如要创建的聚合数，可用节点和可用备用磁盘。</block>
   <block id="bc77434a988ceef6c953803fe2e06881" category="doc">使用 System Manager 的集群更新窗口— ONTAP 9.7 及更早版本</block>
   <block id="0c4bc331d1c7fe8cc6d138356da42f70" category="paragraph">您可以使用 " 集群更新 " 窗口无中断地自动更新集群，也可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）无中断地更新单节点集群。</block>
@@ -8938,7 +8935,6 @@
   <block id="1a73142d9e2244e70e8bbf958894302c" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）设置对等关系。设置对等涉及到在每个节点上创建集群间逻辑接口（ LIF ），创建集群对等以及创建 SVM 对等。</block>
   <block id="2976c240f095f572c401489b5ac3e328" category="doc">使用 System Manager 的集群对等方— ONTAP 9.7 及更早版本</block>
   <block id="997772740a755ed8d7530b890bec9f7e" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）对等两个集群，以便对等集群可以在它们之间协调和共享资源。对于使用 SnapMirror 技术和 SnapVault 技术进行数据复制以及在 MetroCluster 配置中使用 FlexCache 卷和 SyncMirror 技术进行数据复制，需要使用对等集群。</block>
-  <block id="8f34d6f3f2c9cd69da0ea95a2a82d60f" category="doc">使用 System Manager — ONTAP 9.7 及更早版本手动创建 SnapLock 聚合</block>
   <block id="9db847a02a4eaadfd02090106d319dcc" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建 SnapLock 合规性聚合或 SnapLock 企业聚合。您可以在这些聚合上创建 SnapLock 卷，从而提供 "`一次写入，多次读取` " （ WORM ）功能。</block>
   <block id="d4afc42fbd745701a06605ccb9c3d10a" category="doc">System Manager - ONTAP 9.7 及更早版本的存储服务定义</block>
   <block id="c94819f0fe4329db3648ea0072b45bc0" category="paragraph">ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）包括预定义的存储服务，这些服务映射到相应的最低性能因素。</block>
@@ -9093,9 +9089,6 @@
   <block id="ae31194d11d9f6f40dc1383a9c9b1149" category="doc">使用 System Manager - ONTAP 9.7 及更早版本从源 SVM 创建镜像关系</block>
   <block id="094497dfe6a525ccce05a6611e29e110" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从源 Storage Virtual Machine （ SVM ）创建镜像关系，并为镜像关系分配镜像策略和计划。如果源卷上的数据损坏或丢失，镜像副本可以快速提供数据。</block>
   <block id="f87363de91a44888ba803f5cb7e20111" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）根据存储建议创建聚合，也可以根据需要手动创建聚合。您可以使用 System Manager 创建 Flash Pool 聚合， SnapLock 聚合和启用了 FabricPool 的聚合，以便为一个或多个卷提供存储。</block>
-  <block id="93b06c5d026d7f6a708ab6de3cfb5a15" category="section-title">使用 System Manager — ONTAP 9.7 及更早版本手动创建聚合</block>
-  <block id="5bd7f238c43d37e955c094a904e83733" category="section-title">使用 System Manager — ONTAP 9.7 及更早版本手动创建 Flash Pool 聚合</block>
-  <block id="b27b332d5e45bf641d4fd65ed64ad8d3" category="section-title">使用 System Manager — ONTAP 9.7 及更早版本手动创建启用了 FabricPool 的聚合</block>
   <block id="521d64edb3b9891946bd12a9d48b9ea5" category="doc">System Manager 中的卷窗口— ONTAP 9.7 及更早版本</block>
   <block id="7b924d1c798de9911d3b4b00feb3c254" category="paragraph">您可以使用 ONTAP System Manager 经典版中的卷窗口（在 ONTAP 9.7 及更早版本中提供）来管理 FlexVol 卷和 FlexGroup 卷。从 System Manager 9.6 开始，您还可以管理 FlexCache 卷。</block>
   <block id="5b74ba9a7ffd896fcb8e28ff4e17b348" category="doc">使用 System Manager - ONTAP 9.7 及更早版本配置和管理云层</block>
@@ -9112,7 +9105,6 @@
   <block id="7f569a3c39232bb00a96ba6af81c2b64" category="paragraph">ONTAP System Manager classic 中的信息板（在 ONTAP 9.7 及更早版本中提供）可用于监控 Storage Virtual Machine （ SVM ）的运行状况和性能。</block>
   <block id="f5b7bd55239093cd9cc1e21e645b1dd4" category="doc">使用 System Manager - ONTAP 9.7 及更早版本删除 FlexGroup 卷</block>
   <block id="b2248261263fafbd0f4108203fda4392" category="paragraph">当您不再需要 FlexGroup 卷时，可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）删除 FlexGroup 卷。</block>
-  <block id="b370847994c3d23b844ca1e55d46d7a0" category="doc">在 System Manager - ONTAP 9.7 及更早版本中管理卷</block>
   <block id="a27a4fe05bc74404abef4983a840d677" category="paragraph">您可以使用 ONTAP System Manager classic （在 9.7 及更早版本中提供）创建，编辑和删除卷。</block>
   <block id="1a9c869a6bfc17032518e267afda3fe5" category="doc">使用 System Manager - ONTAP 9.7 及更早版本为 VMware 创建 NFS 数据存储库</block>
   <block id="414d44592771786254f784e9d856900c" category="paragraph">您可以使用 ONTAP System Manager 经典版中的 " 为 VMware 创建 NFS 数据存储库 " 向导（在 ONTAP 9.7 及更早版本中提供）为 VMware 创建 NFS 数据存储库。您可以为 NFS 数据存储库创建卷，并指定可访问 NFS 数据存储库的 ESX 服务器。</block>
@@ -9279,7 +9271,6 @@
   <block id="8cbc7e1408126f1ff5a2916af875f4bd" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中断 SnapMirror 关系。如果 SnapMirror 源不可用，并且您希望客户端应用程序能够从镜像目标访问数据，则必须中断 SnapMirror 关系。断开 SnapMirror 关系后，目标卷类型将从 " 数据保护 " （ DP ）更改为 " 读 / 写 " （ RW ）。</block>
   <block id="94b62c27be996324d0173ca83ba2629b" category="doc">使用 System Manager 进行名称映射— ONTAP 9.7 及更早版本</block>
   <block id="cee4c228dbc1bd4065b40bb31f18464c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）指定名称映射条目以映射不同平台的用户。</block>
-  <block id="706d088ecb014b185975448770e848fa" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建和管理 Storage Virtual Machine （ SVM ）用户帐户</block>
   <block id="9dd1a3bc9b77bce7cd8a13454090a064" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理 Storage Virtual Machine （ SVM ）用户帐户。</block>
   <block id="7b636060a1edee9c18093390f42f6441" category="paragraph"><block ref="7b636060a1edee9c18093390f42f6441" category="inline-link-macro-rx"></block></block>
   <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
@@ -9355,4 +9346,11 @@
   <block id="d351bbac1b18d316821e865a50a75d18" category="sidebar">管理QoS策略组</block>
   <block id="2b61817f1a7e0ede39b016bc3fafe939" category="sidebar">本地Windows组</block>
   <block id="79fedbd71df5ba90cfd3c3a7103e7ebb" category="sidebar">管理存储关系</block>
+  <block id="848dcad0446ea1d6a218cfce14bd4f83" category="section-title">根据存储建议创建聚合</block>
+  <block id="1a0931643fb40c6c47be73fc4d6e036b" category="section-title">手动创建聚合</block>
+  <block id="7aa7ed2830461848d8d830ea0a310cd8" category="section-title">手动创建Flash Pool聚合</block>
+  <block id="a64350598d42cab960563d46109b6216" category="section-title">手动创建SnapLock 聚合</block>
+  <block id="2ccebd804a2ce77ca906d0e7b9c74307" category="section-title">手动创建启用了FabricPool的聚合</block>
+  <block id="d0e7a5e3372fc34ff0c77624a2bb33ac" category="doc">使用System Manager - ONTAP 9.7及更早版本管理卷</block>
+  <block id="5cf0222128789f408e97a1222d101d9b" category="doc">使用System Manager - ONTAP 9.7及更早版本创建和管理SVM用户帐户</block>
 </blocks>

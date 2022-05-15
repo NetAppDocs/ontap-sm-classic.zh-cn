@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, create, edit, delete, volume, tab, cif, nfs, online, help 
 summary: 您可以使用 System Manager 创建，编辑和删除卷。 
 ---
-= 在 System Manager - ONTAP 9.7 及更早版本中管理卷
+= 使用System Manager - ONTAP 9.7及更早版本管理卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
