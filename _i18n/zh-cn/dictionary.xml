@@ -1968,7 +1968,6 @@
   <block id="9be5107b34684c6d6f07fc8f3a5e7912" category="list-text">为 SVM 的多个卷或 qtree 分配相同的导出策略，以实现相同的客户端访问控制，而无需为每个卷或 qtree 创建新的导出策略。</block>
   <block id="515cefadfd6af4f7ede12a8911a09780" category="paragraph">如果客户端发出适用导出策略不允许的访问请求，则此请求将失败，并显示权限被拒绝的消息。如果客户端与导出策略中的任何规则不匹配，则会拒绝访问。如果导出策略为空，则会隐式拒绝所有访问。</block>
   <block id="5b5a7b680e035cb0a9b7133960d430db" category="paragraph">您可以在运行 ONTAP 的系统上动态修改导出策略。</block>
-  <block id="636a8855963f727473bac2df49f2eeb8" category="doc">窗口布局自定义</block>
   <block id="a1f6bd9b69c5d7f2afea049565273a91" category="list-text">* 筛选 *</block>
   <block id="deb3f2a63d57c6bce0c958914fba9a4d" category="summary">您可以使用系统警报窗口了解有关系统运行状况警报的更多信息。您还可以从窗口确认，删除和禁止警报。</block>
   <block id="9830254c3fdd4b989ca7485ca0cff864" category="doc">系统警报窗口</block>
@@ -2157,9 +2156,7 @@
   <block id="e9348fc2c8cf0b2d2f91f9daabb340aa" category="list-text">键入或选择要为 Snapshot 副本预留的卷空间百分比，然后单击 * 确定 * 。</block>
   <block id="9654bc3b838c00a4a9f4859cf6844f4a" category="inline-xref-macro">卷窗口</block>
   <block id="d88f061c81320f88a51f587c7a64b902" category="paragraph"><block ref="d88f061c81320f88a51f587c7a64b902" category="inline-xref-macro-rx"></block></block>
-  <block id="64ede1136b38d05639150dc84ce2ca68" category="summary">滞后时间是指目标系统滞后于源系统的时间量。</block>
   <block id="bb7c4cc3390268168d4d4a8537f329d6" category="doc">什么是滞后时间</block>
-  <block id="78453587fd66d72075a252c52b6e2713" category="paragraph">滞后时间是当前时间与上次成功传输到目标系统的 Snapshot 副本的时间戳之间的差值。除非源系统和目标系统上的时钟未同步，否则滞后时间始终至少与上次成功传输的持续时间相同。时区差异会自动计算为滞后时间。</block>
   <block id="9703064f9cac6be7028eadf010151aa7" category="doc">镜像关系</block>
   <block id="b05a6d37156804dc7b1e2c6ea9f572db" category="summary">您可以使用 System Manager 在卷上启用存储效率并配置重复数据删除和数据压缩或仅配置重复数据删除以节省存储空间。如果在创建卷时未启用存储效率，可以稍后通过编辑卷来启用。</block>
   <block id="98baa37b57c30822b4af91a1fb878b18" category="doc">在卷上启用存储效率</block>
@@ -2581,7 +2578,6 @@
   <block id="4ad33e0d007341fed44926497c80259b" category="list-text">单击 * 网络 * 选项卡。</block>
   <block id="63b92e6d6c29f0dee5081db251b8fbdd" category="list-text">在 * IP 空间 * 选项卡中，单击 * 创建 * 。</block>
   <block id="caa833fee856462c7c2d04fa48804047" category="list-text">在 * 创建 IP 空间 * 对话框中，为要创建的 IP 空间指定一个名称。</block>
-  <block id="f292651045c183bc7c4cf9d2df59c36f" category="doc">System Manager 窗口布局</block>
   <block id="da1f9aa178114b8d7b3ae1a118b9633f" category="summary">您可以使用 System Manager 中的 LUN 管理选项卡使选定的 LUN 联机并使其可供主机使用。</block>
   <block id="ef50835fdda9b89e011ae3fd8bd8a366" category="doc">使 LUN 联机</block>
   <block id="5ac718bd67533fe75657fd6fb6f196c2" category="paragraph">访问 LUN 的任何主机应用程序都必须暂停或同步。</block>
@@ -4064,8 +4060,6 @@
   <block id="f06042e47576771d0c65a51ca5c7541c" category="list-text">选择所需的 BranchCache 版本。</block>
   <block id="59406f02575f2b06b6431d26a4c205c2" category="paragraph">默认情况下，系统会选择客户端支持的所有版本。</block>
   <block id="b3c3b87b37229702f86d01c2013dc543" category="list-text">单击 * 设置 * 。</block>
-  <block id="82e0fa489db30f304e5c422ca5c4ed7a" category="summary">您可以查看界面中的图标以快速获取有关系统和操作的信息。</block>
-  <block id="c87aa7ccb86776af182c8ff69abdb4af" category="doc">应用程序界面中使用的图标</block>
   <block id="baa9c79245f7884810c575121d7d6a37" category="section-title">信息板窗口图标</block>
   <block id="eb95543f6e7e801ae8e527cfe8873f85" category="paragraph">查看存储系统的信息板时，您可能会看到以下图标：</block>
   <block id="817434295a673aed431435658b65d9a7" category="cell">图标。</block>
@@ -5110,7 +5104,6 @@
   <block id="5c8f3e60df679922b81c83ee379c5f40" category="list-text">对于 MetroCluster 配置，不能使用 System Manager 分配磁盘。</block>
   <block id="1796c10a8658ad63233422dfb6d0adb4" category="list-text">选择要分配的磁盘，然后单击 * 分配 * 。</block>
   <block id="f83e2b71e950078fd1e49c8f30f164b5" category="list-text">在 * 分配磁盘 * 对话框中，选择要将磁盘分配到的节点。</block>
-  <block id="54398abab76b88472b675eabf1995da2" category="doc">ONTAP System Manager 增强功能</block>
   <block id="1f06c32e4284c548639b045d1a680c1f" category="doc">ONTAP 如何启用动态主目录</block>
   <block id="ddb6804ce83c0756809d4eaa0da80de7" category="paragraph">通过 ONTAP 主目录，您可以配置一个 SMB 共享，该共享根据连接到它的用户和一组变量映射到不同的目录。您可以使用一些主目录参数配置一个共享，以定义入口点（共享）与主目录（ SVM 上的目录）之间的用户关系，而不是为每个用户创建单独的共享。</block>
   <block id="47d8b0af5d2931cb4e847ec858c73ecf" category="paragraph">以来宾用户身份登录的用户没有主目录，无法访问其他用户的主目录。可通过四个变量确定用户映射到目录的方式：</block>
@@ -9276,7 +9269,6 @@
   <block id="c6fe2141832d99780af18d450524ad03" category="paragraph"><block ref="c6fe2141832d99780af18d450524ad03" category="inline-link-macro-rx"></block></block>
   <block id="665c825107a5830a82d2b69e5aeff554" category="doc">中止与 System Manager 的镜像和存储关系— ONTAP 9.7 及更早版本</block>
   <block id="b182b9233296a73be3f27b870226b2af" category="paragraph">如果要停止数据传输，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中止卷复制操作。您可以中止计划的更新，手动更新或初始数据传输。</block>
-  <block id="9f7846eb6b93be23ec56786e828ee53e" category="paragraph">您可以通过使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）添加和删除本地用户， Active Directory 用户或 Active Directory 组来管理本地组成员资格。您可以修改分配给组的权限以及组的问题描述，以便轻松标识组。</block>
   <block id="a5e43690037a175b3839475cc48dd350" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理存储关系</block>
   <block id="48bf13819878ffc3abe7cc117e2144c4" category="paragraph">除了从目标 SVM 创建存储关系之外，您还可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）来更新，恢复，暂停，初始化和删除存储关系。</block>
   <block id="e0ee58226c5bcccbc24858177927a575" category="section-title">编辑关系</block>
@@ -9339,13 +9331,6 @@
   <block id="8c848ffd60aae82bfdeaecc9cdc6e72c" category="section-title">为用户帐户分配组成员资格</block>
   <block id="f53fc6841153532fcb131ddc59517703" category="section-title">Windows窗口</block>
   <block id="52b7bdea477857b0549009ded6ed1610" category="paragraph">您可以使用System Manager使用Windows窗口。Windows 窗口可帮助您维护集群上每个 Storage Virtual Machine （ SVM ）的本地 Windows 用户和组列表。您可以使用本地 Windows 用户和组进行身份验证和名称映射。</block>
-  <block id="9b588f149e145ccee960f124c5e3d417" category="sidebar">关于SVM</block>
-  <block id="868555f74d53e8e661a5f31e4d7441e9" category="sidebar">关于ONTAP 名称服务开关配置</block>
-  <block id="30596850a631eadcd506fbd754bed204" category="sidebar">管理主目录路径</block>
-  <block id="03a7b9a6c19575b0318568c1fb99f27c" category="sidebar">管理CIFS组策略配置</block>
-  <block id="d351bbac1b18d316821e865a50a75d18" category="sidebar">管理QoS策略组</block>
-  <block id="2b61817f1a7e0ede39b016bc3fafe939" category="sidebar">本地Windows组</block>
-  <block id="79fedbd71df5ba90cfd3c3a7103e7ebb" category="sidebar">管理存储关系</block>
   <block id="848dcad0446ea1d6a218cfce14bd4f83" category="section-title">根据存储建议创建聚合</block>
   <block id="1a0931643fb40c6c47be73fc4d6e036b" category="section-title">手动创建聚合</block>
   <block id="7aa7ed2830461848d8d830ea0a310cd8" category="section-title">手动创建Flash Pool聚合</block>
@@ -9353,4 +9338,12 @@
   <block id="2ccebd804a2ce77ca906d0e7b9c74307" category="section-title">手动创建启用了FabricPool的聚合</block>
   <block id="d0e7a5e3372fc34ff0c77624a2bb33ac" category="doc">使用System Manager - ONTAP 9.7及更早版本管理卷</block>
   <block id="5cf0222128789f408e97a1222d101d9b" category="doc">使用System Manager - ONTAP 9.7及更早版本创建和管理SVM用户帐户</block>
+  <block id="77e82b2e710b5cc9c6dfa16efeddeaea" category="sidebar">为什么使用 SVM</block>
+  <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="sidebar">Volumes</block>
+  <block id="7e07ef4fefaf5e9f135056d576316043" category="sidebar">添加主目录路径</block>
+  <block id="34c8cc3c55629eebeca9a7f5b7b3536d" category="sidebar">SVM用户</block>
+  <block id="a61ef4381ae27c3f4823d95f1b2c7c23" category="sidebar">编辑本地 Windows 用户属性</block>
+  <block id="b87dc40a9cd444db0c33c9cf74977997" category="sidebar">为用户帐户分配组成员资格</block>
+  <block id="b172911abb23c845e5cc62ee1144120d" category="sidebar">从目标 SVM 创建镜像关系</block>
+  <block id="abf829b25449f6273d3b487ca5bdc3b3" category="sidebar">从目标 SVM 创建存储关系</block>
 </blocks>

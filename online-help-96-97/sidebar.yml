@@ -4,14 +4,6 @@ title: 使用 System Manager 9.6 和 9.7 进行集群管理
 entries:
 - title: 了解 System Manager
   url: "/online-help-96-97/index.html"
-- title: 应用程序界面中使用的图标
-  url: "/online-help-96-97/reference_icons_used_application_interface.html"
-- title: System Manager 窗口布局
-  url: "/online-help-96-97/reference_windows_layout.html"
-- title: 窗口布局自定义
-  url: "/online-help-96-97/reference_window_layout_customization.html"
-- title: ONTAP System Manager 增强功能
-  url: "/online-help-96-97/concept_system_manager_enhancements.html"
 - title: 使用 ONTAP 系统管理器设置集群
   entries:
   - title: 使用模板文件设置集群
@@ -154,10 +146,16 @@ entries:
   url: "/online-help-96-97/concept_ldap.html"
 - title: 用户
   url: "/online-help-96-97/concept_cluster_user_accounts.html"
+  entries:
+  - title: 角色
+    url: "/online-help-96-97/concept_roles_conceptual.html"
 - title: 角色
   url: "/online-help-96-97/concept_roles.html"
 - title: 管理网络
   url: "/online-help-96-97/concept_managing_network.html"
+  entries:
+  - title: 网络窗口
+    url: "/online-help-96-97/reference_network_window.html"
 - title: IP 空间
   url: "/online-help-96-97/concept_ipspaces.html"
 - title: 广播域
@@ -255,17 +253,18 @@ entries:
     url: "/online-help-96-97/reference_managing_svms.html"
   - title: 跟踪文件访问以诊断 SVM 上的访问错误
     url: "/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html"
-  - title: 关于SVM
+  - title: 为什么使用 SVM
     url: "/online-help-96-97/concept_why_you_use_svms.html"
-  - title: 关于ONTAP 名称服务开关配置
+  - title: ONTAP 名称服务交换机配置的工作原理
     url: "/online-help-96-97/concept_how_data_ontap_name_service_switch_configuration_works.html"
   - title: Storage Virtual Machine 窗口
     url: "/online-help-96-97/reference_svm_window.html"
   - title: 跟踪文件访问窗口
     url: "/online-help-96-97/reference_trace_file_access_window.html"
-- title: 编辑卷属性
-  url: "/online-help-96-97/task_editing_volume_properties.html"
+- title: Volumes
   entries:
+  - title: 编辑卷属性
+    url: "/online-help-96-97/task_editing_volume_properties.html"
   - title: 编辑数据保护卷
     url: "/online-help-96-97/task_editing_data_protection_volumes.html"
   - title: 删除卷
@@ -410,11 +409,11 @@ entries:
 - title: CIFS 协议
   url: "/online-help-96-97/concept_cifs_protocol.html"
   entries:
-  - title: 管理主目录路径
+  - title: 添加主目录路径
     url: "/online-help-96-97/task_adding_home_directory_paths.html"
   - title: 重置 CIFS 域控制器
     url: "/online-help-96-97/task_resetting_cifs_domain_controllers.html"
-  - title: 管理CIFS组策略配置
+  - title: 更新 CIFS 组策略配置
     url: "/online-help-96-97/task_updating_cifs_group_policy_configuration.html"
   - title: 设置 BranchCache
     url: "/online-help-96-97/task_setting_up_branchcache.html"
@@ -447,9 +446,13 @@ entries:
   url: "/online-help-96-97/concept_export_policies.html"
 - title: 效率策略
   url: "/online-help-96-97/concept_efficiency_policies.html"
-- title: 管理QoS策略组
+- title: 创建 QoS 策略组
   url: "/online-help-96-97/task_creating_qos_policy_groups.html"
   entries:
+  - title: 删除 QoS 策略组
+    url: "/online-help-96-97/task_deleting_qos_policy_groups.html"
+  - title: 编辑 QoS 策略组
+    url: "/online-help-96-97/task_editing_qos_policy_groups.html"
   - title: 将存储对象分配给策略组的规则
     url: "/online-help-96-97/concept_rules_for_assigning_storage_objects_to_policy_groups.html"
 - title: NIS 服务
@@ -462,18 +465,44 @@ entries:
   url: "/online-help-96-97/concept_kerberos_realm_services.html"
 - title: DNS/DDNS 服务
   url: "/online-help-96-97/concept_dns_ddns_services.html"
-- title: 用户
+- title: SVM用户
   url: "/online-help-96-97/concept_svm_user_accounts.html"
 - title: 角色
   url: "/online-help-96-97/concept_roles_delete.html"
 - title: '"unix"'
   url: "/online-help-96-97/concept_unix.html"
-- title: 本地Windows组
-  url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
+- title: Windows
+  entries:
+  - title: 创建本地 Windows 组
+    url: "/online-help-96-97/task_creating_local_user_group.html"
+  - title: 编辑本地 Windows 组属性
+    url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
+  - title: 将用户帐户添加到 Windows 本地组
+    url: "/online-help-96-97/task_adding_user_accounts_to_windows_local_group.html"
+  - title: 重命名本地 Windows 组
+    url: "/online-help-96-97/task_renaming_local_windows_group.html"
+  - title: 删除本地 Windows 组
+    url: "/online-help-96-97/task_deleting_local_windows_group.html"
+  - title: 创建本地 Windows 用户帐户
+    url: "/online-help-96-97/task_creating_local_windows_user_accounts.html"
+  - title: 编辑本地 Windows 用户属性
+    url: "/online-help-96-97/task_editing_local_windows_user_properties.html"
+  - title: 为用户帐户分配组成员资格
+    url: "/online-help-96-97/task_assigning_group_memberships_to_user_account.html"
+  - title: 重命名本地 Windows 用户
+    url: "/online-help-96-97/task_renaming_local_windows_user.html"
+  - title: 重置 Windows 本地用户的密码
+    url: "/online-help-96-97/task_changing_password_for_windows_local_users.html"
+  - title: 删除本地 Windows 用户帐户
+    url: "/online-help-96-97/task_deleting_local_windows_user_account.html"
+  - title: Windows 窗口
+    url: "/online-help-96-97/reference_windows_window.html"
 - title: 名称映射
   url: "/online-help-96-97/concept_name_mapping.html"
 - title: 镜像关系
   entries:
+  - title: 从目标 SVM 创建镜像关系
+    url: "/online-help-96-97/task_creating_mirror_relationship_from_destination_svm.html"
   - title: 管理镜像关系
     url: "/online-help-96-97/task_editing_mirror_relationships.html"
   - title: 中断 SnapMirror 关系
@@ -486,12 +515,16 @@ entries:
     url: "/online-help-96-97/task_restoring_volume_mirror_relationship.html"
 - title: 存储关系
   entries:
-  - title: 管理存储关系
+  - title: 从目标 SVM 创建存储关系
+    url: "/online-help-96-97/task_creating_vault_relationship_from_destination_svm.html"
+  - title: 管理镜像关系
     url: "/online-help-96-97/task_editing_vault_relationships.html"
   - title: 中止 Snapshot 副本传输
     url: "/online-help-96-97/task_aborting_vault_relationships.html"
   - title: 还原存储关系中的卷
     url: "/online-help-96-97/task_restoring_volume_vault_relationship.html"
+  - title: 什么是 SnapVault 备份
+    url: "/online-help-96-97/concept_what_snapvault_backup_is.html"
 - title: 镜像和存储关系
   entries:
   - title: 管理镜像和存储关系

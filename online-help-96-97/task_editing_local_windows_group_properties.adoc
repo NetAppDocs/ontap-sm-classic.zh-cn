@@ -20,7 +20,7 @@ summary: 您可以通过使用 System Manager 添加和删除本地用户， Act
 == 编辑本地 Windows 组属性
 
 [role="lead"]
-您可以通过使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）添加和删除本地用户， Active Directory 用户或 Active Directory 组来管理本地组成员资格。您可以修改分配给组的权限以及组的问题描述，以便轻松标识组。
+您可以通过使用 System Manager 添加和删除本地用户， Active Directory 用户或 Active Directory 组来管理本地组成员资格。您可以修改分配给组的权限以及组的问题描述，以便轻松标识组。
 
 在本地 Windows 组中添加成员或删除成员时，必须牢记以下几点：
 
@@ -203,7 +203,7 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 
 
-= 删除本地 Windows 组
+== 删除本地 Windows 组
 
 [role="lead"]
 如果不再需要使用某个本地 Windows 组来确定对 SVM 中数据的访问权限或为组成员分配 SVM 用户权限，则可以使用 System Manager 从 Storage Virtual Machine （ SVM ）中删除该组。
@@ -313,7 +313,7 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 
 
-= 为用户帐户分配组成员资格
+== 为用户帐户分配组成员资格
 
 [role="lead"]
 如果您希望用户拥有与特定组关联的权限，则可以使用 System Manager 为用户帐户分配组成员资格。
@@ -342,7 +342,7 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 
 
-= 重命名本地 Windows 用户
+== 重命名本地 Windows 用户
 
 [role="lead"]
 您可以使用 System Manager 重命名本地 Windows 用户帐户，以便更轻松地识别本地用户。
@@ -377,7 +377,7 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 
 
-= 重置 Windows 本地用户的密码
+== 重置 Windows 本地用户的密码
 
 [role="lead"]
 您可以使用 System Manager 重置 Windows 本地用户的密码。例如，如果当前密码泄露或用户忘记了密码，您可能需要重置密码。
@@ -411,7 +411,7 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 
 
-= 删除本地 Windows 用户帐户
+== 删除本地 Windows 用户帐户
 
 [role="lead"]
 如果不再需要使用某个本地 Windows 用户帐户对 SVM 的 CIFS 服务器进行本地 CIFS 身份验证或确定对 SVM 中数据的访问权限，则可以使用 System Manager 从 Storage Virtual Machine （ SVM ）中删除此用户帐户。
