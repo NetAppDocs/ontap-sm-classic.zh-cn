@@ -2760,7 +2760,6 @@
   <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">单击 * 提交 * 。</block>
   <block id="5dd430cf1c4aa7ded7c4c6a9aef0eedb" category="inline-xref-macro">NVMe 命名空间窗口</block>
   <block id="1f669ee0b6ce0a42888b9d369175bf8f" category="paragraph"><block ref="1f669ee0b6ce0a42888b9d369175bf8f" category="inline-xref-macro-rx"></block></block>
-  <block id="4ce4dda529d7d70f9c36d022aa9449c8" category="summary">您可以使用 System Manager 创建和管理角色。</block>
   <block id="a5cd3ed116608dac017f14c046ea56bf" category="doc">角色</block>
   <block id="6ba7b5d818acb6cab3137d4c011e2db2" category="inline-link">管理员身份验证和 RBAC</block>
   <block id="68c16964c51f57dc952df1961ce1ee35" category="paragraph"><block ref="68c16964c51f57dc952df1961ce1ee35" category="inline-link-rx"></block></block>
@@ -3595,10 +3594,7 @@
   <block id="9c5f4c720655efa44a639aa6731684c3" category="paragraph">如果在所有节点上安装了节点锁定许可证，或者在集群上安装了站点许可证，则无论使用情况如何，均不存在授权风险。</block>
   <block id="88183b946cc5f0e8c96b2e66e1c74a7e" category="list-text">未知</block>
   <block id="9812430032475277f82a0bc3792be99d" category="paragraph">如果 API 有时无法检索与集群或集群中节点相关的授权风险相关的数据，则风险未知。</block>
-  <block id="c1edbc4c9e061c62e85d9779adb916f3" category="summary">您可以使用 System Manager 添加访问控制角色，并指定该角色的用户可以访问的命令或命令目录。此外，您还可以控制角色对命令或命令目录的访问级别，并可以指定查询来对命令或命令目录执行适用场景操作。</block>
   <block id="680bc53c2140210b4a76bfa69cdc2535" category="doc">添加角色</block>
-  <block id="7267345a94face97a0b4b2e735d51b1d" category="list-text">在 * SVM 用户详细信息 * 窗格中，单击 * 角色 * 。</block>
-  <block id="7fb2d686fde24abfccde92f263682945" category="list-text">在 * 添加角色 * 对话框中，指定角色名称，然后添加角色属性。</block>
   <block id="f210a25eaf89fa55ced5c9c77e0b242b" category="summary">您可以使用 System Manager 创建，编辑和管理共享。</block>
   <block id="d272c069ec4cbb05fe03c3ff588a12e2" category="doc">共享</block>
   <block id="7ff3ceafbcd5dee311465939c5c2c592" category="summary">您可以使用 System Manager 修改卷属性，例如卷名称，安全模式，预留百分比和空间保证。您可以修改存储效率设置（重复数据删除计划，重复数据删除策略和数据压缩）和空间回收设置。</block>
@@ -4383,7 +4379,6 @@
   <block id="1290983ba5fc87ec0fc668a784e88af4" category="paragraph">服务处理器列表下方的区域显示有关服务处理器的详细信息，包括网络详细信息，例如 IP 地址，网络掩码（ IPv4 ）或前缀长度（ IPv6 ），网关， IP 源， MAC 地址以及常规详细信息，例如固件版本以及是否启用了固件自动更新。</block>
   <block id="5d15711e0f0051e3f2159baa0ec89265" category="paragraph"><block ref="5d15711e0f0051e3f2159baa0ec89265" category="inline-xref-macro-rx"></block></block>
   <block id="cfa566be6299e9e3d5fade67a78c3e74" category="summary">您可以使用 System Manager 通过更改命名空间映射到的子系统来编辑命名空间。</block>
-  <block id="9ec7401b6f04c416e336acd652043b73" category="paragraph">您只能在此窗口中修改 NVMe 子系统设置，而不能编辑其他命名空间详细信息。</block>
   <block id="f7e3bbd4fe5c0d8ca1b63838f152aa81" category="list-text">在 * NVMe 命名空间窗口 * 中，选择要编辑的命名空间。</block>
   <block id="f675a7bc5b1163c3b4fcd04df9e2b068" category="list-text">选择子系统选项：</block>
   <block id="579a46a917d784198fe18b644fe1a692" category="list-text">无：选择此选项将仅取消映射此命名空间的现有子系统映射。如果选定命名空间不存在子系统映射，则会预先选择此选项。</block>
@@ -7578,9 +7573,6 @@
   <block id="7cc04bec7d4720b1418723a2aa6915df" category="paragraph">输入用于集群管理，节点管理和服务处理器管理的 IP 地址范围后，您不能手动修改这些字段中的 IP 地址值。您必须确保所有 IP 地址均为 IPv4 地址。</block>
   <block id="2389c265c5a2b20d1eec9fa4207667b9" category="list-text">对于服务处理器管理，如果要覆盖默认值，请确保已输入必需的网关详细信息。</block>
   <block id="38f0eb0f612b86d404cbdaf0799a8395" category="summary">您可以使用 System Manager 在存储系统上启动或停止 iSCSI 服务。</block>
-  <block id="af2ea4d8f843befba34328807ddef7e2" category="paragraph">您可以使用 System Manager 修改访问控制角色对命令或命令目录的访问权限，并将用户的访问权限限制为仅能访问一组指定的命令。</block>
-  <block id="184d7287e45870df2985a70608171872" category="list-text">选择要修改的角色，然后单击 * 编辑 * 。</block>
-  <block id="db9e97c1b3b403653857d8198470a678" category="list-text">修改角色属性，然后单击 * 修改 * 。</block>
   <block id="50c4cc924cb76c8c589ba3ab4e13dcd8" category="doc">配置节点的网络详细信息</block>
   <block id="926d209b43e6189068be5c1e0f6f8885" category="doc">MetroCluster 切换和切回操作窗口</block>
   <block id="5c30f783149aeed9a56b4ee6168ea7d9" category="list-text">* 将站点 B 切换到站点 A*</block>
@@ -9194,8 +9186,6 @@
   <block id="92b5cfb7c1fce1eb7a3e8af80d9f9e4c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建，编辑和删除配额。</block>
   <block id="f8206d5822aae59ab25ac11cfd0db3b1" category="doc">使用 System Manager 移动 LUN — ONTAP 9.7 及更早版本</block>
   <block id="f6eab1b0f1e3aecbf6c1fc2d5b6d1f3d" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）将 LUN 从其所在卷移动到 Storage Virtual Machine （ SVM ）中的其他卷或 qtree 。您可以将 LUN 移动到包含高性能磁盘的聚合上托管的卷，从而提高访问 LUN 时的性能。</block>
-  <block id="932602fa5fa764793ab1fa81fc0be6d7" category="doc">使用 System Manger - ONTAP 9.7 及更早版本编辑 NVMe 命名空间</block>
-  <block id="727ece68052790d13859f0d00c5bc97d" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）通过更改命名空间映射到的子系统来编辑命名空间。</block>
   <block id="3ab7fd8a82e1834d805386fd9d48097b" category="doc">使用 System Manager 查看启动程序组 - ONTAP 9.7 及更早版本</block>
   <block id="2e7e039707010ae5e778413a23bbe402" category="paragraph">您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中的 * 启动程序组 * 选项卡查看映射到这些启动程序组的所有启动程序组和启动程序，以及映射到启动程序组的 LUN 和 LUN ID 。</block>
   <block id="a662f5c9c50a29062ff6977d842954f0" category="doc">使用 System Manager - ONTAP 9.7 及更早版本配置 iSCSI 协议</block>
@@ -9242,8 +9232,6 @@
   <block id="26db8af5ab588089d2d0b8f377dadc4d" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理 SVM 之间的镜像关系以及镜像和存储关系。Storage Virtual Machine （ SVM ）灾难恢复（ DR ）可通过恢复 SVM 成分卷中的数据以及恢复 SVM 配置，在 SVM 级别提供灾难恢复功能。</block>
   <block id="c48810549c92e77a74367bf1cec6df93" category="doc">使用 System Manager - ONTAP 9.7 及更早版本监控 HA 对</block>
   <block id="69d871a356c50778c71ad0cc45db4702" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）监控集群中所有高可用性（ HA ）对的节点状态和互连状态。您还可以验证是否已启用或已发生接管或交还，并查看当前无法执行接管或交还的原因。</block>
-  <block id="262333fc510a217309de41b775906e37" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建和管理角色</block>
-  <block id="9a8f0d506aed3b767779b83964cf1b1a" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理角色。</block>
   <block id="18f944a43803893b3abefe4cddb83100" category="doc">使用 System Manager — ONTAP 9.7 及更早版本中止 Snapshot 副本传输</block>
   <block id="4b7a0caa5d810697cb98d1268491c200" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中止或停止当前正在进行的数据传输。</block>
   <block id="3f24c14d1945245ea70ef197ca7eb065" category="doc">使用 System Manager - ONTAP 9.7 及更早版本设置集群</block>
@@ -9346,4 +9334,7 @@
   <block id="b87dc40a9cd444db0c33c9cf74977997" category="sidebar">为用户帐户分配组成员资格</block>
   <block id="b172911abb23c845e5cc62ee1144120d" category="sidebar">从目标 SVM 创建镜像关系</block>
   <block id="abf829b25449f6273d3b487ca5bdc3b3" category="sidebar">从目标 SVM 创建存储关系</block>
+  <block id="5320519656008cb5df3f08380e301995" category="doc">使用System Manager - ONTAP 9.7及更早版本编辑NVMe命名空间</block>
+  <block id="e98d8ae8fa01fcc5c723de5567d4b5a5" category="paragraph">您可以使用ONTAP System Manager经典版(在ONTAP 9.7及更早版本中提供)通过更改命名空间映射到的子系统来编辑命名空间。</block>
+  <block id="e605d3c73e4fdd4e52aaf2c1465605c6" category="paragraph">您只能在此窗口中修改NVMe子系统设置；不能编辑其他命名空间详细信息。</block>
 </blocks>
