@@ -11,7 +11,7 @@ summary: System Manager 会通过 DNS 自动发现域控制器。或者，您也
 
 
 [role="lead"]
-您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理首选域控制器
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)管理首选域控制器。
 
 
 

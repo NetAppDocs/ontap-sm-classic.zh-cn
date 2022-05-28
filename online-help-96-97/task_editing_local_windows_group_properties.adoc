@@ -6,11 +6,9 @@ summary: 您可以通过使用 System Manager 添加和删除本地用户， Act
 ---
 = 使用System Manager—ONTAP 9.7及更早版本管理本地Windows组
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
-
-
-
-== 使用System Manager—ONTAP 9.7及更早版本管理本地Windows组
 
 [role="lead"]
 您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)管理本地Windows组。您可以修改组属性、成员资格、帐户并为组分配特定权限。
@@ -19,7 +17,6 @@ summary: 您可以通过使用 System Manager 添加和删除本地用户， Act
 
 == 编辑本地 Windows 组属性
 
-[role="lead"]
 您可以通过使用 System Manager 添加和删除本地用户， Active Directory 用户或 Active Directory 组来管理本地组成员资格。您可以修改分配给组的权限以及组的问题描述，以便轻松标识组。
 
 在本地 Windows 组中添加成员或删除成员时，必须牢记以下几点：
@@ -50,15 +47,10 @@ summary: 您可以通过使用 System Manager 添加和删除本地用户， Act
 
 此时将修改本地 Windows 组设置，所做的更改将显示在 * 组 * 选项卡中。
 
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
-
 
 
 == 创建本地 Windows 组
 
-[role="lead"]
 您可以使用 System Manager 创建本地 Windows 组，这些组可用于授权通过 SMB 连接访问 Storage Virtual Machine （ SVM ）中包含的数据。您还可以分配权限，以定义组成员在执行管理活动时所拥有的用户权限或功能。
 
 必须为 SVM 配置 CIFS 服务器。
@@ -121,15 +113,10 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 此时将创建本地 Windows 组，并将其列在组窗口中。
 
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
-
 
 
 == 将用户帐户添加到 Windows 本地组
 
-[role="lead"]
 您可以使用System Manager将本地用户、Active Directory用户或Active Directory组(如果您希望用户拥有与该组关联的权限)添加到Windows本地组。
 
 .开始之前
@@ -163,15 +150,10 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 您添加的用户将列在 * 组 * 选项卡的用户表中。
 
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
-
 
 
 == 重命名本地 Windows 组
 
-[role="lead"]
 您可以使用 System Manager 重命名本地 Windows 组，以便更轻松地识别该组。
 
 .关于此任务
@@ -197,15 +179,10 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 此时将更改本地组名称，并在组窗口中使用新名称列出该组。
 
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
-
 
 
 == 删除本地 Windows 组
 
-[role="lead"]
 如果不再需要使用某个本地 Windows 组来确定对 SVM 中数据的访问权限或为组成员分配 SVM 用户权限，则可以使用 System Manager 从 Storage Virtual Machine （ SVM ）中删除该组。
 
 .关于此任务
@@ -228,15 +205,10 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 此时将删除本地组及其成员资格记录。
 
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
-
 
 
 == 创建本地 Windows 用户帐户
 
-[role="lead"]
 您可以使用 System Manager 创建本地 Windows 用户帐户，此帐户可用于授权通过 SMB 连接访问 Storage Virtual Machine （ SVM ）中包含的数据。在创建 CIFS 会话时，您还可以使用本地 Windows 用户帐户进行身份验证。
 
 .开始之前
@@ -285,15 +257,10 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 此时将创建本地 Windows 用户帐户，并为其分配选定组的成员资格。此用户帐户将在 * 用户 * 选项卡中列出。
 
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
-
 
 
 == 编辑本地Windows用户属性
 
-[role="lead"]
 如果要更改现有用户的全名或问题描述，或者要启用或禁用用户帐户，则可以使用 System Manager 修改本地 Windows 用户帐户。您还可以修改分配给用户帐户的组成员资格。
 
 .步骤
@@ -307,15 +274,10 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 本地 Windows 用户帐户的属性将被修改并显示在 * 用户 * 选项卡中。
 
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
-
 
 
 == 为用户帐户分配组成员资格
 
-[role="lead"]
 如果您希望用户拥有与特定组关联的权限，则可以使用 System Manager 为用户帐户分配组成员资格。
 
 .开始之前
@@ -336,15 +298,10 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 系统会为该用户帐户分配所有选定组的成员资格，该用户拥有与这些组关联的权限。
 
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
-
 
 
 == 重命名本地 Windows 用户
 
-[role="lead"]
 您可以使用 System Manager 重命名本地 Windows 用户帐户，以便更轻松地识别本地用户。
 
 .关于此任务
@@ -371,15 +328,10 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 此时将更改用户名，并且新名称将在 * 用户 * 选项卡中列出。
 
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
-
 
 
 == 重置 Windows 本地用户的密码
 
-[role="lead"]
 您可以使用 System Manager 重置 Windows 本地用户的密码。例如，如果当前密码泄露或用户忘记了密码，您可能需要重置密码。
 
 您设置的密码必须满足以下条件：
@@ -405,15 +357,10 @@ xref:reference_windows_window.adoc[Windows 窗口]
 . 确认新密码，然后单击 * 重置 * 。
 
 
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
-
 
 
 == 删除本地 Windows 用户帐户
 
-[role="lead"]
 如果不再需要使用某个本地 Windows 用户帐户对 SVM 的 CIFS 服务器进行本地 CIFS 身份验证或确定对 SVM 中数据的访问权限，则可以使用 System Manager 从 Storage Virtual Machine （ SVM ）中删除此用户帐户。
 
 .关于此任务
@@ -431,26 +378,21 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 此时将删除本地用户帐户及其组成员资格条目。
 
-* 相关信息 *
-
-xref:reference_windows_window.adoc[Windows 窗口]
-
 
 
 == Windows窗口
 
-[role="lead"]
 您可以使用System Manager使用Windows窗口。Windows 窗口可帮助您维护集群上每个 Storage Virtual Machine （ SVM ）的本地 Windows 用户和组列表。您可以使用本地 Windows 用户和组进行身份验证和名称映射。
 
 
 
-== 用户选项卡
+=== 用户选项卡
 
 您可以使用用户选项卡查看 SVM 的本地 Windows 用户。
 
 
 
-== 命令按钮
+=== 命令按钮
 
 * * 创建 * 。
 +
@@ -484,7 +426,7 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 
 
-== 用户列表
+=== 用户列表
 
 * * 名称 *
 +
@@ -506,7 +448,7 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 
 
-== 用户详细信息区域
+=== 用户详细信息区域
 
 * * 组 *
 +
@@ -516,13 +458,13 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 
 
-== 组选项卡
+=== 组选项卡
 
 您可以使用组选项卡添加，编辑或删除 SVM 的本地 Windows 组。
 
 
 
-== 命令按钮
+=== 命令按钮
 
 * * 创建 * 。
 +
@@ -552,7 +494,7 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 
 
-== 组列表
+=== 组列表
 
 * * 名称 *
 +
@@ -566,7 +508,7 @@ xref:reference_windows_window.adoc[Windows 窗口]
 
 
 
-== 组详细信息区域
+=== 组详细信息区域
 
 * * 权限 *
 +

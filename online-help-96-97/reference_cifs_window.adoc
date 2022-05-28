@@ -11,7 +11,7 @@ summary: 您可以使用 CIFS 窗口配置 CIFS 服务器，管理域控制器�
 
 
 [role="lead"]
-您可以使用 System Manager （ ONTAP 9.7 及更早版本）中的 CIFS 窗口配置 CIFS 服务器，管理域控制器，管理符号 UNIX 映射以及配置 BranchCache 。
+您可以使用ONTAP 系统管理器中的CIFS窗口(在ONTAP 9.7及更早版本中提供)来配置CIFS服务器、管理域控制器、管理符号UNIX映射以及配置BranchCache。
 
 
 

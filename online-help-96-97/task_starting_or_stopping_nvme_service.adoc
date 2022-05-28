@@ -11,7 +11,7 @@ summary: 通过 NVMe 服务，您可以管理用于命名空间的 NVMe 适配�
 
 
 [role="lead"]
-您可以使用 ONTAP System Manager classic （在 9.7 及更早版本中提供）启动 NVMe 服务以使适配器联机。通过 NVMe 服务，您可以管理用于命名空间的 NVMe 适配器。您可以停止 NVMe 服务以使 NVMe 适配器脱机并禁用对命名空间的访问。
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)启动NVMe服务以使适配器联机。通过 NVMe 服务，您可以管理用于命名空间的 NVMe 适配器。您可以停止 NVMe 服务以使 NVMe 适配器脱机并禁用对命名空间的访问。
 
 在启动 NVMe 服务之前，必须存在支持 NVMe 的适配器。
 

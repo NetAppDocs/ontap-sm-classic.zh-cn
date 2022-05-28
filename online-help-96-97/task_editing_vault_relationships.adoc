@@ -17,7 +17,6 @@ summary: 您可以使用 System Manager 通过选择集群中的现有策略或�
 
 == 编辑关系
 
-[role="lead"]
 您可以使用 System Manager 通过选择集群中的现有策略或计划或者创建新的策略或计划来编辑存储关系。但是，您不能编辑现有策略或计划的参数。
 
 源集群和目标集群之间的对等关系必须运行正常。
@@ -108,7 +107,6 @@ xref:reference_protection_window.adoc[保护窗口]
 
 == 初始化关系
 
-[role="lead"]
 如果您在创建存储关系时尚未初始化存储关系，则可以使用 System Manager 初始化该关系。启动从源 FlexVol 卷到目标 FlexVol 卷的基线数据传输。
 
 源集群和目标集群之间的对等关系必须运行正常。
@@ -131,7 +129,6 @@ xref:reference_protection_window.adoc[保护窗口]
 
 == 从目标 SVM 创建关系
 
-[role="lead"]
 您可以使用 System Manager 从目标 Storage Virtual Machine （ SVM ）创建存储关系，并分配用于创建备份存储的存储策略。如果系统上发生数据丢失或损坏，可以从备份存储目标还原备份的数据。
 
 .开始之前
@@ -205,15 +202,10 @@ xref:reference_protection_window.adoc[保护窗口]
 
 此时将在目标卷和源卷之间创建存储关系。如果选择初始化此关系，则基本 Snapshot 副本将传输到目标卷。
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 更新关系
 
-[role="lead"]
 您可以使用 System Manager 手动启动计划外增量更新。您可能需要手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。
 
 必须初始化存储关系。
@@ -232,15 +224,10 @@ xref:reference_protection_window.adoc[保护窗口]
 . 在 * 详细信息 * 选项卡中验证传输状态。
 
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 删除关系
 
-[role="lead"]
 您可以使用 System Manager 结束源卷与目标卷之间的存储关系，并从源释放 Snapshot 副本。
 
 释放此关系将永久删除源卷上存储关系使用的基本 Snapshot 副本。要重新创建存储关系，必须使用命令行界面（ CLI ）从源卷运行重新同步操作。
@@ -257,15 +244,10 @@ xref:reference_protection_window.adoc[保护窗口]
 
 
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 恢复关系
 
-[role="lead"]
 您可以使用 System Manager 恢复暂停的存储关系。恢复此关系后，系统将恢复向目标 FlexVol 卷进行的正常数据传输，并重新启动所有存储活动。
 
 .步骤
@@ -276,15 +258,10 @@ xref:reference_protection_window.adoc[保护窗口]
 
 恢复正常数据传输。如果此关系已计划传输，则此传输将从下一个计划开始。
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 暂停关系
 
-[role="lead"]
 您可以使用 System Manager 通过暂停存储关系来禁用向目标 FlexVol 卷传输数据。
 
 .步骤

@@ -11,7 +11,7 @@ summary: 如果有可用空间，您可以使用 System Manager 为现有聚合�
 
 
 [role="lead"]
-如果有可用空间，您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.8 及更早版本）为现有聚合，卷或 qtree 创建 LUN 。您可以在现有卷中创建 LUN ，也可以为此 LUN 创建新的 FlexVol 卷。您还可以启用存储服务质量（ QoS ）来管理工作负载性能。
+如果有可用空间、您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)为现有聚合、卷或qtree创建LUN。您可以在现有卷中创建 LUN ，也可以为此 LUN 创建新的 FlexVol 卷。您还可以启用存储服务质量（ QoS ）来管理工作负载性能。
 
 如果指定了 LUN ID ，则 System Manager 会在添加 LUN ID 之前检查其有效性。如果未指定 LUN ID ， ONTAP 软件会自动分配一个。
 

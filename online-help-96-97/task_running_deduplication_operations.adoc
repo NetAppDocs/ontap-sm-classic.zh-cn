@@ -11,7 +11,7 @@ summary: 您可以使用 System Manager 在创建 FlexVol 卷后立即运行重�
 
 
 [role="lead"]
-您可以使用 ONTAP System Manager classic （ 9.7 及更早版本中提供）在创建 FlexVol 卷后立即运行重复数据删除，或者计划在指定时间运行重复数据删除。
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在创建FlexVol 卷后立即运行重复数据删除、或者计划在指定时间运行重复数据删除。
 
 .开始之前
 * 必须在卷上启用重复数据删除。

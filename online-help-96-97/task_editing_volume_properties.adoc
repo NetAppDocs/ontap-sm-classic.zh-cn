@@ -11,7 +11,7 @@ summary: 您可以使用 System Manager 修改卷属性，例如卷名称，安�
 
 
 [role="lead"]
-您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）修改卷属性，例如卷名称，安全模式，预留百分比和空间保证。您可以修改存储效率设置（重复数据删除计划，重复数据删除策略和数据压缩）和空间回收设置。
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)修改卷属性、例如卷名称、安全模式、预留百分比和空间保证。您可以修改存储效率设置（重复数据删除计划，重复数据删除策略和数据压缩）和空间回收设置。
 
 要启用卷加密，必须已使用 System Manager 安装卷加密许可证，并且已使用命令行界面（ CLI ）启用 "`key-manager setup` " 。启用 "`key-manager setup` " 后，必须刷新 Web 浏览器。
 

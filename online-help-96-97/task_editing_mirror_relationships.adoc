@@ -17,7 +17,6 @@ summary: 您可以使用 System Manager 通过选择集群中的现有策略或�
 
 == 删除关系
 
-[role="lead"]
 您可以使用 System Manager 删除镜像关系并永久结束源卷与目标卷之间的镜像关系。删除镜像关系后，源卷上的基本 Snapshot 副本将被删除。
 
 删除镜像关系之前，最好先断开镜像关系。
@@ -30,15 +29,10 @@ summary: 您可以使用 System Manager 通过选择集群中的现有策略或�
 
 此时将删除此关系，并删除源卷上的基本 Snapshot 副本。
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 重新同步关系
 
-[role="lead"]
 您可以使用 System Manager 重新建立先前已断开的镜像关系。您可以执行重新同步操作，以便从禁用源卷的灾难中恢复。
 
 源集群和目标集群以及源 SVM 和目标 SVM 必须处于对等关系。
@@ -66,15 +60,10 @@ xref:reference_protection_window.adoc[保护窗口]
 . 选中确认复选框，然后单击 * 重新同步 * 。
 
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 恢复暂停的关系
 
-[role="lead"]
 您可以使用 System Manager 恢复已暂停的镜像关系。恢复此关系后，系统将恢复向镜像目标的正常数据传输，并重新启动所有镜像活动。
 
 如果您已从命令行界面（ CLI ）暂停已断开的镜像关系，则无法从 System Manager 恢复此关系。您必须使用命令行界面恢复此关系。
@@ -88,15 +77,10 @@ xref:reference_protection_window.adoc[保护窗口]
 
 此时将恢复选定镜像关系中到镜像目标的数据传输。
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 更新关系
 
-[role="lead"]
 您可以使用 System Manager 对目标启动计划外镜像更新。您可能需要执行手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。
 
 镜像关系必须处于 Snapmirrored 状态。
@@ -115,15 +99,10 @@ xref:reference_protection_window.adoc[保护窗口]
 . 在 * 详细信息 * 选项卡中验证传输状态。
 
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 暂停关系
 
-[role="lead"]
 您可以使用 System Manager 暂停镜像目标以使其保持稳定，然后再创建 Snapshot 副本。暂停操作可以完成镜像关系的活动镜像传输，并禁用以后的传输。
 
 您只能暂停处于 Snapmirrored 状态的镜像关系。
@@ -135,15 +114,10 @@ xref:reference_protection_window.adoc[保护窗口]
 . 选中确认复选框，然后单击 * 暂停 * 。
 
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 初始化关系
 
-[role="lead"]
 启动镜像关系时，必须初始化该关系。初始化关系包括从源卷到目标卷的完整基线数据传输。如果在创建镜像关系时尚未初始化此关系，则可以使用 System Manager 对其进行初始化。
 
 .步骤
@@ -156,15 +130,10 @@ xref:reference_protection_window.adoc[保护窗口]
 
 此时将创建一个 Snapshot 副本并将其传输到目标。此 Snapshot 副本用作后续增量 Snapshot 副本的基线。
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 编辑关系
 
-[role="lead"]
 您可以使用 System Manager 通过选择集群中的现有策略或计划或者创建策略或计划来编辑镜像关系。
 
 .关于此任务
@@ -242,15 +211,10 @@ low 表示传输的优先级最低，通常计划在正常优先级传输之后�
 . 单击 * 确定 * 以保存更改。
 
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 从目标SVM创建镜像关系
 
-[role="lead"]
 您可以使用System Manager从目标Storage Virtual Machine (SVM)创建镜像关系、并为此镜像关系分配策略和计划。如果源卷上的数据损坏或丢失，镜像副本可以快速提供数据。
 
 .开始之前
@@ -313,15 +277,10 @@ xref:reference_protection_window.adoc[保护窗口]
 
 在源卷和目标卷之间创建镜像关系。如果选择初始化此关系，则基本 Snapshot 副本将传输到目标卷。
 
-* 相关信息 *
-
-xref:reference_protection_window.adoc[保护窗口]
-
 
 
 == 反向重新同步镜像关系
 
-[role="lead"]
 您可以使用 System Manager 重新建立先前已断开的镜像关系。在反向重新同步操作中，您可以反转源卷和目标卷的功能。
 
 源卷必须处于联机状态。
