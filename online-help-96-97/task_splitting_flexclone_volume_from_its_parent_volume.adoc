@@ -2,7 +2,7 @@
 permalink: online-help-96-97/task_splitting_flexclone_volume_from_its_parent_volume.html 
 sidebar: sidebar 
 keywords: split, flexclone, volume, parent, online, help, disk, space 
-summary: 如果您希望 FlexClone 卷具有自己的磁盘空间，而不是使用其父卷的磁盘空间，则可以使用 System Manager 将此卷从其父卷拆分。拆分后， FlexClone 卷将成为普通的 FlexVol 卷。 
+summary: '您可以使用System Manager classic (适用于ONTAP 9.7及更早版本)将FlexClone卷从其父卷拆分。拆分后， FlexClone 卷将成为普通的 FlexVol 卷。它会继续使用其父卷的磁盘空间、并保留存储效率。' 
 ---
 = 使用 System Manager - ONTAP 9.7 及更早版本将 FlexClone 卷从其父卷拆分
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 如果您希望 FlexClone 卷具有自己的磁盘空间，而不是使
 
 
 [role="lead"]
-如果您希望 FlexClone 卷具有自己的磁盘空间，而不是使用其父卷的磁盘空间，则可以使用 System Manager classic （在 ONTAP 9.7 及更早版本中提供）将 FlexClone 卷从其父卷拆分。拆分后， FlexClone 卷将成为普通的 FlexVol 卷。
+您可以使用System Manager classic (适用于ONTAP 9.7及更早版本)将FlexClone卷从其父卷拆分。拆分后， FlexClone 卷将成为普通的 FlexVol 卷。它会继续使用其父卷的磁盘空间、并保留存储效率。
 
 FlexClone 卷必须处于联机状态。
 

@@ -7210,7 +7210,6 @@
   <block id="cd002818e71e3e15ea7d845a92b82053" category="doc">创建广播域</block>
   <block id="42d08e9d02e85b19500c66639042efa3" category="list-text">在 * 广播域 * 选项卡中，单击 * 创建 * 。</block>
   <block id="09581acd3488c5ccc5b8bbaa677e2de5" category="list-text">在 * 创建广播域 * 对话框中，指定要创建的广播域的名称， MTU 大小， IP 空间和端口。</block>
-  <block id="f7fdf5bf6b2aae12be21af7b531c30b1" category="summary">如果您希望 FlexClone 卷具有自己的磁盘空间，而不是使用其父卷的磁盘空间，则可以使用 System Manager 将此卷从其父卷拆分。拆分后， FlexClone 卷将成为普通的 FlexVol 卷。</block>
   <block id="5a3cb198d6fd237a2d53ed4480fbc456" category="paragraph">FlexClone 卷必须处于联机状态。</block>
   <block id="9b8eaedd112f4c7e73c69d56819b9f3b" category="paragraph">对于 _not_ AFF 系统，克隆拆分操作将删除克隆的所有现有 Snapshot 副本。SnapMirror 更新所需的 Snapshot 副本也会被删除。因此，任何后续的 SnapMirror 更新都可能失败。</block>
   <block id="ec1260ecaa88bce48da306fcc0441710" category="paragraph">如果您必须对卷执行任何其他操作，则可以暂停克隆拆分操作。您可以在另一操作完成后恢复克隆拆分过程。</block>
@@ -9010,7 +9009,6 @@
   <block id="4cfa7a50c86e4712589b7525645c62d7" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理网络接口</block>
   <block id="5c12d3be28256f2a4159aafabfc61e42" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理网络接口。</block>
   <block id="bf71aa2b8c5f54397eaee604bf7831a5" category="doc">使用 System Manager - ONTAP 9.7 及更早版本将 FlexClone 卷从其父卷拆分</block>
-  <block id="76055aecc2a31bf17fb90bcf64dacbd8" category="paragraph">如果您希望 FlexClone 卷具有自己的磁盘空间，而不是使用其父卷的磁盘空间，则可以使用 System Manager classic （在 ONTAP 9.7 及更早版本中提供）将 FlexClone 卷从其父卷拆分。拆分后， FlexClone 卷将成为普通的 FlexVol 卷。</block>
   <block id="695827db13701a3500b6c8651644d09e" category="doc">使用 System Manager - ONTAP 9.7 及更早版本在卷上启用存储效率</block>
   <block id="33541cf90bfd4d58d20417a84690177a" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）来启用存储效率，并在卷上配置重复数据删除和数据压缩或仅配置重复数据删除以节省存储空间。如果在创建卷时未启用存储效率，可以稍后通过编辑卷来启用。</block>
   <block id="5b371b102ea46126c749a29c392ca705" category="doc">关于使用 System Manager - ONTAP 9.7 及更早版本的 FlexVol 卷的卷保证</block>
@@ -9330,4 +9328,7 @@
   <block id="868555f74d53e8e661a5f31e4d7441e9" category="sidebar">关于ONTAP 名称服务开关配置</block>
   <block id="d351bbac1b18d316821e865a50a75d18" category="sidebar">管理QoS策略组</block>
   <block id="79fedbd71df5ba90cfd3c3a7103e7ebb" category="sidebar">管理存储关系</block>
+  <block id="e50dd294cf397303b2a00adc531519ff" category="summary">您可以使用System Manager classic (适用于ONTAP 9.7及更早版本)将FlexClone卷从其父卷拆分。拆分后， FlexClone 卷将成为普通的 FlexVol 卷。它会继续使用其父卷的磁盘空间、并保留存储效率。</block>
+  <block id="3c8b9315b4e5007a245058e0cff68754" category="sidebar">本地Windows组</block>
+  <block id="77099e972ae7a7fe259036767d3fe853" category="sidebar">管理本地Windows组</block>
 </blocks>
