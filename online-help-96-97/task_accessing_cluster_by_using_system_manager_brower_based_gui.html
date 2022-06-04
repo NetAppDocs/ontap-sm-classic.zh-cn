@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">简体中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">简体中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3454,7 +3446,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/index.html">
         System Manager 经典文档
       </a></li><li class="subfolders "><a href="#">
@@ -4682,7 +4674,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:20:46 +0000">04/13/2022</time>
+    <time datetime="2022-06-04 16:23:56 +0000">06/04/2022</time>
     
   
 
@@ -4717,7 +4709,10 @@
 <p>如果您使用的是 IPv4 ： ` https://cluster-mgmt-LIF`</p>
 </li>
 <li>
-<p>如果您使用的是 IPv6 ： <code>https://[cluster-mgmt-LIF]</code> ，则 ONTAP System Manager 的浏览器访问仅支持 HTTPS 。</p>
+<p>如果您使用的是IPv6：<code>https://[cluster-mgmt-LIF]</code></p>
+<div class="paragraph">
+<p>ONTAP 系统管理器的浏览器访问仅支持 HTTPS 。</p>
+</div>
 </li>
 </ul>
 </div>
@@ -4726,7 +4721,7 @@
 </div>
 </li>
 <li>
-<p>如果已使用命令行界面配置访问横幅，请阅读 * 警告 * 对话框中显示的消息，然后选择所需选项以继续操作。</p>
+<p>* 可选： * 如果已使用命令行界面配置访问横幅，请阅读 * 警告 * 对话框中显示的消息，然后选择所需选项以继续操作。</p>
 <div class="paragraph">
 <p>启用了安全断言标记语言（ SAML ）身份验证的系统不支持此选项。</p>
 </div>
@@ -4905,4 +4900,5 @@
     </script>
     <script src='/zh-cn/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/zh-cn/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/zh-cn/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>

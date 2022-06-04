@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">简体中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">简体中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/index.html">
         System Manager 经典文档
       </a></li><li class="subfolders "><a href="#">
@@ -4691,7 +4683,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:20:46 +0000">04/13/2022</time>
+    <time datetime="2022-06-04 16:23:56 +0000">06/04/2022</time>
     
   
 
@@ -4713,10 +4705,16 @@
 <div class="title">步骤</div>
 <ol class="arabic">
 <li>
-<p>在指定的多路径设备上运行一些 I/O ： <code>dd if=/dev/zero for=&lt;multipath_device_name\&gt;</code></p>
+<p>在指定的多路径设备上运行一些I/O：</p>
+<div class="paragraph">
+<p><code>dd if=/dev/zero f=&lt;multipath_device_name\&gt;</code></p>
+</div>
 </li>
 <li>
-<p>确认 I/O 正在多路径设备上运行，并指定刷新统计信息的秒数（例如，每两秒刷新一次，如图所示）： <code>iostat 2</code></p>
+<p>确认I/O正在多路径设备上运行、并指定刷新统计信息的秒数(例如、每两秒一次、如图所示)：</p>
+<div class="paragraph">
+<p><code>iostat 2</code></p>
+</div>
 <div class="paragraph">
 <p>当 I/O 在多路径设备上运行时，您可以看到各种 I/O 计数器输出动态更改，指示 I/O 在多路径设备上成功运行。</p>
 </div>
@@ -4744,13 +4742,19 @@ sdk               0.00         0.00         0.00       1344          0
 </div>
 </li>
 <li>
-<p>如果可能，请在存储集群节点上运行 <code>takeover</code> 命令： <code>storage failover takeover -ofnode &lt;node_name\&gt;</code></p>
+<p>如果可能、请在存储集群节点上运行`takeover`命令：</p>
+<div class="paragraph">
+<p><code>storage failover takeover -ofnode &lt;node_name\&gt;</code></p>
+</div>
 </li>
 <li>
 <p>重新运行<code>iostat</code> 命令，以验证多路径设备上的 I/O 是否仍在运行。</p>
 </li>
 <li>
-<p>在存储集群节点上运行 <code>giveback</code> 命令： <code>storage failover giveback -ofnode &lt;node_name\&gt;</code></p>
+<p>在存储集群节点上运行`giveback`命令：</p>
+<div class="paragraph">
+<p><code>storage failover giveback -ofnode &lt;node_name\&gt;</code></p>
+</div>
 </li>
 <li>
 <p>检查 <code>iostat</code> 输出以验证 I/O 是否仍在运行。</p>
@@ -4913,4 +4917,5 @@ sdk               0.00         0.00         0.00       1344          0
     </script>
     <script src='/zh-cn/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/zh-cn/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/zh-cn/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>

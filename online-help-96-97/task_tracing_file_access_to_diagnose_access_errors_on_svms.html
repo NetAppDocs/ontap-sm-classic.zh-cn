@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">简体中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">简体中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/index.html">
         System Manager 经典文档
       </a></li><li class="subfolders "><a href="#">
@@ -4691,7 +4683,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 23:20:46 +0000">04/13/2022</time>
+    <time datetime="2022-06-04 16:23:56 +0000">06/04/2022</time>
     
   
 
@@ -4729,7 +4721,7 @@
 <p>在 * 用户名 * 字段中，输入尝试访问文件或共享的用户的名称。</p>
 </li>
 <li>
-<p>单击 <span class="image"><img src="../media/advanced_options.gif" alt=""></span> 指定更多详细信息以缩小跟踪范围。</p>
+<p>* 可选： * 单击 <span class="image"><img src="../media/advanced_options.gif" alt=""></span> 指定更多详细信息以缩小跟踪范围。</p>
 <div class="paragraph">
 <p>通过高级选项对话框窗口，您可以指定以下详细信息：</p>
 </div>
@@ -4760,7 +4752,7 @@
 </div>
 </li>
 <li>
-<p>在结果表的 * 原因 * 列中，单击 * 查看权限 * 以查看用户尝试访问的文件的权限。</p>
+<p>*可选：*在结果表的*原因*列中、单击*查看权限*以查看用户尝试访问的文件的权限。</p>
 <div class="ulist">
 <ul>
 <li>
@@ -4779,7 +4771,7 @@
 </div>
 </li>
 <li>
-<p>结果表显示只读数据。您可以对跟踪结果执行以下操作：</p>
+<p>*可选：*结果表显示只读数据。您可以对跟踪结果执行以下操作：</p>
 <div class="ulist">
 <ul>
 <li>
@@ -4942,4 +4934,5 @@
     </script>
     <script src='/zh-cn/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/zh-cn/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/zh-cn/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>

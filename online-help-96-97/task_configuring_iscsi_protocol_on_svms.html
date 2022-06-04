@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">简体中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">简体中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-cn/ontap-sm-classic/index.html">
         System Manager 经典文档
       </a></li><li class="subfolders "><a href="#">
@@ -4691,7 +4683,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-11 22:26:00 +0000">05/11/2022</time>
+    <time datetime="2022-06-04 16:23:56 +0000">06/04/2022</time>
     
   
 
@@ -4742,7 +4734,7 @@
 <p>在 * 协议 * 窗格中，单击 * iSCSI * 。</p>
 </li>
 <li>
-<p>在 * 网络访问 * 部分中，指定 iSCSI 目标的别名。</p>
+<p>*可选：*在*网络访问*部分中、指定iSCSI目标的别名。</p>
 <div class="paragraph">
 <p>别名的最大字符数为 128 。如果不指定目标别名，则会使用 SVM 名称作为别名。</p>
 </div>
@@ -4870,7 +4862,7 @@
 </div>
 </li>
 <li>
-<p>在配置 iSCSI 协议时，通过指定 LUN 大小， LUN 的操作系统类型以及主机启动程序详细信息来为 iSCSI 存储配置 LUN 。</p>
+<p>*可选：*通过指定LUN大小、LUN的操作系统类型以及主机启动程序详细信息、在配置iSCSI协议时为iSCSI存储配置LUN。</p>
 </li>
 <li>
 <p>如果要验证或修改自动生成的 iSCSI LIF 的配置，请选择 * 查看或修改 LIF 配置（高级设置） * 。</p>
@@ -5038,4 +5030,5 @@
     </script>
     <script src='/zh-cn/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/zh-cn/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/zh-cn/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>
