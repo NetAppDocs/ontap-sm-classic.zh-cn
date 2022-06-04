@@ -31,7 +31,7 @@ summary: 您可以使用 System Manager 在 Storage Virtual Machine （ SVM\ ）
 . 如果在创建 SVM 时未配置 iSCSI 协议，请单击 * 存储 * > * SVM* 。
 . 选择 SVM ，然后单击 * SVM 设置 * 。
 . 在 * 协议 * 窗格中，单击 * iSCSI * 。
-. 在 * 网络访问 * 部分中，指定 iSCSI 目标的别名。
+. *可选：*在*网络访问*部分中、指定iSCSI目标的别名。
 +
 别名的最大字符数为 128 。如果不指定目标别名，则会使用 SVM 名称作为别名。
 
@@ -106,7 +106,7 @@ summary: 您可以使用 System Manager 在 Storage Virtual Machine （ SVM\ ）
 必须在广播域中添加 ifgrp 端口。
 
 ====
-. 在配置 iSCSI 协议时，通过指定 LUN 大小， LUN 的操作系统类型以及主机启动程序详细信息来为 iSCSI 存储配置 LUN 。
+. *可选：*通过指定LUN大小、LUN的操作系统类型以及主机启动程序详细信息、在配置iSCSI协议时为iSCSI存储配置LUN。
 . 如果要验证或修改自动生成的 iSCSI LIF 的配置，请选择 * 查看或修改 LIF 配置（高级设置） * 。
 +
 您只能修改 LIF 名称和主端口。默认情况下，端口集设置为最小值。必须指定唯一条目。如果指定重复的 LIF 名称， System Manager 会将数字值附加到重复的 LIF 名称。

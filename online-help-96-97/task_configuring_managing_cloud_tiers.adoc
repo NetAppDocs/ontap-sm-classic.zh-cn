@@ -74,7 +74,7 @@ image::../media/fabricpool_workflow.gif[FabricPool 工作流]
 ** 启用或禁用 * ssl* 选项，以便将数据安全传输到云层
 
 
-. 如果要为 StorageGRID 添加云层或要将 IBM 云对象存储环境（例如， Cleversafe ）与 FabricPool 结合使用，则应指定 CA 证书。通过移动 * 对象存储证书 * 切换按钮并复制证书内容来指定 CA 证书。然后将证书内容粘贴到签名证书中。
+. *可选：*如果要为StorageGRID 添加云层或将IBM云对象存储环境(例如Cleversafe)与FabricPool 结合使用、则应指定CA证书。通过移动 * 对象存储证书 * 切换按钮并复制证书内容来指定 CA 证书。然后将证书内容粘贴到签名证书中。
 . 从 * IP 空间 * 列表中，选择用于连接到云层的 IP 空间。
 . 单击 * 保存 * 以保存云层。
 . 单击 * 保存并附加聚合 * 以保存云层并将聚合附加到云层。
@@ -148,7 +148,7 @@ image::../media/fabricpool_workflow.gif[FabricPool 工作流]
 +
 最小热备用规则将应用于磁盘大小最大的磁盘组。
 
-.. 修改聚合的 RAID 配置：
+.. *可选：*修改聚合的RAID配置：
 +
 ... 单击 * 更改 * 。
 ... 在更改 RAID 配置对话框中，指定 RAID 类型和 RAID 组大小。

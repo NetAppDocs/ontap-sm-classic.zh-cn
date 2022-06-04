@@ -31,7 +31,7 @@ summary: 如果您的站点同时具有 Windows 和 UNIX 用户帐户，则应�
 . 导航到 * SVM* 窗口。
 . 选择要配置的 SVM 。
 . 单击 * SVM 设置 * 选项卡。
-. 创建将 UNIX 用户帐户转换为 Windows 用户帐户的名称映射，反之亦然：
+. *可选*：创建将UNIX用户帐户转换为Windows用户帐户的名称映射、反之亦然：
 +
 .. 在 * 主机用户和组 * 窗格中，单击 * 名称映射 * 。
 .. 单击 * 添加 * ，保留默认的 * 从 Windows 到 UNIX* 方向，然后创建一个正则表达式，以便在 Windows 用户尝试访问使用 UNIX 文件权限的文件时生成 UNIX 凭据。
@@ -52,10 +52,10 @@ image::../media/name_mappings_2_unix_to_windows.gif[UNIX 到 Windows 条目的�
 +
 image::../media/name_mappings_3_outcome.gif[本图通过周围的文字进行了说明。]
 
-.. 重复步骤 <<SUBSTEP_8BDAF68A77864AAFAF680961CE879940,#substed_8BDAF68A77864AAFAF680961CE879940>> 到 <<SUBSTEP_E730068645DB4303B61744DB632A9803,#substed_E730068645DB4303B61744DB632A9803>> 映射 SVM 上的所有域和名称。
+.. 重复步骤5b到5d以映射SVM上的所有域和名称。
 
 
-. 创建默认 Windows 用户：
+. *可选*：创建默认Windows用户：
 +
 .. 在 SVM 的 LDAP ， NIS 或本地用户中创建 Windows 用户帐户。
 +
@@ -67,7 +67,7 @@ image::../media/name_mappings_3_outcome.gif[本图通过周围的文字进行了
 +
 您可以创建一个名为 "`unixusers` " 的本地 Windows 用户并将其设置为默认 Windows 用户。
 
-. 如果您希望用户与默认值不同，即 "`pcuser` " 用户，请配置默认 UNIX 用户。
+. *可选*：如果您希望用户与默认值(即"`pcuser`"用户)不同、请配置默认UNIX用户。
 +
 .. 在 SVM 的 LDAP ， NIS 或本地用户中创建 UNIX 用户帐户。
 +

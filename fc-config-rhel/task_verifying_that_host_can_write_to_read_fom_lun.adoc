@@ -18,8 +18,14 @@ summary: 在使用多路径设备之前，您应验证主机是否可以将数�
 如果多路径设备对应的存储集群节点可以故障转移到其配对节点，则应验证在节点进行故障转移时是否读取数据。如果存储集群正在生产环境中使用，则可能无法执行此验证。
 
 .步骤
-. 在指定的多路径设备上运行一些 I/O ： `dd if=/dev/zero for=<multipath_device_name\>`
-. 确认 I/O 正在多路径设备上运行，并指定刷新统计信息的秒数（例如，每两秒刷新一次，如图所示）： `iostat 2`
+. 在指定的多路径设备上运行一些I/O：
++
+`dd if=/dev/zero f=<multipath_device_name\>`
+
+. 确认I/O正在多路径设备上运行、并指定刷新统计信息的秒数(例如、每两秒一次、如图所示)：
++
+`iostat 2`
+
 +
 当 I/O 在多路径设备上运行时，您可以看到各种 I/O 计数器输出动态更改，指示 I/O 在多路径设备上成功运行。
 
@@ -45,9 +51,15 @@ sdj               0.00         0.00         0.00       1344          0
 sdk               0.00         0.00         0.00       1344          0
 .............
 ----
-. 如果可能，请在存储集群节点上运行 `takeover` 命令： `storage failover takeover -ofnode <node_name\>`
+. 如果可能、请在存储集群节点上运行`takeover`命令：
++
+`storage failover takeover -ofnode <node_name\>`
+
 . 重新运行``iostat`` 命令，以验证多路径设备上的 I/O 是否仍在运行。
-. 在存储集群节点上运行 `giveback` 命令： `storage failover giveback -ofnode <node_name\>`
+. 在存储集群节点上运行`giveback`命令：
++
+`storage failover giveback -ofnode <node_name\>`
+
 . 检查 `iostat` 输出以验证 I/O 是否仍在运行。
 
 

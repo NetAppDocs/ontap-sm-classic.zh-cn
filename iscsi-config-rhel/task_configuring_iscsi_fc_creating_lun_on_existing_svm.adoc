@@ -38,8 +38,8 @@ image::../media/existing_svm_protocols_iscsi_rhel.gif[图中显示了详细信�
 
 . 从 * 配置 iSCSI 协议 * 页面配置 iSCSI 服务和 LIF ：
 +
-.. 输入目标别名。
-.. 在 * 每个节点的 LIF * 字段中输入 `2` 。
+.. *可选：*输入目标别名。
+.. 在*每个节点的LIF *字段中输入`* 2 *`。
 +
 每个节点需要两个 LIF ，以确保可用性和数据移动性。
 

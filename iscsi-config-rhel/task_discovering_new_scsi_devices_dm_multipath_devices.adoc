@@ -16,8 +16,14 @@ summary: 存储集群上的 LUN 在 Linux 主机中显示为 SCSI 设备，这�
 您必须具有 `rescan` 脚本的副本，该脚本位于 Linux 操作系统分发版中的 `sg3_utils` 软件包中。
 
 .步骤
-. 发现新的 SCSI 设备（ LUN ）并为 LUN 创建相应的多路径设备： ` /usr/bin/rescan scsi-bus.sh`
-. 验证 DM-Multipath 配置：``multipath -ll``
+. 发现新的SCSI设备(LUN)并为LUN创建相应的多路径设备：
++
+` /usr/bin/resscan-scsi-bus.sh`
+
+. 验证DM-Multipath配置：
++
+`multipath -ll`
+
 +
 此时将显示以下类型的输出，其中列出了每个 NetApp LUN 的建议设置：
 

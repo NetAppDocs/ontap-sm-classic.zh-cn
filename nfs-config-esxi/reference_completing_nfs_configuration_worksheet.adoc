@@ -23,7 +23,7 @@ summary: 要执行 NFS 客户端配置任务，您需要网络地址和存储配
 
 image::../media/network_for_nfs_eg.gif[用于客户端配置的网络拓扑]
 
-LIF 的子网： * ？ _* ？？？？
+LIF 的子网：
 
 |===
 | 端口连接到交换机的节点或 LIF | IP 地址 | 网络掩码 | 网关 | VLAN ID | 主端口 
@@ -119,24 +119,12 @@ LIF 的子网： * ？ _* ？？？？
 
 
  a| 
-
-
-
- a| 
 Aggregate name
 
 
 
  a| 
-
-
-
- a| 
 name
-
-
-
- a| 
 
 |===
 
@@ -148,98 +136,71 @@ name
 
 
  a| 
-
-
-
- a| 
 导出名称（可选）
-
-
-
- a| 
 
 
 
  a| 
 导出问题描述（可选）
 
-
-
- a| 
-
 |===
 
 
-== 信息
+== SVM 信息
 
 如果您不使用现有，则需要以下信息才能创建新的：
 
+[cols="1a,1a"]
 |===
-| name 
+2+| SVM name 
 
 
  a| 
-
-
-
- a| 
-根卷的聚合
+SVM 根卷的聚合
 
 
 
  a| 
+SVM 用户名（可选）
 
 
 
  a| 
-用户名（可选）
+SVM 密码（可选）
 
 
 
  a| 
+SVM 管理 LIF （可选）
 
 
 
  a| 
-密码（可选）
-
-
-
- a| 
-
-
-
- a| 
-管理 LIF （可选）
-
-
-
  a| 
 Subnet
 
 
 
  a| 
+ a| 
 IP 地址
 
 
 
+ a| 
  a| 
 网络掩码
 
 
 
  a| 
+ a| 
 网关
 
 
 
  a| 
-Home node
-
-
-
  a| 
-主端口
+Home node
 
 |===

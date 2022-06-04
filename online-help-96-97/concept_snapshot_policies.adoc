@@ -49,8 +49,12 @@ summary: 您可以使用 System Manager 在存储系统中创建和管理 Snapsh
 . 在 * 快照策略 * 窗口中，选择要修改的 Snapshot 策略，然后单击 * 编辑 * 。
 . 在 * 编辑 Snapshot 策略 * 对话框中，选择要修改的计划，然后单击 * 编辑 * 。
 . 单击 * 确定 * 。
-. 在 * 编辑 Snapshot 策略 * 对话框中验证对选定 Snapshot 策略所做的更改，然后单击 * 保存 * 。= 删除 Snapshot 策略
+. 在 * 编辑 Snapshot 策略 * 对话框中验证对选定 Snapshot 策略所做的更改，然后单击 * 保存 * 。
 
+
+
+
+== 删除 Snapshot 策略
 
 您可以使用 System Manager 删除 Snapshot 策略。如果删除一个或多个卷正在使用的 Snapshot 策略，则不会再根据已删除的策略创建卷的 Snapshot 副本。
 

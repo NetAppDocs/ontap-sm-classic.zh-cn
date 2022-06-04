@@ -43,18 +43,18 @@ summary: 设置新的涉及创建新的和启用 NFS 。然后，您可以使用
 +
 此语言将由您稍后创建的卷继承，并且无法更改卷的语言。
 
-.. 如果启用了 CIFS 协议，请将安全模式更改为 * UNIX * 。
+.. *可选*：如果启用了CIFS协议、请将安全模式更改为* UNIX *。
 +
 默认情况下，选择 CIFS 协议会将安全模式设置为 NTFS 。
 
-.. 选择要包含根卷的根聚合。
+.. *可选*：选择要包含根卷的根聚合。
 +
 为根卷选择的聚合不会确定数据卷的位置。
 
 +
 image::../media/svm_setup_details_unix_selected_nfs_esxi.gif[SVM 设置]
 
-.. 在 * DNS 配置 * 区域中，确保默认 DNS 搜索域和名称服务器是要用于此 SVM 的域和名称服务器。
+.. *可选*：在* DNS配置*区域中、确保默认DNS搜索域和名称服务器是要用于此SVM的域和名称服务器。
 +
 image::../media/svm_setup_details_dns_nfs_esxi.gif[本图通过周围的文字进行了说明。]
 

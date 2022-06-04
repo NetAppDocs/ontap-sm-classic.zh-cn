@@ -16,11 +16,23 @@ Linux 主机必须与存储集群中的每个节点（目标）建立 iSCSI 连�
 在 ONTAP 中， iSCSI 主机必须具有指向集群中每个节点的路径。DM-Multipath 可选择要使用的最佳路径。如果路径失败， DM-Multipath 将选择备用路径。
 
 .步骤
-. 从 Linux 主机命令提示符处启动 iSCSI 服务： `sservice iscsid force-start`
-. 发现 iSCSI 目标： `iscsiadm -mode discovery -op update -type sendtargets -portal targetIP`
+. 从Linux主机命令提示符启动iSCSI服务：
++
+`sservice iscsid force-start`
+
+. 发现iSCSI目标：
++
+`iscsiadm -mode discovery -op update -type sendtargets -portal targetIP`
+
 +
 每个已发现目标的 IP 地址会显示在单独的行中。
 
-. 登录到每个目标以建立 iSCSI 会话： `iscsiadm -mode node -l all`
-. 您可以查看活动 iSCSI 会话的列表： `iscsiadm -mode session`
+. 登录到每个目标以建立iSCSI会话：
++
+`iscsiadm -mode node -l all`
+
+. 您可以查看活动iSCSI会话的列表：
++
+`iscsiadm -mode session`
+
 

@@ -34,10 +34,16 @@ https://mysupport.netapp.com/matrix["NetApp 互操作性表工具"]
 
 
 +
-要显示非 NetApp SCSI 设备的 WWID ，请在要排除的设备上输入以下命令，其中 `ScsI_device_name` 是您指定的设备： ` /lib/udev/scsi_id -gud /dev/scsi_device_name`
+要显示非NetApp SCSI设备的WWID、请在要排除的设备上输入以下命令、其中`ScsI_device_name`是您指定的设备：
 
 +
-例如，如果 ` /dev/sda` 是要排除的非 NetApp SCSI 设备，则应输入以下内容： ` /lib/udev/scsi_id -gud /dev/sda`
+`/lib/udev/scsi_id -gud /dev/scsi_device_name`
+
++
+例如、如果`/dev/sda`是要排除的非NetApp SCSI设备、则应输入以下内容：
+
++
+`/lib/udev/scsi_id -gud /dev/sda`
 
 +
 此时将显示设备的 WWID ，您可以将其复制并粘贴到 `multipath.conf` 文件中。
@@ -59,11 +65,20 @@ blacklist {
 *** 如果没有要排除的设备，请从 `multipath.conf` 文件中删除 _WWID_ 行。
 
 
-.. 通过在启动加载程序的内核行末尾附加以下字符串来启用 NetApp 建议的 DM-Multipath 设置： `rdloaddriver=SCSI_DH_ALUA`
+.. 在启动加载程序的内核行末尾附加以下字符串、以启用NetApp建议的DM-Multipath设置：
++
+`rdloaddriver=SCSI_DH_ALUA`
 
 
-. 启动 DM-Multipath 守护进程： ` /etc/init.d/multipathd start`
-. 将多路径服务添加到启动序列中，以便多路径守护进程始终在系统启动期间启动： `chkconfig multipathd on`
+
+. 启动DM-Multipath守护进程：
++
+`/etc/init.d/multipathd start`
+
+. 将多路径服务添加到启动序列中、以便多路径守护进程在系统启动期间始终启动：
++
+`chkconfig multipathd on`
+
 . 重新启动 Linux 主机。
 . 运行 `cat /proc/cmdline` 时，验证输出中是否显示 `rdloaddriver` 设置。
 +

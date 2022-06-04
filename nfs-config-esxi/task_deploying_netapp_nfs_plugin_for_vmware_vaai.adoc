@@ -27,7 +27,7 @@ https://mysupport.netapp.com/site/global/dashboard["NetApp 支持"]
 +
 在 VMware vSphere 5.0 及更高版本中， VAAI 默认处于启用状态。
 
-. 在中，转到 * 工具 * > * NFS VAAI 工具 * 。
+. 在Virtual Storage Console中、转到*工具*>* NFS VAAI工具*。
 . 单击 * 选择文件 * 上传 `NetAppNasPlugIn.vib` 文件。
 . 单击 * 上传 * 。
 +

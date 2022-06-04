@@ -109,9 +109,8 @@ summary: 您可以使用 System Manager 创建，编辑和删除配额。
 . 从 * SVM* 字段的下拉菜单中，选择要查看其相关信息的配额所在的 Storage Virtual Machine （ SVM ）。
 . 执行相应的操作：
 +
+[cols="1a,1a"]
 |===
-
-
 | 条件 | 那么 ... 
 
 

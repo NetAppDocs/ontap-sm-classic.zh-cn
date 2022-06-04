@@ -89,6 +89,6 @@ summary: 您可以使用 System Manager 从源 Storage Virtual Machine （ SVM �
 
 
 |===
-. 单击 *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* ，更新保护策略和保护计划，选择 * 启用了 FabricPool 的聚合 * ，然后初始化保护关系。
+. *可选：*单击*image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[""]* ，更新保护策略和保护计划，选择 * 启用了 FabricPool 的聚合 * ，然后初始化保护关系。
 . 单击 * 保存 * 。
 

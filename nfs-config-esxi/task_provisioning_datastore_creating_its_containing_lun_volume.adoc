@@ -13,9 +13,9 @@ summary: 数据存储库包含 ESXi 主机上的虚拟机及其 VMDK 。ESXi 主
 [role="lead"]
 数据存储库包含 ESXi 主机上的虚拟机及其 VMDK 。ESXi 主机上的数据存储库是在存储集群上的卷上配置的。
 
-必须在管理 ESXi 主机的 vCenter Server 中安装和注册 for （ VSC ）。
+必须安装适用于VMware vSphere for (VSC)的Virtual Storage Console并将其注册到管理ESXi主机的vCenter Server中。
 
-VSC 必须具有足够的集群或凭据才能创建卷。
+VSC必须具有足够的集群或凭据才能在指定的SVM上创建卷。
 
 VSC 可自动配置数据存储库，包括在指定的 SVM 上创建卷。
 

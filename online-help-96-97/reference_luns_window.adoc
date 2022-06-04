@@ -257,12 +257,6 @@ xref:task_deleting_luns.adoc[正在删除 LUN]
 
 xref:task_creating_initiator_groups.adoc[正在创建启动程序组]
 
-xref:task_deleting_initiator_groups.adoc[删除启动程序组]
-
-xref:task_adding_initiators.adoc[正在添加启动程序]
-
-xref:task_deleting_initiators_from_initiator_group.adoc[从启动程序组中删除启动程序]
-
 xref:task_editing_luns.adoc[编辑 LUN]
 
 xref:task_editing_initiator_groups.adoc[编辑启动程序组]

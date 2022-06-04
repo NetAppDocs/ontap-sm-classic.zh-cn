@@ -18,7 +18,7 @@ summary: 您可以在现有 Storage Virtual Machine （ SVM ）上配置 iSCSI �
 .步骤
 . 导航到 * SVM* 窗口。
 . 选择要配置的 SVM 。
-. 在 SVM* 详细信息 * 窗格中，验证 * iSCSI * 是否以灰色背景显示，这表示协议已启用，但尚未完全配置。
+. 在SVM的"Details (详细信息)"窗格中、验证* iSCSI *是否以灰色背景显示、这表示协议已启用、但尚未完全配置。
 +
 如果 * iSCSI * 以绿色背景显示，则表示 SVM 已配置。
 
@@ -32,7 +32,7 @@ image::../media/existing_svm_protocols_iscsi_esxi.gif[图中显示了详细信�
 . 从 * 配置 iSCSI 协议 * 页面配置 iSCSI 服务和 LIF ：
 +
 .. 输入目标别名。
-.. 在 * 每个节点的 LIF * 字段中输入 `2` 。
+.. 在*每个节点的LIF *字段中输入`* 2 *`。
 +
 每个节点需要两个 LIF ，以确保可用性和数据移动性。
 
