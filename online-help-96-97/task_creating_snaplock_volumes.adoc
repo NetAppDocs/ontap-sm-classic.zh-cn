@@ -11,7 +11,7 @@ summary: 您可以使用 System Manager 创建 SnapLock Compliance 卷或 SnapLo
 
 
 [role="lead"]
-您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）创建 SnapLock Compliance 卷或 SnapLock Enterprise 卷。创建卷时，您还可以设置保留时间，并选择是否自动设置卷中数据的 WORM 状态。
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)创建SnapLock Compliance卷或SnapLock Enterprise卷。创建卷时，您还可以设置保留时间，并选择是否自动设置卷中数据的 WORM 状态。
 
 .开始之前
 * 必须已安装 SnapLock 许可证。

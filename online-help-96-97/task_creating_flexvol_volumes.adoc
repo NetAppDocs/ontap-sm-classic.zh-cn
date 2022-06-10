@@ -11,7 +11,7 @@ summary: 您可以使用 System Manager 中的创建卷对话框为数据创建 
 
 
 [role="lead"]
-您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）中的创建卷对话框为数据创建 FlexVol 卷。您必须始终为数据创建一个单独的卷，而不是将数据存储在根卷中。
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)中的创建卷对话框为数据创建FlexVol 卷。您必须始终为数据创建一个单独的卷，而不是将数据存储在根卷中。
 
 .开始之前
 * 集群必须包含非根聚合和 Storage Virtual Machine （ SVM ）。

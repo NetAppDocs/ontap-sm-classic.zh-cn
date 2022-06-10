@@ -11,7 +11,7 @@ summary: 您可以使用 System Manager 配置集中维护用户信息的 LDAP �
 
 
 [role="lead"]
-您可以使用 ONTAP System Manager classic （ 9.7 及更早版本）配置集中维护用户信息的 LDAP 服务器。
+您可以使用ONTAP System Manager classic (在ONTAP 9.7及更早版本中提供)来配置一个集中维护用户信息的LDAP服务器。
 
 
 

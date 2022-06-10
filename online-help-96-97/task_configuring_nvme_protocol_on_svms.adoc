@@ -11,7 +11,7 @@ summary: 您可以使用 System Manager 在 Storage Virtual Machine （ SVM ）�
 
 
 [role="lead"]
-您可以使用System Manager classic (适用于ONTAP 9.7及更早版本)在Storage Virtual Machine (SVM)上配置NVMe协议。然后，您可以创建命名空间并将其分配给 NVMe 子系统和主机。
+您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在Storage Virtual Machine (SVM)上配置NVMe协议。然后，您可以创建命名空间并将其分配给 NVMe 子系统和主机。
 
 采用 NVMe 的 SVM 不应具有任何其他协议。如果选择 NVMe ，则其余协议将被禁用。您也可以在创建 SVM 时配置 NVMe 。
 

@@ -8658,7 +8658,6 @@
   <block id="c3b9dfd292bc1b7a3ce9854f5e6cb29d" category="sidebar">什么是 NVMe 子系统</block>
   <block id="e9bdc57e2dd3879cf90ec006b52505f6" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理许可证</block>
   <block id="38fd3ecf8201750e55c0c5bce14fd4da" category="doc">使用 System Manager - ONTAP 9.7 及更早版本在 SVM 上配置 FC 协议和 FCoE 协议</block>
-  <block id="6add29da08c990d29ef923f9f502fb2f" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）在 Storage Virtual Machine （ SVM ）上为 SAN 主机配置 FC 协议和 FCoE 协议。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。根据您的要求，您可以使用 System Manager 配置 FC 协议或 FCoE 协议，也可以同时配置这两种协议。</block>
   <block id="93c41266584d5677e48dfa95ec4744c7" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建启用了 FabricPool 的聚合，或者通过将云层附加到 SSD 聚合将现有 SSD 聚合转换为启用了 FabricPool 的聚合。</block>
   <block id="a25a6296a2238250ac880d0ecf5b030b" category="paragraph">在使用 ONTAP System Manager classic 9.6 执行切换操作之前，您应验证是否已在受影响的站点上执行了必要的步骤。</block>
   <block id="19ba7845e5879e0c327b97f282a2ad67" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建高可用性对</block>
@@ -8690,7 +8689,6 @@
   <block id="ebb6e6a19f64f243f239c1bdaf692ad7" category="doc">在 System Manager - ONTAP 9.7 及更早版本中使用基于浏览器的图形界面访问集群</block>
   <block id="2ba8881024494dad02ea0fcfabaf51a3" category="paragraph">如果您希望使用图形界面而不是命令行界面来访问和管理集群，则可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）。ONTAP System Manager 作为 Web 服务随 ONTAP 提供，默认情况下处于启用状态，可使用浏览器进行访问。</block>
   <block id="70874cc3a4a9888ac212eaaf23b43c77" category="doc">使用 System Manager - ONTAP 9.7 及更早版本在 SVM 上配置 CIFS 和 NFS 协议</block>
-  <block id="248f2ec6686f4fbce6771ddc5abc09d1" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）在 Storage Virtual Machine （ SVM ）上配置 CIFS 和 NFS 协议，以便为 NAS 客户端提供文件级数据访问。要启用 CIFS 协议，必须创建数据 LIF 和 CIFS 服务器。要启用 NFS 协议，您可以指定 NIS 详细信息和数据 LIF 。</block>
   <block id="6179ae55d1fadeff01dd8976b5bedda7" category="doc">使用 System Manager - ONTAP 9.7 及更早版本获取 ONTAP 软件映像</block>
   <block id="78916d18eac9a0b8102e2b7f6a492589" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）获取 ONTAP 软件映像。对于 ONTAP 9.4 及更高版本，您可以将 ONTAP 软件映像从 NetApp 支持站点复制到本地文件夹。对于从 ONTAP 9.3 或更早版本升级的系统，您必须将 ONTAP 软件映像复制到网络上的 HTTP 服务器或 FTP 服务器。</block>
   <block id="f5db4f9448aaa78931200f9e088d969e" category="doc">使用 System Manager - ONTAP 9.7 及更早版本在 SVM 上配置 iSCSI 协议</block>
@@ -8699,7 +8697,6 @@
   <block id="a52ac8fd4d86144ca8599edcc24c0489" category="paragraph">您可以使用 ONTAP System Manager 经典版中的预定义应用程序模板（在 ONTAP 9.7 及更早版本中提供），根据现有应用程序模板创建新配置。然后，您可以在 ONTAP 中配置应用程序实例。</block>
   <block id="2315562608e0a40cc0e479e0bf28e956" category="paragraph">从 ONTAP System Manager 9.6 开始，如果发生灾难，导致源集群中的所有节点均无法访问并关闭，您可以使用 MetroCluster 切换和切回操作。在灾难恢复测试或站点脱机进行维护等情况下，您还可以使用切换工作流进行协商（计划内）切换。</block>
   <block id="d8f8316f7f24f5a2514269ed1e587626" category="doc">使用 System Manager 创建 SVM - ONTAP 9.7 及更早版本</block>
-  <block id="c9dec5a7f72136d2dbb54a45740dfc5f" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）创建可立即提供数据的完全配置的 Storage Virtual Machine （ SVM ）。一个集群可以具有一个或多个 SVM 。</block>
   <block id="b1f5b741f97f88d2a27fe9554d96e5ae" category="doc">使用 System Manager - ONTAP 9.7 及更早版本中的模板文件设置集群</block>
   <block id="80c57d2dae86d5f969cedfa286a5d186" category="paragraph">您可以使用 ONTAP System Manager 经典版（在 ONTAP 9.7 及更早版本中提供）中提供的模板文件来设置集群，方法是创建集群，设置节点管理和集群管理网络，然后设置事件通知。（从 ONTAP System Manager 9.6 开始，不支持 AutoSupport 。） 您可以下载格式为 ` .xlsx` 或 ` .csv` 的模板文件。</block>
   <block id="981ccff974ccd38feb11b98749f62f33" category="doc">使用 System Manager - ONTAP 9.7 及更早版本将管理任务委派给 SVM 管理员</block>
@@ -8718,7 +8715,6 @@
   <block id="9d802381a15c252491a9d7ee663aff69" category="doc">使用 System Manager 配置 SNMP - ONTAP 9.7 及更早版本</block>
   <block id="f31b76fac3ac0dc10498d730d31669d4" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）配置 SNMP 以监控集群中的 SVM 。</block>
   <block id="b10038089b0aa2450f7c5e88c187484f" category="doc">使用 System Manager - ONTAP 9.7 及更早版本配置 LDAP 服务器</block>
-  <block id="1cbeaf1a546d95c9bc9037f69d4fcf08" category="paragraph">您可以使用 ONTAP System Manager classic （ 9.7 及更早版本）配置集中维护用户信息的 LDAP 服务器。</block>
   <block id="85867b0d35df1b329438dc7c422261f1" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建 Flash Pool 聚合，或者通过添加 SSD 将现有 HDD 聚合转换为 Flash Pool 聚合。创建新的 HDD 聚合时，您可以为其配置 SSD 缓存并创建 Flash Pool 聚合。</block>
   <block id="94179f0d8149a3ac801eea474d69ef53" category="doc">使用 System Manager - ONTAP 9.7 及更早版本设置网络</block>
   <block id="1ba705052a00b8283ec31d9278e3d149" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）设置网络。设置网络包括创建 IP 空间，广播域和子网。</block>
@@ -8729,13 +8725,11 @@
   <block id="e990537de20ec1517a4049efeae4c1b8" category="doc">System Manager - ONTAP 9.7 及更早版本中的应用程序配置设置</block>
   <block id="25d492d354ae334c48fa3dfc30fcdebc" category="paragraph">在 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）中为数据库，服务器或虚拟桌面设置基本或增强型模板时，您必须提供详细信息。配置应用程序后，您可以编辑详细信息并指定调整大小（仅增加大小）。本节介绍每个模板中的字段。仅显示配置或编辑特定应用程序设置所需的字段。</block>
   <block id="94a185593edb330f99889ac7b7a02ae2" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建 SnapLock 卷</block>
-  <block id="b330e978f60c29cf1c89b88d9bd0de4c" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）创建 SnapLock Compliance 卷或 SnapLock Enterprise 卷。创建卷时，您还可以设置保留时间，并选择是否自动设置卷中数据的 WORM 状态。</block>
   <block id="e1bf307eb9a38952a201d90166512c49" category="doc">使用 System Manager - ONTAP 9.7 及更早版本管理 IP 空间</block>
   <block id="97ab21a632bcc52bfa1ce4def08b85d7" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建和管理 IP 空间。</block>
   <block id="b95a0a6b9ea9803f155567513ee220ee" category="doc">配置 System Manager 选项— ONTAP 9.7 及更早版本</block>
   <block id="700de8169ee006740e47e085de31314d" category="paragraph">您可以启用日志记录并为 ONTAP System Manager classic （在 ONTAP 9.7 或更早版本中提供）指定非活动超时值。</block>
   <block id="829111bc2f9e8438581c99c65c273ac5" category="doc">使用 System Manager - ONTAP 9.7 及更早版本设置对等关系</block>
-  <block id="1a73142d9e2244e70e8bbf958894302c" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）设置对等关系。设置对等涉及到在每个节点上创建集群间逻辑接口（ LIF ），创建集群对等以及创建 SVM 对等。</block>
   <block id="2976c240f095f572c401489b5ac3e328" category="doc">使用 System Manager 的集群对等方— ONTAP 9.7 及更早版本</block>
   <block id="997772740a755ed8d7530b890bec9f7e" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）对等两个集群，以便对等集群可以在它们之间协调和共享资源。对于使用 SnapMirror 技术和 SnapVault 技术进行数据复制以及在 MetroCluster 配置中使用 FlexCache 卷和 SyncMirror 技术进行数据复制，需要使用对等集群。</block>
   <block id="9db847a02a4eaadfd02090106d319dcc" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建 SnapLock 合规性聚合或 SnapLock 企业聚合。您可以在这些聚合上创建 SnapLock 卷，从而提供 "`一次写入，多次读取` " （ WORM ）功能。</block>
@@ -8754,7 +8748,6 @@
   <block id="fede64b0ea01acd771df4df735e64b8d" category="paragraph">您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）通过创建和管理 IP 空间，广播域，子网，网络接口，以太网端口， 和 FC/FCoE 适配器。</block>
   <block id="ccac8732ee856be09c1ef43f22599d7c" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）手动创建仅包含 HDD 或 SSD 的聚合。</block>
   <block id="489980c7967cf6ae840737bc9670c341" category="doc">使用 System Manager - ONTAP 9.7 及更早版本创建 FlexVol 卷</block>
-  <block id="b54401ea7e235c7d426b9bdeb475a430" category="paragraph">您可以使用 System Manager classic （适用于 ONTAP 9.7 及更早版本）中的创建卷对话框为数据创建 FlexVol 卷。您必须始终为数据创建一个单独的卷，而不是将数据存储在根卷中。</block>
   <block id="f3c0856ca60c4724a7753f39aeb21072" category="doc">使用 System Manager - ONTAP 9.7 及更早版本编辑应用程序</block>
   <block id="9de97ea20bea358cafe2c052eb4fe156" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）编辑已配置的应用程序以增加存储大小或管理应用程序的 Snapshot 副本。</block>
   <block id="a30fa0b5cb2afd6f435aa35fc7ca5745" category="doc">使用 System Manager — ONTAP 9.7 及更早版本设置 SAML 身份验证</block>
@@ -9109,14 +9102,10 @@
   <block id="f689d15a9acb85ee5a20447fbdc07cf4" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)创建、编辑和管理导出策略。</block>
   <block id="c61b8028f650abffd119f84f09d17f74" category="doc">使用System Manager创建SVM - ONTAP 9.7及更早版本</block>
   <block id="14d79d2eef1d80cd2470e785b15178f8" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)查看、管理或删除集群或节点上安装的任何软件许可证。</block>
-  <block id="071e9f0551cf1151fad07c37ea207e3b" category="paragraph">您可以使用System Manager classic (适用于ONTAP 9.7及更早版本)在Storage Virtual Machine (SVM)上配置NVMe协议。然后，您可以创建命名空间并将其分配给 NVMe 子系统和主机。</block>
-  <block id="74a9c6f7d15b41facbe48a228851099c" category="paragraph">您可以使用System Manager classic (适用于ONTAP 9.7及更早版本)在Storage Virtual Machine (SVM)上配置iSCSI协议、以提供块级数据访问。您可以创建 iSCSI LIF 和端口集，然后将 LIF 添加到端口集。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。</block>
   <block id="2b80954c6a85fe8e039a494c6c625853" category="paragraph">您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）管理镜像关系。您可以更新、创建、暂停、初始化、重新建立、 除了恢复已暂停的镜像关系之外、还可以删除和编辑镜像关系。</block>
   <block id="f46cf6c1e84fb12f13b7c06207146a43" category="section-title">从目标SVM创建镜像关系</block>
   <block id="42ba35aabcb38bd0b0a5d5bc89d84095" category="paragraph">您可以使用System Manager从目标Storage Virtual Machine (SVM)创建镜像关系、并为此镜像关系分配策略和计划。如果源卷上的数据损坏或丢失，镜像副本可以快速提供数据。</block>
   <block id="25d48c749559d1d4de21242c0c742b97" category="paragraph">您可以使用ONTAP System Manager classic (在ONTAP 9.7及更早版本中可用)创建和管理以太网端口。</block>
-  <block id="c0d6806b68a3d39f90734f6ab8a3f56a" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)设置安全断言标记语言(SAML)身份验证。远程用户在登录到 System Manager 之前，会通过安全身份提供程序（ IdP ）进行身份验证。</block>
-  <block id="f25e8077183eab2cecad23a8ec6c295a" category="paragraph">在为正常工作的Storage Virtual Machine (SVM)或SVM设置基本网络配置后、您可以使用System Manager classic (适用于ONTAP 9.7及更早版本)将SVM的管理委派给SVM管理员。</block>
   <block id="e92b960df6e994d41ee05b6df147afe7" category="doc">关于System Manager中的ONTAP 名称服务开关配置—ONTAP 9.7及更早版本</block>
   <block id="1d29c318268409714ed0dd949adf99ad" category="paragraph">ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)会将名称服务配置信息存储在一个表中、该表相当于UNIX系统上的`/etc/nsswitch.conf`文件。您必须了解该表的功能以及 ONTAP 如何使用它，以便可以根据您的环境对其进行适当配置。</block>
   <block id="ac92ac41cea62dfecd5b5dd772bfc78d" category="doc">使用System Manager—ONTAP 9.7及更早版本管理本地Windows组</block>
@@ -9319,4 +9308,15 @@
   <block id="37d7a482fff3cbc78535db1d381fbc9d" category="list-text">重复步骤5b到5d以映射SVM上的所有域和名称。</block>
   <block id="57845f9417a55f7f873021142bcf4a81" category="list-text">*可选*：创建默认Windows用户：</block>
   <block id="13a6d31e838d141b884cf7c5460be9a0" category="list-text">*可选*：如果您希望用户与默认值(即"`pcuser`"用户)不同、请配置默认UNIX用户。</block>
+  <block id="7e1817ade72aa48bb92d7c2ab07e88a1" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)设置对等关系。设置对等涉及到在每个节点上创建集群间逻辑接口（ LIF ），创建集群对等以及创建 SVM 对等。</block>
+  <block id="f76cba510e0d09ec08269e30513d633c" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)创建SnapLock Compliance卷或SnapLock Enterprise卷。创建卷时，您还可以设置保留时间，并选择是否自动设置卷中数据的 WORM 状态。</block>
+  <block id="70bc55ce2414a074451b65164da8a3a6" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在Storage Virtual Machine (SVM)上配置NVMe协议。然后，您可以创建命名空间并将其分配给 NVMe 子系统和主机。</block>
+  <block id="7c7a12cfc104ee779102d69cef857db6" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)创建可立即提供数据的完全配置的Storage Virtual Machine (SVM)。一个集群可以具有一个或多个 SVM 。</block>
+  <block id="4faac1209e2dd59059b4209f859ac88f" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)中的创建卷对话框为数据创建FlexVol 卷。您必须始终为数据创建一个单独的卷，而不是将数据存储在根卷中。</block>
+  <block id="bf6614668e8b55e90946e9509d4f0917" category="paragraph">您可以使用ONTAP System Manager classic (在ONTAP 9.7及更早版本中提供)来配置一个集中维护用户信息的LDAP服务器。</block>
+  <block id="782f1156076101990b814a229110b078" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)设置安全断言标记语言(SAML)身份验证。远程用户在登录到 System Manager 之前，会通过安全身份提供程序（ IdP ）进行身份验证。</block>
+  <block id="ec2db670766e7c9e9f2e74dde2f934f4" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在Storage Virtual Machine (SVM)上配置iSCSI协议、以提供块级数据访问。您可以创建 iSCSI LIF 和端口集，然后将 LIF 添加到端口集。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。</block>
+  <block id="d73a1bbe7bd0149cca8c9fa64d7f58bc" category="paragraph">您可以使用ONTAP System Manager classic (在ONTAP 9.7及更早版本中提供)在设置具有基本网络配置的正常运行的Storage Virtual Machine (SVM)或SVM之后、选择性地将SVM的管理委派给SVM管理员。</block>
+  <block id="1e7c18dca5baf689eb77365e4897ed8b" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在Storage Virtual Machine (SVM)上为SAN主机配置FC协议和FCoE协议。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。根据您的要求，您可以使用 System Manager 配置 FC 协议或 FCoE 协议，也可以同时配置这两种协议。</block>
+  <block id="b11a96e74a2cd810945103e98f648e14" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在Storage Virtual Machine (SVM)上配置CIFS和NFS协议、以便为NAS客户端提供文件级数据访问。要启用 CIFS 协议，必须创建数据 LIF 和 CIFS 服务器。要启用 NFS 协议，您可以指定 NIS 详细信息和数据 LIF 。</block>
 </blocks>
