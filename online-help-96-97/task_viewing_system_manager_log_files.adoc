@@ -11,7 +11,7 @@ summary: 如果您在使用 System Manager 时遇到任何问题，可以将日�
 
 
 [role="lead"]
-如果在使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）时遇到任何问题，您可以将日志文件发送给技术支持以帮助解决问题。System Manager 日志文件与 ONTAP 日志文件一起位于 `mlog` 目录中。
+如果在使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)时遇到任何问题、您可以在NetApp支持部门的指导下发送日志文件以帮助解决问题。System Manager 日志文件与 ONTAP 日志文件一起位于 `mlog` 目录中。
 
 .步骤
 . 确定托管集群管理 LIF 的节点。
