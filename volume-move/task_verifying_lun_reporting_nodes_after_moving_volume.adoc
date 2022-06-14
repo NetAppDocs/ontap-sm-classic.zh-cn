@@ -28,7 +28,7 @@ summary: 您可以添加 LUN 报告节点，以帮助维护优化的 LUN 路径�
 . 将新路径添加到 MPIO 配置。
 . 从报告节点列表中删除先前的 LUN 所有者及其配对节点：
 +
-`lun mapping remove-reporting-nodes-remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name`
+`lun mapping remove-reporting-nodes -remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name`
 
 . 重新扫描主机以验证是否删除了旧路径。
 +

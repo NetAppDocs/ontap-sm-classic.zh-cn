@@ -8392,7 +8392,6 @@
   <block id="9310ee1dd45d21e65c46aeb6ba0f9482" category="list-text">验证目标节点及其配对节点是否位于卷的报告节点列表中。如果节点不在 reporting-nodes 列表中，请将目标节点及其配对节点添加到卷的 reporting-nodes 列表中：</block>
   <block id="a86058b8867bcbe5998ef971bf67ed3e" category="paragraph">`LUN 映射 add-reporting-nodes`</block>
   <block id="43ee995f485e80d5a5277609e963e025" category="list-text">从报告节点列表中删除先前的 LUN 所有者及其配对节点：</block>
-  <block id="a8e0ec82d23eef4ff77e89906b9a0adb" category="paragraph">`lun mapping remove-reporting-nodes-remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name`</block>
   <block id="264600d8c4bfddb483a5b1cff7dbe8e1" category="summary">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经典 " 界面移动卷并确定是否需要手动转换。如果需要更新 LUN 报告节点，则必须遵循命令行界面（ CLI ）中的高级操作步骤。您也可以选择规划卷移动的时间。</block>
   <block id="bb4e0664dce82d4f272a2c414f718ed6" category="paragraph">您可以在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面移动卷并确定是否要手动转换。如果需要更新 LUN 报告节点，则必须遵循命令行界面（ CLI ）中的高级操作步骤。您也可以选择规划卷移动的时间。</block>
   <block id="1726756354b3c567d2e6c0985de0b2b9" category="paragraph"><block ref="1726756354b3c567d2e6c0985de0b2b9" category="inline-link-macro-rx"></block></block>
@@ -9319,4 +9318,5 @@
   <block id="d73a1bbe7bd0149cca8c9fa64d7f58bc" category="paragraph">您可以使用ONTAP System Manager classic (在ONTAP 9.7及更早版本中提供)在设置具有基本网络配置的正常运行的Storage Virtual Machine (SVM)或SVM之后、选择性地将SVM的管理委派给SVM管理员。</block>
   <block id="1e7c18dca5baf689eb77365e4897ed8b" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在Storage Virtual Machine (SVM)上为SAN主机配置FC协议和FCoE协议。LIF 在最合适的适配器上创建，并分配给端口集，以确保数据路径冗余。根据您的要求，您可以使用 System Manager 配置 FC 协议或 FCoE 协议，也可以同时配置这两种协议。</block>
   <block id="b11a96e74a2cd810945103e98f648e14" category="paragraph">您可以使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)在Storage Virtual Machine (SVM)上配置CIFS和NFS协议、以便为NAS客户端提供文件级数据访问。要启用 CIFS 协议，必须创建数据 LIF 和 CIFS 服务器。要启用 NFS 协议，您可以指定 NIS 详细信息和数据 LIF 。</block>
+  <block id="7d5188aa4e5eb813646e2fb2a52c4e9f" category="paragraph">`lun mapping remove-reporting-nodes -remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name`</block>
 </blocks>
