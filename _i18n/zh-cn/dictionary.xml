@@ -56,12 +56,8 @@
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">数据保护</block>
   <block id="b63bcbb90a3b6bba197d8dfc6da71a9d" category="list-text"><block ref="b63bcbb90a3b6bba197d8dfc6da71a9d" category="inline-link-rx"></block></block>
   <block id="a0d4c7db7dd69d763a26425db765a94e" category="paragraph">介绍如何使用 Snapshot 副本和 SnapMirror 复制到远程系统来防止数据丢失</block>
-  <block id="ae35a7645e117deffc1a921838461f46" category="inline-link">使用磁带备份保护数据</block>
-  <block id="0cad657c2feaf8364bde8cf73e51c6b4" category="list-text"><block ref="0cad657c2feaf8364bde8cf73e51c6b4" category="inline-link-rx"></block></block>
-  <block id="4540391cf89cc1aa1f36aa40e59182db" category="paragraph">介绍如何使用 NDMP 和转储技术在集群中使用磁带备份和恢复功能备份和恢复数据。</block>
   <block id="654b5ef83fa66dad8993f3654a8bebb5" category="inline-link">ONTAP 概念</block>
   <block id="019865899d8e6ff37eb3e563886dabc3" category="list-text"><block ref="019865899d8e6ff37eb3e563886dabc3" category="inline-link-rx"></block></block>
-  <block id="ac1a1da03e093afb2af0d0bd79ace5a7" category="paragraph">介绍有关准备进行灾难恢复的 ONTAP 集群的概念信息。</block>
   <block id="44d084096c54a12a05f20784871ac9d2" category="summary">当源卷不可用或数据损坏时，您可以从 SnapVault 备份执行还原。从 SnapVault 备份还原卷涉及选择 SnapVault 目标卷，还原到新卷或现有卷以及验证还原操作。</block>
   <block id="3146bb680f4495ea91ff6b5cdf9f403d" category="doc">卷还原工作流</block>
   <block id="e9f56eb126455869bdb213c6b8827217" category="summary">版权，商标和机器翻译</block>
@@ -203,22 +199,10 @@
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">* 相关信息 *</block>
   <block id="1e7af3d71c61db132b57b2c8e061b86d" category="inline-link">系统管理</block>
   <block id="2409ebce3fb1751633ef472560d1b796" category="paragraph"><block ref="2409ebce3fb1751633ef472560d1b796" category="inline-link-rx"></block></block>
-  <block id="f1f8463a64e93440a6b88aa7f10e9dbe" category="summary">还有其他文档可帮助您了解有关 iSCSI 配置的更多信息。</block>
-  <block id="5dd1f51dddd66f8a65eadff5313aa5ae" category="paragraph">提供了以下所有文档：</block>
   <block id="4f27a34799ad8580f67b93c57e242ad0" category="inline-link">SAN 配置</block>
   <block id="8df008702fa0e2bb8532580307170b2b" category="list-text"><block ref="8df008702fa0e2bb8532580307170b2b" category="inline-link-rx"></block></block>
-  <block id="4f7fa3b4a184c3cda5627e0078c044e4" category="paragraph">介绍将主机计算机连接到集群中的存储控制器时支持的 FC ， iSCSI 和 FCoE 拓扑。</block>
   <block id="587c9aa3c6003c9a9fa1fc9c2ceb2eaa" category="inline-link">SAN 管理</block>
   <block id="4d2af7f255e28e5bd38a76f9ba5554cb" category="list-text"><block ref="4d2af7f255e28e5bd38a76f9ba5554cb" category="inline-link-rx"></block></block>
-  <block id="c986aac4db67c6064107d038fe08c841" category="paragraph">介绍如何为集群模式 SAN 环境配置和管理 iSCSI ， FCoE 和 FC 协议，包括配置 LUN ， igroup 和目标。</block>
-  <block id="727d6ec7c143ece348a58c5723f2f025" category="section-title">Microsoft 文档</block>
-  <block id="ffe732a76690d8495fdb0c0bbbde49d9" category="paragraph">有关 Microsoft iSCSI 软件启动程序的文档可直接从 Microsoft 获得。</block>
-  <block id="dc6723f0157e6e51ae83777c3910ff17" category="list-text">_Microsoft iSCSI 软件启动程序 2.X 版用户指南 _</block>
-  <block id="246a34e59cb3ee20a527a09c3e77760f" category="paragraph">介绍适用于 Windows Server 2008 的 Microsoft iSCSI 软件启动程序。它随 iSCSI 软件启动程序下载文件一起提供。</block>
-  <block id="cffcdf01933eb8672e4d2cfbaecbd778" category="list-text">_Microsoft iSCSI 启动程序概述 _</block>
-  <block id="606f6d36931ed61114983bf60933f6a8" category="paragraph">Windows Server 2012 iSCSI 启动程序的联机帮助（可从启动程序中获取）。介绍了软件启动程序，并提供了指向 Microsoft 网站的链接，以了解更多信息。</block>
-  <block id="140864078aeca1c7c35b4beb33c53c34" category="inline-link">Microsoft</block>
-  <block id="cac3b61a19ad01d79649c712ac882352" category="paragraph"><block ref="cac3b61a19ad01d79649c712ac882352" category="inline-link-rx"></block></block>
   <block id="3bfd8fcba76ba60506329617822d7cfb" category="summary">使用 iSCSI 使存储可供主机使用时，您需要在 Storage Virtual Machine 上配置卷和 LUN ，然后从主机连接到 LUN 。</block>
   <block id="6355207468aa480a9ef27915132727a9" category="doc">iSCSI 配置和配置工作流</block>
   <block id="94b2b1682b5ee0dcb83093b29aacc0c2" category="paragraph">使用 iSCSI 为主机提供存储时，您需要在 Storage Virtual Machine （ SVM ）上配置卷和 LUN ，然后从主机连接到 LUN 。</block>
@@ -603,20 +587,8 @@
   <block id="a72cc47fad7d1846d19b085d2e77e5ba" category="list-text">单击 * 确定 * 。</block>
   <block id="b38c6bea0b182345afcadaedf8160f0f" category="paragraph">现在， NFSv3 客户端可以访问在 SVM 上创建的任何卷。</block>
   <block id="10edbbba4e4c39fc161aeac9fbb88aef" category="section-title">NFS 配置</block>
-  <block id="21ae56f6aa9d52a6117102a2043a8ab3" category="paragraph">您可以使用以下内容和技术报告进一步配置 NFS 访问：</block>
   <block id="2cc25a4f99449a7599c23ffac20f5f0a" category="inline-link">NFS 管理</block>
   <block id="6d4bb840dff989bc2ef19b73556a7a83" category="list-text"><block ref="6d4bb840dff989bc2ef19b73556a7a83" category="inline-link-rx"></block></block>
-  <block id="fdd906b3ec7fd28d857deaeaeec1ed3b" category="paragraph">介绍如何使用 NFS 协议配置和管理文件访问。</block>
-  <block id="5c7b39fa0ac319237594c811115fa7ef" category="inline-link">NetApp 技术报告 4067 ：《 NFS 最佳实践和实施》</block>
-  <block id="aa6535ba68f899261fb57fc7f4d6e6ee" category="list-text"><block ref="aa6535ba68f899261fb57fc7f4d6e6ee" category="inline-link-rx"></block></block>
-  <block id="554f8f91fd053df3641c049c7d347e51" category="paragraph">可作为 NFSv3 和 NFSv4 操作指南，简要介绍 ONTAP 操作系统，重点介绍 NFSv4 。</block>
-  <block id="e2d406f34dca3665308ea0fe5df39308" category="inline-link">NetApp 技术报告 4668 ：《名称服务最佳实践》</block>
-  <block id="66e72a73ea31081d558c3961ceb4caf0" category="list-text"><block ref="66e72a73ea31081d558c3961ceb4caf0" category="inline-link-rx"></block></block>
-  <block id="2670471c3693debcd84cafb18698692f" category="paragraph">提供了一个全面的最佳实践，限制，建议和注意事项列表，用于配置 LDAP ， NIS ， DNS 以及本地用户和组文件以进行身份验证。</block>
-  <block id="e134f6887670f332c2b86db886021c0e" category="paragraph">介绍在连接到运行 ONTAP 的系统的 AIX ， Linux 或 Solaris 客户端上实施 NFSv4 组件时应遵循的最佳实践。</block>
-  <block id="faae9782a49940846862f2a32231e07f" category="section-title">根卷保护</block>
-  <block id="51e02859c0b7c44b7441c12e6b68d54b" category="paragraph">在 SVM 上配置协议后，您应确保其根卷受到保护：</block>
-  <block id="3b4dfd331ed7ccbf7d283ce016bb62b7" category="paragraph">介绍如何创建负载共享镜像以保护 SVM 根卷，这是适用于已启用 NAS 的 SVM 的 NetApp 最佳实践。此外，还介绍如何通过从负载共享镜像提升 SVM 根卷来快速从卷故障或丢失中恢复</block>
   <block id="84a5342c7b17e8a2eb7dda42cf6c4ce1" category="doc">配置和验证 NFS 客户端访问（配置对现有 SVM 的 NFS 访问）</block>
   <block id="3747746390a64afc220d03807158b493" category="summary">配置 NFS 包括选择性地创建聚合，然后选择特定于您的目标的工作流—创建启用了 NFS 的新 SVM ，配置对现有 SVM 的 NFS 访问，或者只需将 NFS 卷添加到已完全配置 NFS 访问的现有 SVM 。</block>
   <block id="94686e570eafa26c33ff6a8c9c3c962c" category="doc">NFS 配置工作流</block>
@@ -750,7 +722,6 @@
   <block id="94169667dd416a5297ed3b46a622fa62" category="list-text"><block ref="94169667dd416a5297ed3b46a622fa62" category="inline-xref-macro-rx"></block></block>
   <block id="580df0707800400af79839e20238fb6e" category="paragraph">介绍如何在 ONTAP 中从 SnapVault 备份快速还原卷</block>
   <block id="53cd3c8aed79ae721dfdef73f3531f3a" category="list-text"><block ref="53cd3c8aed79ae721dfdef73f3531f3a" category="inline-link-rx"></block></block>
-  <block id="02bd2eca2939d07c436bc3118e6f838f" category="paragraph">介绍有关集群模式系统的灾难恢复和磁盘到磁盘备份的概念信息</block>
   <block id="7b1a6834c9e6f565e0e67a08da561eb0" category="summary">在使用 SnapVault 技术为卷设置数据保护之前，您必须验证源集群和目标集群是否已建立对等关系并通过对等关系彼此通信。您还必须验证源 SVM 和目标 SVM 是否已建立对等关系，并且正在通过对等关系彼此通信。</block>
   <block id="1d2c5f3cf91a6ac4437d06b0d35f22aa" category="doc">验证集群对等关系和 SVM 对等关系</block>
   <block id="d3d98fa048d258c0324e828c27353505" category="list-text">如果您运行的是 ONTAP 9.3 或更高版本，请执行以下步骤以验证集群对等关系和 SVM 对等关系：</block>
@@ -986,7 +957,6 @@
   <block id="2ddad2e2d0d34e4a5404bf8e5d2d8c9c" category="summary">使用 FC 为主机提供存储时，您需要在 Storage Virtual Machine 上配置卷和 LUN ，然后从主机连接到 LUN 。</block>
   <block id="84537406a801e386b5b242a76072a064" category="doc">FC 配置工作流</block>
   <block id="000154771431032336a33cb220d8e1c9" category="paragraph">如果任何测试失败，您应验证 FC 服务是否正在运行，并检查 LUN 的 FC 路径。</block>
-  <block id="f8fad6712cc74aaf58696fe5741fcf76" category="summary">还有其他文档可帮助您了解有关 FC 配置的更多信息。</block>
   <block id="40a140333cbebfe1cffe1ccb0c2cace8" category="summary">如果 Windows 主机中的 FC 主机总线适配器（ HBA ）运行的驱动程序，固件和 BIOS 版本不受支持，则必须对其进行更新。</block>
   <block id="137958d39870a26e1283b177e2babfab" category="doc">适用于 Windows 的 FC 配置概述</block>
   <block id="76c0d4b92dfc6f5a20da4d0875bc8c4f" category="list-text">您未将虚拟光纤通道（ VFC ）与 Hyper-V 或 ESX 子系统结合使用。</block>
@@ -994,20 +964,6 @@
   <block id="a2ecc997978aedc00abb9eeb497e7eb9" category="paragraph">有关布线和配置的详细信息，请参见 NetApp 支持站点上适用于您的 ONTAP 版本的 _SAN 配置 _ 或适用于您的 E 系列存储系统的 _Hardware Cabling _ 。</block>
   <block id="fb6b8b7c86f1cdc8c9f4a1e55f91d173" category="paragraph">有关详细的安装信息，请参见 <block ref="f912c8f6f2c88a486dae2dbc098d8846" category="inline-link-macro-rx"></block>。</block>
   <block id="b8af4cb8afe116de1a12bfab26b90519" category="list-text">选择 * CIFS* 和 * NFSv3* 。</block>
-  <block id="b0ac7418280972fa069bbc2a11514d3e" category="summary">成功测试 CIFS 和 NFS 客户端访问后，您可以执行高级 CIFS 和 NFS 配置或添加 SAN 访问。协议访问完成后，您应保护 SVM 的根卷。我们提供了全面的内容和技术报告，可帮助您实现这些目标。</block>
-  <block id="23353013b42b6a98388dd2bce5be051a" category="paragraph">成功测试 CIFS 和 NFS 客户端访问后，您可以执行高级 CIFS 和 NFS 配置或添加 SAN 访问。协议访问完成后，您应保护 SVM 的根卷。我们提供了全面的内容和技术报告，可帮助您实现这些目标。</block>
-  <block id="dd72e8231c2ab0c2133630fe6bc76e20" category="section-title">CIFS/SMB 配置</block>
-  <block id="6730d4603d3f770e9758b0495c9a2a62" category="inline-link">CIFS 管理</block>
-  <block id="575124ad880ed28864d887a160002ff9" category="list-text"><block ref="575124ad880ed28864d887a160002ff9" category="inline-link-rx"></block></block>
-  <block id="67a933ca8c13b0371da20884d6ea7ebe" category="paragraph">介绍如何使用 CIFS/SMB 协议配置和管理文件访问。</block>
-  <block id="df7018e8b5dea8270e2b53ed45ca3664" category="inline-link">NetApp 技术报告 4191 ：《集群模式 Data ONTAP 8.2 Windows 文件服务最佳实践指南》</block>
-  <block id="d7c04e1dc685306d20b6ac98cbc8abcf" category="list-text"><block ref="d7c04e1dc685306d20b6ac98cbc8abcf" category="inline-link-rx"></block></block>
-  <block id="40261511a12711af686f66a0ba5aee3e" category="paragraph">简要概述 SMB 实施和其他 Windows 文件服务功能，并提供有关 ONTAP 的建议和基本故障排除信息。</block>
-  <block id="f34506326aba5bd2e96ea949212bfb7f" category="inline-link">NetApp 技术报告 3740 ：《 Data ONTAP 中的 SMB 2 下一代 CIFS 协议》</block>
-  <block id="31c2bf0ec91d71ed35f91e6ebf5a28c1" category="list-text"><block ref="31c2bf0ec91d71ed35f91e6ebf5a28c1" category="inline-link-rx"></block></block>
-  <block id="61e501f46c7150f878e0af89f471c9ef" category="paragraph">介绍 SMB 2 的功能，配置详细信息及其在 ONTAP 中的实施。</block>
-  <block id="664ed7f89359986e03d8ad4c39f35a20" category="inline-link">NetApp 技术报告 3580 ：《 NFSv4 增强功能和最佳实践指南： Data ONTAP 实施》</block>
-  <block id="bdce1016f77fd0c1a9aea40e262163d4" category="list-text"><block ref="bdce1016f77fd0c1a9aea40e262163d4" category="inline-link-rx"></block></block>
   <block id="44ea8eb2df89afa7b099aa23027cba85" category="summary">配置 SMB/CIFS 和 NFS 时，需要选择创建聚合；也可以选择创建新的 SVM 或配置现有 SVM ；创建卷，共享和导出；以及验证从 UNIX 和 Windows 管理主机进行的访问。然后，您可以打开对 SMB/CIFS 和 NFS 客户端的访问。</block>
   <block id="e0cb8bdb942b5a5756750a9ad13f5278" category="doc">多协议配置工作流</block>
   <block id="59709e0b502adf4dc8604fb58c5b4fa2" category="image-alt">概述了在 ONTAP 中设置 NFS 和 CIFS 所涉及的步骤。</block>
@@ -1202,11 +1158,8 @@
   <block id="738418b5a43818df535fcd3eacfae389" category="list-text">使用以下命令检查系统的运行状况：</block>
   <block id="00d15e1a09d79f0b991c675abca022d3" category="list-text">使用 `ssystem health status show` 命令并验证状态是否为 `ok` ，以验证集群是否处于运行状况良好的状态。</block>
   <block id="f2f08364a27a75afd18b40ee29494b88" category="list-text">使用 `cluster show` 命令并验证每个节点的运行状况是否为 `true` ，以验证集群中的所有节点是否均处于运行状况良好的状态。</block>
-  <block id="c1f4234043f24b65e6b04de33fad8001" category="summary">扩展集群后，您可以通过在新节点上创建新卷或将现有数据移动到新节点来开始在新节点上存储数据。</block>
   <block id="da5ca6ae1de018f91fb173975dfb47fa" category="inline-link">逻辑存储管理</block>
   <block id="eff7eb1c9caccc9b299bec266b80b0b6" category="list-text"><block ref="eff7eb1c9caccc9b299bec266b80b0b6" category="inline-link-rx"></block></block>
-  <block id="286658c24ca59ebf54d30a4ca466d9e1" category="paragraph">介绍如何管理集群中的逻辑存储资源，包括 FlexVol 卷， FlexClone 卷，文件和 LUN 以及 FlexCache 卷， 使用重复数据删除，数据压缩， qtree 和配额。</block>
-  <block id="5e142b2510ac017f0d0b460f84e482f0" category="paragraph">介绍有关集群中逻辑存储资源的概念信息，包括 FlexVol 卷， FlexClone 卷，文件和 LUN 以及 FlexCache 卷， 使用重复数据删除，数据压缩， qtree 和配额。</block>
   <block id="b6cbda4df9b1341f230833d62ece86d2" category="summary">在扩展集群之前，您必须获取必要的网络信息，以便稍后为这两个节点配置节点管理 LIF 和服务处理器 IP 地址。</block>
   <block id="2ee15dc81143429bd3083638f49f6321" category="doc">收集所需的网络信息</block>
   <block id="98a7baf7dc6f82560d1d8d1d8441a793" category="list-text">要配置两个节点管理 LIF ，请获取以下详细信息—计划添加到集群中的每个节点一个：</block>
@@ -1448,10 +1401,6 @@
   <block id="5af10cac5bb119e67eb656888383295c" category="summary">卷灾难恢复工作流包括激活目标卷，配置目标卷以进行数据访问以及重新激活原始源卷。</block>
   <block id="5631a4a4a5cbe1126b6d5532597609b1" category="doc">卷灾难恢复工作流</block>
   <block id="b5a68721f84465afc63f9b2df2f905ae" category="summary">追加信息可帮助您管理卷级灾难恢复关系，并提供其他灾难恢复方法来保护数据资源的可用性。</block>
-  <block id="11f72f4c3bd9d348b7579fbd1fc019c6" category="paragraph">介绍如何在位于不同 ONTAP 集群中的卷之间快速配置备份存储关系。</block>
-  <block id="cb58fc1134f76b358260cdb5b9943956" category="paragraph">介绍如何在 ONTAP 中从备份存储快速还原卷。</block>
-  <block id="25b67dc5180ef638acf68abf19cd20ce" category="paragraph">介绍有关在 ONTAP 中配置复制的信息和最佳实践。</block>
-  <block id="c13f09e860d57e9e946bb8c4833f9f54" category="paragraph">提供有关集群模式系统的灾难恢复和磁盘到磁盘备份的概念信息。</block>
   <block id="00db325f634bdd1cb57a41be4d78a1ee" category="summary">重新同步源卷后，您可能需要确保在激活源卷之前更新源卷上的所有最新更改。</block>
   <block id="048302dc521956e742829bbbc308e667" category="doc">更新源卷</block>
   <block id="f279e20e016955df9fcb499956193b6d" category="list-text">选择源卷和目标卷之间的 SnapMirror 关系，然后单击 * 操作 * &gt; * 更新 * 。</block>
@@ -1546,11 +1495,6 @@
   <block id="74f1afbef663f32fc8d025982a526401" category="summary">准备用于灾难恢复的卷包括验证集群对等关系，在驻留在对等集群上的卷之间创建 SnapMirror 关系，设置用于数据访问的目标 SVM 以及定期监控 SnapMirror 关系。</block>
   <block id="97214eb14a082986b89d0496654171d1" category="doc">卷灾难恢复准备工作流</block>
   <block id="e4f23fa5eebad806cea9c12d5857146a" category="summary">此外，我们还提供了其他文档来帮助您激活目标卷以测试灾难恢复设置或发生灾难时。您还可以了解有关如何在灾难发生后重新激活源卷的更多信息。</block>
-  <block id="994b9e24558386119def2c5e542475ea" category="paragraph">介绍如何在发生灾难后快速激活目标卷，然后在 ONTAP 中重新激活源卷。</block>
-  <block id="37a4c5f171f9c477191bc02b862d6a32" category="inline-link">用于管理集群运行状况的 Active IQ Unified Manager 9.8 工作流</block>
-  <block id="4585324eb6aec1c92c62db522205c13c" category="list-text"><block ref="4585324eb6aec1c92c62db522205c13c" category="inline-link-rx"></block></block>
-  <block id="7c7f8994892d0b2a6ed2b9f10c24964a" category="paragraph">提供有关使用 Web UI 执行 Active IQ Unified Manager （以前称为 OnCommand Unified Manager ）任务的信息以及有关故障排除的信息，并提供深入的概念信息。</block>
-  <block id="f1f9c2b0860a27aa32c1e0c059a0e7bc" category="paragraph">提供有关使用 SnapMirror 技术进行灾难恢复的概念信息。</block>
   <block id="3c660529447a12408baa2c4276074865" category="summary">在为灾难恢复设置卷之前，您必须验证源集群和目标集群是否已建立对等关系，并且是否正在通过对等关系彼此通信。</block>
   <block id="53ab1f406894f8ee557eb9d33edf70fe" category="doc">验证集群对等关系和 SVM 对等关系</block>
   <block id="210fc08adc8ff148771c97038e36e4a2" category="image-alt">集群 pper 930" 灾难 "</block>
@@ -1659,11 +1603,6 @@
   <block id="d16beb3e38e5f4e691847db8bad37f6c" category="list-text">子操作系统类型和版本</block>
   <block id="a6e28e5668fbb01e316ed809169a8b65" category="list-text">适用于 VMware vSphere 的 Virtual Storage Console （ VSC ）软件</block>
   <block id="cf91af212a07bdf82ec93316f80df4a1" category="list-text">用于运行 VSC 的 Windows Server 版本</block>
-  <block id="70cd8bfb8fd7a4082087201414ab2fe4" category="section-title">VMware 文档</block>
-  <block id="ab912994b4aa16fba6be2c16896c3115" category="paragraph">有关适用于 ESXi 服务器的 iSCSI 的文档，请直接从 VMware 获取。</block>
-  <block id="e012bb8bfed783fdc9ae512fc954250c" category="list-text">_vSphere 存储 _</block>
-  <block id="1e7a821c0fffd45e16b8e9fbdf58abd9" category="list-text">_Multipathing Configuration for Software iSCSI using Port Binding_</block>
-  <block id="eecf341f578c40b0088a2c825bcf9fae" category="paragraph">技术白皮书介绍了 ESXi 服务器的 MPIO 设置。</block>
   <block id="64131a01034229c3ee0a665ec27911f8" category="summary">要确保成功执行存储故障转移和数据移动，您需要确保从主机到存储集群中每个节点有两条路径。由于 iSCSI 目标公布的路径数有限，因此您需要从主机对存储集群端口执行 ping 操作。</block>
   <block id="867c76519a222fee80611a7a6c5b8898" category="doc">测试从主机到存储集群的 iSCSI 路径</block>
   <block id="9b4c32a0f8f3c587fd5ed4bf138ad6df" category="paragraph">您必须知道要用于 iSCSI 路径的所有逻辑接口（ LIF ）的 IP 地址或主机名。</block>
@@ -1683,10 +1622,6 @@
   <block id="77940d0bcb4281501811de1ec05e0bda" category="list-text">集群中的每个节点上至少有两个可用的高速以太网端口（至少 1 GbE ，建议使用 10 GbE ）。</block>
   <block id="4dfc85f053bbce34b061f9f9e50054bd" category="inline-link-macro">ONTAP 9 网络管理</block>
   <block id="38e4c9c0dda5f39ef2476c68b3cdf4ed" category="paragraph">您应看到 <block ref="f23edc0bb2e15286525e82e5ff7532e0" category="inline-link-macro-rx"></block> 用于使用 CLI 配置以太网端口流量控制。</block>
-  <block id="d6dd3e964a45af39f1a2d0d162a9c917" category="inline-link">ONTAP 9 SAN 管理</block>
-  <block id="19a784614020f03847308e98240415b6" category="list-text"><block ref="19a784614020f03847308e98240415b6" category="inline-link-rx"></block></block>
-  <block id="8f123b6f4ad978f9c6803038618a9b8c" category="inline-link">ONTAP 9 SAN 配置</block>
-  <block id="30c9bf2fd4921da10d1760727d7dc6cd" category="list-text"><block ref="30c9bf2fd4921da10d1760727d7dc6cd" category="inline-link-rx"></block></block>
   <block id="27ebce0c0f9c269fad61d937501e68e0" category="summary">适用于 VMware vSphere 的 Virtual Storage Console 可自动执行将 NetApp iSCSI 存储与 ESXi 主机结合使用所需的许多配置和配置任务。Virtual Storage Console 是 vCenter Server 的一个插件。</block>
   <block id="fa3313a389a81d17ecc59d6a9af3cd81" category="doc">安装 Virtual Storage Console</block>
   <block id="4dbd231a9a42eafe7a6612f3a2289388" category="paragraph">您必须具有用于管理 ESXi 主机的 vCenter Server 的管理员凭据。</block>
@@ -1788,7 +1723,6 @@
   <block id="ff9f8af3f836eed7a816fd381c0fe04c" category="inline-xref-macro">将 CIFS 卷添加到启用了 CIFS 的 SVM</block>
   <block id="c095667b485ebff52a4a4f5838e727cb" category="summary">您必须确保主机多路径和最佳实践设置正确，以便 ESXi 主机能够正确管理 FC 路径丢失或存储故障转移事件。</block>
   <block id="b7b71e4ffa1bcfc6ef48c886ae82c581" category="list-text">如果要在已配置 FC 的 SVM 上配置卷，则必须验证 FC 服务是否正在运行。</block>
-  <block id="ac486e8c7eaa144720f9743326a1eb94" category="paragraph">此 VMware 内容介绍了 ESXi 5.x 的 FC 和 iSCSI 配置</block>
   <block id="caeab82c4f9b5aa8223e7cf94f44d99d" category="doc">使用 VSC 为 ESXi 配置 FC 概述</block>
   <block id="1fe0867d1be2bcaa05e5f8f160018fac" category="list-text">您正在 ESXi 5.x 和传统 FC 交换机上使用传统 FC HBA 。</block>
   <block id="dfccb684b063bbb06e8ec445a12648fa" category="list-text">您正在主机上创建数据存储库。</block>
@@ -7929,14 +7863,6 @@
   <block id="7d57c3c7878101bb7dbe6fdd1c4f2a70" category="list-text">（ VSC ）软件</block>
   <block id="79b72b589ee6439937ed7ed2f5d525c1" category="list-text">适用于 VAAI 的 NFS 插件</block>
   <block id="a70ae4444c0c909b1d561b204cf4e92f" category="paragraph">提供所有 NAS 配置的一般准则。</block>
-  <block id="f83d9513e5785c599b940874b81ce7c4" category="summary">成功测试 NFS 客户端访问后，您可以执行其他 NFS 配置或添加 SAN 访问。协议访问完成后，您应保护的根卷。我们提供了全面的内容和技术报告，可帮助您实现这些目标。</block>
-  <block id="9731f349780de77af2ad9c6ef9bf326e" category="paragraph">介绍如何使用命令行界面命令配置对新卷或 qtree 中所含文件的高级 NFS 客户端访问。</block>
-  <block id="aa50384f57470ecc3cd57c193fbe56b8" category="paragraph">介绍如何使用 NFS 协议管理文件访问，包括身份验证，授权和安全性。</block>
-  <block id="4fa7027f5c486116a971b22d989ffdc3" category="inline-link">NetApp 技术报告 4597 ：《采用 ONTAP 的 VMware vSphere 》</block>
-  <block id="692a969ba2c3d4a614223404347adda8" category="list-text"><block ref="692a969ba2c3d4a614223404347adda8" category="inline-link-rx"></block></block>
-  <block id="38c10cd520dfe5c1f6f54f2a2b53e13b" category="paragraph">介绍使用 ONTAP 和 VMware vSphere 服务器虚拟化环境时应遵循的最佳实践。</block>
-  <block id="b9e873d1c81460d5ff87bb5366d578e1" category="paragraph">简要介绍 ONTAP ，重点介绍 NFSv4 。</block>
-  <block id="f6dad1a866b6daf167c2286f4aa1a5df" category="paragraph">介绍如何创建负载共享镜像以保护根卷，这是适用于已启用 NAS 的 SVM 的 NetApp 最佳实践。此外，还介绍如何通过从负载共享镜像提升 SVM 根卷来快速从卷故障或丢失中恢复。</block>
   <block id="3aa139c51bdb6074c010296fec3186c5" category="summary">要执行 NFS 客户端配置任务，您需要网络地址和存储配置信息。</block>
   <block id="1651af3b9ae79a42c0cd2400d098d40d" category="doc">填写 NFS 客户端配置工作表</block>
   <block id="cbd222fb5254a9ed2e5d31f711420a43" category="paragraph">您需要一个子网，其中包含两个 IP 地址，用于集群中每个节点的 NFS 数据 LIF 。为了实现高可用性，应使用两个单独的网络。在创建 SVM 过程中创建 LIF 时， ONTAP 会分配特定的 IP 地址。</block>
@@ -8484,8 +8410,6 @@
   <block id="12a6d8abfd6ea00add112b5495cfc3ac" category="paragraph">如果您未按照操作步骤创建 SVM 来配置 SAN 协议，则会出现这种情况。</block>
   <block id="221e45a1da90d562052e9339a40aa840" category="image-alt">此图是 SNMP 配置工作流的流程图。工作流中的步骤与主题匹配。</block>
   <block id="0e42715b0f3608f82b54eceb95451d07" category="summary">您可以在新的或现有的 Storage Virtual Machine （ SVM ）上快速设置对新卷的 SMB/CIFS 和 NFS 访问。</block>
-  <block id="5e65ed5040441519dbf697f9ba224c8e" category="paragraph">您可以使用以下信息和技术报告进一步配置 CIFS 访问：</block>
-  <block id="789b5f0afd817cef21cddcb1e0bcec40" category="paragraph">您可以使用以下信息和技术报告进一步配置 NFS 访问：</block>
   <block id="2a2f5ad7f8e4a01c34616cc59fe94051" category="paragraph">如果在配置其他协议时未按照此操作步骤创建 SVM ，则会出现这种情况。</block>
   <block id="4deca5c9e89ed5a65084ecad9f22d328" category="paragraph">打开 SVM 根卷的导出策略。</block>
   <block id="688b2339e3b3d8cfdcd364ef8ed87e41" category="image-alt">此图是 SnapVault 卷还原工作流的流程图。工作流中的步骤与主题匹配。 "&gt;</block>
@@ -8567,8 +8491,6 @@
   <block id="cf60e092711952c2c868d7d19e86f100" category="summary">您可以通过添加 HA 对来快速无中断地扩展现有集群。集群越大，集群中的性能和存储容量就越大。</block>
   <block id="e8fd990d5fe6a50d516b83641fb7fc4a" category="paragraph">只有在满足以下条件时，才应使用此操作步骤：</block>
   <block id="5924a921008cf1a2f38d2d7a41990138" category="paragraph">虽然此操作步骤中的示例使用双节点集群，但也使用具有两个以上节点的适用场景集群。</block>
-  <block id="77c61fd6aef6817840becd82172bd57c" category="paragraph">如果要在集群中使用 SnapMirror 或 SnapVault 关系来保护数据，请参见 <block ref="cbb596e26b08606ba2582d682bef9bd9" category="inline-link-macro-rx"></block> 为新节点设置适当集群间 LIF 的指南。</block>
-  <block id="05eac09172b61971be85d0a01b8162b9" category="paragraph">如果要将数据移动到新添加的节点，可以使用以下信息：</block>
   <block id="127ec903ab071b33b2b142ce19373815" category="summary">您可以在 Storage Virtual Machine 上快速设置 FC 服务，配置 LUN ，并使用 Red Hat Enterprise Linux 服务器上的 FC 主机总线适配器使 LUN 可用。</block>
   <block id="02e8657c4c4ceb640870cd696627fd96" category="list-text">集群中的每个节点上至少有两个可用的 FC 目标端口。板载 FC 和 UTA2 （也称为 "`CNA` " ）端口以及某些适配器均可配置。这些端口的配置在 ONTAP 命令行界面（ CLI ）中完成，此操作步骤不会对此进行介绍。</block>
   <block id="74e0c6e96d379922627d8416a0a0f88c" category="sidebar">创建集群间 LIF （从 ONTAP 9.3 开始）</block>
@@ -9319,4 +9241,5 @@
   <block id="7d5188aa4e5eb813646e2fb2a52c4e9f" category="paragraph">`lun mapping remove-reporting-nodes -remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name`</block>
   <block id="56ee085ee9b22a4b36ce3b7988853da3" category="paragraph">如果在使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)时遇到任何问题、您可以在NetApp支持部门的指导下发送日志文件以帮助解决问题。System Manager 日志文件与 ONTAP 日志文件一起位于 `mlog` 目录中。</block>
   <block id="1124479f0b36cfdc0c874c70e2e87d7f" category="paragraph">集群上始终启用网络时间协议（ NTP ）。您可以禁用NTP、但不建议这样做。</block>
+  <block id="16eba74b838138b1c9d34e93a3730cc6" category="paragraph">+介绍如何在发生灾难后快速激活目标卷、然后在ONTAP 中重新激活源卷。</block>
 </blocks>

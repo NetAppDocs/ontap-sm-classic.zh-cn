@@ -36,5 +36,3 @@ entries:
     url: "/nas-multiprotocol-config/task_verifying_nfs_access_from_unix_administration_host.html"
   - title: 配置并验证 CIFS 和 NFS 客户端访问
     url: "/nas-multiprotocol-config/task_configuring_verifying_client_access_new_svm.html"
-- title: 从何处查找追加信息
-  url: "/nas-multiprotocol-config/reference_where_to_find_additional_information.html"

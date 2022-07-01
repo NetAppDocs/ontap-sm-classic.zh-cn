@@ -42,5 +42,3 @@ entries:
     url: "/nfs-config-esxi/task_deploying_netapp_nfs_plugin_for_vmware_vaai.html"
   - title: 在主机上挂载数据存储库
     url: "/nfs-config-esxi/task_mounting_datastores_on_hosts.html"
-  - title: 从何处查找追加信息
-    url: "/nfs-config-esxi/reference_where_to_find_additional_information.html"

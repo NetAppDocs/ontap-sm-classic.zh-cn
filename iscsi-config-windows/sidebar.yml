@@ -36,5 +36,3 @@ entries:
     url: "/iscsi-config-windows/task_initializing_formatting_lun.html"
   - title: 验证主机是否可以对 LUN 进行写入和读取
     url: "/iscsi-config-windows/task_verifying_that_host_can_write_to_read_from_lun.html"
-- title: 从何处查找追加信息
-  url: "/iscsi-config-windows/reference_where_to_find_additional_information.html"

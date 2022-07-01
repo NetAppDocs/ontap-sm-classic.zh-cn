@@ -15,5 +15,3 @@ entries:
     url: "/volume-backup-snapvault/task_creating_snapvault_relationship_92_earlier.html"
   - title: 监控 SnapVault 关系
     url: "/volume-backup-snapvault/task_monitoring_snapvault_relationship.html"
-  - title: 从何处查找追加信息
-    url: "/volume-backup-snapvault/reference_where_to_find_additional_information.html"
