@@ -9242,4 +9242,6 @@
   <block id="56ee085ee9b22a4b36ce3b7988853da3" category="paragraph">如果在使用ONTAP System Manager classic (适用于ONTAP 9.7及更早版本)时遇到任何问题、您可以在NetApp支持部门的指导下发送日志文件以帮助解决问题。System Manager 日志文件与 ONTAP 日志文件一起位于 `mlog` 目录中。</block>
   <block id="1124479f0b36cfdc0c874c70e2e87d7f" category="paragraph">集群上始终启用网络时间协议（ NTP ）。您可以禁用NTP、但不建议这样做。</block>
   <block id="16eba74b838138b1c9d34e93a3730cc6" category="paragraph">+介绍如何在发生灾难后快速激活目标卷、然后在ONTAP 中重新激活源卷。</block>
+  <block id="11f72f4c3bd9d348b7579fbd1fc019c6" category="paragraph">介绍如何在位于不同 ONTAP 集群中的卷之间快速配置备份存储关系。</block>
+  <block id="cb58fc1134f76b358260cdb5b9943956" category="paragraph">介绍如何在 ONTAP 中从备份存储快速还原卷。</block>
 </blocks>
