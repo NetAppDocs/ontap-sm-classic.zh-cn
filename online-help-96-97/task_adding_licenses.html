@@ -258,11 +258,13 @@
           <div id="react-search" 
           data-search-html="/zh-cn/ontap-sm-classic/search.html"
           data-type="widget" 
-          data-placeholder="搜索文档" 
-          data-no-results-found="未找到与 {query} 匹配的结果。" 
-          data-did-you-mean="搜索 {suggestion}。" 
-          data-no-results-found-did-you-mean="未找到与 {query} 匹配的结果。您是否要搜索 {suggestion}?" 
-          data-results-found="找到 {hitCount} 个结果"  
+          data-placeholder="搜索文档"
+          data-no-results-found="未找到与 {query} 匹配的结果。"
+          data-did-you-mean="搜索 {suggestion}。"
+          data-no-results-found-did-you-mean="未找到与 {query} 匹配的结果。您是否要搜索 {suggestion}?"
+          data-results-found="找到 {hitCount} 个结果"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -4467,7 +4469,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-20 21:53:58 +0000">04/20/2022</time>
+    <time datetime="2022-07-19 04:43:47 +0000">07/19/2022</time>
     
   
 
@@ -4486,6 +4488,15 @@
 <div class="ulist">
 <div class="title">关于此任务</div>
 <ul>
+<li>
+<p>从ONTAP 9.10.1开始、您可以使用System Manager安装NetApp许可证文件(NLF)、以便同时启用多个许可功能。使用 NetApp 许可证文件可以简化许可证安装，因为您不再需要添加单独的功能许可证密钥。您可以从 NetApp 支持站点下载 NetApp 许可证文件。</p>
+<div class="paragraph">
+<p>有关详细信息，请参见 <a href="https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html">"通过添加许可证密钥启用新功能"</a></p>
+</div>
+<div class="paragraph">
+<p>有关管理许可证的信息、请参见 <a href="https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html" target="_blank" rel="noopener">"管理许可证概述（仅限集群管理员）"</a></p>
+</div>
+</li>
 <li>
 <p>在 MetroCluster 配置中添加新许可证时，最好也在运行正常的站点集群上添加此许可证。</p>
 </li>
