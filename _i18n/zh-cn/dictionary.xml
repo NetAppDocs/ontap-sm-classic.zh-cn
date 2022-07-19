@@ -9244,4 +9244,12 @@
   <block id="16eba74b838138b1c9d34e93a3730cc6" category="paragraph">+介绍如何在发生灾难后快速激活目标卷、然后在ONTAP 中重新激活源卷。</block>
   <block id="11f72f4c3bd9d348b7579fbd1fc019c6" category="paragraph">介绍如何在位于不同 ONTAP 集群中的卷之间快速配置备份存储关系。</block>
   <block id="cb58fc1134f76b358260cdb5b9943956" category="paragraph">介绍如何在 ONTAP 中从备份存储快速还原卷。</block>
+  <block id="df39128709788b5d11e19397bbed7e5e" category="paragraph">有关使用ONTAP 9.8及更高版本管理许可证的信息、请参见以下信息：</block>
+  <block id="85180b24dbd0c343b9c87bf144ede023" category="inline-link-macro">管理许可证概述（仅限集群管理员）</block>
+  <block id="ce1ae1f692dcc386afa95c6f51ac8788" category="list-text"><block ref="ce1ae1f692dcc386afa95c6f51ac8788" category="inline-link-macro-rx"></block></block>
+  <block id="a9a72d6af23763d014760a444a6e414b" category="inline-link">通过添加许可证密钥启用新功能</block>
+  <block id="79e933e86e0dbffc33f713b1dd45913b" category="list-text"><block ref="79e933e86e0dbffc33f713b1dd45913b" category="inline-link-rx"></block></block>
+  <block id="9eb2f679e34f007fb487deb886aea701" category="list-text">从ONTAP 9.10.1开始、您可以使用System Manager安装NetApp许可证文件(NLF)、以便同时启用多个许可功能。使用 NetApp 许可证文件可以简化许可证安装，因为您不再需要添加单独的功能许可证密钥。您可以从 NetApp 支持站点下载 NetApp 许可证文件。</block>
+  <block id="08cb1da33bf826c64dbcece5a06b7881" category="paragraph">有关详细信息，请参见 <block ref="7a8e6f659072e8056021df642c019ac1" category="inline-link-macro-rx"></block></block>
+  <block id="8aa8ad9857fa98f48cbbef9e553f013e" category="paragraph">有关管理许可证的信息、请参见 <block ref="ce1ae1f692dcc386afa95c6f51ac8788" category="inline-link-macro-rx"></block></block>
 </blocks>
