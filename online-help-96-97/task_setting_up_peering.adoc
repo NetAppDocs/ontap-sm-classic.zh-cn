@@ -100,7 +100,7 @@ image::../media/peering_workflow.gif[对等工作流]
 .开始之前
 * 您必须已查看并完成执行此任务的要求。
 +
-<<prerequisites-peering,集群对等的前提条件>>
+,集群对等的前提条件
 
 * 您必须已创建集群间逻辑接口（ LIF ）。
 * 您应了解每个集群运行的 ONTAP 版本。

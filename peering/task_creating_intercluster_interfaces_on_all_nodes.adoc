@@ -49,7 +49,7 @@ image::../media/lif_creation_intercluster.gif[创建网络接口对话框]
 .. 单击 * 创建 * 。
 
 
-. 重复 <<step1-intercluster-lif,第 1 步>> 用于集群中的每个节点。
+. 重复 ,第 1 步 用于集群中的每个节点。
 +
 集群中的每个节点都有一个集群间 LIF 。
 

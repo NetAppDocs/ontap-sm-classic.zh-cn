@@ -29,6 +29,6 @@ SNMP 陷阱主机的 IP 地址可以是 IPv4 或 IPv6 。
 +
 image::../media/snmp_add_traphost.gif[此图显示了编辑 SNMP 设置对话框,Traphosts tab,in which the traphost status "enabled" is checked and the example traphost IP address "192.0.2.0" is entered.]
 
-. 要添加另一个陷阱主机，请重复 <<step2-verify-enable-traps,第 2 步>> 和 <<step3-enter-traphost-ip,第 3 步>>。
+. 要添加另一个陷阱主机，请重复 ,第 2 步 和 ,第 3 步。
 . 添加陷阱主机后，单击 * 编辑 SNMP 设置 * 对话框中的 * 确定 * 。
 
