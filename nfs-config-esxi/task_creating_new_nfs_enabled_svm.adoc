@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config-esxi/task_creating_new_nfs_enabled_svm.html 
 sidebar: sidebar 
-keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled 
-summary: 设置新的涉及创建新的和启用 NFS 。然后，您可以使用 Virtual Storage Console 在 ESXi 主机上配置 NFS 访问，并验证是否已为 ESXi 启用 NFS 。 
+keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled SVM 
+summary: 设置新的SVM涉及创建新的和启用NFS。然后，您可以使用 Virtual Storage Console 在 ESXi 主机上配置 NFS 访问，并验证是否已为 ESXi 启用 NFS 。 
 ---
-= 创建新的 NFS-enabled
+= 创建启用了 NFS 的新 SVM
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-设置新的涉及创建新的和启用 NFS 。然后，您可以使用 Virtual Storage Console 在 ESXi 主机上配置 NFS 访问，并验证是否已为 ESXi 启用 NFS 。
+设置新的SVM涉及创建新的和启用NFS。然后，您可以使用 Virtual Storage Console 在 ESXi 主机上配置 NFS 访问，并验证是否已为 ESXi 启用 NFS 。
 
 .开始之前
 * 您必须配置网络，并且必须将相关物理端口连接到网络。
@@ -29,7 +29,7 @@ summary: 设置新的涉及创建新的和启用 NFS 。然后，您可以使用
 .步骤
 . 导航到 * SVM* 窗口。
 . 单击 * 创建 * 。
-. 在 * Storage Virtual Machine （ SVM ） Setup* 窗口中，创建：
+. 在 * Storage Virtual Machine （ SVM ） Setup* 窗口中，创建 SVM ：
 +
 .. 指定 SVM 的唯一名称。
 +
@@ -37,7 +37,7 @@ summary: 设置新的涉及创建新的和启用 NFS 。然后，您可以使用
 
 .. 为数据协议选择 * NFS * 。
 +
-如果您计划在同一个上使用其他协议，则应选择这些协议，即使您不想立即配置它们也是如此。
+如果您计划在同一SVM上使用其他协议、则应选择这些协议、即使您不想立即配置它们也是如此。
 
 .. 保留默认语言设置 C.UTF-8 。
 +
@@ -98,4 +98,4 @@ NFS 客户端需要知道数据 LIF 的 IP 地址。
 
 
 
-此时将创建一个启用了 NFS 的新。
+此时将创建一个启用了NFS的新SVM。

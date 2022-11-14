@@ -28,11 +28,11 @@ entries:
     url: "/nfs-config-esxi/task_creating_aggregate.html"
   - title: 确定在何处配置新卷
     url: "/nfs-config-esxi/task_deciding_where_to_provision_new_volume.html"
-  - title: 创建新的 NFS-enabled
+  - title: 创建启用了 NFS 的新 SVM
     url: "/nfs-config-esxi/task_creating_new_nfs_enabled_svm.html"
-  - title: 添加对现有的 NFS 访问
+  - title: 添加对现有 SVM 的 NFS 访问
     url: "/nfs-config-esxi/concept_adding_nfs_access_to_existing_svm.html"
-  - title: 验证是否已在现有上启用 NFS
+  - title: 验证是否已在现有SVM上启用NFS
     url: "/nfs-config-esxi/task_verifying_that_nfs_is_enabled_on_existing_svm.html"
   - title: 配置数据存储库并创建其包含的卷
     url: "/nfs-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html"

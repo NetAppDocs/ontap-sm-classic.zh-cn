@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config-esxi/concept_adding_nfs_access_to_existing_svm.html 
 sidebar: sidebar 
-keywords: nfs, access, exist, create, data, logical, interface, lif, configure, esxi, host, verify, add, add nfs access to an existing 
-summary: 要向现有添加 NFS 访问权限，必须先创建数据逻辑接口（ LIF ）。然后，您可以在 ESXi 主机上配置 NFS 访问，并使用 Virtual Storage Console 验证是否已为 ESXi 启用 NFS 。 
+keywords: nfs, access, exist, create, data, logical, interface, lif, configure, esxi, host, verify, add, add nfs access to an existing SVM 
+summary: '要向现有SVM添加NFS访问、必须先创建数据逻辑接口(LIF)。然后，您可以在 ESXi 主机上配置 NFS 访问，并使用 Virtual Storage Console 验证是否已为 ESXi 启用 NFS 。' 
 ---
-= 添加对现有的 NFS 访问
+= 添加对现有 SVM 的 NFS 访问
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-要向现有添加 NFS 访问权限，必须先创建数据逻辑接口（ LIF ）。然后，您可以在 ESXi 主机上配置 NFS 访问，并使用 Virtual Storage Console 验证是否已为 ESXi 启用 NFS 。
+要向现有SVM添加NFS访问、必须先创建数据逻辑接口(LIF)。然后，您可以在 ESXi 主机上配置 NFS 访问，并使用 Virtual Storage Console 验证是否已为 ESXi 启用 NFS 。
 
 .开始之前
 * 您必须知道将使用以下哪些网络组件：
@@ -28,9 +28,9 @@ summary: 要向现有添加 NFS 访问权限，必须先创建数据逻辑接口
 
 
 .步骤
-. 导航到 * 详细信息 * 窗格，在此可以配置的协议：
+. 导航到*详细信息*窗格、在此可以配置SVM的协议：
 +
-.. 选择要配置的。
+.. 选择要配置的 SVM 。
 .. 在 * 详细信息 * 窗格中，单击 * 协议 * 旁边的 * NFS * 。
 +
 image::../media/svm_add_protocol_nfs_nfs_esxi.gif[此图通过周围的文本进行了说明。]
