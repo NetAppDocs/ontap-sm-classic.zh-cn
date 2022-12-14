@@ -13,6 +13,7 @@ summary: 对于 ONTAP 9.4 及更高版本，您可以将 ONTAP 软件映像从 N
 [role="lead"]
 您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）获取 ONTAP 软件映像。对于 ONTAP 9.4 及更高版本，您可以将 ONTAP 软件映像从 NetApp 支持站点复制到本地文件夹。对于从 ONTAP 9.3 或更早版本升级的系统，您必须将 ONTAP 软件映像复制到网络上的 HTTP 服务器或 FTP 服务器。
 
+.关于此任务
 要将集群升级到 ONTAP 的目标版本，您需要访问软件映像。您可以从 NetApp 支持站点获取适用于您的平台型号的软件映像，固件版本信息和最新固件。您应注意以下重要信息：
 
 * 软件映像特定于平台型号。

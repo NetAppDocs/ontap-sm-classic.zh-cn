@@ -13,6 +13,7 @@ summary: 您可以在现有 Storage Virtual Machine （ SVM ）上配置 FC ，�
 [role="lead"]
 您可以在现有 Storage Virtual Machine （ SVM ）上配置 FC ，并使用一个向导创建 LUN 及其所在的卷。必须已在 SVM 上启用 FC 协议，但尚未配置该协议。此信息适用于要为其配置多个协议但尚未配置 FC 的 SVM 。
 
+.开始之前
 必须配置 FC 网络结构，并且必须将所需的物理端口连接到该网络结构。
 
 .步骤

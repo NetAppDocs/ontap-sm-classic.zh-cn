@@ -19,6 +19,7 @@ summary: 您可以使用 System Manager 通过选择集群中的现有策略或�
 
 您可以使用 System Manager 通过选择集群中的现有策略或计划或者创建新的策略或计划来编辑存储关系。但是，您不能编辑现有策略或计划的参数。
 
+.开始之前
 源集群和目标集群之间的对等关系必须运行正常。
 
 .步骤
@@ -109,6 +110,7 @@ xref:reference_protection_window.adoc[保护窗口]
 
 如果您在创建存储关系时尚未初始化存储关系，则可以使用 System Manager 初始化该关系。启动从源 FlexVol 卷到目标 FlexVol 卷的基线数据传输。
 
+.开始之前
 源集群和目标集群之间的对等关系必须运行正常。
 
 .步骤
@@ -117,6 +119,7 @@ xref:reference_protection_window.adoc[保护窗口]
 . 在 * 初始化 * 窗口中，单击 * 初始化 * 。
 
 
+.结果
 此时将创建一个 Snapshot 副本并将其传输到目标。
 
 此 Snapshot 副本用作后续增量 Snapshot 副本的基线。
@@ -192,6 +195,7 @@ xref:reference_protection_window.adoc[保护窗口]
 . 单击 * 创建 * 。
 
 
+.结果
 如果选择创建目标卷，则会使用以下默认设置创建类型为 _dp_ 的卷：
 
 * 已启用自动增长。
@@ -208,6 +212,7 @@ xref:reference_protection_window.adoc[保护窗口]
 
 您可以使用 System Manager 手动启动计划外增量更新。您可能需要手动更新，以防止因即将发生断电，计划内维护或数据迁移而导致数据丢失。
 
+.开始之前
 必须初始化存储关系。
 
 .步骤
@@ -230,6 +235,7 @@ xref:reference_protection_window.adoc[保护窗口]
 
 您可以使用 System Manager 结束源卷与目标卷之间的存储关系，并从源释放 Snapshot 副本。
 
+.关于此任务
 释放此关系将永久删除源卷上存储关系使用的基本 Snapshot 副本。要重新创建存储关系，必须使用命令行界面（ CLI ）从源卷运行重新同步操作。
 
 .步骤
@@ -256,6 +262,7 @@ xref:reference_protection_window.adoc[保护窗口]
 . 在 * 恢复 * 窗口中，单击 * 恢复 * 。
 
 
+.结果
 恢复正常数据传输。如果此关系已计划传输，则此传输将从下一个计划开始。
 
 
@@ -270,6 +277,7 @@ xref:reference_protection_window.adoc[保护窗口]
 . 在 * 暂停 * 窗口中，单击 * 暂停 * 。
 
 
+.结果
 如果没有正在进行的传输，则传输状态将显示为已暂停。如果正在进行传输，则传输不会受到影响，传输状态将显示为正在暂停，直到传输完成为止。
 
 * 相关信息 *

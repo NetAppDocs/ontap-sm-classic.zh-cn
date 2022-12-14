@@ -47,8 +47,10 @@ summary: 您可以使用 System Manager 管理子网。
 
 如果您不再需要子网，并且希望重新分配分配分配给该子网的 IP 地址，则可以使用 System Manager 删除该子网。
 
+.开始之前
 要删除的子网不能包含使用子网中 IP 地址的任何 LIF 。
 
+.关于此任务
 您不能使用 System Manager 删除集群 IP 空间中的子网。您必须改用命令行界面（ CLI ）。
 
 .步骤

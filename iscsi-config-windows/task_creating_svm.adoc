@@ -17,6 +17,7 @@ Storage Virtual Machine （ SVM ）提供 iSCSI 目标，主机可通过此目�
 * 您必须具有足够的可用网络地址，以便为每个节点创建两个 LIF 。
 
 
+.关于此任务
 LUN 会映射到 igroup 中的一部分启动程序，以限制从主机到 LUN 的路径数。
 
 * 默认情况下， ONTAP 使用选择性 LUN 映射（ SLM ）使 LUN 只能通过 LUN 所属节点及其 HA 配对节点上的路径进行访问。

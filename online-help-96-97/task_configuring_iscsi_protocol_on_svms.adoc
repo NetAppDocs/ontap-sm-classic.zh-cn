@@ -117,6 +117,7 @@ summary: 您可以使用 System Manager 在 Storage Virtual Machine （ SVM\ ）
 . 单击 * 提交并继续 * 。
 
 
+.结果
 iSCSI LIF 和端口集是使用指定配置创建的。LIF 会根据选定的端口集分布在各个端口集之间。如果所有 LIF 均已成功创建，则 iSCSI 服务将启动。
 
 如果 LIF 创建失败，您可以使用网络接口窗口创建 LIF ，使用 LUN 窗口将 LIF 附加到端口集，然后使用 iSCSI 窗口启动 iSCSI 服务。

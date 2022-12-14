@@ -13,6 +13,7 @@ summary: 您应定期监控 SnapMirror 关系的状态，以确保 SnapMirror �
 [role="lead"]
 您应定期监控 SnapMirror 关系的状态，以确保 SnapMirror 数据传输按指定计划进行。
 
+.关于此任务
 您必须从 * 目标 * 集群执行此任务。
 
 .步骤

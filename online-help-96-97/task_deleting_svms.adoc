@@ -13,6 +13,7 @@ summary: 您可以使用 System Manager 从存储系统配置中删除不再需�
 [role="lead"]
 您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）从存储系统配置中删除不再需要的 Storage Virtual Machine （ SVM ）。
 
+.开始之前
 您必须已完成以下任务：
 
 . 已禁用所有卷的 Snapshot 副本，数据保护（ DP ）镜像和负载共享（ LS ）镜像
@@ -32,6 +33,7 @@ summary: 您可以使用 System Manager 从存储系统配置中删除不再需�
 . 已停止 SVM
 
 
+.关于此任务
 删除 SVM 时，也会删除与 SVM 关联的以下对象：
 
 * LIF ， LIF 故障转移组和 LIF 路由组

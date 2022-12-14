@@ -33,6 +33,7 @@ summary: 您可以使用 System Manager 管理 Kerberos 接口服务。
 ====
 
 
+.关于此任务
 如果您使用的是 Microsoft Active Directory Kerberos ，则域中使用的任何 SPN 的前 15 个字符必须是唯一的。Microsoft Active Directory 对 SPN 的限制为最多 15 个字符，并且不允许使用重复的 SPN 。
 
 .步骤

@@ -32,6 +32,7 @@ image::../media/mfa_workflow.gif[MFA 工作流]
 * 您必须具有 IdP 的 URI 。
 
 
+.关于此任务
 已通过 System Manager 验证的 IdP 为 Shibboleth 和 Active Directory 联合身份验证服务。
 
 [NOTE]
@@ -73,6 +74,7 @@ image::../media/mfa_workflow.gif[MFA 工作流]
 
 如果要禁用对 System Manager 的远程访问或编辑 SAML 配置，则可以禁用安全断言标记语言（ SAML ）身份验证。
 
+.关于此任务
 禁用 SAML 身份验证不会删除 SAML 配置。
 
 .步骤

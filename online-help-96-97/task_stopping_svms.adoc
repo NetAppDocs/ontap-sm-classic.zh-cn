@@ -13,6 +13,7 @@ summary: 如果要对 SVM 中的任何问题描述进行故障排除，删除 SV
 [role="lead"]
 如果要对 SVM 中的任何问题描述 进行故障排除，删除 SVM 或停止从 SVM 进行数据访问，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）停止 Storage Virtual Machine （ SVM ）。
 
+.开始之前
 必须断开连接到 SVM 的所有客户端。
 
 [NOTE]
@@ -30,4 +31,5 @@ summary: 如果要对 SVM 中的任何问题描述进行故障排除，删除 SV
 . 选择要停止的 SVM ，然后单击 * 停止 * 。
 
 
+.结果
 SVM 将停止向客户端提供数据。

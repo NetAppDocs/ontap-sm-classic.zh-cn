@@ -13,8 +13,10 @@ summary: 如果 ESX 主机中的 FC 主机总线适配器运行的驱动程序�
 [role="lead"]
 如果 ESX 主机中的 FC 主机总线适配器（ HBA ）运行的驱动程序，固件和 BIOS 版本不受支持，则必须对其进行更新。
 
+.开始之前
 您必须已通过确定您的配置支持的驱动程序，固件和 BIOS 版本 https://mysupport.netapp.com/matrix["NetApp 互操作性表工具"]。
 
+.关于此任务
 驱动程序，固件， BIOS 和 HBA 实用程序由 HBA 供应商提供。
 
 .步骤

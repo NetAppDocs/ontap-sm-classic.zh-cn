@@ -13,6 +13,7 @@ summary: 您必须向默认导出策略添加一条规则，以允许所有客�
 [role="lead"]
 您必须向默认导出策略添加一条规则，以允许所有客户端通过 NFSv3 进行访问。如果没有此规则，则会拒绝所有 NFS 客户端访问 Storage Virtual Machine （ SVM ）及其卷。
 
+.关于此任务
 您应将所有 NFS 访问指定为默认导出策略，稍后应通过为单个卷创建自定义导出策略来限制对单个卷的访问。
 
 .步骤
@@ -35,4 +36,5 @@ image::../media/export_rule_for_root_volume_nfs.gif[此图通过周围的文本�
 
 
 
+.结果
 现在， NFSv3 客户端可以访问在 SVM 上创建的任何卷。

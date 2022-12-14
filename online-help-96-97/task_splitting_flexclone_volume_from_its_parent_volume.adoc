@@ -13,8 +13,10 @@ summary: '您可以使用System Manager classic (适用于ONTAP 9.7及更早版�
 [role="lead"]
 您可以使用System Manager classic (适用于ONTAP 9.7及更早版本)将FlexClone卷从其父卷拆分。拆分后， FlexClone 卷将成为普通的 FlexVol 卷。它会继续使用其父卷的磁盘空间、并保留存储效率。
 
+.开始之前
 FlexClone 卷必须处于联机状态。
 
+.关于此任务
 对于 _not_ AFF 系统，克隆拆分操作将删除克隆的所有现有 Snapshot 副本。SnapMirror 更新所需的 Snapshot 副本也会被删除。因此，任何后续的 SnapMirror 更新都可能失败。
 
 如果您必须对卷执行任何其他操作，则可以暂停克隆拆分操作。您可以在另一操作完成后恢复克隆拆分过程。

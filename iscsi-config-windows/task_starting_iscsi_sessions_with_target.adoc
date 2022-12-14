@@ -13,8 +13,10 @@ summary: Windows 主机必须与集群中的每个节点建立 iSCSI 连接。�
 [role="lead"]
 Windows 主机必须与集群中的每个节点建立 iSCSI 连接。您可以使用主机上的 iSCSI 启动程序属性对话框从主机建立会话。
 
+.开始之前
 您必须知道包含要访问的 LUN 的 Storage Virtual Machine （ SVM ）上 iSCSI 数据 LIF 的 IP 地址。
 
+.关于此任务
 在 ONTAP 中， iSCSI 主机必须具有指向集群中每个节点的路径。原生 DSM 会选择要使用的最佳路径。如果路径失败，原生 DSM 将选择备用路径。
 
 iSCSI 启动程序属性对话框中的按钮和标签因 Windows 版本而异。此任务中的某些步骤包含多个按钮或标签名称；您应选择与所使用的 Windows 版本匹配的名称。

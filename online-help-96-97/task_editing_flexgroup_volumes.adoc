@@ -13,8 +13,10 @@ summary: 从 System Manager 9.6 开始，您可以编辑现有 FlexGroup 卷的�
 [role="lead"]
 从 System Manager 9.6 开始，您可以编辑现有 FlexGroup 卷的属性。
 
+.开始之前
 FlexGroup 卷必须处于联机状态。
 
+.关于此任务
 在以下情况下，可以扩展 FabricPool FlexGroup 卷：
 
 * FabricPool FlexGroup 卷只能使用 FabricPool 聚合进行扩展。

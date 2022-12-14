@@ -33,6 +33,7 @@ LDAP 客户端列表将显示在 LDAP 窗口中。
 
 通过 LDAP 服务器，您可以集中维护用户信息。如果您将用户数据库存储在环境中的 LDAP 服务器上，则可以将 Storage Virtual Machine （ SVM ）配置为在现有 LDAP 数据库中查找用户信息。
 
+.关于此任务
 ONTAP 支持使用 LDAP 在 NFS 和 CIFS 之间进行用户身份验证，文件访问授权以及用户查找和映射服务。
 
 

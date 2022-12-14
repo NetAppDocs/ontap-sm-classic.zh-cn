@@ -13,6 +13,7 @@ summary: 存储集群上的 LUN 在 Linux 主机中显示为 SCSI 设备，这�
 [role="lead"]
 存储集群上的 LUN 在 Linux 主机中显示为 SCSI 设备，这些设备是 DM-Multipath 聚合到称为多路径设备的新设备中的 I/O 路径。主机不会自动发现您添加到系统中的新 SCSI 设备（ LUN ）。您必须手动重新扫描它们才能发现它们。
 
+.开始之前
 您必须具有 `rescan` 脚本的副本，该脚本位于 Linux 操作系统分发版中的 `sg3_utils` 软件包中。
 
 .步骤

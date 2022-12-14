@@ -13,6 +13,7 @@ summary: 您可以使用 System Manager 修改保护策略并将此策略应用�
 [role="lead"]
 您可以使用 System Manager 修改保护策略并将此策略应用于数据保护关系。
 
+.关于此任务
 保护策略不会在集群级别显示。
 
 .步骤

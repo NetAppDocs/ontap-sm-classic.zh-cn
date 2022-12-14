@@ -13,6 +13,7 @@ summary: 您可以使用 System Manager 修改数据保护（ DP ）卷的卷名
 [role="lead"]
 您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）修改数据保护（ DP ）卷的卷名称。如果源卷未启用存储效率，您可能希望仅在目标卷上启用存储效率。
 
+.关于此任务
 您不能修改镜像 DP 卷上的存储效率。
 
 .步骤

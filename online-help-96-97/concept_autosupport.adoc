@@ -34,6 +34,7 @@ summary: 您可以使用 System Manager 配置 AutoSupport 通知，以帮助您
 
 您可以使用 System Manager 在存储系统上启用或禁用 AutoSupport 设置。您可以通过 AutoSupport 消息监控存储系统运行状况或向技术支持和内部支持组织发送通知。
 
+.关于此任务
 默认情况下， AutoSupport 选项处于启用状态。
 
 .步骤

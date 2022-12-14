@@ -13,8 +13,10 @@ summary: 将节点添加到集群后，必须在节点上配置 AutoSupport 。
 [role="lead"]
 将节点添加到集群后，必须在节点上配置 AutoSupport 。
 
+.开始之前
 必须在集群的现有节点上设置 AutoSupport 。
 
+.关于此任务
 您必须在两个节点上执行此操作步骤。
 
 .步骤

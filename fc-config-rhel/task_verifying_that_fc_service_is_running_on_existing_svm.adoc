@@ -13,6 +13,7 @@ summary: 如果选择使用现有 Storage Virtual Machine （ SVM ），则必�
 [role="lead"]
 如果选择使用现有 Storage Virtual Machine （ SVM ），则必须使用 ONTAP 系统管理器验证此 SVM 上是否正在运行 FC 服务。此外，还必须验证是否已创建 FC 逻辑接口（ LIF ）。
 
+.开始之前
 您必须已选择要在其上创建新 LUN 的现有 SVM 。
 
 .步骤

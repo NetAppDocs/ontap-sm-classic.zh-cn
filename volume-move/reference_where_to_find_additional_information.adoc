@@ -13,4 +13,5 @@ summary: 如果您希望了解有关管理 ONTAP 的详细信息，请参见 ONT
 [role="lead"]
 如果您希望了解有关管理 ONTAP 的详细信息，请参见 ONTAP 9 产品库。
 
+.相关信息
 https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]

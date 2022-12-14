@@ -13,6 +13,7 @@ summary: 如果选择使用现有 Storage Virtual Machine （ SVM ），则必�
 [role="lead"]
 如果选择使用现有 Storage Virtual Machine （ SVM ），则必须验证此 SVM 上是否正在运行 iSCSI 服务。
 
+.开始之前
 您必须已选择要在其上创建新 LUN 的现有 SVM 。
 
 .步骤

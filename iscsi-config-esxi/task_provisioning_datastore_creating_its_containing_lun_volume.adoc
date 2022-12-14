@@ -13,10 +13,12 @@ summary: 数据存储库包含 ESXi 主机上的虚拟机及其 VMDK 。ESXi 主
 [role="lead"]
 数据存储库包含 ESXi 主机上的虚拟机及其 VMDK 。ESXi 主机上的数据存储库在存储集群上的 LUN 上进行配置。
 
+.开始之前
 必须安装适用于 VMware vSphere 的 Virtual Storage Console （ VSC ）并将其注册到管理 ESXi 主机的 vCenter Server 中。
 
 VSC 必须具有足够的集群或 Storage Virtual Machine （ SVM ）凭据才能创建 LUN 和卷。
 
+.关于此任务
 VSC 可自动配置数据存储库，包括在指定的 SVM 上创建 LUN 和卷。
 
 .步骤

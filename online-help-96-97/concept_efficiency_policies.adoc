@@ -58,6 +58,7 @@ summary: 您可以使用 System Manager 创建，编辑和删除效率策略。
 
 您可以使用 System Managerto 删除不再需要的效率策略。
 
+.开始之前
 必须禁用效率策略。
 
 .步骤

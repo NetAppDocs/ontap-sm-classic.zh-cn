@@ -19,6 +19,7 @@ summary: 您可以使用 System Manager 添加，编辑和删除 LDAP 客户端�
 
 如果要使用 LDAP 服务，您可以使用 System Manager 在集群级别或 Storage Virtual Machine （ SVM ）级别添加 LDAP 客户端配置。要使用 LDAP 服务，必须先设置 LDAP 客户端。
 
+.关于此任务
 在 SVM 级别，您只能为选定 SVM 添加 LDAP 客户端。
 
 .步骤
@@ -44,6 +45,7 @@ summary: 您可以使用 System Manager 添加，编辑和删除 LDAP 客户端�
 
 您可以使用 System Manager 在集群级别或 Storage Virtual Machine （ SVM ）级别删除 LDAP 客户端配置。
 
+.关于此任务
 在 SVM 级别，只能删除选定 SVM 的 LDAP 客户端。
 
 .步骤
@@ -64,6 +66,7 @@ summary: 您可以使用 System Manager 添加，编辑和删除 LDAP 客户端�
 
 您可以使用 System Manager 在集群级别或 Storage Virtual Machine （ SVM ）级别编辑 LDAP 客户端配置。
 
+.关于此任务
 在 SVM 级别，您只能为选定 SVM 编辑 LDAP 客户端。
 
 .步骤

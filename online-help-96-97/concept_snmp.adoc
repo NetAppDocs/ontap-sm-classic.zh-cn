@@ -31,6 +31,7 @@ summary: 您可以使用 System Manager 配置 SNMP 以监控集群中的 SVM �
 
 您可以使用 System Manager 中的编辑 SNMP 设置对话框更新有关存储系统位置和联系人的信息，并指定系统的 SNMP 社区。
 
+.关于此任务
 System Manager 使用 SNMP 协议 SNMPv1 和 SNMPv2c 以及 SNMP 社区来发现存储系统。
 
 .步骤
@@ -60,6 +61,7 @@ System Manager 使用 SNMP 协议 SNMPv1 和 SNMPv2c 以及 SNMP 社区来发现
 
 通过 SNMP 陷阱，您可以监控存储系统各个组件的运行状况和状态。您可以使用 System Manager 中的编辑 SNMP 设置对话框在存储系统上启用或禁用 SNMP 陷阱。
 
+.关于此任务
 虽然默认情况下会启用 SNMP ，但默认情况下会禁用 SNMP 陷阱。
 
 .步骤

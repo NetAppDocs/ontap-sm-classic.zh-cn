@@ -25,6 +25,7 @@ summary: 您可以使用 System Manager 查看，管理或删除集群或节点�
 * https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html["通过添加许可证密钥启用新功能"^]
 
 
+.开始之前
 要删除的软件许可证不能由任何服务或功能使用。
 
 .步骤
@@ -55,6 +56,7 @@ summary: 您可以使用 System Manager 查看，管理或删除集群或节点�
 . 选中确认复选框，然后单击 * 删除 * 。
 
 
+.结果
 软件许可证将从存储系统中删除。删除的许可证也会从许可证窗口的许可证列表中删除。
 
 

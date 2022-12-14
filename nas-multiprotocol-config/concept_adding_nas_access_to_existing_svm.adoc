@@ -30,6 +30,7 @@ summary: 为现有 SVM 添加 CIFS/SMB 和 NFS 访问权限涉及创建数据 LI
 
 
 
+.关于此任务
 配置 CIFS 和 NFS 的顺序会影响显示的对话框。在此操作步骤中，必须先配置 CIFS ，然后再配置 NFS 。
 
 .步骤

@@ -20,6 +20,7 @@ summary: 您可以使用 System Manager 查看 FlexClone 卷及其父卷的层�
 . 单击 * 更多操作 * > * 克隆 * > * 查看层次结构 * 。
 
 
+.结果
 此时将显示至少包含一个子 FlexClone 卷的卷。FlexClone 卷将显示为其各自父卷的子卷。
 
 * 相关信息 *

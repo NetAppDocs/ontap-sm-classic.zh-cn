@@ -95,6 +95,7 @@ summary: 您可以使用 System Manager 从源 Storage Virtual Machine （ SVM �
 . 单击 * 保存 * 。
 
 
+.结果
 此时将使用以下默认设置创建类型为 _dp_ 的新目标卷：
 
 * 已启用自动增长。

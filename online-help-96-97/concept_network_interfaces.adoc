@@ -19,6 +19,7 @@ summary: 您可以使用 System Manager 创建和管理网络接口。
 
 您可以使用 System Manager 创建网络接口或 LIF ，以便从 Storage Virtual Machine （ SVM ）访问数据，管理 SVM 并为集群间连接提供接口。
 
+.开始之前
 与子网关联的广播域必须已分配端口。
 
 .关于此任务
@@ -155,6 +156,7 @@ summary: 您可以使用 System Manager 创建和管理网络接口。
 
 您可以使用 System Manager 删除网络接口以释放该接口的 IP 地址，然后将该 IP 地址用于其他目的。
 
+.开始之前
 必须禁用网络接口的状态。
 
 .步骤
@@ -169,6 +171,7 @@ summary: 您可以使用 System Manager 创建和管理网络接口。
 
 如果源端口出现故障或需要维护，您可以使用 System Manager 将数据 LIF 或集群管理 LIF 迁移到集群中同一节点或不同节点上的其他端口。
 
+.开始之前
 目标节点和端口必须正常运行，并且必须能够访问与源端口相同的网络。
 
 .关于此任务

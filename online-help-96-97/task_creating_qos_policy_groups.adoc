@@ -52,6 +52,7 @@ summary: 您可以使用 System Manager 创建存储服务质量（ QoS ）策�
 
 您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）删除不再需要的存储服务质量（ QoS ）策略组。
 
+.开始之前
 您必须已取消分配分配分配给策略组的所有存储对象。
 
 .步骤

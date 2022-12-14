@@ -35,6 +35,7 @@ summary: 您可以使用 System Manager 将 SSD 添加为存储池或专用 SSD 
 * 聚合不能包含任何阵列 LUN 。
 
 
+.关于此任务
 您必须了解特定于平台和特定于工作负载的 Flash Pool 聚合 SSD 层大小和配置最佳实践。
 
 .步骤
@@ -84,6 +85,7 @@ summary: 您可以使用 System Manager 将 SSD 添加为存储池或专用 SSD 
 . 在 * 添加缓存 * 对话框中，单击 * 是 * 。
 
 
+.结果
 缓存磁盘将添加到选定聚合。
 
 
@@ -126,6 +128,7 @@ summary: 您可以使用 System Manager 将 SSD 添加为存储池或专用 SSD 
 . 在 * 添加缓存 * 对话框中，单击 * 是 * 。
 
 
+.结果
 缓存磁盘将添加到选定 Flash Pool 聚合。
 
 * 相关信息 *

@@ -13,6 +13,7 @@ summary: for 自动执行将存储与 ESXi 主机结合使用所需的许多配�
 [role="lead"]
 Virtual Storage Console for可自动执行在ESXi主机上使用存储所需的许多配置和配置任务。是 vCenter Server 的插件。
 
+.开始之前
 您必须具有用于管理 ESXi 主机的 vCenter Server 的管理员凭据。
 
 .关于此任务

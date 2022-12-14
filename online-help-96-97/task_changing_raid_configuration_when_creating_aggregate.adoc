@@ -13,6 +13,7 @@ summary: 创建聚合时，您可以使用 System Manager 修改聚合的 RAID �
 [role="lead"]
 创建聚合时，您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中提供）修改聚合的 RAID 类型和 RAID 组大小选项的默认值。
 
+.关于此任务
 如果聚合磁盘的磁盘类型为 FSAS 或 MSATA ，并且磁盘大小等于或大于 10 TB ，则 RAID-TEC 是唯一可用的 RAID 类型。
 
 .步骤

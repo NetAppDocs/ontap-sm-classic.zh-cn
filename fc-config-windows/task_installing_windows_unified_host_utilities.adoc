@@ -13,6 +13,7 @@ summary: Windows Unified Host Utilities 包含一个安装程序，用于设置�
 [role="lead"]
 Windows Unified Host Utilities 包含一个安装程序，用于设置所需的 Windows 注册表和 HBA 参数，以便 Windows 主机正确处理 NetApp ONTAP 和 E 系列平台的存储系统行为。
 
+.开始之前
 您必须已完成以下任务：
 
 * 在互操作性表中检查支持的配置
@@ -30,6 +31,7 @@ https://mysupport.netapp.com/matrix["NetApp 互操作性表工具"]
 
 
 
+.关于此任务
 您必须指定在安装 Windows Unified Host Utilities 软件包时是否包括多路径支持。如果从 Windows 主机或虚拟机到存储系统的路径不止一条，请选择 MPIO 。只有在使用存储系统的单一路径时，才选择 no MPIO 。
 
 [NOTE]

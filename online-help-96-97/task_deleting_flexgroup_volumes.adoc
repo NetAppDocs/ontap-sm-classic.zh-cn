@@ -18,6 +18,7 @@ summary: 您可以使用 System Manager 删除不再需要 FlexGroup 的 FlexGro
 * FlexGroup 卷必须处于脱机状态。
 
 
+.关于此任务
 System Manager 不支持对 FlexGroup 卷进行成分卷级别的管理。
 
 .步骤

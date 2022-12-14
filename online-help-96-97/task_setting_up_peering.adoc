@@ -17,7 +17,7 @@ image::../media/peering_workflow.gif[对等工作流]
 
 
 
-== 集群对等的前提条件
+== 【前提条件-对等、集群对等的前提条件】集群对等的前提条件
 
 在设置集群对等之前，您应确认连接，端口， IP 地址，子网，防火墙， 并满足集群命名要求。
 
@@ -100,7 +100,7 @@ image::../media/peering_workflow.gif[对等工作流]
 .开始之前
 * 您必须已查看并完成执行此任务的要求。
 +
-,集群对等的前提条件
+<<prerequisites-peering,集群对等的前提条件>>
 
 * 您必须已创建集群间逻辑接口（ LIF ）。
 * 您应了解每个集群运行的 ONTAP 版本。
@@ -167,6 +167,7 @@ image::../media/peering_workflow.gif[对等工作流]
 
 通过 SVM 对等关系，您可以在两个 Storage Virtual Machine （ SVM ）之间建立对等关系以进行数据保护。
 
+.开始之前
 您必须已在计划对等的 SVM 所在的集群之间创建对等关系。
 
 .关于此任务

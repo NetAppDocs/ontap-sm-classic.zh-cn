@@ -13,4 +13,5 @@ summary: 将 NFS 卷添加到启用了 NFS 的 SVM 涉及创建和配置卷，�
 [role="lead"]
 将 NFS 卷添加到启用了 NFS 的 SVM 涉及创建和配置卷，创建导出策略以及从 UNIX 管理主机验证访问。然后，您可以配置 NFS 客户端访问。
 
+.开始之前
 必须在 SVM 上完全设置 NFS 。

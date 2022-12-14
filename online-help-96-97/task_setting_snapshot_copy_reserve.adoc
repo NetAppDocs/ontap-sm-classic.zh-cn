@@ -13,6 +13,7 @@ summary: 您可以使用 System Manager 为卷中的 Snapshot 副本预留空间
 [role="lead"]
 您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）为卷中的 Snapshot 副本预留空间（以百分比为单位）。通过设置 Snapshot 副本预留，您可以为 Snapshot 副本分配足够的磁盘空间，使其不会占用活动文件系统空间。
 
+.关于此任务
 SAN 和 VMware 卷中为 Snapshot 副本预留的默认空间为 5% 。
 
 .步骤

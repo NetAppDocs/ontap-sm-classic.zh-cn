@@ -21,6 +21,7 @@ summary: 您可以使用 System Manager 在 Storage Virtual Machine （ SVM ）�
 * 您必须具有用于配置 CIFS 协议的 Active Directory ，组织单位和管理帐户凭据。
 
 
+.关于此任务
 自动创建卷时不考虑 SnapLock 聚合。
 
 .步骤
@@ -110,4 +111,5 @@ summary: 您可以使用 System Manager 在 Storage Virtual Machine （ SVM ）�
 . 单击 * 提交并继续 * 。
 
 
+.结果
 CIFS 服务器和 NIS 域使用指定的配置进行配置，并创建数据 LIF 。默认情况下，数据 LIF 具有管理访问权限。您可以在摘要页面上查看配置详细信息。

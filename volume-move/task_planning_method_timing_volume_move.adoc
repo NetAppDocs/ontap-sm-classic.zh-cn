@@ -13,6 +13,7 @@ summary: '您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器�
 [role="lead"]
 您可以在 ONTAP 9.7 或更早版本中使用 ONTAP System Manager _classic_ 界面移动卷并确定是否要手动转换。如果需要更新 LUN 报告节点，则必须遵循命令行界面（ CLI ）中的高级操作步骤。您也可以选择规划卷移动的时间。
 
+.关于此任务
 可以在镜像卷时移动 SnapMirror 或 SnapVault 关系的源卷。在卷移动作业的转换阶段， SnapMirror 服务会短暂暂停。
 
 也可以移动目标卷。在迭代阶段， SnapMirror 或 SnapVault 更新和卷移动操作会同时运行。在评估转换阶段是否可以进行转换时，转换与 SnapMirror 或 SnapVault 更新之间的优先级将根据先到先得的原则来确定。在第一个操作完成之前，其他操作将被阻止。
@@ -62,4 +63,5 @@ _Cutover_ 是指移动操作完成且 ONTAP 开始从新聚合上的卷提供数
 
 
 
+.相关信息
 link:task_verifying_lun_reporting_nodes_after_moving_volume.html["移动卷后验证 LUN 报告节点"]

@@ -37,8 +37,10 @@ summary: 您可以使用 System Manager 创建和管理 IP 空间。
 
 您可以使用 System Manager 删除不再需要的 IP 空间。
 
+.开始之前
 要删除的 IP 空间不得与任何广播域，网络接口，对等关系或 Storage Virtual Machine （ SVM ）关联。
 
+.关于此任务
 无法删除系统定义的 " `Default` " IP 空间和 "`Cluster` " IP 空间。
 
 .步骤

@@ -13,6 +13,7 @@ summary: iSCSI 软件适配器会在 ESX 主机上创建 iSCSI 连接。它内�
 [role="lead"]
 iSCSI 软件适配器会在 ESXi 主机上创建 iSCSI 连接。它内置在操作系统中，但必须先启用，然后才能使用。
 
+.开始之前
 您必须在工作站上安装 VMware vSphere Client ，或者您必须有权访问 vSphere Web Client 。
 
 .步骤

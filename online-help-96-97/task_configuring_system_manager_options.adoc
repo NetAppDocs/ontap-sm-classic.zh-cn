@@ -13,6 +13,7 @@ summary: 您可以启用日志记录并为 System Manager 指定非活动超时�
 [role="lead"]
 您可以启用日志记录并为 ONTAP System Manager classic （在 ONTAP 9.7 或更早版本中提供）指定非活动超时值。
 
+.关于此任务
 您可以从 System Manager 登录窗口配置这些选项。但是，您必须登录到应用程序才能指定非活动超时值。
 
 .步骤

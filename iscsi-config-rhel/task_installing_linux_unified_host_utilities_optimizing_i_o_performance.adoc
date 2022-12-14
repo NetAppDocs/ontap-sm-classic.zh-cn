@@ -13,6 +13,7 @@ summary: Linux Unified Host Utilities 软件包括 sanlun 实用程序，这是�
 [role="lead"]
 Linux `sHost Utilities 软件包含` anlun 实用程序，该实用程序是一个 NetApp LUN 报告工具，可用于显示有关存储集群节点的信息。您还必须在 Linux 主机上启用正确的服务器配置文件，以优化 NetApp 存储性能。
 
+.开始之前
 您必须已使用互操作性表确定您的配置支持的 Linux Unified Host Utilities 版本。您还必须具有 `tuned` 软件包，该软件包是 Linux 操作系统版本的一部分，其中包含 `tuned-adm` 命令，您可以使用该命令在主机上设置服务器配置文件。
 
 .步骤

@@ -31,6 +31,7 @@ image::../media/fabricpool_workflow.gif[FabricPool 工作流]
 * 如果云层与集群之间的通信使用 SSL 或 TLS 进行加密，则必须安装所需的证书。
 
 
+.关于此任务
 以下对象存储可用作云层：
 
 * StorageGRID
@@ -86,6 +87,7 @@ image::../media/fabricpool_workflow.gif[FabricPool 工作流]
 
 您可以使用 System Manager 将全闪存聚合附加到云层。您可以将不常用的数据存储在云层中。
 
+.开始之前
 您必须已向集群添加云层。
 
 .步骤
@@ -110,6 +112,7 @@ image::../media/fabricpool_workflow.gif[FabricPool 工作流]
 * 云层和聚合之间必须存在专用网络连接。
 
 
+.关于此任务
 以下对象存储可用作云层：
 
 * StorageGRID
@@ -199,6 +202,7 @@ image::../media/fabricpool_workflow.gif[FabricPool 工作流]
 
 您可以使用 System Manager 删除不再需要的云层。
 
+.开始之前
 您必须已删除与云层关联且已启用 FabricPool 的聚合。
 
 .步骤

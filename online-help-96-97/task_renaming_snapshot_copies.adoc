@@ -13,6 +13,7 @@ summary: 您可以使用 System Manager 重命名 Snapshot 副本，以帮助您
 [role="lead"]
 您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）重命名 Snapshot 副本，以帮助您组织和管理 Snapshot 副本。
 
+.关于此任务
 您不能重命名 SnapVault 关系中 SnapLock DP 卷的 Snapshot 副本（已提交到 WORM 状态）。
 
 .步骤

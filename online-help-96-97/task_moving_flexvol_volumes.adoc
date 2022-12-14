@@ -14,6 +14,7 @@ summary: 您可以使用 System Manager 无中断地将 FlexVol 卷移动到其�
 [role="lead"]
 您可以使用 ONTAP System Manager classic （在 ONTAP 9.7 及更早版本中可用）无中断地将 FlexVol 卷移动到其他聚合或其他节点，以提高容量利用率和性能。
 
+.开始之前
 如果要移动数据保护卷，则必须先初始化数据保护镜像关系，然后再移动该卷。
 
 .关于此任务

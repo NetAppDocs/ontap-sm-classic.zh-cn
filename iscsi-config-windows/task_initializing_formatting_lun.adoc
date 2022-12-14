@@ -13,8 +13,10 @@ summary: 当新 LUN 首次由 Windows 主机访问时，它没有分区或文件
 [role="lead"]
 当新 LUN 首次由 Windows 主机访问时，它没有分区或文件系统。您必须初始化 LUN ，并可选择使用文件系统对其进行格式化。
 
+.开始之前
 LUN 必须已被 Windows 主机发现。
 
+.关于此任务
 LUN 在 Windows 磁盘管理中显示为磁盘。
 
 您可以使用 GPT 或 MBR 分区表将磁盘初始化为基本磁盘。

@@ -11,6 +11,7 @@ summary: 您可以使用 System Manager 通过更改命名空间映射到的子�
 [role="lead"]
 您可以使用ONTAP System Manager经典版(在ONTAP 9.7及更早版本中提供)通过更改命名空间映射到的子系统来编辑命名空间。
 
+.关于此任务
 您只能在此窗口中修改NVMe子系统设置；不能编辑其他命名空间详细信息。
 
 .步骤

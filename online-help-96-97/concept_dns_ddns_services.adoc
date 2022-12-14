@@ -43,8 +43,10 @@ summary: 您可以使用 System Manager 管理 DNS/DDNS 服务。
 
 您可以使用 DNS 集中维护主机信息。您可以使用 System Manager 添加或修改存储系统的 DNS 域名。您还可以在存储系统上启用 DDNS ，以便在 DNS 服务器中自动更新名称服务器。
 
+.开始之前
 您必须为 Storage Virtual Machine （ SVM ）设置 CIFS 服务器或 Active Directory 帐户，以使安全 DDNS 正常运行。
 
+.关于此任务
 System Manager 不会对 DNS 和 DDNS 设置执行任何验证检查。
 
 .步骤

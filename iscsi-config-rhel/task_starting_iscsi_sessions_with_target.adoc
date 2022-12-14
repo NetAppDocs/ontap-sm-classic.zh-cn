@@ -13,6 +13,7 @@ summary: Linux 主机必须与存储集群中的每个节点（目标）建立 i
 [role="lead"]
 Linux 主机必须与存储集群中的每个节点（目标）建立 iSCSI 连接。您可以从主机建立会话。
 
+.关于此任务
 在 ONTAP 中， iSCSI 主机必须具有指向集群中每个节点的路径。DM-Multipath 可选择要使用的最佳路径。如果路径失败， DM-Multipath 将选择备用路径。
 
 .步骤

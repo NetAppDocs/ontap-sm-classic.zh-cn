@@ -13,6 +13,7 @@ summary: 从 System Manager 9.6 开始，您可以诊断 Storage Virtual Machine
 [role="lead"]
 从 System Manager 9.6 开始，您可以诊断 Storage Virtual Machine （ SVM ）上的 CIFS 或 NFS 文件访问错误。
 
+.关于此任务
 当共享配置，权限或用户映射出现问题时，可能会出现文件访问问题，例如 "`access denied` " 错误。您可以使用 System Manager 通过查看用户要访问的文件或共享的访问跟踪结果来帮助解决文件访问问题。System Manager 会显示文件或共享是否具有有效的读取，写入或执行权限，以及访问有效或无效的原因。
 
 .步骤

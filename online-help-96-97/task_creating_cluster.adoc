@@ -13,6 +13,7 @@ summary: 您可以使用 ONTAP 系统管理器在数据中心中创建和设置�
 [role="lead"]
 您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）在数据中心中创建和设置集群。
 
+.关于此任务
 如果集群支持 ONTAP 9.1 或更高版本，则只能添加运行 ONTAP 9.1 或更高版本的存储系统。
 
 .步骤

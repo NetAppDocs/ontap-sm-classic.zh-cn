@@ -28,6 +28,7 @@ summary: 您可以使用 System Manager 创建和管理 Kerberos 域服务。
 
 
 
+.关于此任务
 创建 Kerberos 域时，必须在创建 Kerberos 域向导中设置以下属性：
 
 * Kerberos 域
@@ -56,6 +57,7 @@ summary: 您可以使用 System Manager 创建和管理 Kerberos 域服务。
 
 您可以使用 System Manager 在 Storage Virtual Machine （ SVM ）级别编辑 Kerberos 域配置。
 
+.关于此任务
 您可以使用 Kerberos 域编辑向导修改以下属性：
 
 * KDC IP 地址和端口号

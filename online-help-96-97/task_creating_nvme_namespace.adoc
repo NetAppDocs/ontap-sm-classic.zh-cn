@@ -13,6 +13,7 @@ summary: 您可以使用 System Manager 创建一个或多个 NVMe 命名空间�
 [role="lead"]
 您可以使用 ONTAP System Manager classic （适用于 ONTAP 9.7 及更早版本）创建一个或多个 NVMe 命名空间，并将每个命名空间连接到 Storage Virtual Machine （ SVM ）中的一个或一组主机。NVMe 命名空间是指可格式化为逻辑块的内存量。每个命名空间都可以映射到一个 NVMe 子系统。
 
+.开始之前
 SVM 必须已配置 NVMe 协议。要映射命名空间，命名空间所属的节点必须至少存在一个采用数据协议 NVMe 的 LIF 。
 
 .步骤

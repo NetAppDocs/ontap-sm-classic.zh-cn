@@ -25,6 +25,7 @@ summary: 您可以使用 System Manager 创建存储池，以使多个 Flash Poo
 * 存储池中的所有 SSD 必须属于同一个 HA 对。
 
 
+.关于此任务
 使用 SSD 向存储池添加磁盘时， System Manager 会对 SSD RAID 组强制实施热备用规则。例如，如果 SSD RAID 组中有 10 个 SSD ，并且选项 `raid.min_spare_count` 在节点级别设置为 `1` ，则 System Manager 会保留 1 个 SSD 作为热备用磁盘，并使用其他 9 个 SSD 执行 SSD 相关操作。
 
 使用 System Manager 创建存储池时，不能使用分区 SSD 。
@@ -42,6 +43,7 @@ summary: 您可以使用 System Manager 创建存储池，以使多个 Flash Poo
 
 您可以使用 System Manager 将 SSD 添加到现有存储池并增加其缓存大小。
 
+.开始之前
 HA 对的两个节点都必须已启动且正在运行，才能通过存储池分配 SSD 和 SSD 备用磁盘。
 
 .关于此任务
@@ -68,6 +70,7 @@ HA 对的两个节点都必须已启动且正在运行，才能通过存储池�
 
 如果存储池的缓存不是最佳缓存，或者任何聚合或 Flash Pool 聚合不再使用存储池，则您可能需要删除该存储池。您可以使用 System Manager 中的删除存储池对话框删除存储池。
 
+.开始之前
 存储池不能由任何聚合使用。
 
 .步骤

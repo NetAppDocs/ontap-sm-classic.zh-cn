@@ -13,6 +13,7 @@ summary: 使用基本网络配置设置一个可正常工作的 Storage Virtual 
 [role="lead"]
 您可以使用ONTAP System Manager classic (在ONTAP 9.7及更早版本中提供)在设置具有基本网络配置的正常运行的Storage Virtual Machine (SVM)或SVM之后、选择性地将SVM的管理委派给SVM管理员。
 
+.关于此任务
 SVM 管理员不能使用 System Manager 管理委派的 SVM 。管理员只能使用命令行界面（ CLI ）对其进行管理。
 
 .步骤
@@ -74,6 +75,7 @@ SAN 协议需要一个专用的 SVM 管理 LIF ，其中数据和管理协议不
 
 
 
+.结果
 `vsadmin` 帐户已解除锁定，并已使用密码进行配置。
 
 `vsadmin` 帐户的默认访问方法为 ONTAP API ` （ ontapi ）` 和 SSH ` （ ssh ）` 。SVM 管理员可以使用管理 IP 地址登录到存储系统。

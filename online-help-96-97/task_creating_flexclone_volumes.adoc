@@ -18,6 +18,7 @@ summary: 如果需要现有 FlexVol 卷的可写时间点副本，可以使用 S
 * 要克隆的卷必须处于联机状态，并且必须为非根卷。
 
 
+.关于此任务
 用于为 SnapMirror 目标创建 FlexClone 卷的基本 Snapshot 副本将标记为繁忙，无法删除。如果从非最新 Snapshot 副本的 Snapshot 副本创建 FlexClone 卷，并且源卷上不再存在该 Snapshot 副本，则对目标卷的所有 SnapMirror 更新都将失败。
 
 .步骤

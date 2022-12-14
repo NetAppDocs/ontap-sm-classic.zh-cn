@@ -19,6 +19,7 @@ summary: 您可以使用 System Manager 创建和管理以太网端口。
 
 您可以使用 System Manager 创建一个接口组—单模式，静态多模式或动态多模式（ LACP ）—通过将聚合网络端口的功能组合在一起，为客户端提供一个接口。
 
+.开始之前
 必须具有不属于任何广播域或接口组或托管 VLAN 的可用端口。
 
 .步骤
@@ -76,6 +77,7 @@ summary: 您可以使用 System Manager 创建和管理以太网端口。
 
 您可以使用 System Manager 向接口组添加端口，从接口组中删除端口以及修改接口组中端口的使用模式和负载分布模式。
 
+.关于此任务
 您不能修改分配给广播域的接口组的 MTU 设置。
 
 .步骤
@@ -90,6 +92,7 @@ summary: 您可以使用 System Manager 创建和管理以太网端口。
 
 如果要修改不属于广播域的 VLAN 接口的 MTU 大小，可以使用 System Manager 更改大小。
 
+.关于此任务
 您不能修改管理端口 e0M 的 MTU 大小。
 
 .步骤
@@ -104,6 +107,7 @@ summary: 您可以使用 System Manager 创建和管理以太网端口。
 
 您可以使用 System Manager 删除在网络端口上配置的 VLAN 。在从插槽中删除 NIC 之前，您可能需要删除 VLAN 。删除 VLAN 时，此 VLAN 将自动从使用此 VLAN 的所有故障转移规则和组中删除。
 
+.开始之前
 不能将任何 LIF 与 VLAN 关联。
 
 .步骤

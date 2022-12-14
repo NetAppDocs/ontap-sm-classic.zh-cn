@@ -18,4 +18,5 @@ summary: 您可以使用 System Manager 通过启动 Storage Virtual Machine （
 . 选择要启动的 SVM ，然后单击 * 启动 * 。
 
 
+.结果
 SVM 将开始向客户端提供数据。

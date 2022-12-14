@@ -17,8 +17,10 @@ summary: 您可以使用 System Manager 查看集群中节点的详细信息。
 
 您可以使用 System Manager 将 ComplianceClock 时间初始化为当前集群时间。要创建 SnapLock 聚合，必须初始化 ComplianceClock 时间。
 
+.开始之前
 必须安装 SnapLock 许可证。
 
+.关于此任务
 初始化 ComplianceClock 时间后，您无法修改或停止它。
 
 .步骤

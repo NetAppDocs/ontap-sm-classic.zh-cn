@@ -13,8 +13,10 @@ summary: 在为数据中心中的 ESXi 主机配置第一个数据存储库之�
 [role="lead"]
 在为数据中心中的 ESXi 主机配置第一个数据存储库之前，必须先将集群或特定 Storage Virtual Machine （ SVM ）添加到适用于 VMware vSphere 的 Virtual Storage Console 中。通过添加集群，您可以在集群中的任何 SVM 上配置存储。
 
+.开始之前
 您必须具有要添加的存储集群或 SVM 的管理员凭据。
 
+.关于此任务
 根据您的配置，可能已自动发现集群，也可能已添加集群。
 
 .步骤

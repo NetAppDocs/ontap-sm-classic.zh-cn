@@ -13,6 +13,7 @@ summary: ESXi 主机需要使用网络端口才能通过 iSCSI 连接到存储�
 [role="lead"]
 ESXi 主机需要使用网络端口才能通过 iSCSI 连接到存储集群。
 
+.关于此任务
 建议使用 IP 哈希作为 NIC 绑定策略，这需要在一个 vSwitch 上使用一个 VMkernel 端口。
 
 用于 iSCSI 的主机端口和存储集群端口必须在同一子网中具有 IP 地址。

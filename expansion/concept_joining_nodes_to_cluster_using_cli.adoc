@@ -96,7 +96,7 @@ cluster1-2            true    true
 cluster1-3            true    true
 3 entries were displayed.
 ----
-. 重复步骤 ,#stef_3D8223C5AC7145EE8C9A9397270D0610 到 ,#stef_F6678CB6B1A94A08F86F83BA8BA8E35 新安装的第二个控制器模块。
+. 重复步骤 <<STEP_3D8223C5AC7145EE8C9A9397270D0610,#stef_3D8223C5AC7145EE8C9A9397270D0610>> 到 <<STEP_F6678CB6B1A94AF08F86F83BA8BA8E35,#stef_F6678CB6B1A94A08F86F83BA8BA8E35>> 新安装的第二个控制器模块。
 +
 在第二个节点上，集群设置向导在以下方面有所不同：
 
