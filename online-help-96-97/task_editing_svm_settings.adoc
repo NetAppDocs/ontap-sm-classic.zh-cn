@@ -44,7 +44,7 @@ summary: 您可以使用 System Manager 编辑 Storage Virtual Machine （ SVM �
 
 .步骤
 . 单击 * 存储 * > * SVMs * 。
-. 选择 SVM ，然后单击 * SVM 设置 * 。
+. 选择SVM、然后单击*编辑*。
 . 在 * 详细信息 * 选项卡中，修改所需的数据协议。
 . 在 * 资源分配 * 选项卡中，选择以下方法之一来委派卷创建：
 +

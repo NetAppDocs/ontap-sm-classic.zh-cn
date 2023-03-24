@@ -8290,7 +8290,6 @@
   <block id="ba406d20b59511a789bd10fb1be98278" category="summary">从 ONTAP 9.3 开始，到 ONTAP 9.7 为止，您可以使用 ONTAP 系统管理器的 " 经典 " 界面创建 SVM 对等关系。通过 Storage Virtual Machine （ SVM ）对等关系，您可以在两个 SVM 之间建立对等关系以进行数据保护。</block>
   <block id="961651a3152e7876bc4ad1526fe7e4d3" category="doc">创建 SVM 对等关系</block>
   <block id="8ffc06d28e87576dd9ff2da3caa069e3" category="paragraph">从 ONTAP 9.3 开始，直到 ONTAP 9.7 为止，您可以使用 ONTAP 系统管理器 _classic_ 界面创建 SVM 对等关系。通过 Storage Virtual Machine （ SVM ）对等关系，您可以在两个 SVM 之间建立对等关系以进行数据保护。</block>
-  <block id="16514528850809da669879bf9c0def51" category="paragraph">成功创建集群对等关系后，即可保护数据的可用性。您可以使用以下信息保护数据：</block>
   <block id="a97f5cda69815f1e77668550fdaeedca" category="list-text"><block ref="a97f5cda69815f1e77668550fdaeedca" category="inline-link-macro-rx"></block></block>
   <block id="02cf3800215c23ec21668bd5841a318c" category="paragraph">有关更多信息，请参见：</block>
   <block id="54bc6840f75a7dff97f8a16136b3b7e5" category="summary">在 ONTAP 9.2 或更低版本的 ONTAP 9 中使用 ONTAP System Manager" 经典 " 界面，您可以创建 SVM 对等关系。</block>
@@ -9254,4 +9253,8 @@
   <block id="7d5ed3e12000d1e71004e9e21d57eae0" category="paragraph-title">NFS协议跟踪结果列表</block>
   <block id="48f1b7cd8c5e771ef4ce929e95a1d530" category="section-title">【前提条件-对等、集群对等的前提条件】集群对等的前提条件</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">相关信息</block>
+  <block id="0832a9959e45466f30fb7d8ac340284b" category="list-text">选择SVM、然后单击*编辑*。</block>
+  <block id="34a08238e292163c8a9e2bbdbca31b46" category="paragraph">指定在后台持续执行重复数据删除。此策略适用于所有新创建的卷以及尚未手动配置后台重复数据删除的所有升级卷。如果将此策略更改为`default`或任何其他策略、则会禁用"`auto`"策略。</block>
+  <block id="0edff1709e29131d53711deec4ab07ca" category="paragraph">如果卷从非AFF系统移至AFF 系统、则默认情况下、目标节点上会启用"`auto`"策略。如果卷从AFF 节点移至非AFF节点、则默认情况下、目标节点上的"`auto`"策略将替换为"`inline-only`"策略。</block>
+  <block id="52d62f4cf5db67fc9fd3bfd390035923" category="paragraph">您可以使用以下信息保护数据：</block>
 </blocks>
