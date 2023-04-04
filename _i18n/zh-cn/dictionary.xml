@@ -9257,4 +9257,7 @@
   <block id="34a08238e292163c8a9e2bbdbca31b46" category="paragraph">指定在后台持续执行重复数据删除。此策略适用于所有新创建的卷以及尚未手动配置后台重复数据删除的所有升级卷。如果将此策略更改为`default`或任何其他策略、则会禁用"`auto`"策略。</block>
   <block id="0edff1709e29131d53711deec4ab07ca" category="paragraph">如果卷从非AFF系统移至AFF 系统、则默认情况下、目标节点上会启用"`auto`"策略。如果卷从AFF 节点移至非AFF节点、则默认情况下、目标节点上的"`auto`"策略将替换为"`inline-only`"策略。</block>
   <block id="52d62f4cf5db67fc9fd3bfd390035923" category="paragraph">您可以使用以下信息保护数据：</block>
+  <block id="a8bab46b4ec9127ebe1ca2eb2c46a963" category="paragraph">如果您使用的是_Classic_ System Manager UI和ONTAP 9.7及更早版本、请完成此任务。如果在ONTAP 9.7及更高版本中使用System Manager UI、请参见 <block ref="7a8e6f659072e8056021df642c019ac1" category="inline-link-macro-rx"></block>。</block>
+  <block id="793d21bf18b025e1a67b437de47189f5" category="inline-link-macro">管理许可证概述</block>
+  <block id="0f130bf77768be1af34e32b76ed78492" category="paragraph">有关管理许可证的详细信息、请参见 <block ref="40de9a66c3e4481acf1e199beb3ce8ce" category="inline-link-macro-rx"></block>。</block>
 </blocks>
