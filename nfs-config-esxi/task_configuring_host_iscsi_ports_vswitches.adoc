@@ -20,7 +20,7 @@ ESXi 主机需要使用网络端口才能通过 NFS 连接到存储集群。
 
 此任务列出了配置 ESXi 主机的高级步骤。如果需要更详细的说明，请参见适用于您的 ESXi 版本的 VMware 出版物 _Storage_ 。
 
-http://www.vmware.com["VMware"]
+http://["VMware"]
 
 .步骤
 . 登录到 vSphere Client ，然后从清单窗格中选择 ESXi 主机。

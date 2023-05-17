@@ -47,4 +47,4 @@ summary: 激活目标卷后，您必须为该卷配置数据访问。在重新�
 
 * 相关信息 *
 
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]
+https://["ONTAP 9 文档中心"]

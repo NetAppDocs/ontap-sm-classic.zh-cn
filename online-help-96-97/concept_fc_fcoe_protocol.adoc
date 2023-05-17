@@ -93,4 +93,4 @@ summary: 您可以使用 System Manager 配置 FC/FCoE 协议。
 
 xref:task_configuring_fc_fcoe_protocol_on_svms.adoc[在 SVM 上配置 FC 协议和 FCoE 协议]
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
+https://["SAN 管理"^]

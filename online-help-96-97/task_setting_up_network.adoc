@@ -131,11 +131,11 @@ IP 地址会依次应用于集群管理，节点管理和服务处理器管理�
 
 * 相关信息 *
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Systems/FAS_Systems/What_is_a_Service_Processor_and_how_do_I_use_it%3F["什么是服务处理器？如何使用？"]
+https://["什么是服务处理器？如何使用？"]
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_and_troubleshoot_NTP_on_clustered_Data_ONTAP_8.2_and_later_using_CLI["如何使用命令行界面在集群模式 Data ONTAP 8.2 及更高版本上配置 NTP 并对其进行故障排除"]
+https://["如何使用命令行界面在集群模式 Data ONTAP 8.2 及更高版本上配置 NTP 并对其进行故障排除"]
 
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]
+https://["ONTAP 9 文档中心"]
 
 xref:reference_network_window.adoc[网络窗口]
 

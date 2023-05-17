@@ -26,8 +26,8 @@ summary: 您可以在新的或现有的 Storage Virtual Machine （ SVM ）上�
 
 如果您需要有关 ONTAP NFS 和 SMB 协议功能范围的详细信息，请参见以下文档：
 
-* https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS 管理"^]
-* https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB 管理"^]
+* https://["NFS 管理"^]
+* https://["SMB 管理"^]
 
 
 

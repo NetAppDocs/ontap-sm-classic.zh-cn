@@ -22,11 +22,11 @@ summary: 在扩展集群之前，您必须确保满足以下条件：支持规�
 .. 验证新控制器的平台是否可以与集群的现有控制器混合使用。
 .. 验证扩展后的集群是否未超过平台的系统限制。
 +
-https://hwu.netapp.com["NetApp Hardware Universe"^]
+https://["NetApp Hardware Universe"^]
 
 .. 如果您的集群配置了 SAN ，请验证扩展后的集群是否未超过 FC ， FCoE 和 iSCSI 的配置限制。
 +
-https://docs.netapp.com/us-en/ontap/san-config/index.html["SAN 配置"^]
+https://["SAN 配置"^]
 
 
 
@@ -53,7 +53,7 @@ CIFS              license CIFS License          -
 .. 查看输出以确定附加节点所需的节点锁定许可证（通过类型 `license` 来标识）。
 .. 确保附加节点附带的许可证与集群的现有节点锁定许可证一致。
 +
-http://mysupport.netapp.com/licenses["NetApp 软件许可证搜索"^]
+http://["NetApp 软件许可证搜索"^]
 
 
 
@@ -62,14 +62,14 @@ http://mysupport.netapp.com/licenses["NetApp 软件许可证搜索"^]
 
 . 验证站点是否已为所有新设备做好准备。
 +
-https://hwu.netapp.com["NetApp Hardware Universe"^]
+https://["NetApp Hardware Universe"^]
 
 +
 如果站点尚未准备就绪，则必须先准备站点，然后再继续扩展。
 
 . 验证现有交换机是否支持其他控制器。
 +
-https://hwu.netapp.com["NetApp Hardware Universe"^]
+https://["NetApp Hardware Universe"^]
 
 +
 如果集群无交换机或现有交换机不支持其他节点，则必须获取集群交换机，您可以稍后在扩展过程中安装这些交换机。

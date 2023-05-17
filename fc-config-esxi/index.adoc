@@ -17,8 +17,8 @@ summary: 使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本�
 
 * 您正在使用受支持版本的适用于 VMware vSphere 的 Virtual Storage Console （ VSC ）为 ESX 主机配置存储设置并配置数据存储库。
 +
-** 从 VSC 7.0 开始， VSC 属于 https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["适用于 VMware vSphere 的 ONTAP 工具"^] 虚拟设备，包括适用于 VMware vSphere 的 VSC ， vStorage APIs for Storage Awareness （ VASA ） Provider 和 Storage Replication Adapter （ SRA ）功能。
-** 请务必检查 https://imt.netapp.com/matrix/["NetApp 互操作性表工具"^] 以确认当前 ONTAP 版本与 VSC 版本之间的兼容性。
+** 从 VSC 7.0 开始， VSC 属于 https://["适用于 VMware vSphere 的 ONTAP 工具"^] 虚拟设备，包括适用于 VMware vSphere 的 VSC ， vStorage APIs for Storage Awareness （ VASA ） Provider 和 Storage Replication Adapter （ SRA ）功能。
+** 请务必检查 https://["NetApp 互操作性表工具"^] 以确认当前 ONTAP 版本与 VSC 版本之间的兼容性。
 
 
 * 您的网络使用 IPv4 地址。
@@ -37,4 +37,4 @@ summary: 使用 ONTAP System Manager 经典界面（ ONTAP 9.7 及更早版本�
 
 
 
-有关详细信息，请参见 https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html["TR-4597 ：适用于 ONTAP 的 VMware vSphere"^] 以及适用于您的 VSC 版本的文档。
+有关详细信息，请参见 https://["TR-4597 ：适用于 ONTAP 的 VMware vSphere"^] 以及适用于您的 VSC 版本的文档。

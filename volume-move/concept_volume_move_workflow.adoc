@@ -30,13 +30,13 @@ image::../media/volume_move_workflow.jpg[卷移动工作流]
  a| 
 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本）
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/manage-volumes-task.html["管理卷"^]
+https://["管理卷"^]
 
 
 
  a| 
 ONTAP 命令行界面
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["逻辑存储管理"^]
+https://["逻辑存储管理"^]
 
 |===

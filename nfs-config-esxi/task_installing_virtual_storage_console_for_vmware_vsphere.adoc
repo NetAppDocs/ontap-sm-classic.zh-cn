@@ -23,7 +23,7 @@ Virtual Storage Console for可自动执行在ESXi主机上使用存储所需的�
 .步骤
 . 下载您的配置支持的版本、如互操作性表工具中所示。
 +
-https://mysupport.netapp.com/site/global/dashboard["NetApp 支持"]
+https://["NetApp 支持"]
 
 . 部署虚拟设备并按照_Deployment and Setup Guide_中的步骤进行配置。
 

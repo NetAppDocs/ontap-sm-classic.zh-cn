@@ -17,7 +17,7 @@ summary: 在 AFF 平台上首次设置集群期间，您可以使用 System Mana
 * 您必须确保仅创建了一个名为 AFF_SAN_DEFAULT_SVM 的 Storage Virtual Machine （ SVM ），并且此 SVM 不包含任何 LUN 。
 * 您必须已验证硬件设置是否已成功完成。
 +
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]
+https://["ONTAP 9 文档中心"]
 
 
 
@@ -98,4 +98,4 @@ SQL/
 
 * 相关信息 *
 
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]
+https://["ONTAP 9 文档中心"]

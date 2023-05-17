@@ -15,4 +15,4 @@ summary: 您可以使用 System Manager 创建和管理 Windows 组和用户帐�
 
 * 相关信息 *
 
-https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 管理"]
+https://["SMB/CIFS 管理"]

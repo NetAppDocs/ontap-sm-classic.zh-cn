@@ -45,4 +45,4 @@ summary: 如果您希望使用图形界面而不是命令行界面（ CLI ）来
 
 * 相关信息 *
 
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]
+https://["ONTAP 9 文档中心"]

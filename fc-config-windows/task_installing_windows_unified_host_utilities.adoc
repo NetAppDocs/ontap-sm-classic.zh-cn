@@ -18,11 +18,11 @@ Windows Unified Host Utilities 包含一个安装程序，用于设置所需的 
 
 * 在互操作性表中检查支持的配置
 +
-https://mysupport.netapp.com/matrix["NetApp 互操作性表工具"]
+https://["NetApp 互操作性表工具"]
 
 * 已通过互操作性表确定任何所需的 Windows 修补程序
 +
-https://mysupport.netapp.com/matrix["NetApp 互操作性表工具"]
+https://["NetApp 互操作性表工具"]
 
 * 添加 FCP 许可证并启动目标服务
 * 验证布线
@@ -43,12 +43,12 @@ MPIO 选项不适用于 Windows XP 和 Windows Vista 系统；这些子操作系
 
 有关详细的安装信息，请参见 link:https://docs.netapp.com/us-en/ontap-sanhost/hu_wuhu_71.html#installing-the-host-utilities["Windows 统一主机安装"]。
 
-https://mysupport.netapp.com/site/global/dashboard["NetApp 支持"]
+https://["NetApp 支持"]
 
 .步骤
 . 从 NetApp 支持站点下载相应版本的 Windows Unified Host Utilities 。
 +
-https://mysupport.netapp.com/site/global/dashboard["NetApp 支持"]
+https://["NetApp 支持"]
 
 . 运行可执行文件并按照屏幕上的说明进行操作。
 . 出现提示时重新启动 Windows 主机。

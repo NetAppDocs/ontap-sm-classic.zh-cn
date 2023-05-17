@@ -22,7 +22,7 @@ summary: 您可以使用 System Manager 查看，管理或删除集群或节点�
 有关使用ONTAP 9.8及更高版本管理许可证的信息、请参见以下信息：
 
 * link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html["管理许可证概述（仅限集群管理员）"^]
-* https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html["通过添加许可证密钥启用新功能"^]
+* https://["通过添加许可证密钥启用新功能"^]
 
 
 .开始之前
@@ -263,6 +263,6 @@ System Manager 不会监控评估许可证，并且在评估许可证即将到�
 
 * 相关信息 *
 
-https://docs.netapp.com/us-en/ontap/system-admin/index.html["系统管理"]
+https://["系统管理"]
 
 xref:task_creating_cluster.adoc[创建集群]

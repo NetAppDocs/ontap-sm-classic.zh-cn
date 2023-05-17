@@ -124,8 +124,8 @@ summary: 您可以使用 System Manager 创建和管理以太网端口。
 
 * 相关信息 *
 
-https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"]
+https://["网络管理"]
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 概念"]
+https://["ONTAP 概念"]
 
 xref:reference_network_window.adoc[网络窗口]

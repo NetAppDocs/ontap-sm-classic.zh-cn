@@ -19,7 +19,7 @@ summary: 此插件是一个软件库，它集成了 ESXi 主机上安装的 VMwa
 .步骤
 . 下载适用于 VMware VAAI 的 NFS 插件。
 +
-https://mysupport.netapp.com/site/global/dashboard["NetApp 支持"]
+https://["NetApp 支持"]
 
 +
 您应下载最新插件的联机捆绑包（`NetAppNasPlugIn.vib` ）

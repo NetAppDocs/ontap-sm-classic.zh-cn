@@ -51,4 +51,4 @@ summary: 您可以使用 System Manager 创建和管理 IP 空间。
 
 * 相关信息 *
 
-https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"]
+https://["网络管理"]

@@ -22,4 +22,4 @@ summary: 挂载数据存储库可使主机能够访问存储。配置数据存�
 
 * 相关信息 *
 
-https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["适用于 VMware vSphere 的 Virtual Storage Console ， VASA Provider 和 Storage Replication Adapter 管理 9.6 版"]
+https://["适用于 VMware vSphere 的 Virtual Storage Console ， VASA Provider 和 Storage Replication Adapter 管理 9.6 版"]

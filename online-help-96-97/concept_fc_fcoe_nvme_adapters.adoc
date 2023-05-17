@@ -29,4 +29,4 @@ summary: 您可以使用 System Manager 管理 FC/FCoE 和 NVMe 适配器。
 
 xref:reference_network_window.adoc[网络窗口]
 
-https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"]
+https://["网络管理"]

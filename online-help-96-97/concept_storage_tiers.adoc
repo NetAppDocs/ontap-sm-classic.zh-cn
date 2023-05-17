@@ -15,4 +15,4 @@ summary: 您可以使用 System Manager 创建聚合，以满足用户的不同�
 
 * 相关信息 *
 
-https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["磁盘和聚合管理"]
+https://["磁盘和聚合管理"]

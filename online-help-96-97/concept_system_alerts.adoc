@@ -214,4 +214,4 @@ CIFS 无中断运行（ CIFS-NDO ）
 
 * 相关信息 *
 
-https://docs.netapp.com/us-en/ontap/system-admin/index.html["系统管理"]
+https://["系统管理"]

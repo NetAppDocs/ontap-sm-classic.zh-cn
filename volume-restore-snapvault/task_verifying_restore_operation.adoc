@@ -26,7 +26,7 @@ summary: 从 SnapVault 备份目标卷执行还原操作后，您必须验证源
 您应对 SnapVault 关系中的任何问题进行故障排除。SnapMirror 关系的故障排除过程也适用于 SnapVault 关系。
 
 +
-http://www.netapp.com/us/media/tr-4015.pdf["NetApp 技术报告 4015 ：《 ONTAP 9.1 和 9.2 的 SnapMirror 配置和最佳实践》"^]
+http://["NetApp 技术报告 4015 ：《 ONTAP 9.1 和 9.2 的 SnapMirror 配置和最佳实践》"^]
 
 
 

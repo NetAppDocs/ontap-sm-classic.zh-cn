@@ -103,4 +103,4 @@ summary: 您可以使用 System Manager 中提供的模板文件来设置集群�
 
 * 相关信息 *
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/System_Manager_Cluster_Guided_Setup_Templates["System Manager 集群引导式设置模板"]
+https://["System Manager 集群引导式设置模板"]

@@ -57,4 +57,4 @@ summary: 您可以在 Storage Virtual Machine （ SVM ）上为 SAN 主机配置
 
 * 相关信息 *
 
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]
+https://["ONTAP 9 文档中心"]

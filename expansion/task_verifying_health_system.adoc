@@ -18,7 +18,7 @@ summary: 在扩展集群之前，您必须运行 Config Advisor 工具并运行�
 +
 ** 如果您的笔记本电脑上没有 Config Advisor ，请下载它。
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["NetApp 下载： Config Advisor"]
+https://["NetApp 下载： Config Advisor"]
 
 ** 如果您有 Config Advisor ，请启动它，单击 * 帮助 * > * 检查更新 * ，然后根据需要按照提示进行升级。
 +

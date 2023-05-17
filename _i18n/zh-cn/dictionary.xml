@@ -8318,7 +8318,6 @@
   <block id="6c61c05b1d8e0ce824dd01e7039f9406" category="summary">使用 ONTAP System Manager 经典界面和 ONTAP 9.7 或更早版本，您可以无中断地将数据卷从 ONTAP 9 集群中同一 Storage Virtual Machine （ SVM ）中的一个节点移动到另一个节点。</block>
   <block id="74fc6416343947ecb03b99f6d1525ef3" category="paragraph">在使用之前，请执行以下步骤，确保满足以下条件：</block>
   <block id="79118e59ff8ba91fa097d70306cbb593" category="cell">要完成此任务，请使用 ...</block>
-  <block id="2043d9c76a0ce0aead2a3d90c7edea3d" category="cell"><block ref="2043d9c76a0ce0aead2a3d90c7edea3d" category="inline-link-rx"></block></block>
   <block id="21da5bdcfd1b855ee9de397cb8a78a1d" category="cell"><block ref="21da5bdcfd1b855ee9de397cb8a78a1d" category="inline-link-rx"></block></block>
   <block id="edac2410e6e0abc8a44fc79a7cd44017" category="inline-link-macro">使用 NFS 和 SMB 为 Windows 和 Linux 配置 NAS 存储</block>
   <block id="4487b7ad6b82e7128f715f08580539cd" category="cell"><block ref="4487b7ad6b82e7128f715f08580539cd" category="inline-link-macro-rx"></block></block>
@@ -9260,4 +9259,5 @@
   <block id="a8bab46b4ec9127ebe1ca2eb2c46a963" category="paragraph">如果您使用的是_Classic_ System Manager UI和ONTAP 9.7及更早版本、请完成此任务。如果在ONTAP 9.7及更高版本中使用System Manager UI、请参见 <block ref="7a8e6f659072e8056021df642c019ac1" category="inline-link-macro-rx"></block>。</block>
   <block id="793d21bf18b025e1a67b437de47189f5" category="inline-link-macro">管理许可证概述</block>
   <block id="0f130bf77768be1af34e32b76ed78492" category="paragraph">有关管理许可证的详细信息、请参见 <block ref="40de9a66c3e4481acf1e199beb3ce8ce" category="inline-link-macro-rx"></block>。</block>
+  <block id="604cb5a84c00d7e349ae07b5f7fe770d" category="cell"><block ref="604cb5a84c00d7e349ae07b5f7fe770d" category="inline-link-rx"></block></block>
 </blocks>

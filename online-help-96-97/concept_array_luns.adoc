@@ -181,4 +181,4 @@ summary: 您可以使用 System Manager 将阵列 LUN 分配给现有聚合并�
 
 * 相关信息 *
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.vs-irrg/home.html["FlexArray 虚拟化安装要求和参考"]
+https://["FlexArray 虚拟化安装要求和参考"]
