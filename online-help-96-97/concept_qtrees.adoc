@@ -225,10 +225,10 @@ qtree 列表显示 qtree 所在的卷以及 qtree 名称。
 
 * 相关信息 *
 
-https://["ONTAP 概念"^]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 概念"^]
 
-https://["逻辑存储管理"^]
+https://docs.netapp.com/us-en/ontap/volumes/index.html["逻辑存储管理"^]
 
-https://["NFS 管理"^]
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS 管理"^]
 
-https://["SMB/CIFS 管理"^]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 管理"^]

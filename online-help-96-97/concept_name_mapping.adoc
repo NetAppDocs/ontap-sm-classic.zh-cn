@@ -129,4 +129,4 @@ ONTAP 系统会为每个 SVM 保留一组转换规则。每个规则都包含两
 
 * 相关信息 *
 
-https://["SMB/CIFS 管理"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 管理"]

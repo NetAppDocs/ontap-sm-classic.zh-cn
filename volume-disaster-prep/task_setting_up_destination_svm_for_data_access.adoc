@@ -46,4 +46,4 @@ summary: 激活目标卷时，您可以通过在包含目标卷的 SVM 上设置
 
 * 相关信息 *
 
-https://["ONTAP 9 文档中心"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]

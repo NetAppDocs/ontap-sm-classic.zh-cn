@@ -17,4 +17,4 @@ image::../media/updating_cluster_mcc_configuration.gif[正在更新集群 MCC �
 
 * 相关信息 *
 
-https://["升级 ONTAP"]
+https://docs.netapp.com/us-en/ontap/upgrade/task_upgrade_andu_sm.html["升级 ONTAP"]

@@ -133,6 +133,6 @@ summary: 您可以使用 System Manager 将 SSD 添加为存储池或专用 SSD 
 
 * 相关信息 *
 
-http://["NetApp 技术报告 4070 ：《 Flash Pool 设计和实施》"^]
+http://www.netapp.com/us/media/tr-4070.pdf["NetApp 技术报告 4070 ：《 Flash Pool 设计和实施》"^]
 
 xref:concept_how_storage_pool_works.adoc[存储池的工作原理]

@@ -126,6 +126,6 @@ LUN
 |===
 * 相关信息 *
 
-https://["NetApp Hardware Universe"^]
+https://hwu.netapp.com["NetApp Hardware Universe"^]
 
-http://["NetApp 技术报告 3437 ：《存储子系统弹性》"^]
+http://www.netapp.com/us/media/tr-3437.pdf["NetApp 技术报告 3437 ：《存储子系统弹性》"^]

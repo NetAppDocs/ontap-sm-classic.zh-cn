@@ -42,4 +42,4 @@ SVM 管理员可以监控作业，网络连接，网络接口和 SVM 运行状�
 
 * 相关信息 *
 
-https://["ONTAP 9 文档中心"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]

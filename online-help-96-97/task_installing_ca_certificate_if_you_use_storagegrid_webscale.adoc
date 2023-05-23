@@ -16,7 +16,7 @@ summary: 要使 ONTAP 能够使用 StorageGRID 作为启用了 FabricPool 的聚
 .步骤
 . 按照 StorageGRID 系统文档中的说明，使用网格管理界面复制 StorageGRID 系统的 CA 证书。
 +
-https://["《 StorageGRID 11.3 管理员指南》"]
+https://docs.netapp.com/sgws-113/topic/com.netapp.doc.sg-admin/home.html["《 StorageGRID 11.3 管理员指南》"]
 
 +
 将 StorageGRID 添加为云层时，如果未安装 CA 证书，则会显示一条消息。

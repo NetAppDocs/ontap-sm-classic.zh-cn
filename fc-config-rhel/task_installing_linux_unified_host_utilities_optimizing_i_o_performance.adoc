@@ -19,13 +19,13 @@ Linux `sHost Utilities 软件包含` anlun 实用程序，这是一个 NetApp LU
 .步骤
 . 从 NetApp 支持站点下载支持的 Linux Unified Host Utilities 版本。
 +
-http://["NetApp 下载：软件"]
+http://mysupport.netapp.com/NOW/cgi-bin/software["NetApp 下载：软件"]
 
 . 按照安装文档中的说明安装 Linux Unified Host Utilities 软件。
 . 如果未安装 `tuned` 软件包，请输入以下命令：``yum install tuned``
 . 对于物理主机，请确保已设置 `enterprise-storage` profile ： `tuned-adm profile enterprise-storage`
 . 对于虚拟主机，请确保已设置 `virtual-guest` profile ： `tuned-adm profile virtual-guest`
 +
-https://["安装 Linux Unified Host Utilities 7.1"]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2547936["安装 Linux Unified Host Utilities 7.1"]
 
 

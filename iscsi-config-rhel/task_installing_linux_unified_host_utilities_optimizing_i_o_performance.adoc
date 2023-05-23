@@ -19,7 +19,7 @@ Linux `sHost Utilities 软件包含` anlun 实用程序，该实用程序是一�
 .步骤
 . 从 NetApp 支持站点下载支持的 Linux Unified Host Utilities 版本。
 +
-http://["NetApp 下载：软件"]
+http://mysupport.netapp.com/NOW/cgi-bin/software["NetApp 下载：软件"]
 
 . 按照安装文档中的说明安装 Linux Unified Host Utilities 软件。
 . 如果未安装`tuned`软件包、请输入以下命令：
@@ -36,4 +36,4 @@ http://["NetApp 下载：软件"]
 
 
 
-* 相关信息 *https://["安装 Linux Unified Host Utilities 7.1"]
+* 相关信息 *https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html["安装 Linux Unified Host Utilities 7.1"]

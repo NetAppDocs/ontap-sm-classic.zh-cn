@@ -42,5 +42,5 @@ summary: 您可以在 Storage Virtual Machine 上快速设置 FC 服务，配置
 | ONTAP 命令行界面（ CLI ） | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["使用 CLI 设置 LUN 的工作流"^] 
 |===
 .其他资源
-* https://["NetApp 文档： Host Utilities"^]
+* https://docs.netapp.com/us-en/ontap-sanhost/index.html["NetApp 文档： Host Utilities"^]
 

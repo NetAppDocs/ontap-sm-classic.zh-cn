@@ -53,14 +53,14 @@ summary: 使用 ONTAP System Manager 经典界面和 ONTAP 9.7 或更早版本�
  a| 
 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本）
  a| 
-https://["管理卷"^]
+https://docs.netapp.com/us-en/ontap/volumes/manage-volumes-task.html["管理卷"^]
 
 
 
  a| 
 ONTAP 命令行界面
  a| 
-https://["逻辑存储管理"^]
+https://docs.netapp.com/us-en/ontap/volumes/index.html["逻辑存储管理"^]
 
 |===
 
@@ -71,10 +71,10 @@ https://["逻辑存储管理"^]
 
 * 如果您要无中断地原位升级控制器，可以考虑使用聚合重新定位（ Aggregate Relocation ， ARL ），这不需要物理数据移动。
 +
-https://["高可用性"^]
+https://docs.netapp.com/us-en/ontap/high-availability/index.html["高可用性"^]
 
 * 如果只想移动不包含其卷的 LUN ，则可以使用 LUN 移动过程。
 +
-https://["SAN 管理"^]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
 
 

@@ -95,4 +95,4 @@ xref:task_editing_volume_properties.adoc[编辑卷属性]
 
 xref:task_modifying_export_policy_rules.adoc[修改导出策略规则]
 
-https://["SMB/CIFS 管理"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 管理"]

@@ -36,7 +36,7 @@ ONTAP 9.3 中的 ONTAP System Manager 简化了在集群之间和 SVM 之间配�
  a| 
 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本）
  a| 
-* https://["使用 System Manager 进行集群管理"^]
+* https://docs.netapp.com/us-en/ontap/concept_administration_overview.html["使用 System Manager 进行集群管理"^]
 
 
 
@@ -44,11 +44,11 @@ ONTAP 9.3 中的 ONTAP System Manager 简化了在集群之间和 SVM 之间配�
  a| 
 ONTAP 命令行界面（ CLI ）
  a| 
-* https://["使用命令行界面概述集群和 SVM 对等关系"^]
+* https://docs.netapp.com/us-en/ontap/peering/index.html["使用命令行界面概述集群和 SVM 对等关系"^]
 +
 使用命令行界面设置集群对等关系和 SVM 对等关系。
 
-* https://["网络管理"^]
+* https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"^]
 +
 使用命令行界面配置子网，集群间 LIF ，路由，防火墙策略和其他网络组件
 

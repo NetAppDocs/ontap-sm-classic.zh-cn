@@ -108,6 +108,6 @@ summary: '从 System Manager 9.6 开始，如果在使用 CIFS 或 NFS 协议访
 
 * 相关信息 *
 
-https://["SMB/CIFS 管理"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["SMB/CIFS 管理"]
 
 xref:../nas-multiprotocol-config/index.html[SMB/CIFS 和 NFS 多协议配置]

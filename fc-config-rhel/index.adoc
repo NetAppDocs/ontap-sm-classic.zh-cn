@@ -28,9 +28,9 @@ NOTE: 此操作步骤不涵盖以太网光纤通道（ FCoE ）。
 
 如果这些假设与您的情况不符，您应查看以下资源：
 
-* https://["SAN 管理"^]
-* https://["SAN 配置"^]
-* https://["安装 Linux Unified Host Utilities 7.1"^]
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html["SAN 配置"^]
+* https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html["安装 Linux Unified Host Utilities 7.1"^]
 
 
 

@@ -43,4 +43,4 @@ summary: 您可以使用 System Manager 中的预定义应用程序模板基于�
 
 * 相关信息 *
 
-https://["ONTAP 概念"]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 概念"]

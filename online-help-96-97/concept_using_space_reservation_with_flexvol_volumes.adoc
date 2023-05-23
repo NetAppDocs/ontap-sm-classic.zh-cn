@@ -21,6 +21,6 @@ summary: 使用空间预留，您可以配置 FlexVol 卷。精简配置提供�
 
 * 相关信息 *
 
-http://["NetApp 技术报告 3563 ：《 NetApp 精简配置通过按需分配提高存储利用率》"^]
+http://www.netapp.com/us/media/tr-3563.pdf["NetApp 技术报告 3563 ：《 NetApp 精简配置通过按需分配提高存储利用率》"^]
 
-http://["NetApp 技术报告 3483 ：《 NetApp SAN 或 IP SAN 企业环境中的精简配置》"^]
+http://www.netapp.com/us/media/tr-3483.pdf["NetApp 技术报告 3483 ：《 NetApp SAN 或 IP SAN 企业环境中的精简配置》"^]

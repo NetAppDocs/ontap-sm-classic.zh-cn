@@ -23,7 +23,7 @@ summary: 适用于 VMware vSphere 的 Virtual Storage Console 可自动执行将
 .步骤
 . 下载您的配置支持的 Virtual Storage Console 版本，如互操作性表工具中所示。
 +
-https://["NetApp 支持"]
+https://mysupport.netapp.com/site/global/dashboard["NetApp 支持"]
 
 . 部署虚拟设备并按照 _Deployment and Setup Guide_ 中的步骤进行配置。
 

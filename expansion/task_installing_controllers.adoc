@@ -23,7 +23,7 @@ summary: 在安装要添加到现有集群的控制器时，必须按照相应�
 . 获取计划添加到集群的控制器模块的 FAS 型号的 _Installation and Setup Instructions_。
 +
 ** 对于新控制器模块，包装盒中提供了相关文档。
-** 对于重新利用的控制器模块，您可以下载此文档。https://["NetApp 文档"]
+** 对于重新利用的控制器模块，您可以下载此文档。https://mysupport.netapp.com/site/docs-and-kb["NetApp 文档"]
 
 
 . 按照 _Prepare for installation_section 进行操作，但以下情况除外：

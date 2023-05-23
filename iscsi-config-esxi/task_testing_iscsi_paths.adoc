@@ -37,4 +37,4 @@ LUN 会映射到 igroup 中的一部分启动程序，以限制从主机到 LUN 
 
 * 相关信息 *
 
-http://["VMware 知识库文章 1003486 ：使用 ping 命令测试网络连接"]
+http://kb.vmware.com/kb/1003486["VMware 知识库文章 1003486 ：使用 ping 命令测试网络连接"]

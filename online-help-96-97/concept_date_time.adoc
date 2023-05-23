@@ -45,4 +45,4 @@ xref:task_setting_time_zone_for_cluster.adoc[设置集群的时区]
 
 xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[在禁用 IP 地址范围时设置网络]
 
-https://["系统管理"]
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["系统管理"]

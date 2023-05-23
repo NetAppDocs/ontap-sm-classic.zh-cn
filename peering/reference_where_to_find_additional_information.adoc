@@ -27,15 +27,15 @@ summary: 成功创建集群对等关系后，即可保护数据的可用性。
 
 有关更多信息，请参见：
 
-* https://["数据保护"^]
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html["数据保护"^]
 +
 介绍如何使用 Snapshot 副本和 SnapMirror 复制到远程系统来防止数据丢失
 
-* http://["NetApp 技术报告 4015 ：《 ONTAP 9.1 和 9.2 的 SnapMirror 配置和最佳实践》"^]
+* http://www.netapp.com/us/media/tr-4015.pdf["NetApp 技术报告 4015 ：《 ONTAP 9.1 和 9.2 的 SnapMirror 配置和最佳实践》"^]
 +
 介绍有关配置复制的信息和最佳实践，包括集群对等。
 
-* https://["ONTAP 概念"^]
+* https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 概念"^]
 +
 提供有关集群对等的概念信息。
 

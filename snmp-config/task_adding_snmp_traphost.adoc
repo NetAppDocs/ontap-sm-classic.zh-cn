@@ -19,7 +19,7 @@ summary: '您可以在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器 
 .关于此任务
 默认情况下， SNMP 和 SNMP 陷阱处于启用状态。有关 SNMP 支持的 NetApp 技术报告 TR-4220 列出了 SNMP 陷阱支持的所有默认事件。
 
-http://["NetApp 技术报告 4220 ： Data ONTAP 中的 SNMP 支持"^]
+http://www.netapp.com/us/media/tr-4220.pdf["NetApp 技术报告 4220 ： Data ONTAP 中的 SNMP 支持"^]
 
 .步骤
 . 在 SNMP 窗口中，单击 * 编辑 * 以打开 * 编辑 SNMP 设置 * 对话框。

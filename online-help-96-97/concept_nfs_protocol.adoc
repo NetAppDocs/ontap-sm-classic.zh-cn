@@ -70,4 +70,4 @@ summary: 您可以使用 System Manager 对 NFS 客户端进行身份验证，�
 
 * 相关信息 *
 
-https://["NFS 管理"^]
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["NFS 管理"^]

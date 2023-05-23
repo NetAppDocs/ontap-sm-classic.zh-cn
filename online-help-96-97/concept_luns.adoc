@@ -22,4 +22,4 @@ summary: 您可以使用 System Manager 管理 LUN 。
 ====
 * 相关信息 *
 
-https://["SAN 管理"^]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]

@@ -47,4 +47,4 @@ Snapshot 副本已锁定，下次更新时需要使用此副本。
 
 xref:reference_volumes_window.adoc[卷窗口]
 
-https://["ONTAP 9 文档中心"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]

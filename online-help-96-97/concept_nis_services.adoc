@@ -72,4 +72,4 @@ summary: 您可以使用 System Manager 添加，编辑和管理网络信息服�
 
 * 相关信息 *
 
-https://["NFS 配置"^]
+https://docs.netapp.com/us-en/ontap/nfs-config/index.html["NFS 配置"^]

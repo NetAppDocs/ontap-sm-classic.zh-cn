@@ -29,8 +29,8 @@ summary: 通过 HBA 实用程序，您可以查看每个 FC 端口的全球通�
 
 * 相关信息 *
 
-https://["Broadcom （ Emulex ）支持文档和下载"]
+https://www.broadcom.com/support/download-search?tab=search["Broadcom （ Emulex ）支持文档和下载"]
 
-https://["Emulex HBA Manager"]
+https://www.broadcom.com/products/storage/fibre-channel-host-bus-adapters/emulex-hba-manager["Emulex HBA Manager"]
 
-http://["QLogic ： NetApp 下载"]
+http://driverdownloads.qlogic.com/QLogicDriverDownloads_UI/OEM_Product_List.aspx?oemid=372["QLogic ： NetApp 下载"]

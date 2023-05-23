@@ -192,4 +192,4 @@ iSCSI 别名是一个包含 1 到 128 个可打印字符的字符串。 iSCSI �
 
 * 相关信息 *
 
-https://["SAN 管理"^]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["SAN 管理"^]

@@ -46,4 +46,4 @@ image::../media/lun_creation_thin_provisioned_windows_fc_windows.gif[图中显�
 
 * 相关信息 *
 
-https://["系统管理"]
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["系统管理"]

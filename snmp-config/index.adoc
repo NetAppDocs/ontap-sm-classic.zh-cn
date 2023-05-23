@@ -40,13 +40,13 @@ summary: '在 ONTAP 9.7 或更早版本中使用 ONTAP 系统管理器的 " 经�
  a| 
 重新设计的 System Manager （适用于 ONTAP 9.7 及更高版本）
  a| 
-https://["在集群上管理 SNMP （仅限集群管理员）和 gt ；概述"^]
+https://docs.netapp.com/us-en/ontap/networking/manage_snmp_on_the_cluster_@cluster_administrators_only@_overview.html["在集群上管理 SNMP （仅限集群管理员）和 gt ；概述"^]
 
 
 
  a| 
 ONTAP 命令行界面（ CLI ）
  a| 
-https://["用于管理 SNMP 的命令"^]
+https://docs.netapp.com/us-en/ontap/networking/commands_for_managing_snmp.html["用于管理 SNMP 的命令"^]
 
 |===

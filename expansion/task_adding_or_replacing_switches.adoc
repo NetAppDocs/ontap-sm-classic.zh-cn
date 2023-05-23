@@ -19,13 +19,13 @@ summary: 在扩展集群之前，您必须确保集群交换机支持扩展的�
 
 * 如果集群当前是双节点无交换机集群，请使用您首选的交换机类型将集群迁移到双节点有交换机集群。
 +
-https://["迁移到使用 Cisco 集群交换机的双节点交换集群"]
+https://library.netapp.com/ecm/ecm_download_file/ECMP1140536["迁移到使用 Cisco 集群交换机的双节点交换集群"]
 
 +
-https://["迁移到使用 NetApp CN1610 集群交换机的双节点交换集群"]
+https://library.netapp.com/ecm/ecm_download_file/ECMP1140535["迁移到使用 NetApp CN1610 集群交换机的双节点交换集群"]
 
 * 如果现有交换机没有足够的端口来支持未来的配置，请使用相应的替代操作步骤来更换交换机。
 +
-https://["NetApp 文档：集群，管理和存储交换机"]
+https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62371["NetApp 文档：集群，管理和存储交换机"]
 
 

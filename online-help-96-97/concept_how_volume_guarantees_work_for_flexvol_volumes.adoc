@@ -40,4 +40,4 @@ summary: 卷保证（有时称为空间保证）可确定如何从卷所在的�
 
 * 相关信息 *
 
-http://["NetApp 技术报告 3965 ：《 NetApp 精简配置部署和实施 Data ONTAP 8.1 （ 7- 模式）》"^]
+http://www.netapp.com/us/media/tr-3965.pdf["NetApp 技术报告 3965 ：《 NetApp 精简配置部署和实施 Data ONTAP 8.1 （ 7- 模式）》"^]

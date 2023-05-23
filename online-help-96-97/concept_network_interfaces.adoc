@@ -193,6 +193,6 @@ xref:reference_network_window.adoc[网络窗口]
 
 xref:task_configuring_iscsi_protocol_on_svms.adoc[在 SVM 上配置 iSCSI 协议]
 
-https://["ONTAP 概念"]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["ONTAP 概念"]
 
-https://["网络管理"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["网络管理"]

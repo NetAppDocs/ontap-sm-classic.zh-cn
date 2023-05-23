@@ -26,7 +26,7 @@ summary: 您可以通过添加 HA 对来快速无中断地扩展现有集群。�
 如果要将节点添加到单节点集群，则必须遵循其他操作步骤。
 
 +
-https://["添加另一个控制器以创建 HA 对"]
+https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-controller-add/home.html["添加另一个控制器以创建 HA 对"]
 
 ** 它不使用 IPv6 寻址或存储加密。
 ** 它不是 MetroCluster 配置。
@@ -41,7 +41,7 @@ https://["添加另一个控制器以创建 HA 对"]
 
 * 在使用 System Manager 完成 ONTAP 配置任务时，您希望使用适用于 ONTAP 9.7 及更早版本的 _Classic_ System Manager UI ，而不是适用于 ONTAP 9.7 及更高版本的 ONTAP System Manager UI 。
 +
-https://["ONTAP System Manager 文档"]
+https://docs.netapp.com/us-en/ontap/["ONTAP System Manager 文档"]
 
 * 您希望使用最佳实践，而不是浏览每个可用选项。
 * 您不想阅读大量概念背景信息。

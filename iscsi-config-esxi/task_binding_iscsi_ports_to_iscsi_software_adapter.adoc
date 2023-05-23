@@ -23,7 +23,7 @@ summary: 为 iSCSI 创建的端口必须与 iSCSI 软件适配器关联，才能
 
 有关详细说明，请参见适用于您的 VMware ESXi 5 版本的 _VMware vSphere Storage_ 。
 
-http://["VMware"]
+http://www.vmware.com["VMware"]
 
 .步骤
 . 使用 vSphere Client 中 iSCSI 软件适配器 * 适配器详细信息 * 对话框的 * 网络端口绑定 * 选项卡将第一个 iSCSI 端口绑定到 iSCSI 软件适配器。

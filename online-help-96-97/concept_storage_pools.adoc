@@ -285,4 +285,4 @@ xref:task_provisioning_storage_by_creating_flash_pool_aggregate_manually.adoc[�
 
 xref:task_provisioning_cache_by_adding_disks.adoc[通过添加 SSD 来配置缓存]
 
-https://["磁盘和聚合管理"]
+https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["磁盘和聚合管理"]
