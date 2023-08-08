@@ -74,7 +74,7 @@ image::../media/destination_volume_settings.gif[目标卷设置]
 初始化 SnapMirror 关系可确保目标卷具有开始保护源卷的基线。
 
 +
-image::../media/create_snapmirror_relationship_window.gif[创建 SnapMirror 关系窗口]
+image::../media/create_snapmirror_relationship_window.gif[创建SnapMirror窗口]
 
 +
 通过启动从源卷到目标卷的基线数据传输来初始化此关系。
@@ -83,14 +83,14 @@ image::../media/create_snapmirror_relationship_window.gif[创建 SnapMirror 关�
 初始化操作可能需要一些时间。状态部分显示每个作业的状态。
 
 +
-image::../media/snapmirror_create_3_successful.gif[SnapMirror 创建 3 成功]
+image::../media/snapmirror_create_3_successful.gif[已成功创建SnapMirror]
 
 . 验证 SnapMirror 关系的关系状态：
 +
 .. 从 * 卷 * 列表中选择为其创建 SnapMirror 关系的卷，然后单击 * 数据保护 * 。
 .. 在 * 数据保护 * 选项卡中，确认已列出您创建的 SnapMirror 关系，并且此关系的状态为 `Snapmirrored` 。
 +
-image::../media/snapmirror_create_4_verify.gif[snapmirror create 4 verify]
+image::../media/snapmirror_create_4_verify.gif[验证是否已创建关系]
 
 
 

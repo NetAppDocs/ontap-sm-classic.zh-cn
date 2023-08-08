@@ -32,7 +32,7 @@ summary: 您必须在一个集群上的源卷与对等集群上的目标卷之�
 +
 目标 SVM 下仅列出对等 SVM 和允许的 SVM 。
 
-.. 单击 image:../media/advanced_options_icon_disaster.gif[""]。
+.. 单击 image:../media/advanced_options_icon_disaster.gif["高级选项图标"]。
 .. 在 * 高级选项 * 对话框中，确认 `MirrorAllSnapshots` 已设置为保护策略。
 +
 `dPDefault` 和 `MirrorLatest` 是 SnapMirror 关系可用的其他默认保护策略。
@@ -47,7 +47,7 @@ summary: 您必须在一个集群上的源卷与对等集群上的目标卷之�
 
 .. 单击 * 应用 * 以保存更改。
 +
-image::../media/snapmirror_advanced_options_93.gif[SnapMirror 高级选项 9e.]
+image::../media/snapmirror_advanced_options_93.gif[高级选项窗口]
 
 
 
@@ -59,7 +59,7 @@ image::../media/snapmirror_advanced_options_93.gif[SnapMirror 高级选项 9e.]
 
 
 +
-image::../media/snapmirror_9_3.gif[SnapMirror 9 3.]
+image::../media/snapmirror_9_3.gif[SnapMirror状态屏幕截图]
 
 
 

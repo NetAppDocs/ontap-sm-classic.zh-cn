@@ -1520,18 +1520,15 @@
   <block id="b1d6c3bc5dbf7b37cbdbe937bcacaae1" category="list-text">选择 * 镜像 * 作为关系类型。</block>
   <block id="db9f6468d4481688fa9033abc1963271" category="list-text">选择目标集群，目标 SVM 以及目标卷名称的后缀。</block>
   <block id="00eb0c752078cdbcec9dd22b17ea3c76" category="paragraph">目标 SVM 下仅列出对等 SVM 和允许的 SVM 。</block>
-  <block id="1ec1faf69d8ee6e200c521f39fba978d" category="list-text">单击 <block ref="a1671da25382ecdf2e7c60b53cc3fc3d" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="b690261847676d1036c0d37c3ab9e7cd" category="list-text">在 * 高级选项 * 对话框中，确认 `MirrorAllSnapshots` 已设置为保护策略。</block>
   <block id="cc4e6ab08b9e6aa23e33393c70c86c2c" category="paragraph">`dPDefault` 和 `MirrorLatest` 是 SnapMirror 关系可用的其他默认保护策略。</block>
   <block id="63aac8665b835b82daf050f515b927ed" category="list-text">选择保护计划。</block>
   <block id="75ab9bcce7f0d478affeb55e4cd67a60" category="paragraph">默认情况下，会选择 `hourly` schedule 。</block>
   <block id="0531876d83d0e6dd65845a4e72053423" category="paragraph">默认情况下，所有数据保护关系都会初始化。初始化 SnapMirror 关系可确保目标卷具有开始保护源卷的基线。</block>
-  <block id="b0d23a57325c3084c24baecf58667326" category="image-alt">SnapMirror 高级选项 9e.</block>
   <block id="acb8bdf1358d7537887f6dc69f5224e6" category="list-text">单击 * 保存 * 以创建 SnapMirror 关系。</block>
   <block id="ec658862dd1e10953fce5b7f177f02f1" category="list-text">验证 SnapMirror 关系的关系状态是否为 `Snapmirrored` 。</block>
   <block id="376cacbb467173386e24f40a767d478b" category="list-text">导航到 * 卷 * 窗口，然后选择为其创建 SnapMirror 关系的卷。</block>
   <block id="e01451bc5d1145df607e72e46d03d5d2" category="list-text">双击卷以查看卷详细信息，然后单击 * 保护 * 以查看卷的数据保护状态。</block>
-  <block id="67dfc6258a4d7b0eef457b3eeb43e734" category="image-alt">SnapMirror 9 3.</block>
   <block id="028fafb74e3b83afc82a43a425f93cb9" category="paragraph">您必须记下源卷的设置，例如精简配置，重复数据删除，数据压缩和自动增长。中断 SnapMirror 关系时，您可以使用此信息来验证目标卷设置。</block>
   <block id="c3ac504be8df36e9eac8ddbefb0af128" category="doc">卷灾难恢复准备概述</block>
   <block id="fab2eed20be80651a7c2f147ec027380" category="paragraph">SnapMirror 可按计划提供异步块级数据保护。SnapMirror 可复制 Snapshot 副本，并可复制运行重复数据删除，数据压缩或这两者的 NAS 或 SAN 卷，包括包含 qtree 和 LUN 的卷。SnapMirror 配置信息存储在一个数据库中， ONTAP 会将该数据库复制到集群中的所有节点。</block>
@@ -1550,19 +1547,15 @@
   <block id="b9e731d70942ebb8ed00f2fa9bec2b26" category="list-text">选择要为其创建镜像关系的卷，然后单击 * 保护 * 。</block>
   <block id="c6f72273f7a337fe5b7d4335bbc864cc" category="paragraph">此时将显示创建保护关系窗口。</block>
   <block id="bf3c24cccf670b34d6776b8942e7a929" category="list-text">使用默认卷名称或指定新卷名称。</block>
-  <block id="25889688d2dab599f422759da9889d11" category="image-alt">目标卷设置</block>
   <block id="9f010bb70a3cf9f282ab15c52a375d90" category="list-text">在 * 配置详细信息 * 部分中，选择 * 镜像 AllSnapshots* 作为镜像策略。</block>
   <block id="daf602eff6257ccc1585152cfa264dff" category="paragraph">`dPDefault` 和 `MirrorLatest` 是可用于 SnapMirror 关系的其他默认镜像策略。</block>
   <block id="962acae637b5a6d13230ba6c3c1db5e2" category="list-text">确保选中 * 初始化关系 * 复选框，然后单击 * 创建 * 。</block>
   <block id="9006c9f92be4bea3381f69a4a4f9506b" category="paragraph">初始化 SnapMirror 关系可确保目标卷具有开始保护源卷的基线。</block>
-  <block id="3dd7b013b73a1c6f7e075f0af837ac53" category="image-alt">创建 SnapMirror 关系窗口</block>
   <block id="6b30a92bd990fd6bdf7ef4a3b009417a" category="paragraph">通过启动从源卷到目标卷的基线数据传输来初始化此关系。</block>
   <block id="71f4dfe0a538ccc961465fbef08d3f18" category="paragraph">初始化操作可能需要一些时间。状态部分显示每个作业的状态。</block>
-  <block id="ca5b32513c7bc82739ecbb42c0816f5a" category="image-alt">SnapMirror 创建 3 成功</block>
   <block id="1e09209118660dffb580a75afff21cd6" category="list-text">验证 SnapMirror 关系的关系状态：</block>
   <block id="72ec6eb58743e16b28503a78409f276c" category="list-text">从 * 卷 * 列表中选择为其创建 SnapMirror 关系的卷，然后单击 * 数据保护 * 。</block>
   <block id="ed8df297d64d8ea7830711d96a0f8774" category="list-text">在 * 数据保护 * 选项卡中，确认已列出您创建的 SnapMirror 关系，并且此关系的状态为 `Snapmirrored` 。</block>
-  <block id="5e8ac563a17019f0db410450d785301b" category="image-alt">snapmirror create 4 verify</block>
   <block id="68a72c4f0d10ac6839e0375d3928fa57" category="summary">iSCSI 软件适配器会在 ESX 主机上创建 iSCSI 连接。它内置在操作系统中，但必须先启用，然后才能使用。</block>
   <block id="6cdd97434cbf9318bb1de2b48aa3ae42" category="doc">启用 iSCSI 软件适配器</block>
   <block id="3e8a0479e6236311161f3bbf8c57540c" category="paragraph">您必须在工作站上安装 VMware vSphere Client ，或者您必须有权访问 vSphere Web Client 。</block>
@@ -5159,7 +5152,6 @@
   <block id="c842c22df9a9299adc48cc2c940a56e3" category="list-text">在 * 暂停 * 窗口中，单击 * 暂停 * 。</block>
   <block id="d48c8b246d92a7c78407fc86df071671" category="summary">System Manager 是一个图形管理界面，可用于从 Web 浏览器管理存储系统和存储对象（例如磁盘，卷和聚合）以及执行与存储系统相关的常见管理任务。作为集群管理员，您可以使用 System Manager 管理整个集群及其资源。</block>
   <block id="3ce055103da31ce1df71764f20016d59" category="doc">使用 OnCommand ® System Manager 进行集群管理</block>
-  <block id="0c8ff84025de62a7a5aeea1fe6d60ebf" category="paragraph">System Manager 不再以可执行文件的形式提供，现在作为 Web 服务随 ONTAP 软件一起提供，默认情况下处于启用状态，可使用浏览器进行访问。</block>
   <block id="08528f0f39e6782683d545afe6b1f198" category="paragraph">System Manager 的名称已与先前版本不同。9.5 及更早版本命名为 OnCommand System Manager 。9.6 及更高版本现在称为 ONTAP 系统管理器。</block>
   <block id="9270ee495bc464b61000cccd332db6a6" category="paragraph">System Manager 可用于执行许多常见任务，例如：</block>
   <block id="160e6c815686e81a07d0da8d6912bd7d" category="list-text">创建集群，配置网络并设置集群的支持详细信息。</block>
@@ -9260,4 +9252,13 @@
   <block id="793d21bf18b025e1a67b437de47189f5" category="inline-link-macro">管理许可证概述</block>
   <block id="0f130bf77768be1af34e32b76ed78492" category="paragraph">有关管理许可证的详细信息、请参见 <block ref="40de9a66c3e4481acf1e199beb3ce8ce" category="inline-link-macro-rx"></block>。</block>
   <block id="604cb5a84c00d7e349ae07b5f7fe770d" category="cell"><block ref="604cb5a84c00d7e349ae07b5f7fe770d" category="inline-link-rx"></block></block>
+  <block id="5c210c9c66a924b033442506eda7fd06" category="paragraph">System Manager是一个基于HTML5的图形管理界面、可用于从Web浏览器管理存储系统和存储对象(例如磁盘、卷和聚合)以及执行与存储系统相关的常见管理任务。System Manager作为Web服务随ONTAP软件提供、默认情况下处于启用状态、可使用浏览器进行访问。作为集群管理员，您可以使用 System Manager 管理整个集群及其资源。</block>
+  <block id="f45292349272c0e8d698e0559d3516b8" category="image-alt">目标卷设置</block>
+  <block id="66329551f2e91e48bc40cabcda0d761b" category="image-alt">创建SnapMirror窗口</block>
+  <block id="1338eec46c9b0932a879be3427d074eb" category="image-alt">已成功创建SnapMirror</block>
+  <block id="f7d9fc01c37002a8f4bfc1d0c51eebee" category="image-alt">验证是否已创建关系</block>
+  <block id="dd69bf72e13ac23bfd95e008374ecb5d" category="inline-image-macro">高级选项图标</block>
+  <block id="ef801f1f815e00496ec892cdfa53d06d" category="list-text">单击 <block ref="215361fd1fc3c1e3c1287fe809a1790a" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="52d4c2f2276b49422642781ce12ded0c" category="image-alt">高级选项窗口</block>
+  <block id="f730116d3cb429cf0e30f40c1db51df9" category="image-alt">SnapMirror状态屏幕截图</block>
 </blocks>
