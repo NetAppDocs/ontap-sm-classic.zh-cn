@@ -33,7 +33,21 @@ image::../media/mfa_workflow.gif[MFA 工作流]
 
 
 .关于此任务
-已通过 System Manager 验证的 IdP 为 Shibboleth 和 Active Directory 联合身份验证服务。
+以下IDP已通过System Manager的验证：
+
+* Active Directory联合身份验证服务
+* Cisco Duo (已通过以下ONTAP版本的验证：)
++
+** 9.7P21及更高版本9.7
+** 9.8P17及更高版本9.8
+** 9.9.1P13及更高版本9.9
+** 9.10.1P9及更高版本9.10
+** 9.11.1P4及更高的9.11版本
+** 9.12.1及更高版本
+
+
+* Shibboleth
+
 
 [NOTE]
 ====
