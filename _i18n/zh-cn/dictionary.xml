@@ -3571,7 +3571,6 @@
   <block id="5bbec01d3493c1cd58a5562c1ccadcef" category="list-text">选择要调整大小的 FlexCache 卷，然后单击 * 更多操作 * &gt; * 调整大小 * 。</block>
   <block id="503e6a1d24532cf16b90068dcf9d0814" category="list-text">在 * 调整 FlexCache 卷大小 * 窗口中，指定要将 FlexCache 卷调整到的大小。</block>
   <block id="ee06c3a75d2f90d528d0bdad6ee8b794" category="inline-link-macro">为 FlexCache 卷指定高级选项</block>
-  <block id="bf1a8ac5c931866758030b4588ed85b1" category="paragraph">如果要通过添加新资源来扩展 FlexCache 卷，请单击 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> （高级选项）。请参见 <block ref="ff23e8b352173b9385a50749f03a49b1" category="inline-link-macro-rx"></block>。</block>
   <block id="689dc6ae2f8d54723af8baa6aff39f7d" category="list-text">单击 * 保存 * 以调整 FlexCache 卷的大小。</block>
   <block id="f333ea956e7dd0f94bab655e12f93f2a" category="summary">您可以使用集群对等方窗口管理对等集群关系，从而可以将数据从一个集群移动到另一个集群。</block>
   <block id="6f8e3ea704ee41da48dde563d12477ad" category="doc">集群对等方窗口</block>
@@ -9277,4 +9276,5 @@
   <block id="f807dcc2ee9aff63931a364b0bfb045d" category="list-text">9.11.1P4及更高的9.11版本</block>
   <block id="04faa4f6e99109900566d6589f5adfd3" category="list-text">9.12.1及更高版本</block>
   <block id="3679bf7b8140ea8f4291be1d7fc023bd" category="list-text">Shibboleth</block>
+  <block id="0141b877fcf49f33b47400dd7edb78c1" category="paragraph">如果要通过添加新资源来扩展 FlexCache 卷，请单击 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> （高级选项）。请参见 <block ref="4f3fc931d92f22f55a489e2373f71d6c" category="inline-link-macro-rx"></block>。</block>
 </blocks>
