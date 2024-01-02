@@ -33,7 +33,7 @@ entries:
     url: "/smb-config/task_verifying_smb_client_access.html"
   - title: 配置并验证 CIFS 客户端访问
     url: "/smb-config/task_configuring_verifying_client_access.html"
-- title: 将 CIFS 卷 AD 到启用了 CIFS 的 SVM
+- title: 将 CIFS 卷添加到启用了 CIFS 的 SVM
   url: "/smb-config/concept_adding_protocol_volume_to_protocol_enabled_svm.html"
   entries:
   - title: 创建并配置卷
