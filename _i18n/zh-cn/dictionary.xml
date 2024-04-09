@@ -7948,7 +7948,6 @@
   <block id="36308d81e97ed47d001a9e37fd37634b" category="sidebar">在多路径设备上配置逻辑卷并创建文件系统</block>
   <block id="2e8a972dbf09cb9d9e8634a9ff967882" category="sidebar">打开 SVM 根卷的导出策略（创建启用了 NFS 的新 SVM ）</block>
   <block id="6f001c629b64ce94f74af79735f0c5ad" category="sidebar">创建共享并设置其权限</block>
-  <block id="8cadc76a323c196244af8dd4c3ad5543" category="sidebar">将 CIFS 卷 AD 到启用了 CIFS 的 SVM</block>
   <block id="b0b5fb2ee1318a474b94dc229a9c3ae7" category="sidebar">了解 System Manager</block>
   <block id="dbbfa6ca249fe970fb024077e64d65b5" category="sidebar">使用 ONTAP 系统管理器设置集群</block>
   <block id="e574842f1499540cf5f9506775ce4982" category="sidebar">使用模板文件设置集群</block>
@@ -9236,7 +9235,6 @@
   <block id="b2c6f5e7b85eccc355666a7ce9b42837" category="summary">设置新的SVM涉及创建新的和启用NFS。然后，您可以使用 Virtual Storage Console 在 ESXi 主机上配置 NFS 访问，并验证是否已为 ESXi 启用 NFS 。</block>
   <block id="8a7baa903a5556eb48abcebc91df47d2" category="paragraph">如果您计划在同一SVM上使用其他协议、则应选择这些协议、即使您不想立即配置它们也是如此。</block>
   <block id="2569b2d1e3dcd3875b983af8427bd364" category="paragraph">此时将创建一个启用了NFS的新SVM。</block>
-  <block id="d1b92a4930d50c6ed1038655db0d2684" category="sidebar">所有ONTAP 产品文档</block>
   <block id="fd69c5cf902969e6fb71d043085ddee6" category="paragraph-title">结果</block>
   <block id="f6544266822afc00f9e28a38a852cab9" category="paragraph-title">CIFS协议跟踪结果列表</block>
   <block id="7d5ed3e12000d1e71004e9e21d57eae0" category="paragraph-title">NFS协议跟踪结果列表</block>
@@ -9277,4 +9275,5 @@
   <block id="04faa4f6e99109900566d6589f5adfd3" category="list-text">9.12.1及更高版本</block>
   <block id="3679bf7b8140ea8f4291be1d7fc023bd" category="list-text">Shibboleth</block>
   <block id="0141b877fcf49f33b47400dd7edb78c1" category="paragraph">如果要通过添加新资源来扩展 FlexCache 卷，请单击 <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> （高级选项）。请参见 <block ref="4f3fc931d92f22f55a489e2373f71d6c" category="inline-link-macro-rx"></block>。</block>
+  <block id="5069c081842d21ed175ea7a6154fbacb" category="sidebar">ONTAP 9.7及更早的ONTAP 9版本提供了System Manager经典界面。此站点提供了有关使用System Manager经典版的配置工作流的文档、以及适用于ONTAP 9.6和9.7的System Manager经典联机帮助。</block>
 </blocks>
